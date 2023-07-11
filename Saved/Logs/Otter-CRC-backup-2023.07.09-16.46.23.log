@@ -1,0 +1,102 @@
+﻿Log file open, 07/09/23 09:46:18
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogInit: ExecutableName: CrashReportClient
+LogInit: Build: UE5-CL-0
+LogInit: Engine Version: 5.2.1-0+UE5
+LogInit: Compatible Engine Version: 5.2.0-0+UE5
+LogInit: Net CL: 0
+LogInit: OS: Arch Linux (6.4.2-arch1-1), CPU: AMD Ryzen 7 5800X3D 8-Core Processor, GPU: NVIDIA PCI-id: 10de-2882 (1043-8903) (NVIDIA UNIX Open Kernel Module for x86_64  535.54.03  Release Build  (archlinux-builder@))
+LogInit: Compiled (64-bit): Jul  7 2023 20:42:53
+LogInit: Architecture: x64
+LogInit: Compiled with Clang: 15.0.1 
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: UE5
+LogInit: Command Line:  -Abslog="/home/skump/Documents/Unreal Projects/Otter/Saved/Logs/Otter-CRC.log" "/home/skump/Documents/Unreal Projects/Otter/Saved/Crashes/crashinfo-Otter-pid-24516-985CED94BB554B41AB94E2D812D563C6/"
+LogInit: Base Directory: /home/skump/UnrealEngine/Engine/Binaries/Linux/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2023.07.09-16.46.18:806][  0]LogInit: Unix hardware info:
+[2023.07.09-16.46.18:806][  0]LogInit:  - we are the first instance of this executable
+[2023.07.09-16.46.18:806][  0]LogInit:  - this process' id (pid) is 25171, parent process' id (ppid) is 24516
+[2023.07.09-16.46.18:806][  0]LogInit:  - we are not running under debugger
+[2023.07.09-16.46.18:806][  0]LogInit:  - machine network name is 'skump'
+[2023.07.09-16.46.18:806][  0]LogInit:  - user name is 'skump' (skump)
+[2023.07.09-16.46.18:806][  0]LogInit:  - we're logged in locally
+[2023.07.09-16.46.18:807][  0]LogInit:  - we're running with rendering
+[2023.07.09-16.46.18:807][  0]LogInit:  - CPU: AuthenticAMD 'AMD Ryzen 7 5800X3D 8-Core Processor' (signature: 0xA20F12)
+[2023.07.09-16.46.18:807][  0]LogInit:  - Number of physical cores available for the process: 8
+[2023.07.09-16.46.18:807][  0]LogInit:  - Number of logical cores available for the process: 16
+[2023.07.09-16.46.18:807][  0]LogInit:  - GPU Brand Info: NVIDIA PCI-id: 10de-2882 (1043-8903) (NVIDIA UNIX Open Kernel Module for x86_64  535.54.03  Release Build  (archlinux-builder@))
+[2023.07.09-16.46.18:807][  0]LogInit:  - Memory allocator used: Mimalloc
+[2023.07.09-16.46.18:807][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+[2023.07.09-16.46.18:807][  0]LogInit:  - This is an internal build.
+[2023.07.09-16.46.18:807][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_MONOTONIC will be used.
+[2023.07.09-16.46.18:807][  0]LogInit: Unix-specific commandline switches:
+[2023.07.09-16.46.18:807][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2023.07.09-16.46.18:807][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2023.07.09-16.46.18:807][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2023.07.09-16.46.18:807][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2023.07.09-16.46.18:807][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2023.07.09-16.46.18:807][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2023.07.09-16.46.18:807][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2023.07.09-16.46.18:807][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2023.07.09-16.46.18:807][  0]LogInit:  -crashhandlerstacksize - Allows setting crash handler stack sizes (204800)
+[2023.07.09-16.46.18:807][  0]LogInit:  -noexclusivelockonwrite - disables marking files created by the engine as exclusive locked while the engine has them opened
+[2023.07.09-16.46.18:807][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2023.07.09-16.46.18:807][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2023.07.09-16.46.18:807][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2023.07.09-16.46.18:807][  0]LogInit:  -allowsyscallfilterfile=PATH_TO_FILE - sets up a system call filter allow list. any invalid syscall in this list *will* cause a crash
+[2023.07.09-16.46.18:807][  0]LogInit:  - Physical RAM available (not considering process quota): 32 GB (32005 MB, 32773920 KB, 33560494080 bytes)
+[2023.07.09-16.46.18:807][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2023.07.09-16.46.18:807][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2023.07.09-16.46.18:807][  0]LogInit:  - PageSize 4096
+[2023.07.09-16.46.18:807][  0]LogInit:  - BinnedPageSize 65536
+[2023.07.09-16.46.18:809][  0]LogUObjectArray: 427 objects as part of root set at end of initial load.
+[2023.07.09-16.46.18:809][  0]LogUObjectAllocator: 89672 out of 0 bytes used by permanent object pool.
+[2023.07.09-16.46.18:809][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.07.09-16.46.18:809][  0]LogInit: Using OS detected language (en-US-POSIX).
+[2023.07.09-16.46.18:809][  0]LogInit: Using OS detected locale (en-US-POSIX).
+[2023.07.09-16.46.18:809][  0]LogTextLocalizationManager: No specific localization for 'en-US-POSIX' exists, so 'en' will be used for the language.
+[2023.07.09-16.46.18:827][  0]LogInit: Using OS detected language (en-US-POSIX).
+[2023.07.09-16.46.18:827][  0]LogInit: Using OS detected locale (en-US-POSIX).
+[2023.07.09-16.46.18:827][  0]LogTextLocalizationManager: No localization for 'en-US-POSIX' exists, so 'en' will be used for the language.
+[2023.07.09-16.46.18:827][  0]LogTextLocalizationManager: No localization for 'en-US-POSIX' exists, so 'en' will be used for the locale.
+[2023.07.09-16.46.18:827][  0]LogPackageLocalizationCache: Processed 2 localized package path(s) for 1 prioritized culture(s) in 0.000016 seconds
+[2023.07.09-16.46.18:827][  0]CrashReportCoreLog: CrashReportClientVersion=1.0
+[2023.07.09-16.46.18:827][  0]CrashReportCoreLog: CrashReportReceiver disabled
+[2023.07.09-16.46.18:827][  0]CrashReportCoreLog: DataRouterUrl: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data
+[2023.07.09-16.46.18:828][  0]LogInit: Initializing SDL.
+[2023.07.09-16.46.18:870][  0]LogInit: Initialized SDL 2.24.0 revision:  (compiled against 2.24.0)
+[2023.07.09-16.46.18:870][  0]LogInit: Using SDL video driver 'x11'
+[2023.07.09-16.46.18:871][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2023.07.09-16.46.18:872][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.07.09-16.46.18:872][  0]LogSlate: Using FreeType 2.10.0
+[2023.07.09-16.46.18:872][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.07.09-16.46.18:872][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2023.07.09-16.46.19:040][  0]LogInit: FSlateOpenGLContext::Initialize - creating OpenGL 2.1 context
+[2023.07.09-16.46.19:119][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
+[2023.07.09-16.46.19:119][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
+[2023.07.09-16.46.19:139][  0]LogInit: FSlateOpenGLContext::Initialize - creating OpenGL 2.1 context
+[2023.07.09-16.46.19:143][  0]LogSlate: Took 0.000029 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.07.09-16.46.19:143][  0]LogSlate: Took 0.000023 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.07.09-16.46.19:144][  0]LogSlate: Took 0.000027 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.07.09-16.46.23:316][  0]LogSlate: Request Window 'Otter Crash Reporter' being destroyed
+[2023.07.09-16.46.23:316][  0]LogSlate: Window 'Otter Crash Reporter' being destroyed
+[2023.07.09-16.46.23:319][  0]LogCore: Engine exit requested (reason: OnRequestExit)
+[2023.07.09-16.46.23:320][  0]CrashReportCoreLog: Final state (Receiver) = Ready
+[2023.07.09-16.46.23:320][  0]CrashReportCoreLog: Final state (Receiver) = Unknown UploadState value
+[2023.07.09-16.46.23:323][  0]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.07.09-16.46.23:323][  0]LogCore: Engine exit requested (reason: CrashReportClientApp RequestExit; note: exit was already requested)
+[2023.07.09-16.46.23:323][  0]LogExit: Preparing to exit.
+[2023.07.09-16.46.23:323][  0]LogExit: Object subsystem successfully closed.
+[2023.07.09-16.46.23:323][  0]LogModuleManager: Shutting down and abandoning module ImageWrapper (10)
+[2023.07.09-16.46.23:323][  0]LogModuleManager: Shutting down and abandoning module InputCore (8)
+[2023.07.09-16.46.23:323][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (6)
+[2023.07.09-16.46.23:323][  0]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2023.07.09-16.46.23:323][  0]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2023.07.09-16.46.23:324][  0]LogExit: Exiting.
+[2023.07.09-16.46.23:324][  0]LogInit: Tearing down SDL.
+[2023.07.09-16.46.23:335][  0]Log file closed, 07/09/23 09:46:23

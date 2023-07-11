@@ -1,0 +1,84 @@
+{
+  "IsGameTarget": false,
+  "RootLocalPath": "/home/skump/UnrealEngine",
+  "TargetName": "UnrealLightmass",
+  "ExternalDependenciesFile": "/home/skump/Documents/Unreal Projects/Otter/Intermediate/Build/Linux/UnrealLightmass/Development/UnrealLightmass.deps",
+  "Modules": [
+    {
+      "Name": "CoreUObject",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Runtime/CoreUObject",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealLightmass/Inc/CoreUObject/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject/CoreNetTypes.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject/NoExportTypes.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealLightmass/Inc/CoreUObject/UHT/CoreUObject.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "Serialization",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Runtime/Serialization",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Runtime/Serialization/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealLightmass/Inc/Serialization/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [],
+      "InternalHeaders": [],
+      "PrivateHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Serialization/Private/Tests/StructSerializerTestTypes.h"
+      ],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealLightmass/Inc/Serialization/UHT/Serialization.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "UdpMessaging",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Linux/UnrealLightmass/Inc/UdpMessaging/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "/home/skump/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public/Shared/UdpMessagingSettings.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [
+        "/home/skump/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Private/Tests/UdpMessagingTestTypes.h"
+      ],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Linux/UnrealLightmass/Inc/UdpMessaging/UHT/UdpMessaging.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "SwarmInterface",
+      "ModuleType": "EngineEditor",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Editor/SwarmInterface",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Editor/SwarmInterface/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealLightmass/Inc/SwarmInterface/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [],
+      "InternalHeaders": [],
+      "PrivateHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Editor/SwarmInterface/Private/SwarmMessages.h"
+      ],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealLightmass/Inc/SwarmInterface/UHT/SwarmInterface.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    }
+  ],
+  "UhtPlugins": []
+}

@@ -1,0 +1,1195 @@
+Stats thread started at 0.086011
+ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Linux-0E54980403364D87B03D075925B4D71A
+         Session CrashGUID >====================================================
+Loading IOS ini files took 0.12 seconds
+Loading Mac ini files took 0.12 seconds
+Loading HoloLens ini files took 0.12 seconds
+Loading VulkanPC ini files took 0.14 seconds
+Loading Android ini files took 0.14 seconds
+Loading Unix ini files took 0.15 seconds
+Loading Windows ini files took 0.15 seconds
+Loading TVOS ini files took 0.16 seconds
+Loading Linux ini files took 0.16 seconds
+Loading LinuxArm64 ini files took 0.19 seconds
+Mounting Engine plugin MeshPainting
+Mounting Engine plugin FastBuildController
+Mounting Engine plugin Bridge
+Mounting Engine plugin EnhancedInput
+Found config from plugin[EnhancedInput] Input
+Mounting Engine plugin XGEController
+Mounting Engine plugin TraceUtilities
+Mounting Engine plugin AlembicImporter
+Mounting Engine plugin Niagara
+Mounting Engine plugin AvfMedia
+Mounting Engine plugin InterchangeTests
+Mounting Engine plugin WebMMedia
+Mounting Engine plugin WmfMedia
+Mounting Engine plugin MediaPlayerEditor
+Mounting Engine plugin ImgMedia
+Mounting Engine plugin AndroidMedia
+Mounting Engine plugin MediaCompositing
+Mounting Engine plugin MediaPlate
+Mounting Engine plugin CurveEditorTools
+Mounting Engine plugin GameplayTagsEditor
+Mounting Engine plugin PluginBrowser
+Mounting Engine plugin GLTFImporter
+Mounting Engine plugin BlueprintHeaderView
+Mounting Engine plugin SpeedTreeImporter
+Mounting Engine plugin EngineAssetDefinitions
+Mounting Engine plugin DataValidation
+Mounting Engine plugin AssetManagerEditor
+Mounting Engine plugin ModelingToolsEditorMode
+Mounting Engine plugin ChangelistReview
+Mounting Engine plugin GeometryMode
+Mounting Engine plugin MaterialAnalyzer
+Mounting Engine plugin StylusInput
+Mounting Engine plugin CryptoKeys
+Mounting Engine plugin EditorDebugTools
+Mounting Engine plugin SequencerAnimTools
+Mounting Engine plugin MacGraphicsSwitching
+Mounting Engine plugin AISupport
+Mounting Engine plugin WorldPartitionHLODUtilities
+Mounting Engine plugin FacialAnimation
+Mounting Engine plugin MobileLauncherProfileWizard
+Mounting Engine plugin EditorScriptingUtilities
+Mounting Engine plugin Paper2D
+Mounting Engine plugin UdpMessaging
+Mounting Engine plugin EnvironmentQueryEditor
+Mounting Engine plugin TcpMessaging
+Mounting Engine plugin GLTFExporter
+Mounting Engine plugin DatasmithContent
+Mounting Engine plugin VariantManagerContent
+Mounting Engine plugin VariantManager
+Mounting Engine plugin IKRig
+Mounting Engine plugin AnimationData
+Mounting Engine plugin ControlRig
+Mounting Engine plugin ControlRigSpline
+Mounting Engine plugin AnimationModifierLibrary
+Mounting Engine plugin BlendSpaceMotionAnalysis
+Mounting Engine plugin PropertyAccessEditor
+Mounting Engine plugin AppleImageUtils
+Mounting Engine plugin AndroidPermission
+Mounting Engine plugin AndroidMoviePlayer
+Mounting Engine plugin GeometryProcessing
+Mounting Engine plugin WindowsDeviceProfileSelector
+Mounting Engine plugin ExampleDeviceProfileSelector
+Mounting Engine plugin MobilePatchingUtils
+Mounting Engine plugin IOSDeviceProfileSelector
+Mounting Engine plugin MeshModelingToolset
+Mounting Engine plugin ResonanceAudio
+Mounting Engine plugin SoundFields
+Mounting Engine plugin AudioSynesthesia
+Mounting Engine plugin InputDebugging
+Found config from plugin[InputDebugging] Input
+Mounting Engine plugin AudioWidgets
+Mounting Engine plugin LinuxDeviceProfileSelector
+Mounting Engine plugin AndroidDeviceProfileSelector
+Mounting Engine plugin GeometryCache
+Mounting Engine plugin WindowsMoviePlayer
+Mounting Engine plugin ChunkDownloader
+Mounting Engine plugin ProceduralMeshComponent
+Mounting Engine plugin AndroidFileServer
+Mounting Engine plugin WebMMoviePlayer
+Mounting Engine plugin AssetTags
+Mounting Engine plugin AudioCapture
+Mounting Engine plugin GooglePAD
+Mounting Engine plugin WaveTable
+Mounting Engine plugin CustomMeshComponent
+Mounting Engine plugin AppleMoviePlayer
+Mounting Engine plugin ActorLayerUtilities
+Mounting Engine plugin ArchVisCharacter
+Mounting Engine plugin LocationServicesBPLibrary
+Mounting Engine plugin Metasound
+Mounting Engine plugin Synthesis
+Mounting Engine plugin GoogleCloudMessaging
+Mounting Engine plugin SignificanceManager
+Mounting Engine plugin CableComponent
+Mounting Engine plugin Takes
+Mounting Engine plugin ProxyLODPlugin
+Mounting Engine plugin CharacterAI
+Mounting Engine plugin PlanarCut
+Mounting Engine plugin ChaosCloth
+Mounting Engine plugin MeshModelingToolsetExp
+Mounting Engine plugin MeshLODToolset
+Mounting Engine plugin ChaosCaching
+Mounting Engine plugin AutomationUtils
+Mounting Engine plugin Dataflow
+Mounting Engine plugin PlatformCrypto
+Mounting Engine plugin ChaosClothEditor
+Mounting Engine plugin ChaosUserDataPT
+Mounting Engine plugin GeometryCollectionPlugin
+Mounting Engine plugin ChaosEditor
+Mounting Engine plugin FullBodyIK
+Mounting Engine plugin OpenImageDenoise
+Mounting Engine plugin SkeletalReduction
+Mounting Engine plugin ToolPresets
+Mounting Engine plugin ChaosSolverPlugin
+Mounting Engine plugin UVEditor
+Mounting Engine plugin Fracture
+Mounting Engine plugin PythonScriptPlugin
+Mounting Engine plugin ChaosNiagara
+Mounting Engine plugin BackChannel
+Mounting Engine plugin GeometryFlow
+Mounting Engine plugin Interchange
+Mounting Engine plugin InterchangeEditor
+Mounting Engine plugin CameraShakePreviewer
+Mounting Engine plugin GameplayCameras
+Mounting Engine plugin OnlineSubsystemUtils
+Mounting Engine plugin OnlineBase
+Mounting Engine plugin OodleNetwork
+Mounting Engine plugin OnlineServices
+Mounting Engine plugin OnlineSubsystem
+Mounting Engine plugin OnlineSubsystemNull
+Mounting Engine plugin RiderSourceCodeAccess
+Mounting Engine plugin CLionSourceCodeAccess
+Mounting Engine plugin VisualStudioSourceCodeAccess
+Mounting Engine plugin TextureFormatOodle
+Mounting Engine plugin PluginUtils
+Mounting Engine plugin TraceDataFilters
+Mounting Engine plugin PerforceSourceControl
+Mounting Engine plugin AnimationSharing
+Mounting Engine plugin XCodeSourceCodeAccess
+Mounting Engine plugin CodeLiteSourceCodeAccess
+Mounting Engine plugin RenderDocPlugin
+Mounting Engine plugin PropertyAccessNode
+Mounting Engine plugin NullSourceCodeAccess
+Mounting Engine plugin UObjectPlugin
+Mounting Engine plugin PixWinPlugin
+Mounting Engine plugin PlasticSourceControl
+Mounting Engine plugin KDevelopSourceCodeAccess
+Mounting Engine plugin DumpGPUServices
+Mounting Engine plugin SubversionSourceControl
+Mounting Engine plugin GitSourceControl
+Mounting Engine plugin ActorSequence
+Mounting Engine plugin SequencerScripting
+Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+Mounting Engine plugin LevelSequenceEditor
+Mounting Engine plugin TemplateSequence
+Mounting Engine plugin LauncherChunkInstaller
+Mounting Engine plugin OnlineSubsystemGooglePlay
+Mounting Engine plugin ObjectMixer
+Mounting Engine plugin LightMixer
+Mounting Engine plugin OnlineSubsystemIOS
+Mounting Engine plugin ContentBrowserFileDataSource
+Mounting Engine plugin ContentBrowserAssetDataSource
+Mounting Engine plugin ContentBrowserClassDataSource
+FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+FPackageName: Mount point added: '../../Plugins/TraceUtilities/Content/' mounted to '/TraceUtilities/'
+FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+FPackageName: Mount point added: '../../Plugins/Media/MediaPlate/Content/' mounted to '/MediaPlate/'
+FPackageName: Mount point added: '../../Plugins/Editor/GLTFImporter/Content/' mounted to '/GLTFImporter/'
+FPackageName: Mount point added: '../../Plugins/Editor/BlueprintHeaderView/Content/' mounted to '/BlueprintHeaderView/'
+FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+FPackageName: Mount point added: '../../Plugins/Enterprise/GLTFExporter/Content/' mounted to '/GLTFExporter/'
+FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+FPackageName: Mount point added: '../../Plugins/Runtime/AudioWidgets/Content/' mounted to '/AudioWidgets/'
+FPackageName: Mount point added: '../../Plugins/Runtime/WaveTable/Content/' mounted to '/WaveTable/'
+FPackageName: Mount point added: '../../Plugins/Runtime/Metasound/Content/' mounted to '/Metasound/'
+FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+FPackageName: Mount point added: '../../Plugins/VirtualProduction/Takes/Content/' mounted to '/Takes/'
+FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+FPackageName: Mount point added: '../../Plugins/Experimental/ChaosCaching/Content/' mounted to '/ChaosCaching/'
+FPackageName: Mount point added: '../../Plugins/Experimental/Dataflow/Content/' mounted to '/Dataflow/'
+FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+FPackageName: Mount point added: '../../Plugins/Experimental/UVEditor/Content/' mounted to '/UVEditor/'
+FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+FPackageName: Mount point added: '../../Plugins/Interchange/Runtime/Content/' mounted to '/Interchange/'
+FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/ObjectMixer/Content/' mounted to '/ObjectMixer/'
+FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/LightMixer/Content/' mounted to '/LightMixer/'
+Revision control is disabled
+Revision control is disabled
+Revision control is disabled
+Launching UnrealBuildTool... [/home/skump/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh -Mode=QueryTargets -Project="/home/skump/Documents/Unreal Projects/Otter/Otter.uproject" -Output="/home/skump/Documents/Unreal Projects/Otter/Intermediate/TargetInfo.json" -progress]
+Using libcurl 7.83.1
+ - built for Linux
+ - supports SSL with OpenSSL/1.1.1n
+ - supports HTTP deflate (compression) using libz 1.2.12
+ - other features:
+     CURL_VERSION_SSL
+     CURL_VERSION_LIBZ
+     CURL_VERSION_IPV6
+     CURL_VERSION_ASYNCHDNS
+     CURL_VERSION_LARGEFILE
+ CurlRequestOptions (configurable via config and command line):
+ - bVerifyPeer = true  - Libcurl will verify peer certificate
+ - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+ - bDontReuseConnections = false  - Libcurl will reuse connections
+ - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+ - LocalHostAddr = Default
+ - BufferSize = 65536
+OSS: Created online subsystem instance for: NULL
+OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+ExecutableName: UnrealEditor
+Build: UE5-CL-0
+Engine Version: 5.2.1-0+UE5
+Compatible Engine Version: 5.2.0-0+UE5
+Net CL: 0
+OS: Arch Linux (6.4.2-arch1-1), CPU: AMD Ryzen 7 5800X3D 8-Core Processor, GPU: NVIDIA PCI-id: 10de-2882 (1043-8903) (NVIDIA UNIX Open Kernel Module for x86_64  535.54.03  Release Build  (archlinux-builder@))
+Compiled (64-bit): Jul  7 2023 19:26:13
+Architecture: x64
+Compiled with Clang: 15.0.1 
+Build Configuration: Development
+Branch Name: UE5
+Command Line: 
+Base Directory: /home/skump/UnrealEngine/Engine/Binaries/Linux/
+Allocator: Mimalloc
+Installed Engine Build: 0
+Number of dev versions registered: 35
+  Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+  Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+  Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+  Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+  Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+  Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+  Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+  Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+  Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+  Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+  Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+  Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+  Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+  Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+  Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+  Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+  Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+  Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+  Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+  FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 83
+  FortniteNC (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 10
+  FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 6
+  Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+  Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+  Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+  Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+  Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+  Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+  Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+  UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 104
+  UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 41
+  UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+  UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+  Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+  UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+Object subsystem initialized
+Set CVar [[con.DebugEarlyDefault:1]]
+CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+Set CVar [[r.setres:1280x720]]
+CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy variable created
+CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+Set CVar [[r.VSync:0]]
+Set CVar [[r.RHICmdBypass:0]]
+Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+Set CVar [[r.GPUCrashDebugging:0]]
+CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+Set CVar [[r.ReflectionMethod:1]]
+Set CVar [[r.GenerateMeshDistanceFields:1]]
+Set CVar [[r.DynamicGlobalIlluminationMethod:1]]
+Set CVar [[r.Lumen.TraceMeshSDFs:0]]
+Set CVar [[r.Shadow.Virtual.Enable:1]]
+Set CVar [[r.Mobile.EnableNoPrecomputedLightingCSMShader:1]]
+Set CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+Set CVar [[r.SkinCache.CompileShaders:1]]
+Set CVar [[r.RayTracing:1]]
+Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+Set CVar [[s.EventDrivenLoaderEnabled:1]]
+Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+Set CVar [[s.UseBackgroundLevelStreaming:1]]
+Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+Set CVar [[s.FlushStreamingOnExit:1]]
+CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+Set CVar [[gc.SizeOfPermanentObjectPool:0]]
+Set CVar [[gc.FlushStreamingOnGC:0]]
+Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+Set CVar [[gc.AllowParallelGC:1]]
+Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+Set CVar [[gc.MaxObjectsInEditor:25165824]]
+Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+Set CVar [[gc.CreateGCClusters:1]]
+Set CVar [[gc.MinGCClusterSize:5]]
+Set CVar [[gc.AssetClustreringEnabled:0]]
+Set CVar [[gc.ActorClusteringEnabled:0]]
+Set CVar [[gc.BlueprintClusteringEnabled:0]]
+Set CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+Set CVar [[gc.MultithreadedDestructionEnabled:1]]
+Set CVar [[gc.VerifyGCObjectNames:1]]
+Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+Set CVar [[gc.PendingKillEnabled:1]]
+Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+CVar [[DefaultPVRTCQuality:1]] deferred - dummy variable created
+CVar [[DefaultASTCQualityBySpeed:1]] deferred - dummy variable created
+CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+CVar [[VersionedIntRValues:r.MaterialEditor.LWCTruncateMode]] deferred - dummy variable created
+CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+Initializing SDL.
+Initialized SDL 2.24.0 revision:  (compiled against 2.24.0)
+Using SDL video driver 'x11'
+Display metrics:
+  PrimaryDisplayWidth: 1920
+  PrimaryDisplayHeight: 1080
+  PrimaryDisplayWorkAreaRect:
+    Left=0, Top=32, Right=1920, Bottom=1080
+  VirtualDisplayRect:
+    Left=0, Top=32, Right=1920, Bottom=1080
+  TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+  ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+  Number of monitors: 1
+    Monitor 0
+      Name: 27S2G 27"
+      ID: display0
+      NativeWidth: 1920
+      NativeHeight: 1080
+      bIsPrimary: true
+Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+Set CVar [[r.SkeletalMeshLODBias:0]]
+Set CVar [[r.ViewDistanceScale:1.0]]
+Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+Set CVar [[r.FXAA.Quality:4]]
+Set CVar [[r.TemporalAA.Quality:2]]
+Set CVar [[r.TSR.History.R11G11B10:1]]
+Set CVar [[r.TSR.History.ScreenPercentage:200]]
+Set CVar [[r.TSR.History.UpdateQuality:3]]
+Set CVar [[r.TSR.History.GrandReprojection:0]]
+Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+CVar [[r.TSR.Velocity.Extrapolation:1]] deferred - dummy variable created
+Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+Set CVar [[r.LightFunctionQuality:1]]
+Set CVar [[r.ShadowQuality:5]]
+Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+Set CVar [[r.Shadow.MaxResolution:2048]]
+Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+Set CVar [[r.Shadow.DistanceScale:1.0]]
+Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+Set CVar [[r.DistanceFieldShadowing:1]]
+Set CVar [[r.VolumetricFog:1]]
+Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+Set CVar [[r.LightMaxDrawDistanceScale:1]]
+Set CVar [[r.CapsuleShadows:1]]
+Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+Set CVar [[r.DistanceFieldAO:1]]
+Set CVar [[r.AOQuality:2]]
+Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:300]]
+Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:200]]
+Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+Set CVar [[r.SSR.Quality:3]]
+Set CVar [[r.SSR.HalfResSceneColor:0]]
+Set CVar [[r.Lumen.Reflections.Allow:1]]
+Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+Set CVar [[r.MotionBlurQuality:4]]
+Set CVar [[r.MotionBlur.HalfResGather:0]]
+Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+Set CVar [[r.AmbientOcclusionLevels:-1]]
+Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+Set CVar [[r.DepthOfFieldQuality:2]]
+Set CVar [[r.RenderTargetPoolMin:400]]
+Set CVar [[r.LensFlareQuality:2]]
+Set CVar [[r.SceneColorFringeQuality:1]]
+Set CVar [[r.EyeAdaptationQuality:2]]
+Set CVar [[r.BloomQuality:5]]
+Set CVar [[r.Bloom.ScreenPercentage:70.711]]
+Set CVar [[r.FastBlurThreshold:100]]
+Set CVar [[r.Upscale.Quality:3]]
+Set CVar [[r.Tonemapper.GrainQuantization:1]]
+Set CVar [[r.LightShaftQuality:1]]
+Set CVar [[r.Filter.SizeScale:1]]
+Set CVar [[r.Tonemapper.Quality:5]]
+Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+Set CVar [[r.Streaming.MipBias:0]]
+Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+Set CVar [[r.Streaming.Boost:1]]
+Set CVar [[r.MaxAnisotropy:8]]
+Set CVar [[r.VT.MaxAnisotropy:8]]
+Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+Set CVar [[r.Streaming.PoolSize:1000]]
+Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+Set CVar [[r.RefractionQuality:2]]
+Set CVar [[r.SceneColorFormat:4]]
+Set CVar [[r.DetailMode:2]]
+Set CVar [[r.TranslucencyVolumeBlur:1]]
+Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+Set CVar [[r.SSS.Scale:1]]
+Set CVar [[r.SSS.SampleSet:2]]
+Set CVar [[r.SSS.Quality:1]]
+Set CVar [[r.SSS.HalfRes:0]]
+Set CVar [[r.SSGI.Quality:3]]
+Set CVar [[r.EmitterSpawnRateScale:1.0]]
+Set CVar [[r.ParticleLightQuality:2]]
+Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+Set CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+CVar [[fx.Niagara.QualityLevel:3]] deferred - dummy variable created
+Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+Set CVar [[foliage.DensityScale:1.0]]
+Set CVar [[grass.DensityScale:1.0]]
+Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
+Set CVar [[r.AnisotropicMaterials:1]]
+Selected Device Profile: [LinuxEditor]
+Selected Device Profile: [LinuxEditor]
+Platform has ~ 32 GB [33560494080 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+Going up to parent DeviceProfile [Linux]
+Going up to parent DeviceProfile []
+Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+Set CVar [[r.DumpShaderDebugInfo:2]]
+Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+Applying CVar settings from Section [ConsoleVariables] File [Engine]
+Set CVar [[g.TimeoutForBlockOnRenderFence:60000]]
+Applying CVar settings from Section [ConsoleVariables] File [/home/skump/Documents/Unreal Projects/Otter/Saved/Config/LinuxEditor/Editor.ini]
+Unix hardware info:
+ - we are the first instance of this executable
+ - this process' id (pid) is 22821, parent process' id (ppid) is 3218
+ - we are not running under debugger
+ - machine network name is 'skump'
+ - user name is 'skump' (skump)
+ - we're logged in locally
+ - we're running with rendering
+ - CPU: AuthenticAMD 'AMD Ryzen 7 5800X3D 8-Core Processor' (signature: 0xA20F12)
+ - Number of physical cores available for the process: 8
+ - Number of logical cores available for the process: 16
+ - GPU Brand Info: NVIDIA PCI-id: 10de-2882 (1043-8903) (NVIDIA UNIX Open Kernel Module for x86_64  535.54.03  Release Build  (archlinux-builder@))
+ - Memory allocator used: Mimalloc
+ - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+ - This is an internal build.
+Benchmarking clocks:
+ - CLOCK_MONOTONIC (id=1) can sustain 32892224 (32892K, 33M) calls per second without zero deltas.
+ - CLOCK_MONOTONIC_RAW (id=4) can sustain 32588562 (32589K, 33M) calls per second without zero deltas.
+ - CLOCK_MONOTONIC_COARSE (id=6) can sustain 160590430 (160590K, 161M) calls per second with 99.999807% zero deltas.
+Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+Unix-specific commandline switches:
+ -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+ -jemalloc - use jemalloc for all memory allocation
+ -binnedmalloc - use binned malloc  for all memory allocation
+ -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+ -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+ -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+ -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+ -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+ -crashhandlerstacksize - Allows setting crash handler stack sizes (204800)
+ -noexclusivelockonwrite - disables marking files created by the engine as exclusive locked while the engine has them opened
+ -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+ -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+ -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+ -allowsyscallfilterfile=PATH_TO_FILE - sets up a system call filter allow list. any invalid syscall in this list *will* cause a crash
+ - Physical RAM available (not considering process quota): 32 GB (32005 MB, 32773920 KB, 33560494080 bytes)
+ - VirtualMemoryAllocator pools will grow at scale 1.4
+ - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+ - PageSize 4096
+ - BinnedPageSize 65536
+Metadata set : extradevelopmentmemorymb="0"
+Physics initialised using underlying interface: Chaos
+Using OS detected language (en-US-POSIX).
+Using OS detected locale (en-US-POSIX).
+No specific localization for 'en-US-POSIX' exists, so 'en' will be used for the language.
+New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+Slate User Registered.  User Index 0, Is Virtual User: 0
+Using SDL_WINDOW_VULKAN
+Built with Vulkan header version 1.3.236
+Found 21 available instance extensions :
+  - VK_EXT_acquire_drm_display
+  - VK_EXT_acquire_xlib_display
+  + VK_EXT_debug_report
+  + VK_EXT_debug_utils
+  - VK_EXT_direct_mode_display
+  - VK_EXT_display_surface_counter
+  - VK_KHR_device_group_creation
+  - VK_KHR_display
+  - VK_KHR_external_fence_capabilities
+  + VK_KHR_external_memory_capabilities
+  - VK_KHR_external_semaphore_capabilities
+  - VK_KHR_get_display_properties2
+  + VK_KHR_get_physical_device_properties2
+  - VK_KHR_get_surface_capabilities2
+  - VK_KHR_portability_enumeration
+  + VK_KHR_surface
+  - VK_KHR_surface_protected_capabilities
+  - VK_KHR_wayland_surface
+  - VK_KHR_xcb_surface
+  + VK_KHR_xlib_surface
+  - VK_LUNARG_direct_driver_loading
+Found 1 available instance layers :
+  * VK_LAYER_NV_optimus
+Found 1 device(s)
+Device 0:
+- DeviceName: NVIDIA GeForce RTX 4060
+- API=1.3.242 (0x4030f2) Driver=0x85cd80c0 VendorId=0x10de
+- DeviceID=0x2882 Type=VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU
+- Max Descriptor Sets Bound 32, Timestamps 1
+Chosen device index: 0
+     API Version: 1.3.242
+RHI Adapter Info:
+            Name: NVIDIA GeForce RTX 4060
+  Driver Version: 535.54 (internal:535.54, unified:)
+     Driver Date: 01-01-01
+Found 187 available device extensions :
+  + VK_AMD_buffer_marker
+  - VK_EXT_4444_formats
+  - VK_EXT_attachment_feedback_loop_layout
+  - VK_EXT_blend_operation_advanced
+  - VK_EXT_border_color_swizzle
+  - VK_EXT_buffer_device_address
+  + VK_EXT_calibrated_timestamps
+  - VK_EXT_color_write_enable
+  - VK_EXT_conditional_rendering
+  - VK_EXT_conservative_rasterization
+  - VK_EXT_custom_border_color
+  - VK_EXT_depth_clamp_zero_one
+  - VK_EXT_depth_clip_control
+  - VK_EXT_depth_clip_enable
+  - VK_EXT_depth_range_unrestricted
+  + VK_EXT_descriptor_buffer
+  + VK_EXT_descriptor_indexing
+  - VK_EXT_discard_rectangles
+  - VK_EXT_display_control
+  - VK_EXT_extended_dynamic_state
+  - VK_EXT_extended_dynamic_state2
+  - VK_EXT_extended_dynamic_state3
+  - VK_EXT_external_memory_host
+  - VK_EXT_fragment_shader_interlock
+  - VK_EXT_global_priority
+  - VK_EXT_global_priority_query
+  - VK_EXT_graphics_pipeline_library
+  + VK_EXT_host_query_reset
+  - VK_EXT_image_2d_view_of_3d
+  - VK_EXT_image_drm_format_modifier
+  - VK_EXT_image_robustness
+  - VK_EXT_image_sliced_view_of_3d
+  - VK_EXT_image_view_min_lod
+  - VK_EXT_index_type_uint8
+  - VK_EXT_inline_uniform_block
+  - VK_EXT_line_rasterization
+  - VK_EXT_load_store_op_none
+  + VK_EXT_memory_budget
+  + VK_EXT_memory_priority
+  - VK_EXT_mesh_shader
+  - VK_EXT_multi_draw
+  - VK_EXT_mutable_descriptor_type
+  - VK_EXT_non_seamless_cube_map
+  - VK_EXT_opacity_micromap
+  - VK_EXT_pageable_device_local_memory
+  - VK_EXT_pci_bus_info
+  - VK_EXT_physical_device_drm
+  - VK_EXT_pipeline_creation_cache_control
+  - VK_EXT_pipeline_creation_feedback
+  - VK_EXT_pipeline_library_group_handles
+  - VK_EXT_pipeline_robustness
+  - VK_EXT_post_depth_coverage
+  - VK_EXT_primitive_topology_list_restart
+  - VK_EXT_primitives_generated_query
+  - VK_EXT_private_data
+  - VK_EXT_provoking_vertex
+  - VK_EXT_queue_family_foreign
+  - VK_EXT_robustness2
+  - VK_EXT_sample_locations
+  - VK_EXT_sampler_filter_minmax
+  + VK_EXT_scalar_block_layout
+  - VK_EXT_separate_stencil_usage
+  - VK_EXT_shader_atomic_float
+  - VK_EXT_shader_demote_to_helper_invocation
+  + VK_EXT_shader_image_atomic_int64
+  - VK_EXT_shader_module_identifier
+  - VK_EXT_shader_object
+  - VK_EXT_shader_subgroup_ballot
+  - VK_EXT_shader_subgroup_vote
+  + VK_EXT_shader_viewport_index_layer
+  + VK_EXT_subgroup_size_control
+  - VK_EXT_texel_buffer_alignment
+  - VK_EXT_tooling_info
+  - VK_EXT_transform_feedback
+  - VK_EXT_vertex_attribute_divisor
+  - VK_EXT_vertex_input_dynamic_state
+  - VK_EXT_ycbcr_2plane_444_formats
+  - VK_EXT_ycbcr_image_arrays
+  - VK_KHR_16bit_storage
+  - VK_KHR_8bit_storage
+  + VK_KHR_acceleration_structure
+  + VK_KHR_bind_memory2
+  + VK_KHR_buffer_device_address
+  - VK_KHR_copy_commands2
+  + VK_KHR_create_renderpass2
+  + VK_KHR_dedicated_allocation
+  + VK_KHR_deferred_host_operations
+  - VK_KHR_depth_stencil_resolve
+  - VK_KHR_descriptor_update_template
+  - VK_KHR_device_group
+  - VK_KHR_draw_indirect_count
+  + VK_KHR_driver_properties
+  - VK_KHR_dynamic_rendering
+  - VK_KHR_external_fence
+  - VK_KHR_external_fence_fd
+  + VK_KHR_external_memory
+  + VK_KHR_external_memory_fd
+  - VK_KHR_external_semaphore
+  - VK_KHR_external_semaphore_fd
+  - VK_KHR_format_feature_flags2
+  - VK_KHR_fragment_shader_barycentric
+  + VK_KHR_fragment_shading_rate
+  + VK_KHR_get_memory_requirements2
+  - VK_KHR_global_priority
+  + VK_KHR_image_format_list
+  - VK_KHR_imageless_framebuffer
+  + VK_KHR_maintenance1
+  + VK_KHR_maintenance2
+  - VK_KHR_maintenance3
+  + VK_KHR_maintenance4
+  + VK_KHR_multiview
+  - VK_KHR_pipeline_executable_properties
+  - VK_KHR_pipeline_library
+  - VK_KHR_present_id
+  - VK_KHR_present_wait
+  - VK_KHR_push_descriptor
+  + VK_KHR_ray_query
+  - VK_KHR_ray_tracing_maintenance1
+  + VK_KHR_ray_tracing_pipeline
+  - VK_KHR_relaxed_block_layout
+  - VK_KHR_sampler_mirror_clamp_to_edge
+  - VK_KHR_sampler_ycbcr_conversion
+  + VK_KHR_separate_depth_stencil_layouts
+  + VK_KHR_shader_atomic_int64
+  - VK_KHR_shader_clock
+  - VK_KHR_shader_draw_parameters
+  - VK_KHR_shader_float16_int8
+  + VK_KHR_shader_float_controls
+  - VK_KHR_shader_integer_dot_product
+  - VK_KHR_shader_non_semantic_info
+  - VK_KHR_shader_subgroup_extended_types
+  - VK_KHR_shader_subgroup_uniform_control_flow
+  - VK_KHR_shader_terminate_invocation
+  - VK_KHR_shared_presentable_image
+  + VK_KHR_spirv_1_4
+  - VK_KHR_storage_buffer_storage_class
+  + VK_KHR_swapchain
+  - VK_KHR_swapchain_mutable_format
+  + VK_KHR_synchronization2
+  - VK_KHR_timeline_semaphore
+  - VK_KHR_uniform_buffer_standard_layout
+  - VK_KHR_variable_pointers
+  - VK_KHR_video_decode_h264
+  - VK_KHR_video_decode_h265
+  - VK_KHR_video_decode_queue
+  - VK_KHR_video_queue
+  - VK_KHR_vulkan_memory_model
+  - VK_KHR_workgroup_memory_explicit_layout
+  - VK_KHR_zero_initialize_workgroup_memory
+  - VK_NVX_binary_import
+  - VK_NVX_image_view_handle
+  - VK_NVX_multiview_per_view_attributes
+  - VK_NV_clip_space_w_scaling
+  - VK_NV_compute_shader_derivatives
+  - VK_NV_cooperative_matrix
+  - VK_NV_copy_memory_indirect
+  - VK_NV_corner_sampled_image
+  - VK_NV_coverage_reduction_mode
+  - VK_NV_cuda_kernel_launch
+  - VK_NV_dedicated_allocation
+  - VK_NV_dedicated_allocation_image_aliasing
+  + VK_NV_device_diagnostic_checkpoints
+  + VK_NV_device_diagnostics_config
+  - VK_NV_device_generated_commands
+  - VK_NV_fill_rectangle
+  - VK_NV_fragment_coverage_to_color
+  - VK_NV_fragment_shader_barycentric
+  - VK_NV_fragment_shading_rate_enums
+  - VK_NV_framebuffer_mixed_samples
+  - VK_NV_geometry_shader_passthrough
+  - VK_NV_inherited_viewport_scissor
+  - VK_NV_linear_color_attachment
+  - VK_NV_memory_decompression
+  - VK_NV_mesh_shader
+  - VK_NV_optical_flow
+  - VK_NV_ray_tracing
+  - VK_NV_ray_tracing_invocation_reorder
+  - VK_NV_ray_tracing_motion_blur
+  - VK_NV_representative_fragment_test
+  - VK_NV_sample_mask_override_coverage
+  - VK_NV_scissor_exclusive
+  - VK_NV_shader_image_footprint
+  - VK_NV_shader_sm_builtins
+  - VK_NV_shader_subgroup_partitioned
+  - VK_NV_shading_rate_image
+  - VK_NV_viewport_array2
+  - VK_NV_viewport_swizzle
+Found 0 available device layers !
+Vulkan Physical Device Driver Properties:
+- driverName: NVIDIA
+- driverInfo: 535.54.03
+Device properties: Geometry 1 BufferAtomic64 1 ImageAtomic64 1
+Enabling Vulkan Descriptor Buffers with: allowSamplerImageViewPostSubmitCreation=0, maxDescriptorBufferBindings=32, maxSamplerDescriptorBufferBindings=32, maxResourceDescriptorBufferBindings=32, samplerDescriptorBufferAddressSpaceSize=1099511627775, resourceDescriptorBufferAddressSpaceSize=1099511627775, maxSamplerDescriptorBufferRange=1099511627775, maxResourceDescriptorBufferRange=1099511627775, descriptorBufferAddressSpaceSize=1099511627775, descriptorBufferOffsetAlignment=64, samplerDescriptorSize=4
+Found 5 Queue Families
+Initializing Queue Family 0: 16 queues Gfx Compute Xfer Sparse
+Initializing Queue Family 1: 2 queues Xfer Sparse
+Skipping unnecessary Queue Family 2: 8 queues Compute Xfer Sparse
+Skipping unnecessary Queue Family 3: 1 queues Xfer Sparse
+Skipping unnecessary Queue Family 4: 1 queues Xfer Sparse
+Using 0 device layers.
+Using 31 device extensions:
+* VK_KHR_swapchain
+* VK_KHR_maintenance1
+* VK_KHR_maintenance2
+* VK_EXT_memory_budget
+* VK_EXT_memory_priority
+* VK_KHR_create_renderpass2
+* VK_KHR_dedicated_allocation
+* VK_KHR_deferred_host_operations
+* VK_KHR_spirv_1_4
+* VK_KHR_shader_float_controls
+* VK_KHR_image_format_list
+* VK_KHR_bind_memory2
+* VK_KHR_driver_properties
+* VK_KHR_maintenance4
+* VK_KHR_shader_atomic_int64
+* VK_EXT_shader_image_atomic_int64
+* VK_EXT_scalar_block_layout
+* VK_EXT_shader_viewport_index_layer
+* VK_KHR_separate_depth_stencil_layouts
+* VK_KHR_synchronization2
+* VK_KHR_fragment_shading_rate
+* VK_KHR_get_memory_requirements2
+* VK_EXT_descriptor_indexing
+* VK_EXT_host_query_reset
+* VK_EXT_subgroup_size_control
+* VK_EXT_calibrated_timestamps
+* VK_EXT_descriptor_buffer
+* VK_KHR_buffer_device_address
+* VK_KHR_acceleration_structure
+* VK_KHR_ray_tracing_pipeline
+* VK_KHR_ray_query
+Max memory allocations 4294967295.
+3 Device Memory Heaps:
+  0: Flags 0x1 - Size 8585740288 (8188.00 MB) - Used 0 (0.00%) - DeviceLocal - PrimaryHeap
+  1: Flags 0x0 - Size 25170370560 (24004.34 MB) - Used 0 (0.00%)
+  2: Flags 0x1 - Size 257949696 (246.00 MB) - Used 0 (0.00%) - DeviceLocal
+5 Device Memory Types (Not unified):
+  1: Flags 0x00001 - Heap  0 - VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT
+  0: Flags 0x00000 - Heap  1 - 
+  2: Flags 0x00006 - Heap  1 - VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT
+  3: Flags 0x0000e - Heap  1 - VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT|VK_MEMORY_PROPERTY_HOST_CACHED_BIT
+  4: Flags 0x00007 - Heap  2 - VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT|VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT|VK_MEMORY_PROPERTY_HOST_COHERENT_BIT
+Memory Budget Extension:
+	         | Usage                     | Budget          | Size            |
+	---------|------------------------------------------------------------------|
+	 HEAP 00 |   0.22% /         17.94 MB |       7241.25 MB |       8188.00 MB |
+	 HEAP 01 |   0.17% /         41.31 MB |      24004.34 MB |      24004.34 MB |
+	 HEAP 02 |  12.55% /         30.88 MB |        215.12 MB |        246.00 MB |
+	---------|------------------------------------------------------------------|
+FVulkanPipelineStateCacheManager: Binary pipeline cache '../../../../Documents/Unreal Projects/Otter/Saved/VulkanPSO.cache.10de.2882' not found.
+Wave Operations have been ENABLED (wave size: min=32 max=32).
+Texture pool is 5903 MB (70% of 8434 MB)
+Running Turnkey SDK detection: ' -ScriptsForProject="/home/skump/Documents/Unreal Projects/Otter/Otter.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="/home/skump/Documents/Unreal Projects/Otter/Intermediate/TurnkeyReport_0.log" -log="/home/skump/Documents/Unreal Projects/Otter/Intermediate/TurnkeyLog_0.log" -project="/home/skump/Documents/Unreal Projects/Otter/Otter.uproject"  -platform=all'
+Running Serialized UAT: [ /usr/bin/env  -- "/home/skump/UnrealEngine/Engine/Build/BatchFiles/RunUAT.sh"  -ScriptsForProject="/home/skump/Documents/Unreal Projects/Otter/Otter.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="/home/skump/Documents/Unreal Projects/Otter/Intermediate/TurnkeyReport_0.log" -log="/home/skump/Documents/Unreal Projects/Otter/Intermediate/TurnkeyLog_0.log" -project="/home/skump/Documents/Unreal Projects/Otter/Otter.uproject"  -platform=all ]
+Loaded Base TextureFormat: TextureFormatASTC
+Loaded Base TextureFormat: TextureFormatDXT
+Loaded Base TextureFormat: TextureFormatETC2
+Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+Loaded Base TextureFormat: TextureFormatUncompressed
+Oodle Texture TFO init; latest sdk version = 2.9.8
+Oodle Texture loading DLL: liboo2texlinux64.2.9.5.so
+Oodle Texture loading DLL: liboo2texlinux64.2.9.6.so
+Oodle Texture loading DLL: liboo2texlinux64.2.9.7.so
+Oodle Texture loading DLL: liboo2texlinux64.2.9.8.so
+Loaded Base TextureFormat: TextureFormatOodle
+Loaded TargetPlatform 'Linux'
+Loaded TargetPlatform 'LinuxEditor'
+Loaded TargetPlatform 'LinuxServer'
+Loaded TargetPlatform 'LinuxClient'
+Loaded TargetPlatform 'LinuxArm64'
+Loaded TargetPlatform 'LinuxArm64Server'
+Loaded TargetPlatform 'LinuxArm64Client'
+Loaded TargetPlatform 'Android'
+Loaded TargetPlatform 'Android_ASTC'
+Loaded TargetPlatform 'Android_DXT'
+Loaded TargetPlatform 'Android_ETC2'
+Loaded TargetPlatform 'AndroidClient'
+Loaded TargetPlatform 'Android_ASTCClient'
+Loaded TargetPlatform 'Android_DXTClient'
+Loaded TargetPlatform 'Android_ETC2Client'
+Loaded TargetPlatform 'Android_Multi'
+Loaded TargetPlatform 'Android_MultiClient'
+Building Assets For LinuxEditor
+Unable to find audio format BINKA from hinted modules, loading all potential format modules to find it
+Loaded format module AudioFormatADPCM
+  ADPCM
+  PCM
+Loaded format module AudioFormatBink
+  BINKA
+Loaded format module AudioFormatOgg
+  OGG
+Loaded format module AudioFormatOpus
+  OPUS
+Unable to find shader format SF_VULKAN_SM5 from hinted modules, loading all potential format modules to find it
+Loaded format module ShaderFormatOpenGL
+  GLSL_150_ES31
+  GLSL_ES3_1_ANDROID
+Loaded format module ShaderFormatVectorVM
+  VVM_1_0
+Loaded format module VulkanShaderFormat
+  SF_VULKAN_SM5
+  SF_VULKAN_ES31_ANDROID
+  SF_VULKAN_ES31
+  SF_VULKAN_SM5_ANDROID
+Ray tracing is enabled for the editor. Reason: r.RayTracing=1 and r.RayTracing.EnableInEditor=1.
+FDerivedDataBackendGraph: Pak pak cache file ../../../../Documents/Unreal Projects/Otter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+Unable to find inner node Pak for hierarchy Root.
+FDerivedDataBackendGraph: EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+Unable to find inner node EnginePak for hierarchy Root.
+Speed tests for ../../../Engine/DerivedDataCache took 0.00 seconds
+Performance to ../../../Engine/DerivedDataCache: Latency=0.00ms. RandomReadSpeed=5431.21MBs, RandomWriteSpeed=247.58MBs. Assigned SpeedClass 'Local'
+Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+Shared data cache path not found in *engine.ini, will not use an Shared cache.
+Unable to find inner node Shared for hierarchy Root.
+Cloud: Disabled because Host is set to 'None'
+Unable to find inner node Cloud for hierarchy Root.
+VirtualizationSystem name found in ini file: None
+FNullVirtualizationSystem mounted, virtualization will be disabled
+Guid format shader working directory is 14 characters bigger than the processId version (../../../../Documents/Unreal Projects/Otter/Intermediate/Shaders/WorkingDirectory/22821/).
+Cleaned the shader compiler working directory '../../../../Documents/Unreal Projects/Otter/Intermediate/Shaders/tmp/9CAB6B1B934645AD9786CA02967ED3B8/'.
+Using Local Shader Compiler with 8 workers.
+Compiling shader autogen file: ../../../../Documents/Unreal Projects/Otter/Intermediate/ShaderAutogen/VULKAN_SM5/AutogenShaderHeaders.ush
+Autogen file is unchanged, skipping write.
+Using FreeType 2.10.0
+SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+FAssetRegistry took 0.0009 seconds to start up
+EditorDomain is Disabled
+Texture Encode Speed: FinalIfAvailable (editor).
+Selected Device Profile: [LinuxEditor]
+Available device profiles:
+	[0x87841de9c00][0x87839c11800 52] GlobalDefaults, 
+	[0x87841de9200][0x8783b4f0000 52] Windows, 
+	[0x87841dea000][0x8783b4f2800 52] WindowsEditor, 
+	[0x87841dea200][0x8783b4fa000 52] WindowsServer, 
+	[0x87841dea400][0x87834da0000 52] WindowsClient, 
+	[0x87841dea600][0x878399fc800 52] IOS, 
+	[0x87841dea800][0x8783939c800 52] iPadAir2, 
+	[0x87841deaa00][0x878191ca000 52] IPadPro, 
+	[0x87841deac00][0x878427f0000 52] iPadAir3, 
+	[0x87841deae00][0x878427f2800 52] iPadAir4, 
+	[0x87841deb000][0x878427f5000 52] iPadAir5, 
+	[0x87841deb200][0x878427f7800 52] iPadMini4, 
+	[0x87841deb400][0x878427fa000 52] iPadMini5, 
+	[0x87841deb600][0x878427fc800 52] iPadMini6, 
+	[0x87841deb800][0x878423f0000 52] iPhone6S, 
+	[0x87841deba00][0x878423f2800 52] iPhone7, 
+	[0x87841debc00][0x878423f5000 52] iPodTouch7, 
+	[0x87841debe00][0x878423f7800 52] iPhone6SPlus, 
+	[0x87841dec000][0x878423fa000 52] iPhone7Plus, 
+	[0x87841dec200][0x878423fc800 52] iPhoneSE, 
+	[0x87841dec400][0x87842400000 52] iPhone8, 
+	[0x87841dec600][0x87842402800 52] iPhone8Plus, 
+	[0x87841dec800][0x87842405000 52] iPhoneX, 
+	[0x87841deca00][0x87842407800 52] iPhoneXS, 
+	[0x87841decc00][0x8784240a000 52] iPhoneXSMax, 
+	[0x87841dece00][0x8784240c800 52] iPhoneXR, 
+	[0x87841ded000][0x87842410000 52] iPhone11, 
+	[0x87841ded200][0x87842412800 52] iPhone11Pro, 
+	[0x87841ded400][0x87842415000 52] iPhone11ProMax, 
+	[0x87841ded600][0x87842417800 52] iPhoneSE2, 
+	[0x87841ded800][0x8784241a000 52] iPhone12Mini, 
+	[0x87841deda00][0x8784241c800 52] iPhone12, 
+	[0x87841dedc00][0x87842420000 52] iPhone12Pro, 
+	[0x87841dede00][0x87842422800 52] iPhone12ProMax, 
+	[0x87841dee000][0x87842425000 52] iPhone13Mini, 
+	[0x87841dee200][0x87842427800 52] iPhone13, 
+	[0x87841dee400][0x8784242a000 52] iPhone13Pro, 
+	[0x87841dee600][0x8784242c800 52] iPhone13ProMax, 
+	[0x87841dee800][0x87842430000 52] iPhoneSE3, 
+	[0x87841deea00][0x87842432800 52] iPhone14, 
+	[0x87841deec00][0x87842435000 52] iPhone14Plus, 
+	[0x87841deee00][0x87842437800 52] iPhone14Pro, 
+	[0x87841def000][0x8784243a000 52] iPhone14ProMax, 
+	[0x87841def200][0x8784243c800 52] iPadPro105, 
+	[0x87841def400][0x87842440000 52] iPadPro129, 
+	[0x87841def600][0x87842442800 52] iPadPro97, 
+	[0x87841def800][0x87842445000 52] iPadPro2_129, 
+	[0x87841defa00][0x87842447800 52] iPad5, 
+	[0x87841defc00][0x8784244a000 52] iPad6, 
+	[0x87841defe00][0x8784244c800 52] iPad7, 
+	[0x8783e729200][0x87842450000 52] iPad8, 
+	[0x878414ee400][0x87842452800 52] iPad9, 
+	[0x8783a613000][0x87842455000 52] iPad10, 
+	[0x87834cb3c00][0x87842457800 52] iPadPro11, 
+	[0x87842460000][0x8784245a000 52] iPadPro2_11, 
+	[0x87842460200][0x8784245c800 52] iPadPro3_11, 
+	[0x87842460400][0x87842470000 52] iPadPro4_11, 
+	[0x87842460600][0x87842472800 52] iPadPro3_129, 
+	[0x87842460800][0x87842475000 52] iPadPro4_129, 
+	[0x87842460a00][0x87842477800 52] iPadPro5_129, 
+	[0x87842460c00][0x8784247a000 52] iPadPro6_129, 
+	[0x87842460e00][0x8784247c800 52] AppleTV, 
+	[0x87842461000][0x87842480000 52] AppleTV4K, 
+	[0x87842461200][0x87842482800 52] AppleTV2_4K, 
+	[0x87842461400][0x87842485000 52] TVOS, 
+	[0x87842461600][0x87842487800 52] Mac, 
+	[0x87842461800][0x8784248a000 52] MacEditor, 
+	[0x87842461a00][0x8784248c800 52] MacClient, 
+	[0x87842461c00][0x87842490000 52] MacServer, 
+	[0x87842461e00][0x87842492800 52] Linux, 
+	[0x87842462000][0x87842495000 52] LinuxEditor, 
+	[0x87842462200][0x87842497800 52] LinuxArm64Editor, 
+	[0x87842462400][0x8784249a000 52] LinuxArm64, 
+	[0x87842462600][0x8784249c800 52] LinuxClient, 
+	[0x87842462800][0x878424a0000 52] LinuxArm64Client, 
+	[0x87842462a00][0x878424a2800 52] LinuxServer, 
+	[0x87842462c00][0x878424a5000 52] LinuxArm64Server, 
+	[0x87842462e00][0x878424a7800 52] Android, 
+	[0x87842463000][0x878424aa000 52] Android_Preview_OpenGL, 
+	[0x87842463200][0x878424ac800 52] Android_Preview_Vulkan, 
+	[0x87842463400][0x878424b0000 52] Android_Low, 
+	[0x87842463600][0x878424b2800 52] Android_Mid, 
+	[0x87842463800][0x878424b5000 52] Android_High, 
+	[0x87842463a00][0x878424b7800 52] Android_Default, 
+	[0x87842463c00][0x878424ba000 52] Android_Adreno4xx, 
+	[0x87842463e00][0x878424bc800 52] Android_Adreno5xx_Low, 
+	[0x87842464000][0x878424c0000 52] Android_Adreno5xx, 
+	[0x87842464200][0x878424c2800 52] Android_Adreno6xx, 
+	[0x87842464400][0x878424c5000 52] Android_Adreno6xx_Vulkan, 
+	[0x87842464600][0x878424c7800 52] Android_Adreno7xx, 
+	[0x87842464800][0x878424ca000 52] Android_Adreno7xx_Vulkan, 
+	[0x87842464a00][0x878424cc800 52] Android_Mali_T6xx, 
+	[0x87842464c00][0x878411d0000 52] Android_Mali_T7xx, 
+	[0x87842464e00][0x878411d2800 52] Android_Mali_T8xx, 
+	[0x87842465000][0x878411d5000 52] Android_Mali_G71, 
+	[0x87842465200][0x878411d7800 52] Android_Mali_G72, 
+	[0x87842465400][0x878411da000 52] Android_Mali_G72_Vulkan, 
+	[0x87842465600][0x878411dc800 52] Android_Mali_G76, 
+	[0x87842465800][0x878411e0000 52] Android_Mali_G76_Vulkan, 
+	[0x87842465a00][0x878411e2800 52] Android_Mali_G77, 
+	[0x87842465c00][0x878411e5000 52] Android_Mali_G77_Vulkan, 
+	[0x87842465e00][0x878411e7800 52] Android_Mali_G78, 
+	[0x87842466000][0x878411ea000 52] Android_Mali_G78_Vulkan, 
+	[0x87842466200][0x878411ec800 52] Android_Mali_G710, 
+	[0x87842466400][0x878411f0000 52] Android_Mali_G710_Vulkan, 
+	[0x87842466600][0x878411f2800 52] Android_Mali_G7xx, 
+	[0x87842466800][0x878411f5000 52] Android_Mali_G7xx_Vulkan, 
+	[0x87842466a00][0x878411f7800 52] Android_Xclipse_920, 
+	[0x87842466c00][0x878411fa000 52] Android_Xclipse_920_Vulkan, 
+	[0x87842466e00][0x878411fc800 52] Android_Vulkan_SM5, 
+	[0x87842467000][0x87841200000 52] Android_PowerVR_G6xxx, 
+	[0x87842467400][0x87841202800 52] Android_PowerVR_GT7xxx, 
+	[0x87842467600][0x87841205000 52] Android_PowerVR_GE8xxx, 
+	[0x87842467a00][0x87841207800 52] Android_PowerVR_GM9xxx, 
+	[0x87842467c00][0x8784120a000 52] Android_PowerVR_GM9xxx_Vulkan, 
+	[0x87842467e00][0x8784120c800 52] Android_TegraK1, 
+	[0x87842468000][0x87842530000 52] Android_Unknown_Vulkan, 
+	[0x87842468200][0x87842532800 52] Oculus_Quest, 
+	[0x87842468400][0x87842535000 52] Oculus_Quest2, 
+	[0x87842468600][0x87842537800 52] HoloLens, 
+Active device profile: [0x87842462000][0x87842495000 52] LinuxEditor
+Metadata set : deviceprofile="LinuxEditor"
+Compiling shader autogen file: ../../../../Documents/Unreal Projects/Otter/Intermediate/ShaderAutogen/VULKAN_PCES3_1/AutogenShaderHeaders.ush
+Autogen file is unchanged, skipping write.
+Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+WorldGridMaterial-SM5-Default: MATSM_D2BE6101BBDD464FA4DA4FFD062CBE0E_SF_VULKAN_SM5_-1970276279__BC5N_NoCCBN_NoIris_DEV_SL_LWC2_GV_PreExp_DBuf_DXC1_VFO_SKYATM_SKYHF_SLWSMDLT_gs1_sdct_VT-0-0-1-0_DF_VED_Aniso-1_ComprOodle_Compr2_Lev6_ExclNonPipSh-1_LWC-2097152_2462996503DB6FCC63A5C44EA751315CBC3EF5DDED_Num_SM5_FL_00000009_MFA_ffffffff_V_B6A0A753ED62499D8F30931E61FCAB05_0_DB3E993F4E2E98B305AD13B92D8C5DA5_62D973BDAB765EDE016625C5C0BF9591CD7A109D___TShadowDepthPSPixelShadowDepth_PerspectiveCorrect0_0_0F4266A27B4B26D9CDEAD14C7B6C0BF4FAFBFBE4F72C96EE55043153763054472F92891367BC849EC_FLumenCardPS<false>0_0_030B7533CB2C811A319D0408272DC237D2E67F96BB4AFBC835B0E8511B596BB98C6C375E96F613E4D_TShadowDepthPSPixelShadowDepth_NonPerspectiveCorrect0_0_0F4266A27B4B26D9CDEAD14C7B6C0BF4FAFBFBE4F5D9003A07122BE7BD2876C98DF8D858F5E00365D_TShadowDepthVSVertexShadowDepth_OutputDepthPositionOnly0_0_09C4EC6A23F9D6BE2305521298ED32C5A39B2FD69C1EE64CCCFF22165F0FEB44F81DFF9F15410B536_FMicropolyRasterizeCS0_0_084D2E2E150D1C73535A58B13A6332F9451F7F3A538D66192BF0D34515EC5AD2CDACFA24FFB6B4CAC_TLightMapDensityPSTLightMapPolicyHQ0_0_0CDABC5DE2EF7D5ABC1173E51116D07F87D3CA8AE366FA195F992D4C9F1C8D87ADB8E622FC63E6C00_FRayTracingDynamicGeometryConverterCS0_0_050B73BA3AAD122D3C8A3BE0C7D13AC1558CFDCC4DF7B79B24EA38C07750445AC7560C5169ECA2BA2_TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight0_0_011B0F33C3DD73A8BDDEDEBC0BF390D24EE78DE6B1211E772D5CED9B1A8690D54637CA6181DF9BFA6_TBasePassPSTLightMapPolicyLQSkylight0_0_011B0F33C3DD73A8BDDEDEBC0BF390D24EE78DE6B44E24A46375E1F63F143E089773A451DE9BCB1BD_FLandscapeGrassWeightVS0_0_0717E277CFEB4E8A7B6600B3F12CF0F445FF1679DA09171F2137DC0EBCF9A57112A0246F9D8582D14_TLightMapDensityVSFNoLightMapPolicy0_0_0CDABC5DE2EF7D5ABC1173E51116D07F87D3CA8AE36EBB223749358BDC26DFEB4846F6E009A8FE271_TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ0_0_011B0F33C3DD73A8BDDEDEBC0BF390D24EE78DE6B77CCB8034D719245FF4D3D5DDAF516D06D047063_FHWRasterizeVS0_0_084D2E2E150D1C73535A58B13A6332F9451F7F3A548C83E6C6E5EB20B8752F7226BE8C1194A6F8F77_FHitProxyVS0_0_018C0EF210EDC374B03D519BC392E41F7E2D553351166C879EE202314C72CE738198B1C8D532A998D_FHitProxyPS0_0_089D2F61F434B1173AFC8625B607D319B0BD4353C63FDA81FEDB3D430D1FC9C6BDEC12E0F2A18CF9A_FLandscapeGrassWeightPS0_0_0717E277CFEB4E8A7B6600B3F12CF0F445FF1679D653D2AB9F0D52034DD6D144D58A153DA3599463A_TBasePassPSFNoLightMapPolicy0_0_011B0F33C3DD73A8BDDEDEBC0BF390D24EE78DE6BC2155A1C089CAA11F1675F0A774BE7C4D8D03DD0_FHWRasterizePS0_0_084D2E2E150D1C73535A58B13A6332F9451F7F3A548C028453BCF70A104115FCB364BA6A5C3C4AAA0_TShadowDepthVSVertexShadowDepth_OutputDepth0_0_09C4EC6A23F9D6BE2305521298ED32C5A39B2FD699C8800F4BDB8EC7BF66BDD7516BE2FB5B9B74153_TDepthOnlyVS<true>0_0_098C9F5FEF26895A7CB5A4BE7F92A83FB04B01E332A9A9EB6F6AEC78D04ED0798341235919F1C7EA3_FLandscapePhysicalMaterialPS0_0_035195E0BA3B8D69DF2912FA03983A1C3E741A496BD4AAA5E1E701CB0F79C3E8D450BEF8AC937258A_TLightMapDensityVSFDummyLightMapPolicy0_0_0CDABC5DE2EF7D5ABC1173E51116D07F87D3CA8AE072171284A12303CAFDE77FDE1BB23BA23533FFC_FLumenCardVS0_0_0BE21167846A57E5C1BC86923F5B56D9F2D6F40E4617646237FDC69FB38D590AA0B687E0FB01A281E_TShadowDepthPSPixelShadowDepth_VirtualShadowMap0_0_0F4266A27B4B26D9CDEAD14C7B6C0BF4FAFBFBE4FDFFF0B5EA8BD51A79796C1533647D79F12B2FEBD_TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy0_0_070E9E6089BCCC2DA5F15B9106F60EDB31C8CE2FE1EEF139C33631A689EEF7D6E0A5E8CD88279EFCD_TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight0_0_011B0F33C3DD73A8BDDEDEBC0BF390D24EE78DE6B5F6ED3D0A25D727098C8D3C84600DC3C187DB0C7_TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy0_0_011B0F33C3DD73A8BDDEDEBC0BF390D24EE78DE6BB8A3ED8E1FBA49F337923ADA56A8BF8ED672CF84_TBasePassPSTLightMapPolicyHQ0_0_011B0F33C3DD73A8BDDEDEBC0BF390D24EE78DE6B442FD6FA11305CF46BBF885AD0413E9A0BDCF41B_FLumenCardPS<true>0_0_030B7533CB2C811A319D0408272DC237D2E67F96B10BC213CA7B98C6BDB504A3A124DF8170F9D2A6B_TLightMapDensityPSFDummyLightMapPolicy0_0_0CDABC5DE2EF7D5ABC1173E51116D07F87D3CA8AEBBF3ABC4741902FDDF00BF19553F83404C8C7950_TBasePassPSFCachedPointIndirectLightingPolicySkylight0_0_011B0F33C3DD73A8BDDEDEBC0BF390D24EE78DE6B79198FD06898C87DBA2EE2CC7F12CF968FDAA316_FTranslucentLightingInjectPS0_0_077BD0EA97E43825CB834733BBC245A7734B2383F70CF5C264EEE993F300F770C1E5D8BD55181BC8A_TBasePassVSFCachedPointIndirectLightingPolicy0_0_070E9E6089BCCC2DA5F15B9106F60EDB31C8CE2FEFC25653E2C577DF4E4D2ECF9C3F0079304B35B3E_TBasePassPSFCachedPointIndirectLightingPolicy0_0_011B0F33C3DD73A8BDDEDEBC0BF390D24EE78DE6B9AC7A8EC45E76204A49C2A72145B9A28F129D6F0_FVelocityPS0_0_04B74A2604D16FCFE15D89246D68AE8F14970FF52CC98E6311AC1581B96A09EEE8AE8F6960285B5A2_TBasePassPSFCachedVolumeIndirectLightingPolicy0_0_011B0F33C3DD73A8BDDEDEBC0BF390D24EE78DE6B08949476BC6CF792BE4611BC83BBAD6CED7DEC38_TShadowDepthVSVertexShadowDepth_PerspectiveCorrect0_0_09C4EC6A23F9D6BE2305521298ED32C5A39B2FD69B207A715C31BC6DAB3FFA2315A4C65D1731B81E7_TBasePassPSFCachedVolumeIndirectLightingPolicySkylight0_0_011B0F33C3DD73A8BDDEDEBC0BF390D24EE78DE6B493660D40D6EFD34717726E5E22183839BA4B345_TLightMapDensityPSFNoLightMapPolicy0_0_0CDABC5DE2EF7D5ABC1173E51116D07F87D3CA8AE1CC030D1AE9761EE549DE4649802B6DE6AD1B027_TLightMapDensityVSTLightMapPolicyLQ0_0_0CDABC5DE2EF7D5ABC1173E51116D07F87D3CA8AEF0B5DBF8DF68DD1F7B939491F6FE7EA5BA228ECE_TBasePassVSTLightMapPolicyHQ0_0_070E9E6089BCCC2DA5F15B9106F60EDB31C8CE2FE82878495DA3C3B558391343BBC82F27833A76B90_FLandscapePhysicalMaterialVS0_0_035195E0BA3B8D69DF2912FA03983A1C3E741A496DE0D5BCEA7EC56FCFAF6FE24C7902B1E6C1A2354_TBasePassPSFNoLightMapPolicySkylight0_0_011B0F33C3DD73A8BDDEDEBC0BF390D24EE78DE6B0214B21BBB67B4C9FFECA46CC5F484BAFF111AD8_TBasePassVSFCachedVolumeIndirectLightingPolicy0_0_070E9E6089BCCC2DA5F15B9106F60EDB31C8CE2FEAA75B15EF64FAAA30EB29844ADF9C1263597F69C_TShadowDepthPSPixelShadowDepth_OnePassPointLight0_0_0F4266A27B4B26D9CDEAD14C7B6C0BF4FAFBFBE4F1C20FE0F6421C3566B37C59CBA77F6639400AC09_TShadowDepthVSVertexShadowDepth_PerspectiveCorrectPositionOnly0_0_09C4EC6A23F9D6BE2305521298ED32C5A39B2FD69C0107D1C91468EE58E97C8005153305254C0E480_TBasePassVSTDistanceFieldShadowsAndLightMapPolicyHQ0_0_070E9E6089BCCC2DA5F15B9106F60EDB31C8CE2FE9C72BC37FDF3635533640AC5A9BEBE19B371D1BD_TShadowDepthVSVertexShadowDepth_VirtualShadowMap0_0_09C4EC6A23F9D6BE2305521298ED32C5A39B2FD6956A608B0CB1C51E0ACACD2306A96E980D98F46A6_TShadowDepthVSVertexShadowDepth_OnePassPointLight0_0_09C4EC6A23F9D6BE2305521298ED32C5A39B2FD69A260AE7D5C34FDEBBEDEDA0A82E83823E7FB5074_TBasePassPSTLightMapPolicyLQ0_0_011B0F33C3DD73A8BDDEDEBC0BF390D24EE78DE6B3C7447130D0EFB89D75333D40CAAA81703A382C9_TLightMapDensityPSTLightMapPolicyLQ0_0_0CDABC5DE2EF7D5ABC1173E51116D07F87D3CA8AEC2C5AB7B1A0CA90D57B7552ECC87255465E5E8E5_TBasePassVSTLightMapPolicyLQ0_0_070E9E6089BCCC2DA5F15B9106F60EDB31C8CE2FEC08BB48C9AEC6BEDAB0B1E6AFFBAE6E87629DD79_TLightMapDensityVSTLightMapPolicyHQ0_0_0CDABC5DE2EF7D5ABC1173E51116D07F87D3CA8AE1A4E03F50C6FB84D18504D4DAF35B8D6E2EE8332_TShadowDepthVSVertexShadowDepth_VirtualShadowMapPositionOnly0_0_09C4EC6A23F9D6BE2305521298ED32C5A39B2FD698EF55C96B290FB341A0F8DEF83FDC2BBE010DB65_FDebugViewModePS0_0_06A1BAF7C699762AF6B5DECC24FE72C7B1B035859766E6E317C2F3C9CA584FD024BB665A920DD93FB_TBasePassPSTLightMapPolicyHQSkylight0_0_011B0F33C3DD73A8BDDEDEBC0BF390D24EE78DE6BB59DA05B32606AEE8E3F8165E46EA387FD603FD9_TDepthOnlyVS<false>0_0_03DD8D4F69AB543CB7BF8BEB783034811150EFF33ACA14F90957AEBF5BC1C2C3E6DB6BC750BA01CCD_FVelocityVS0_0_04B74A2604D16FCFE15D89246D68AE8F14970FF52C043BB9FD7164B6E8DBD4123FD00693BC9B4513E_FDebugViewModeVS0_0_0F0D516E0C5B1AD95ABF34FCD9BFBC64F20D5B366809CB80A6A7260721600DBFAB6C1E0001BD9B8AE_TShadowDepthVSVertexShadowDepth_OnePassPointLightPositionOnly0_0_09C4EC6A23F9D6BE2305521298ED32C5A39B2FD69BE39A0E3572676F32EA78E7B8900A215C1F7CFEB_TBasePassVSFNoLightMapPolicy0_0_070E9E6089BCCC2DA5F15B9106F60EDB31C8CE2FED282BFEBC7F2F376437986BC19233D6D4612109B_DepthPosOnlyNoPixelPipeline98C9F5FEF26895A7CB5A4BE7F92A83FB04B01E33_VelocityPipeline60D15A575F7254FA1B76BDB2FD46C2794C1CC518_DepthNoPixelPipeline3DD8D4F69AB543CB7BF8BEB783034811150EFF33_FGPUSpriteVertexFactory325399B41706252F97110FAB0494AAFC023352555C5BE91DA01DC2B25B1018F3EDA7A6FC7D1D30AEB9CA513CCBA4F1E3AF7D9556DD0F2FF45E951E1A_FNiagaraRibbonVertexFactory605D2B5DAAF105BDAAC5D4C33ADF04B504170BB1A5C2BD7C8E1CB8C2C0438E13767AF67A0D5B5966DE03DD13CEAD2D60503F2AAC85D4762994EF4025A5C2BD7C8E1CB8C2C0438E13767AF67A0D5B5966A5C2BD7C8E1CB8C2C0438E13767AF67A0D5B5966_TGPUSkinAPEXClothVertexFactoryDefault5BA33F92CC7FC9A9E91E039BA4733EEFD6A14B97BBEDF5F2F99060D3A4E705A02AFC0D4CFF550703_FParticleSpriteVertexFactory9AFFFAA74EDFBF90B2805A82DB835B115E01AF6FF99E1B0FB635933CEEAC41CF9441DF5EA4A994CA9DAE5A7C55936FD50BC3B20BD063C1832A4D4247_TGPUSkinVertexFactoryUnlimited5BA33F92CC7FC9A9E91E039BA4733EEFD6A14B97180376A7171B50BD465E9983F32BCB5A07542FE7_FVectorFieldVisualizationVertexFactory54079011D101BD14BDC5541793C541660BC6AEDCCC854D8E74FEAEF90804D69AF6B78BD07A141ACC_FNiagaraMeshVertexFactoryFDD9A43FE151A24DB79E70CCAB492F7D932ED5694B3A20E0CA93D5CA5A60C16EF2EB14EA073FC9571BD81B2CBA1F364F28A837532353718EB814537B4B3A20E0CA93D5CA5A60C16EF2EB14EA073FC9574B3A20E0CA93D5CA5A60C16EF2EB14EA073FC957_FParticleBeamTrailVertexFactory1921201D627EA423F3BE2C1AA74EC24F8016E57E378BBDDEC2CEAC35A309C357B38D702E7981D5D3_TGPUSkinVertexFactoryDefault5BA33F92CC7FC9A9E91E039BA4733EEFD6A14B97180376A7171B50BD465E9983F32BCB5A07542FE7_TGPUSkinAPEXClothVertexFactoryUnlimited5BA33F92CC7FC9A9E91E039BA4733EEFD6A14B97BBEDF5F2F99060D3A4E705A02AFC0D4CFF550703_FGeometryCollectionVertexFactoryD85789C92DCBF269CD3227464F66E9A00C57351349D716CAD02F0AC031CC93ACB2AFCB9C42E7DC4149D716CAD02F0AC031CC93ACB2AFCB9C42E7DC4149D716CAD02F0AC031CC93ACB2AFCB9C42E7DC41_FLandscapeXYOffsetVertexFactoryD971B81DBA097CCD4742C662CEC195F401710ADEB1684FBEF19B946A8709F4309D7CC4E5FC6044ADEBA49461CECB1EA5D21E2BF8918B91C7C3994DCEB1684FBEF19B946A8709F4309D7CC4E5FC6044ADB1684FBEF19B946A8709F4309D7CC4E5FC6044AD_FMeshParticleVertexFactory65145DC56615EE2B0170970DFE442B5601D3ECB6F773920348F231C490A74B1A551F8CE3ABF04791_FInstancedStaticMeshVertexFactoryFE32CA32A1DDBAD1A70341B56B7F2B5D7DCA5CF0A163AB24C1DAF4D0703BC40B6B0C866D318AC9F8A163AB24C1DAF4D0703BC40B6B0C866D318AC9F8A163AB24C1DAF4D0703BC40B6B0C866D318AC9F8A163AB24C1DAF4D0703BC40B6B0C866D318AC9F8_FSplineMeshVertexFactoryFE32CA32A1DDBAD1A70341B56B7F2B5D7DCA5CF0A747D67BD07743C1BEA1DE549F682B82EB7B9965A747D67BD07743C1BEA1DE549F682B82EB7B9965A747D67BD07743C1BEA1DE549F682B82EB7B9965_FLocalVertexFactoryFE32CA32A1DDBAD1A70341B56B7F2B5D7DCA5CF081418F8992AC49B8E2AFD31AF3B57530A23E085E81418F8992AC49B8E2AFD31AF3B57530A23E085E81418F8992AC49B8E2AFD31AF3B57530A23E085E_FLandscapeVertexFactoryD971B81DBA097CCD4742C662CEC195F401710ADEB1684FBEF19B946A8709F4309D7CC4E5FC6044ADEBA49461CECB1EA5D21E2BF8918B91C7C3994DCEB1684FBEF19B946A8709F4309D7CC4E5FC6044ADB1684FBEF19B946A8709F4309D7CC4E5FC6044AD_FNiagaraSpriteVertexFactoryDE29C981F5BA1C0936070553324423A91A5143B75957CFEE095AEFFBA7F83F09F020F15CF6555718EFF166204144512228FF7A163011544EEF3FD2265957CFEE095AEFFBA7F83F09F020F15CF65557185957CFEE095AEFFBA7F83F09F020F15CF6555718_Nanite::FVertexFactoryBDC442D0F7835B8DAE2BD7FFDB4CDCA8658C9DAA_FGeometryCacheVertexVertexFactory8FA12ED473112D577638775B45E64E9D6E7F59C376143182082C57C6F98756E7AE927ED26DD4479A76143182082C57C6F98756E7AE927ED26DD4479A_FLandscapeFixedGridVertexFactoryD971B81DBA097CCD4742C662CEC195F401710ADE3F5F45F5620EF6411E27211E3D675CEA50B38DFBEBA49461CECB1EA5D21E2BF8918B91C7C3994DCE3F5F45F5620EF6411E27211E3D675CEA50B38DFB3F5F45F5620EF6411E27211E3D675CEA50B38DFB258810141414444414441444141414141444447401010101010131454444143314010134010101424464512141414142402414141414141313304444443724144444444404444444444444444444434141414142404444444444442434141414141510100031313131233131434341434131423121444044444131313131444031010101510101010113161656434343434116161616161666243161616161303434344414444444441415151510103001013115161616160240404040404040404040404040404040434343434344444444444444444040404040404044444444404040404444444444443444444444444221414144444442414141444144414141414131313131313141414443444444444141414141414141414141414343434444444444444344404441414141444141414141414341414144414141414444414441413141432444444444414121434341414131414141414122414343424241434343414341414441313131313144424441214144313131414444434121212121243134414114222212164421022121212121314444444444444440510151015101331414304341011640444414150051515151616161616101010101015151401212131616161636316161121010014714131313143304410101010101010101510101010101010143141500010101010101010101010101010101010101011600044414040424243131314144010101016101010101010131010101401213131314161606016161612444313131212121212121212141414144444444442140444414121212121212121212121212121312121212121212121212141212121212121212324414130431313131616161616161616121104344444434144414141414242414121212121212121212121312121212121212121212121212121242442424243434341414441414141414444444444444444414421402313131313131616161616110101012101010101510120044444444404342404442315101404444444444444303313131214331404040404043414443314331444331433143414341433143314331432142413141314411144246444444044464444444444044401410101510151015000101010101010101010101010110000444140404141210101000010101010101014444424231310101404444444444444444444444444444444444444444444444444444444444444444444444444404444444444444434144414141414342101313131312121323222222121010101010000101010101444442424121010101010101010141410101510101010101004444441415151040404043410004040404040404040404040404040434343434343434444434343434040404040404043434343404040404444424244444444344444424241412144444442414141434141414141414141413131313131314443444444444141414141414141414141414343434444444444444344404441414141444141414141414341414144414141414444414141414141334144244444414141432341414141413141414142412343424241434343414341414441414131313134324441414124414131313444434141412121242121313141410101515151515151515151510101010101010101015151515151015101510151015101510101010101010151016161616161510151015101510151015101510151015101313151515151015101015101646141415401415101016161716163634043131313131313131442222314141410101010101000011000000130000001300000013000000130000001300000013000000140000000C00000013000000130000000D00000009000000140000000F0000001000000008000000090000000800000024000000100000001000000013000000090000000800000008000000100000001000000010000000100000000800000008000000080000001000000010000000CF00000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000140000001000000008000000080000000800000014000000140000001300000008000000100000000800000008000000080000000800000008000000080000001300000010000000140000001100000013000000130000001300000013000000130000001300000013000000130000000800000010000000110000000900000008000000090000000800000008000000130000000900000008000000090000000800000009000000080000000C000000090000000800000009000000090000000900000009000000090000000800000008000000080000000800000008000000130000001000000010000000100000001600000010000000100000001000000010000000090000000900000009000000090000000900000010000000100000001000000010000000080000001A00000014000000290000000D000000440000000B0000000B00000013000000130000000900000009000000090000001400000008000000100000000D0000000C00000010000000080000000800000029000000100000001000000010000000100000001000000010000000100000000900000009000000080000000800000008000000080000000D00000009000000090000000900000009000000090000000900000009000000090000000900000009000000090000000C000000080000000C00000013000000100000001000000010000000100000001000000010000000100000000D0000000F00000009000000080000000900000008000000090000000C000000080000001300000013000000260000000F000000120000000900000009000000090000000900000009000000100000001D0000001300000013000000130000001300000013000000090000000800000009000000080000000900000008000000090000000800000014000000140000000800000010000000090000000800000013000000080000001000000008000000080000001000000010000000310100001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000140000001000000010000000100000001000000009000000433AFC833894B7681A1D3DDBA35F7F5A9509A8990000000000000000000000000000000000000000EFE2B2BFD689FE76C1B7EF7C7E404AB24393F749_101_101_5;
+Using QuadricMeshReduction for automatic static mesh reduction
+Using SkeletalMeshReduction for automatic skeletal mesh reduction
+No automatic mesh merging module available
+No distributed automatic mesh merging module available
+No automatic mesh merging module available
+No distributed automatic mesh merging module available
+21555 objects as part of root set at end of initial load.
+5762872 out of 0 bytes used by permanent object pool.
+CloseDisregardForGC: 0/0 objects in disregard for GC pool
+Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+Border
+BreadcrumbButton
+Brushes.Title
+Default
+Icons.Save
+Icons.Toolbar.Settings
+ListView
+SoftwareCursor_CardinalCross
+SoftwareCursor_Grab
+TableView.DarkRow
+TableView.Row
+TreeView
+XR: Instanced Stereo Rendering is Disabled
+XR: MultiViewport is Disabled
+XR: Mobile Multiview is Disabled
+Niagara Debugger Client Initialized | Session: C934784DBF214A449E1F240FC127505C | Instance: 7C0DD9D7334F46C2BB3432AA639C438A (skump-22821).
+Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+Added local interface '192.168.4.81' to multicast group '230.0.0.1:6666'
+Initializing TcpMessaging bridge
+Registering Engine Module Parameter Interfaces...
+MetaSound Engine Initialized
+Using Python 3.9.7
+Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Animations/Manny/MM_Fall_Loop.MM_Fall_Loop
+Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Animations/Manny/MM_Idle.MM_Idle
+Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Animations/Manny/MM_Jump.MM_Jump
+Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Animations/Manny/MM_Land.MM_Land
+Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Animations/Manny/MM_Run_Fwd.MM_Run_Fwd
+Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Animations/Manny/MM_Walk_Fwd.MM_Walk_Fwd
+Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Animations/Manny/MM_Walk_InPlace.MM_Walk_InPlace
+Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Animations/Quinn/MF_Idle.MF_Idle
+Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Animations/Quinn/MF_Run_Fwd.MF_Run_Fwd
+Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Animations/Quinn/MF_Walk_Fwd.MF_Walk_Fwd
+Going up to parent DeviceProfile []
+
+
+Script Stack (0 frames) :
+
+appError called: Fatal error: [File:./Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp] [Line: 5239] 
+Default subobject SphereComponent Planet already exists for SolarSystem /Script/Otter.Default__SolarSystem.
+0x00007fadbe4414f4 libUnrealEditor-CoreUObject.so!FObjectInitializer::CreateDefaultSubobject(UObject*, FName, UClass const*, UClass const*, bool, bool) const [/home/skump/UnrealEngine/Engine/Source/./Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp:5239]
+0x00007fadbe2bca08 libUnrealEditor-CoreUObject.so!UObject::CreateDefaultSubobject(FName, UClass*, UClass*, bool, bool) [/home/skump/UnrealEngine/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:123]
+0x00007fac4802c489 libUnrealEditor-Otter.so!ASolarSystem::ASolarSystem() [/home/skump/Documents/Unreal Projects/Otter/Source/Otter/SolarSystem.cpp:16]
+0x00007fadbe0c6326 libUnrealEditor-CoreUObject.so!UClass::CreateDefaultObject() [/home/skump/UnrealEngine/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:4155]
+0x00007fadbe0cadc1 libUnrealEditor-CoreUObject.so!UClass::InternalCreateDefaultObjectWrapper() const [/home/skump/UnrealEngine/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:4759]
+0x00007fadbe418028 libUnrealEditor-CoreUObject.so!ProcessNewlyLoadedUObjects(FName, bool) [/home/skump/UnrealEngine/Engine/Source/./Runtime/CoreUObject/Private/UObject/UObjectBase.cpp:921]
+0x00007fadbe309fce libUnrealEditor-CoreUObject.so!TBaseStaticDelegateInstance<void (FName, bool), FDefaultDelegateUserPolicy>::ExecuteIfSafe(FName, bool) const [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:656]
+0x00007fadbf121d8a libUnrealEditor-Core.so!void TMulticastDelegateBase<FDefaultDelegateUserPolicy>::Broadcast<IBaseDelegateInstance<void (FName, bool), FDefaultDelegateUserPolicy>, TDelegate<void (FName, bool), FDefaultDelegateUserPolicy>, FName, bool>(FName, bool) const [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/MulticastDelegateBase.h:204]
+0x00007fadbf0cbb9b libUnrealEditor-Core.so!FModuleManager::LoadModuleWithFailureReason(FName, EModuleLoadResult&, ELoadModuleFlags) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Core/Private/Modules/ModuleManager.cpp:624]
+0x00007fadb8799a51 libUnrealEditor-Projects.so!FModuleDescriptor::LoadModulesForPhase(ELoadingPhase::Type, TArray<FModuleDescriptor, TSizedDefaultAllocator<32> > const&, TMap<FName, EModuleLoadResult, FDefaultSetAllocator, TDefaultMapHashableKeyFuncs<FName, EModuleLoadResult, false> >&) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Projects/Private/ModuleDescriptor.cpp:695]
+0x00007fadb87c1acb libUnrealEditor-Projects.so!FProjectManager::LoadModulesForProject(ELoadingPhase::Type) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Projects/Private/ProjectManager.cpp:60]
+0x0000000000260549 UnrealEditor!FEngineLoop::LoadStartupModules() [/home/skump/UnrealEngine/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:4636]
+0x000000000025be3e UnrealEditor!FEngineLoop::PreInitPostStartupScreen(char16_t const*) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:3934]
+0x0000000000249f02 UnrealEditor!GuardedMain(char16_t const*) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Launch/Private/Launch.cpp:140]
+0x00007fadbf9ea9ba libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/skump/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+0x00007fadb3a49850 libc.so.6!UnknownFunction(0x2384f)
+0x00007fadb3a4990a libc.so.6!__libc_start_main(+0x89)
+0x00000000002366d9 UnrealEditor!_start()
+
+
+
+

@@ -1,0 +1,37 @@
+Generating report for minidump
+
+Application version 5.2.1.0
+ ... built from changelist 0
+
+OS version Linux 6.4.2-arch1-1 (network name: skump)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "SIGSEGV: invalid attempt to write memory at address 0x0000000000000003"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-CoreUObject.so!FObjectInitializer::CreateDefaultSubobject(UObject*, FName, UClass const*, UClass const*, bool, bool) const [/home/skump/UnrealEngine/Engine/Source/./Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp:5239]
+libUnrealEditor-CoreUObject.so!UObject::CreateDefaultSubobject(FName, UClass*, UClass*, bool, bool) [/home/skump/UnrealEngine/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:123]
+libUnrealEditor-Otter.so!ASolarSystem::ASolarSystem() [/home/skump/Documents/Unreal Projects/Otter/Source/Otter/SolarSystem.cpp:16]
+libUnrealEditor-CoreUObject.so!UClass::CreateDefaultObject() [/home/skump/UnrealEngine/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:4155]
+libUnrealEditor-CoreUObject.so!UClass::InternalCreateDefaultObjectWrapper() const [/home/skump/UnrealEngine/Engine/Source/./Runtime/CoreUObject/Private/UObject/Class.cpp:4759]
+libUnrealEditor-CoreUObject.so!ProcessNewlyLoadedUObjects(FName, bool) [/home/skump/UnrealEngine/Engine/Source/./Runtime/CoreUObject/Private/UObject/UObjectBase.cpp:921]
+libUnrealEditor-CoreUObject.so!TBaseStaticDelegateInstance<void (FName, bool), FDefaultDelegateUserPolicy>::ExecuteIfSafe(FName, bool) const [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:656]
+libUnrealEditor-Core.so!void TMulticastDelegateBase<FDefaultDelegateUserPolicy>::Broadcast<IBaseDelegateInstance<void (FName, bool), FDefaultDelegateUserPolicy>, TDelegate<void (FName, bool), FDefaultDelegateUserPolicy>, FName, bool>(FName, bool) const [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/MulticastDelegateBase.h:204]
+libUnrealEditor-Core.so!FModuleManager::LoadModuleWithFailureReason(FName, EModuleLoadResult&, ELoadModuleFlags) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Core/Private/Modules/ModuleManager.cpp:624]
+libUnrealEditor-Projects.so!FModuleDescriptor::LoadModulesForPhase(ELoadingPhase::Type, TArray<FModuleDescriptor, TSizedDefaultAllocator<32> > const&, TMap<FName, EModuleLoadResult, FDefaultSetAllocator, TDefaultMapHashableKeyFuncs<FName, EModuleLoadResult, false> >&) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Projects/Private/ModuleDescriptor.cpp:695]
+libUnrealEditor-Projects.so!FProjectManager::LoadModulesForProject(ELoadingPhase::Type) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Projects/Private/ProjectManager.cpp:60]
+UnrealEditor!FEngineLoop::LoadStartupModules() [/home/skump/UnrealEngine/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:4636]
+UnrealEditor!FEngineLoop::PreInitPostStartupScreen(char16_t const*) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:3934]
+UnrealEditor!GuardedMain(char16_t const*) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Launch/Private/Launch.cpp:140]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/skump/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x2384f)
+libc.so.6!__libc_start_main(+0x89)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

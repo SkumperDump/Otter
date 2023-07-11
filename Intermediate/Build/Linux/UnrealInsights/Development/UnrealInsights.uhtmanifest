@@ -1,0 +1,643 @@
+{
+  "IsGameTarget": false,
+  "RootLocalPath": "/home/skump/UnrealEngine",
+  "TargetName": "UnrealInsights",
+  "ExternalDependenciesFile": "/home/skump/Documents/Unreal Projects/Otter/Intermediate/Build/Linux/UnrealInsights/Development/UnrealInsights.deps",
+  "Modules": [
+    {
+      "Name": "CoreUObject",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Runtime/CoreUObject",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/CoreUObject/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject/CoreNetTypes.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject/NoExportTypes.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/CoreUObject/UHT/CoreUObject.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "InputCore",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Runtime/InputCore",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/InputCore/UHT",
+      "ClassesHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/InputCore/Classes/InputCoreTypes.h"
+      ],
+      "PublicHeaders": [],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/InputCore/UHT/InputCore.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "SlateCore",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/SlateCore/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Input/NavigationReply.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Input/Events.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Types/SlateVector2.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Types/SlateEnums.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Styling/ToolBarStyle.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Styling/SlateWidgetStyleContainerBase.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Styling/SlateBrush.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Styling/SlateWidgetStyle.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Styling/StyleColors.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Styling/SegmentedControlStyle.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Styling/SlateWidgetStyleAsset.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Styling/SlateColor.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Styling/SlateTypes.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Styling/SlateWidgetStyleContainerInterface.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Fonts/FontProviderInterface.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Fonts/FontCache.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Fonts/FontFaceInterface.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Fonts/CompositeFont.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Fonts/SlateFontInfo.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Fonts/FontBulkData.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Rendering/RenderingCommon.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Layout/FlowDirection.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Layout/Clipping.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Layout/Margin.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Layout/Geometry.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Debugging/SlateDebugging.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Sound/SlateSound.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [
+        "WITH_FREETYPE=1"
+      ],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/SlateCore/UHT/SlateCore.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "Slate",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/Slate/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/SlateSettings.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets/Input/IVirtualKeyboardEntry.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets/Views/STableViewBase.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets/Notifications/SProgressBar.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets/Text/ISlateEditableTextWidget.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets/Layout/SScrollBox.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets/Layout/Anchors.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets/Layout/SScaleBox.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Commands/InputChord.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Commands/UICommandInfo.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Views/ITypedTableView.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Styling/TextBlockWidgetStyle.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Styling/CheckBoxWidgetStyle.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Styling/ComboBoxWidgetStyle.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Styling/ButtonWidgetStyle.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Styling/EditableTextWidgetStyle.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Styling/ComboButtonWidgetStyle.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Styling/ScrollBoxWidgetStyle.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Styling/ProgressWidgetStyle.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Styling/EditableTextBoxWidgetStyle.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Styling/SpinBoxWidgetStyle.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Styling/ScrollBarWidgetStyle.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Text/TextLayout.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/MultiBox/MultiBoxDefs.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/MultiBox/ToolMenuBase.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/Slate/UHT/Slate.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "AssetRegistry",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Runtime/AssetRegistry",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Runtime/AssetRegistry/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/AssetRegistry/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/AssetRegistry/Public/AssetRegistry/AssetRegistryHelpers.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/AssetRegistry/Public/AssetRegistry/IAssetRegistry.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/AssetRegistry/Private/AssetRegistry.h"
+      ],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/AssetRegistry/UHT/AssetRegistry.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "ToolMenus",
+      "ModuleType": "EngineDeveloper",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Developer/ToolMenus",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Developer/ToolMenus/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/ToolMenus/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Developer/ToolMenus/Public/ToolMenuMisc.h",
+        "/home/skump/UnrealEngine/Engine/Source/Developer/ToolMenus/Public/ToolMenuEntry.h",
+        "/home/skump/UnrealEngine/Engine/Source/Developer/ToolMenus/Public/ToolMenus.h",
+        "/home/skump/UnrealEngine/Engine/Source/Developer/ToolMenus/Public/ToolMenuDelegates.h",
+        "/home/skump/UnrealEngine/Engine/Source/Developer/ToolMenus/Public/ToolMenuContext.h",
+        "/home/skump/UnrealEngine/Engine/Source/Developer/ToolMenus/Public/ToolMenuSection.h",
+        "/home/skump/UnrealEngine/Engine/Source/Developer/ToolMenus/Public/ToolMenuOwner.h",
+        "/home/skump/UnrealEngine/Engine/Source/Developer/ToolMenus/Public/ToolMenuEntryScript.h",
+        "/home/skump/UnrealEngine/Engine/Source/Developer/ToolMenus/Public/ToolMenu.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Developer/ToolMenus/Private/ToolMenusBlueprintLibrary.h"
+      ],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/ToolMenus/UHT/ToolMenus.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "DeveloperSettings",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Runtime/DeveloperSettings",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Runtime/DeveloperSettings/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/DeveloperSettings/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/DeveloperSettings/Public/Engine/PlatformSettingsManager.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/DeveloperSettings/Public/Engine/PlatformSettings.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/DeveloperSettings/Public/Engine/DeveloperSettingsBackedByCVars.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/DeveloperSettings/Public/Engine/DeveloperSettings.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/DeveloperSettings/UHT/DeveloperSettings.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "AudioPlatformConfiguration",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Runtime/AudioPlatformConfiguration",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/AudioPlatformConfiguration/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/AudioPlatformConfiguration/Public/AudioCompressionSettings.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/AudioPlatformConfiguration/UHT/AudioPlatformConfiguration.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "AutomationTest",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Runtime/AutomationTest",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Runtime/AutomationTest/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/AutomationTest/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/AutomationTest/Public/AutomationState.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/AutomationTest/Public/AutomationTestExcludelist.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/AutomationTest/UHT/AutomationTest.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "AutomationMessages",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Runtime/AutomationMessages",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Runtime/AutomationMessages/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/AutomationMessages/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/AutomationMessages/Public/AutomationWorkerMessages.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/AutomationMessages/UHT/AutomationMessages.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "JsonUtilities",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Runtime/JsonUtilities",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Runtime/JsonUtilities/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/JsonUtilities/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/JsonUtilities/Public/JsonObjectWrapper.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/JsonUtilities/UHT/JsonUtilities.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "EngineMessages",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Runtime/EngineMessages",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Runtime/EngineMessages/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/EngineMessages/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/EngineMessages/Public/EngineServiceMessages.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/EngineMessages/UHT/EngineMessages.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "SessionMessages",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Runtime/SessionMessages",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Runtime/SessionMessages/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/SessionMessages/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/SessionMessages/Public/SessionServiceMessages.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/SessionMessages/UHT/SessionMessages.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "EngineSettings",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Runtime/EngineSettings",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Runtime/EngineSettings/Classes",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/EngineSettings/UHT",
+      "ClassesHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/EngineSettings/Classes/GameNetworkManagerSettings.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/EngineSettings/Classes/GeneralEngineSettings.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/EngineSettings/Classes/HudSettings.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/EngineSettings/Classes/GameMapsSettings.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/EngineSettings/Classes/ConsoleSettings.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/EngineSettings/Classes/GameSessionSettings.h",
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/EngineSettings/Classes/GeneralProjectSettings.h"
+      ],
+      "PublicHeaders": [],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/EngineSettings/UHT/EngineSettings.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "VectorVM",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Runtime/VectorVM",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Runtime/VectorVM/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/VectorVM/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/VectorVM/Public/VectorVMCommon.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [
+        "VECTORVM_SUPPORTS_EXPERIMENTAL=1",
+        "VECTORVM_SUPPORTS_LEGACY=1"
+      ],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/VectorVM/UHT/VectorVM.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "Serialization",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Runtime/Serialization",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Runtime/Serialization/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/Serialization/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [],
+      "InternalHeaders": [],
+      "PrivateHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Runtime/Serialization/Private/Tests/StructSerializerTestTypes.h"
+      ],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/Serialization/UHT/Serialization.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "TcpMessaging",
+      "ModuleType": "EngineRuntime",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Plugins/Messaging/TcpMessaging/Intermediate/Build/Linux/UnrealInsights/Inc/TcpMessaging/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [],
+      "InternalHeaders": [],
+      "PrivateHeaders": [
+        "/home/skump/UnrealEngine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging/Private/Settings/TcpMessagingSettings.h"
+      ],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Plugins/Messaging/TcpMessaging/Intermediate/Build/Linux/UnrealInsights/Inc/TcpMessaging/UHT/TcpMessaging.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "SourceCodeAccess",
+      "ModuleType": "EngineDeveloper",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Developer/SourceCodeAccess",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/SourceCodeAccess/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [],
+      "InternalHeaders": [],
+      "PrivateHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Private/SourceCodeAccessSettings.h"
+      ],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/SourceCodeAccess/UHT/SourceCodeAccess.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "ToolWidgets",
+      "ModuleType": "EngineDeveloper",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Developer/ToolWidgets",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Developer/ToolWidgets/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/ToolWidgets/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Developer/ToolWidgets/Public/Filters/CustomTextFilters.h",
+        "/home/skump/UnrealEngine/Engine/Source/Developer/ToolWidgets/Public/Filters/SBasicFilterBar.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/ToolWidgets/UHT/ToolWidgets.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "SlateReflector",
+      "ModuleType": "EngineDeveloper",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Developer/SlateReflector",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Developer/SlateReflector/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/SlateReflector/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [],
+      "InternalHeaders": [],
+      "PrivateHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Developer/SlateReflector/Private/WidgetSnapshotMessages.h"
+      ],
+      "PublicDefines": [
+        "SLATE_REFLECTOR_HAS_SESSION_SERVICES=0",
+        "SLATE_REFLECTOR_HAS_DESKTOP_PLATFORM=1"
+      ],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/SlateReflector/UHT/SlateReflector.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "DeveloperToolSettings",
+      "ModuleType": "EngineDeveloper",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Developer/DeveloperToolSettings",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Developer/DeveloperToolSettings/Classes",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/DeveloperToolSettings/UHT",
+      "ClassesHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Developer/DeveloperToolSettings/Classes/CookerSettings.h",
+        "/home/skump/UnrealEngine/Engine/Source/Developer/DeveloperToolSettings/Classes/Settings/PlatformsMenuSettings.h",
+        "/home/skump/UnrealEngine/Engine/Source/Developer/DeveloperToolSettings/Classes/Settings/ProjectPackagingSettings.h"
+      ],
+      "PublicHeaders": [],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/DeveloperToolSettings/UHT/DeveloperToolSettings.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "SourceControl",
+      "ModuleType": "EngineDeveloper",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Developer/SourceControl",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Developer/SourceControl/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/SourceControl/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Developer/SourceControl/Public/SourceControlHelpers.h",
+        "/home/skump/UnrealEngine/Engine/Source/Developer/SourceControl/Public/SourceControlPreferences.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [
+        "SOURCE_CONTROL_WITH_SLATE=1"
+      ],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/SourceControl/UHT/SourceControl.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "PIEPreviewDeviceSpecification",
+      "ModuleType": "EngineEditor",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Editor/PIEPreviewDeviceSpecification",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Editor/PIEPreviewDeviceSpecification/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/PIEPreviewDeviceSpecification/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Editor/PIEPreviewDeviceSpecification/Public/PIEPreviewDeviceSpecification.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/PIEPreviewDeviceSpecification/UHT/PIEPreviewDeviceSpecification.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "UnrealEdMessages",
+      "ModuleType": "EngineEditor",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Editor/UnrealEdMessages",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Editor/UnrealEdMessages/Classes",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/UnrealEdMessages/UHT",
+      "ClassesHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Editor/UnrealEdMessages/Classes/FileServerMessages.h",
+        "/home/skump/UnrealEngine/Engine/Source/Editor/UnrealEdMessages/Classes/AssetEditorMessages.h"
+      ],
+      "PublicHeaders": [],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/UnrealEdMessages/UHT/UnrealEdMessages.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "ScreenShotComparisonTools",
+      "ModuleType": "EngineDeveloper",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Developer/ScreenShotComparisonTools",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Developer/ScreenShotComparisonTools/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/ScreenShotComparisonTools/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Developer/ScreenShotComparisonTools/Public/ImageComparer.h",
+        "/home/skump/UnrealEngine/Engine/Source/Developer/ScreenShotComparisonTools/Public/ScreenShotComparisonSettings.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/ScreenShotComparisonTools/UHT/ScreenShotComparisonTools.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "AutomationController",
+      "ModuleType": "EngineDeveloper",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Developer/AutomationController",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Developer/AutomationController/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/AutomationController/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Developer/AutomationController/Public/AutomationControllerSettings.h",
+        "/home/skump/UnrealEngine/Engine/Source/Developer/AutomationController/Public/IAutomationReport.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Developer/AutomationController/Private/AutomationControllerManager.h",
+        "/home/skump/UnrealEngine/Engine/Source/Developer/AutomationController/Private/AutomationDeviceClusterManager.h"
+      ],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/AutomationController/UHT/AutomationController.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "AutomationWindow",
+      "ModuleType": "EngineDeveloper",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Developer/AutomationWindow",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Developer/AutomationWindow/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/AutomationWindow/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [],
+      "InternalHeaders": [],
+      "PrivateHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Developer/AutomationWindow/Private/AutomationPresetManager.h"
+      ],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/AutomationWindow/UHT/AutomationWindow.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "LinuxTargetPlatform",
+      "ModuleType": "EngineDeveloper",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Developer/Linux/LinuxTargetPlatform",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Developer/Linux/LinuxTargetPlatform/Classes",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/Linux/LinuxTargetPlatform/UHT",
+      "ClassesHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Developer/Linux/LinuxTargetPlatform/Classes/LinuxTargetSettings.h"
+      ],
+      "PublicHeaders": [],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/Linux/LinuxTargetPlatform/UHT/LinuxTargetPlatform.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "TraceDataFiltering",
+      "ModuleType": "EngineEditor",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Plugins/Developer/TraceDataFiltering/Source/TraceDataFiltering",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Plugins/Developer/TraceDataFiltering/Source/TraceDataFiltering/Private",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Plugins/Developer/TraceDataFiltering/Intermediate/Build/Linux/UnrealInsights/Inc/TraceDataFiltering/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [],
+      "InternalHeaders": [],
+      "PrivateHeaders": [
+        "/home/skump/UnrealEngine/Engine/Plugins/Developer/TraceDataFiltering/Source/TraceDataFiltering/Private/FilterPresets.h"
+      ],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Plugins/Developer/TraceDataFiltering/Intermediate/Build/Linux/UnrealInsights/Inc/TraceDataFiltering/UHT/TraceDataFiltering.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    },
+    {
+      "Name": "RewindDebuggerInterface",
+      "ModuleType": "EngineEditor",
+      "OverrideModuleType": "None",
+      "BaseDirectory": "/home/skump/UnrealEngine/Engine/Source/Editor/RewindDebuggerInterface",
+      "IncludeBase": "/home/skump/UnrealEngine/Engine/Source/Editor/RewindDebuggerInterface/Public",
+      "OutputDirectory": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/RewindDebuggerInterface/UHT",
+      "ClassesHeaders": [],
+      "PublicHeaders": [
+        "/home/skump/UnrealEngine/Engine/Source/Editor/RewindDebuggerInterface/Public/IRewindDebugger.h"
+      ],
+      "InternalHeaders": [],
+      "PrivateHeaders": [],
+      "PublicDefines": [],
+      "GeneratedCPPFilenameBase": "/home/skump/UnrealEngine/Engine/Intermediate/Build/Linux/UnrealInsights/Inc/RewindDebuggerInterface/UHT/RewindDebuggerInterface.gen",
+      "SaveExportedHeaders": true,
+      "UHTGeneratedCodeVersion": "None"
+    }
+  ],
+  "UhtPlugins": []
+}
