@@ -2465,13 +2465,13 @@
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/x64/UnrealEditor/Development/Otter/Definitions.Otter.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/WeaponComponent.h \
   Runtime/Core/Public/CoreMinimal.h \
-  Runtime/Engine/Classes/Components/SkeletalMeshComponent.h \
+  Runtime/Engine/Classes/Components/PrimitiveComponent.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/WeaponComponent.generated.h \
   Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
   Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
+  Runtime/Engine/Classes/Components/SkeletalMeshComponent.h \
   Runtime/Engine/Classes/Components/SphereComponent.h \
   Runtime/Engine/Classes/Components/ShapeComponent.h \
   Runtime/CoreUObject/Public/Templates/SubclassOf.h \
-  Runtime/Engine/Classes/Components/PrimitiveComponent.h \
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/ShapeComponent.generated.h \
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/SphereComponent.generated.h

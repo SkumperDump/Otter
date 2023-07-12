@@ -7,11 +7,16 @@
 #include "InputActionValue.h"
 #include "OtterCharacter.generated.h"
 
+class UPrimitiveComponent;
 
 UCLASS(config=Game)
 class AOtterCharacter : public ACharacter
 {
 	GENERATED_BODY()
+
+	/** Array of items */
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	TArray<AActor*> ItemArray;
 
 	/** Bool for changing camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
@@ -74,6 +79,9 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return ThirdPersonCameraBoom; }
 	/** Returns PlayerCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetPlayerCamera() const { return PlayerCamera; }
+
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
 
 	AOtterCharacter();
 };

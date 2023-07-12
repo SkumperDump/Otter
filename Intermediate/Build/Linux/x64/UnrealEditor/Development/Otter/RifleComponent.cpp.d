@@ -2468,4 +2468,11 @@
   Runtime/Engine/Classes/Components/ActorComponent.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/RifleComponent.generated.h \
   Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
-  Runtime/CoreUObject/Public/UObject/ScriptMacros.h
+  Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
+  Runtime/Engine/Classes/Engine/SkeletalMesh.h \
+  Runtime/Engine/Classes/Components/SphereComponent.h \
+  Runtime/Engine/Classes/Components/ShapeComponent.h \
+  Runtime/CoreUObject/Public/Templates/SubclassOf.h \
+  Runtime/Engine/Classes/Components/PrimitiveComponent.h \
+  ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/ShapeComponent.generated.h \
+  ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/SphereComponent.generated.h

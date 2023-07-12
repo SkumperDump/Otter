@@ -16,6 +16,7 @@
 
 AOtterCharacter::AOtterCharacter()
 {
+	
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
 
@@ -73,8 +74,10 @@ void AOtterCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInp
 		// Swap Camera
 		// Completed so switches once per key-stroke
 		EnhancedInputComponent->BindAction(SwapCameraAction, ETriggerEvent::Completed, this, &AOtterCharacter::SwapCamera);
-	}
 
+		// Interact with a given volume using capsule component
+		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Triggered, this, &AOtterCharacter::Interact);
+	}
 }
 
 void AOtterCharacter::Move(const FInputActionValue& Value)
@@ -149,10 +152,15 @@ void AOtterCharacter::SwapCamera(const FInputActionValue& Value)
 
 void AOtterCharacter::Interact(const FInputActionValue& Value)
 {
-	// Trigger some event
-	
 	if (Controller != nullptr)
 	{
 		// grab overlapping component
+		GetCapsuleComponent()->GetOverlappingActors(ItemArray);
+		UE_LOG(LogTemp, Warning, TEXT("Testing"));
 	}
+}
+
+void AOtterCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
 }

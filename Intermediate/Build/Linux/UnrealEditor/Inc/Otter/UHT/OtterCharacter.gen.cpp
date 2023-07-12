@@ -9,6 +9,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeOtterCharacter() {}
 // Cross Module References
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
@@ -32,6 +33,11 @@ void EmptyLinkFunctionForGeneratedCodeOtterCharacter() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_ItemArray_Inner;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_ItemArray_MetaData[];
+#endif
+		static const UECodeGen_Private::FArrayPropertyParams NewProp_ItemArray;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_bUseFirstPersonCamera_MetaData[];
 #endif
@@ -84,6 +90,17 @@ void EmptyLinkFunctionForGeneratedCodeOtterCharacter() {}
 		{ "ModuleRelativePath", "OtterCharacter.h" },
 	};
 #endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AOtterCharacter_Statics::NewProp_ItemArray_Inner = { "ItemArray", nullptr, (EPropertyFlags)0x0000000000020000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AOtterCharacter_Statics::NewProp_ItemArray_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Camera" },
+		{ "Comment", "/** Array of items */" },
+		{ "ModuleRelativePath", "OtterCharacter.h" },
+		{ "ToolTip", "Array of items" },
+	};
+#endif
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AOtterCharacter_Statics::NewProp_ItemArray = { "ItemArray", nullptr, (EPropertyFlags)0x0040000000020015, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AOtterCharacter, ItemArray), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AOtterCharacter_Statics::NewProp_ItemArray_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AOtterCharacter_Statics::NewProp_ItemArray_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AOtterCharacter_Statics::NewProp_bUseFirstPersonCamera_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -181,6 +198,8 @@ void EmptyLinkFunctionForGeneratedCodeOtterCharacter() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AOtterCharacter_Statics::NewProp_InteractAction = { "InteractAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AOtterCharacter, InteractAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AOtterCharacter_Statics::NewProp_InteractAction_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AOtterCharacter_Statics::NewProp_InteractAction_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AOtterCharacter_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOtterCharacter_Statics::NewProp_ItemArray_Inner,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOtterCharacter_Statics::NewProp_ItemArray,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOtterCharacter_Statics::NewProp_bUseFirstPersonCamera,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOtterCharacter_Statics::NewProp_ThirdPersonCameraBoom,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOtterCharacter_Statics::NewProp_PlayerCamera,
@@ -228,9 +247,9 @@ void EmptyLinkFunctionForGeneratedCodeOtterCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AOtterCharacter, AOtterCharacter::StaticClass, TEXT("AOtterCharacter"), &Z_Registration_Info_UClass_AOtterCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AOtterCharacter), 3289678267U) },
+		{ Z_Construct_UClass_AOtterCharacter, AOtterCharacter::StaticClass, TEXT("AOtterCharacter"), &Z_Registration_Info_UClass_AOtterCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AOtterCharacter), 1348935749U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterCharacter_h_541519670(TEXT("/Script/Otter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterCharacter_h_1389114377(TEXT("/Script/Otter"),
 		Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
