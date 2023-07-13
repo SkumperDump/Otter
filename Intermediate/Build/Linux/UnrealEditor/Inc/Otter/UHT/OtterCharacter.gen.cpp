@@ -15,6 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeOtterCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputAction_NoRegister();
 	ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
+	OTTER_API UClass* Z_Construct_UClass_AItem_NoRegister();
 	OTTER_API UClass* Z_Construct_UClass_AOtterCharacter();
 	OTTER_API UClass* Z_Construct_UClass_AOtterCharacter_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_Otter();
@@ -39,10 +40,19 @@ void EmptyLinkFunctionForGeneratedCodeOtterCharacter() {}
 #endif
 		static const UECodeGen_Private::FArrayPropertyParams NewProp_ItemArray;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_CharacterItem_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_CharacterItem;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_bUseFirstPersonCamera_MetaData[];
 #endif
 		static void NewProp_bUseFirstPersonCamera_SetBit(void* Obj);
 		static const UECodeGen_Private::FBoolPropertyParams NewProp_bUseFirstPersonCamera;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_bCharacterWithItem_MetaData[];
+#endif
+		static void NewProp_bCharacterWithItem_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_bCharacterWithItem;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_ThirdPersonCameraBoom_MetaData[];
 #endif
@@ -102,6 +112,16 @@ void EmptyLinkFunctionForGeneratedCodeOtterCharacter() {}
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AOtterCharacter_Statics::NewProp_ItemArray = { "ItemArray", nullptr, (EPropertyFlags)0x0040000000020015, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AOtterCharacter, ItemArray), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AOtterCharacter_Statics::NewProp_ItemArray_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AOtterCharacter_Statics::NewProp_ItemArray_MetaData)) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AOtterCharacter_Statics::NewProp_CharacterItem_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Camera" },
+		{ "Comment", "/** Item that character has */" },
+		{ "ModuleRelativePath", "OtterCharacter.h" },
+		{ "ToolTip", "Item that character has" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AOtterCharacter_Statics::NewProp_CharacterItem = { "CharacterItem", nullptr, (EPropertyFlags)0x0040000000020015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AOtterCharacter, CharacterItem), Z_Construct_UClass_AItem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AOtterCharacter_Statics::NewProp_CharacterItem_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AOtterCharacter_Statics::NewProp_CharacterItem_MetaData)) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AOtterCharacter_Statics::NewProp_bUseFirstPersonCamera_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
@@ -115,6 +135,20 @@ void EmptyLinkFunctionForGeneratedCodeOtterCharacter() {}
 		((AOtterCharacter*)Obj)->bUseFirstPersonCamera = 1;
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AOtterCharacter_Statics::NewProp_bUseFirstPersonCamera = { "bUseFirstPersonCamera", nullptr, (EPropertyFlags)0x0040000000020015, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(AOtterCharacter), &Z_Construct_UClass_AOtterCharacter_Statics::NewProp_bUseFirstPersonCamera_SetBit, METADATA_PARAMS(Z_Construct_UClass_AOtterCharacter_Statics::NewProp_bUseFirstPersonCamera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AOtterCharacter_Statics::NewProp_bUseFirstPersonCamera_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AOtterCharacter_Statics::NewProp_bCharacterWithItem_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Camera" },
+		{ "Comment", "/** Bool for character and item status */" },
+		{ "ModuleRelativePath", "OtterCharacter.h" },
+		{ "ToolTip", "Bool for character and item status" },
+	};
+#endif
+	void Z_Construct_UClass_AOtterCharacter_Statics::NewProp_bCharacterWithItem_SetBit(void* Obj)
+	{
+		((AOtterCharacter*)Obj)->bCharacterWithItem = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AOtterCharacter_Statics::NewProp_bCharacterWithItem = { "bCharacterWithItem", nullptr, (EPropertyFlags)0x0040000000020015, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(AOtterCharacter), &Z_Construct_UClass_AOtterCharacter_Statics::NewProp_bCharacterWithItem_SetBit, METADATA_PARAMS(Z_Construct_UClass_AOtterCharacter_Statics::NewProp_bCharacterWithItem_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AOtterCharacter_Statics::NewProp_bCharacterWithItem_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AOtterCharacter_Statics::NewProp_ThirdPersonCameraBoom_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -200,7 +234,9 @@ void EmptyLinkFunctionForGeneratedCodeOtterCharacter() {}
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AOtterCharacter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOtterCharacter_Statics::NewProp_ItemArray_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOtterCharacter_Statics::NewProp_ItemArray,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOtterCharacter_Statics::NewProp_CharacterItem,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOtterCharacter_Statics::NewProp_bUseFirstPersonCamera,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOtterCharacter_Statics::NewProp_bCharacterWithItem,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOtterCharacter_Statics::NewProp_ThirdPersonCameraBoom,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOtterCharacter_Statics::NewProp_PlayerCamera,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOtterCharacter_Statics::NewProp_DefaultMappingContext,
@@ -247,9 +283,9 @@ void EmptyLinkFunctionForGeneratedCodeOtterCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AOtterCharacter, AOtterCharacter::StaticClass, TEXT("AOtterCharacter"), &Z_Registration_Info_UClass_AOtterCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AOtterCharacter), 1348935749U) },
+		{ Z_Construct_UClass_AOtterCharacter, AOtterCharacter::StaticClass, TEXT("AOtterCharacter"), &Z_Registration_Info_UClass_AOtterCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AOtterCharacter), 2862204175U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterCharacter_h_1389114377(TEXT("/Script/Otter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterCharacter_h_2056373947(TEXT("/Script/Otter"),
 		Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

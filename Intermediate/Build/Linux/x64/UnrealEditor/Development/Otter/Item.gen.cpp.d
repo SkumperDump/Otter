@@ -2469,4 +2469,5 @@
   Runtime/Engine/Classes/GameFramework/Actor.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/Item.generated.h \
   Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
-  Runtime/CoreUObject/Public/UObject/ScriptMacros.h
+  Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
+  ../Shaders/Shared/../../Source/Runtime/Engine/Classes/Engine/HitResult.h

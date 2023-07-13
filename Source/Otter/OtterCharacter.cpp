@@ -26,13 +26,13 @@ AOtterCharacter::AOtterCharacter()
 	// Controller cannot change roll or pitch of actor
 	bUseControllerRotationPitch = false;
 	bUseControllerRotationRoll = false;
-
-	// Configure character movement
-	GetCharacterMovement()->bOrientRotationToMovement = true; // Character moves in the direction of input...
+	
+	// Character moves in the direction of input
+	GetCharacterMovement()->bOrientRotationToMovement = true;
 
 	// Create a camera boom (pulls in towards the player if there is a collision)
 	ThirdPersonCameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("ThirdPersonCameraBoom"));
-	ThirdPersonCameraBoom->SetupAttachment(RootComponent);
+	ThirdPersonCameraBoom->SetupAttachment(GetCapsuleComponent());
 	ThirdPersonCameraBoom->bUsePawnControlRotation = true; // Controller rotates boom
 
 	// Create a player camera
@@ -155,12 +155,12 @@ void AOtterCharacter::Interact(const FInputActionValue& Value)
 	if (Controller != nullptr)
 	{
 		// grab overlapping component
-		GetCapsuleComponent()->GetOverlappingActors(ItemArray);
-		UE_LOG(LogTemp, Warning, TEXT("Testing"));
+		UE_LOG(LogTemp, Warning, TEXT("Interact"));
 	}
 }
 
 void AOtterCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
 }

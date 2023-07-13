@@ -21,6 +21,8 @@ class OTTER_API ASolarSystem : public AActor
 	UPROPERTY(EditAnywhere)
 	USphereComponent* Sun;
 	
+	// TODO
+	// Initialize this array in AActor::OnConstrucion() function for in editor proc-gen
 	// Array will hold Planet Class (BP_Planet)
 	UPROPERTY(EditAnywhere)
 	TArray<APlanet*> PlanetArray;

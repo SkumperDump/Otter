@@ -13,7 +13,7 @@ APlanet::APlanet()
 
 	// Setup planet terrain mesh
 	PlanetMesh = CreateDefaultSubobject<UStaticMeshComponent>(FName{"Planet Mesh"});
-	SetRootComponent(PlanetMesh);
+	PlanetMesh->SetupAttachment(GetRootComponent());
 
 }
 

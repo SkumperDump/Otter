@@ -8,11 +8,16 @@
 
 class USkeletalMeshComponent;
 class USphereComponent;
+class AOtterCharacter;
 
 UCLASS()
 class OTTER_API AItem : public AActor
 {
 	GENERATED_BODY()
+
+	// Character that is holding this item
+	UPROPERTY(EditAnywhere)
+	AOtterCharacter* ItemChararcter;
 
 	// Item mesh
 	UPROPERTY(EditAnywhere)
@@ -22,13 +27,21 @@ class OTTER_API AItem : public AActor
 	UPROPERTY(EditAnywhere)
 	USphereComponent* OverlapSphere;
 	
+	// Bool for item and character status
+	UPROPERTY(EditAnywhere)
+	bool bItemWithCharacter;
+
+	// What to do when overlapping with AOtterCharacter
+	// See PrimitiveComponent.h
+	UFUNCTION()
+	void OnOverlap(UPrimitiveComponent* OverlapComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, int foo, bool poo, const FHitResult& moo);
+
 protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+
+	// When game starts
+	virtual void BeginPlay();
 
 public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
 
 	// Sets default values for this actor's properties
 	AItem();

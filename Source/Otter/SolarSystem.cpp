@@ -13,6 +13,7 @@ ASolarSystem::ASolarSystem()
 	PrimaryActorTick.bCanEverTick = true;
 
 	Sun = CreateDefaultSubobject<USphereComponent>(FName{"Sun"});
+	Sun->SetupAttachment(GetRootComponent());
 
 }
 
