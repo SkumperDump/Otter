@@ -20,6 +20,9 @@ AOtterCharacter::AOtterCharacter()
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
 
+	// Character not interacting
+	bCharacterInteract = false;
+
 	// Start with third person camera
 	bUseFirstPersonCamera = false;
 
@@ -46,7 +49,7 @@ void AOtterCharacter::BeginPlay()
 	// Call the base class  
 	Super::BeginPlay();
 
-	//Add Input Mapping Context
+	// Add Input Mapping Context
 	if (APlayerController* PlayerController = Cast<APlayerController>(Controller))
 	{
 		if (UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(PlayerController->GetLocalPlayer()))
@@ -54,6 +57,8 @@ void AOtterCharacter::BeginPlay()
 			Subsystem->AddMappingContext(DefaultMappingContext, 0);
 		}
 	}
+
+	// Setup HUD
 }
 
 void AOtterCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
@@ -76,7 +81,8 @@ void AOtterCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInp
 		EnhancedInputComponent->BindAction(SwapCameraAction, ETriggerEvent::Completed, this, &AOtterCharacter::SwapCamera);
 
 		// Interact with a given volume using capsule component
-		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Triggered, this, &AOtterCharacter::Interact);
+		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Triggered, this, &AOtterCharacter::InteractStart);
+		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Completed, this, &AOtterCharacter::InteractComplete);
 	}
 }
 
@@ -150,12 +156,21 @@ void AOtterCharacter::SwapCamera(const FInputActionValue& Value)
 	}
 }
 
-void AOtterCharacter::Interact(const FInputActionValue& Value)
+void AOtterCharacter::InteractStart(const FInputActionValue& Value)
 {
 	if (Controller != nullptr)
 	{
-		// grab overlapping component
-		UE_LOG(LogTemp, Warning, TEXT("Interact"));
+		UE_LOG(LogTemp, Warning, TEXT("Interact Start"));
+		bCharacterInteract = true;
+	}
+}
+
+void AOtterCharacter::InteractComplete(const FInputActionValue& Value)
+{
+	if (Controller != nullptr)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Interact Complete"));
+		bCharacterInteract = false;
 	}
 }
 

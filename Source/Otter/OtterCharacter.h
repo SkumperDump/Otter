@@ -19,67 +19,78 @@ class AOtterCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
-	/** Array of items */
+	// TODO
+	// Heads up display widget
+	//UPROPERTY(EditAnywhere)
+	//UUserWidget* CharacterHUD;
+
+	// Array of items
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	TArray<AActor*> ItemArray;
 
-	/** Item that character has */
+	// Item that character has
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	AItem* CharacterItem;
 
-	/** Bool for changing camera */
+	// Bool for changing camera
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	bool bUseFirstPersonCamera;
 
-	/** Bool for character and item status */
+	// Bool for character and item status
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	bool bCharacterWithItem;
 
-	/** Camera boom positioning the camera behind the character */
+	// Is player currently pressing interact key
+	// TODO this method feels slow
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	bool bCharacterInteract;
+
+	// Camera boom positioning the camera behind the character
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	USpringArmComponent* ThirdPersonCameraBoom;
 
-	/** Player camera */
+	// Player camera
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	UCameraComponent* PlayerCamera;
 	
-	/** MappingContext */
+	// MappingContext
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputMappingContext* DefaultMappingContext;
 
-	/** Jump Input Action */
+	// Jump Input Action
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* JumpAction;
 
-	/** Move Input Action */
+	// Move Input Action
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* MoveAction;
 
-	/** Look Input Action */
+	// Look Input Action
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* LookAction;
 
-	/** Swap Camera Input Action */
+	// Swap Camera Input Action
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* SwapCameraAction;
 
-	/** Interact Input Action */
+	// Interact Input Action
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* InteractAction;
 
 protected:
 
-	/** Called for movement input */
+	// Called for movement input
 	void Move(const FInputActionValue& Value);
 
-	/** Called for looking input */
+	// Called for looking input
 	void Look(const FInputActionValue& Value);
 
-	/** Called to swap camera */
+	// Called to swap camera
 	void SwapCamera(const FInputActionValue& Value);
 	
-	/** Called to start an interaction */
-	void Interact(const FInputActionValue& Value);
+	// Called to start an interaction
+	void InteractStart(const FInputActionValue& Value);
+	void InteractComplete(const FInputActionValue& Value);
 			
 	// APawn interface
 	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
@@ -92,5 +103,8 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	// Constructor
 	AOtterCharacter();
+
+	bool GetCharacterInteract() const { return bCharacterInteract; }
 };
