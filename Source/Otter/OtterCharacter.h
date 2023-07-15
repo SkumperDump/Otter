@@ -17,7 +17,9 @@ class AItem;
 
 /* This is our game character.
  * Here is where we will store things that relate to our character subclass.
- * Should be exposed to a widget in the editor. */
+ * TODO
+ * -Should be exposed to a widget in the editor for heads up display.*/
+
 
 UCLASS(config=Game)
 class AOtterCharacter : public ACharacter
@@ -28,7 +30,7 @@ class AOtterCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere)
 	bool bUseFirstPersonCamera;
 
-	// Camera boom positioning the camera behind the character
+	// Camera boom positioning the camera around the character
 	UPROPERTY(VisibleAnywhere)
 	USpringArmComponent* CameraBoom;
 
@@ -40,7 +42,7 @@ class AOtterCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere)
 	TArray<AActor*> Inventory;
 
-	// INPUT
+	/**INPUT*/
 	
 	// MappingContext
 	UPROPERTY(EditAnywhere)

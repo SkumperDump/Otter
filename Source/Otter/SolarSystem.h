@@ -22,7 +22,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	// Called on in editor recompile
+	// Called on editor recompile
 	virtual void OnConstruction(const FTransform& Transform);
 
 public:	
@@ -38,10 +38,18 @@ public:
 	int PlanetCount;
 
 	// This will represent the center of the solar system
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(EditAnywhere)
 	USphereComponent* Sun;
+	
+	// Base mesh to use for planets
+	UPROPERTY(EditAnywhere)
+	UStaticMesh* PlanetBaseMesh;
+
+	// Base material to use for planets
+	UPROPERTY(EditAnywhere)
+	UMaterialInstance* PlanetBaseMaterialInstance;
 	
 	// Array will hold parent class of (BP_Planet)
 	UPROPERTY(VisibleAnywhere)
-	TArray<APlanet*> PlanetArray;
+	TArray<TObjectPtr<APlanet>> PlanetArray;
 };

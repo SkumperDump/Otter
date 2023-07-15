@@ -19,9 +19,6 @@ AOtterCharacter::AOtterCharacter()
 	// No grabbable item at start
 	GrabbableItem = nullptr;
 
-	// Set size for collision capsule
-	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
-
 	// Start with third person camera
 	bUseFirstPersonCamera = false;
 
@@ -32,14 +29,17 @@ AOtterCharacter::AOtterCharacter()
 	// Character moves in the direction of input
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 
+	// Set size for collision capsule
+	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
+
 	// Create a camera boom (pulls in towards the player if there is a collision)
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(GetCapsuleComponent());
-	CameraBoom->bUsePawnControlRotation = true; // Controller rotates boom
+	CameraBoom->bUsePawnControlRotation = true; // Controller rotates boom also
 
 	// Create a player camera
 	PlayerCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("PlayerCamera"));
-	PlayerCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
+	PlayerCamera->SetupAttachment(CameraBoom);
 }
 
 void AOtterCharacter::BeginPlay()

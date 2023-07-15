@@ -20,18 +20,22 @@ ASolarSystem::ASolarSystem()
 
 void ASolarSystem::OnConstruction(const FTransform& Transform)
 {
-	// APlanet pointer on the stack
-	APlanet* temp;
-
-	// If PlanetArray empty or PlanetCount has changed, clear array and init
+	// Kinda abusing the above function to only change this stuff when number of planets changes
 	if (PlanetArray.Num() != PlanetCount)
 	{
-		PlanetArray.Empty();
+		// Clear PlanetArray
+		for (auto Planet : PlanetArray)
+		{	
+			PlanetArray.Pop();
+		}
+
+		// Make array of length PlanetCount of APlanet instances on the heap
 		for (int i = 0; i < PlanetCount; i++)
 		{
-			temp = NewObject<APlanet>(this);
-			temp->SolarSystemActor = this;
-			PlanetArray.Add(temp);
+			auto temp {NewObject<APlanet>(this)};
+			temp->PlanetMesh->SetStaticMesh(PlanetBaseMesh);
+			temp->PlanetMesh->SetMaterial(0, PlanetBaseMaterialInstance);
+			PlanetArray.Push(temp);
 		}
 	}
 }

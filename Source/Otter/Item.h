@@ -15,7 +15,7 @@ class OTTER_API AItem : public AActor
 {
 	GENERATED_BODY()
 
-	// Used to detect overlaps with ItemCharacter
+	// Detect overlaps with character
 	UPROPERTY(VisibleAnywhere)
 	USphereComponent* OverlapSphere;
 
