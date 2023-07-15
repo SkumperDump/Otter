@@ -2467,8 +2467,6 @@
   /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/SolarSystem.h \
   Runtime/Core/Public/CoreMinimal.h \
   Runtime/Engine/Classes/GameFramework/Actor.h \
-  /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/Planet.h \
-  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/Planet.generated.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/SolarSystem.generated.h \
   Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
-  Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
-  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/SolarSystem.generated.h
+  Runtime/CoreUObject/Public/UObject/ScriptMacros.h

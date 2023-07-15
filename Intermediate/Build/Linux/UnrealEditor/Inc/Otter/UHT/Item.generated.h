@@ -20,12 +20,12 @@ struct FHitResult;
 #define FID_Documents_Unreal_Projects_Otter_Source_Otter_Item_h_16_SPARSE_DATA
 #define FID_Documents_Unreal_Projects_Otter_Source_Otter_Item_h_16_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execOnOverlap);
+	DECLARE_FUNCTION(execOnBeginOverlap);
 
 
 #define FID_Documents_Unreal_Projects_Otter_Source_Otter_Item_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execOnOverlap);
+	DECLARE_FUNCTION(execOnBeginOverlap);
 
 
 #define FID_Documents_Unreal_Projects_Otter_Source_Otter_Item_h_16_ACCESSORS

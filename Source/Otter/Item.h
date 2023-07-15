@@ -15,26 +15,9 @@ class OTTER_API AItem : public AActor
 {
 	GENERATED_BODY()
 
-	// Character that is holding this item
-	UPROPERTY(EditAnywhere)
-	AOtterCharacter* ItemChararcter;
-
-	// Item mesh
-	UPROPERTY(EditAnywhere)
-	USkeletalMeshComponent* ItemMesh;
-
-	// Used to detect overlaps
-	UPROPERTY(EditAnywhere)
+	// Used to detect overlaps with ItemCharacter
+	UPROPERTY(VisibleAnywhere)
 	USphereComponent* OverlapSphere;
-	
-	// Bool for item and character status
-	UPROPERTY(EditAnywhere)
-	bool bItemWithCharacter;
-
-	// What to do when overlapping with AOtterCharacter
-	// See PrimitiveComponent.h
-	UFUNCTION()
-	void OnOverlap(UPrimitiveComponent* OverlapComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, int foo, bool poo, const FHitResult& moo);
 
 protected:
 
@@ -46,4 +29,11 @@ public:
 	// Sets default values for this actor's properties
 	AItem();
 	
+	// Item mesh
+	UPROPERTY(EditAnywhere)
+	USkeletalMeshComponent* ItemMesh;
+	
+	// What to do when overlapping with ItemCharacter
+	UFUNCTION()
+	void OnBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 };

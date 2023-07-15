@@ -15,6 +15,8 @@ APlanet::APlanet()
 	PlanetMesh = CreateDefaultSubobject<UStaticMeshComponent>(FName{"Planet Mesh"});
 	PlanetMesh->SetupAttachment(GetRootComponent());
 
+	SolarSystemActor = nullptr;
+
 }
 
 // Called when the game starts or when spawned

@@ -21,29 +21,25 @@ AItem::AItem()
 	OverlapSphere = CreateDefaultSubobject<USphereComponent>(FName {"Overlap Sphere"});
 	OverlapSphere->SetupAttachment(ItemMesh);
 	
-	// Register delegate with system
-	OverlapSphere->OnComponentBeginOverlap.AddDynamic(this, &AItem::OnOverlap);
-
-
+	// OnBeginOverlap called for beginning of overlap event with this component
+	OverlapSphere->OnComponentBeginOverlap.AddDynamic(this, &AItem::OnBeginOverlap);
 }
 
 void AItem::BeginPlay()
 {
-	// Call the base class  
 	Super::BeginPlay();
 }
 
-void AItem::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+void AItem::OnBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	// Display to HUD
-	UE_LOG(LogTemp, Warning, TEXT("Overlap With AItem"));
+	UE_LOG(LogTemp, Warning, TEXT("Begin Overlap With AItem"));
 
-	// Down cast to our character
-	AOtterCharacter* Character = Cast<AOtterCharacter>(OtherActor);
-	
-	if(Character != nullptr && Character->GetCharacterInteract())
+	auto Character {Cast<AOtterCharacter>(OtherActor)};
+
+	// Assign item to character 
+	if (Character != nullptr)
 	{
-		// Attatch to our player character
-		ItemMesh->AttachToComponent(Character->GetMesh(), FAttachmentTransformRules { EAttachmentRule::SnapToTarget, true }, FName { "GripPoint" });
+		Character->GrabbableItem = ItemMesh;
 	}
+
 }

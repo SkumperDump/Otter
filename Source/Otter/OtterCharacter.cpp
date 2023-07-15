@@ -16,12 +16,11 @@
 
 AOtterCharacter::AOtterCharacter()
 {
-	
+	// No grabbable item at start
+	GrabbableItem = nullptr;
+
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
-
-	// Character not interacting
-	bCharacterInteract = false;
 
 	// Start with third person camera
 	bUseFirstPersonCamera = false;
@@ -34,14 +33,13 @@ AOtterCharacter::AOtterCharacter()
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 
 	// Create a camera boom (pulls in towards the player if there is a collision)
-	ThirdPersonCameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("ThirdPersonCameraBoom"));
-	ThirdPersonCameraBoom->SetupAttachment(GetCapsuleComponent());
-	ThirdPersonCameraBoom->bUsePawnControlRotation = true; // Controller rotates boom
+	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
+	CameraBoom->SetupAttachment(GetCapsuleComponent());
+	CameraBoom->bUsePawnControlRotation = true; // Controller rotates boom
 
 	// Create a player camera
 	PlayerCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("PlayerCamera"));
-	PlayerCamera->SetupAttachment(ThirdPersonCameraBoom, USpringArmComponent::SocketName);
-
+	PlayerCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
 }
 
 void AOtterCharacter::BeginPlay()
@@ -57,8 +55,6 @@ void AOtterCharacter::BeginPlay()
 			Subsystem->AddMappingContext(DefaultMappingContext, 0);
 		}
 	}
-
-	// Setup HUD
 }
 
 void AOtterCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
@@ -81,8 +77,7 @@ void AOtterCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInp
 		EnhancedInputComponent->BindAction(SwapCameraAction, ETriggerEvent::Completed, this, &AOtterCharacter::SwapCamera);
 
 		// Interact with a given volume using capsule component
-		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Triggered, this, &AOtterCharacter::InteractStart);
-		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Completed, this, &AOtterCharacter::InteractComplete);
+		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Triggered, this, &AOtterCharacter::Interact);
 	}
 }
 
@@ -141,7 +136,7 @@ void AOtterCharacter::SwapCamera(const FInputActionValue& Value)
 		else
 		{
 			// Third person mode
-			PlayerCamera->AttachToComponent(ThirdPersonCameraBoom, FAttachmentTransformRules {EAttachmentRule::KeepRelative, false});
+			PlayerCamera->AttachToComponent(CameraBoom, FAttachmentTransformRules {EAttachmentRule::KeepRelative, false});
 
 			// Reset camera rotation relative to actor space
 			PlayerCamera->SetRelativeRotation(FRotator {}, false);
@@ -156,21 +151,19 @@ void AOtterCharacter::SwapCamera(const FInputActionValue& Value)
 	}
 }
 
-void AOtterCharacter::InteractStart(const FInputActionValue& Value)
+void AOtterCharacter::Interact(const FInputActionValue& Value)
 {
 	if (Controller != nullptr)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Interact Start"));
-		bCharacterInteract = true;
-	}
-}
+		UE_LOG(LogTemp, Warning, TEXT("Interact Key Pressed"));
 
-void AOtterCharacter::InteractComplete(const FInputActionValue& Value)
-{
-	if (Controller != nullptr)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("Interact Complete"));
-		bCharacterInteract = false;
+		if (GrabbableItem != nullptr)
+		{
+			// Attatch item mesh to our character mesh
+			GrabbableItem->AttachToComponent(GetMesh(), FAttachmentTransformRules { EAttachmentRule::SnapToTarget, true }, FName { "GripPoint" });
+			// Put item in our inventory
+			Inventory.Add(GrabbableItem->GetAttachParentActor());
+		}
 	}
 }
 

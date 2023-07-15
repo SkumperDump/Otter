@@ -7,6 +7,7 @@
 #include "Planet.generated.h"
 
 class UStaticMeshComponent;
+class ASolarSystem;
 
 UCLASS()
 class OTTER_API APlanet : public AActor
@@ -27,5 +28,9 @@ public:
 	// Terrain of planet
 	UPROPERTY(EditAnywhere)
 	UStaticMeshComponent* PlanetMesh;
+	
+	// Solar system we are in
+	UPROPERTY(EditAnywhere)
+	ASolarSystem* SolarSystemActor;
 	
 };

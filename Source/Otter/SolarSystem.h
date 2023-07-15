@@ -4,10 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "Planet.h"
 #include "SolarSystem.generated.h"
 
 class USphereComponent;
+class APlanet;
 
 UCLASS()
 class OTTER_API ASolarSystem : public AActor
@@ -17,20 +17,13 @@ class OTTER_API ASolarSystem : public AActor
 	// Used to generate a random floating point number
 	float GetRandomFloat();
 
-	// This will represent the center of the solar system
-	UPROPERTY(EditAnywhere)
-	USphereComponent* Sun;
-	
-	// TODO
-	// Initialize this array in AActor::OnConstrucion() function for in editor proc-gen
-	// Array will hold Planet Class (BP_Planet)
-	UPROPERTY(EditAnywhere)
-	TArray<APlanet*> PlanetArray;
-	
 protected:
 	
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	// Called on in editor recompile
+	virtual void OnConstruction(const FTransform& Transform);
 
 public:	
 
@@ -39,4 +32,16 @@ public:
 
 	// Sets default values for this actor's properties
 	ASolarSystem();
+	
+	// Number of planets in solar system
+	UPROPERTY(EditAnywhere)
+	int PlanetCount;
+
+	// This will represent the center of the solar system
+	UPROPERTY(VisibleAnywhere)
+	USphereComponent* Sun;
+	
+	// Array will hold parent class of (BP_Planet)
+	UPROPERTY(VisibleAnywhere)
+	TArray<APlanet*> PlanetArray;
 };
