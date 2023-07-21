@@ -7,49 +7,38 @@
 #include "SolarSystem.generated.h"
 
 class USphereComponent;
-class APlanet;
 
 UCLASS()
 class OTTER_API ASolarSystem : public AActor
 {
 	GENERATED_BODY()
-
-	// Used to generate a random floating point number
-	float GetRandomFloat();
-
-protected:
 	
-	// Called when the game starts or when spawned
+	// Called when the game starts
 	virtual void BeginPlay() override;
-
-	// Called on editor recompile
-	virtual void OnConstruction(const FTransform& Transform);
-
-public:	
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	// Sets default values for this actor's properties
+	// Called when game ends
+	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
+
+public:	
+
+	// Construct CDO
 	ASolarSystem();
 	
 	// Number of planets in solar system
 	UPROPERTY(EditAnywhere)
 	int PlanetCount;
 
-	// This will represent the center of the solar system
+	// Center of the solar system
 	UPROPERTY(EditAnywhere)
 	USphereComponent* Sun;
 	
-	// Base mesh to use for planets
-	UPROPERTY(EditAnywhere)
-	UStaticMesh* PlanetBaseMesh;
-
-	// Base material to use for planets
-	UPROPERTY(EditAnywhere)
-	UMaterialInstance* PlanetBaseMaterialInstance;
+	// Default planet blueprint class
+	TSubclassOf<AActor> DefaultPlanetClass;
 	
-	// Array will hold parent class of (BP_Planet)
+	// Array of pointers to planet blueprint classes
 	UPROPERTY(VisibleAnywhere)
-	TArray<TObjectPtr<APlanet>> PlanetArray;
+	TArray<TObjectPtr<AActor>> PlanetArray;
 };

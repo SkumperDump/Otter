@@ -1,0 +1,47 @@
+Generating report for minidump
+
+Application version 5.2.1.0
+ ... built from changelist 0
+
+OS version Linux 6.4.3-arch1-2 (network name: skump)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x00000000000001c8"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-Otter.so!UOtterMovementComponent::BeginPlay() [/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterMovementComponent.cpp:17]
+libUnrealEditor-Engine.so!AActor::BeginPlay() [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/Actor.cpp:4152]
+libUnrealEditor-Engine.so!AActor::DispatchBeginPlay(bool) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/Actor.cpp:4113]
+libUnrealEditor-Engine.so!AActor::PostActorConstruction() [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/Actor.cpp:3901]
+libUnrealEditor-Engine.so!AActor::FinishSpawning(UE::Math::TTransform<double> const&, bool, FComponentInstanceDataCache const*, ESpawnActorScaleMethod) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/Actor.cpp:3800]
+libUnrealEditor-Engine.so!AActor::PostSpawnInitialize(UE::Math::TTransform<double> const&, AActor*, APawn*, bool, bool, bool, ESpawnActorScaleMethod) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/Actor.cpp:3737]
+libUnrealEditor-Engine.so!UWorld::SpawnActor(UClass*, UE::Math::TTransform<double> const*, FActorSpawnParameters const&) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/LevelActor.cpp:706]
+libUnrealEditor-Otter.so!ASolarSystem::BeginPlay() [/home/skump/Documents/Unreal Projects/Otter/Source/Otter/SolarSystem.cpp:42]
+libUnrealEditor-Engine.so!AActor::DispatchBeginPlay(bool) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/Actor.cpp:4113]
+libUnrealEditor-Engine.so!AWorldSettings::NotifyBeginPlay() [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/WorldSettings.cpp:281]
+libUnrealEditor-Engine.so!AGameStateBase::HandleBeginPlay() [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/GameStateBase.cpp:225]
+libUnrealEditor-Engine.so!AGameModeBase::StartPlay() [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/GameModeBase.cpp:197]
+libUnrealEditor-Engine.so!UWorld::BeginPlay() [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/World.cpp:4874]
+libUnrealEditor-Engine.so!UGameInstance::StartPlayInEditorGameInstance(ULocalPlayer*, FGameInstancePIEParameters const&) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/GameInstance.cpp:552]
+libUnrealEditor-UnrealEd.so!UEditorEngine::CreateInnerProcessPIEGameInstance(FRequestPlaySessionParams&, FGameInstancePIEParameters const&, int) [/home/skump/UnrealEngine/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:3225]
+libUnrealEditor-UnrealEd.so!UEditorEngine::OnLoginPIEComplete_Deferred(int, bool, FString, FPieLoginStruct) [/home/skump/UnrealEngine/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:1679]
+libUnrealEditor-UnrealEd.so!UEditorEngine::CreateNewPlayInEditorInstance(FRequestPlaySessionParams&, bool, EPlayNetMode) [/home/skump/UnrealEngine/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:1939]
+libUnrealEditor-UnrealEd.so!UEditorEngine::StartPlayInEditorSession(FRequestPlaySessionParams&) [/home/skump/UnrealEngine/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:2952]
+libUnrealEditor-UnrealEd.so!UEditorEngine::StartQueuedPlaySessionRequestImpl() [/home/skump/UnrealEngine/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:1244]
+libUnrealEditor-UnrealEd.so!UEditorEngine::StartQueuedPlaySessionRequest() [/home/skump/UnrealEngine/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:1156]
+libUnrealEditor-UnrealEd.so!UEditorEngine::Tick(float, bool) [/home/skump/UnrealEngine/Engine/Source/./Editor/UnrealEd/Private/EditorEngine.cpp:1791]
+libUnrealEditor-UnrealEd.so!UUnrealEdEngine::Tick(float, bool) [/home/skump/UnrealEngine/Engine/Source/./Editor/UnrealEd/Private/UnrealEdEngine.cpp:516]
+UnrealEditor!FEngineLoop::Tick() [/home/skump/UnrealEngine/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5806]
+UnrealEditor!GuardedMain(char16_t const*) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Launch/Private/Launch.cpp:190]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/skump/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x2384f)
+libc.so.6!__libc_start_main(+0x89)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

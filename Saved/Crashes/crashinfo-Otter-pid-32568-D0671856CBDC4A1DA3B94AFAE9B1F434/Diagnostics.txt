@@ -1,0 +1,104 @@
+Generating report for minidump
+
+Application version 5.2.1.0
+ ... built from changelist 0
+
+OS version Linux 6.4.3-arch1-2 (network name: skump)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x0000000000000060"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-UnrealEd.so!UAssetEditorSubsystem::FindEditorsForAssetAndSubObjects(UObject*) [/home/skump/UnrealEngine/Engine/Source/./Editor/UnrealEd/Private/Subsystems/AssetEditorSubsystem.cpp:125]
+libUnrealEditor-UnrealEd.so!UAssetEditorSubsystem::CloseAllEditorsForAsset(UObject*) [/home/skump/UnrealEngine/Engine/Source/./Editor/UnrealEd/Private/Subsystems/AssetEditorSubsystem.cpp:140]
+libUnrealEditor-UnrealEd.so!UEditorEngine::EndPlayMap() [/home/skump/UnrealEngine/Engine/Source/./Editor/UnrealEd/Private/PlayLevel.cpp:410]
+libUnrealEditor-UnrealEd.so!FAssetEditorViewportLayout::~FAssetEditorViewportLayout() [/home/skump/UnrealEngine/Engine/Source/./Editor/UnrealEd/Private/AssetEditorViewportLayout.cpp:139]
+libUnrealEditor-LevelEditor.so!FLevelViewportLayout::~FLevelViewportLayout() [/home/skump/UnrealEngine/Engine/Source/./Editor/LevelEditor/Private/LevelViewportLayout.cpp:74]
+libUnrealEditor-LevelEditor.so!FLevelViewportLayout::~FLevelViewportLayout() [/home/skump/UnrealEngine/Engine/Source/./Editor/LevelEditor/Private/LevelViewportLayout.cpp:61]
+libUnrealEditor-LevelEditor.so!FViewportTabContent::~FViewportTabContent() [/home/skump/UnrealEngine/Engine/Source/Editor/EditorFramework/Public/ViewportTabContent.h:28]
+libUnrealEditor-LevelEditor.so!FLevelViewportTabContent::~FLevelViewportTabContent() [/home/skump/UnrealEngine/Engine/Source/./Editor/LevelEditor/Private/LevelViewportTabContent.cpp:44]
+libUnrealEditor-UnrealEd.so!SAssetEditorViewportsOverlay::~SAssetEditorViewportsOverlay() [/home/skump/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/AssetEditorViewportLayout.h:68]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-MoviePlayer.so!SharedPointerInternals::TIntrusiveReferenceController<SBorder, (ESPMode)1>::DestroyObject() [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-SlateCore.so!SOverlay::FOverlaySlot::~FOverlaySlot() [/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets/SOverlay.h:41]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SOverlay, (ESPMode)1>::DestroyObject() [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Engine.so!SVerticalBox::FSlot::~FSlot() [/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets/SBoxPanel.h:337]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SVerticalBox, (ESPMode)1>::DestroyObject() [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Slate.so!SDockingTabStack::~SDockingTabStack() [/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Docking/SDockingTabStack.h:51]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Slate.so!SSplitter::FSlot::~FSlot() [/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets/Layout/SSplitter.h:64]
+libUnrealEditor-Slate.so!SharedPointerInternals::TIntrusiveReferenceController<SSplitter, (ESPMode)1>::DestroyObject() [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Slate.so!SDockingSplitter::~SDockingSplitter() [/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Docking/SDockingSplitter.h:13]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Slate.so!SSplitter::FSlot::~FSlot() [/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets/Layout/SSplitter.h:64]
+libUnrealEditor-Slate.so!SharedPointerInternals::TIntrusiveReferenceController<SSplitter, (ESPMode)1>::DestroyObject() [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Slate.so!SDockingSplitter::~SDockingSplitter() [/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Docking/SDockingSplitter.h:13]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Slate.so!SSplitter::FSlot::~FSlot() [/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets/Layout/SSplitter.h:64]
+libUnrealEditor-Slate.so!SharedPointerInternals::TIntrusiveReferenceController<SSplitter, (ESPMode)1>::DestroyObject() [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Engine.so!SHorizontalBox::FSlot::~FSlot() [/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets/SBoxPanel.h:234]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SHorizontalBox, (ESPMode)1>::DestroyObject() [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-SlateCore.so!SOverlay::FOverlaySlot::~FOverlaySlot() [/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets/SOverlay.h:41]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SOverlay, (ESPMode)1>::DestroyObject() [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Slate.so!SDockingSplitter::~SDockingSplitter() [/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Docking/SDockingSplitter.h:13]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Engine.so!SVerticalBox::FSlot::~FSlot() [/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets/SBoxPanel.h:337]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SVerticalBox, (ESPMode)1>::DestroyObject() [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-LevelEditor.so!SLevelEditor::~SLevelEditor() [/home/skump/UnrealEngine/Engine/Source/./Editor/LevelEditor/Private/SLevelEditor.cpp:420]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-MoviePlayer.so!SharedPointerInternals::TIntrusiveReferenceController<SBorder, (ESPMode)1>::DestroyObject() [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-SlateCore.so!SOverlay::FOverlaySlot::~FOverlaySlot() [/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets/SOverlay.h:41]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SOverlay, (ESPMode)1>::DestroyObject() [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Engine.so!SVerticalBox::FSlot::~FSlot() [/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets/SBoxPanel.h:337]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SVerticalBox, (ESPMode)1>::DestroyObject() [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Slate.so!SDockingTabStack::~SDockingTabStack() [/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Docking/SDockingTabStack.h:51]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Slate.so!SSplitter::FSlot::~FSlot() [/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets/Layout/SSplitter.h:64]
+libUnrealEditor-Slate.so!SharedPointerInternals::TIntrusiveReferenceController<SSplitter, (ESPMode)1>::DestroyObject() [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Engine.so!SHorizontalBox::FSlot::~FSlot() [/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets/SBoxPanel.h:234]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SHorizontalBox, (ESPMode)1>::DestroyObject() [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-SlateCore.so!SOverlay::FOverlaySlot::~FOverlaySlot() [/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets/SOverlay.h:41]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SOverlay, (ESPMode)1>::DestroyObject() [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Slate.so!SDockingSplitter::~SDockingSplitter() [/home/skump/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Docking/SDockingSplitter.h:13]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Engine.so!SVerticalBox::FSlot::~FSlot() [/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets/SBoxPanel.h:337]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SVerticalBox, (ESPMode)1>::DestroyObject() [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-Engine.so!SVerticalBox::FSlot::~FSlot() [/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets/SBoxPanel.h:337]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SVerticalBox, (ESPMode)1>::DestroyObject() [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-SlateCore.so!SOverlay::FOverlaySlot::~FOverlaySlot() [/home/skump/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets/SOverlay.h:41]
+libUnrealEditor-Engine.so!SharedPointerInternals::TIntrusiveReferenceController<SOverlay, (ESPMode)1>::DestroyObject() [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates/SharedPointerInternals.h:379]
+libUnrealEditor-SlateCore.so!FSlotBase::~FSlotBase() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/SlotBase.cpp:111]
+libUnrealEditor-SlateCore.so!SWindow::~SWindow() [/home/skump/UnrealEngine/Engine/Source/./Runtime/SlateCore/Private/Widgets/SWindow.cpp:2047]
+libUnrealEditor-Slate.so!FSlateApplication::CloseAllWindowsImmediately() [/home/skump/UnrealEngine/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:3007]
+libUnrealEditor-Slate.so!FSlateApplication::Shutdown(bool) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:748]
+UnrealEditor!FEngineLoop::Exit() [/home/skump/UnrealEngine/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5020]
+UnrealEditor!GuardedMain(char16_t const*) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Launch/Private/Launch.cpp:203]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/skump/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x2384f)
+libc.so.6!__libc_start_main(+0x89)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

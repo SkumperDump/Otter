@@ -2469,4 +2469,12 @@
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/Planet.generated.h \
   Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
   Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
-  Runtime/Engine/Classes/Components/StaticMeshComponent.h
+  Runtime/Engine/Classes/Components/StaticMeshComponent.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterMovementComponent.h \
+  Runtime/Engine/Classes/GameFramework/MovementComponent.h \
+  Runtime/Engine/Classes/Engine/EngineTypes.h \
+  Runtime/PhysicsCore/Public/Chaos/ChaosEngineInterface.h \
+  Runtime/Engine/Classes/Components/ActorComponent.h \
+  Runtime/Engine/Classes/Components/SceneComponent.h \
+  ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/MovementComponent.generated.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterMovementComponent.generated.h

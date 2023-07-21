@@ -15,7 +15,7 @@ AItem::AItem()
 
 	// Setup item mesh
 	ItemMesh = CreateDefaultSubobject<USkeletalMeshComponent>(FName {"Item Mesh"});
-	ItemMesh->SetupAttachment(GetRootComponent());
+	RootComponent = ItemMesh;
 
 	// Setup overlap sphere
 	OverlapSphere = CreateDefaultSubobject<USphereComponent>(FName {"Overlap Sphere"});

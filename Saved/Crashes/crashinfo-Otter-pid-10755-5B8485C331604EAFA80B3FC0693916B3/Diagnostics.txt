@@ -1,0 +1,36 @@
+Generating report for minidump
+
+Application version 5.2.1.0
+ ... built from changelist 0
+
+OS version Linux 6.4.3-arch1-2 (network name: skump)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "SIGSEGV: invalid attempt to write memory at address 0x0000000000000003"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-CoreUObject.so!ConstructorHelpers::CheckIfIsInConstructor(char16_t const*) [/home/skump/UnrealEngine/Engine/Source/./Runtime/CoreUObject/Private/UObject/UObjectGlobals.cpp:4437]
+libUnrealEditor-Otter.so!ConstructorHelpers::FClassFinder<AActor>::FClassFinder(char16_t const*) [/home/skump/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject/ConstructorHelpers.h:166]
+libUnrealEditor-Otter.so!ASolarSystem::PostActorCreated() [/home/skump/Documents/Unreal Projects/Otter/Source/Otter/SolarSystem.cpp:29]
+libUnrealEditor-Engine.so!AActor::PostSpawnInitialize(UE::Math::TTransform<double> const&, AActor*, APawn*, bool, bool, bool, ESpawnActorScaleMethod) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/Actor.cpp:3731]
+libUnrealEditor-Engine.so!UWorld::SpawnActor(UClass*, UE::Math::TTransform<double> const*, FActorSpawnParameters const&) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/LevelActor.cpp:706]
+libUnrealEditor-Engine.so!UWorld::SpawnActor(UClass*, UE::Math::TVector<double> const*, UE::Math::TRotator<double> const*, FActorSpawnParameters const&) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/LevelActor.cpp:424]
+libUnrealEditor-Kismet.so!FBlueprintEditor::UpdatePreviewActor(UBlueprint*, bool) [/home/skump/UnrealEngine/Engine/Source/./Editor/Kismet/Private/BlueprintEditor.cpp:10098]
+libUnrealEditor-Kismet.so!FBlueprintEditor::Tick(float) [/home/skump/UnrealEngine/Engine/Source/./Editor/Kismet/Private/BlueprintEditor.cpp:9103]
+libUnrealEditor-UnrealEd.so!FTickableEditorObject::TickObjects(float) [/home/skump/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/TickableEditorObject.h:49]
+libUnrealEditor-UnrealEd.so!UEditorEngine::Tick(float, bool) [/home/skump/UnrealEngine/Engine/Source/./Editor/UnrealEd/Private/EditorEngine.cpp:1660]
+libUnrealEditor-UnrealEd.so!UUnrealEdEngine::Tick(float, bool) [/home/skump/UnrealEngine/Engine/Source/./Editor/UnrealEd/Private/UnrealEdEngine.cpp:516]
+UnrealEditor!FEngineLoop::Tick() [/home/skump/UnrealEngine/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5806]
+UnrealEditor!GuardedMain(char16_t const*) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Launch/Private/Launch.cpp:190]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/skump/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x2384f)
+libc.so.6!__libc_start_main(+0x89)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
