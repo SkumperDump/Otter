@@ -14,9 +14,9 @@ class OTTER_API UOtterMovementComponent : public UMovementComponent
 {
 	GENERATED_BODY()
 
-	// When spawned into game
-	virtual void BeginPlay() override;
-
 	// Component tick function
 	virtual void TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction) override;
+
+	// Gravity function for affected actors
+	void Gravity();
 };

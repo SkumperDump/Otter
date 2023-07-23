@@ -4,7 +4,7 @@
 #include "Item.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/SphereComponent.h"
-#include "OtterCharacter.h"
+//#include "OtterCharacter.h"
 
 
 // Sets default values
@@ -34,6 +34,7 @@ void AItem::OnBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 {
 	UE_LOG(LogTemp, Warning, TEXT("Begin Overlap With AItem"));
 
+	/* TODO UNCOM
 	auto Character {Cast<AOtterCharacter>(OtherActor)};
 
 	// Assign item to character 
@@ -41,5 +42,5 @@ void AItem::OnBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* Oth
 	{
 		Character->GrabbableItem = ItemMesh;
 	}
-
+	*/
 }

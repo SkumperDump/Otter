@@ -1,0 +1,58 @@
+Generating report for minidump
+
+Application version 5.2.1.0
+ ... built from changelist 0
+
+OS version Linux 6.4.4-arch1-1 (network name: skump)
+Running 8 x86_64 processors (16 logical cores)
+Exception was "SIGSEGV: invalid attempt to write memory at address 0x0000000000000003"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUnrealEditor-Engine.so!FParticleSystemWorldManager::RegisterComponent(UParticleSystemComponent*) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/Particles/ParticleSystemManager.cpp:367]
+libUnrealEditor-Engine.so!UParticleSystemComponent::SetComponentTickEnabled(bool) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/Particles/ParticleComponents.cpp:5193]
+libUnrealEditor-Engine.so!UParticleSystemComponent::ActivateSystem(bool) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/Particles/ParticleComponents.cpp:6236]
+libUnrealEditor-Engine.so!UParticleSystemComponent::Activate(bool) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/Particles/ParticleComponents.cpp:6523]
+libUnrealEditor-Engine.so!UActorComponent::OnRegister() [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/Components/ActorComponent.cpp:1035]
+libUnrealEditor-Engine.so!USceneComponent::OnRegister() [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/Components/SceneComponent.cpp:698]
+libUnrealEditor-Engine.so!UPrimitiveComponent::OnRegister() [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/Components/PrimitiveComponent.cpp:627]
+libUnrealEditor-Engine.so!UParticleSystemComponent::OnRegister() [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/Particles/ParticleComponents.cpp:4066]
+libUnrealEditor-Engine.so!UActorComponent::ExecuteRegisterEvents(FRegisterComponentContext*) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/Components/ActorComponent.cpp:1679]
+libUnrealEditor-Engine.so!UActorComponent::RegisterComponentWithWorld(UWorld*, FRegisterComponentContext*) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/Components/ActorComponent.cpp:1349]
+libUnrealEditor-Engine.so!AActor::IncrementalRegisterComponents(int, FRegisterComponentContext*) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/Actor.cpp:5378]
+libUnrealEditor-Engine.so!AActor::RegisterAllComponents() [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/Actor.cpp:5277]
+libUnrealEditor-Engine.so!AActor::PostEditChangeProperty(FPropertyChangedEvent&) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/ActorEditor.cpp:194]
+libUnrealEditor-Engine.so!APawn::PostEditChangeProperty(FPropertyChangedEvent&) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/Pawn.cpp:1103]
+libUnrealEditor-CoreUObject.so!UObject::PostEditChange() [/home/skump/UnrealEngine/Engine/Source/./Runtime/CoreUObject/Private/UObject/Obj.cpp:374]
+libUnrealEditor-Engine.so!AActor::PostEditUndo() [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/ActorEditor.cpp:724]
+libUnrealEditor-UnrealEd.so!FTransaction::Apply() [/home/skump/UnrealEngine/Engine/Source/./Editor/UnrealEd/Private/EditorTransaction.cpp:912]
+libUnrealEditor-UnrealEd.so!UTransBuffer::Undo(bool) [/home/skump/UnrealEngine/Engine/Source/./Editor/UnrealEd/Private/EditorTransaction.cpp:1538]
+libUnrealEditor-UnrealEd.so!UEditorEngine::Exec_Transaction(char16_t const*, FOutputDevice&) [/home/skump/UnrealEngine/Engine/Source/./Editor/UnrealEd/Private/EditorServer.cpp:5406]
+libUnrealEditor-UnrealEd.so!UEditorEngine::Exec_Editor(UWorld*, char16_t const*, FOutputDevice&) [/home/skump/UnrealEngine/Engine/Source/./Editor/UnrealEd/Private/EditorServer.cpp:5804]
+libUnrealEditor-Core.so!FExec::Exec(UWorld*, char16_t const*, FOutputDevice&) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Core/Private/Misc/Exec.cpp:15]
+libUnrealEditor-Engine.so!UEngine::Exec(UWorld*, char16_t const*, FOutputDevice&) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Engine/Private/UnrealEngine.cpp:4628]
+libUnrealEditor-UnrealEd.so!UUnrealEdEngine::Exec(UWorld*, char16_t const*, FOutputDevice&) [/home/skump/UnrealEngine/Engine/Source/./Editor/UnrealEd/Private/UnrealEdSrv.cpp:661]
+libUnrealEditor-Core.so!decltype(auto) UE::Core::Private::Tuple::TTupleBase<TIntegerSequence<unsigned int, 0u>, FString>::ApplyAfter<void (* const&)(FString)>(void (* const&&&)(FString)) const & [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Templates/Tuple.h:321]
+libUnrealEditor-Core.so!TBaseStaticDelegateInstance<void (), FDefaultDelegateUserPolicy, FString>::ExecuteIfSafe() const [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:656]
+libUnrealEditor-Slate.so!FUICommandList::ConditionalProcessCommandBindings(FKey, bool, bool, bool, bool, bool) const [/home/skump/UnrealEngine/Engine/Source/./Runtime/Slate/Private/Framework/Commands/UICommandList.cpp:229]
+libUnrealEditor-Slate.so!FUICommandList::ProcessCommandBindings(FKeyEvent const&) const [/home/skump/UnrealEngine/Engine/Source/./Runtime/Slate/Private/Framework/Commands/UICommandList.cpp:172]
+libUnrealEditor-MainFrame.so!FMainFrameActionCallbacks::OnUnhandledKeyDownEvent(FKeyEvent const&) [/home/skump/UnrealEngine/Engine/Source/./Editor/MainFrame/Private/Frame/MainFrameActions.cpp:269]
+libUnrealEditor-MainFrame.so!TBaseStaticDelegateInstance<FReply (FKeyEvent const&), FDefaultDelegateUserPolicy>::Execute(FKeyEvent const&) const [/home/skump/UnrealEngine/Engine/Source/Runtime/Core/Public/Delegates/DelegateInstancesImpl.h:648]
+libUnrealEditor-Slate.so!FSlateApplication::ProcessKeyDownEvent(FKeyEvent const&) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:4643]
+libUnrealEditor-Slate.so!FSlateApplication::OnKeyDown(int, unsigned int, bool) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:4530]
+libUnrealEditor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/home/skump/UnrealEngine/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:308]
+libUnrealEditor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/home/skump/UnrealEngine/Engine/Source/./Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:436]
+UnrealEditor!FEngineLoop::Tick() [/home/skump/UnrealEngine/Engine/Source/./Runtime/Launch/Private/LaunchEngineLoop.cpp:5730]
+UnrealEditor!GuardedMain(char16_t const*) [/home/skump/UnrealEngine/Engine/Source/./Runtime/Launch/Private/Launch.cpp:190]
+libUnrealEditor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/skump/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:269]
+libc.so.6!UnknownFunction(0x2384f)
+libc.so.6!__libc_start_main(+0x89)
+UnrealEditor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

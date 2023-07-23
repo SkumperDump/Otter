@@ -40,7 +40,7 @@
 		"directory": "/home/skump/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterCharacter.cpp",
+		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterController.cpp",
 		"arguments": [
 			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
 			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Default/Otter.262.rsp"
@@ -48,7 +48,7 @@
 		"directory": "/home/skump/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterCharacter.h",
+		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterController.h",
 		"arguments": [
 			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
 			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Default/Otter.262.rsp"
@@ -81,6 +81,38 @@
 	},
 	{
 		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterMovementComponent.h",
+		"arguments": [
+			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Default/Otter.262.rsp"
+		],
+		"directory": "/home/skump/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterPlayer.cpp",
+		"arguments": [
+			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Default/Otter.262.rsp"
+		],
+		"directory": "/home/skump/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterPlayer.h",
+		"arguments": [
+			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Default/Otter.262.rsp"
+		],
+		"directory": "/home/skump/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterVehicle.cpp",
+		"arguments": [
+			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Default/Otter.262.rsp"
+		],
+		"directory": "/home/skump/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterVehicle.h",
 		"arguments": [
 			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
 			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Default/Otter.262.rsp"
