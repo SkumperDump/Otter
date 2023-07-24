@@ -9,6 +9,8 @@
 class APlanet;
 class ASolarSystem;
 
+/** This is used to represent physics and whatnot for the game */
+
 UCLASS()
 class OTTER_API UOtterMovementComponent : public UMovementComponent
 {

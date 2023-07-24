@@ -20,16 +20,17 @@ void UOtterMovementComponent::Gravity()
 	if (ActorRoot != nullptr)
 	{
 		// Get vector of location relative to world origin
+		// Our world origin is assumed to be some central massive object akin to the sun in our solar sytem
 		auto DistanceFromSun = ActorRoot->GetComponentLocation();
 
 		// Convert to unit vector
 		auto GravityUnitVector = DistanceFromSun / DistanceFromSun.Size();
 
 		// Reverse and mult to produce vector representing the acceleration due to gravity
-		auto GravityVector = GravityUnitVector * (-10);
+		auto GravityVector = GravityUnitVector * (-100);
 
-		// Add impulse (kg * m/s) towards world origin (should be the sun and or center of solar system)
-		ActorRoot->AddImpulse(GravityVector); // Mesh must already have physics enabled 
+		// Add impulse (kg * m/s) towards world origin
+		ActorRoot->AddImpulse(GravityVector); // Mesh must have physics enabled 
 
 		// Check if our parent is of type APlanet, otherwise use impulses from exteneral forces only
 		if (GetOwner()->IsA(APlanet::StaticClass()))

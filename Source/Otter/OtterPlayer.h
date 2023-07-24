@@ -4,82 +4,45 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "InputActionValue.h"
 #include "OtterPlayer.generated.h"
 
-class UPrimitiveComponent;
 class UCameraComponent;
 class USpringArmComponent;
 class USkeletalMeshComponent;
-class UInputAction;
-class UInputMappingContext;
 class AItem;
+class AOtterController;
 
 UCLASS()
 class OTTER_API AOtterPlayer : public AActor
 {
 	GENERATED_BODY()
-	
-	// Should we use first person camera
-	UPROPERTY(VisibleAnywhere)
-	bool bUseFirstPersonCamera;
 
 	// Player skeleton mesh
 	UPROPERTY(EditAnywhere)
-	USkeletalMeshComponent* PlayerSkeletalMesh;
+	TObjectPtr<USkeletalMeshComponent> PlayerSkeletalMesh;
 
 	// Camera boom positioning the camera around the character
-	UPROPERTY(VisibleAnywhere)
-	USpringArmComponent* CameraBoom;
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<USpringArmComponent> CameraBoom;
 
 	// Player camera
 	UPROPERTY(VisibleAnywhere)
-	UCameraComponent* PlayerCamera;
+	TObjectPtr<UCameraComponent> PlayerCamera;
 
 	// Inventory as AActor array
 	UPROPERTY(VisibleAnywhere)
-	TArray<AActor*> PlayerInventory;
+	TArray<TObjectPtr<AActor>> PlayerInventory;
 
-	/**INPUT*/
-	
-	// MappingContext
-	UPROPERTY(EditAnywhere)
-	UInputMappingContext* DefaultMappingContext;
+	// Item that can be grabbed
+	UPROPERTY(VisibleAnywhere)
+	TObjectPtr<USkeletalMeshComponent> GrabbableItem;
 
-	// Jump Input Action
-	UPROPERTY(EditAnywhere)
-	UInputAction* JumpAction;
+	// Player controller
+	UPROPERTY(VisibleAnywhere)
+	TObjectPtr<AOtterController> PlayerController;
 
-	// Move Input Action
-	UPROPERTY(EditAnywhere)
-	UInputAction* MoveAction;
-
-	// Look Input Action
-	UPROPERTY(EditAnywhere)
-	UInputAction* LookAction;
-
-	// Swap Camera Input Action
-	UPROPERTY(EditAnywhere)
-	UInputAction* SwapCameraAction;
-
-	// Interact Input Action
-	UPROPERTY(EditAnywhere)
-	UInputAction* InteractAction;
-
-	// Called for movement input
-	void Move(const FInputActionValue& Value);
-
-	// Called for looking input
-	void Look(const FInputActionValue& Value);
-
-	// Called to swap camera
-	void SwapCamera(const FInputActionValue& Value);
-	
-	// Called to start an interaction
-	void Interact(const FInputActionValue& Value);
-	
 	// Mapping context applied here
-	virtual void BeginPlay();
+	virtual void BeginPlay() override;
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -89,7 +52,5 @@ public:
 	// Sets default values for this actor's properties
 	AOtterPlayer();
 
-	// Item that can be grabbed
-	UPROPERTY(VisibleAnywhere)
-	TObjectPtr<USkeletalMeshComponent> GrabbableItem;
+	auto GetGrabbableItem() { return GrabbableItem; }
 };

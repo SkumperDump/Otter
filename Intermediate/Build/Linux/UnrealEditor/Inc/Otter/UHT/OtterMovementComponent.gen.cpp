@@ -37,8 +37,10 @@ void EmptyLinkFunctionForGeneratedCodeOtterMovementComponent() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOtterMovementComponent_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "/** This is used to represent physics and whatnot for the game */" },
 		{ "IncludePath", "OtterMovementComponent.h" },
 		{ "ModuleRelativePath", "OtterMovementComponent.h" },
+		{ "ToolTip", "This is used to represent physics and whatnot for the game" },
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UOtterMovementComponent_Statics::StaticCppClassTypeInfo = {
@@ -79,9 +81,9 @@ void EmptyLinkFunctionForGeneratedCodeOtterMovementComponent() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterMovementComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UOtterMovementComponent, UOtterMovementComponent::StaticClass, TEXT("UOtterMovementComponent"), &Z_Registration_Info_UClass_UOtterMovementComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOtterMovementComponent), 3443118362U) },
+		{ Z_Construct_UClass_UOtterMovementComponent, UOtterMovementComponent::StaticClass, TEXT("UOtterMovementComponent"), &Z_Registration_Info_UClass_UOtterMovementComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOtterMovementComponent), 3690751599U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterMovementComponent_h_1693011693(TEXT("/Script/Otter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterMovementComponent_h_1547753461(TEXT("/Script/Otter"),
 		Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterMovementComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterMovementComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
