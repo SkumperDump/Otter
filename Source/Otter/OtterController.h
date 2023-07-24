@@ -16,8 +16,8 @@ class OTTER_API AOtterController : public APlayerController
 {
 	GENERATED_BODY()
 
-	// Our player
-	TObjectPtr<UObject> OwnerPtr;
+	// Our owning actor
+	TObjectPtr<AActor> OwnerPtr;
 
 	// Initialize input component of our owning actor
 	void SetupInputComponent() override;

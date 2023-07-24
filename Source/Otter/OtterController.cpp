@@ -10,8 +10,6 @@
 
 AOtterController::AOtterController()
 {
-	// Get owner of this actor
-	// TODO may have to set manually
 	OwnerPtr = GetOwner();
 
 	// Start in first person
@@ -49,23 +47,27 @@ void AOtterController::SetupInputComponent()
 
 void AOtterController::Jump()
 {
+	UE_LOG(LogTemp, Warning, TEXT("Jump"));
 	// Add impulse upwards
 	AddImpulseToRootPrimitive(FVector {0, 0, 1});
 }
 
 void AOtterController::Move(const FInputActionValue& Value)
 {
+	UE_LOG(LogTemp, Warning, TEXT("Move"));
 	// Add impulse in direction of movement
 	AddImpulseToRootPrimitive(Value.Get<FVector>());
 }
 
 void AOtterController::Look(const FInputActionValue& Value)
 {
+	UE_LOG(LogTemp, Warning, TEXT("Look"));
 	// Rotate camera
 }
 
 void AOtterController::SwapCamera(const FInputActionValue& Value)
 {
+	UE_LOG(LogTemp, Warning, TEXT("Swap Camera"));
 	if (bUseFirstPersonCamera)
 	{
 		// First person mode
@@ -79,6 +81,7 @@ void AOtterController::SwapCamera(const FInputActionValue& Value)
 
 void AOtterController::Interact(const FInputActionValue& Value)
 {
+	UE_LOG(LogTemp, Warning, TEXT("Interact"));
 	if (Cast<AOtterPlayer>(OwnerPtr)->GetGrabbableItem() != nullptr)
 	{
 		// Attatch item mesh to our character mesh

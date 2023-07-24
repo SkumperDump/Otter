@@ -20,7 +20,7 @@ AOtterPlayer::AOtterPlayer()
 	// No grabbable item at start
 	GrabbableItem = nullptr;
 
-	PlayerSkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>(FName {"Player Skeletal Mesh"});
+	PlayerSkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>(FName {"Player Mesh"});
 	SetRootComponent(PlayerSkeletalMesh);
 
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(FName {"Camera Spring Arm"});

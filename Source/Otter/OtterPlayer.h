@@ -26,7 +26,7 @@ class OTTER_API AOtterPlayer : public AActor
 	TObjectPtr<USpringArmComponent> CameraBoom;
 
 	// Player camera
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(EditAnywhere)
 	TObjectPtr<UCameraComponent> PlayerCamera;
 
 	// Inventory as AActor array
@@ -38,7 +38,7 @@ class OTTER_API AOtterPlayer : public AActor
 	TObjectPtr<USkeletalMeshComponent> GrabbableItem;
 
 	// Player controller
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(EditAnywhere)
 	TObjectPtr<AOtterController> PlayerController;
 
 	// Mapping context applied here
