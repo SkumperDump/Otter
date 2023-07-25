@@ -14,29 +14,29 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define OTTER_OtterPlayer_generated_h
 
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_18_SPARSE_DATA
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_18_RPC_WRAPPERS
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_18_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_18_ACCESSORS
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_18_INCLASS_NO_PURE_DECLS \
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_17_SPARSE_DATA
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_17_RPC_WRAPPERS
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_17_ACCESSORS
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAOtterPlayer(); \
 	friend struct Z_Construct_UClass_AOtterPlayer_Statics; \
 public: \
-	DECLARE_CLASS(AOtterPlayer, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Otter"), NO_API) \
+	DECLARE_CLASS(AOtterPlayer, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Otter"), NO_API) \
 	DECLARE_SERIALIZER(AOtterPlayer)
 
 
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_18_INCLASS \
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesAOtterPlayer(); \
 	friend struct Z_Construct_UClass_AOtterPlayer_Statics; \
 public: \
-	DECLARE_CLASS(AOtterPlayer, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Otter"), NO_API) \
+	DECLARE_CLASS(AOtterPlayer, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Otter"), NO_API) \
 	DECLARE_SERIALIZER(AOtterPlayer)
 
 
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_18_STANDARD_CONSTRUCTORS \
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AOtterPlayer(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AOtterPlayer) \
@@ -50,7 +50,7 @@ public: \
 	NO_API virtual ~AOtterPlayer();
 
 
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_18_ENHANCED_CONSTRUCTORS \
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AOtterPlayer(AOtterPlayer&&); \
@@ -62,27 +62,27 @@ public: \
 	NO_API virtual ~AOtterPlayer();
 
 
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_15_PROLOG
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_18_GENERATED_BODY_LEGACY \
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_14_PROLOG
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_18_SPARSE_DATA \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_18_RPC_WRAPPERS \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_18_ACCESSORS \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_18_INCLASS \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_18_STANDARD_CONSTRUCTORS \
+	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_17_SPARSE_DATA \
+	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_17_RPC_WRAPPERS \
+	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_17_ACCESSORS \
+	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_17_INCLASS \
+	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_18_GENERATED_BODY \
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_18_SPARSE_DATA \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_18_ACCESSORS \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_18_INCLASS_NO_PURE_DECLS \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_18_ENHANCED_CONSTRUCTORS \
+	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_17_SPARSE_DATA \
+	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_17_ACCESSORS \
+	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterPlayer_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

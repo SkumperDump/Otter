@@ -3,30 +3,32 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
+#include "GameFramework/Pawn.h"
 #include "OtterPlayer.generated.h"
 
 class UCameraComponent;
 class USpringArmComponent;
 class USkeletalMeshComponent;
 class AItem;
-class AOtterController;
 
 UCLASS()
-class OTTER_API AOtterPlayer : public AActor
+class OTTER_API AOtterPlayer : public APawn
 {
 	GENERATED_BODY()
+
+	// Bool for switching camera
+	bool bUseFirstPersonCamera;
 
 	// Player skeleton mesh
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<USkeletalMeshComponent> PlayerSkeletalMesh;
 
-	// Camera boom positioning the camera around the character
+	// Spring arm for camera
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<USpringArmComponent> CameraBoom;
 
 	// Player camera
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<UCameraComponent> PlayerCamera;
 
 	// Inventory as AActor array
@@ -37,18 +39,15 @@ class OTTER_API AOtterPlayer : public AActor
 	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<USkeletalMeshComponent> GrabbableItem;
 
-	// Player controller
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<AOtterController> PlayerController;
+protected:
 
 	// Mapping context applied here
 	virtual void BeginPlay() override;
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-	
-public:
 
+public:
 	// Sets default values for this actor's properties
 	AOtterPlayer();
 

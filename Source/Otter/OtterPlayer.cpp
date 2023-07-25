@@ -4,9 +4,8 @@
 #include "OtterPlayer.h"
 #include "OtterController.h"
 #include "Camera/CameraComponent.h"
-#include "Components/CapsuleComponent.h"
-#include "Engine/LocalPlayer.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "Engine/LocalPlayer.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
 
@@ -35,16 +34,19 @@ void AOtterPlayer::BeginPlay()
 	// Call the base class  
 	Super::BeginPlay();
 
-	// Get enhanced input subsys for the local player of this actor class
-	if (auto Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(Cast<ULocalPlayer>(this)))
+	if (auto PawnController = Cast<AOtterController>(Controller))
 	{
-		// Add mapping context and give it highest priority (0)
-		Subsystem->AddMappingContext(PlayerController->GetDefaultMappingContext(), 0);
-	}
+		// Get enhanced input subsys for player associated with our controller
+		if (auto Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(PawnController->GetLocalPlayer()))
+		{
+			// Add mapping context and give it highest priority (0)
+			UE_LOG(LogTemp, Warning, TEXT("Setting Mapping Context"));
+			Subsystem->AddMappingContext(PawnController->GetDefaultMappingContext(), 0);
+		}
+	} 
 }
 
 void AOtterPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }

@@ -8,7 +8,6 @@
 
 class UInputAction;
 class UInputMappingContext;
-class AOtterPlayer;
 struct FInputActionValue;
 
 UCLASS()
@@ -16,19 +15,11 @@ class OTTER_API AOtterController : public APlayerController
 {
 	GENERATED_BODY()
 
-	// Our owning actor
-	TObjectPtr<AActor> OwnerPtr;
+	// Bool use first person camera 
+	bool bUseFirstPersonCamera {false};
 
 	// Initialize input component of our owning actor
 	void SetupInputComponent() override;
-
-	// Bool for camera switch
-	bool bUseFirstPersonCamera;
-
-	// Function for moving our associated player
-	void AddImpulseToRootPrimitive(const FVector& ImpulseVector);
-	
-	/** INPUT VARIALBES */
 	
 	// MappingContext
 	UPROPERTY(EditAnywhere)
@@ -54,8 +45,6 @@ class OTTER_API AOtterController : public APlayerController
 	UPROPERTY(EditAnywhere)
 	UInputAction* InteractAction;
 
-	/** INPUT FUCTIONS */
-
 	// Called for jump input
 	void Jump();
 
@@ -72,7 +61,5 @@ class OTTER_API AOtterController : public APlayerController
 	void Interact(const FInputActionValue& Value);
 
 public:
-	AOtterController();
-	
 	auto GetDefaultMappingContext() { return DefaultMappingContext; }
 };

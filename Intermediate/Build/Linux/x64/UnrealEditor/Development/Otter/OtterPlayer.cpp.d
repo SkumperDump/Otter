@@ -2465,7 +2465,7 @@
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/x64/UnrealEditor/Development/Otter/Definitions.Otter.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterPlayer.h \
   Runtime/Core/Public/CoreMinimal.h \
-  Runtime/Engine/Classes/GameFramework/Actor.h \
+  Runtime/Engine/Classes/GameFramework/Pawn.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterPlayer.generated.h \
   Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
   Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
@@ -2479,16 +2479,10 @@
   Runtime/Engine/Classes/Engine/Scene.h \
   Runtime/Engine/Classes/Camera/CameraTypes.h \
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/CameraComponent.generated.h \
-  Runtime/Engine/Classes/Components/CapsuleComponent.h \
-  Runtime/Engine/Classes/Components/ShapeComponent.h \
-  Runtime/CoreUObject/Public/Templates/SubclassOf.h \
-  Runtime/Engine/Classes/Components/PrimitiveComponent.h \
-  ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/ShapeComponent.generated.h \
-  ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/CapsuleComponent.generated.h \
-  Runtime/Engine/Classes/Engine/LocalPlayer.h \
   Runtime/Engine/Classes/GameFramework/SpringArmComponent.h \
   Runtime/Engine/Classes/Engine/EngineTypes.h \
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/SpringArmComponent.generated.h \
+  Runtime/Engine/Classes/Engine/LocalPlayer.h \
   ../Plugins/EnhancedInput/Source/EnhancedInput/Public/EnhancedInputComponent.h \
   Runtime/Engine/Classes/Components/InputComponent.h \
   ../Plugins/EnhancedInput/Source/EnhancedInput/Public/InputAction.h \

@@ -2,23 +2,16 @@
 
 
 #include "OtterController.h"
-#include "Components/InputComponent.h"
+#include "OtterPlayer.h"
 #include "InputActionValue.h"
+#include "Components/InputComponent.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
-#include "OtterPlayer.h"
-
-AOtterController::AOtterController()
-{
-	OwnerPtr = GetOwner();
-
-	// Start in first person
-	bUseFirstPersonCamera = true;
-}
 
 void AOtterController::SetupInputComponent()
 {
 	Super::SetupInputComponent();
+	UE_LOG(LogTemp, Warning, TEXT("Setting Up Input Component"));
 
 	// Cast AActor::InputComponent and then setup action bindings
 	if (auto EnhancedInputComponent = CastChecked<UEnhancedInputComponent>(InputComponent))
@@ -38,10 +31,6 @@ void AOtterController::SetupInputComponent()
 
 		// Interact with a given volume
 		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Triggered, this, &AOtterController::Interact);
-
-		// TODO
-		// Once all binds are set get input stack
-		// if input stack is empty, push to input stack
 	}
 }
 
@@ -49,14 +38,12 @@ void AOtterController::Jump()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Jump"));
 	// Add impulse upwards
-	AddImpulseToRootPrimitive(FVector {0, 0, 1});
 }
 
 void AOtterController::Move(const FInputActionValue& Value)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Move"));
 	// Add impulse in direction of movement
-	AddImpulseToRootPrimitive(Value.Get<FVector>());
 }
 
 void AOtterController::Look(const FInputActionValue& Value)
@@ -82,14 +69,9 @@ void AOtterController::SwapCamera(const FInputActionValue& Value)
 void AOtterController::Interact(const FInputActionValue& Value)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Interact"));
-	if (Cast<AOtterPlayer>(OwnerPtr)->GetGrabbableItem() != nullptr)
+	if (Cast<AOtterPlayer>(GetPawn())->GetGrabbableItem() != nullptr)
 	{
 		// Attatch item mesh to our character mesh
 		// Put item in our inventory
 	}
-}
-
-void AOtterController::AddImpulseToRootPrimitive(const FVector& ImpulseVector)
-{
-	Cast<UPrimitiveComponent>(OwnerPtr)->AddImpulse(ImpulseVector);
 }

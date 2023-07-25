@@ -14,11 +14,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define OTTER_OtterController_generated_h
 
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_17_SPARSE_DATA
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_17_RPC_WRAPPERS
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_17_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_17_ACCESSORS
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_17_INCLASS_NO_PURE_DECLS \
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_16_SPARSE_DATA
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_16_RPC_WRAPPERS
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_16_ACCESSORS
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAOtterController(); \
 	friend struct Z_Construct_UClass_AOtterController_Statics; \
@@ -27,7 +27,7 @@ public: \
 	DECLARE_SERIALIZER(AOtterController)
 
 
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_17_INCLASS \
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAOtterController(); \
 	friend struct Z_Construct_UClass_AOtterController_Statics; \
@@ -36,9 +36,9 @@ public: \
 	DECLARE_SERIALIZER(AOtterController)
 
 
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_17_STANDARD_CONSTRUCTORS \
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AOtterController(const FObjectInitializer& ObjectInitializer); \
+	NO_API AOtterController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AOtterController) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AOtterController); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AOtterController); \
@@ -50,7 +50,9 @@ public: \
 	NO_API virtual ~AOtterController();
 
 
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_17_ENHANCED_CONSTRUCTORS \
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_16_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API AOtterController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AOtterController(AOtterController&&); \
@@ -58,31 +60,31 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AOtterController); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AOtterController); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AOtterController) \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AOtterController) \
 	NO_API virtual ~AOtterController();
 
 
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_14_PROLOG
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_17_GENERATED_BODY_LEGACY \
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_13_PROLOG
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_17_SPARSE_DATA \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_17_RPC_WRAPPERS \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_17_ACCESSORS \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_17_INCLASS \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_17_STANDARD_CONSTRUCTORS \
+	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_16_SPARSE_DATA \
+	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_16_RPC_WRAPPERS \
+	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_16_ACCESSORS \
+	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_16_INCLASS \
+	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_17_GENERATED_BODY \
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_17_SPARSE_DATA \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_17_ACCESSORS \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_17_INCLASS_NO_PURE_DECLS \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_17_ENHANCED_CONSTRUCTORS \
+	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_16_SPARSE_DATA \
+	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_16_ACCESSORS \
+	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_16_INCLASS_NO_PURE_DECLS \
+	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -72,9 +72,9 @@ void EmptyLinkFunctionForGeneratedCodeOtterController() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AOtterController_Statics::NewProp_DefaultMappingContext_MetaData[] = {
 		{ "Category", "OtterController" },
-		{ "Comment", "/** INPUT VARIALBES */// MappingContext\n" },
+		{ "Comment", "// MappingContext\n" },
 		{ "ModuleRelativePath", "OtterController.h" },
-		{ "ToolTip", "INPUT VARIALBES // MappingContext" },
+		{ "ToolTip", "MappingContext" },
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AOtterController_Statics::NewProp_DefaultMappingContext = { "DefaultMappingContext", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AOtterController, DefaultMappingContext), Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AOtterController_Statics::NewProp_DefaultMappingContext_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AOtterController_Statics::NewProp_DefaultMappingContext_MetaData)) };
@@ -161,6 +161,7 @@ void EmptyLinkFunctionForGeneratedCodeOtterController() {}
 	{
 		return AOtterController::StaticClass();
 	}
+	AOtterController::AOtterController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AOtterController);
 	AOtterController::~AOtterController() {}
 	struct Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_Statics
@@ -168,9 +169,9 @@ void EmptyLinkFunctionForGeneratedCodeOtterController() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AOtterController, AOtterController::StaticClass, TEXT("AOtterController"), &Z_Registration_Info_UClass_AOtterController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AOtterController), 2632009128U) },
+		{ Z_Construct_UClass_AOtterController, AOtterController::StaticClass, TEXT("AOtterController"), &Z_Registration_Info_UClass_AOtterController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AOtterController), 1937700321U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_2262895420(TEXT("/Script/Otter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_2342545611(TEXT("/Script/Otter"),
 		Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterController_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
