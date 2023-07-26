@@ -2476,6 +2476,7 @@
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/ShapeComponent.generated.h \
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/SphereComponent.generated.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/Planet.h \
+  Runtime/Engine/Classes/GameFramework/Pawn.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/Planet.generated.h \
   ThirdParty/Unix/LibCxx/include/c++/v1/cstdlib \
   ThirdParty/Unix/LibCxx/include/c++/v1/ctime

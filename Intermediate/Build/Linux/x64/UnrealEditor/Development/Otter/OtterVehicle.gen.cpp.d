@@ -2466,10 +2466,7 @@
   Runtime/CoreUObject/Public/UObject/GeneratedCppIncludes.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterVehicle.h \
   Runtime/Core/Public/CoreMinimal.h \
-  Runtime/Engine/Classes/GameFramework/Actor.h \
-  ../Plugins/EnhancedInput/Source/EnhancedInput/Public/InputActionValue.h \
-  Runtime/InputCore/Classes/InputCoreTypes.h \
-  ../Plugins/EnhancedInput/Intermediate/Build/Linux/UnrealEditor/Inc/EnhancedInput/UHT/InputActionValue.generated.h \
+  Runtime/Engine/Classes/GameFramework/Pawn.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterVehicle.generated.h \
   Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
-  Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
-  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterVehicle.generated.h
+  Runtime/CoreUObject/Public/UObject/ScriptMacros.h

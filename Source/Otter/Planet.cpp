@@ -16,10 +16,15 @@ APlanet::APlanet()
 	PlanetStaticMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(FName{"Planet Mesh"});
 	PlanetMovementComponent = CreateDefaultSubobject<UOtterMovementComponent>(FName{"Planet Movement"});
 
-	// Setup root component and attachments
+	// Setup attachments
 	SetRootComponent(PlanetStaticMeshComponent);
+}
 
-	// Setup physics for planet mesh component
-	PlanetStaticMeshComponent->SetSimulatePhysics(true);
-	PlanetStaticMeshComponent->SetEnableGravity(false);
+void APlanet::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
+
+	// Setup physics for planet
+	Cast<UPrimitiveComponent>(GetRootComponent())->SetSimulatePhysics(true);
+	Cast<UPrimitiveComponent>(GetRootComponent())->SetEnableGravity(false);
 }

@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
+#include "GameFramework/Pawn.h"
 #include "Planet.generated.h"
 
 class UStaticMeshComponent;
@@ -11,7 +11,7 @@ class UOtterMovementComponent;
 class ASolarSystem;
 
 UCLASS()
-class OTTER_API APlanet : public AActor
+class OTTER_API APlanet : public APawn
 {
 	GENERATED_BODY()
 
@@ -26,6 +26,11 @@ class OTTER_API APlanet : public AActor
 	// Solar system that planet is in
 	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<ASolarSystem> ParentSolarSystemActor;
+
+protected:
+
+	// Once components are setup setup physics
+	virtual void PostInitializeComponents() override;
 
 public:
 

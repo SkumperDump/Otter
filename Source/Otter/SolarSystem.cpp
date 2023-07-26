@@ -39,16 +39,15 @@ void ASolarSystem::BeginPlay()
 		for (int i = 0; i < PlanetCount; i++)
 		{
 			// Spawn planet actor blueprint clasees
-			TObjectPtr<AActor> ActorPtr {GetWorld()->SpawnActor<AActor>(DefaultPlanetClass, FTransform {})};
-			TObjectPtr<APlanet> PlanetActor {Cast<APlanet>(ActorPtr)};
+			auto Planet { Cast<APlanet>(GetWorld()->SpawnActor<AActor>(DefaultPlanetClass, FTransform {})) };
 
 			// Reference in our planet array
-			PlanetArray.Push(ActorPtr);
+			PlanetArray.Push(Planet);
 
-			if (PlanetActor != nullptr)
+			if (Planet != nullptr)
 			{
-				// Start by placing planets arbitrary distance from sun in straight line
-				PlanetActor->GetRootComponent()->AddRelativeLocation(FVector {0, RANDOMDELTA, 0});
+				// Start by placing planets arbitrary distance from sun in straight line in xy plane
+				Planet->GetRootComponent()->AddRelativeLocation(FVector {0, RANDOMDELTA, 0});
 			}
 		}
 	}
@@ -61,14 +60,4 @@ void ASolarSystem::EndPlay(const EEndPlayReason::Type EndPlayReason)
 	{
 		Planet->Destroy();
 	}
-}
-
-void ASolarSystem::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-	// TODO
-	// Need to implement custom physics
-	// Time to read up on orbital mechanics!
-	// Set acceleration back towards sun
-	// Set initial velocity tangent to acceleration vector in unified directiion for planets
 }

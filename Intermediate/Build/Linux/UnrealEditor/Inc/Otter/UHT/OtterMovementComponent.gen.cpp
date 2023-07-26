@@ -9,7 +9,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeOtterMovementComponent() {}
 // Cross Module References
-	ENGINE_API UClass* Z_Construct_UClass_UMovementComponent();
+	ENGINE_API UClass* Z_Construct_UClass_UPawnMovementComponent();
 	OTTER_API UClass* Z_Construct_UClass_UOtterMovementComponent();
 	OTTER_API UClass* Z_Construct_UClass_UOtterMovementComponent_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_Otter();
@@ -32,7 +32,7 @@ void EmptyLinkFunctionForGeneratedCodeOtterMovementComponent() {}
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_UOtterMovementComponent_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_UMovementComponent,
+		(UObject* (*)())Z_Construct_UClass_UPawnMovementComponent,
 		(UObject* (*)())Z_Construct_UPackage__Script_Otter,
 	};
 #if WITH_METADATA
@@ -81,9 +81,9 @@ void EmptyLinkFunctionForGeneratedCodeOtterMovementComponent() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterMovementComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UOtterMovementComponent, UOtterMovementComponent::StaticClass, TEXT("UOtterMovementComponent"), &Z_Registration_Info_UClass_UOtterMovementComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOtterMovementComponent), 3690751599U) },
+		{ Z_Construct_UClass_UOtterMovementComponent, UOtterMovementComponent::StaticClass, TEXT("UOtterMovementComponent"), &Z_Registration_Info_UClass_UOtterMovementComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOtterMovementComponent), 1079481453U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterMovementComponent_h_1547753461(TEXT("/Script/Otter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterMovementComponent_h_1704077955(TEXT("/Script/Otter"),
 		Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterMovementComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterMovementComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

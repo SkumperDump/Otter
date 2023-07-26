@@ -16,17 +16,9 @@ class OTTER_API ASolarSystem : public AActor
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
 	// Called when game ends
 	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 
-public:	
-
-	// Construct CDO
-	ASolarSystem();
-	
 	// Number of planets in solar system
 	UPROPERTY(EditAnywhere)
 	int PlanetCount;
@@ -36,9 +28,14 @@ public:
 	USphereComponent* Sun;
 	
 	// Default planet blueprint class
-	TSubclassOf<AActor> DefaultPlanetClass;
+	TSubclassOf<APawn> DefaultPlanetClass;
 	
 	// Array of pointers to planet blueprint classes
 	UPROPERTY(VisibleAnywhere)
-	TArray<TObjectPtr<AActor>> PlanetArray;
+	TArray<TObjectPtr<APawn>> PlanetArray;
+
+public:	
+
+	// Constructor
+	ASolarSystem();
 };
