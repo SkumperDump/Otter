@@ -12,12 +12,10 @@ APlanet::APlanet()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	// Setup class defaults
-	PlanetStaticMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(FName{"Planet Mesh"});
-	PlanetMovementComponent = CreateDefaultSubobject<UOtterMovementComponent>(FName{"Planet Movement"});
+	PlanetMesh = CreateDefaultSubobject<UStaticMeshComponent>(FName { "Planet Mesh" });
+	SetRootComponent(PlanetMesh);
 
-	// Setup attachments
-	SetRootComponent(PlanetStaticMeshComponent);
+	MovementComponent = CreateDefaultSubobject<UOtterMovementComponent>(FName{"Planet Movement"});
 }
 
 void APlanet::PostInitializeComponents()

@@ -20,12 +20,14 @@ struct FHitResult;
 #define FID_Documents_Unreal_Projects_Otter_Source_Otter_Item_h_16_SPARSE_DATA
 #define FID_Documents_Unreal_Projects_Otter_Source_Otter_Item_h_16_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execOnBeginOverlap);
+	DECLARE_FUNCTION(execOnItemEndOverlap); \
+	DECLARE_FUNCTION(execOnItemBeginOverlap);
 
 
 #define FID_Documents_Unreal_Projects_Otter_Source_Otter_Item_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execOnBeginOverlap);
+	DECLARE_FUNCTION(execOnItemEndOverlap); \
+	DECLARE_FUNCTION(execOnItemBeginOverlap);
 
 
 #define FID_Documents_Unreal_Projects_Otter_Source_Otter_Item_h_16_ACCESSORS
@@ -35,7 +37,8 @@ private: \
 	friend struct Z_Construct_UClass_AItem_Statics; \
 public: \
 	DECLARE_CLASS(AItem, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Otter"), NO_API) \
-	DECLARE_SERIALIZER(AItem)
+	DECLARE_SERIALIZER(AItem) \
+	virtual UObject* _getUObject() const override { return const_cast<AItem*>(this); }
 
 
 #define FID_Documents_Unreal_Projects_Otter_Source_Otter_Item_h_16_INCLASS \
@@ -44,7 +47,8 @@ private: \
 	friend struct Z_Construct_UClass_AItem_Statics; \
 public: \
 	DECLARE_CLASS(AItem, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Otter"), NO_API) \
-	DECLARE_SERIALIZER(AItem)
+	DECLARE_SERIALIZER(AItem) \
+	virtual UObject* _getUObject() const override { return const_cast<AItem*>(this); }
 
 
 #define FID_Documents_Unreal_Projects_Otter_Source_Otter_Item_h_16_STANDARD_CONSTRUCTORS \

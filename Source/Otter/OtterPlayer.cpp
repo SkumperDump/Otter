@@ -2,9 +2,12 @@
 
 
 #include "OtterPlayer.h"
+#include "OtterVehicle.h"
 #include "OtterMovementComponent.h"
+#include "Item.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
+#include "Components/ArrowComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
@@ -13,30 +16,34 @@
 #include "InputActionValue.h"
 
 
-// Sets default values
+#define MOVEMENT_SCALE float {10.0f}
+
+
 AOtterPlayer::AOtterPlayer()
 {
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	PlayerMovementComponent = CreateDefaultSubobject<UOtterMovementComponent>(FName {"Player Movement"});
+	MovementComponent = CreateDefaultSubobject<UOtterMovementComponent>(FName {"Player Move Component"}); 
 
-	PlayerHitbox = CreateDefaultSubobject<UCapsuleComponent>(FName {"Player Hitbox"});
+	PlayerHitbox = CreateDefaultSubobject<UCapsuleComponent>(FName {"Player Hitbox"}); 
 	SetRootComponent(PlayerHitbox);
 
-	PlayerSkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>(FName {"Player Skeletal Mesh"});
-	PlayerSkeletalMesh->SetupAttachment(PlayerHitbox);
+	ArrowComponent = CreateDefaultSubobject<UArrowComponent>(FName {"Player Forward Arrow"}); 
+	ArrowComponent->SetupAttachment(PlayerHitbox);
+ 
+	PlayerMesh = CreateDefaultSubobject<USkeletalMeshComponent>(FName {"Player Mesh"}); 
+	PlayerMesh->SetupAttachment(PlayerHitbox);
 
-	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(FName {"Camera Spring Arm"});
+	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(FName {"Player Camera Boom"}); 
 	CameraBoom->SetupAttachment(PlayerHitbox);
 
-	PlayerCamera = CreateDefaultSubobject<UCameraComponent>(FName {"Player Camera"});
+	PlayerCamera = CreateDefaultSubobject<UCameraComponent>(FName {"Player Camera"}); 
 	PlayerCamera->SetupAttachment(CameraBoom);
 }
 
 void AOtterPlayer::BeginPlay()
 {
-	// Call the base class  
 	Super::BeginPlay();
 
 	if (auto PawnController = Cast<APlayerController>(Controller))
@@ -54,8 +61,6 @@ void AOtterPlayer::BeginPlay()
 void AOtterPlayer::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
-
-	// We want this pawn (the pawns rendered components) to have physics
 	Cast<UPrimitiveComponent>(GetRootComponent())->SetSimulatePhysics(true);
 	Cast<UPrimitiveComponent>(GetRootComponent())->SetEnableGravity(false);
 }
@@ -68,45 +73,27 @@ void AOtterPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	// Cast AActor::InputComponent and then setup action bindings
 	if (auto EnhancedInputComponent = CastChecked<UEnhancedInputComponent>(PlayerInputComponent))
 	{
-		// Jumping
-		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Triggered, this, &AOtterPlayer::Jump);
-
-		// Moving
 		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AOtterPlayer::Move);
-
-		// Looking
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AOtterPlayer::Look);
-
-		// Swap Camera on completed so switches once per key-stroke
 		EnhancedInputComponent->BindAction(SwapCameraAction, ETriggerEvent::Completed, this, &AOtterPlayer::SwapCamera);
-
-		// Interact with a given volume
 		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Triggered, this, &AOtterPlayer::Interact);
 	}
-}
-
-void AOtterPlayer::Jump(const FInputActionValue& Value)
-{
-	UE_LOG(LogTemp, Warning, TEXT("Jump Value: %s"), *Value.ToString());
-	
-	// Add jump/negative jump
-	// TODO make normal to surface instead of just z direc
-	// Scale by imput valie of jummp (space = 1, ctrl = -1)
-	Cast<UPrimitiveComponent>(GetRootComponent())->AddImpulse(FVector{0,0,1} * Value.Get<float>() * MovementScale);
 }
 
 void AOtterPlayer::Move(const FInputActionValue& Value)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Move Value: %s"), *Value.ToString());
 
-	// Add direction of movement
-	Cast<UPrimitiveComponent>(GetRootComponent())->AddImpulse(Value.Get<FVector>() * MovementScale);
+	// Add XYZ movement
+	Cast<UPrimitiveComponent>(GetRootComponent())->AddImpulse(GetActorRightVector() * Value.Get<FVector>().X);
+	Cast<UPrimitiveComponent>(GetRootComponent())->AddImpulse(GetActorForwardVector() * Value.Get<FVector>().Y);
+	Cast<UPrimitiveComponent>(GetRootComponent())->AddImpulse(GetActorUpVector() * Value.Get<FVector>().Z);
 }
 
 void AOtterPlayer::Look(const FInputActionValue& Value)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Look"));
-	// Rotate camera
+	AddActorLocalRotation(FRotator { Value.Get<FVector>().Y, Value.Get<FVector>().X, 0 });
 }
 
 void AOtterPlayer::SwapCamera(const FInputActionValue& Value)
@@ -123,12 +110,24 @@ void AOtterPlayer::SwapCamera(const FInputActionValue& Value)
 	bUseFirstPersonCamera = !bUseFirstPersonCamera;
 }
 
-void AOtterPlayer::Interact(const FInputActionValue& Value)
+void AOtterPlayer::Interact()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Interact"));
-	if (GrabbableItem != nullptr)
+
+	if (OverlappingActor != nullptr)
 	{
-		// Attatch item mesh to our character mesh
-		// Put item in our inventory
+		PlayerInventory.Push(OverlappingActor);
+
+		// TODO
+		// Would be so clean to make one call to PlayerInteract()
+		if (const auto Item { Cast<AItem>(OverlappingActor) })
+		{
+			Item->PlayerInteract();
+		}
+
+		if (const auto Vehicle { Cast<AOtterVehicle>(OverlappingActor) })
+		{
+			Vehicle->PlayerInteract();
+		}
 	}
 }

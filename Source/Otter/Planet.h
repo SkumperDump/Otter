@@ -17,26 +17,16 @@ class OTTER_API APlanet : public APawn
 
 	// Terrain of planet
 	UPROPERTY(EditAnywhere)
-	TObjectPtr<UStaticMeshComponent> PlanetStaticMeshComponent;
+	TObjectPtr<UStaticMeshComponent> PlanetMesh;
 
 	// Planet motion
-	UPROPERTY(VisibleAnywhere)
-	TObjectPtr<UOtterMovementComponent> PlanetMovementComponent;
-
-	// Solar system that planet is in
-	UPROPERTY(VisibleAnywhere)
-	TObjectPtr<ASolarSystem> ParentSolarSystemActor;
+	TObjectPtr<UOtterMovementComponent> MovementComponent;
 
 protected:
 
-	// Once components are setup setup physics
 	virtual void PostInitializeComponents() override;
 
 public:
 
-	// Sets default values for this actor's properties
 	APlanet();
-
-	auto GetPlanetStaticMeshComponent() {return PlanetStaticMeshComponent;}
-
 };

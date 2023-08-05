@@ -6,14 +6,14 @@
 #include "GameFramework/Pawn.h"
 #include "OtterPlayer.generated.h"
 
-class AItem;
+class UArrowComponent;
 class UCameraComponent;
-class USpringArmComponent;
-class USkeletalMeshComponent;
 class UCapsuleComponent;
 class UInputAction;
 class UInputMappingContext;
 class UOtterMovementComponent;
+class USpringArmComponent;
+class USkeletalMeshComponent;
 struct FInputActionValue;
 
 UCLASS()
@@ -24,86 +24,59 @@ class OTTER_API AOtterPlayer : public APawn
 	// Bool for switching camera
 	bool bUseFirstPersonCamera;
 
-	float MovementScale = 100.0f;
-
-	// Inventory as AActor array
 	TArray<TObjectPtr<AActor>> PlayerInventory;
 
-	// Item that can be grabbed
-	TObjectPtr<USkeletalMeshComponent> GrabbableItem;
+	TObjectPtr<AActor> OverlappingActor;
 
-	// Universal movement characteristics (Gravity)
-	TObjectPtr<UOtterMovementComponent> PlayerMovementComponent;
+	TObjectPtr<UOtterMovementComponent> MovementComponent;
 
-	// Player hitbox
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UCapsuleComponent> PlayerHitbox;
 
-	// Player skeleton mesh
 	UPROPERTY(EditAnywhere)
-	TObjectPtr<USkeletalMeshComponent> PlayerSkeletalMesh;
+	TObjectPtr<USkeletalMeshComponent> PlayerMesh;
 
-	// Player camera
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UCameraComponent> PlayerCamera;
 
-	// Spring arm for camera
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<USpringArmComponent> CameraBoom;
 
-	// MappingContext
+	// Arrow for forward direction
+	UPROPERTY(VisibleAnywhere)
+	TObjectPtr<UArrowComponent> ArrowComponent;
+
+	/*INPUT*/
+
 	UPROPERTY(EditAnywhere)
-	UInputMappingContext* OtterDefaultMappingContext;
+	TObjectPtr<UInputMappingContext> OtterDefaultMappingContext;
 
-	// Jump Input Action
 	UPROPERTY(EditAnywhere)
-	UInputAction* JumpAction;
+	TObjectPtr<UInputAction> MoveAction;
 
-	// Move Input Action
 	UPROPERTY(EditAnywhere)
-	UInputAction* MoveAction;
+	TObjectPtr<UInputAction> LookAction;
 
-	// Look Input Action
 	UPROPERTY(EditAnywhere)
-	UInputAction* LookAction;
+	TObjectPtr<UInputAction> SwapCameraAction;
 
-	// Swap Camera Input Action
 	UPROPERTY(EditAnywhere)
-	UInputAction* SwapCameraAction;
+	TObjectPtr<UInputAction> InteractAction;
 
-	// Interact Input Action
-	UPROPERTY(EditAnywhere)
-	UInputAction* InteractAction;
-
-	// Called for jump input
-	void Jump(const FInputActionValue& Value);
-
-	// Called for movement input
 	void Move(const FInputActionValue& Value);
-
-	// Called for looking input
 	void Look(const FInputActionValue& Value);
-
-	// Called to swap camera
 	void SwapCamera(const FInputActionValue& Value);
-	
-	// Called to start an interaction
-	void Interact(const FInputActionValue& Value);
+	void Interact();
 
 protected:
 
-	// Mapping context applied here
 	virtual void BeginPlay() override;
-
-	// Initialize input component of our owning actor
 	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
-
-	// Once components are setup setup physics
 	virtual void PostInitializeComponents() override;
 
 public:
-	// Sets default values for this actor's properties
 	AOtterPlayer();
 
-	auto GetGrabbableItem() { return GrabbableItem; }
+	auto GetOverlappingActor() { return OverlappingActor; }
+	void SetOverlappingActor(TObjectPtr<AActor> Actor) { OverlappingActor = Actor; }
 };

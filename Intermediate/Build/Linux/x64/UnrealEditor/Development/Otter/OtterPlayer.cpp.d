@@ -2469,6 +2469,11 @@
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterPlayer.generated.h \
   Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
   Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterVehicle.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterInteractInterface.h \
+  Runtime/CoreUObject/Public/UObject/Interface.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterInteractInterface.generated.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterVehicle.generated.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterMovementComponent.h \
   Runtime/Engine/Classes/GameFramework/PawnMovementComponent.h \
   Runtime/Engine/Classes/GameFramework/NavMovementComponent.h \
@@ -2477,7 +2482,6 @@
   Runtime/Engine/Classes/AI/Navigation/NavigationTypes.h \
   Runtime/Engine/Classes/AI/Navigation/NavAgentInterface.h \
   Runtime/Engine/Classes/AI/Navigation/PathFollowingAgentInterface.h \
-  Runtime/CoreUObject/Public/UObject/Interface.h \
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/PathFollowingAgentInterface.generated.h \
   Runtime/Engine/Classes/GameFramework/MovementComponent.h \
   Runtime/PhysicsCore/Public/Chaos/ChaosEngineInterface.h \
@@ -2487,6 +2491,8 @@
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/NavMovementComponent.generated.h \
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/PawnMovementComponent.generated.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterMovementComponent.generated.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/Item.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/Item.generated.h \
   Runtime/Engine/Classes/GameFramework/SpringArmComponent.h \
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/SpringArmComponent.generated.h \
   Runtime/Engine/Classes/Camera/CameraComponent.h \
@@ -2495,11 +2501,13 @@
   Runtime/Engine/Classes/Engine/Scene.h \
   Runtime/Engine/Classes/Camera/CameraTypes.h \
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/CameraComponent.generated.h \
+  Runtime/Engine/Classes/Components/ArrowComponent.h \
+  Runtime/Engine/Classes/Components/PrimitiveComponent.h \
+  ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/ArrowComponent.generated.h \
   Runtime/Engine/Classes/Components/SkeletalMeshComponent.h \
   Runtime/Engine/Classes/Components/CapsuleComponent.h \
   Runtime/Engine/Classes/Components/ShapeComponent.h \
   Runtime/CoreUObject/Public/Templates/SubclassOf.h \
-  Runtime/Engine/Classes/Components/PrimitiveComponent.h \
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/ShapeComponent.generated.h \
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/CapsuleComponent.generated.h \
   Runtime/Engine/Classes/Components/InputComponent.h \

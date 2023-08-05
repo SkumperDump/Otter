@@ -4,60 +4,61 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
+#include "OtterInteractInterface.h"
 #include "OtterVehicle.generated.h"
 
-class UCapsuleComponent;
-class UInputAction;
-class UInputMappingContext;
-class UParticleSystemComponent;
-class UStaticMeshComponent;
 class UOtterMovementComponent;
+class UCapsuleComponent;
+class UInputMappingContext;
+class UInputAction;
 struct FInputActionValue;
 
 UCLASS()
-class OTTER_API AOtterVehicle : public APawn
+class OTTER_API AOtterVehicle : public APawn, public IOtterInteractInterface
 {
 	GENERATED_BODY()
 
-	// Vehicle hitbox
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UCapsuleComponent> VehicleHitbox;
 
-	// Vehicle static mesh
 	UPROPERTY(EditAnywhere)
-	TObjectPtr<UStaticMeshComponent> VehicleStaticMeshComponent;
+	TObjectPtr<USkeletalMeshComponent> VehicleMesh;
 
-	// Vehicle exhaust
 	UPROPERTY(EditAnywhere)
-	TObjectPtr<UParticleSystemComponent> VehicleEhxaust;
+	TObjectPtr<UParticleSystemComponent> VehicleExhaust;
+	
+	// Universal movement properties
+	TObjectPtr<UOtterMovementComponent> MovementComponent;
+	
+	/*DELEGATES*/
 
-	// Otter move component
-	UPROPERTY(VisibleAnywhere)
-	TObjectPtr<UOtterMovementComponent> VehicleMovementComponent;
+	void OnVehicleBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	void OnVehicleEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
-	/**INPUT*/
+	/*INPUT*/
 
-	// Mapping context
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UInputMappingContext> VehicleMappingContext;
 
-	// Thrust action
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<UInputAction> MoveAction;
+
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UInputAction> ThrustAction;
 
-	// Called for thrust input
+	// Input Functions
+	void Move(const FInputActionValue& Value);
 	void Thrust(const FInputActionValue& Value);
 
-public:	
-	// When actor spawned into game
-	virtual void BeginPlay() override;
-
-	// Setup things after all components are initialized
-	virtual void PostInitializeComponents() override;
-
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+protected:
 	
-	// Sets default values for this actor's properties
+	virtual void BeginPlay() override;
+	virtual void PostInitializeComponents() override;
+	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
+
+public:	
+
 	AOtterVehicle();
+
+	virtual void PlayerInteract() override;
 };

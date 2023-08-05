@@ -6,26 +6,19 @@
 #include "GameFramework/Actor.h"
 #include "SolarSystem.generated.h"
 
-class USphereComponent;
+class UStaticMeshComponent;
 
 UCLASS()
 class OTTER_API ASolarSystem : public AActor
 {
 	GENERATED_BODY()
-	
-	// Called when the game starts
-	virtual void BeginPlay() override;
 
-	// Called when game ends
-	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
-
-	// Number of planets in solar system
 	UPROPERTY(EditAnywhere)
 	int PlanetCount;
 
 	// Center of the solar system
 	UPROPERTY(EditAnywhere)
-	USphereComponent* Sun;
+	UStaticMeshComponent* Sun;
 	
 	// Default planet blueprint class
 	TSubclassOf<APawn> DefaultPlanetClass;
@@ -34,8 +27,11 @@ class OTTER_API ASolarSystem : public AActor
 	UPROPERTY(VisibleAnywhere)
 	TArray<TObjectPtr<APawn>> PlanetArray;
 
+protected:
+
+	virtual void BeginPlay() override;
+
 public:	
 
-	// Constructor
 	ASolarSystem();
 };

@@ -7,22 +7,20 @@
 #include <cstdlib>
 #include <ctime>
 
-#define RANDOMDELTA std::rand()/100000
+#define RANDNUM std::rand()/100000
 
 ASolarSystem::ASolarSystem()
 {
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	// Setup center of solar system
-	Sun = CreateDefaultSubobject<USphereComponent>(FName{"Sun"});
-	RootComponent = Sun;
+	Sun = CreateDefaultSubobject<UStaticMeshComponent>(FName{"Sun"});
+	SetRootComponent(Sun);
 
-	// Default planet count
 	PlanetCount = 5;
 
 	// Default planet blueprint class
-	static ConstructorHelpers::FClassFinder<AActor> PlanetBPClass(TEXT("/Game/Blueprints/BP_Planet"));
+	static ConstructorHelpers::FClassFinder<APawn> PlanetBPClass(TEXT("/Game/Blueprints/BP_Planet"));
 	DefaultPlanetClass = PlanetBPClass.Class;
 }
 
@@ -38,26 +36,10 @@ void ASolarSystem::BeginPlay()
 	{
 		for (int i = 0; i < PlanetCount; i++)
 		{
-			// Spawn planet actor blueprint clasees
-			auto Planet { Cast<APlanet>(GetWorld()->SpawnActor<AActor>(DefaultPlanetClass, FTransform {})) };
-
-			// Reference in our planet array
-			PlanetArray.Push(Planet);
-
-			if (Planet != nullptr)
-			{
-				// Start by placing planets arbitrary distance from sun in straight line in xy plane
-				Planet->GetRootComponent()->AddRelativeLocation(FVector {0, RANDOMDELTA, 0});
-			}
+			UE_LOG(LogTemp, Warning, TEXT("Spawning Planets"));
+			// Spawn planets at random locations in x-y plane
+			FTransform PlanetSpawnLocation { FVector { RANDNUM, RANDNUM, 0 }};
+			PlanetArray.Push(GetWorld()->SpawnActor<APawn>(DefaultPlanetClass, PlanetSpawnLocation));
 		}
-	}
-}
-
-void ASolarSystem::EndPlay(const EEndPlayReason::Type EndPlayReason)
-{
-	// Destroy planets once game is over
-	for (auto Planet : PlanetArray)
-	{
-		Planet->Destroy();
 	}
 }

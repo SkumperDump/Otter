@@ -7,35 +7,34 @@
 
 void UOtterMovementComponent::TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction)
 {
+	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 	Gravity();
 }
 
 void UOtterMovementComponent::Gravity()
 {
-	if (GetOwner()->IsA(APlanet::StaticClass()))
+	auto ActorRootPrimitive = Cast<UPrimitiveComponent>(GetOwner()->GetRootComponent());
+
+	if (ActorRootPrimitive != nullptr)
 	{
-		// Get component owner actor root component
-		// Cast to primitive component for functions we want to use
-		auto ActorRoot = Cast<UPrimitiveComponent>(GetOwner()->GetRootComponent());
+		// Get vector of location relative to world origin (which should be our sun)
+		auto DistanceFromSun = ActorRootPrimitive->GetComponentLocation();
 
-		if (ActorRoot != nullptr)
+		// Convert to unit vector
+		auto GravityUnitVector = DistanceFromSun / DistanceFromSun.Size();
+
+		// Reverse and mult to produce acceleration vector due to gravity
+		auto GravityVector = GravityUnitVector * (-1);
+
+		// Add impulse (kg * m/s) towards world origin
+		ActorRootPrimitive->AddImpulse(GravityVector); // Mesh must have physics enabled 
+
+		if (GetOwner()->IsA(APlanet::StaticClass()))
 		{
-			// Get vector of location relative to world origin
-			// Our world origin is assumed to be some central massive object akin to the sun in our solar sytem
-			auto DistanceFromSun = ActorRoot->GetComponentLocation();
-
-			// Convert to unit vector
-			auto GravityUnitVector = DistanceFromSun / DistanceFromSun.Size();
-
-			// Reverse and mult to produce vector representing the acceleration due to gravity
-			auto GravityVector = GravityUnitVector * (-1);
-
-			// Add impulse (kg * m/s) towards world origin
-			ActorRoot->AddImpulse(GravityVector); // Mesh must have physics enabled 
-
-			// Check if our parent is of type APlanet, otherwise use impulses from exteneral forces only
-			// Set velocity vector for each planet that is orthogonal to the plane of the gravity vector and the z-axis
-			ActorRoot->AddImpulse(GravityUnitVector.CrossProduct(GravityUnitVector, FVector {0, 0, 1}), FName {}, true);
+			// Set velocity vector for each planet
+			// Vector is orthogonal to the plane of the gravity vector and the z-axis
+			// TODO if dispersing planets on z axis make sure to change so that planets do not have 'orbital terraces'
+			ActorRootPrimitive->AddImpulse(GravityUnitVector.CrossProduct(GravityUnitVector, FVector {0, 0, 1}), FName {}, true);
 		}
 	}
 }

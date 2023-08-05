@@ -2,45 +2,54 @@
 
 
 #include "Item.h"
+#include "OtterPlayer.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/SphereComponent.h"
-//#include "OtterCharacter.h"
 
 
-// Sets default values
 AItem::AItem()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	// Setup item mesh
-	ItemMesh = CreateDefaultSubobject<USkeletalMeshComponent>(FName {"Item Mesh"});
-	RootComponent = ItemMesh;
+	OverlapSphere = CreateDefaultSubobject<USphereComponent>(FName { "Overlap Sphere" });
+	SetRootComponent(OverlapSphere);
 
-	// Setup overlap sphere
-	OverlapSphere = CreateDefaultSubobject<USphereComponent>(FName {"Overlap Sphere"});
-	OverlapSphere->SetupAttachment(ItemMesh);
-	
-	// OnBeginOverlap called for beginning of overlap event with this component
-	OverlapSphere->OnComponentBeginOverlap.AddDynamic(this, &AItem::OnBeginOverlap);
+	ItemMesh = CreateDefaultSubobject<USkeletalMeshComponent>(FName { "Item Mesh" });
+	ItemMesh->SetupAttachment(OverlapSphere);
+
+	// Beginning of overlap event with this component
+	OverlapSphere->OnComponentBeginOverlap.AddDynamic(this, &AItem::OnItemBeginOverlap);
+
+	// End of overlap event with this component
+	OverlapSphere->OnComponentEndOverlap.AddDynamic(this, &AItem::OnItemEndOverlap);
 }
 
-void AItem::BeginPlay()
+// TODO
+// Make both of these functions (and similar ones in other classes) into part of custom overlap sphere component
+void AItem::OnItemBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	Super::BeginPlay();
-}
+	UE_LOG(LogTemp, Warning, TEXT("BEGIN ITEM OVERLAP"));
 
-void AItem::OnBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
-{
-	UE_LOG(LogTemp, Warning, TEXT("Begin Overlap With AItem"));
-
-	/* TODO UNCOM
-	auto Character {Cast<AOtterCharacter>(OtherActor)};
-
-	// Assign item to character 
-	if (Character != nullptr)
+	if (auto Player {Cast<AOtterPlayer>(OtherActor)})
 	{
-		Character->GrabbableItem = ItemMesh;
+		Player->SetOverlappingActor(this);
 	}
-	*/
+}
+
+void AItem::OnItemEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{
+	UE_LOG(LogTemp, Warning, TEXT("END ITEM OVERLAP"));
+
+	// When done overlapping, if our grabbable item is still this item, set grabbable item to nullptr
+	if (auto Player {Cast<AOtterPlayer>(OtherActor)})
+	{
+		Player->SetOverlappingActor(nullptr);
+	}
+}
+
+void AItem::PlayerInteract()
+{
+	// TODO
+	// Do whatever needs to be done for item to be represented as in players posession
 }
