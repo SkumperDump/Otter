@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Pawn.h"
+#include "OtterDefaultPawn.h"
 #include "Planet.generated.h"
 
 class UStaticMeshComponent;
@@ -11,20 +11,13 @@ class UOtterMovementComponent;
 class ASolarSystem;
 
 UCLASS()
-class OTTER_API APlanet : public APawn
+class OTTER_API APlanet : public AOtterDefaultPawn
 {
 	GENERATED_BODY()
 
 	// Terrain of planet
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UStaticMeshComponent> PlanetMesh;
-
-	// Planet motion
-	TObjectPtr<UOtterMovementComponent> MovementComponent;
-
-protected:
-
-	virtual void PostInitializeComponents() override;
 
 public:
 

@@ -9,12 +9,11 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeOtterVehicle() {}
 // Cross Module References
-	ENGINE_API UClass* Z_Construct_UClass_APawn();
-	ENGINE_API UClass* Z_Construct_UClass_UCapsuleComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystemComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputAction_NoRegister();
 	ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
+	OTTER_API UClass* Z_Construct_UClass_AOtterDefaultPawn();
 	OTTER_API UClass* Z_Construct_UClass_AOtterVehicle();
 	OTTER_API UClass* Z_Construct_UClass_AOtterVehicle_NoRegister();
 	OTTER_API UClass* Z_Construct_UClass_UOtterInteractInterface_NoRegister();
@@ -35,10 +34,6 @@ void EmptyLinkFunctionForGeneratedCodeOtterVehicle() {}
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_VehicleHitbox_MetaData[];
-#endif
-		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_VehicleHitbox;
-#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_VehicleMesh_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_VehicleMesh;
@@ -51,9 +46,9 @@ void EmptyLinkFunctionForGeneratedCodeOtterVehicle() {}
 #endif
 		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_VehicleMappingContext;
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_MoveAction_MetaData[];
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_VehicleMoveAction_MetaData[];
 #endif
-		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_MoveAction;
+		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_VehicleMoveAction;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_ThrustAction_MetaData[];
 #endif
@@ -64,7 +59,7 @@ void EmptyLinkFunctionForGeneratedCodeOtterVehicle() {}
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_AOtterVehicle_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_APawn,
+		(UObject* (*)())Z_Construct_UClass_AOtterDefaultPawn,
 		(UObject* (*)())Z_Construct_UPackage__Script_Otter,
 	};
 #if WITH_METADATA
@@ -74,14 +69,6 @@ void EmptyLinkFunctionForGeneratedCodeOtterVehicle() {}
 		{ "ModuleRelativePath", "OtterVehicle.h" },
 	};
 #endif
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AOtterVehicle_Statics::NewProp_VehicleHitbox_MetaData[] = {
-		{ "Category", "OtterVehicle" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "OtterVehicle.h" },
-	};
-#endif
-	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_AOtterVehicle_Statics::NewProp_VehicleHitbox = { "VehicleHitbox", nullptr, (EPropertyFlags)0x0044000000080009, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AOtterVehicle, VehicleHitbox), Z_Construct_UClass_UCapsuleComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AOtterVehicle_Statics::NewProp_VehicleHitbox_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AOtterVehicle_Statics::NewProp_VehicleHitbox_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AOtterVehicle_Statics::NewProp_VehicleMesh_MetaData[] = {
 		{ "Category", "OtterVehicle" },
@@ -108,12 +95,12 @@ void EmptyLinkFunctionForGeneratedCodeOtterVehicle() {}
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_AOtterVehicle_Statics::NewProp_VehicleMappingContext = { "VehicleMappingContext", nullptr, (EPropertyFlags)0x0044000000000001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AOtterVehicle, VehicleMappingContext), Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AOtterVehicle_Statics::NewProp_VehicleMappingContext_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AOtterVehicle_Statics::NewProp_VehicleMappingContext_MetaData)) };
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AOtterVehicle_Statics::NewProp_MoveAction_MetaData[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AOtterVehicle_Statics::NewProp_VehicleMoveAction_MetaData[] = {
 		{ "Category", "OtterVehicle" },
 		{ "ModuleRelativePath", "OtterVehicle.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_AOtterVehicle_Statics::NewProp_MoveAction = { "MoveAction", nullptr, (EPropertyFlags)0x0044000000000001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AOtterVehicle, MoveAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AOtterVehicle_Statics::NewProp_MoveAction_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AOtterVehicle_Statics::NewProp_MoveAction_MetaData)) };
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_AOtterVehicle_Statics::NewProp_VehicleMoveAction = { "VehicleMoveAction", nullptr, (EPropertyFlags)0x0044000000000001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AOtterVehicle, VehicleMoveAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AOtterVehicle_Statics::NewProp_VehicleMoveAction_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AOtterVehicle_Statics::NewProp_VehicleMoveAction_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AOtterVehicle_Statics::NewProp_ThrustAction_MetaData[] = {
 		{ "Category", "OtterVehicle" },
@@ -122,11 +109,10 @@ void EmptyLinkFunctionForGeneratedCodeOtterVehicle() {}
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_AOtterVehicle_Statics::NewProp_ThrustAction = { "ThrustAction", nullptr, (EPropertyFlags)0x0044000000000001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AOtterVehicle, ThrustAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AOtterVehicle_Statics::NewProp_ThrustAction_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AOtterVehicle_Statics::NewProp_ThrustAction_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AOtterVehicle_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOtterVehicle_Statics::NewProp_VehicleHitbox,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOtterVehicle_Statics::NewProp_VehicleMesh,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOtterVehicle_Statics::NewProp_VehicleExhaust,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOtterVehicle_Statics::NewProp_VehicleMappingContext,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOtterVehicle_Statics::NewProp_MoveAction,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOtterVehicle_Statics::NewProp_VehicleMoveAction,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOtterVehicle_Statics::NewProp_ThrustAction,
 	};
 		const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AOtterVehicle_Statics::InterfaceParams[] = {
@@ -169,9 +155,9 @@ void EmptyLinkFunctionForGeneratedCodeOtterVehicle() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AOtterVehicle, AOtterVehicle::StaticClass, TEXT("AOtterVehicle"), &Z_Registration_Info_UClass_AOtterVehicle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AOtterVehicle), 262792814U) },
+		{ Z_Construct_UClass_AOtterVehicle, AOtterVehicle::StaticClass, TEXT("AOtterVehicle"), &Z_Registration_Info_UClass_AOtterVehicle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AOtterVehicle), 687430623U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_1866077721(TEXT("/Script/Otter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_3334823722(TEXT("/Script/Otter"),
 		Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

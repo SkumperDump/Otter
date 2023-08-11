@@ -2466,10 +2466,12 @@
   Runtime/CoreUObject/Public/UObject/GeneratedCppIncludes.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterVehicle.h \
   Runtime/Core/Public/CoreMinimal.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterDefaultPawn.h \
   Runtime/Engine/Classes/GameFramework/Pawn.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterDefaultPawn.generated.h \
+  Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
+  Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterInteractInterface.h \
   Runtime/CoreUObject/Public/UObject/Interface.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterInteractInterface.generated.h \
-  Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
-  Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterVehicle.generated.h

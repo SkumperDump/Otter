@@ -18,7 +18,7 @@ class OTTER_API ASolarSystem : public AActor
 
 	// Center of the solar system
 	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* Sun;
+	TObjectPtr<UStaticMeshComponent> Sun;
 	
 	// Default planet blueprint class
 	TSubclassOf<APawn> DefaultPlanetClass;

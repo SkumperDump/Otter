@@ -4,8 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
-
 #include "OtterInteractInterface.generated.h"
+
 
 // This class does not need to be modified.
 UINTERFACE(MinimalAPI)
@@ -14,9 +14,6 @@ class UOtterInteractInterface : public UInterface
 	GENERATED_BODY()
 };
 
-/**
- * 
- */
 class OTTER_API IOtterInteractInterface
 {
 	GENERATED_BODY()
@@ -25,5 +22,4 @@ class OTTER_API IOtterInteractInterface
 public:
 	
 	virtual void PlayerInteract() = 0;
-	
 };

@@ -2,21 +2,17 @@
 
 
 #include "OtterPlayer.h"
-#include "OtterVehicle.h"
-#include "OtterMovementComponent.h"
-#include "Item.h"
+#include "OtterInteractInterface.h"
+#include "OtterOverlapComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
-#include "Components/ArrowComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
-
-
-#define MOVEMENT_SCALE float {10.0f}
+#include "Subsystems/LocalPlayerSubsystem.h"
 
 
 AOtterPlayer::AOtterPlayer()
@@ -24,19 +20,11 @@ AOtterPlayer::AOtterPlayer()
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	MovementComponent = CreateDefaultSubobject<UOtterMovementComponent>(FName {"Player Move Component"}); 
-
-	PlayerHitbox = CreateDefaultSubobject<UCapsuleComponent>(FName {"Player Hitbox"}); 
-	SetRootComponent(PlayerHitbox);
-
-	ArrowComponent = CreateDefaultSubobject<UArrowComponent>(FName {"Player Forward Arrow"}); 
-	ArrowComponent->SetupAttachment(PlayerHitbox);
- 
 	PlayerMesh = CreateDefaultSubobject<USkeletalMeshComponent>(FName {"Player Mesh"}); 
-	PlayerMesh->SetupAttachment(PlayerHitbox);
+	PlayerMesh->SetupAttachment(GetRootComponent());
 
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(FName {"Player Camera Boom"}); 
-	CameraBoom->SetupAttachment(PlayerHitbox);
+	CameraBoom->SetupAttachment(GetRootComponent());
 
 	PlayerCamera = CreateDefaultSubobject<UCameraComponent>(FName {"Player Camera"}); 
 	PlayerCamera->SetupAttachment(CameraBoom);
@@ -45,24 +33,22 @@ AOtterPlayer::AOtterPlayer()
 void AOtterPlayer::BeginPlay()
 {
 	Super::BeginPlay();
+	// Get enhanced input subsys for player associated with our controller
+	//TODO
+	// One or more of these casts are failing and inner code is not being executed
+	UE_LOG(LogTemp, Warning, TEXT("Before First Cast"));
 
-	if (auto PawnController = Cast<APlayerController>(Controller))
+	if (auto LocalPlayer { Cast<ULocalPlayer>(GetNetOwningPlayer()) })
 	{
-		// Get enhanced input subsys for player associated with our controller
-		if (auto Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(PawnController->GetLocalPlayer()))
+		UE_LOG(LogTemp, Warning, TEXT("First Cast"));
+		if (auto Subsystem { LocalPlayer->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>() })
 		{
-			// Add mapping context and give it highest priority (0)
-			UE_LOG(LogTemp, Warning, TEXT("Setting Mapping Context"));
-			Subsystem->AddMappingContext(OtterDefaultMappingContext, 0);
+			{
+				UE_LOG(LogTemp, Warning, TEXT("Setting Mapping Context"));
+				Subsystem->AddMappingContext(OtterPlayerMappingContext, 0);
+			}
 		}
-	} 
-}
-
-void AOtterPlayer::PostInitializeComponents()
-{
-	Super::PostInitializeComponents();
-	Cast<UPrimitiveComponent>(GetRootComponent())->SetSimulatePhysics(true);
-	Cast<UPrimitiveComponent>(GetRootComponent())->SetEnableGravity(false);
+	}
 }
 
 void AOtterPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -71,9 +57,9 @@ void AOtterPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	UE_LOG(LogTemp, Warning, TEXT("Setting Up Input Component"));
 
 	// Cast AActor::InputComponent and then setup action bindings
-	if (auto EnhancedInputComponent = CastChecked<UEnhancedInputComponent>(PlayerInputComponent))
+	if (auto EnhancedInputComponent { CastChecked<UEnhancedInputComponent>(PlayerInputComponent) })
 	{
-		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AOtterPlayer::Move);
+		EnhancedInputComponent->BindAction(PlayerMoveAction, ETriggerEvent::Triggered, this, &AOtterPlayer::Move);
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AOtterPlayer::Look);
 		EnhancedInputComponent->BindAction(SwapCameraAction, ETriggerEvent::Completed, this, &AOtterPlayer::SwapCamera);
 		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Triggered, this, &AOtterPlayer::Interact);
@@ -114,20 +100,16 @@ void AOtterPlayer::Interact()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Interact"));
 
-	if (OverlappingActor != nullptr)
+	if (auto Actor { GetOverlapComponent()->GetOverlappingActor() })
 	{
-		PlayerInventory.Push(OverlappingActor);
-
-		// TODO
-		// Would be so clean to make one call to PlayerInteract()
-		if (const auto Item { Cast<AItem>(OverlappingActor) })
+		if (Actor.IsA(AActor::StaticClass()))
 		{
-			Item->PlayerInteract();
-		}
-
-		if (const auto Vehicle { Cast<AOtterVehicle>(OverlappingActor) })
-		{
-			Vehicle->PlayerInteract();
+			PlayerInventory.Push(Actor);
+			if (const auto ActorInterface { Cast<IOtterInteractInterface>(Actor) })
+			{
+				ActorInterface->PlayerInteract();
+			}
 		}
 	}
 }
+

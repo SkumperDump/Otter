@@ -2466,7 +2466,9 @@
   Runtime/CoreUObject/Public/UObject/GeneratedCppIncludes.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/Planet.h \
   Runtime/Core/Public/CoreMinimal.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterDefaultPawn.h \
   Runtime/Engine/Classes/GameFramework/Pawn.h \
-  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/Planet.generated.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterDefaultPawn.generated.h \
   Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
-  Runtime/CoreUObject/Public/UObject/ScriptMacros.h
+  Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/Planet.generated.h

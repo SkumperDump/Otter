@@ -3,35 +3,27 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Pawn.h"
+#include "OtterDefaultPawn.h"
 #include "OtterPlayer.generated.h"
 
-class UArrowComponent;
 class UCameraComponent;
 class UCapsuleComponent;
 class UInputAction;
 class UInputMappingContext;
-class UOtterMovementComponent;
 class USpringArmComponent;
 class USkeletalMeshComponent;
 struct FInputActionValue;
 
 UCLASS()
-class OTTER_API AOtterPlayer : public APawn
+class OTTER_API AOtterPlayer : public AOtterDefaultPawn
 {
 	GENERATED_BODY()
 
 	// Bool for switching camera
 	bool bUseFirstPersonCamera;
 
+	UPROPERTY(VisibleAnywhere)
 	TArray<TObjectPtr<AActor>> PlayerInventory;
-
-	TObjectPtr<AActor> OverlappingActor;
-
-	TObjectPtr<UOtterMovementComponent> MovementComponent;
-
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<UCapsuleComponent> PlayerHitbox;
 
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<USkeletalMeshComponent> PlayerMesh;
@@ -42,41 +34,30 @@ class OTTER_API AOtterPlayer : public APawn
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<USpringArmComponent> CameraBoom;
 
-	// Arrow for forward direction
-	UPROPERTY(VisibleAnywhere)
-	TObjectPtr<UArrowComponent> ArrowComponent;
-
 	/*INPUT*/
 
 	UPROPERTY(EditAnywhere)
-	TObjectPtr<UInputMappingContext> OtterDefaultMappingContext;
+	TObjectPtr<UInputMappingContext> OtterPlayerMappingContext;
 
 	UPROPERTY(EditAnywhere)
-	TObjectPtr<UInputAction> MoveAction;
-
+	TObjectPtr<UInputAction> PlayerMoveAction;
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UInputAction> LookAction;
-
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UInputAction> SwapCameraAction;
-
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UInputAction> InteractAction;
 
-	void Move(const FInputActionValue& Value);
+	virtual void Move(const FInputActionValue& Value);
 	void Look(const FInputActionValue& Value);
 	void SwapCamera(const FInputActionValue& Value);
 	void Interact();
 
 protected:
 
-	virtual void BeginPlay() override;
 	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
-	virtual void PostInitializeComponents() override;
+	virtual void BeginPlay() override;
 
 public:
 	AOtterPlayer();
-
-	auto GetOverlappingActor() { return OverlappingActor; }
-	void SetOverlappingActor(TObjectPtr<AActor> Actor) { OverlappingActor = Actor; }
 };

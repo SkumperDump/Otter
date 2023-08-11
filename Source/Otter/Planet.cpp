@@ -13,16 +13,5 @@ APlanet::APlanet()
 	PrimaryActorTick.bCanEverTick = true;
 
 	PlanetMesh = CreateDefaultSubobject<UStaticMeshComponent>(FName { "Planet Mesh" });
-	SetRootComponent(PlanetMesh);
-
-	MovementComponent = CreateDefaultSubobject<UOtterMovementComponent>(FName{"Planet Movement"});
-}
-
-void APlanet::PostInitializeComponents()
-{
-	Super::PostInitializeComponents();
-
-	// Setup physics for planet
-	Cast<UPrimitiveComponent>(GetRootComponent())->SetSimulatePhysics(true);
-	Cast<UPrimitiveComponent>(GetRootComponent())->SetEnableGravity(false);
+	PlanetMesh->SetupAttachment(GetRootComponent());
 }

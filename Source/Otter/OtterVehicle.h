@@ -3,23 +3,20 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Pawn.h"
+#include "OtterDefaultPawn.h"
 #include "OtterInteractInterface.h"
 #include "OtterVehicle.generated.h"
 
 class UOtterMovementComponent;
-class UCapsuleComponent;
+class UOtterOverlapComponent;
 class UInputMappingContext;
 class UInputAction;
 struct FInputActionValue;
 
 UCLASS()
-class OTTER_API AOtterVehicle : public APawn, public IOtterInteractInterface
+class OTTER_API AOtterVehicle : public AOtterDefaultPawn, public IOtterInteractInterface
 {
 	GENERATED_BODY()
-
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<UCapsuleComponent> VehicleHitbox;
 
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<USkeletalMeshComponent> VehicleMesh;
@@ -27,34 +24,24 @@ class OTTER_API AOtterVehicle : public APawn, public IOtterInteractInterface
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UParticleSystemComponent> VehicleExhaust;
 	
-	// Universal movement properties
-	TObjectPtr<UOtterMovementComponent> MovementComponent;
-	
-	/*DELEGATES*/
-
-	void OnVehicleBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
-	void OnVehicleEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
-
 	/*INPUT*/
 
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UInputMappingContext> VehicleMappingContext;
 
 	UPROPERTY(EditAnywhere)
-	TObjectPtr<UInputAction> MoveAction;
+	TObjectPtr<UInputAction> VehicleMoveAction;
 
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UInputAction> ThrustAction;
 
-	// Input Functions
-	void Move(const FInputActionValue& Value);
+	virtual void Move(const FInputActionValue& Value);
 	void Thrust(const FInputActionValue& Value);
 
 protected:
 	
-	virtual void BeginPlay() override;
-	virtual void PostInitializeComponents() override;
 	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
+	virtual void BeginPlay() override;
 
 public:	
 

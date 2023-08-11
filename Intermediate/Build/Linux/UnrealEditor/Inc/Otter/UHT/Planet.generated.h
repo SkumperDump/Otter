@@ -23,7 +23,7 @@ private: \
 	static void StaticRegisterNativesAPlanet(); \
 	friend struct Z_Construct_UClass_APlanet_Statics; \
 public: \
-	DECLARE_CLASS(APlanet, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Otter"), NO_API) \
+	DECLARE_CLASS(APlanet, AOtterDefaultPawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Otter"), NO_API) \
 	DECLARE_SERIALIZER(APlanet)
 
 
@@ -32,7 +32,7 @@ private: \
 	static void StaticRegisterNativesAPlanet(); \
 	friend struct Z_Construct_UClass_APlanet_Statics; \
 public: \
-	DECLARE_CLASS(APlanet, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Otter"), NO_API) \
+	DECLARE_CLASS(APlanet, AOtterDefaultPawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Otter"), NO_API) \
 	DECLARE_SERIALIZER(APlanet)
 
 

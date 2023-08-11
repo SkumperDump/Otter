@@ -23,7 +23,7 @@ private: \
 	static void StaticRegisterNativesAOtterVehicle(); \
 	friend struct Z_Construct_UClass_AOtterVehicle_Statics; \
 public: \
-	DECLARE_CLASS(AOtterVehicle, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Otter"), NO_API) \
+	DECLARE_CLASS(AOtterVehicle, AOtterDefaultPawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Otter"), NO_API) \
 	DECLARE_SERIALIZER(AOtterVehicle) \
 	virtual UObject* _getUObject() const override { return const_cast<AOtterVehicle*>(this); }
 
@@ -33,7 +33,7 @@ private: \
 	static void StaticRegisterNativesAOtterVehicle(); \
 	friend struct Z_Construct_UClass_AOtterVehicle_Statics; \
 public: \
-	DECLARE_CLASS(AOtterVehicle, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Otter"), NO_API) \
+	DECLARE_CLASS(AOtterVehicle, AOtterDefaultPawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Otter"), NO_API) \
 	DECLARE_SERIALIZER(AOtterVehicle) \
 	virtual UObject* _getUObject() const override { return const_cast<AOtterVehicle*>(this); }
 

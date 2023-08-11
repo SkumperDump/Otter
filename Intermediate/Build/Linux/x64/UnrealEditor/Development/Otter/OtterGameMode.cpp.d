@@ -2480,5 +2480,7 @@
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/GameModeBase.generated.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterGameMode.generated.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterPlayer.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterDefaultPawn.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterDefaultPawn.generated.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterPlayer.generated.h \
   Runtime/CoreUObject/Public/UObject/ConstructorHelpers.h

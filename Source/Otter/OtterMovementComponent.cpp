@@ -13,18 +13,16 @@ void UOtterMovementComponent::TickComponent(float DeltaTime, enum ELevelTick Tic
 
 void UOtterMovementComponent::Gravity()
 {
-	auto ActorRootPrimitive = Cast<UPrimitiveComponent>(GetOwner()->GetRootComponent());
-
-	if (ActorRootPrimitive != nullptr)
+	if (auto ActorRootPrimitive { Cast<UPrimitiveComponent>(GetOwner()->GetRootComponent()) })
 	{
 		// Get vector of location relative to world origin (which should be our sun)
-		auto DistanceFromSun = ActorRootPrimitive->GetComponentLocation();
+		auto DistanceFromSun { ActorRootPrimitive->GetComponentLocation() };
 
 		// Convert to unit vector
-		auto GravityUnitVector = DistanceFromSun / DistanceFromSun.Size();
+		auto GravityUnitVector { DistanceFromSun / DistanceFromSun.Size() };
 
 		// Reverse and mult to produce acceleration vector due to gravity
-		auto GravityVector = GravityUnitVector * (-1);
+		auto GravityVector { GravityUnitVector * (-1) };
 
 		// Add impulse (kg * m/s) towards world origin
 		ActorRootPrimitive->AddImpulse(GravityVector); // Mesh must have physics enabled 
