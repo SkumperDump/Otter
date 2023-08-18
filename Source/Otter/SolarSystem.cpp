@@ -20,6 +20,8 @@ ASolarSystem::ASolarSystem()
 	PlanetCount = 5;
 
 	// Default planet blueprint class
+	// TODO
+	// Remove this reference to blueprint stuff and replace with an instance of our otter planets
 	static ConstructorHelpers::FClassFinder<APawn> PlanetBPClass(TEXT("/Game/Blueprints/BP_Planet"));
 	DefaultPlanetClass = PlanetBPClass.Class;
 }

@@ -5,9 +5,6 @@
 #include "OtterMovementComponent.h"
 #include "OtterOverlapComponent.h"
 #include "Particles/ParticleSystemComponent.h"
-#include "Components/InputComponent.h"
-#include "EnhancedInputComponent.h"
-#include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
 
 
@@ -21,32 +18,6 @@ AOtterVehicle::AOtterVehicle()
 
 	VehicleExhaust = CreateDefaultSubobject<UParticleSystemComponent>(FName{"Vehicle Exhaust"});
 	VehicleExhaust->SetupAttachment(VehicleMesh);
-}
-
-void AOtterVehicle::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
-	if (auto EnhancedInputComponent { CastChecked<UEnhancedInputComponent>(PlayerInputComponent) })
-	{
-		EnhancedInputComponent->BindAction(VehicleMoveAction, ETriggerEvent::Triggered, this, &AOtterVehicle::Move);
-		EnhancedInputComponent->BindAction(ThrustAction, ETriggerEvent::Triggered, this, &AOtterVehicle::Thrust);
-	}
-}
-
-void AOtterVehicle::BeginPlay()
-{
-	Super::BeginPlay();
-	// Get enhanced input subsys for player associated with our controller
-	if (auto LocalPlayer { Cast<ULocalPlayer>(this) })
-	{
-		if (auto Subsystem { LocalPlayer->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>() })
-		{
-			{
-				UE_LOG(LogTemp, Warning, TEXT("Setting Mapping Context"));
-				Subsystem->AddMappingContext(VehicleMappingContext, 2);
-			}
-		}
-	}
 }
 
 void AOtterVehicle::Move(const FInputActionValue& Value)

@@ -8,11 +8,7 @@
 #include "Camera/CameraComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/CapsuleComponent.h"
-#include "Components/InputComponent.h"
-#include "EnhancedInputComponent.h"
-#include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
-#include "Subsystems/LocalPlayerSubsystem.h"
 
 
 AOtterPlayer::AOtterPlayer()
@@ -28,42 +24,6 @@ AOtterPlayer::AOtterPlayer()
 
 	PlayerCamera = CreateDefaultSubobject<UCameraComponent>(FName {"Player Camera"}); 
 	PlayerCamera->SetupAttachment(CameraBoom);
-}
-
-void AOtterPlayer::BeginPlay()
-{
-	Super::BeginPlay();
-	// Get enhanced input subsys for player associated with our controller
-	//TODO
-	// One or more of these casts are failing and inner code is not being executed
-	UE_LOG(LogTemp, Warning, TEXT("Before First Cast"));
-
-	if (auto LocalPlayer { Cast<ULocalPlayer>(GetNetOwningPlayer()) })
-	{
-		UE_LOG(LogTemp, Warning, TEXT("First Cast"));
-		if (auto Subsystem { LocalPlayer->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>() })
-		{
-			{
-				UE_LOG(LogTemp, Warning, TEXT("Setting Mapping Context"));
-				Subsystem->AddMappingContext(OtterPlayerMappingContext, 0);
-			}
-		}
-	}
-}
-
-void AOtterPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
-	UE_LOG(LogTemp, Warning, TEXT("Setting Up Input Component"));
-
-	// Cast AActor::InputComponent and then setup action bindings
-	if (auto EnhancedInputComponent { CastChecked<UEnhancedInputComponent>(PlayerInputComponent) })
-	{
-		EnhancedInputComponent->BindAction(PlayerMoveAction, ETriggerEvent::Triggered, this, &AOtterPlayer::Move);
-		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AOtterPlayer::Look);
-		EnhancedInputComponent->BindAction(SwapCameraAction, ETriggerEvent::Completed, this, &AOtterPlayer::SwapCamera);
-		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Triggered, this, &AOtterPlayer::Interact);
-	}
 }
 
 void AOtterPlayer::Move(const FInputActionValue& Value)
@@ -96,7 +56,7 @@ void AOtterPlayer::SwapCamera(const FInputActionValue& Value)
 	bUseFirstPersonCamera = !bUseFirstPersonCamera;
 }
 
-void AOtterPlayer::Interact()
+void AOtterPlayer::Interact(const FInputActionValue& Value)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Interact"));
 
@@ -112,4 +72,3 @@ void AOtterPlayer::Interact()
 		}
 	}
 }
-

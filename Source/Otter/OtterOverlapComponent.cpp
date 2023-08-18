@@ -7,10 +7,7 @@
 
 UOtterOverlapComponent::UOtterOverlapComponent()
 {
-	// Beginning of overlap event with this component
 	OnComponentBeginOverlap.AddDynamic(this, &UOtterOverlapComponent::OnBeginOverlap);
-
-	// End of overlap event with this component
 	OnComponentEndOverlap.AddDynamic(this, &UOtterOverlapComponent::OnEndOverlap);
 }
 
@@ -21,12 +18,9 @@ void UOtterOverlapComponent::OnBeginOverlap(UPrimitiveComponent* OverlappedCompo
 
 void UOtterOverlapComponent::OnEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
-	// If player can enter this vehicle when overlap ends, set to nullptr
-	if (auto Player { Cast<AOtterPlayer>(OtherActor) })
+	// Prevent setting to null if overlapping something else
+	if(OverlappingActor == OtherActor)
 	{
-		if(OverlappingActor == GetOwner())
-		{
-			OverlappingActor = nullptr;
-		}
+		OverlappingActor = nullptr;
 	}
 }

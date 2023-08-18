@@ -8,10 +8,9 @@
 
 class UCameraComponent;
 class UCapsuleComponent;
-class UInputAction;
-class UInputMappingContext;
 class USpringArmComponent;
 class USkeletalMeshComponent;
+class UInputMappingContext;
 struct FInputActionValue;
 
 UCLASS()
@@ -34,30 +33,11 @@ class OTTER_API AOtterPlayer : public AOtterDefaultPawn
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<USpringArmComponent> CameraBoom;
 
-	/*INPUT*/
-
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<UInputMappingContext> OtterPlayerMappingContext;
-
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<UInputAction> PlayerMoveAction;
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<UInputAction> LookAction;
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<UInputAction> SwapCameraAction;
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<UInputAction> InteractAction;
-
-	virtual void Move(const FInputActionValue& Value);
-	void Look(const FInputActionValue& Value);
-	void SwapCamera(const FInputActionValue& Value);
-	void Interact();
-
-protected:
-
-	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
-	virtual void BeginPlay() override;
-
 public:
 	AOtterPlayer();
+
+	virtual void Move(const FInputActionValue& Value) override;
+	virtual void Look(const FInputActionValue& Value) override;
+	virtual void SwapCamera(const FInputActionValue& Value) override;
+	virtual void Interact(const FInputActionValue& Value) override;
 };

@@ -7,10 +7,8 @@
 #include "OtterInteractInterface.h"
 #include "OtterVehicle.generated.h"
 
-class UOtterMovementComponent;
-class UOtterOverlapComponent;
-class UInputMappingContext;
-class UInputAction;
+class USkeletalMeshComponent;
+class UParticleSystemComponent;
 struct FInputActionValue;
 
 UCLASS()
@@ -24,24 +22,8 @@ class OTTER_API AOtterVehicle : public AOtterDefaultPawn, public IOtterInteractI
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UParticleSystemComponent> VehicleExhaust;
 	
-	/*INPUT*/
-
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<UInputMappingContext> VehicleMappingContext;
-
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<UInputAction> VehicleMoveAction;
-
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<UInputAction> ThrustAction;
-
-	virtual void Move(const FInputActionValue& Value);
-	void Thrust(const FInputActionValue& Value);
-
-protected:
-	
-	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
-	virtual void BeginPlay() override;
+	virtual void Move(const FInputActionValue& Value) override;
+	virtual void Thrust(const FInputActionValue& Value) override;
 
 public:	
 

@@ -7,8 +7,6 @@
 #include "Planet.generated.h"
 
 class UStaticMeshComponent;
-class UOtterMovementComponent;
-class ASolarSystem;
 
 UCLASS()
 class OTTER_API APlanet : public AOtterDefaultPawn

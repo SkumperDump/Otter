@@ -7,14 +7,13 @@
 #include "OtterOverlapComponent.generated.h"
 
 
-/**
- * 
- */
 UCLASS()
 class OTTER_API UOtterOverlapComponent : public USphereComponent
 {
 	GENERATED_BODY()
 	
+	TObjectPtr<AActor> OverlappingActor;
+
 	/*DELEGATES*/
 
 	UFUNCTION()
@@ -22,8 +21,6 @@ class OTTER_API UOtterOverlapComponent : public USphereComponent
 
 	UFUNCTION()
 	void OnEndOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
-
-	TObjectPtr<AActor> OverlappingActor;
 
 public:
 
