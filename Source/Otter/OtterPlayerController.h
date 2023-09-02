@@ -6,17 +6,12 @@
 #include "GameFramework/PlayerController.h"
 #include "OtterPlayerController.generated.h"
 
-class AOtterDefaultPawn;
-class UInputMappingContext;
 class UInputAction;
-struct FInputActionValue;
 
 UCLASS()
 class OTTER_API AOtterPlayerController : public APlayerController
 {
 	GENERATED_BODY()
-	
-	// INPUT
 	
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UInputAction> MoveAction;
@@ -33,9 +28,5 @@ class OTTER_API AOtterPlayerController : public APlayerController
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UInputAction> InteractAction;
 
-	virtual void SetupInputComponent() override;
-
-public:
-
-	void SetMappingContext(TObjectPtr<UInputMappingContext> IMC, int index);
+	virtual void BeginPlay() override;
 };

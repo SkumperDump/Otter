@@ -2482,9 +2482,27 @@
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/ShapeComponent.generated.h \
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/SphereComponent.generated.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterOverlapComponent.generated.h \
-  Runtime/Engine/Classes/GameFramework/SpringArmComponent.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterMovementComponent.h \
+  Runtime/Engine/Classes/GameFramework/PawnMovementComponent.h \
+  Runtime/Engine/Classes/GameFramework/NavMovementComponent.h \
   Runtime/Engine/Classes/Engine/EngineTypes.h \
+  Runtime/Engine/Classes/GameFramework/Actor.h \
+  Runtime/Engine/Classes/AI/Navigation/NavigationTypes.h \
+  Runtime/Engine/Classes/AI/Navigation/NavAgentInterface.h \
+  Runtime/Engine/Classes/AI/Navigation/PathFollowingAgentInterface.h \
+  ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/PathFollowingAgentInterface.generated.h \
+  Runtime/Engine/Classes/GameFramework/MovementComponent.h \
+  Runtime/PhysicsCore/Public/Chaos/ChaosEngineInterface.h \
+  Runtime/Engine/Classes/Components/ActorComponent.h \
   Runtime/Engine/Classes/Components/SceneComponent.h \
+  ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/MovementComponent.generated.h \
+  ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/NavMovementComponent.generated.h \
+  ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/PawnMovementComponent.generated.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterMovementComponent.generated.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterPlayerController.h \
+  Runtime/Engine/Classes/GameFramework/PlayerController.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterPlayerController.generated.h \
+  Runtime/Engine/Classes/GameFramework/SpringArmComponent.h \
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/SpringArmComponent.generated.h \
   Runtime/Engine/Classes/Camera/CameraComponent.h \
   Runtime/CoreUObject/Public/UObject/ScriptInterface.h \
@@ -2495,6 +2513,33 @@
   Runtime/Engine/Classes/Components/SkeletalMeshComponent.h \
   Runtime/Engine/Classes/Components/CapsuleComponent.h \
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/CapsuleComponent.generated.h \
+  ../Plugins/EnhancedInput/Source/EnhancedInput/Public/EnhancedInputSubsystems.h \
+  ../Plugins/EnhancedInput/Source/EnhancedInput/Public/EnhancedInputSubsystemInterface.h \
+  ../Plugins/EnhancedInput/Source/EnhancedInput/Public/EnhancedPlayerInput.h \
+  Runtime/Engine/Classes/GameFramework/PlayerInput.h \
+  ../Plugins/EnhancedInput/Source/EnhancedInput/Public/InputAction.h \
+  Runtime/Engine/Classes/Engine/DataAsset.h \
+  ../Plugins/EnhancedInput/Source/EnhancedInput/Public/InputModifiers.h \
   ../Plugins/EnhancedInput/Source/EnhancedInput/Public/InputActionValue.h \
   Runtime/InputCore/Classes/InputCoreTypes.h \
-  ../Plugins/EnhancedInput/Intermediate/Build/Linux/UnrealEditor/Inc/EnhancedInput/UHT/InputActionValue.generated.h
+  ../Plugins/EnhancedInput/Intermediate/Build/Linux/UnrealEditor/Inc/EnhancedInput/UHT/InputActionValue.generated.h \
+  ../Plugins/EnhancedInput/Intermediate/Build/Linux/UnrealEditor/Inc/EnhancedInput/UHT/InputModifiers.generated.h \
+  ../Plugins/EnhancedInput/Source/EnhancedInput/Public/InputTriggers.h \
+  ../Plugins/EnhancedInput/Intermediate/Build/Linux/UnrealEditor/Inc/EnhancedInput/UHT/InputTriggers.generated.h \
+  ../Plugins/EnhancedInput/Intermediate/Build/Linux/UnrealEditor/Inc/EnhancedInput/UHT/InputAction.generated.h \
+  ../Plugins/EnhancedInput/Source/EnhancedInput/Public/InputMappingQuery.h \
+  ../Plugins/EnhancedInput/Intermediate/Build/Linux/UnrealEditor/Inc/EnhancedInput/UHT/InputMappingQuery.generated.h \
+  ../Plugins/EnhancedInput/Intermediate/Build/Linux/UnrealEditor/Inc/EnhancedInput/UHT/EnhancedPlayerInput.generated.h \
+  ../Plugins/EnhancedInput/Source/EnhancedInput/Public/EnhancedActionKeyMapping.h \
+  ../Plugins/EnhancedInput/Intermediate/Build/Linux/UnrealEditor/Inc/EnhancedInput/UHT/EnhancedActionKeyMapping.generated.h \
+  ../Plugins/EnhancedInput/Source/EnhancedInput/Public/PlayerMappableKeySlot.h \
+  ../Plugins/EnhancedInput/Intermediate/Build/Linux/UnrealEditor/Inc/EnhancedInput/UHT/PlayerMappableKeySlot.generated.h \
+  ../Plugins/EnhancedInput/Intermediate/Build/Linux/UnrealEditor/Inc/EnhancedInput/UHT/EnhancedInputSubsystemInterface.generated.h \
+  Runtime/Engine/Public/Subsystems/LocalPlayerSubsystem.h \
+  Runtime/Engine/Public/Subsystems/WorldSubsystem.h \
+  ../Plugins/EnhancedInput/Intermediate/Build/Linux/UnrealEditor/Inc/EnhancedInput/UHT/EnhancedInputSubsystems.generated.h \
+  ../Plugins/EnhancedInput/Source/EnhancedInput/Public/EnhancedInputWorldProcessor.h \
+  Runtime/Slate/Public/Framework/Application/IInputProcessor.h \
+  Runtime/ApplicationCore/Public/GenericPlatform/ICursor.h \
+  Runtime/Core/Public/Math/Vector2D.h \
+  Runtime/Engine/Public/Subsystems/EngineSubsystem.h

@@ -4,7 +4,9 @@
 #include "OtterVehicle.h"
 #include "OtterMovementComponent.h"
 #include "OtterOverlapComponent.h"
+#include "OtterPlayerController.h"
 #include "Particles/ParticleSystemComponent.h"
+#include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
 
 
@@ -18,6 +20,16 @@ AOtterVehicle::AOtterVehicle()
 
 	VehicleExhaust = CreateDefaultSubobject<UParticleSystemComponent>(FName{"Vehicle Exhaust"});
 	VehicleExhaust->SetupAttachment(VehicleMesh);
+}
+
+void AOtterVehicle::BeginPlay()
+{
+	Super::BeginPlay();
+
+	// TODO
+	// I really like this but it looks ugly so maybe clean up
+	auto OtterController { Cast<AOtterPlayerController>(Controller) };	check(OtterController != nullptr);
+	OtterController->GetLocalPlayer()->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>()->AddMappingContext(MappingContext, 0);
 }
 
 void AOtterVehicle::Move(const FInputActionValue& Value)

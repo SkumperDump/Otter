@@ -33,6 +33,10 @@ class OTTER_API AOtterPlayer : public AOtterDefaultPawn
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<USpringArmComponent> CameraBoom;
 
+	virtual void BeginPlay() override;
+
+	virtual void PostInitializeComponents() override;
+
 public:
 	AOtterPlayer();
 

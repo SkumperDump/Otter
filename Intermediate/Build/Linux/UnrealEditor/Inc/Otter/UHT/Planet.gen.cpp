@@ -98,9 +98,9 @@ void EmptyLinkFunctionForGeneratedCodePlanet() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_Planet_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_APlanet, APlanet::StaticClass, TEXT("APlanet"), &Z_Registration_Info_UClass_APlanet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlanet), 1789629938U) },
+		{ Z_Construct_UClass_APlanet, APlanet::StaticClass, TEXT("APlanet"), &Z_Registration_Info_UClass_APlanet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlanet), 1702610636U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_Planet_h_48267240(TEXT("/Script/Otter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_Planet_h_3220516310(TEXT("/Script/Otter"),
 		Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_Planet_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_Planet_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

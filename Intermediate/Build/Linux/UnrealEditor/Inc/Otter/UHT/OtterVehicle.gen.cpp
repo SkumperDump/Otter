@@ -115,9 +115,9 @@ void EmptyLinkFunctionForGeneratedCodeOtterVehicle() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AOtterVehicle, AOtterVehicle::StaticClass, TEXT("AOtterVehicle"), &Z_Registration_Info_UClass_AOtterVehicle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AOtterVehicle), 3692736191U) },
+		{ Z_Construct_UClass_AOtterVehicle, AOtterVehicle::StaticClass, TEXT("AOtterVehicle"), &Z_Registration_Info_UClass_AOtterVehicle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AOtterVehicle), 2702212139U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_3539359578(TEXT("/Script/Otter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_2214599996(TEXT("/Script/Otter"),
 		Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

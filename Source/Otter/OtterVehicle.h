@@ -25,6 +25,8 @@ class OTTER_API AOtterVehicle : public AOtterDefaultPawn, public IOtterInteractI
 	virtual void Move(const FInputActionValue& Value) override;
 	virtual void Thrust(const FInputActionValue& Value) override;
 
+	virtual void BeginPlay() override;
+
 public:	
 
 	AOtterVehicle();

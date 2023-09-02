@@ -4,10 +4,13 @@
 #include "OtterPlayer.h"
 #include "OtterInteractInterface.h"
 #include "OtterOverlapComponent.h"
+#include "OtterMovementComponent.h"
+#include "OtterPlayerController.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/CapsuleComponent.h"
+#include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
 
 
@@ -24,16 +27,32 @@ AOtterPlayer::AOtterPlayer()
 
 	PlayerCamera = CreateDefaultSubobject<UCameraComponent>(FName {"Player Camera"}); 
 	PlayerCamera->SetupAttachment(CameraBoom);
+
+}
+
+void AOtterPlayer::BeginPlay()
+{
+	Super::BeginPlay();
+
+	// TODO
+	// I really like this but it looks ugly so maybe clean up
+	auto OtterController { Cast<AOtterPlayerController>(Controller) };	check(OtterController != nullptr);
+	OtterController->GetLocalPlayer()->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>()->AddMappingContext(MappingContext, 0);
+}
+
+void AOtterPlayer::PostInitializeComponents()
+{
+	auto PrimComp { Cast<UPrimitiveComponent>(GetRootComponent())};
+	PrimComp->SetSimulatePhysics(true);
+	PrimComp->SetEnableGravity(false);
 }
 
 void AOtterPlayer::Move(const FInputActionValue& Value)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Move Value: %s"), *Value.ToString());
-
-	// Add XYZ movement
-	Cast<UPrimitiveComponent>(GetRootComponent())->AddImpulse(GetActorRightVector() * Value.Get<FVector>().X);
-	Cast<UPrimitiveComponent>(GetRootComponent())->AddImpulse(GetActorForwardVector() * Value.Get<FVector>().Y);
-	Cast<UPrimitiveComponent>(GetRootComponent())->AddImpulse(GetActorUpVector() * Value.Get<FVector>().Z);
+	// TODO
+	// KEEP THIS, THIS SHOULD WORK
+	Cast<UPrimitiveComponent>(GetRootComponent())->AddImpulse(Value.Get<FVector>() * 100);
 }
 
 void AOtterPlayer::Look(const FInputActionValue& Value)
