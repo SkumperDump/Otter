@@ -8,7 +8,6 @@
 #include "OtterPlayerController.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
-#include "Components/SkeletalMeshComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
@@ -19,11 +18,8 @@ AOtterPlayer::AOtterPlayer()
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	PlayerMesh = CreateDefaultSubobject<USkeletalMeshComponent>(FName {"Player Mesh"}); 
-	PlayerMesh->SetupAttachment(GetRootComponent());
-
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(FName {"Player Camera Boom"}); 
-	CameraBoom->SetupAttachment(GetRootComponent());
+	CameraBoom->SetupAttachment(PlayerMesh);
 
 	PlayerCamera = CreateDefaultSubobject<UCameraComponent>(FName {"Player Camera"}); 
 	PlayerCamera->SetupAttachment(CameraBoom);
@@ -42,6 +38,7 @@ void AOtterPlayer::BeginPlay()
 
 void AOtterPlayer::PostInitializeComponents()
 {
+	Super::PostInitializeComponents();
 	auto PrimComp { Cast<UPrimitiveComponent>(GetRootComponent())};
 	PrimComp->SetSimulatePhysics(true);
 	PrimComp->SetEnableGravity(false);
@@ -52,7 +49,9 @@ void AOtterPlayer::Move(const FInputActionValue& Value)
 	UE_LOG(LogTemp, Warning, TEXT("Move Value: %s"), *Value.ToString());
 	// TODO
 	// KEEP THIS, THIS SHOULD WORK
-	Cast<UPrimitiveComponent>(GetRootComponent())->AddImpulse(Value.Get<FVector>() * 100);
+	// This function is defined in priv/primcompphys.cpp
+	// I think this is not working because that is not being included somehow?
+	Cast<UPrimitiveComponent>(GetRootComponent())->GetBodyInstance()->AddImpulse(Value.Get<FVector>() * 100, false);
 }
 
 void AOtterPlayer::Look(const FInputActionValue& Value)

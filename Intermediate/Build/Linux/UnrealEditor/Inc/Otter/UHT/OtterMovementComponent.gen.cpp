@@ -35,12 +35,17 @@ void EmptyLinkFunctionForGeneratedCodeOtterMovementComponent() {}
 		(UObject* (*)())Z_Construct_UClass_UPawnMovementComponent,
 		(UObject* (*)())Z_Construct_UPackage__Script_Otter,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UOtterMovementComponent_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOtterMovementComponent_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** This is used to represent physics and whatnot for the game */" },
+#endif
 		{ "IncludePath", "OtterMovementComponent.h" },
 		{ "ModuleRelativePath", "OtterMovementComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This is used to represent physics and whatnot for the game" },
+#endif
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UOtterMovementComponent_Statics::StaticCppClassTypeInfo = {
@@ -59,7 +64,7 @@ void EmptyLinkFunctionForGeneratedCodeOtterMovementComponent() {}
 		0,
 		0,
 		0x00B000A4u,
-		METADATA_PARAMS(Z_Construct_UClass_UOtterMovementComponent_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UOtterMovementComponent_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UOtterMovementComponent_Statics::Class_MetaDataParams), Z_Construct_UClass_UOtterMovementComponent_Statics::Class_MetaDataParams)
 	};
 	UClass* Z_Construct_UClass_UOtterMovementComponent()
 	{
@@ -81,9 +86,9 @@ void EmptyLinkFunctionForGeneratedCodeOtterMovementComponent() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterMovementComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UOtterMovementComponent, UOtterMovementComponent::StaticClass, TEXT("UOtterMovementComponent"), &Z_Registration_Info_UClass_UOtterMovementComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOtterMovementComponent), 1079481453U) },
+		{ Z_Construct_UClass_UOtterMovementComponent, UOtterMovementComponent::StaticClass, TEXT("UOtterMovementComponent"), &Z_Registration_Info_UClass_UOtterMovementComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UOtterMovementComponent), 1588424068U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterMovementComponent_h_1704077955(TEXT("/Script/Otter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterMovementComponent_h_155855692(TEXT("/Script/Otter"),
 		Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterMovementComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterMovementComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

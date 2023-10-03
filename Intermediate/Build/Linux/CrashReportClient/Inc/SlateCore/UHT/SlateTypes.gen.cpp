@@ -109,11 +109,11 @@ void EmptyLinkFunctionForGeneratedCodeSlateTypes() {}
 		"EConsumeMouseWheel",
 		"EConsumeMouseWheel",
 		Z_Construct_UEnum_SlateCore_EConsumeMouseWheel_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_EConsumeMouseWheel_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_EConsumeMouseWheel_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_SlateCore_EConsumeMouseWheel_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_EConsumeMouseWheel_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_EConsumeMouseWheel_Statics::Enum_MetaDataParams), Z_Construct_UEnum_SlateCore_EConsumeMouseWheel_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_SlateCore_EConsumeMouseWheel()
 	{
@@ -168,11 +168,11 @@ void EmptyLinkFunctionForGeneratedCodeSlateTypes() {}
 		"ESlateParentWindowSearchMethod",
 		"ESlateParentWindowSearchMethod",
 		Z_Construct_UEnum_SlateCore_ESlateParentWindowSearchMethod_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateParentWindowSearchMethod_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateParentWindowSearchMethod_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_SlateCore_ESlateParentWindowSearchMethod_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateParentWindowSearchMethod_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateParentWindowSearchMethod_Statics::Enum_MetaDataParams), Z_Construct_UEnum_SlateCore_ESlateParentWindowSearchMethod_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_SlateCore_ESlateParentWindowSearchMethod()
 	{
@@ -226,11 +226,11 @@ void EmptyLinkFunctionForGeneratedCodeSlateTypes() {}
 		"ESlateCheckBoxType",
 		"ESlateCheckBoxType::Type",
 		Z_Construct_UEnum_SlateCore_ESlateCheckBoxType_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateCheckBoxType_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateCheckBoxType_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_SlateCore_ESlateCheckBoxType_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateCheckBoxType_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateCheckBoxType_Statics::Enum_MetaDataParams), Z_Construct_UEnum_SlateCore_ESlateCheckBoxType_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_SlateCore_ESlateCheckBoxType()
 	{
@@ -289,11 +289,11 @@ void EmptyLinkFunctionForGeneratedCodeSlateTypes() {}
 		"ECheckBoxState",
 		"ECheckBoxState",
 		Z_Construct_UEnum_SlateCore_ECheckBoxState_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ECheckBoxState_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ECheckBoxState_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_SlateCore_ECheckBoxState_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ECheckBoxState_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ECheckBoxState_Statics::Enum_MetaDataParams), Z_Construct_UEnum_SlateCore_ECheckBoxState_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_SlateCore_ECheckBoxState()
 	{
@@ -348,11 +348,11 @@ void EmptyLinkFunctionForGeneratedCodeSlateTypes() {}
 		"ETextOverflowPolicy",
 		"ETextOverflowPolicy",
 		Z_Construct_UEnum_SlateCore_ETextOverflowPolicy_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ETextOverflowPolicy_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ETextOverflowPolicy_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_SlateCore_ETextOverflowPolicy_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ETextOverflowPolicy_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ETextOverflowPolicy_Statics::Enum_MetaDataParams), Z_Construct_UEnum_SlateCore_ETextOverflowPolicy_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_SlateCore_ETextOverflowPolicy()
 	{
@@ -523,7 +523,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "The visual type of the checkbox" },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckBoxType = { "CheckBoxType", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, CheckBoxType), Z_Construct_UEnum_SlateCore_ESlateCheckBoxType, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckBoxType_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckBoxType_MetaData)) }; // 3077855935
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckBoxType = { "CheckBoxType", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, CheckBoxType), Z_Construct_UEnum_SlateCore_ESlateCheckBoxType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckBoxType_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckBoxType_MetaData) }; // 3890441720
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -532,7 +532,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "CheckBox appearance when the CheckBox is unchecked (normal)" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedImage = { "UncheckedImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, UncheckedImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedImage = { "UncheckedImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, UncheckedImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedImage_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedHoveredImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -541,7 +541,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "CheckBox appearance when the CheckBox is unchecked and hovered" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedHoveredImage = { "UncheckedHoveredImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, UncheckedHoveredImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedHoveredImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedHoveredImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedHoveredImage = { "UncheckedHoveredImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, UncheckedHoveredImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedHoveredImage_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedHoveredImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedPressedImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -550,7 +550,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "CheckBox appearance when the CheckBox is unchecked and hovered" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedPressedImage = { "UncheckedPressedImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, UncheckedPressedImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedPressedImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedPressedImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedPressedImage = { "UncheckedPressedImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, UncheckedPressedImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedPressedImage_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedPressedImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -559,7 +559,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "CheckBox appearance when the CheckBox is checked" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedImage = { "CheckedImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, CheckedImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedImage = { "CheckedImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, CheckedImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedImage_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedHoveredImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -568,7 +568,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "CheckBox appearance when checked and hovered" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedHoveredImage = { "CheckedHoveredImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, CheckedHoveredImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedHoveredImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedHoveredImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedHoveredImage = { "CheckedHoveredImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, CheckedHoveredImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedHoveredImage_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedHoveredImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedPressedImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -577,7 +577,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "CheckBox appearance when checked and pressed" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedPressedImage = { "CheckedPressedImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, CheckedPressedImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedPressedImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedPressedImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedPressedImage = { "CheckedPressedImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, CheckedPressedImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedPressedImage_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedPressedImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -586,7 +586,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "CheckBox appearance when the CheckBox is undetermined" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedImage = { "UndeterminedImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, UndeterminedImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedImage = { "UndeterminedImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, UndeterminedImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedImage_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedHoveredImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -595,7 +595,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "CheckBox appearance when CheckBox is undetermined and hovered" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedHoveredImage = { "UndeterminedHoveredImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, UndeterminedHoveredImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedHoveredImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedHoveredImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedHoveredImage = { "UndeterminedHoveredImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, UndeterminedHoveredImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedHoveredImage_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedHoveredImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedPressedImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -604,7 +604,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "CheckBox appearance when CheckBox is undetermined and pressed" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedPressedImage = { "UndeterminedPressedImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, UndeterminedPressedImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedPressedImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedPressedImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedPressedImage = { "UndeterminedPressedImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, UndeterminedPressedImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedPressedImage_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedPressedImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_Padding_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -613,7 +613,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "Padding" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_Padding = { "Padding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, Padding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_Padding_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_Padding_MetaData)) }; // 2014822612
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_Padding = { "Padding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, Padding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_Padding_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_Padding_MetaData) }; // 2235102396
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BackgroundImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -622,7 +622,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "Background appearance" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BackgroundImage = { "BackgroundImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, BackgroundImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BackgroundImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BackgroundImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BackgroundImage = { "BackgroundImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, BackgroundImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BackgroundImage_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BackgroundImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BackgroundHoveredImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -631,7 +631,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "Background appearance when hovered" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BackgroundHoveredImage = { "BackgroundHoveredImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, BackgroundHoveredImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BackgroundHoveredImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BackgroundHoveredImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BackgroundHoveredImage = { "BackgroundHoveredImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, BackgroundHoveredImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BackgroundHoveredImage_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BackgroundHoveredImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BackgroundPressedImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -640,7 +640,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "Background appearance when pressed" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BackgroundPressedImage = { "BackgroundPressedImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, BackgroundPressedImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BackgroundPressedImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BackgroundPressedImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BackgroundPressedImage = { "BackgroundPressedImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, BackgroundPressedImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BackgroundPressedImage_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BackgroundPressedImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_ForegroundColor_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -649,7 +649,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "The normal unchecked foreground color" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_ForegroundColor = { "ForegroundColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, ForegroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_ForegroundColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_ForegroundColor_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_ForegroundColor = { "ForegroundColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, ForegroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_ForegroundColor_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_ForegroundColor_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_HoveredForeground_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -658,7 +658,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "Foreground Color when hovered" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_HoveredForeground = { "HoveredForeground", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, HoveredForeground), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_HoveredForeground_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_HoveredForeground_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_HoveredForeground = { "HoveredForeground", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, HoveredForeground), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_HoveredForeground_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_HoveredForeground_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_PressedForeground_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -667,7 +667,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "Foreground Color when pressed" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_PressedForeground = { "PressedForeground", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, PressedForeground), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_PressedForeground_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_PressedForeground_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_PressedForeground = { "PressedForeground", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, PressedForeground), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_PressedForeground_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_PressedForeground_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedForeground_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -676,7 +676,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "Foreground Color when checked" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedForeground = { "CheckedForeground", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, CheckedForeground), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedForeground_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedForeground_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedForeground = { "CheckedForeground", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, CheckedForeground), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedForeground_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedForeground_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedHoveredForeground_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -685,7 +685,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "Foreground Color when checked and pressed" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedHoveredForeground = { "CheckedHoveredForeground", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, CheckedHoveredForeground), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedHoveredForeground_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedHoveredForeground_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedHoveredForeground = { "CheckedHoveredForeground", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, CheckedHoveredForeground), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedHoveredForeground_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedHoveredForeground_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedPressedForeground_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -694,7 +694,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "Foreground Color when checked and pressed" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedPressedForeground = { "CheckedPressedForeground", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, CheckedPressedForeground), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedPressedForeground_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedPressedForeground_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedPressedForeground = { "CheckedPressedForeground", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, CheckedPressedForeground), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedPressedForeground_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedPressedForeground_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedForeground_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -703,7 +703,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "Foreground Color when the check state is indeterminate" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedForeground = { "UndeterminedForeground", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, UndeterminedForeground), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedForeground_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedForeground_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedForeground = { "UndeterminedForeground", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, UndeterminedForeground), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedForeground_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UndeterminedForeground_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BorderBackgroundColor_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -712,7 +712,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "BorderBackgroundColor refers to the actual color and opacity of the supplied border image on toggle buttons" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BorderBackgroundColor = { "BorderBackgroundColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, BorderBackgroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BorderBackgroundColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BorderBackgroundColor_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BorderBackgroundColor = { "BorderBackgroundColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, BorderBackgroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BorderBackgroundColor_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_BorderBackgroundColor_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedSlateSound_MetaData[] = {
 		{ "Category", "Sound" },
@@ -722,7 +722,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "The sound the check box should play when checked" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedSlateSound = { "CheckedSlateSound", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, CheckedSlateSound), Z_Construct_UScriptStruct_FSlateSound, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedSlateSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedSlateSound_MetaData)) }; // 2826200611
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedSlateSound = { "CheckedSlateSound", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, CheckedSlateSound), Z_Construct_UScriptStruct_FSlateSound, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedSlateSound_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedSlateSound_MetaData) }; // 71556389
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedSlateSound_MetaData[] = {
 		{ "Category", "Sound" },
@@ -732,7 +732,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "The sound the check box should play when unchecked" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedSlateSound = { "UncheckedSlateSound", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, UncheckedSlateSound), Z_Construct_UScriptStruct_FSlateSound, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedSlateSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedSlateSound_MetaData)) }; // 2826200611
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedSlateSound = { "UncheckedSlateSound", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, UncheckedSlateSound), Z_Construct_UScriptStruct_FSlateSound, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedSlateSound_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedSlateSound_MetaData) }; // 71556389
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_HoveredSlateSound_MetaData[] = {
 		{ "Category", "Sound" },
@@ -742,26 +742,26 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		{ "ToolTip", "The sound the check box should play when initially hovered over" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_HoveredSlateSound = { "HoveredSlateSound", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, HoveredSlateSound), Z_Construct_UScriptStruct_FSlateSound, METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_HoveredSlateSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_HoveredSlateSound_MetaData)) }; // 2826200611
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_HoveredSlateSound = { "HoveredSlateSound", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, HoveredSlateSound), Z_Construct_UScriptStruct_FSlateSound, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_HoveredSlateSound_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_HoveredSlateSound_MetaData) }; // 71556389
 #if WITH_EDITORONLY_DATA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedSound_MetaData[] = {
 		{ "ModuleRelativePath", "Public/Styling/SlateTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedSound = { "CheckedSound", nullptr, (EPropertyFlags)0x0010000820000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, CheckedSound_DEPRECATED), METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedSound_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedSound = { "CheckedSound", nullptr, (EPropertyFlags)0x0010000820000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, CheckedSound_DEPRECATED), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedSound_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckedSound_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedSound_MetaData[] = {
 		{ "ModuleRelativePath", "Public/Styling/SlateTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedSound = { "UncheckedSound", nullptr, (EPropertyFlags)0x0010000820000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, UncheckedSound_DEPRECATED), METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedSound_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedSound = { "UncheckedSound", nullptr, (EPropertyFlags)0x0010000820000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, UncheckedSound_DEPRECATED), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedSound_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_UncheckedSound_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_HoveredSound_MetaData[] = {
 		{ "ModuleRelativePath", "Public/Styling/SlateTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_HoveredSound = { "HoveredSound", nullptr, (EPropertyFlags)0x0010000820000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCheckBoxStyle, HoveredSound_DEPRECATED), METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_HoveredSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_HoveredSound_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_HoveredSound = { "HoveredSound", nullptr, (EPropertyFlags)0x0010000820000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCheckBoxStyle, HoveredSound_DEPRECATED), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_HoveredSound_MetaData), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_HoveredSound_MetaData) };
 #endif // WITH_EDITORONLY_DATA
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewProp_CheckBoxType,
@@ -800,14 +800,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"CheckBoxStyle",
-		sizeof(FCheckBoxStyle),
-		alignof(FCheckBoxStyle),
 		Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::PropPointers),
+		sizeof(FCheckBoxStyle),
+		alignof(FCheckBoxStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FCheckBoxStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_CheckBoxStyle.InnerSingleton)
@@ -865,11 +866,11 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCheckBoxStyle>()
 		"ETextTransformPolicy",
 		"ETextTransformPolicy",
 		Z_Construct_UEnum_SlateCore_ETextTransformPolicy_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ETextTransformPolicy_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ETextTransformPolicy_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_SlateCore_ETextTransformPolicy_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ETextTransformPolicy_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ETextTransformPolicy_Statics::Enum_MetaDataParams), Z_Construct_UEnum_SlateCore_ETextTransformPolicy_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_SlateCore_ETextTransformPolicy()
 	{
@@ -970,7 +971,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTextBlockStyle>()
 		{ "ToolTip", "Font family and size to be used when displaying this text." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_Font = { "Font", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTextBlockStyle, Font), Z_Construct_UScriptStruct_FSlateFontInfo, METADATA_PARAMS(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_Font_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_Font_MetaData)) }; // 192883377
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_Font = { "Font", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTextBlockStyle, Font), Z_Construct_UScriptStruct_FSlateFontInfo, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_Font_MetaData), Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_Font_MetaData) }; // 2074891513
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_ColorAndOpacity_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -980,7 +981,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTextBlockStyle>()
 		{ "ToolTip", "The color and opacity of this text" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_ColorAndOpacity = { "ColorAndOpacity", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTextBlockStyle, ColorAndOpacity), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_ColorAndOpacity_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_ColorAndOpacity_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_ColorAndOpacity = { "ColorAndOpacity", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTextBlockStyle, ColorAndOpacity), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_ColorAndOpacity_MetaData), Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_ColorAndOpacity_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_ShadowOffset_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -989,7 +990,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTextBlockStyle>()
 		{ "ToolTip", "How much should the shadow be offset? An offset of 0 implies no shadow." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_ShadowOffset = { "ShadowOffset", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTextBlockStyle, ShadowOffset), Z_Construct_UScriptStruct_FDeprecateSlateVector2D, METADATA_PARAMS(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_ShadowOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_ShadowOffset_MetaData)) }; // 3533773233
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_ShadowOffset = { "ShadowOffset", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTextBlockStyle, ShadowOffset), Z_Construct_UScriptStruct_FDeprecateSlateVector2D, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_ShadowOffset_MetaData), Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_ShadowOffset_MetaData) }; // 2692624173
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_ShadowColorAndOpacity_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -998,7 +999,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTextBlockStyle>()
 		{ "ToolTip", "The color and opacity of the shadow" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_ShadowColorAndOpacity = { "ShadowColorAndOpacity", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTextBlockStyle, ShadowColorAndOpacity), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_ShadowColorAndOpacity_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_ShadowColorAndOpacity_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_ShadowColorAndOpacity = { "ShadowColorAndOpacity", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTextBlockStyle, ShadowColorAndOpacity), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_ShadowColorAndOpacity_MetaData), Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_ShadowColorAndOpacity_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_SelectedBackgroundColor_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1007,7 +1008,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTextBlockStyle>()
 		{ "ToolTip", "The background color of selected text" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_SelectedBackgroundColor = { "SelectedBackgroundColor", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTextBlockStyle, SelectedBackgroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_SelectedBackgroundColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_SelectedBackgroundColor_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_SelectedBackgroundColor = { "SelectedBackgroundColor", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTextBlockStyle, SelectedBackgroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_SelectedBackgroundColor_MetaData), Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_SelectedBackgroundColor_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_HighlightColor_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1016,7 +1017,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTextBlockStyle>()
 		{ "ToolTip", "The color of highlighted text" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_HighlightColor = { "HighlightColor", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTextBlockStyle, HighlightColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_HighlightColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_HighlightColor_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_HighlightColor = { "HighlightColor", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTextBlockStyle, HighlightColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_HighlightColor_MetaData), Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_HighlightColor_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_HighlightShape_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1025,7 +1026,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTextBlockStyle>()
 		{ "ToolTip", "The shape of highlighted text" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_HighlightShape = { "HighlightShape", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTextBlockStyle, HighlightShape), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_HighlightShape_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_HighlightShape_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_HighlightShape = { "HighlightShape", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTextBlockStyle, HighlightShape), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_HighlightShape_MetaData), Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_HighlightShape_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_StrikeBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1034,7 +1035,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTextBlockStyle>()
 		{ "ToolTip", "The brush used to draw an strike through the text (if any)" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_StrikeBrush = { "StrikeBrush", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTextBlockStyle, StrikeBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_StrikeBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_StrikeBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_StrikeBrush = { "StrikeBrush", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTextBlockStyle, StrikeBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_StrikeBrush_MetaData), Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_StrikeBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_UnderlineBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1043,8 +1044,8 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTextBlockStyle>()
 		{ "ToolTip", "The brush used to draw an underline under the text (if any)" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_UnderlineBrush = { "UnderlineBrush", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTextBlockStyle, UnderlineBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_UnderlineBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_UnderlineBrush_MetaData)) }; // 4256420591
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_TransformPolicy_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_UnderlineBrush = { "UnderlineBrush", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTextBlockStyle, UnderlineBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_UnderlineBrush_MetaData), Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_UnderlineBrush_MetaData) }; // 899956612
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_TransformPolicy_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_TransformPolicy_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1053,8 +1054,8 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTextBlockStyle>()
 		{ "ToolTip", "The Text Transform Policy (defaults to None)" },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_TransformPolicy = { "TransformPolicy", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTextBlockStyle, TransformPolicy), Z_Construct_UEnum_SlateCore_ETextTransformPolicy, METADATA_PARAMS(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_TransformPolicy_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_TransformPolicy_MetaData)) }; // 883314779
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_OverflowPolicy_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_TransformPolicy = { "TransformPolicy", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTextBlockStyle, TransformPolicy), Z_Construct_UEnum_SlateCore_ETextTransformPolicy, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_TransformPolicy_MetaData), Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_TransformPolicy_MetaData) }; // 2229535241
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_OverflowPolicy_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_OverflowPolicy_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1063,7 +1064,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTextBlockStyle>()
 		{ "ToolTip", "Determines what happens to text that is clipped and doesn't fit within the clip rect of a text widget" },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_OverflowPolicy = { "OverflowPolicy", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTextBlockStyle, OverflowPolicy), Z_Construct_UEnum_SlateCore_ETextOverflowPolicy, METADATA_PARAMS(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_OverflowPolicy_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_OverflowPolicy_MetaData)) }; // 1604726165
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_OverflowPolicy = { "OverflowPolicy", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTextBlockStyle, OverflowPolicy), Z_Construct_UEnum_SlateCore_ETextOverflowPolicy, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_OverflowPolicy_MetaData), Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_OverflowPolicy_MetaData) }; // 2416412583
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTextBlockStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_Font,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewProp_ColorAndOpacity,
@@ -1084,14 +1085,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTextBlockStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"TextBlockStyle",
-		sizeof(FTextBlockStyle),
-		alignof(FTextBlockStyle),
 		Z_Construct_UScriptStruct_FTextBlockStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::PropPointers),
+		sizeof(FTextBlockStyle),
+		alignof(FTextBlockStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FTextBlockStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTextBlockStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FTextBlockStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_TextBlockStyle.InnerSingleton)
@@ -1205,7 +1207,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FButtonStyle>()
 		{ "ToolTip", "Button appearance when the button is not hovered or pressed" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Normal = { "Normal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FButtonStyle, Normal), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Normal_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Normal_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Normal = { "Normal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FButtonStyle, Normal), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Normal_MetaData), Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Normal_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Hovered_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1214,7 +1216,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FButtonStyle>()
 		{ "ToolTip", "Button appearance when hovered" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Hovered = { "Hovered", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FButtonStyle, Hovered), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Hovered_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Hovered_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Hovered = { "Hovered", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FButtonStyle, Hovered), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Hovered_MetaData), Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Hovered_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Pressed_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1223,7 +1225,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FButtonStyle>()
 		{ "ToolTip", "Button appearance when pressed" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Pressed = { "Pressed", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FButtonStyle, Pressed), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Pressed_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Pressed_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Pressed = { "Pressed", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FButtonStyle, Pressed), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Pressed_MetaData), Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Pressed_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Disabled_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1232,7 +1234,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FButtonStyle>()
 		{ "ToolTip", "Button appearance when disabled, by default this is set to an invalid resource when that is the case default disabled drawing is used." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Disabled = { "Disabled", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FButtonStyle, Disabled), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Disabled_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Disabled_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Disabled = { "Disabled", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FButtonStyle, Disabled), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Disabled_MetaData), Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Disabled_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_NormalForeground_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1241,7 +1243,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FButtonStyle>()
 		{ "ToolTip", "Foreground Color when the button is not hovered or pressed" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_NormalForeground = { "NormalForeground", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FButtonStyle, NormalForeground), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_NormalForeground_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_NormalForeground_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_NormalForeground = { "NormalForeground", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FButtonStyle, NormalForeground), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_NormalForeground_MetaData), Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_NormalForeground_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_HoveredForeground_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1250,7 +1252,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FButtonStyle>()
 		{ "ToolTip", "Foreground Color when hovered" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_HoveredForeground = { "HoveredForeground", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FButtonStyle, HoveredForeground), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_HoveredForeground_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_HoveredForeground_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_HoveredForeground = { "HoveredForeground", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FButtonStyle, HoveredForeground), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_HoveredForeground_MetaData), Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_HoveredForeground_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedForeground_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1259,7 +1261,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FButtonStyle>()
 		{ "ToolTip", "Foreground Color when pressed" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedForeground = { "PressedForeground", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FButtonStyle, PressedForeground), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedForeground_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedForeground_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedForeground = { "PressedForeground", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FButtonStyle, PressedForeground), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedForeground_MetaData), Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedForeground_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_DisabledForeground_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1268,7 +1270,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FButtonStyle>()
 		{ "ToolTip", "Foreground Color when disabled" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_DisabledForeground = { "DisabledForeground", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FButtonStyle, DisabledForeground), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_DisabledForeground_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_DisabledForeground_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_DisabledForeground = { "DisabledForeground", nullptr, (EPropertyFlags)0x0010040000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FButtonStyle, DisabledForeground), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_DisabledForeground_MetaData), Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_DisabledForeground_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_NormalPadding_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1277,7 +1279,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FButtonStyle>()
 		{ "ToolTip", "Padding that accounts for the border in the button's background image.\nWhen this is applied, the content of the button should appear flush\nwith the button's border. Use this padding when the button is not pressed." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_NormalPadding = { "NormalPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FButtonStyle, NormalPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_NormalPadding_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_NormalPadding_MetaData)) }; // 2014822612
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_NormalPadding = { "NormalPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FButtonStyle, NormalPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_NormalPadding_MetaData), Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_NormalPadding_MetaData) }; // 2235102396
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedPadding_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1286,7 +1288,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FButtonStyle>()
 		{ "ToolTip", "Same as NormalPadding but used when the button is pressed. Allows for moving the content to match\nany \"movement\" in the button's border image." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedPadding = { "PressedPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FButtonStyle, PressedPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedPadding_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedPadding_MetaData)) }; // 2014822612
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedPadding = { "PressedPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FButtonStyle, PressedPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedPadding_MetaData), Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedPadding_MetaData) }; // 2235102396
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedSlateSound_MetaData[] = {
 		{ "Category", "Sound" },
@@ -1296,7 +1298,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FButtonStyle>()
 		{ "ToolTip", "The sound the button should play when pressed" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedSlateSound = { "PressedSlateSound", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FButtonStyle, PressedSlateSound), Z_Construct_UScriptStruct_FSlateSound, METADATA_PARAMS(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedSlateSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedSlateSound_MetaData)) }; // 2826200611
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedSlateSound = { "PressedSlateSound", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FButtonStyle, PressedSlateSound), Z_Construct_UScriptStruct_FSlateSound, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedSlateSound_MetaData), Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedSlateSound_MetaData) }; // 71556389
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_HoveredSlateSound_MetaData[] = {
 		{ "Category", "Sound" },
@@ -1306,20 +1308,20 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FButtonStyle>()
 		{ "ToolTip", "The sound the button should play when initially hovered over" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_HoveredSlateSound = { "HoveredSlateSound", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FButtonStyle, HoveredSlateSound), Z_Construct_UScriptStruct_FSlateSound, METADATA_PARAMS(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_HoveredSlateSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_HoveredSlateSound_MetaData)) }; // 2826200611
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_HoveredSlateSound = { "HoveredSlateSound", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FButtonStyle, HoveredSlateSound), Z_Construct_UScriptStruct_FSlateSound, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_HoveredSlateSound_MetaData), Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_HoveredSlateSound_MetaData) }; // 71556389
 #if WITH_EDITORONLY_DATA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedSound_MetaData[] = {
 		{ "ModuleRelativePath", "Public/Styling/SlateTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedSound = { "PressedSound", nullptr, (EPropertyFlags)0x0010000820000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FButtonStyle, PressedSound_DEPRECATED), METADATA_PARAMS(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedSound_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedSound = { "PressedSound", nullptr, (EPropertyFlags)0x0010000820000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FButtonStyle, PressedSound_DEPRECATED), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedSound_MetaData), Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_PressedSound_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_HoveredSound_MetaData[] = {
 		{ "ModuleRelativePath", "Public/Styling/SlateTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_HoveredSound = { "HoveredSound", nullptr, (EPropertyFlags)0x0010000820000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FButtonStyle, HoveredSound_DEPRECATED), METADATA_PARAMS(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_HoveredSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_HoveredSound_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_HoveredSound = { "HoveredSound", nullptr, (EPropertyFlags)0x0010000820000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FButtonStyle, HoveredSound_DEPRECATED), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_HoveredSound_MetaData), Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_HoveredSound_MetaData) };
 #endif // WITH_EDITORONLY_DATA
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FButtonStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FButtonStyle_Statics::NewProp_Normal,
@@ -1344,14 +1346,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FButtonStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"ButtonStyle",
-		sizeof(FButtonStyle),
-		alignof(FButtonStyle),
 		Z_Construct_UScriptStruct_FButtonStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::PropPointers),
+		sizeof(FButtonStyle),
+		alignof(FButtonStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FButtonStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FButtonStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FButtonStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FButtonStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_ButtonStyle.InnerSingleton)
@@ -1441,7 +1444,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FComboButtonStyle>()
 		{ "ToolTip", "The style to use for our SButton." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ButtonStyle = { "ButtonStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FComboButtonStyle, ButtonStyle), Z_Construct_UScriptStruct_FButtonStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ButtonStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ButtonStyle_MetaData)) }; // 2024050934
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ButtonStyle = { "ButtonStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FComboButtonStyle, ButtonStyle), Z_Construct_UScriptStruct_FButtonStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ButtonStyle_MetaData), Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ButtonStyle_MetaData) }; // 1902661672
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_DownArrowImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1450,7 +1453,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FComboButtonStyle>()
 		{ "ToolTip", "Image to use for the down arrow." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_DownArrowImage = { "DownArrowImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FComboButtonStyle, DownArrowImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_DownArrowImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_DownArrowImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_DownArrowImage = { "DownArrowImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FComboButtonStyle, DownArrowImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_DownArrowImage_MetaData), Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_DownArrowImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ShadowOffset_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1459,7 +1462,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FComboButtonStyle>()
 		{ "ToolTip", "How much should the shadow be offset for the down arrow?\nAn offset of 0 implies no shadow." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ShadowOffset = { "ShadowOffset", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FComboButtonStyle, ShadowOffset), Z_Construct_UScriptStruct_FDeprecateSlateVector2D, METADATA_PARAMS(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ShadowOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ShadowOffset_MetaData)) }; // 3533773233
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ShadowOffset = { "ShadowOffset", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FComboButtonStyle, ShadowOffset), Z_Construct_UScriptStruct_FDeprecateSlateVector2D, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ShadowOffset_MetaData), Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ShadowOffset_MetaData) }; // 2692624173
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ShadowColorAndOpacity_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1468,7 +1471,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FComboButtonStyle>()
 		{ "ToolTip", "The color and opacity of the shadow for the down arrow.\nOnly active if ShadowOffset is not (0,0)." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ShadowColorAndOpacity = { "ShadowColorAndOpacity", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FComboButtonStyle, ShadowColorAndOpacity), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ShadowColorAndOpacity_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ShadowColorAndOpacity_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ShadowColorAndOpacity = { "ShadowColorAndOpacity", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FComboButtonStyle, ShadowColorAndOpacity), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ShadowColorAndOpacity_MetaData), Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ShadowColorAndOpacity_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_MenuBorderBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1477,7 +1480,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FComboButtonStyle>()
 		{ "ToolTip", "Brush to use to add a \"menu border\" around the drop-down content." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_MenuBorderBrush = { "MenuBorderBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FComboButtonStyle, MenuBorderBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_MenuBorderBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_MenuBorderBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_MenuBorderBrush = { "MenuBorderBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FComboButtonStyle, MenuBorderBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_MenuBorderBrush_MetaData), Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_MenuBorderBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_MenuBorderPadding_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1486,7 +1489,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FComboButtonStyle>()
 		{ "ToolTip", "Padding to use to add a \"menu border\" around the drop-down content." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_MenuBorderPadding = { "MenuBorderPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FComboButtonStyle, MenuBorderPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_MenuBorderPadding_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_MenuBorderPadding_MetaData)) }; // 2014822612
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_MenuBorderPadding = { "MenuBorderPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FComboButtonStyle, MenuBorderPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_MenuBorderPadding_MetaData), Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_MenuBorderPadding_MetaData) }; // 2235102396
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ContentPadding_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1495,7 +1498,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FComboButtonStyle>()
 		{ "ToolTip", "* Button Content Padding" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ContentPadding = { "ContentPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FComboButtonStyle, ContentPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ContentPadding_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ContentPadding_MetaData)) }; // 2014822612
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ContentPadding = { "ContentPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FComboButtonStyle, ContentPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ContentPadding_MetaData), Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ContentPadding_MetaData) }; // 2235102396
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_DownArrowPadding_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1504,7 +1507,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FComboButtonStyle>()
 		{ "ToolTip", "* Dropdown arrow padding (if a dropdown arrow exists)" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_DownArrowPadding = { "DownArrowPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FComboButtonStyle, DownArrowPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_DownArrowPadding_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_DownArrowPadding_MetaData)) }; // 2014822612
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_DownArrowPadding = { "DownArrowPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FComboButtonStyle, DownArrowPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_DownArrowPadding_MetaData), Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_DownArrowPadding_MetaData) }; // 2235102396
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_DownArrowAlign_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1513,7 +1516,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FComboButtonStyle>()
 		{ "ToolTip", "* Dropdown arrow vertical alignment" },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_DownArrowAlign = { "DownArrowAlign", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FComboButtonStyle, DownArrowAlign), Z_Construct_UEnum_SlateCore_EVerticalAlignment, METADATA_PARAMS(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_DownArrowAlign_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_DownArrowAlign_MetaData)) }; // 1453904578
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_DownArrowAlign = { "DownArrowAlign", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FComboButtonStyle, DownArrowAlign), Z_Construct_UEnum_SlateCore_EVerticalAlignment, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_DownArrowAlign_MetaData), Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_DownArrowAlign_MetaData) }; // 1653762848
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FComboButtonStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_ButtonStyle,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewProp_DownArrowImage,
@@ -1530,14 +1533,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FComboButtonStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"ComboButtonStyle",
-		sizeof(FComboButtonStyle),
-		alignof(FComboButtonStyle),
 		Z_Construct_UScriptStruct_FComboButtonStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::PropPointers),
+		sizeof(FComboButtonStyle),
+		alignof(FComboButtonStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FComboButtonStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboButtonStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FComboButtonStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_ComboButtonStyle.InnerSingleton)
@@ -1624,7 +1628,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FComboBoxStyle>()
 		{ "ToolTip", "The style to use for our SComboButton" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_ComboButtonStyle = { "ComboButtonStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FComboBoxStyle, ComboButtonStyle), Z_Construct_UScriptStruct_FComboButtonStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_ComboButtonStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_ComboButtonStyle_MetaData)) }; // 3302369615
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_ComboButtonStyle = { "ComboButtonStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FComboBoxStyle, ComboButtonStyle), Z_Construct_UScriptStruct_FComboButtonStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_ComboButtonStyle_MetaData), Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_ComboButtonStyle_MetaData) }; // 919780963
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_PressedSlateSound_MetaData[] = {
 		{ "Category", "Sound" },
@@ -1634,7 +1638,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FComboBoxStyle>()
 		{ "ToolTip", "The sound the button should play when pressed" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_PressedSlateSound = { "PressedSlateSound", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FComboBoxStyle, PressedSlateSound), Z_Construct_UScriptStruct_FSlateSound, METADATA_PARAMS(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_PressedSlateSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_PressedSlateSound_MetaData)) }; // 2826200611
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_PressedSlateSound = { "PressedSlateSound", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FComboBoxStyle, PressedSlateSound), Z_Construct_UScriptStruct_FSlateSound, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_PressedSlateSound_MetaData), Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_PressedSlateSound_MetaData) }; // 71556389
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_SelectionChangeSlateSound_MetaData[] = {
 		{ "Category", "Sound" },
@@ -1644,7 +1648,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FComboBoxStyle>()
 		{ "ToolTip", "The Sound to play when the selection is changed" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_SelectionChangeSlateSound = { "SelectionChangeSlateSound", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FComboBoxStyle, SelectionChangeSlateSound), Z_Construct_UScriptStruct_FSlateSound, METADATA_PARAMS(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_SelectionChangeSlateSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_SelectionChangeSlateSound_MetaData)) }; // 2826200611
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_SelectionChangeSlateSound = { "SelectionChangeSlateSound", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FComboBoxStyle, SelectionChangeSlateSound), Z_Construct_UScriptStruct_FSlateSound, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_SelectionChangeSlateSound_MetaData), Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_SelectionChangeSlateSound_MetaData) }; // 71556389
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_ContentPadding_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1653,7 +1657,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FComboBoxStyle>()
 		{ "ToolTip", "* Button Content Padding" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_ContentPadding = { "ContentPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FComboBoxStyle, ContentPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_ContentPadding_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_ContentPadding_MetaData)) }; // 2014822612
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_ContentPadding = { "ContentPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FComboBoxStyle, ContentPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_ContentPadding_MetaData), Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_ContentPadding_MetaData) }; // 2235102396
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_MenuRowPadding_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1662,20 +1666,20 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FComboBoxStyle>()
 		{ "ToolTip", "* Menu Row Padding" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_MenuRowPadding = { "MenuRowPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FComboBoxStyle, MenuRowPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_MenuRowPadding_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_MenuRowPadding_MetaData)) }; // 2014822612
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_MenuRowPadding = { "MenuRowPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FComboBoxStyle, MenuRowPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_MenuRowPadding_MetaData), Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_MenuRowPadding_MetaData) }; // 2235102396
 #if WITH_EDITORONLY_DATA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_PressedSound_MetaData[] = {
 		{ "ModuleRelativePath", "Public/Styling/SlateTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_PressedSound = { "PressedSound", nullptr, (EPropertyFlags)0x0010000820000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FComboBoxStyle, PressedSound_DEPRECATED), METADATA_PARAMS(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_PressedSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_PressedSound_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_PressedSound = { "PressedSound", nullptr, (EPropertyFlags)0x0010000820000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FComboBoxStyle, PressedSound_DEPRECATED), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_PressedSound_MetaData), Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_PressedSound_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_SelectionChangeSound_MetaData[] = {
 		{ "ModuleRelativePath", "Public/Styling/SlateTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_SelectionChangeSound = { "SelectionChangeSound", nullptr, (EPropertyFlags)0x0010000820000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FComboBoxStyle, SelectionChangeSound_DEPRECATED), METADATA_PARAMS(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_SelectionChangeSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_SelectionChangeSound_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_SelectionChangeSound = { "SelectionChangeSound", nullptr, (EPropertyFlags)0x0010000820000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FComboBoxStyle, SelectionChangeSound_DEPRECATED), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_SelectionChangeSound_MetaData), Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_SelectionChangeSound_MetaData) };
 #endif // WITH_EDITORONLY_DATA
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FComboBoxStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewProp_ComboButtonStyle,
@@ -1693,14 +1697,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FComboBoxStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"ComboBoxStyle",
-		sizeof(FComboBoxStyle),
-		alignof(FComboBoxStyle),
 		Z_Construct_UScriptStruct_FComboBoxStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::PropPointers),
+		sizeof(FComboBoxStyle),
+		alignof(FComboBoxStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FComboBoxStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FComboBoxStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FComboBoxStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_ComboBoxStyle.InnerSingleton)
@@ -1766,7 +1771,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FHyperlinkStyle>()
 		{ "ToolTip", "Underline style" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewProp_UnderlineStyle = { "UnderlineStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FHyperlinkStyle, UnderlineStyle), Z_Construct_UScriptStruct_FButtonStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewProp_UnderlineStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewProp_UnderlineStyle_MetaData)) }; // 2024050934
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewProp_UnderlineStyle = { "UnderlineStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FHyperlinkStyle, UnderlineStyle), Z_Construct_UScriptStruct_FButtonStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewProp_UnderlineStyle_MetaData), Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewProp_UnderlineStyle_MetaData) }; // 1902661672
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewProp_TextStyle_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1775,7 +1780,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FHyperlinkStyle>()
 		{ "ToolTip", "Text style" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewProp_TextStyle = { "TextStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FHyperlinkStyle, TextStyle), Z_Construct_UScriptStruct_FTextBlockStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewProp_TextStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewProp_TextStyle_MetaData)) }; // 622949925
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewProp_TextStyle = { "TextStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FHyperlinkStyle, TextStyle), Z_Construct_UScriptStruct_FTextBlockStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewProp_TextStyle_MetaData), Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewProp_TextStyle_MetaData) }; // 1973404513
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewProp_Padding_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1784,7 +1789,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FHyperlinkStyle>()
 		{ "ToolTip", "Padding" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewProp_Padding = { "Padding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FHyperlinkStyle, Padding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewProp_Padding_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewProp_Padding_MetaData)) }; // 2014822612
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewProp_Padding = { "Padding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FHyperlinkStyle, Padding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewProp_Padding_MetaData), Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewProp_Padding_MetaData) }; // 2235102396
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewProp_UnderlineStyle,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewProp_TextStyle,
@@ -1795,14 +1800,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FHyperlinkStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"HyperlinkStyle",
-		sizeof(FHyperlinkStyle),
-		alignof(FHyperlinkStyle),
 		Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::PropPointers),
+		sizeof(FHyperlinkStyle),
+		alignof(FHyperlinkStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FHyperlinkStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_HyperlinkStyle.InnerSingleton)
@@ -1876,7 +1882,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FEditableTextStyle>()
 		{ "ToolTip", "Font family and size to be used when displaying this text." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_Font = { "Font", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FEditableTextStyle, Font), Z_Construct_UScriptStruct_FSlateFontInfo, METADATA_PARAMS(Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_Font_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_Font_MetaData)) }; // 192883377
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_Font = { "Font", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FEditableTextStyle, Font), Z_Construct_UScriptStruct_FSlateFontInfo, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_Font_MetaData), Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_Font_MetaData) }; // 2074891513
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_ColorAndOpacity_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1885,7 +1891,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FEditableTextStyle>()
 		{ "ToolTip", "The color and opacity of this text" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_ColorAndOpacity = { "ColorAndOpacity", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FEditableTextStyle, ColorAndOpacity), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_ColorAndOpacity_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_ColorAndOpacity_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_ColorAndOpacity = { "ColorAndOpacity", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FEditableTextStyle, ColorAndOpacity), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_ColorAndOpacity_MetaData), Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_ColorAndOpacity_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_BackgroundImageSelected_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1894,7 +1900,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FEditableTextStyle>()
 		{ "ToolTip", "Background image for the selected text" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_BackgroundImageSelected = { "BackgroundImageSelected", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FEditableTextStyle, BackgroundImageSelected), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_BackgroundImageSelected_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_BackgroundImageSelected_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_BackgroundImageSelected = { "BackgroundImageSelected", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FEditableTextStyle, BackgroundImageSelected), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_BackgroundImageSelected_MetaData), Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_BackgroundImageSelected_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_BackgroundImageComposing_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1903,7 +1909,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FEditableTextStyle>()
 		{ "ToolTip", "Background image for the selected text" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_BackgroundImageComposing = { "BackgroundImageComposing", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FEditableTextStyle, BackgroundImageComposing), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_BackgroundImageComposing_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_BackgroundImageComposing_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_BackgroundImageComposing = { "BackgroundImageComposing", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FEditableTextStyle, BackgroundImageComposing), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_BackgroundImageComposing_MetaData), Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_BackgroundImageComposing_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_CaretImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -1912,7 +1918,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FEditableTextStyle>()
 		{ "ToolTip", "Image brush used for the caret" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_CaretImage = { "CaretImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FEditableTextStyle, CaretImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_CaretImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_CaretImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_CaretImage = { "CaretImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FEditableTextStyle, CaretImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_CaretImage_MetaData), Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_CaretImage_MetaData) }; // 899956612
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FEditableTextStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_Font,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewProp_ColorAndOpacity,
@@ -1925,14 +1931,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FEditableTextStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"EditableTextStyle",
-		sizeof(FEditableTextStyle),
-		alignof(FEditableTextStyle),
 		Z_Construct_UScriptStruct_FEditableTextStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextStyle_Statics::PropPointers),
+		sizeof(FEditableTextStyle),
+		alignof(FEditableTextStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FEditableTextStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FEditableTextStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FEditableTextStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_EditableTextStyle.InnerSingleton)
@@ -2026,7 +2033,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FScrollBarStyle>()
 		{ "ToolTip", "Background image to use when the scrollbar is oriented horizontally" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HorizontalBackgroundImage = { "HorizontalBackgroundImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FScrollBarStyle, HorizontalBackgroundImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HorizontalBackgroundImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HorizontalBackgroundImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HorizontalBackgroundImage = { "HorizontalBackgroundImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScrollBarStyle, HorizontalBackgroundImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HorizontalBackgroundImage_MetaData), Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HorizontalBackgroundImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_VerticalBackgroundImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2035,7 +2042,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FScrollBarStyle>()
 		{ "ToolTip", "Background image to use when the scrollbar is oriented vertically" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_VerticalBackgroundImage = { "VerticalBackgroundImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FScrollBarStyle, VerticalBackgroundImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_VerticalBackgroundImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_VerticalBackgroundImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_VerticalBackgroundImage = { "VerticalBackgroundImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScrollBarStyle, VerticalBackgroundImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_VerticalBackgroundImage_MetaData), Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_VerticalBackgroundImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_VerticalTopSlotImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2044,7 +2051,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FScrollBarStyle>()
 		{ "ToolTip", "The image to use to represent the track above the thumb when the scrollbar is oriented vertically" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_VerticalTopSlotImage = { "VerticalTopSlotImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FScrollBarStyle, VerticalTopSlotImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_VerticalTopSlotImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_VerticalTopSlotImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_VerticalTopSlotImage = { "VerticalTopSlotImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScrollBarStyle, VerticalTopSlotImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_VerticalTopSlotImage_MetaData), Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_VerticalTopSlotImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HorizontalTopSlotImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2053,7 +2060,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FScrollBarStyle>()
 		{ "ToolTip", "The image to use to represent the track above the thumb when the scrollbar is oriented horizontally" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HorizontalTopSlotImage = { "HorizontalTopSlotImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FScrollBarStyle, HorizontalTopSlotImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HorizontalTopSlotImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HorizontalTopSlotImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HorizontalTopSlotImage = { "HorizontalTopSlotImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScrollBarStyle, HorizontalTopSlotImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HorizontalTopSlotImage_MetaData), Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HorizontalTopSlotImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_VerticalBottomSlotImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2062,7 +2069,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FScrollBarStyle>()
 		{ "ToolTip", "The image to use to represent the track below the thumb when the scrollbar is oriented vertically" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_VerticalBottomSlotImage = { "VerticalBottomSlotImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FScrollBarStyle, VerticalBottomSlotImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_VerticalBottomSlotImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_VerticalBottomSlotImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_VerticalBottomSlotImage = { "VerticalBottomSlotImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScrollBarStyle, VerticalBottomSlotImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_VerticalBottomSlotImage_MetaData), Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_VerticalBottomSlotImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HorizontalBottomSlotImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2071,7 +2078,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FScrollBarStyle>()
 		{ "ToolTip", "The image to use to represent the track below the thumb when the scrollbar is oriented horizontally" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HorizontalBottomSlotImage = { "HorizontalBottomSlotImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FScrollBarStyle, HorizontalBottomSlotImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HorizontalBottomSlotImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HorizontalBottomSlotImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HorizontalBottomSlotImage = { "HorizontalBottomSlotImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScrollBarStyle, HorizontalBottomSlotImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HorizontalBottomSlotImage_MetaData), Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HorizontalBottomSlotImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_NormalThumbImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2080,7 +2087,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FScrollBarStyle>()
 		{ "ToolTip", "Image to use when the scrollbar thumb is in its normal state" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_NormalThumbImage = { "NormalThumbImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FScrollBarStyle, NormalThumbImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_NormalThumbImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_NormalThumbImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_NormalThumbImage = { "NormalThumbImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScrollBarStyle, NormalThumbImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_NormalThumbImage_MetaData), Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_NormalThumbImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HoveredThumbImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2089,7 +2096,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FScrollBarStyle>()
 		{ "ToolTip", "Image to use when the scrollbar thumb is in its hovered state" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HoveredThumbImage = { "HoveredThumbImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FScrollBarStyle, HoveredThumbImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HoveredThumbImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HoveredThumbImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HoveredThumbImage = { "HoveredThumbImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScrollBarStyle, HoveredThumbImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HoveredThumbImage_MetaData), Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HoveredThumbImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_DraggedThumbImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2098,14 +2105,14 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FScrollBarStyle>()
 		{ "ToolTip", "Image to use when the scrollbar thumb is in its dragged state" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_DraggedThumbImage = { "DraggedThumbImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FScrollBarStyle, DraggedThumbImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_DraggedThumbImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_DraggedThumbImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_DraggedThumbImage = { "DraggedThumbImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScrollBarStyle, DraggedThumbImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_DraggedThumbImage_MetaData), Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_DraggedThumbImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_Thickness_MetaData[] = {
 		{ "Category", "Appearance" },
 		{ "ModuleRelativePath", "Public/Styling/SlateTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_Thickness = { "Thickness", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FScrollBarStyle, Thickness), METADATA_PARAMS(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_Thickness_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_Thickness_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_Thickness = { "Thickness", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScrollBarStyle, Thickness), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_Thickness_MetaData), Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_Thickness_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FScrollBarStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_HorizontalBackgroundImage,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewProp_VerticalBackgroundImage,
@@ -2123,14 +2130,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FScrollBarStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"ScrollBarStyle",
-		sizeof(FScrollBarStyle),
-		alignof(FScrollBarStyle),
 		Z_Construct_UScriptStruct_FScrollBarStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::PropPointers),
+		sizeof(FScrollBarStyle),
+		alignof(FScrollBarStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FScrollBarStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBarStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FScrollBarStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_ScrollBarStyle.InnerSingleton)
@@ -2244,7 +2252,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FEditableTextBoxStyle>()
 		{ "ToolTip", "Border background image when the box is not hovered or focused" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageNormal = { "BackgroundImageNormal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FEditableTextBoxStyle, BackgroundImageNormal), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageNormal_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageNormal_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageNormal = { "BackgroundImageNormal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FEditableTextBoxStyle, BackgroundImageNormal), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageNormal_MetaData), Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageNormal_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageHovered_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2253,7 +2261,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FEditableTextBoxStyle>()
 		{ "ToolTip", "Border background image when the box is hovered" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageHovered = { "BackgroundImageHovered", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FEditableTextBoxStyle, BackgroundImageHovered), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageHovered_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageHovered_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageHovered = { "BackgroundImageHovered", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FEditableTextBoxStyle, BackgroundImageHovered), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageHovered_MetaData), Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageHovered_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageFocused_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2262,7 +2270,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FEditableTextBoxStyle>()
 		{ "ToolTip", "Border background image when the box is focused" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageFocused = { "BackgroundImageFocused", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FEditableTextBoxStyle, BackgroundImageFocused), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageFocused_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageFocused_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageFocused = { "BackgroundImageFocused", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FEditableTextBoxStyle, BackgroundImageFocused), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageFocused_MetaData), Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageFocused_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageReadOnly_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2271,7 +2279,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FEditableTextBoxStyle>()
 		{ "ToolTip", "Border background image when the box is read-only" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageReadOnly = { "BackgroundImageReadOnly", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FEditableTextBoxStyle, BackgroundImageReadOnly), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageReadOnly_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageReadOnly_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageReadOnly = { "BackgroundImageReadOnly", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FEditableTextBoxStyle, BackgroundImageReadOnly), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageReadOnly_MetaData), Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageReadOnly_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_Padding_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2280,14 +2288,14 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FEditableTextBoxStyle>()
 		{ "ToolTip", "Padding" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_Padding = { "Padding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FEditableTextBoxStyle, Padding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_Padding_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_Padding_MetaData)) }; // 2014822612
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_Padding = { "Padding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FEditableTextBoxStyle, Padding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_Padding_MetaData), Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_Padding_MetaData) }; // 2235102396
 #if WITH_EDITORONLY_DATA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_Font_MetaData[] = {
 		{ "ModuleRelativePath", "Public/Styling/SlateTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_Font = { "Font", nullptr, (EPropertyFlags)0x0010000820000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FEditableTextBoxStyle, Font_DEPRECATED), Z_Construct_UScriptStruct_FSlateFontInfo, METADATA_PARAMS(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_Font_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_Font_MetaData)) }; // 192883377
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_Font = { "Font", nullptr, (EPropertyFlags)0x0010000820000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FEditableTextBoxStyle, Font_DEPRECATED), Z_Construct_UScriptStruct_FSlateFontInfo, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_Font_MetaData), Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_Font_MetaData) }; // 2074891513
 #endif // WITH_EDITORONLY_DATA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_TextStyle_MetaData[] = {
@@ -2297,7 +2305,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FEditableTextBoxStyle>()
 		{ "ToolTip", "The style of the text block, which dictates the font, color, and shadow options. Style overrides all other properties!" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_TextStyle = { "TextStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FEditableTextBoxStyle, TextStyle), Z_Construct_UScriptStruct_FTextBlockStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_TextStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_TextStyle_MetaData)) }; // 622949925
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_TextStyle = { "TextStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FEditableTextBoxStyle, TextStyle), Z_Construct_UScriptStruct_FTextBlockStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_TextStyle_MetaData), Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_TextStyle_MetaData) }; // 1973404513
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_ForegroundColor_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2306,7 +2314,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FEditableTextBoxStyle>()
 		{ "ToolTip", "The foreground color of text." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_ForegroundColor = { "ForegroundColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FEditableTextBoxStyle, ForegroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_ForegroundColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_ForegroundColor_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_ForegroundColor = { "ForegroundColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FEditableTextBoxStyle, ForegroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_ForegroundColor_MetaData), Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_ForegroundColor_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundColor_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2315,7 +2323,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FEditableTextBoxStyle>()
 		{ "ToolTip", "The background color applied to the active background image" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundColor = { "BackgroundColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FEditableTextBoxStyle, BackgroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundColor_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundColor = { "BackgroundColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FEditableTextBoxStyle, BackgroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundColor_MetaData), Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundColor_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_ReadOnlyForegroundColor_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2324,7 +2332,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FEditableTextBoxStyle>()
 		{ "ToolTip", "The read-only foreground color of text in read-only mode." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_ReadOnlyForegroundColor = { "ReadOnlyForegroundColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FEditableTextBoxStyle, ReadOnlyForegroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_ReadOnlyForegroundColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_ReadOnlyForegroundColor_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_ReadOnlyForegroundColor = { "ReadOnlyForegroundColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FEditableTextBoxStyle, ReadOnlyForegroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_ReadOnlyForegroundColor_MetaData), Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_ReadOnlyForegroundColor_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_FocusedForegroundColor_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2333,7 +2341,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FEditableTextBoxStyle>()
 		{ "ToolTip", "The foreground color of text when the edit box has keyboard focus." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_FocusedForegroundColor = { "FocusedForegroundColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FEditableTextBoxStyle, FocusedForegroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_FocusedForegroundColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_FocusedForegroundColor_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_FocusedForegroundColor = { "FocusedForegroundColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FEditableTextBoxStyle, FocusedForegroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_FocusedForegroundColor_MetaData), Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_FocusedForegroundColor_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_HScrollBarPadding_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2342,7 +2350,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FEditableTextBoxStyle>()
 		{ "ToolTip", "Padding around the horizontal scrollbar" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_HScrollBarPadding = { "HScrollBarPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FEditableTextBoxStyle, HScrollBarPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_HScrollBarPadding_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_HScrollBarPadding_MetaData)) }; // 2014822612
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_HScrollBarPadding = { "HScrollBarPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FEditableTextBoxStyle, HScrollBarPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_HScrollBarPadding_MetaData), Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_HScrollBarPadding_MetaData) }; // 2235102396
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_VScrollBarPadding_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2351,7 +2359,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FEditableTextBoxStyle>()
 		{ "ToolTip", "Padding around the vertical scrollbar" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_VScrollBarPadding = { "VScrollBarPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FEditableTextBoxStyle, VScrollBarPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_VScrollBarPadding_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_VScrollBarPadding_MetaData)) }; // 2014822612
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_VScrollBarPadding = { "VScrollBarPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FEditableTextBoxStyle, VScrollBarPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_VScrollBarPadding_MetaData), Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_VScrollBarPadding_MetaData) }; // 2235102396
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_ScrollBarStyle_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2360,7 +2368,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FEditableTextBoxStyle>()
 		{ "ToolTip", "Style used for the scrollbars" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_ScrollBarStyle = { "ScrollBarStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FEditableTextBoxStyle, ScrollBarStyle), Z_Construct_UScriptStruct_FScrollBarStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_ScrollBarStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_ScrollBarStyle_MetaData)) }; // 2161279079
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_ScrollBarStyle = { "ScrollBarStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FEditableTextBoxStyle, ScrollBarStyle), Z_Construct_UScriptStruct_FScrollBarStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_ScrollBarStyle_MetaData), Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_ScrollBarStyle_MetaData) }; // 3779130458
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageNormal,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewProp_BackgroundImageHovered,
@@ -2384,14 +2392,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FEditableTextBoxStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"EditableTextBoxStyle",
-		sizeof(FEditableTextBoxStyle),
-		alignof(FEditableTextBoxStyle),
 		Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::PropPointers),
+		sizeof(FEditableTextBoxStyle),
+		alignof(FEditableTextBoxStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FEditableTextBoxStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_EditableTextBoxStyle.InnerSingleton)
@@ -2453,7 +2462,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FInlineEditableTextBlockSty
 		{ "ToolTip", "The style of the editable text box, which dictates the font, color, and shadow options." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::NewProp_EditableTextBoxStyle = { "EditableTextBoxStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInlineEditableTextBlockStyle, EditableTextBoxStyle), Z_Construct_UScriptStruct_FEditableTextBoxStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::NewProp_EditableTextBoxStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::NewProp_EditableTextBoxStyle_MetaData)) }; // 255857817
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::NewProp_EditableTextBoxStyle = { "EditableTextBoxStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInlineEditableTextBlockStyle, EditableTextBoxStyle), Z_Construct_UScriptStruct_FEditableTextBoxStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::NewProp_EditableTextBoxStyle_MetaData), Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::NewProp_EditableTextBoxStyle_MetaData) }; // 2960022542
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::NewProp_TextStyle_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2462,7 +2471,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FInlineEditableTextBlockSty
 		{ "ToolTip", "The style of the text block, which dictates the font, color, and shadow options. Style overrides all other properties!" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::NewProp_TextStyle = { "TextStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInlineEditableTextBlockStyle, TextStyle), Z_Construct_UScriptStruct_FTextBlockStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::NewProp_TextStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::NewProp_TextStyle_MetaData)) }; // 622949925
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::NewProp_TextStyle = { "TextStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInlineEditableTextBlockStyle, TextStyle), Z_Construct_UScriptStruct_FTextBlockStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::NewProp_TextStyle_MetaData), Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::NewProp_TextStyle_MetaData) }; // 1973404513
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::NewProp_EditableTextBoxStyle,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::NewProp_TextStyle,
@@ -2472,14 +2481,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FInlineEditableTextBlockSty
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"InlineEditableTextBlockStyle",
-		sizeof(FInlineEditableTextBlockStyle),
-		alignof(FInlineEditableTextBlockStyle),
 		Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::PropPointers),
+		sizeof(FInlineEditableTextBlockStyle),
+		alignof(FInlineEditableTextBlockStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_InlineEditableTextBlockStyle.InnerSingleton)
@@ -2550,7 +2560,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FProgressBarStyle>()
 		{ "ToolTip", "Background image to use for the progress bar" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_BackgroundImage = { "BackgroundImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FProgressBarStyle, BackgroundImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_BackgroundImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_BackgroundImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_BackgroundImage = { "BackgroundImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FProgressBarStyle, BackgroundImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_BackgroundImage_MetaData), Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_BackgroundImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_FillImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2559,7 +2569,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FProgressBarStyle>()
 		{ "ToolTip", "Foreground image to use for the progress bar" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_FillImage = { "FillImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FProgressBarStyle, FillImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_FillImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_FillImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_FillImage = { "FillImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FProgressBarStyle, FillImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_FillImage_MetaData), Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_FillImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_MarqueeImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2568,7 +2578,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FProgressBarStyle>()
 		{ "ToolTip", "Image to use for marquee mode" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_MarqueeImage = { "MarqueeImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FProgressBarStyle, MarqueeImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_MarqueeImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_MarqueeImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_MarqueeImage = { "MarqueeImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FProgressBarStyle, MarqueeImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_MarqueeImage_MetaData), Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_MarqueeImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_EnableFillAnimation_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2581,7 +2591,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FProgressBarStyle>()
 	{
 		((FProgressBarStyle*)Obj)->EnableFillAnimation = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_EnableFillAnimation = { "EnableFillAnimation", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FProgressBarStyle), &Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_EnableFillAnimation_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_EnableFillAnimation_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_EnableFillAnimation_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_EnableFillAnimation = { "EnableFillAnimation", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FProgressBarStyle), &Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_EnableFillAnimation_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_EnableFillAnimation_MetaData), Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_EnableFillAnimation_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FProgressBarStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_BackgroundImage,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewProp_FillImage,
@@ -2593,14 +2603,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FProgressBarStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"ProgressBarStyle",
-		sizeof(FProgressBarStyle),
-		alignof(FProgressBarStyle),
 		Z_Construct_UScriptStruct_FProgressBarStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FProgressBarStyle_Statics::PropPointers),
+		sizeof(FProgressBarStyle),
+		alignof(FProgressBarStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FProgressBarStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FProgressBarStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FProgressBarStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FProgressBarStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FProgressBarStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FProgressBarStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_ProgressBarStyle.InnerSingleton)
@@ -2665,7 +2676,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FExpandableAreaStyle>()
 		{ "ToolTip", "Image to use when the area is collapsed" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewProp_CollapsedImage = { "CollapsedImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FExpandableAreaStyle, CollapsedImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewProp_CollapsedImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewProp_CollapsedImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewProp_CollapsedImage = { "CollapsedImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FExpandableAreaStyle, CollapsedImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewProp_CollapsedImage_MetaData), Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewProp_CollapsedImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewProp_ExpandedImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2674,7 +2685,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FExpandableAreaStyle>()
 		{ "ToolTip", "Image to use when the area is expanded" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewProp_ExpandedImage = { "ExpandedImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FExpandableAreaStyle, ExpandedImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewProp_ExpandedImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewProp_ExpandedImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewProp_ExpandedImage = { "ExpandedImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FExpandableAreaStyle, ExpandedImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewProp_ExpandedImage_MetaData), Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewProp_ExpandedImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewProp_RolloutAnimationSeconds_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2683,7 +2694,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FExpandableAreaStyle>()
 		{ "ToolTip", "How long the rollout animation lasts" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewProp_RolloutAnimationSeconds = { "RolloutAnimationSeconds", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FExpandableAreaStyle, RolloutAnimationSeconds), METADATA_PARAMS(Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewProp_RolloutAnimationSeconds_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewProp_RolloutAnimationSeconds_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewProp_RolloutAnimationSeconds = { "RolloutAnimationSeconds", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FExpandableAreaStyle, RolloutAnimationSeconds), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewProp_RolloutAnimationSeconds_MetaData), Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewProp_RolloutAnimationSeconds_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewProp_CollapsedImage,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewProp_ExpandedImage,
@@ -2694,14 +2705,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FExpandableAreaStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"ExpandableAreaStyle",
-		sizeof(FExpandableAreaStyle),
-		alignof(FExpandableAreaStyle),
 		Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::PropPointers),
+		sizeof(FExpandableAreaStyle),
+		alignof(FExpandableAreaStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FExpandableAreaStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_ExpandableAreaStyle.InnerSingleton)
@@ -2797,7 +2809,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSearchBoxStyle>()
 		{ "ToolTip", "Style to use for the text box part of the search box" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_TextBoxStyle = { "TextBoxStyle", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSearchBoxStyle, TextBoxStyle), Z_Construct_UScriptStruct_FEditableTextBoxStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_TextBoxStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_TextBoxStyle_MetaData)) }; // 255857817
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_TextBoxStyle = { "TextBoxStyle", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSearchBoxStyle, TextBoxStyle), Z_Construct_UScriptStruct_FEditableTextBoxStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_TextBoxStyle_MetaData), Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_TextBoxStyle_MetaData) }; // 2960022542
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_ActiveFontInfo_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2806,7 +2818,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSearchBoxStyle>()
 		{ "ToolTip", "Font to use for the text box part of the search box when a search term is entered" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_ActiveFontInfo = { "ActiveFontInfo", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSearchBoxStyle, ActiveFontInfo), Z_Construct_UScriptStruct_FSlateFontInfo, METADATA_PARAMS(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_ActiveFontInfo_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_ActiveFontInfo_MetaData)) }; // 192883377
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_ActiveFontInfo = { "ActiveFontInfo", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSearchBoxStyle, ActiveFontInfo), Z_Construct_UScriptStruct_FSlateFontInfo, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_ActiveFontInfo_MetaData), Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_ActiveFontInfo_MetaData) }; // 2074891513
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_UpArrowImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2815,7 +2827,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSearchBoxStyle>()
 		{ "ToolTip", "Image to use for the search \"up\" arrow" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_UpArrowImage = { "UpArrowImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSearchBoxStyle, UpArrowImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_UpArrowImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_UpArrowImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_UpArrowImage = { "UpArrowImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSearchBoxStyle, UpArrowImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_UpArrowImage_MetaData), Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_UpArrowImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_DownArrowImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2824,7 +2836,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSearchBoxStyle>()
 		{ "ToolTip", "Image to use for the search \"down\" arrow" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_DownArrowImage = { "DownArrowImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSearchBoxStyle, DownArrowImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_DownArrowImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_DownArrowImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_DownArrowImage = { "DownArrowImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSearchBoxStyle, DownArrowImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_DownArrowImage_MetaData), Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_DownArrowImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_GlassImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2833,7 +2845,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSearchBoxStyle>()
 		{ "ToolTip", "Image to use for the search \"glass\"" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_GlassImage = { "GlassImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSearchBoxStyle, GlassImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_GlassImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_GlassImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_GlassImage = { "GlassImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSearchBoxStyle, GlassImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_GlassImage_MetaData), Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_GlassImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_ClearImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2842,7 +2854,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSearchBoxStyle>()
 		{ "ToolTip", "Image to use for the search \"clear\" button" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_ClearImage = { "ClearImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSearchBoxStyle, ClearImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_ClearImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_ClearImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_ClearImage = { "ClearImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSearchBoxStyle, ClearImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_ClearImage_MetaData), Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_ClearImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_ImagePadding_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2851,7 +2863,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSearchBoxStyle>()
 		{ "ToolTip", "Padding to use around the images" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_ImagePadding = { "ImagePadding", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSearchBoxStyle, ImagePadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_ImagePadding_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_ImagePadding_MetaData)) }; // 2014822612
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_ImagePadding = { "ImagePadding", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSearchBoxStyle, ImagePadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_ImagePadding_MetaData), Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_ImagePadding_MetaData) }; // 2235102396
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignButtons_MetaData[] = {
 		{ "Comment", "/** If true, buttons appear to the left of the search text */" },
@@ -2865,7 +2877,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSearchBoxStyle>()
 	{
 		((FSearchBoxStyle*)Obj)->bLeftAlignButtons_DEPRECATED = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignButtons = { "bLeftAlignButtons", nullptr, (EPropertyFlags)0x0010000020000000, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FSearchBoxStyle), &Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignButtons_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignButtons_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignButtons_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignButtons = { "bLeftAlignButtons", nullptr, (EPropertyFlags)0x0010000020000000, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FSearchBoxStyle), &Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignButtons_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignButtons_MetaData), Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignButtons_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignSearchResultButtons_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2878,7 +2890,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSearchBoxStyle>()
 	{
 		((FSearchBoxStyle*)Obj)->bLeftAlignSearchResultButtons = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignSearchResultButtons = { "bLeftAlignSearchResultButtons", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FSearchBoxStyle), &Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignSearchResultButtons_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignSearchResultButtons_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignSearchResultButtons_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignSearchResultButtons = { "bLeftAlignSearchResultButtons", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FSearchBoxStyle), &Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignSearchResultButtons_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignSearchResultButtons_MetaData), Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignSearchResultButtons_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignGlassImageAndClearButton_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -2891,7 +2903,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSearchBoxStyle>()
 	{
 		((FSearchBoxStyle*)Obj)->bLeftAlignGlassImageAndClearButton = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignGlassImageAndClearButton = { "bLeftAlignGlassImageAndClearButton", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FSearchBoxStyle), &Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignGlassImageAndClearButton_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignGlassImageAndClearButton_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignGlassImageAndClearButton_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignGlassImageAndClearButton = { "bLeftAlignGlassImageAndClearButton", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FSearchBoxStyle), &Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignGlassImageAndClearButton_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignGlassImageAndClearButton_MetaData), Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_bLeftAlignGlassImageAndClearButton_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_TextBoxStyle,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewProp_ActiveFontInfo,
@@ -2909,14 +2921,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSearchBoxStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"SearchBoxStyle",
-		sizeof(FSearchBoxStyle),
-		alignof(FSearchBoxStyle),
 		Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::PropPointers),
+		sizeof(FSearchBoxStyle),
+		alignof(FSearchBoxStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FSearchBoxStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_SearchBoxStyle.InnerSingleton)
@@ -2998,7 +3011,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSliderStyle>()
 		{ "ToolTip", "Image to use when the slider bar is in its normal state" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_NormalBarImage = { "NormalBarImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSliderStyle, NormalBarImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_NormalBarImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_NormalBarImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_NormalBarImage = { "NormalBarImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSliderStyle, NormalBarImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_NormalBarImage_MetaData), Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_NormalBarImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_HoveredBarImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3007,7 +3020,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSliderStyle>()
 		{ "ToolTip", "Image to use when the slider bar is in its hovered state" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_HoveredBarImage = { "HoveredBarImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSliderStyle, HoveredBarImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_HoveredBarImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_HoveredBarImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_HoveredBarImage = { "HoveredBarImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSliderStyle, HoveredBarImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_HoveredBarImage_MetaData), Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_HoveredBarImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_DisabledBarImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3016,7 +3029,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSliderStyle>()
 		{ "ToolTip", "Image to use when the slider bar is in its disabled state" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_DisabledBarImage = { "DisabledBarImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSliderStyle, DisabledBarImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_DisabledBarImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_DisabledBarImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_DisabledBarImage = { "DisabledBarImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSliderStyle, DisabledBarImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_DisabledBarImage_MetaData), Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_DisabledBarImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_NormalThumbImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3025,7 +3038,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSliderStyle>()
 		{ "ToolTip", "Image to use when the slider thumb is in its normal state" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_NormalThumbImage = { "NormalThumbImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSliderStyle, NormalThumbImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_NormalThumbImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_NormalThumbImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_NormalThumbImage = { "NormalThumbImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSliderStyle, NormalThumbImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_NormalThumbImage_MetaData), Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_NormalThumbImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_HoveredThumbImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3034,7 +3047,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSliderStyle>()
 		{ "ToolTip", "Image to use when the slider thumb is in its hovered state" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_HoveredThumbImage = { "HoveredThumbImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSliderStyle, HoveredThumbImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_HoveredThumbImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_HoveredThumbImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_HoveredThumbImage = { "HoveredThumbImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSliderStyle, HoveredThumbImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_HoveredThumbImage_MetaData), Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_HoveredThumbImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_DisabledThumbImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3043,14 +3056,14 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSliderStyle>()
 		{ "ToolTip", "Image to use when the slider thumb is in its disabled state" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_DisabledThumbImage = { "DisabledThumbImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSliderStyle, DisabledThumbImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_DisabledThumbImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_DisabledThumbImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_DisabledThumbImage = { "DisabledThumbImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSliderStyle, DisabledThumbImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_DisabledThumbImage_MetaData), Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_DisabledThumbImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_BarThickness_MetaData[] = {
 		{ "Category", "Appearance" },
 		{ "ModuleRelativePath", "Public/Styling/SlateTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_BarThickness = { "BarThickness", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSliderStyle, BarThickness), METADATA_PARAMS(Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_BarThickness_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_BarThickness_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_BarThickness = { "BarThickness", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSliderStyle, BarThickness), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_BarThickness_MetaData), Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_BarThickness_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FSliderStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_NormalBarImage,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSliderStyle_Statics::NewProp_HoveredBarImage,
@@ -3065,14 +3078,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSliderStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"SliderStyle",
-		sizeof(FSliderStyle),
-		alignof(FSliderStyle),
 		Z_Construct_UScriptStruct_FSliderStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSliderStyle_Statics::PropPointers),
+		sizeof(FSliderStyle),
+		alignof(FSliderStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FSliderStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSliderStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSliderStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FSliderStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSliderStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FSliderStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_SliderStyle.InnerSingleton)
@@ -3149,7 +3163,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FVolumeControlStyle>()
 		{ "ToolTip", "The style of the volume control slider" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_SliderStyle = { "SliderStyle", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVolumeControlStyle, SliderStyle), Z_Construct_UScriptStruct_FSliderStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_SliderStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_SliderStyle_MetaData)) }; // 4127039365
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_SliderStyle = { "SliderStyle", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVolumeControlStyle, SliderStyle), Z_Construct_UScriptStruct_FSliderStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_SliderStyle_MetaData), Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_SliderStyle_MetaData) }; // 743685500
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_HighVolumeImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3158,7 +3172,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FVolumeControlStyle>()
 		{ "ToolTip", "Image to use when the volume is set to high" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_HighVolumeImage = { "HighVolumeImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVolumeControlStyle, HighVolumeImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_HighVolumeImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_HighVolumeImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_HighVolumeImage = { "HighVolumeImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVolumeControlStyle, HighVolumeImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_HighVolumeImage_MetaData), Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_HighVolumeImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_MidVolumeImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3167,7 +3181,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FVolumeControlStyle>()
 		{ "ToolTip", "Image to use when the volume is set to mid-range" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_MidVolumeImage = { "MidVolumeImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVolumeControlStyle, MidVolumeImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_MidVolumeImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_MidVolumeImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_MidVolumeImage = { "MidVolumeImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVolumeControlStyle, MidVolumeImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_MidVolumeImage_MetaData), Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_MidVolumeImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_LowVolumeImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3176,7 +3190,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FVolumeControlStyle>()
 		{ "ToolTip", "Image to use when the volume is set to low" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_LowVolumeImage = { "LowVolumeImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVolumeControlStyle, LowVolumeImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_LowVolumeImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_LowVolumeImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_LowVolumeImage = { "LowVolumeImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVolumeControlStyle, LowVolumeImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_LowVolumeImage_MetaData), Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_LowVolumeImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_NoVolumeImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3185,7 +3199,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FVolumeControlStyle>()
 		{ "ToolTip", "Image to use when the volume is set to off" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_NoVolumeImage = { "NoVolumeImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVolumeControlStyle, NoVolumeImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_NoVolumeImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_NoVolumeImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_NoVolumeImage = { "NoVolumeImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVolumeControlStyle, NoVolumeImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_NoVolumeImage_MetaData), Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_NoVolumeImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_MutedImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3194,7 +3208,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FVolumeControlStyle>()
 		{ "ToolTip", "Image to use when the volume is muted" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_MutedImage = { "MutedImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVolumeControlStyle, MutedImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_MutedImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_MutedImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_MutedImage = { "MutedImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVolumeControlStyle, MutedImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_MutedImage_MetaData), Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_MutedImage_MetaData) }; // 899956612
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_SliderStyle,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewProp_HighVolumeImage,
@@ -3208,14 +3222,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FVolumeControlStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"VolumeControlStyle",
-		sizeof(FVolumeControlStyle),
-		alignof(FVolumeControlStyle),
 		Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::PropPointers),
+		sizeof(FVolumeControlStyle),
+		alignof(FVolumeControlStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FVolumeControlStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_VolumeControlStyle.InnerSingleton)
@@ -3276,7 +3291,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FInlineTextImageStyle>()
 		{ "ToolTip", "Image to use when the slider thumb is in its normal state" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::NewProp_Image = { "Image", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInlineTextImageStyle, Image), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::NewProp_Image_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::NewProp_Image_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::NewProp_Image = { "Image", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInlineTextImageStyle, Image), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::NewProp_Image_MetaData), Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::NewProp_Image_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::NewProp_Baseline_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3285,7 +3300,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FInlineTextImageStyle>()
 		{ "ToolTip", "The offset from the bottom of the image height to the baseline." },
 	};
 #endif
-	const UECodeGen_Private::FInt16PropertyParams Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::NewProp_Baseline = { "Baseline", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Int16, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInlineTextImageStyle, Baseline), METADATA_PARAMS(Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::NewProp_Baseline_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::NewProp_Baseline_MetaData)) };
+	const UECodeGen_Private::FInt16PropertyParams Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::NewProp_Baseline = { "Baseline", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Int16, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInlineTextImageStyle, Baseline), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::NewProp_Baseline_MetaData), Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::NewProp_Baseline_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::NewProp_Image,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::NewProp_Baseline,
@@ -3295,14 +3310,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FInlineTextImageStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"InlineTextImageStyle",
-		sizeof(FInlineTextImageStyle),
-		alignof(FInlineTextImageStyle),
 		Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::PropPointers),
+		sizeof(FInlineTextImageStyle),
+		alignof(FInlineTextImageStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInlineTextImageStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_InlineTextImageStyle.InnerSingleton)
@@ -3396,14 +3412,14 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSpinBoxStyle>()
 		{ "ToolTip", "Brush used to draw the background of the spinbox" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_BackgroundBrush = { "BackgroundBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSpinBoxStyle, BackgroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_BackgroundBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_BackgroundBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_BackgroundBrush = { "BackgroundBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSpinBoxStyle, BackgroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_BackgroundBrush_MetaData), Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_BackgroundBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ActiveBackgroundBrush_MetaData[] = {
 		{ "Category", "Appearance" },
 		{ "ModuleRelativePath", "Public/Styling/SlateTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ActiveBackgroundBrush = { "ActiveBackgroundBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSpinBoxStyle, ActiveBackgroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ActiveBackgroundBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ActiveBackgroundBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ActiveBackgroundBrush = { "ActiveBackgroundBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSpinBoxStyle, ActiveBackgroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ActiveBackgroundBrush_MetaData), Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ActiveBackgroundBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_HoveredBackgroundBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3412,7 +3428,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSpinBoxStyle>()
 		{ "ToolTip", "Brush used to draw the background of the spinbox when it's hovered over" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_HoveredBackgroundBrush = { "HoveredBackgroundBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSpinBoxStyle, HoveredBackgroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_HoveredBackgroundBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_HoveredBackgroundBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_HoveredBackgroundBrush = { "HoveredBackgroundBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSpinBoxStyle, HoveredBackgroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_HoveredBackgroundBrush_MetaData), Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_HoveredBackgroundBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ActiveFillBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3421,7 +3437,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSpinBoxStyle>()
 		{ "ToolTip", "Brush used to fill the spinbox when it's active" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ActiveFillBrush = { "ActiveFillBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSpinBoxStyle, ActiveFillBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ActiveFillBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ActiveFillBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ActiveFillBrush = { "ActiveFillBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSpinBoxStyle, ActiveFillBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ActiveFillBrush_MetaData), Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ActiveFillBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_HoveredFillBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3430,7 +3446,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSpinBoxStyle>()
 		{ "ToolTip", "Brush used to fill the spinbox when it's hovered and not active" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_HoveredFillBrush = { "HoveredFillBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSpinBoxStyle, HoveredFillBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_HoveredFillBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_HoveredFillBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_HoveredFillBrush = { "HoveredFillBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSpinBoxStyle, HoveredFillBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_HoveredFillBrush_MetaData), Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_HoveredFillBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_InactiveFillBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3439,7 +3455,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSpinBoxStyle>()
 		{ "ToolTip", "Brush used to fill the spinbox when it's inactive" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_InactiveFillBrush = { "InactiveFillBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSpinBoxStyle, InactiveFillBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_InactiveFillBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_InactiveFillBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_InactiveFillBrush = { "InactiveFillBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSpinBoxStyle, InactiveFillBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_InactiveFillBrush_MetaData), Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_InactiveFillBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ArrowsImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3448,7 +3464,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSpinBoxStyle>()
 		{ "ToolTip", "Image used to draw the spinbox arrows" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ArrowsImage = { "ArrowsImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSpinBoxStyle, ArrowsImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ArrowsImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ArrowsImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ArrowsImage = { "ArrowsImage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSpinBoxStyle, ArrowsImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ArrowsImage_MetaData), Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ArrowsImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ForegroundColor_MetaData[] = {
 		{ "Comment", "/** Color used to draw the spinbox foreground elements */" },
@@ -3456,7 +3472,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSpinBoxStyle>()
 		{ "ToolTip", "Color used to draw the spinbox foreground elements" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ForegroundColor = { "ForegroundColor", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSpinBoxStyle, ForegroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ForegroundColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ForegroundColor_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ForegroundColor = { "ForegroundColor", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSpinBoxStyle, ForegroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ForegroundColor_MetaData), Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ForegroundColor_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_TextPadding_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3465,7 +3481,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSpinBoxStyle>()
 		{ "ToolTip", "Padding to add around the spinbox and its text" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_TextPadding = { "TextPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSpinBoxStyle, TextPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_TextPadding_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_TextPadding_MetaData)) }; // 2014822612
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_TextPadding = { "TextPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSpinBoxStyle, TextPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_TextPadding_MetaData), Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_TextPadding_MetaData) }; // 2235102396
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_InsetPadding_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3474,7 +3490,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSpinBoxStyle>()
 		{ "ToolTip", "Padding between the background brush and the fill brush" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_InsetPadding = { "InsetPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSpinBoxStyle, InsetPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_InsetPadding_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_InsetPadding_MetaData)) }; // 2014822612
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_InsetPadding = { "InsetPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSpinBoxStyle, InsetPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_InsetPadding_MetaData), Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_InsetPadding_MetaData) }; // 2235102396
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_BackgroundBrush,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewProp_ActiveBackgroundBrush,
@@ -3492,14 +3508,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSpinBoxStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"SpinBoxStyle",
-		sizeof(FSpinBoxStyle),
-		alignof(FSpinBoxStyle),
 		Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::PropPointers),
+		sizeof(FSpinBoxStyle),
+		alignof(FSpinBoxStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FSpinBoxStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_SpinBoxStyle.InnerSingleton)
@@ -3561,7 +3578,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSplitterStyle>()
 		{ "ToolTip", "Brush used to draw the handle in its normal state" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSplitterStyle_Statics::NewProp_HandleNormalBrush = { "HandleNormalBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSplitterStyle, HandleNormalBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FSplitterStyle_Statics::NewProp_HandleNormalBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSplitterStyle_Statics::NewProp_HandleNormalBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSplitterStyle_Statics::NewProp_HandleNormalBrush = { "HandleNormalBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSplitterStyle, HandleNormalBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSplitterStyle_Statics::NewProp_HandleNormalBrush_MetaData), Z_Construct_UScriptStruct_FSplitterStyle_Statics::NewProp_HandleNormalBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSplitterStyle_Statics::NewProp_HandleHighlightBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3570,7 +3587,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSplitterStyle>()
 		{ "ToolTip", "Brush used to draw the handle in its highlight state" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSplitterStyle_Statics::NewProp_HandleHighlightBrush = { "HandleHighlightBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSplitterStyle, HandleHighlightBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FSplitterStyle_Statics::NewProp_HandleHighlightBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSplitterStyle_Statics::NewProp_HandleHighlightBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSplitterStyle_Statics::NewProp_HandleHighlightBrush = { "HandleHighlightBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSplitterStyle, HandleHighlightBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSplitterStyle_Statics::NewProp_HandleHighlightBrush_MetaData), Z_Construct_UScriptStruct_FSplitterStyle_Statics::NewProp_HandleHighlightBrush_MetaData) }; // 899956612
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FSplitterStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSplitterStyle_Statics::NewProp_HandleNormalBrush,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSplitterStyle_Statics::NewProp_HandleHighlightBrush,
@@ -3580,14 +3597,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSplitterStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"SplitterStyle",
-		sizeof(FSplitterStyle),
-		alignof(FSplitterStyle),
 		Z_Construct_UScriptStruct_FSplitterStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSplitterStyle_Statics::PropPointers),
+		sizeof(FSplitterStyle),
+		alignof(FSplitterStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FSplitterStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSplitterStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSplitterStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FSplitterStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSplitterStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FSplitterStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_SplitterStyle.InnerSingleton)
@@ -3645,7 +3663,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableViewStyle>()
 		{ "ToolTip", "Brush used when a selected row is active" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableViewStyle_Statics::NewProp_BackgroundBrush = { "BackgroundBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableViewStyle, BackgroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableViewStyle_Statics::NewProp_BackgroundBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableViewStyle_Statics::NewProp_BackgroundBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableViewStyle_Statics::NewProp_BackgroundBrush = { "BackgroundBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableViewStyle, BackgroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableViewStyle_Statics::NewProp_BackgroundBrush_MetaData), Z_Construct_UScriptStruct_FTableViewStyle_Statics::NewProp_BackgroundBrush_MetaData) }; // 899956612
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTableViewStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTableViewStyle_Statics::NewProp_BackgroundBrush,
 	};
@@ -3654,14 +3672,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableViewStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"TableViewStyle",
-		sizeof(FTableViewStyle),
-		alignof(FTableViewStyle),
 		Z_Construct_UScriptStruct_FTableViewStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableViewStyle_Statics::PropPointers),
+		sizeof(FTableViewStyle),
+		alignof(FTableViewStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FTableViewStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableViewStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableViewStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FTableViewStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableViewStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FTableViewStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_TableViewStyle.InnerSingleton)
@@ -3792,7 +3811,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableRowStyle>()
 		{ "ToolTip", "Brush used as a selector when a row is focused" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_SelectorFocusedBrush = { "SelectorFocusedBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableRowStyle, SelectorFocusedBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_SelectorFocusedBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_SelectorFocusedBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_SelectorFocusedBrush = { "SelectorFocusedBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableRowStyle, SelectorFocusedBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_SelectorFocusedBrush_MetaData), Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_SelectorFocusedBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ActiveHoveredBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3801,7 +3820,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableRowStyle>()
 		{ "ToolTip", "Brush used when a selected row is active and hovered" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ActiveHoveredBrush = { "ActiveHoveredBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableRowStyle, ActiveHoveredBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ActiveHoveredBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ActiveHoveredBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ActiveHoveredBrush = { "ActiveHoveredBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableRowStyle, ActiveHoveredBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ActiveHoveredBrush_MetaData), Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ActiveHoveredBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ActiveBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3810,7 +3829,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableRowStyle>()
 		{ "ToolTip", "Brush used when a selected row is active" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ActiveBrush = { "ActiveBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableRowStyle, ActiveBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ActiveBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ActiveBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ActiveBrush = { "ActiveBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableRowStyle, ActiveBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ActiveBrush_MetaData), Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ActiveBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_InactiveHoveredBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3819,7 +3838,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableRowStyle>()
 		{ "ToolTip", "Brush used when a selected row is inactive and hovered" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_InactiveHoveredBrush = { "InactiveHoveredBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableRowStyle, InactiveHoveredBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_InactiveHoveredBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_InactiveHoveredBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_InactiveHoveredBrush = { "InactiveHoveredBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableRowStyle, InactiveHoveredBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_InactiveHoveredBrush_MetaData), Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_InactiveHoveredBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_InactiveBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3828,7 +3847,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableRowStyle>()
 		{ "ToolTip", "Brush used when a selected row is inactive" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_InactiveBrush = { "InactiveBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableRowStyle, InactiveBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_InactiveBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_InactiveBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_InactiveBrush = { "InactiveBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableRowStyle, InactiveBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_InactiveBrush_MetaData), Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_InactiveBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_bUseParentRowBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3841,7 +3860,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableRowStyle>()
 	{
 		((FTableRowStyle*)Obj)->bUseParentRowBrush = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_bUseParentRowBrush = { "bUseParentRowBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FTableRowStyle), &Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_bUseParentRowBrush_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_bUseParentRowBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_bUseParentRowBrush_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_bUseParentRowBrush = { "bUseParentRowBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FTableRowStyle), &Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_bUseParentRowBrush_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_bUseParentRowBrush_MetaData), Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_bUseParentRowBrush_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ParentRowBackgroundBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3850,7 +3869,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableRowStyle>()
 		{ "ToolTip", "Brush used for the top parent row" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ParentRowBackgroundBrush = { "ParentRowBackgroundBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableRowStyle, ParentRowBackgroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ParentRowBackgroundBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ParentRowBackgroundBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ParentRowBackgroundBrush = { "ParentRowBackgroundBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableRowStyle, ParentRowBackgroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ParentRowBackgroundBrush_MetaData), Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ParentRowBackgroundBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ParentRowBackgroundHoveredBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3859,7 +3878,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableRowStyle>()
 		{ "ToolTip", "Brush used for the top parent row and row is hovered" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ParentRowBackgroundHoveredBrush = { "ParentRowBackgroundHoveredBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableRowStyle, ParentRowBackgroundHoveredBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ParentRowBackgroundHoveredBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ParentRowBackgroundHoveredBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ParentRowBackgroundHoveredBrush = { "ParentRowBackgroundHoveredBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableRowStyle, ParentRowBackgroundHoveredBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ParentRowBackgroundHoveredBrush_MetaData), Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ParentRowBackgroundHoveredBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_EvenRowBackgroundHoveredBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3868,7 +3887,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableRowStyle>()
 		{ "ToolTip", "Brush used when an even row is hovered" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_EvenRowBackgroundHoveredBrush = { "EvenRowBackgroundHoveredBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableRowStyle, EvenRowBackgroundHoveredBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_EvenRowBackgroundHoveredBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_EvenRowBackgroundHoveredBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_EvenRowBackgroundHoveredBrush = { "EvenRowBackgroundHoveredBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableRowStyle, EvenRowBackgroundHoveredBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_EvenRowBackgroundHoveredBrush_MetaData), Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_EvenRowBackgroundHoveredBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_EvenRowBackgroundBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3877,7 +3896,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableRowStyle>()
 		{ "ToolTip", "Brush used when an even row is in its normal state" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_EvenRowBackgroundBrush = { "EvenRowBackgroundBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableRowStyle, EvenRowBackgroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_EvenRowBackgroundBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_EvenRowBackgroundBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_EvenRowBackgroundBrush = { "EvenRowBackgroundBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableRowStyle, EvenRowBackgroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_EvenRowBackgroundBrush_MetaData), Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_EvenRowBackgroundBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_OddRowBackgroundHoveredBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3886,7 +3905,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableRowStyle>()
 		{ "ToolTip", "Brush used when an odd row is hovered" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_OddRowBackgroundHoveredBrush = { "OddRowBackgroundHoveredBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableRowStyle, OddRowBackgroundHoveredBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_OddRowBackgroundHoveredBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_OddRowBackgroundHoveredBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_OddRowBackgroundHoveredBrush = { "OddRowBackgroundHoveredBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableRowStyle, OddRowBackgroundHoveredBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_OddRowBackgroundHoveredBrush_MetaData), Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_OddRowBackgroundHoveredBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_OddRowBackgroundBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3895,7 +3914,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableRowStyle>()
 		{ "ToolTip", "Brush to used when an odd row is in its normal state" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_OddRowBackgroundBrush = { "OddRowBackgroundBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableRowStyle, OddRowBackgroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_OddRowBackgroundBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_OddRowBackgroundBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_OddRowBackgroundBrush = { "OddRowBackgroundBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableRowStyle, OddRowBackgroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_OddRowBackgroundBrush_MetaData), Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_OddRowBackgroundBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_TextColor_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3904,7 +3923,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableRowStyle>()
 		{ "ToolTip", "Text color used for all rows" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_TextColor = { "TextColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableRowStyle, TextColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_TextColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_TextColor_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_TextColor = { "TextColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableRowStyle, TextColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_TextColor_MetaData), Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_TextColor_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_SelectedTextColor_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3913,7 +3932,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableRowStyle>()
 		{ "ToolTip", "Text color used for the selected row" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_SelectedTextColor = { "SelectedTextColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableRowStyle, SelectedTextColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_SelectedTextColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_SelectedTextColor_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_SelectedTextColor = { "SelectedTextColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableRowStyle, SelectedTextColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_SelectedTextColor_MetaData), Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_SelectedTextColor_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_DropIndicator_Above_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3922,7 +3941,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableRowStyle>()
 		{ "ToolTip", "Brush used to provide feedback that a user can drop above the hovered row." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_DropIndicator_Above = { "DropIndicator_Above", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableRowStyle, DropIndicator_Above), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_DropIndicator_Above_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_DropIndicator_Above_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_DropIndicator_Above = { "DropIndicator_Above", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableRowStyle, DropIndicator_Above), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_DropIndicator_Above_MetaData), Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_DropIndicator_Above_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_DropIndicator_Onto_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3931,7 +3950,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableRowStyle>()
 		{ "ToolTip", "Brush used to provide feedback that a user can drop onto the hovered row." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_DropIndicator_Onto = { "DropIndicator_Onto", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableRowStyle, DropIndicator_Onto), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_DropIndicator_Onto_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_DropIndicator_Onto_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_DropIndicator_Onto = { "DropIndicator_Onto", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableRowStyle, DropIndicator_Onto), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_DropIndicator_Onto_MetaData), Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_DropIndicator_Onto_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_DropIndicator_Below_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3940,7 +3959,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableRowStyle>()
 		{ "ToolTip", "Brush used to provide feedback that a user can drop below the hovered row." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_DropIndicator_Below = { "DropIndicator_Below", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableRowStyle, DropIndicator_Below), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_DropIndicator_Below_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_DropIndicator_Below_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_DropIndicator_Below = { "DropIndicator_Below", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableRowStyle, DropIndicator_Below), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_DropIndicator_Below_MetaData), Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_DropIndicator_Below_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ActiveHighlightedBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3949,7 +3968,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableRowStyle>()
 		{ "ToolTip", "Brush used when a highlighted row is active" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ActiveHighlightedBrush = { "ActiveHighlightedBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableRowStyle, ActiveHighlightedBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ActiveHighlightedBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ActiveHighlightedBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ActiveHighlightedBrush = { "ActiveHighlightedBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableRowStyle, ActiveHighlightedBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ActiveHighlightedBrush_MetaData), Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ActiveHighlightedBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_InactiveHighlightedBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -3958,7 +3977,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableRowStyle>()
 		{ "ToolTip", "Brush used when a highlighted row is inactive and hovered" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_InactiveHighlightedBrush = { "InactiveHighlightedBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableRowStyle, InactiveHighlightedBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_InactiveHighlightedBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_InactiveHighlightedBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_InactiveHighlightedBrush = { "InactiveHighlightedBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableRowStyle, InactiveHighlightedBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_InactiveHighlightedBrush_MetaData), Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_InactiveHighlightedBrush_MetaData) }; // 899956612
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTableRowStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_SelectorFocusedBrush,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewProp_ActiveHoveredBrush,
@@ -3985,14 +4004,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableRowStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"TableRowStyle",
-		sizeof(FTableRowStyle),
-		alignof(FTableRowStyle),
 		Z_Construct_UScriptStruct_FTableRowStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::PropPointers),
+		sizeof(FTableRowStyle),
+		alignof(FTableRowStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FTableRowStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FTableRowStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableRowStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FTableRowStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_TableRowStyle.InnerSingleton)
@@ -4081,7 +4101,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableColumnHeaderStyle>()
 		{ "ToolTip", "Image used when a column is primarily sorted in ascending order" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortPrimaryAscendingImage = { "SortPrimaryAscendingImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableColumnHeaderStyle, SortPrimaryAscendingImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortPrimaryAscendingImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortPrimaryAscendingImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortPrimaryAscendingImage = { "SortPrimaryAscendingImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableColumnHeaderStyle, SortPrimaryAscendingImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortPrimaryAscendingImage_MetaData), Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortPrimaryAscendingImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortPrimaryDescendingImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4090,7 +4110,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableColumnHeaderStyle>()
 		{ "ToolTip", "Image used when a column is primarily sorted in descending order" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortPrimaryDescendingImage = { "SortPrimaryDescendingImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableColumnHeaderStyle, SortPrimaryDescendingImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortPrimaryDescendingImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortPrimaryDescendingImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortPrimaryDescendingImage = { "SortPrimaryDescendingImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableColumnHeaderStyle, SortPrimaryDescendingImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortPrimaryDescendingImage_MetaData), Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortPrimaryDescendingImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortSecondaryAscendingImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4099,7 +4119,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableColumnHeaderStyle>()
 		{ "ToolTip", "Image used when a column is secondarily sorted in ascending order" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortSecondaryAscendingImage = { "SortSecondaryAscendingImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableColumnHeaderStyle, SortSecondaryAscendingImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortSecondaryAscendingImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortSecondaryAscendingImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortSecondaryAscendingImage = { "SortSecondaryAscendingImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableColumnHeaderStyle, SortSecondaryAscendingImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortSecondaryAscendingImage_MetaData), Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortSecondaryAscendingImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortSecondaryDescendingImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4108,7 +4128,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableColumnHeaderStyle>()
 		{ "ToolTip", "Image used when a column is secondarily sorted in descending order" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortSecondaryDescendingImage = { "SortSecondaryDescendingImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableColumnHeaderStyle, SortSecondaryDescendingImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortSecondaryDescendingImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortSecondaryDescendingImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortSecondaryDescendingImage = { "SortSecondaryDescendingImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableColumnHeaderStyle, SortSecondaryDescendingImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortSecondaryDescendingImage_MetaData), Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortSecondaryDescendingImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_NormalBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4117,7 +4137,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableColumnHeaderStyle>()
 		{ "ToolTip", "Brush used to draw the header in its normal state" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_NormalBrush = { "NormalBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableColumnHeaderStyle, NormalBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_NormalBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_NormalBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_NormalBrush = { "NormalBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableColumnHeaderStyle, NormalBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_NormalBrush_MetaData), Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_NormalBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_HoveredBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4126,7 +4146,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableColumnHeaderStyle>()
 		{ "ToolTip", "Brush used to draw the header in its hovered state" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_HoveredBrush = { "HoveredBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableColumnHeaderStyle, HoveredBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_HoveredBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_HoveredBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_HoveredBrush = { "HoveredBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableColumnHeaderStyle, HoveredBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_HoveredBrush_MetaData), Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_HoveredBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_MenuDropdownImage_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4135,7 +4155,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableColumnHeaderStyle>()
 		{ "ToolTip", "Image used for the menu drop-down button" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_MenuDropdownImage = { "MenuDropdownImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableColumnHeaderStyle, MenuDropdownImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_MenuDropdownImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_MenuDropdownImage_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_MenuDropdownImage = { "MenuDropdownImage", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableColumnHeaderStyle, MenuDropdownImage), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_MenuDropdownImage_MetaData), Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_MenuDropdownImage_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_MenuDropdownNormalBorderBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4144,7 +4164,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableColumnHeaderStyle>()
 		{ "ToolTip", "Brush used to draw the menu drop-down border in its normal state" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_MenuDropdownNormalBorderBrush = { "MenuDropdownNormalBorderBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableColumnHeaderStyle, MenuDropdownNormalBorderBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_MenuDropdownNormalBorderBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_MenuDropdownNormalBorderBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_MenuDropdownNormalBorderBrush = { "MenuDropdownNormalBorderBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableColumnHeaderStyle, MenuDropdownNormalBorderBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_MenuDropdownNormalBorderBrush_MetaData), Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_MenuDropdownNormalBorderBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_MenuDropdownHoveredBorderBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4153,7 +4173,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableColumnHeaderStyle>()
 		{ "ToolTip", "Brush used to draw the menu drop-down border in its hovered state" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_MenuDropdownHoveredBorderBrush = { "MenuDropdownHoveredBorderBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTableColumnHeaderStyle, MenuDropdownHoveredBorderBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_MenuDropdownHoveredBorderBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_MenuDropdownHoveredBorderBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_MenuDropdownHoveredBorderBrush = { "MenuDropdownHoveredBorderBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTableColumnHeaderStyle, MenuDropdownHoveredBorderBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_MenuDropdownHoveredBorderBrush_MetaData), Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_MenuDropdownHoveredBorderBrush_MetaData) }; // 899956612
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortPrimaryAscendingImage,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewProp_SortPrimaryDescendingImage,
@@ -4170,14 +4190,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTableColumnHeaderStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"TableColumnHeaderStyle",
-		sizeof(FTableColumnHeaderStyle),
-		alignof(FTableColumnHeaderStyle),
 		Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::PropPointers),
+		sizeof(FTableColumnHeaderStyle),
+		alignof(FTableColumnHeaderStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FTableColumnHeaderStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_TableColumnHeaderStyle.InnerSingleton)
@@ -4262,7 +4283,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FHeaderRowStyle>()
 		{ "ToolTip", "Style of the normal header row columns" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_ColumnStyle = { "ColumnStyle", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FHeaderRowStyle, ColumnStyle), Z_Construct_UScriptStruct_FTableColumnHeaderStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_ColumnStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_ColumnStyle_MetaData)) }; // 2656598114
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_ColumnStyle = { "ColumnStyle", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FHeaderRowStyle, ColumnStyle), Z_Construct_UScriptStruct_FTableColumnHeaderStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_ColumnStyle_MetaData), Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_ColumnStyle_MetaData) }; // 1247907164
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_LastColumnStyle_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4271,7 +4292,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FHeaderRowStyle>()
 		{ "ToolTip", "Style of the last header row column" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_LastColumnStyle = { "LastColumnStyle", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FHeaderRowStyle, LastColumnStyle), Z_Construct_UScriptStruct_FTableColumnHeaderStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_LastColumnStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_LastColumnStyle_MetaData)) }; // 2656598114
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_LastColumnStyle = { "LastColumnStyle", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FHeaderRowStyle, LastColumnStyle), Z_Construct_UScriptStruct_FTableColumnHeaderStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_LastColumnStyle_MetaData), Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_LastColumnStyle_MetaData) }; // 1247907164
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_ColumnSplitterStyle_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4280,7 +4301,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FHeaderRowStyle>()
 		{ "ToolTip", "Style of the splitter used between the columns" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_ColumnSplitterStyle = { "ColumnSplitterStyle", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FHeaderRowStyle, ColumnSplitterStyle), Z_Construct_UScriptStruct_FSplitterStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_ColumnSplitterStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_ColumnSplitterStyle_MetaData)) }; // 2511038882
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_ColumnSplitterStyle = { "ColumnSplitterStyle", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FHeaderRowStyle, ColumnSplitterStyle), Z_Construct_UScriptStruct_FSplitterStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_ColumnSplitterStyle_MetaData), Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_ColumnSplitterStyle_MetaData) }; // 1720793004
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_SplitterHandleSize_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4289,7 +4310,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FHeaderRowStyle>()
 		{ "ToolTip", "Size of the splitter used between the columns" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_SplitterHandleSize = { "SplitterHandleSize", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FHeaderRowStyle, SplitterHandleSize), METADATA_PARAMS(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_SplitterHandleSize_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_SplitterHandleSize_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_SplitterHandleSize = { "SplitterHandleSize", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FHeaderRowStyle, SplitterHandleSize), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_SplitterHandleSize_MetaData), Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_SplitterHandleSize_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_BackgroundBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4298,7 +4319,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FHeaderRowStyle>()
 		{ "ToolTip", "Brush used to draw the header row background" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_BackgroundBrush = { "BackgroundBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FHeaderRowStyle, BackgroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_BackgroundBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_BackgroundBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_BackgroundBrush = { "BackgroundBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FHeaderRowStyle, BackgroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_BackgroundBrush_MetaData), Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_BackgroundBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_ForegroundColor_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4307,7 +4328,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FHeaderRowStyle>()
 		{ "ToolTip", "Color used to draw the header row foreground" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_ForegroundColor = { "ForegroundColor", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FHeaderRowStyle, ForegroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_ForegroundColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_ForegroundColor_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_ForegroundColor = { "ForegroundColor", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FHeaderRowStyle, ForegroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_ForegroundColor_MetaData), Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_ForegroundColor_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_HorizontalSeparatorBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4316,14 +4337,14 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FHeaderRowStyle>()
 		{ "ToolTip", "Brush used to draw the splitter between the header and the contents below it" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_HorizontalSeparatorBrush = { "HorizontalSeparatorBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FHeaderRowStyle, HorizontalSeparatorBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_HorizontalSeparatorBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_HorizontalSeparatorBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_HorizontalSeparatorBrush = { "HorizontalSeparatorBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FHeaderRowStyle, HorizontalSeparatorBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_HorizontalSeparatorBrush_MetaData), Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_HorizontalSeparatorBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_HorizontalSeparatorThickness_MetaData[] = {
 		{ "Category", "Appearance" },
 		{ "ModuleRelativePath", "Public/Styling/SlateTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_HorizontalSeparatorThickness = { "HorizontalSeparatorThickness", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FHeaderRowStyle, HorizontalSeparatorThickness), METADATA_PARAMS(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_HorizontalSeparatorThickness_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_HorizontalSeparatorThickness_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_HorizontalSeparatorThickness = { "HorizontalSeparatorThickness", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FHeaderRowStyle, HorizontalSeparatorThickness), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_HorizontalSeparatorThickness_MetaData), Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_HorizontalSeparatorThickness_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_ColumnStyle,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewProp_LastColumnStyle,
@@ -4339,14 +4360,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FHeaderRowStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"HeaderRowStyle",
-		sizeof(FHeaderRowStyle),
-		alignof(FHeaderRowStyle),
 		Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::PropPointers),
+		sizeof(FHeaderRowStyle),
+		alignof(FHeaderRowStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FHeaderRowStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_HeaderRowStyle.InnerSingleton)
@@ -4471,7 +4493,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FDockTabStyle>()
 		{ "ToolTip", "Style used for the close button" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_CloseButtonStyle = { "CloseButtonStyle", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDockTabStyle, CloseButtonStyle), Z_Construct_UScriptStruct_FButtonStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_CloseButtonStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_CloseButtonStyle_MetaData)) }; // 2024050934
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_CloseButtonStyle = { "CloseButtonStyle", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDockTabStyle, CloseButtonStyle), Z_Construct_UScriptStruct_FButtonStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_CloseButtonStyle_MetaData), Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_CloseButtonStyle_MetaData) }; // 1902661672
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_NormalBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4480,7 +4502,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FDockTabStyle>()
 		{ "ToolTip", "Brush used when this tab is in its normal state" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_NormalBrush = { "NormalBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDockTabStyle, NormalBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_NormalBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_NormalBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_NormalBrush = { "NormalBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDockTabStyle, NormalBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_NormalBrush_MetaData), Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_NormalBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ColorOverlayTabBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4489,7 +4511,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FDockTabStyle>()
 		{ "ToolTip", "Brush used to overlay a given color onto this tab" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ColorOverlayTabBrush = { "ColorOverlayTabBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDockTabStyle, ColorOverlayTabBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ColorOverlayTabBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ColorOverlayTabBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ColorOverlayTabBrush = { "ColorOverlayTabBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDockTabStyle, ColorOverlayTabBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ColorOverlayTabBrush_MetaData), Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ColorOverlayTabBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ColorOverlayIconBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4498,7 +4520,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FDockTabStyle>()
 		{ "ToolTip", "Brush used to overlay a given color onto this tab" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ColorOverlayIconBrush = { "ColorOverlayIconBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDockTabStyle, ColorOverlayIconBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ColorOverlayIconBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ColorOverlayIconBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ColorOverlayIconBrush = { "ColorOverlayIconBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDockTabStyle, ColorOverlayIconBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ColorOverlayIconBrush_MetaData), Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ColorOverlayIconBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ForegroundBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4507,7 +4529,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FDockTabStyle>()
 		{ "ToolTip", "Brush used when this tab is in the foreground" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ForegroundBrush = { "ForegroundBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDockTabStyle, ForegroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ForegroundBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ForegroundBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ForegroundBrush = { "ForegroundBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDockTabStyle, ForegroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ForegroundBrush_MetaData), Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ForegroundBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_HoveredBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4516,7 +4538,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FDockTabStyle>()
 		{ "ToolTip", "Brush used when this tab is hovered over" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_HoveredBrush = { "HoveredBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDockTabStyle, HoveredBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_HoveredBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_HoveredBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_HoveredBrush = { "HoveredBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDockTabStyle, HoveredBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_HoveredBrush_MetaData), Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_HoveredBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ContentAreaBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4525,7 +4547,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FDockTabStyle>()
 		{ "ToolTip", "Brush used by the SDockingTabStack to draw the content associated with this tab; Documents, Apps, and Tool Panels have different backgrounds" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ContentAreaBrush = { "ContentAreaBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDockTabStyle, ContentAreaBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ContentAreaBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ContentAreaBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ContentAreaBrush = { "ContentAreaBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDockTabStyle, ContentAreaBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ContentAreaBrush_MetaData), Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ContentAreaBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_TabWellBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4534,7 +4556,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FDockTabStyle>()
 		{ "ToolTip", "Brush used by the SDockingTabStack to draw the content associated with this tab; Documents, Apps, and Tool Panels have different backgrounds" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_TabWellBrush = { "TabWellBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDockTabStyle, TabWellBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_TabWellBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_TabWellBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_TabWellBrush = { "TabWellBrush", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDockTabStyle, TabWellBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_TabWellBrush_MetaData), Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_TabWellBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_TabTextStyle_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4543,7 +4565,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FDockTabStyle>()
 		{ "ToolTip", "Tab Text Style" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_TabTextStyle = { "TabTextStyle", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDockTabStyle, TabTextStyle), Z_Construct_UScriptStruct_FTextBlockStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_TabTextStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_TabTextStyle_MetaData)) }; // 622949925
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_TabTextStyle = { "TabTextStyle", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDockTabStyle, TabTextStyle), Z_Construct_UScriptStruct_FTextBlockStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_TabTextStyle_MetaData), Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_TabTextStyle_MetaData) }; // 1973404513
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_TabPadding_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4552,7 +4574,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FDockTabStyle>()
 		{ "ToolTip", "Padding used around this tab" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_TabPadding = { "TabPadding", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDockTabStyle, TabPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_TabPadding_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_TabPadding_MetaData)) }; // 2014822612
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_TabPadding = { "TabPadding", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDockTabStyle, TabPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_TabPadding_MetaData), Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_TabPadding_MetaData) }; // 2235102396
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_IconSize_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4561,7 +4583,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FDockTabStyle>()
 		{ "ToolTip", "Icon size for icons in this tab" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_IconSize = { "IconSize", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDockTabStyle, IconSize), Z_Construct_UScriptStruct_FDeprecateSlateVector2D, METADATA_PARAMS(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_IconSize_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_IconSize_MetaData)) }; // 3533773233
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_IconSize = { "IconSize", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDockTabStyle, IconSize), Z_Construct_UScriptStruct_FDeprecateSlateVector2D, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_IconSize_MetaData), Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_IconSize_MetaData) }; // 2692624173
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_OverlapWidth_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4570,7 +4592,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FDockTabStyle>()
 		{ "ToolTip", "The width that this tab will overlap with side-by-side tabs" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_OverlapWidth = { "OverlapWidth", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDockTabStyle, OverlapWidth), METADATA_PARAMS(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_OverlapWidth_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_OverlapWidth_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_OverlapWidth = { "OverlapWidth", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDockTabStyle, OverlapWidth), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_OverlapWidth_MetaData), Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_OverlapWidth_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_FlashColor_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4579,7 +4601,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FDockTabStyle>()
 		{ "ToolTip", "Color used when flashing this tab" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_FlashColor = { "FlashColor", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDockTabStyle, FlashColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_FlashColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_FlashColor_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_FlashColor = { "FlashColor", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDockTabStyle, FlashColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_FlashColor_MetaData), Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_FlashColor_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_NormalForegroundColor_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4588,7 +4610,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FDockTabStyle>()
 		{ "ToolTip", "Foreground Color when the tab is not hovered, pressed, active or in the foreground" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_NormalForegroundColor = { "NormalForegroundColor", nullptr, (EPropertyFlags)0x0010040000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDockTabStyle, NormalForegroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_NormalForegroundColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_NormalForegroundColor_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_NormalForegroundColor = { "NormalForegroundColor", nullptr, (EPropertyFlags)0x0010040000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDockTabStyle, NormalForegroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_NormalForegroundColor_MetaData), Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_NormalForegroundColor_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_HoveredForegroundColor_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4597,7 +4619,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FDockTabStyle>()
 		{ "ToolTip", "Foreground Color when hovered" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_HoveredForegroundColor = { "HoveredForegroundColor", nullptr, (EPropertyFlags)0x0010040000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDockTabStyle, HoveredForegroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_HoveredForegroundColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_HoveredForegroundColor_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_HoveredForegroundColor = { "HoveredForegroundColor", nullptr, (EPropertyFlags)0x0010040000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDockTabStyle, HoveredForegroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_HoveredForegroundColor_MetaData), Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_HoveredForegroundColor_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ActiveForegroundColor_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4606,7 +4628,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FDockTabStyle>()
 		{ "ToolTip", "Foreground Color when Active" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ActiveForegroundColor = { "ActiveForegroundColor", nullptr, (EPropertyFlags)0x0010040000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDockTabStyle, ActiveForegroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ActiveForegroundColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ActiveForegroundColor_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ActiveForegroundColor = { "ActiveForegroundColor", nullptr, (EPropertyFlags)0x0010040000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDockTabStyle, ActiveForegroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ActiveForegroundColor_MetaData), Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ActiveForegroundColor_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ForegroundForegroundColor_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4615,7 +4637,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FDockTabStyle>()
 		{ "ToolTip", "Foreground Color when this tab is the Foreground tab" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ForegroundForegroundColor = { "ForegroundForegroundColor", nullptr, (EPropertyFlags)0x0010040000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDockTabStyle, ForegroundForegroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ForegroundForegroundColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ForegroundForegroundColor_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ForegroundForegroundColor = { "ForegroundForegroundColor", nullptr, (EPropertyFlags)0x0010040000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDockTabStyle, ForegroundForegroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ForegroundForegroundColor_MetaData), Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_ForegroundForegroundColor_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_IconBorderPadding_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4624,7 +4646,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FDockTabStyle>()
 		{ "ToolTip", "The padding applied to the border around the tab icon" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_IconBorderPadding = { "IconBorderPadding", nullptr, (EPropertyFlags)0x0010040000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDockTabStyle, IconBorderPadding), METADATA_PARAMS(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_IconBorderPadding_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_IconBorderPadding_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_IconBorderPadding = { "IconBorderPadding", nullptr, (EPropertyFlags)0x0010040000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDockTabStyle, IconBorderPadding), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_IconBorderPadding_MetaData), Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_IconBorderPadding_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FDockTabStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_CloseButtonStyle,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewProp_NormalBrush,
@@ -4650,14 +4672,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FDockTabStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"DockTabStyle",
-		sizeof(FDockTabStyle),
-		alignof(FDockTabStyle),
 		Z_Construct_UScriptStruct_FDockTabStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::PropPointers),
+		sizeof(FDockTabStyle),
+		alignof(FDockTabStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FDockTabStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FDockTabStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDockTabStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FDockTabStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_DockTabStyle.InnerSingleton)
@@ -4737,7 +4760,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FScrollBoxStyle>()
 		{ "ModuleRelativePath", "Public/Styling/SlateTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_BarThickness = { "BarThickness", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FScrollBoxStyle, BarThickness), METADATA_PARAMS(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_BarThickness_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_BarThickness_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_BarThickness = { "BarThickness", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScrollBoxStyle, BarThickness), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_BarThickness_MetaData), Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_BarThickness_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_TopShadowBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4746,7 +4769,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FScrollBoxStyle>()
 		{ "ToolTip", "Brush used to draw the top shadow of a scrollbox" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_TopShadowBrush = { "TopShadowBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FScrollBoxStyle, TopShadowBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_TopShadowBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_TopShadowBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_TopShadowBrush = { "TopShadowBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScrollBoxStyle, TopShadowBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_TopShadowBrush_MetaData), Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_TopShadowBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_BottomShadowBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4755,7 +4778,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FScrollBoxStyle>()
 		{ "ToolTip", "Brush used to draw the bottom shadow of a scrollbox" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_BottomShadowBrush = { "BottomShadowBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FScrollBoxStyle, BottomShadowBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_BottomShadowBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_BottomShadowBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_BottomShadowBrush = { "BottomShadowBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScrollBoxStyle, BottomShadowBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_BottomShadowBrush_MetaData), Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_BottomShadowBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_LeftShadowBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4764,7 +4787,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FScrollBoxStyle>()
 		{ "ToolTip", "Brush used to draw the left shadow of a scrollbox" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_LeftShadowBrush = { "LeftShadowBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FScrollBoxStyle, LeftShadowBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_LeftShadowBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_LeftShadowBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_LeftShadowBrush = { "LeftShadowBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScrollBoxStyle, LeftShadowBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_LeftShadowBrush_MetaData), Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_LeftShadowBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_RightShadowBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4773,7 +4796,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FScrollBoxStyle>()
 		{ "ToolTip", "Brush used to draw the right shadow of a scrollbox" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_RightShadowBrush = { "RightShadowBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FScrollBoxStyle, RightShadowBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_RightShadowBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_RightShadowBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_RightShadowBrush = { "RightShadowBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScrollBoxStyle, RightShadowBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_RightShadowBrush_MetaData), Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_RightShadowBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_HorizontalScrolledContentPadding_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4782,7 +4805,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FScrollBoxStyle>()
 		{ "ToolTip", "Padding scroll panel that presents the scrolled content" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_HorizontalScrolledContentPadding = { "HorizontalScrolledContentPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FScrollBoxStyle, HorizontalScrolledContentPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_HorizontalScrolledContentPadding_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_HorizontalScrolledContentPadding_MetaData)) }; // 2014822612
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_HorizontalScrolledContentPadding = { "HorizontalScrolledContentPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScrollBoxStyle, HorizontalScrolledContentPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_HorizontalScrolledContentPadding_MetaData), Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_HorizontalScrolledContentPadding_MetaData) }; // 2235102396
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_VerticalScrolledContentPadding_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4791,7 +4814,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FScrollBoxStyle>()
 		{ "ToolTip", "Padding scroll panel that presents the scrolled content" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_VerticalScrolledContentPadding = { "VerticalScrolledContentPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FScrollBoxStyle, VerticalScrolledContentPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_VerticalScrolledContentPadding_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_VerticalScrolledContentPadding_MetaData)) }; // 2014822612
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_VerticalScrolledContentPadding = { "VerticalScrolledContentPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScrollBoxStyle, VerticalScrolledContentPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_VerticalScrolledContentPadding_MetaData), Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_VerticalScrolledContentPadding_MetaData) }; // 2235102396
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_BarThickness,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewProp_TopShadowBrush,
@@ -4806,14 +4829,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FScrollBoxStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"ScrollBoxStyle",
-		sizeof(FScrollBoxStyle),
-		alignof(FScrollBoxStyle),
 		Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::PropPointers),
+		sizeof(FScrollBoxStyle),
+		alignof(FScrollBoxStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FScrollBoxStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_ScrollBoxStyle.InnerSingleton)
@@ -4875,7 +4899,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FScrollBorderStyle>()
 		{ "ToolTip", "Brush used to draw the top shadow of a scrollborder" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::NewProp_TopShadowBrush = { "TopShadowBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FScrollBorderStyle, TopShadowBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::NewProp_TopShadowBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::NewProp_TopShadowBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::NewProp_TopShadowBrush = { "TopShadowBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScrollBorderStyle, TopShadowBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::NewProp_TopShadowBrush_MetaData), Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::NewProp_TopShadowBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::NewProp_BottomShadowBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -4884,7 +4908,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FScrollBorderStyle>()
 		{ "ToolTip", "Brush used to draw the bottom shadow of a scrollborder" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::NewProp_BottomShadowBrush = { "BottomShadowBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FScrollBorderStyle, BottomShadowBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::NewProp_BottomShadowBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::NewProp_BottomShadowBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::NewProp_BottomShadowBrush = { "BottomShadowBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FScrollBorderStyle, BottomShadowBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::NewProp_BottomShadowBrush_MetaData), Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::NewProp_BottomShadowBrush_MetaData) }; // 899956612
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::NewProp_TopShadowBrush,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::NewProp_BottomShadowBrush,
@@ -4894,14 +4918,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FScrollBorderStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"ScrollBorderStyle",
-		sizeof(FScrollBorderStyle),
-		alignof(FScrollBorderStyle),
 		Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::PropPointers),
+		sizeof(FScrollBorderStyle),
+		alignof(FScrollBorderStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FScrollBorderStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_ScrollBorderStyle.InnerSingleton)
@@ -5023,7 +5048,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FWindowStyle>()
 		{ "ToolTip", "Style used to draw the window minimize button" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_MinimizeButtonStyle = { "MinimizeButtonStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FWindowStyle, MinimizeButtonStyle), Z_Construct_UScriptStruct_FButtonStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_MinimizeButtonStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_MinimizeButtonStyle_MetaData)) }; // 2024050934
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_MinimizeButtonStyle = { "MinimizeButtonStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FWindowStyle, MinimizeButtonStyle), Z_Construct_UScriptStruct_FButtonStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_MinimizeButtonStyle_MetaData), Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_MinimizeButtonStyle_MetaData) }; // 1902661672
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_MaximizeButtonStyle_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -5032,7 +5057,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FWindowStyle>()
 		{ "ToolTip", "Style used to draw the window maximize button" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_MaximizeButtonStyle = { "MaximizeButtonStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FWindowStyle, MaximizeButtonStyle), Z_Construct_UScriptStruct_FButtonStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_MaximizeButtonStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_MaximizeButtonStyle_MetaData)) }; // 2024050934
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_MaximizeButtonStyle = { "MaximizeButtonStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FWindowStyle, MaximizeButtonStyle), Z_Construct_UScriptStruct_FButtonStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_MaximizeButtonStyle_MetaData), Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_MaximizeButtonStyle_MetaData) }; // 1902661672
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_RestoreButtonStyle_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -5041,7 +5066,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FWindowStyle>()
 		{ "ToolTip", "Style used to draw the window restore button" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_RestoreButtonStyle = { "RestoreButtonStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FWindowStyle, RestoreButtonStyle), Z_Construct_UScriptStruct_FButtonStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_RestoreButtonStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_RestoreButtonStyle_MetaData)) }; // 2024050934
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_RestoreButtonStyle = { "RestoreButtonStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FWindowStyle, RestoreButtonStyle), Z_Construct_UScriptStruct_FButtonStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_RestoreButtonStyle_MetaData), Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_RestoreButtonStyle_MetaData) }; // 1902661672
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_CloseButtonStyle_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -5050,7 +5075,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FWindowStyle>()
 		{ "ToolTip", "Style used to draw the window close button" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_CloseButtonStyle = { "CloseButtonStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FWindowStyle, CloseButtonStyle), Z_Construct_UScriptStruct_FButtonStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_CloseButtonStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_CloseButtonStyle_MetaData)) }; // 2024050934
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_CloseButtonStyle = { "CloseButtonStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FWindowStyle, CloseButtonStyle), Z_Construct_UScriptStruct_FButtonStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_CloseButtonStyle_MetaData), Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_CloseButtonStyle_MetaData) }; // 1902661672
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_TitleTextStyle_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -5059,7 +5084,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FWindowStyle>()
 		{ "ToolTip", "Style used to draw the window title text" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_TitleTextStyle = { "TitleTextStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FWindowStyle, TitleTextStyle), Z_Construct_UScriptStruct_FTextBlockStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_TitleTextStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_TitleTextStyle_MetaData)) }; // 622949925
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_TitleTextStyle = { "TitleTextStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FWindowStyle, TitleTextStyle), Z_Construct_UScriptStruct_FTextBlockStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_TitleTextStyle_MetaData), Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_TitleTextStyle_MetaData) }; // 1973404513
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_ActiveTitleBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -5068,7 +5093,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FWindowStyle>()
 		{ "ToolTip", "Brush used to draw the window title area when the window is active" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_ActiveTitleBrush = { "ActiveTitleBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FWindowStyle, ActiveTitleBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_ActiveTitleBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_ActiveTitleBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_ActiveTitleBrush = { "ActiveTitleBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FWindowStyle, ActiveTitleBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_ActiveTitleBrush_MetaData), Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_ActiveTitleBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_InactiveTitleBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -5077,7 +5102,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FWindowStyle>()
 		{ "ToolTip", "Brush used to draw the window title area when the window is inactive" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_InactiveTitleBrush = { "InactiveTitleBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FWindowStyle, InactiveTitleBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_InactiveTitleBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_InactiveTitleBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_InactiveTitleBrush = { "InactiveTitleBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FWindowStyle, InactiveTitleBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_InactiveTitleBrush_MetaData), Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_InactiveTitleBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_FlashTitleBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -5086,7 +5111,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FWindowStyle>()
 		{ "ToolTip", "Brush used to draw the window title area when the window is flashing" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_FlashTitleBrush = { "FlashTitleBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FWindowStyle, FlashTitleBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_FlashTitleBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_FlashTitleBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_FlashTitleBrush = { "FlashTitleBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FWindowStyle, FlashTitleBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_FlashTitleBrush_MetaData), Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_FlashTitleBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BackgroundColor_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -5095,7 +5120,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FWindowStyle>()
 		{ "ToolTip", "Color used to draw the window background" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BackgroundColor = { "BackgroundColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FWindowStyle, BackgroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BackgroundColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BackgroundColor_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BackgroundColor = { "BackgroundColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FWindowStyle, BackgroundColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BackgroundColor_MetaData), Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BackgroundColor_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_OutlineBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -5104,7 +5129,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FWindowStyle>()
 		{ "ToolTip", "Brush used to draw the window outline" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_OutlineBrush = { "OutlineBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FWindowStyle, OutlineBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_OutlineBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_OutlineBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_OutlineBrush = { "OutlineBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FWindowStyle, OutlineBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_OutlineBrush_MetaData), Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_OutlineBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_OutlineColor_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -5113,7 +5138,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FWindowStyle>()
 		{ "ToolTip", "Color used to draw the window outline" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_OutlineColor = { "OutlineColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FWindowStyle, OutlineColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_OutlineColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_OutlineColor_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_OutlineColor = { "OutlineColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FWindowStyle, OutlineColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_OutlineColor_MetaData), Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_OutlineColor_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BorderBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -5122,7 +5147,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FWindowStyle>()
 		{ "ToolTip", "Brush used to draw the window border" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BorderBrush = { "BorderBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FWindowStyle, BorderBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BorderBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BorderBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BorderBrush = { "BorderBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FWindowStyle, BorderBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BorderBrush_MetaData), Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BorderBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BorderColor_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -5131,7 +5156,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FWindowStyle>()
 		{ "ToolTip", "Color used to draw the window border" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BorderColor = { "BorderColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FWindowStyle, BorderColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BorderColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BorderColor_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BorderColor = { "BorderColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FWindowStyle, BorderColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BorderColor_MetaData), Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BorderColor_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BackgroundBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -5140,7 +5165,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FWindowStyle>()
 		{ "ToolTip", "Brush used to draw the window background" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BackgroundBrush = { "BackgroundBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FWindowStyle, BackgroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BackgroundBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BackgroundBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BackgroundBrush = { "BackgroundBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FWindowStyle, BackgroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BackgroundBrush_MetaData), Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BackgroundBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_ChildBackgroundBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -5149,7 +5174,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FWindowStyle>()
 		{ "ToolTip", "Brush used to draw the background of child windows" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_ChildBackgroundBrush = { "ChildBackgroundBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FWindowStyle, ChildBackgroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_ChildBackgroundBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_ChildBackgroundBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_ChildBackgroundBrush = { "ChildBackgroundBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FWindowStyle, ChildBackgroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_ChildBackgroundBrush_MetaData), Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_ChildBackgroundBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_WindowCornerRadius_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -5158,7 +5183,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FWindowStyle>()
 		{ "ToolTip", "Window corner rounding.  If this value is <= 0 no rounding will occur.   Used for regular, non-maximized windows only (not tool-tips or decorators.)" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_WindowCornerRadius = { "WindowCornerRadius", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FWindowStyle, WindowCornerRadius), METADATA_PARAMS(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_WindowCornerRadius_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_WindowCornerRadius_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_WindowCornerRadius = { "WindowCornerRadius", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FWindowStyle, WindowCornerRadius), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_WindowCornerRadius_MetaData), Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_WindowCornerRadius_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BorderPadding_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -5167,7 +5192,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FWindowStyle>()
 		{ "ToolTip", "Window corner rounding.  If this value is <= 0 no rounding will occur.   Used for regular, non-maximized windows only (not tool-tips or decorators.)" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BorderPadding = { "BorderPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FWindowStyle, BorderPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BorderPadding_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BorderPadding_MetaData)) }; // 2014822612
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BorderPadding = { "BorderPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FWindowStyle, BorderPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BorderPadding_MetaData), Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_BorderPadding_MetaData) }; // 2235102396
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FWindowStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_MinimizeButtonStyle,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FWindowStyle_Statics::NewProp_MaximizeButtonStyle,
@@ -5192,14 +5217,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FWindowStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"WindowStyle",
-		sizeof(FWindowStyle),
-		alignof(FWindowStyle),
 		Z_Construct_UScriptStruct_FWindowStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::PropPointers),
+		sizeof(FWindowStyle),
+		alignof(FWindowStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FWindowStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FWindowStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FWindowStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FWindowStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_WindowStyle.InnerSingleton)
@@ -5229,6 +5255,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FWindowStyle>()
 		(UObject* (*)())Z_Construct_UClass_UObject,
 		(UObject* (*)())Z_Construct_UPackage__Script_SlateCore,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_USlateTypes_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USlateTypes_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/** HACK: We need a UClass here or UHT will complain. */" },
@@ -5253,7 +5280,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FWindowStyle>()
 		0,
 		0,
 		0x000000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_USlateTypes_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_USlateTypes_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_USlateTypes_Statics::Class_MetaDataParams), Z_Construct_UClass_USlateTypes_Statics::Class_MetaDataParams)
 	};
 	UClass* Z_Construct_UClass_USlateTypes()
 	{
@@ -5277,45 +5304,45 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FWindowStyle>()
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_Statics::EnumInfo[] = {
-		{ EConsumeMouseWheel_StaticEnum, TEXT("EConsumeMouseWheel"), &Z_Registration_Info_UEnum_EConsumeMouseWheel, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3844272617U) },
-		{ ESlateParentWindowSearchMethod_StaticEnum, TEXT("ESlateParentWindowSearchMethod"), &Z_Registration_Info_UEnum_ESlateParentWindowSearchMethod, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2639708626U) },
-		{ ESlateCheckBoxType_StaticEnum, TEXT("ESlateCheckBoxType"), &Z_Registration_Info_UEnum_ESlateCheckBoxType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3077855935U) },
-		{ ECheckBoxState_StaticEnum, TEXT("ECheckBoxState"), &Z_Registration_Info_UEnum_ECheckBoxState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1662204813U) },
-		{ ETextOverflowPolicy_StaticEnum, TEXT("ETextOverflowPolicy"), &Z_Registration_Info_UEnum_ETextOverflowPolicy, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1604726165U) },
-		{ ETextTransformPolicy_StaticEnum, TEXT("ETextTransformPolicy"), &Z_Registration_Info_UEnum_ETextTransformPolicy, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 883314779U) },
+		{ EConsumeMouseWheel_StaticEnum, TEXT("EConsumeMouseWheel"), &Z_Registration_Info_UEnum_EConsumeMouseWheel, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3656076134U) },
+		{ ESlateParentWindowSearchMethod_StaticEnum, TEXT("ESlateParentWindowSearchMethod"), &Z_Registration_Info_UEnum_ESlateParentWindowSearchMethod, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2392218593U) },
+		{ ESlateCheckBoxType_StaticEnum, TEXT("ESlateCheckBoxType"), &Z_Registration_Info_UEnum_ESlateCheckBoxType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3890441720U) },
+		{ ECheckBoxState_StaticEnum, TEXT("ECheckBoxState"), &Z_Registration_Info_UEnum_ECheckBoxState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1758189121U) },
+		{ ETextOverflowPolicy_StaticEnum, TEXT("ETextOverflowPolicy"), &Z_Registration_Info_UEnum_ETextOverflowPolicy, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2416412583U) },
+		{ ETextTransformPolicy_StaticEnum, TEXT("ETextTransformPolicy"), &Z_Registration_Info_UEnum_ETextTransformPolicy, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2229535241U) },
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_Statics::ScriptStructInfo[] = {
-		{ FCheckBoxStyle::StaticStruct, Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewStructOps, TEXT("CheckBoxStyle"), &Z_Registration_Info_UScriptStruct_CheckBoxStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCheckBoxStyle), 1946304471U) },
-		{ FTextBlockStyle::StaticStruct, Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewStructOps, TEXT("TextBlockStyle"), &Z_Registration_Info_UScriptStruct_TextBlockStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FTextBlockStyle), 622949925U) },
-		{ FButtonStyle::StaticStruct, Z_Construct_UScriptStruct_FButtonStyle_Statics::NewStructOps, TEXT("ButtonStyle"), &Z_Registration_Info_UScriptStruct_ButtonStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FButtonStyle), 2024050934U) },
-		{ FComboButtonStyle::StaticStruct, Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewStructOps, TEXT("ComboButtonStyle"), &Z_Registration_Info_UScriptStruct_ComboButtonStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FComboButtonStyle), 3302369615U) },
-		{ FComboBoxStyle::StaticStruct, Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewStructOps, TEXT("ComboBoxStyle"), &Z_Registration_Info_UScriptStruct_ComboBoxStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FComboBoxStyle), 3435964422U) },
-		{ FHyperlinkStyle::StaticStruct, Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewStructOps, TEXT("HyperlinkStyle"), &Z_Registration_Info_UScriptStruct_HyperlinkStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FHyperlinkStyle), 2878765108U) },
-		{ FEditableTextStyle::StaticStruct, Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewStructOps, TEXT("EditableTextStyle"), &Z_Registration_Info_UScriptStruct_EditableTextStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FEditableTextStyle), 2363878413U) },
-		{ FScrollBarStyle::StaticStruct, Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewStructOps, TEXT("ScrollBarStyle"), &Z_Registration_Info_UScriptStruct_ScrollBarStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FScrollBarStyle), 2161279079U) },
-		{ FEditableTextBoxStyle::StaticStruct, Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewStructOps, TEXT("EditableTextBoxStyle"), &Z_Registration_Info_UScriptStruct_EditableTextBoxStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FEditableTextBoxStyle), 255857817U) },
-		{ FInlineEditableTextBlockStyle::StaticStruct, Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::NewStructOps, TEXT("InlineEditableTextBlockStyle"), &Z_Registration_Info_UScriptStruct_InlineEditableTextBlockStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FInlineEditableTextBlockStyle), 2795302943U) },
-		{ FProgressBarStyle::StaticStruct, Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewStructOps, TEXT("ProgressBarStyle"), &Z_Registration_Info_UScriptStruct_ProgressBarStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FProgressBarStyle), 3431683467U) },
-		{ FExpandableAreaStyle::StaticStruct, Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewStructOps, TEXT("ExpandableAreaStyle"), &Z_Registration_Info_UScriptStruct_ExpandableAreaStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FExpandableAreaStyle), 360508616U) },
-		{ FSearchBoxStyle::StaticStruct, Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewStructOps, TEXT("SearchBoxStyle"), &Z_Registration_Info_UScriptStruct_SearchBoxStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSearchBoxStyle), 295921845U) },
-		{ FSliderStyle::StaticStruct, Z_Construct_UScriptStruct_FSliderStyle_Statics::NewStructOps, TEXT("SliderStyle"), &Z_Registration_Info_UScriptStruct_SliderStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSliderStyle), 4127039365U) },
-		{ FVolumeControlStyle::StaticStruct, Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewStructOps, TEXT("VolumeControlStyle"), &Z_Registration_Info_UScriptStruct_VolumeControlStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVolumeControlStyle), 2216581338U) },
-		{ FInlineTextImageStyle::StaticStruct, Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::NewStructOps, TEXT("InlineTextImageStyle"), &Z_Registration_Info_UScriptStruct_InlineTextImageStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FInlineTextImageStyle), 508661461U) },
-		{ FSpinBoxStyle::StaticStruct, Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewStructOps, TEXT("SpinBoxStyle"), &Z_Registration_Info_UScriptStruct_SpinBoxStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSpinBoxStyle), 1730320122U) },
-		{ FSplitterStyle::StaticStruct, Z_Construct_UScriptStruct_FSplitterStyle_Statics::NewStructOps, TEXT("SplitterStyle"), &Z_Registration_Info_UScriptStruct_SplitterStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSplitterStyle), 2511038882U) },
-		{ FTableViewStyle::StaticStruct, Z_Construct_UScriptStruct_FTableViewStyle_Statics::NewStructOps, TEXT("TableViewStyle"), &Z_Registration_Info_UScriptStruct_TableViewStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FTableViewStyle), 2891893037U) },
-		{ FTableRowStyle::StaticStruct, Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewStructOps, TEXT("TableRowStyle"), &Z_Registration_Info_UScriptStruct_TableRowStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FTableRowStyle), 129873581U) },
-		{ FTableColumnHeaderStyle::StaticStruct, Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewStructOps, TEXT("TableColumnHeaderStyle"), &Z_Registration_Info_UScriptStruct_TableColumnHeaderStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FTableColumnHeaderStyle), 2656598114U) },
-		{ FHeaderRowStyle::StaticStruct, Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewStructOps, TEXT("HeaderRowStyle"), &Z_Registration_Info_UScriptStruct_HeaderRowStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FHeaderRowStyle), 4072558022U) },
-		{ FDockTabStyle::StaticStruct, Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewStructOps, TEXT("DockTabStyle"), &Z_Registration_Info_UScriptStruct_DockTabStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FDockTabStyle), 1373348475U) },
-		{ FScrollBoxStyle::StaticStruct, Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewStructOps, TEXT("ScrollBoxStyle"), &Z_Registration_Info_UScriptStruct_ScrollBoxStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FScrollBoxStyle), 3926364971U) },
-		{ FScrollBorderStyle::StaticStruct, Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::NewStructOps, TEXT("ScrollBorderStyle"), &Z_Registration_Info_UScriptStruct_ScrollBorderStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FScrollBorderStyle), 3255021002U) },
-		{ FWindowStyle::StaticStruct, Z_Construct_UScriptStruct_FWindowStyle_Statics::NewStructOps, TEXT("WindowStyle"), &Z_Registration_Info_UScriptStruct_WindowStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FWindowStyle), 1390682585U) },
+		{ FCheckBoxStyle::StaticStruct, Z_Construct_UScriptStruct_FCheckBoxStyle_Statics::NewStructOps, TEXT("CheckBoxStyle"), &Z_Registration_Info_UScriptStruct_CheckBoxStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCheckBoxStyle), 2749292455U) },
+		{ FTextBlockStyle::StaticStruct, Z_Construct_UScriptStruct_FTextBlockStyle_Statics::NewStructOps, TEXT("TextBlockStyle"), &Z_Registration_Info_UScriptStruct_TextBlockStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FTextBlockStyle), 1973404513U) },
+		{ FButtonStyle::StaticStruct, Z_Construct_UScriptStruct_FButtonStyle_Statics::NewStructOps, TEXT("ButtonStyle"), &Z_Registration_Info_UScriptStruct_ButtonStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FButtonStyle), 1902661672U) },
+		{ FComboButtonStyle::StaticStruct, Z_Construct_UScriptStruct_FComboButtonStyle_Statics::NewStructOps, TEXT("ComboButtonStyle"), &Z_Registration_Info_UScriptStruct_ComboButtonStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FComboButtonStyle), 919780963U) },
+		{ FComboBoxStyle::StaticStruct, Z_Construct_UScriptStruct_FComboBoxStyle_Statics::NewStructOps, TEXT("ComboBoxStyle"), &Z_Registration_Info_UScriptStruct_ComboBoxStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FComboBoxStyle), 2774448758U) },
+		{ FHyperlinkStyle::StaticStruct, Z_Construct_UScriptStruct_FHyperlinkStyle_Statics::NewStructOps, TEXT("HyperlinkStyle"), &Z_Registration_Info_UScriptStruct_HyperlinkStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FHyperlinkStyle), 4058886374U) },
+		{ FEditableTextStyle::StaticStruct, Z_Construct_UScriptStruct_FEditableTextStyle_Statics::NewStructOps, TEXT("EditableTextStyle"), &Z_Registration_Info_UScriptStruct_EditableTextStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FEditableTextStyle), 93411368U) },
+		{ FScrollBarStyle::StaticStruct, Z_Construct_UScriptStruct_FScrollBarStyle_Statics::NewStructOps, TEXT("ScrollBarStyle"), &Z_Registration_Info_UScriptStruct_ScrollBarStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FScrollBarStyle), 3779130458U) },
+		{ FEditableTextBoxStyle::StaticStruct, Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics::NewStructOps, TEXT("EditableTextBoxStyle"), &Z_Registration_Info_UScriptStruct_EditableTextBoxStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FEditableTextBoxStyle), 2960022542U) },
+		{ FInlineEditableTextBlockStyle::StaticStruct, Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics::NewStructOps, TEXT("InlineEditableTextBlockStyle"), &Z_Registration_Info_UScriptStruct_InlineEditableTextBlockStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FInlineEditableTextBlockStyle), 534528577U) },
+		{ FProgressBarStyle::StaticStruct, Z_Construct_UScriptStruct_FProgressBarStyle_Statics::NewStructOps, TEXT("ProgressBarStyle"), &Z_Registration_Info_UScriptStruct_ProgressBarStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FProgressBarStyle), 2988023842U) },
+		{ FExpandableAreaStyle::StaticStruct, Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics::NewStructOps, TEXT("ExpandableAreaStyle"), &Z_Registration_Info_UScriptStruct_ExpandableAreaStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FExpandableAreaStyle), 523882514U) },
+		{ FSearchBoxStyle::StaticStruct, Z_Construct_UScriptStruct_FSearchBoxStyle_Statics::NewStructOps, TEXT("SearchBoxStyle"), &Z_Registration_Info_UScriptStruct_SearchBoxStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSearchBoxStyle), 2430082651U) },
+		{ FSliderStyle::StaticStruct, Z_Construct_UScriptStruct_FSliderStyle_Statics::NewStructOps, TEXT("SliderStyle"), &Z_Registration_Info_UScriptStruct_SliderStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSliderStyle), 743685500U) },
+		{ FVolumeControlStyle::StaticStruct, Z_Construct_UScriptStruct_FVolumeControlStyle_Statics::NewStructOps, TEXT("VolumeControlStyle"), &Z_Registration_Info_UScriptStruct_VolumeControlStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVolumeControlStyle), 532026769U) },
+		{ FInlineTextImageStyle::StaticStruct, Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics::NewStructOps, TEXT("InlineTextImageStyle"), &Z_Registration_Info_UScriptStruct_InlineTextImageStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FInlineTextImageStyle), 1566143619U) },
+		{ FSpinBoxStyle::StaticStruct, Z_Construct_UScriptStruct_FSpinBoxStyle_Statics::NewStructOps, TEXT("SpinBoxStyle"), &Z_Registration_Info_UScriptStruct_SpinBoxStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSpinBoxStyle), 3888757670U) },
+		{ FSplitterStyle::StaticStruct, Z_Construct_UScriptStruct_FSplitterStyle_Statics::NewStructOps, TEXT("SplitterStyle"), &Z_Registration_Info_UScriptStruct_SplitterStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSplitterStyle), 1720793004U) },
+		{ FTableViewStyle::StaticStruct, Z_Construct_UScriptStruct_FTableViewStyle_Statics::NewStructOps, TEXT("TableViewStyle"), &Z_Registration_Info_UScriptStruct_TableViewStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FTableViewStyle), 259601358U) },
+		{ FTableRowStyle::StaticStruct, Z_Construct_UScriptStruct_FTableRowStyle_Statics::NewStructOps, TEXT("TableRowStyle"), &Z_Registration_Info_UScriptStruct_TableRowStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FTableRowStyle), 2761410977U) },
+		{ FTableColumnHeaderStyle::StaticStruct, Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics::NewStructOps, TEXT("TableColumnHeaderStyle"), &Z_Registration_Info_UScriptStruct_TableColumnHeaderStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FTableColumnHeaderStyle), 1247907164U) },
+		{ FHeaderRowStyle::StaticStruct, Z_Construct_UScriptStruct_FHeaderRowStyle_Statics::NewStructOps, TEXT("HeaderRowStyle"), &Z_Registration_Info_UScriptStruct_HeaderRowStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FHeaderRowStyle), 3970269046U) },
+		{ FDockTabStyle::StaticStruct, Z_Construct_UScriptStruct_FDockTabStyle_Statics::NewStructOps, TEXT("DockTabStyle"), &Z_Registration_Info_UScriptStruct_DockTabStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FDockTabStyle), 4228741271U) },
+		{ FScrollBoxStyle::StaticStruct, Z_Construct_UScriptStruct_FScrollBoxStyle_Statics::NewStructOps, TEXT("ScrollBoxStyle"), &Z_Registration_Info_UScriptStruct_ScrollBoxStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FScrollBoxStyle), 599000945U) },
+		{ FScrollBorderStyle::StaticStruct, Z_Construct_UScriptStruct_FScrollBorderStyle_Statics::NewStructOps, TEXT("ScrollBorderStyle"), &Z_Registration_Info_UScriptStruct_ScrollBorderStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FScrollBorderStyle), 3953690669U) },
+		{ FWindowStyle::StaticStruct, Z_Construct_UScriptStruct_FWindowStyle_Statics::NewStructOps, TEXT("WindowStyle"), &Z_Registration_Info_UScriptStruct_WindowStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FWindowStyle), 2875916201U) },
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_USlateTypes, USlateTypes::StaticClass, TEXT("USlateTypes"), &Z_Registration_Info_UClass_USlateTypes, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USlateTypes), 3996953061U) },
+		{ Z_Construct_UClass_USlateTypes, USlateTypes::StaticClass, TEXT("USlateTypes"), &Z_Registration_Info_UClass_USlateTypes, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USlateTypes), 1759122198U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1503806817(TEXT("/Script/SlateCore"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1406031143(TEXT("/Script/SlateCore"),
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_Statics::ClassInfo),
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_Statics::ScriptStructInfo),
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_Statics::EnumInfo));

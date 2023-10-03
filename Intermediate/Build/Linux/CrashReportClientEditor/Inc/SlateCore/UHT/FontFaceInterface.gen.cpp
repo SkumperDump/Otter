@@ -35,6 +35,7 @@ void EmptyLinkFunctionForGeneratedCodeFontFaceInterface() {}
 		(UObject* (*)())Z_Construct_UClass_UInterface,
 		(UObject* (*)())Z_Construct_UPackage__Script_SlateCore,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFontFaceInterface_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFontFaceInterface_Statics::Class_MetaDataParams[] = {
 		{ "CannotImplementInterfaceInBlueprint", "" },
@@ -57,7 +58,7 @@ void EmptyLinkFunctionForGeneratedCodeFontFaceInterface() {}
 		0,
 		0,
 		0x000840A1u,
-		METADATA_PARAMS(Z_Construct_UClass_UFontFaceInterface_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UFontFaceInterface_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFontFaceInterface_Statics::Class_MetaDataParams), Z_Construct_UClass_UFontFaceInterface_Statics::Class_MetaDataParams)
 	};
 	UClass* Z_Construct_UClass_UFontFaceInterface()
 	{
@@ -78,9 +79,9 @@ void EmptyLinkFunctionForGeneratedCodeFontFaceInterface() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontFaceInterface_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFontFaceInterface, UFontFaceInterface::StaticClass, TEXT("UFontFaceInterface"), &Z_Registration_Info_UClass_UFontFaceInterface, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFontFaceInterface), 3832912682U) },
+		{ Z_Construct_UClass_UFontFaceInterface, UFontFaceInterface::StaticClass, TEXT("UFontFaceInterface"), &Z_Registration_Info_UClass_UFontFaceInterface, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFontFaceInterface), 2427979827U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontFaceInterface_h_3573492267(TEXT("/Script/SlateCore"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontFaceInterface_h_2178732075(TEXT("/Script/SlateCore"),
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontFaceInterface_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontFaceInterface_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

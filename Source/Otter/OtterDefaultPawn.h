@@ -8,6 +8,7 @@
 
 class UOtterOverlapComponent;
 class UOtterMovementComponent;
+class USkeletalMeshComponent;
 class UArrowComponent;
 class UInputMappingContext;
 struct FInputActionValue;
@@ -18,7 +19,7 @@ class OTTER_API AOtterDefaultPawn : public APawn
 	GENERATED_BODY()
 	
 	// Must include as APawn has no move component
-	TObjectPtr<UOtterMovementComponent> OtterMovementComponent;
+	TObjectPtr<UOtterMovementComponent> MovementComponent;
 
 	// Indicates forward direction
 	UPROPERTY(VisibleAnywhere)
@@ -31,6 +32,9 @@ class OTTER_API AOtterDefaultPawn : public APawn
 public:	
 
 	AOtterDefaultPawn();
+
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<USkeletalMeshComponent> PlayerMesh;
 
 	// Public so any pawn can have one but not all need one, thus up to child classes to redefine
 	UPROPERTY(EditAnywhere)
@@ -46,5 +50,4 @@ public:
 	virtual void Thrust(const FInputActionValue& Value) {};
 
 	const auto GetOverlapComponent() { return OverlapComponent; };
-	const auto GetOtterMovementComponent() { return OtterMovementComponent; };
 };

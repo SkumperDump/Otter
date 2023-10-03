@@ -41,6 +41,7 @@ void EmptyLinkFunctionForGeneratedCodeSlateWidgetStyleAsset() {}
 		(UObject* (*)())Z_Construct_UClass_UObject,
 		(UObject* (*)())Z_Construct_UPackage__Script_SlateCore,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_USlateWidgetStyleAsset_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USlateWidgetStyleAsset_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * Just a wrapper for the struct with real data in it.\n */" },
@@ -58,7 +59,7 @@ void EmptyLinkFunctionForGeneratedCodeSlateWidgetStyleAsset() {}
 		{ "ModuleRelativePath", "Public/Styling/SlateWidgetStyleAsset.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_USlateWidgetStyleAsset_Statics::NewProp_CustomStyle = { "CustomStyle", nullptr, (EPropertyFlags)0x0016000000080009, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(USlateWidgetStyleAsset, CustomStyle), Z_Construct_UClass_USlateWidgetStyleContainerBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_USlateWidgetStyleAsset_Statics::NewProp_CustomStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_USlateWidgetStyleAsset_Statics::NewProp_CustomStyle_MetaData)) };
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_USlateWidgetStyleAsset_Statics::NewProp_CustomStyle = { "CustomStyle", nullptr, (EPropertyFlags)0x0016000000080009, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(USlateWidgetStyleAsset, CustomStyle), Z_Construct_UClass_USlateWidgetStyleContainerBase_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_USlateWidgetStyleAsset_Statics::NewProp_CustomStyle_MetaData), Z_Construct_UClass_USlateWidgetStyleAsset_Statics::NewProp_CustomStyle_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_USlateWidgetStyleAsset_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USlateWidgetStyleAsset_Statics::NewProp_CustomStyle,
 	};
@@ -78,8 +79,9 @@ void EmptyLinkFunctionForGeneratedCodeSlateWidgetStyleAsset() {}
 		UE_ARRAY_COUNT(Z_Construct_UClass_USlateWidgetStyleAsset_Statics::PropPointers),
 		0,
 		0x008800A0u,
-		METADATA_PARAMS(Z_Construct_UClass_USlateWidgetStyleAsset_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_USlateWidgetStyleAsset_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_USlateWidgetStyleAsset_Statics::Class_MetaDataParams), Z_Construct_UClass_USlateWidgetStyleAsset_Statics::Class_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_USlateWidgetStyleAsset_Statics::PropPointers) < 2048);
 	UClass* Z_Construct_UClass_USlateWidgetStyleAsset()
 	{
 		if (!Z_Registration_Info_UClass_USlateWidgetStyleAsset.OuterSingleton)
@@ -100,9 +102,9 @@ void EmptyLinkFunctionForGeneratedCodeSlateWidgetStyleAsset() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateWidgetStyleAsset_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_USlateWidgetStyleAsset, USlateWidgetStyleAsset::StaticClass, TEXT("USlateWidgetStyleAsset"), &Z_Registration_Info_UClass_USlateWidgetStyleAsset, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USlateWidgetStyleAsset), 1481749446U) },
+		{ Z_Construct_UClass_USlateWidgetStyleAsset, USlateWidgetStyleAsset::StaticClass, TEXT("USlateWidgetStyleAsset"), &Z_Registration_Info_UClass_USlateWidgetStyleAsset, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USlateWidgetStyleAsset), 3119447732U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateWidgetStyleAsset_h_2362178547(TEXT("/Script/SlateCore"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateWidgetStyleAsset_h_1045888876(TEXT("/Script/SlateCore"),
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateWidgetStyleAsset_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateWidgetStyleAsset_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

@@ -10,14 +10,14 @@
 	"Version": 
 	{
 		"MajorVersion": 5,
-		"MinorVersion": 2,
-		"PatchVersion": 1,
+		"MinorVersion": 3,
+		"PatchVersion": 0,
 		"Changelist": 0,
-		"CompatibleChangelist": 25360045,
+		"CompatibleChangelist": 0,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
 		"BranchName": "UE5",
-		"BuildId": "c3b8d892-207b-4c99-9ec1-f17bff1f3e1b"
+		"BuildId": "35c0f3a1-445c-4346-87f8-701a28d85474"
 	},
 	"BuildProducts": [
 		{

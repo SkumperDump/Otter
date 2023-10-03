@@ -42,6 +42,7 @@ void EmptyLinkFunctionForGeneratedCodeComboBoxWidgetStyle() {}
 		(UObject* (*)())Z_Construct_UClass_USlateWidgetStyleContainerBase,
 		(UObject* (*)())Z_Construct_UPackage__Script_Slate,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UComboBoxWidgetStyle_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComboBoxWidgetStyle_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n */" },
@@ -59,7 +60,7 @@ void EmptyLinkFunctionForGeneratedCodeComboBoxWidgetStyle() {}
 		{ "ToolTip", "The actual data describing the combo box's appearance." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UComboBoxWidgetStyle_Statics::NewProp_ComboBoxStyle = { "ComboBoxStyle", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UComboBoxWidgetStyle, ComboBoxStyle), Z_Construct_UScriptStruct_FComboBoxStyle, METADATA_PARAMS(Z_Construct_UClass_UComboBoxWidgetStyle_Statics::NewProp_ComboBoxStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UComboBoxWidgetStyle_Statics::NewProp_ComboBoxStyle_MetaData)) }; // 3435964422
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UComboBoxWidgetStyle_Statics::NewProp_ComboBoxStyle = { "ComboBoxStyle", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UComboBoxWidgetStyle, ComboBoxStyle), Z_Construct_UScriptStruct_FComboBoxStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboBoxWidgetStyle_Statics::NewProp_ComboBoxStyle_MetaData), Z_Construct_UClass_UComboBoxWidgetStyle_Statics::NewProp_ComboBoxStyle_MetaData) }; // 2774448758
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UComboBoxWidgetStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UComboBoxWidgetStyle_Statics::NewProp_ComboBoxStyle,
 	};
@@ -79,8 +80,9 @@ void EmptyLinkFunctionForGeneratedCodeComboBoxWidgetStyle() {}
 		UE_ARRAY_COUNT(Z_Construct_UClass_UComboBoxWidgetStyle_Statics::PropPointers),
 		0,
 		0x000800A0u,
-		METADATA_PARAMS(Z_Construct_UClass_UComboBoxWidgetStyle_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UComboBoxWidgetStyle_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UComboBoxWidgetStyle_Statics::Class_MetaDataParams), Z_Construct_UClass_UComboBoxWidgetStyle_Statics::Class_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UComboBoxWidgetStyle_Statics::PropPointers) < 2048);
 	UClass* Z_Construct_UClass_UComboBoxWidgetStyle()
 	{
 		if (!Z_Registration_Info_UClass_UComboBoxWidgetStyle.OuterSingleton)
@@ -101,9 +103,9 @@ void EmptyLinkFunctionForGeneratedCodeComboBoxWidgetStyle() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Styling_ComboBoxWidgetStyle_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UComboBoxWidgetStyle, UComboBoxWidgetStyle::StaticClass, TEXT("UComboBoxWidgetStyle"), &Z_Registration_Info_UClass_UComboBoxWidgetStyle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UComboBoxWidgetStyle), 99235030U) },
+		{ Z_Construct_UClass_UComboBoxWidgetStyle, UComboBoxWidgetStyle::StaticClass, TEXT("UComboBoxWidgetStyle"), &Z_Registration_Info_UClass_UComboBoxWidgetStyle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UComboBoxWidgetStyle), 1584629418U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Styling_ComboBoxWidgetStyle_h_2957930628(TEXT("/Script/Slate"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Styling_ComboBoxWidgetStyle_h_2760220546(TEXT("/Script/Slate"),
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Styling_ComboBoxWidgetStyle_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Styling_ComboBoxWidgetStyle_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Otter",
-			"Path": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter.Target.cs",
+			"Path": "../Source/Otter.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "OtterEditor",
-			"Path": "/home/skump/Documents/Unreal Projects/Otter/Source/OtterEditor.Target.cs",
+			"Path": "../Source/OtterEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

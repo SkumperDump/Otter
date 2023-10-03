@@ -98,6 +98,7 @@ void EmptyLinkFunctionForGeneratedCodeCoreUObject_init() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FSphere3d();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FSphere3f();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FTemplateString();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FTimecode();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FTimespan();
@@ -223,6 +224,7 @@ void EmptyLinkFunctionForGeneratedCodeCoreUObject_init() {}
 				(UObject* (*)())Z_Construct_UScriptStruct_FSphere3d,
 				(UObject* (*)())Z_Construct_UScriptStruct_FSphere3f,
 				(UObject* (*)())Z_Construct_UScriptStruct_FTemplateString,
+				(UObject* (*)())Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest,
 				(UObject* (*)())Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest,
 				(UObject* (*)())Z_Construct_UScriptStruct_FTimecode,
 				(UObject* (*)())Z_Construct_UScriptStruct_FTimespan,
@@ -257,13 +259,13 @@ void EmptyLinkFunctionForGeneratedCodeCoreUObject_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x23D2D553,
-				0xCC3037F4,
-				METADATA_PARAMS(nullptr, 0)
+				0x295D16DE,
+				0xAF686CDE,
+				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_CoreUObject.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_CoreUObject.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_CoreUObject(Z_Construct_UPackage__Script_CoreUObject, TEXT("/Script/CoreUObject"), Z_Registration_Info_UPackage__Script_CoreUObject, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x23D2D553, 0xCC3037F4));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_CoreUObject(Z_Construct_UPackage__Script_CoreUObject, TEXT("/Script/CoreUObject"), Z_Registration_Info_UPackage__Script_CoreUObject, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x295D16DE, 0xAF686CDE));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

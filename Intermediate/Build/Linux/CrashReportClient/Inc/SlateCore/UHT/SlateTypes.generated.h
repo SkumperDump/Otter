@@ -16,7 +16,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_94_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FCheckBoxStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
@@ -24,209 +24,210 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<struct FCheckBoxStyle>();
 
 #define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_315_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FTextBlockStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FTextBlockStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_435_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_488_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FButtonStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FButtonStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_563_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_616_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FComboButtonStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FComboButtonStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_660_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_713_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FComboBoxStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FComboBoxStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_750_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_803_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FHyperlinkStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FHyperlinkStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_785_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_838_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FEditableTextStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FEditableTextStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_846_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_899_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FScrollBarStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FScrollBarStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_933_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_986_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FEditableTextBoxStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FEditableTextBoxStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1050_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1103_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FInlineEditableTextBlockStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FInlineEditableTextBlockStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1081_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1134_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FProgressBarStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FProgressBarStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1134_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1187_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FExpandableAreaStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FExpandableAreaStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1180_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1233_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSearchBoxStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FSearchBoxStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1251_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1304_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSliderStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FSliderStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1320_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1373_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FVolumeControlStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FVolumeControlStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1370_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1423_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FInlineTextImageStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FInlineTextImageStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1400_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1453_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSpinBoxStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FSpinBoxStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1486_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1539_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSplitterStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FSplitterStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1517_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1570_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FTableViewStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FTableViewStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1552_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1605_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FTableRowStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FTableRowStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1694_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1747_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FTableColumnHeaderStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FTableColumnHeaderStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1760_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1813_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FHeaderRowStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FHeaderRowStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1822_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1875_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FDockTabStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FDockTabStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1934_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_1987_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FScrollBoxStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FScrollBoxStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2017_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2070_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FScrollBorderStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FScrollBorderStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2048_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2101_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FWindowStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FWindowStyle>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2182_SPARSE_DATA
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2182_RPC_WRAPPERS
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2182_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2182_ACCESSORS
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2182_INCLASS_NO_PURE_DECLS \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2235_SPARSE_DATA
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2235_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2235_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2235_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2235_ACCESSORS
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2235_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUSlateTypes(); \
 	friend struct Z_Construct_UClass_USlateTypes_Statics; \
@@ -235,30 +236,7 @@ public: \
 	DECLARE_SERIALIZER(USlateTypes)
 
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2182_INCLASS \
-private: \
-	static void StaticRegisterNativesUSlateTypes(); \
-	friend struct Z_Construct_UClass_USlateTypes_Statics; \
-public: \
-	DECLARE_CLASS(USlateTypes, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SlateCore"), NO_API) \
-	DECLARE_SERIALIZER(USlateTypes)
-
-
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2182_STANDARD_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API USlateTypes(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USlateTypes) \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USlateTypes); \
-	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USlateTypes); \
-private: \
-	/** Private move- and copy-constructors, should never be used */ \
-	NO_API USlateTypes(USlateTypes&&); \
-	NO_API USlateTypes(const USlateTypes&); \
-public: \
-	NO_API virtual ~USlateTypes();
-
-
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2182_ENHANCED_CONSTRUCTORS \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2235_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API USlateTypes(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -272,27 +250,17 @@ public: \
 	NO_API virtual ~USlateTypes();
 
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2178_PROLOG
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2182_GENERATED_BODY_LEGACY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2231_PROLOG
+#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2235_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2182_SPARSE_DATA \
-	FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2182_RPC_WRAPPERS \
-	FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2182_ACCESSORS \
-	FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2182_INCLASS \
-	FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2182_STANDARD_CONSTRUCTORS \
-public: \
-PRAGMA_ENABLE_DEPRECATION_WARNINGS
-
-
-#define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2182_GENERATED_BODY \
-PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-public: \
-	FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2182_SPARSE_DATA \
-	FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2182_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2182_ACCESSORS \
-	FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2182_INCLASS_NO_PURE_DECLS \
-	FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2182_ENHANCED_CONSTRUCTORS \
+	FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2235_SPARSE_DATA \
+	FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2235_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2235_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2235_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2235_ACCESSORS \
+	FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2235_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateTypes_h_2235_ENHANCED_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

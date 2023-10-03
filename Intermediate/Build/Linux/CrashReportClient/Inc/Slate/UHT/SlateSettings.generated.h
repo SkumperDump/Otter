@@ -15,26 +15,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define SLATE_SlateSettings_generated_h
 
 #define FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_SPARSE_DATA
+#define FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_RPC_WRAPPERS
-#define FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_RPC_WRAPPERS_NO_PURE_DECLS
 #define FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_ACCESSORS
-#define FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_INCLASS_NO_PURE_DECLS \
-private: \
-	static void StaticRegisterNativesUSlateSettings(); \
-	friend struct Z_Construct_UClass_USlateSettings_Statics; \
-public: \
-	DECLARE_CLASS(USlateSettings, UObject, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/Slate"), NO_API) \
-	DECLARE_SERIALIZER(USlateSettings) \
-	static const TCHAR* StaticConfigName() {return TEXT("Engine");} \
-
-
-
 #define FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesUSlateSettings(); \
 	friend struct Z_Construct_UClass_USlateSettings_Statics; \
 public: \
-	DECLARE_CLASS(USlateSettings, UObject, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/Slate"), NO_API) \
+	DECLARE_CLASS(USlateSettings, UObject, COMPILED_IN_FLAGS(0 | CLASS_DefaultConfig | CLASS_Config), CASTCLASS_None, TEXT("/Script/Slate"), SLATE_API) \
 	DECLARE_SERIALIZER(USlateSettings) \
 	static const TCHAR* StaticConfigName() {return TEXT("Engine");} \
 
@@ -42,30 +32,16 @@ public: \
 
 #define FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API USlateSettings(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	SLATE_API USlateSettings(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USlateSettings) \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USlateSettings); \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(SLATE_API, USlateSettings); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USlateSettings); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
-	NO_API USlateSettings(USlateSettings&&); \
-	NO_API USlateSettings(const USlateSettings&); \
+	SLATE_API USlateSettings(USlateSettings&&); \
+	SLATE_API USlateSettings(const USlateSettings&); \
 public: \
-	NO_API virtual ~USlateSettings();
-
-
-#define FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API USlateSettings(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
-private: \
-	/** Private move- and copy-constructors, should never be used */ \
-	NO_API USlateSettings(USlateSettings&&); \
-	NO_API USlateSettings(const USlateSettings&); \
-public: \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USlateSettings); \
-	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USlateSettings); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USlateSettings) \
-	NO_API virtual ~USlateSettings();
+	SLATE_API virtual ~USlateSettings();
 
 
 #define FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_15_PROLOG
@@ -73,23 +49,13 @@ public: \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_SPARSE_DATA \
+	FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
 	FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_RPC_WRAPPERS \
 	FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_ACCESSORS \
 	FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_INCLASS \
 	FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_STANDARD_CONSTRUCTORS \
 public: \
-PRAGMA_ENABLE_DEPRECATION_WARNINGS
-
-
-#define FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_GENERATED_BODY \
-PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-public: \
-	FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_SPARSE_DATA \
-	FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_ACCESSORS \
-	FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_INCLASS_NO_PURE_DECLS \
-	FID_Engine_Source_Runtime_Slate_Public_SlateSettings_h_18_ENHANCED_CONSTRUCTORS \
-static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class SlateSettings."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 

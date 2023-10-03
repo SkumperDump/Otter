@@ -11,6 +11,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 // Cross Module References
 	COREUOBJECT_API UClass* Z_Construct_UClass_UObject();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
+	COREUOBJECT_API UEnum* Z_Construct_UEnum_CoreUObject_EAppMsgCategory();
 	COREUOBJECT_API UEnum* Z_Construct_UEnum_CoreUObject_EAppMsgType();
 	COREUOBJECT_API UEnum* Z_Construct_UEnum_CoreUObject_EAppReturnType();
 	COREUOBJECT_API UEnum* Z_Construct_UEnum_CoreUObject_EAutomationEventType();
@@ -120,6 +121,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FSphere3d();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FSphere3f();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FTemplateString();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FTimecode();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FTimespan();
@@ -190,11 +192,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		"ESearchCase",
 		"ESearchCase::Type",
 		Z_Construct_UEnum_CoreUObject_ESearchCase_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ESearchCase_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ESearchCase_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_CoreUObject_ESearchCase_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ESearchCase_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ESearchCase_Statics::Enum_MetaDataParams), Z_Construct_UEnum_CoreUObject_ESearchCase_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_CoreUObject_ESearchCase()
 	{
@@ -244,11 +246,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		"ESearchDir",
 		"ESearchDir::Type",
 		Z_Construct_UEnum_CoreUObject_ESearchDir_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ESearchDir_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ESearchDir_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_CoreUObject_ESearchDir_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ESearchDir_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ESearchDir_Statics::Enum_MetaDataParams), Z_Construct_UEnum_CoreUObject_ESearchDir_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_CoreUObject_ESearchDir()
 	{
@@ -314,11 +316,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		"ELogTimes",
 		"ELogTimes::Type",
 		Z_Construct_UEnum_CoreUObject_ELogTimes_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ELogTimes_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ELogTimes_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_CoreUObject_ELogTimes_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ELogTimes_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ELogTimes_Statics::Enum_MetaDataParams), Z_Construct_UEnum_CoreUObject_ELogTimes_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_CoreUObject_ELogTimes()
 	{
@@ -357,6 +359,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_CoreUObject_EAxis_Statics::Enum_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
 		{ "Comment", "/** Generic axis enum (mirrored for native use in Axis.h). */" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 		{ "None.Name", "EAxis::None" },
@@ -373,11 +376,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		"EAxis",
 		"EAxis::Type",
 		Z_Construct_UEnum_CoreUObject_EAxis_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EAxis_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EAxis_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_CoreUObject_EAxis_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EAxis_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EAxis_Statics::Enum_MetaDataParams), Z_Construct_UEnum_CoreUObject_EAxis_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_CoreUObject_EAxis()
 	{
@@ -451,11 +454,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		"EAxisList",
 		"EAxisList::Type",
 		Z_Construct_UEnum_CoreUObject_EAxisList_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EAxisList_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EAxisList_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_CoreUObject_EAxisList_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EAxisList_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EAxisList_Statics::Enum_MetaDataParams), Z_Construct_UEnum_CoreUObject_EAxisList_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_CoreUObject_EAxisList()
 	{
@@ -531,11 +534,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		"EInterpCurveMode",
 		"EInterpCurveMode",
 		Z_Construct_UEnum_CoreUObject_EInterpCurveMode_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EInterpCurveMode_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EInterpCurveMode_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Regular,
-		METADATA_PARAMS(Z_Construct_UEnum_CoreUObject_EInterpCurveMode_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EInterpCurveMode_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EInterpCurveMode_Statics::Enum_MetaDataParams), Z_Construct_UEnum_CoreUObject_EInterpCurveMode_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_CoreUObject_EInterpCurveMode()
 	{
@@ -654,6 +657,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "PF_R64_UINT", (int64)PF_R64_UINT },
 		{ "PF_R9G9B9EXP5", (int64)PF_R9G9B9EXP5 },
 		{ "PF_P010", (int64)PF_P010 },
+		{ "PF_ASTC_4x4_NORM_RG", (int64)PF_ASTC_4x4_NORM_RG },
+		{ "PF_ASTC_6x6_NORM_RG", (int64)PF_ASTC_6x6_NORM_RG },
+		{ "PF_ASTC_8x8_NORM_RG", (int64)PF_ASTC_8x8_NORM_RG },
+		{ "PF_ASTC_10x10_NORM_RG", (int64)PF_ASTC_10x10_NORM_RG },
+		{ "PF_ASTC_12x12_NORM_RG", (int64)PF_ASTC_12x12_NORM_RG },
 		{ "PF_MAX", (int64)PF_MAX },
 	};
 #if WITH_METADATA
@@ -672,22 +680,27 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "PF_ASTC_10x10.Name", "PF_ASTC_10x10" },
 		{ "PF_ASTC_10x10.ToolTip", "1.28 bpp" },
 		{ "PF_ASTC_10x10_HDR.Name", "PF_ASTC_10x10_HDR" },
+		{ "PF_ASTC_10x10_NORM_RG.Name", "PF_ASTC_10x10_NORM_RG" },
 		{ "PF_ASTC_12x12.Comment", "/** 0.89 bpp */" },
 		{ "PF_ASTC_12x12.Name", "PF_ASTC_12x12" },
 		{ "PF_ASTC_12x12.ToolTip", "0.89 bpp" },
 		{ "PF_ASTC_12x12_HDR.Name", "PF_ASTC_12x12_HDR" },
+		{ "PF_ASTC_12x12_NORM_RG.Name", "PF_ASTC_12x12_NORM_RG" },
 		{ "PF_ASTC_4x4.Comment", "/** 8.00 bpp */" },
 		{ "PF_ASTC_4x4.Name", "PF_ASTC_4x4" },
 		{ "PF_ASTC_4x4.ToolTip", "8.00 bpp" },
 		{ "PF_ASTC_4x4_HDR.Name", "PF_ASTC_4x4_HDR" },
+		{ "PF_ASTC_4x4_NORM_RG.Name", "PF_ASTC_4x4_NORM_RG" },
 		{ "PF_ASTC_6x6.Comment", "/** 3.56 bpp */" },
 		{ "PF_ASTC_6x6.Name", "PF_ASTC_6x6" },
 		{ "PF_ASTC_6x6.ToolTip", "3.56 bpp" },
 		{ "PF_ASTC_6x6_HDR.Name", "PF_ASTC_6x6_HDR" },
+		{ "PF_ASTC_6x6_NORM_RG.Name", "PF_ASTC_6x6_NORM_RG" },
 		{ "PF_ASTC_8x8.Comment", "/** 2.00 bpp */" },
 		{ "PF_ASTC_8x8.Name", "PF_ASTC_8x8" },
 		{ "PF_ASTC_8x8.ToolTip", "2.00 bpp" },
 		{ "PF_ASTC_8x8_HDR.Name", "PF_ASTC_8x8_HDR" },
+		{ "PF_ASTC_8x8_NORM_RG.Name", "PF_ASTC_8x8_NORM_RG" },
 		{ "PF_ATC_RGB.Comment", "/** ATITC format. */" },
 		{ "PF_ATC_RGB.Name", "PF_ATC_RGB" },
 		{ "PF_ATC_RGB.ToolTip", "ATITC format." },
@@ -799,11 +812,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		"EPixelFormat",
 		"EPixelFormat",
 		Z_Construct_UEnum_CoreUObject_EPixelFormat_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EPixelFormat_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EPixelFormat_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Regular,
-		METADATA_PARAMS(Z_Construct_UEnum_CoreUObject_EPixelFormat_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EPixelFormat_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EPixelFormat_Statics::Enum_MetaDataParams), Z_Construct_UEnum_CoreUObject_EPixelFormat_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_CoreUObject_EPixelFormat()
 	{
@@ -905,11 +918,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		"EMouseCursor",
 		"EMouseCursor::Type",
 		Z_Construct_UEnum_CoreUObject_EMouseCursor_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EMouseCursor_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EMouseCursor_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_CoreUObject_EMouseCursor_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EMouseCursor_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EMouseCursor_Statics::Enum_MetaDataParams), Z_Construct_UEnum_CoreUObject_EMouseCursor_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_CoreUObject_EMouseCursor()
 	{
@@ -971,6 +984,9 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "EUnit::Newtons", (int64)EUnit::Newtons },
 		{ "EUnit::PoundsForce", (int64)EUnit::PoundsForce },
 		{ "EUnit::KilogramsForce", (int64)EUnit::KilogramsForce },
+		{ "EUnit::KilogramCentimetersPerSecondSquared", (int64)EUnit::KilogramCentimetersPerSecondSquared },
+		{ "EUnit::NewtonMeters", (int64)EUnit::NewtonMeters },
+		{ "EUnit::KilogramCentimetersSquaredPerSecondSquared", (int64)EUnit::KilogramCentimetersSquaredPerSecondSquared },
 		{ "EUnit::Hertz", (int64)EUnit::Hertz },
 		{ "EUnit::Kilohertz", (int64)EUnit::Kilohertz },
 		{ "EUnit::Megahertz", (int64)EUnit::Megahertz },
@@ -1023,6 +1039,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "Inches.Name", "EUnit::Inches" },
 		{ "Kelvin.Name", "EUnit::Kelvin" },
 		{ "Kilobytes.Name", "EUnit::Kilobytes" },
+		{ "KilogramCentimetersPerSecondSquared.Name", "EUnit::KilogramCentimetersPerSecondSquared" },
+		{ "KilogramCentimetersSquaredPerSecondSquared.Name", "EUnit::KilogramCentimetersSquaredPerSecondSquared" },
 		{ "Kilograms.Name", "EUnit::Kilograms" },
 		{ "KilogramsForce.Name", "EUnit::KilogramsForce" },
 		{ "Kilohertz.Name", "EUnit::Kilohertz" },
@@ -1056,6 +1074,9 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "Multiplier.Comment", "/** Arbitrary multiplier */" },
 		{ "Multiplier.Name", "EUnit::Multiplier" },
 		{ "Multiplier.ToolTip", "Arbitrary multiplier" },
+		{ "NewtonMeters.Comment", "/** Torque units */" },
+		{ "NewtonMeters.Name", "EUnit::NewtonMeters" },
+		{ "NewtonMeters.ToolTip", "Torque units" },
 		{ "Newtons.Comment", "/** Force units */" },
 		{ "Newtons.Name", "EUnit::Newtons" },
 		{ "Newtons.ToolTip", "Force units" },
@@ -1084,11 +1105,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		"EUnit",
 		"EUnit",
 		Z_Construct_UEnum_CoreUObject_EUnit_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EUnit_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EUnit_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_CoreUObject_EUnit_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EUnit_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EUnit_Statics::Enum_MetaDataParams), Z_Construct_UEnum_CoreUObject_EUnit_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_CoreUObject_EUnit()
 	{
@@ -1147,11 +1168,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		"EPropertyAccessChangeNotifyMode",
 		"EPropertyAccessChangeNotifyMode",
 		Z_Construct_UEnum_CoreUObject_EPropertyAccessChangeNotifyMode_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EPropertyAccessChangeNotifyMode_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EPropertyAccessChangeNotifyMode_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_CoreUObject_EPropertyAccessChangeNotifyMode_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EPropertyAccessChangeNotifyMode_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EPropertyAccessChangeNotifyMode_Statics::Enum_MetaDataParams), Z_Construct_UEnum_CoreUObject_EPropertyAccessChangeNotifyMode_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_CoreUObject_EPropertyAccessChangeNotifyMode()
 	{
@@ -1160,6 +1181,65 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			UECodeGen_Private::ConstructUEnum(Z_Registration_Info_UEnum_EPropertyAccessChangeNotifyMode.InnerSingleton, Z_Construct_UEnum_CoreUObject_EPropertyAccessChangeNotifyMode_Statics::EnumParams);
 		}
 		return Z_Registration_Info_UEnum_EPropertyAccessChangeNotifyMode.InnerSingleton;
+	}
+	static FEnumRegistrationInfo Z_Registration_Info_UEnum_EAppMsgCategory;
+	static UEnum* EAppMsgCategory_StaticEnum()
+	{
+		if (!Z_Registration_Info_UEnum_EAppMsgCategory.OuterSingleton)
+		{
+			Z_Registration_Info_UEnum_EAppMsgCategory.OuterSingleton = GetStaticEnum(Z_Construct_UEnum_CoreUObject_EAppMsgCategory, (UObject*)Z_Construct_UPackage__Script_CoreUObject(), TEXT("EAppMsgCategory"));
+		}
+		return Z_Registration_Info_UEnum_EAppMsgCategory.OuterSingleton;
+	}
+	template<> COREUOBJECT_API UEnum* StaticEnum<EAppMsgCategory>()
+	{
+		return EAppMsgCategory_StaticEnum();
+	}
+	struct Z_Construct_UEnum_CoreUObject_EAppMsgCategory_Statics
+	{
+		static const UECodeGen_Private::FEnumeratorParam Enumerators[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FEnumParams EnumParams;
+	};
+	const UECodeGen_Private::FEnumeratorParam Z_Construct_UEnum_CoreUObject_EAppMsgCategory_Statics::Enumerators[] = {
+		{ "EAppMsgCategory::Warning", (int64)EAppMsgCategory::Warning },
+		{ "EAppMsgCategory::Error", (int64)EAppMsgCategory::Error },
+		{ "EAppMsgCategory::Success", (int64)EAppMsgCategory::Success },
+		{ "EAppMsgCategory::Info", (int64)EAppMsgCategory::Info },
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_CoreUObject_EAppMsgCategory_Statics::Enum_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
+		{ "Comment", "/**\n * Enumerates supported message dialog category types.\n * @note Mirrored from GenericPlatformMisc.h\n */" },
+		{ "Error.Name", "EAppMsgCategory::Error" },
+		{ "Info.Name", "EAppMsgCategory::Info" },
+		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
+		{ "Success.Name", "EAppMsgCategory::Success" },
+		{ "ToolTip", "Enumerates supported message dialog category types.\n@note Mirrored from GenericPlatformMisc.h" },
+		{ "Warning.Name", "EAppMsgCategory::Warning" },
+	};
+#endif
+	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_CoreUObject_EAppMsgCategory_Statics::EnumParams = {
+		(UObject*(*)())Z_Construct_UPackage__Script_CoreUObject,
+		nullptr,
+		"EAppMsgCategory",
+		"EAppMsgCategory",
+		Z_Construct_UEnum_CoreUObject_EAppMsgCategory_Statics::Enumerators,
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EAppMsgCategory_Statics::Enumerators),
+		EEnumFlags::None,
+		(uint8)UEnum::ECppForm::EnumClass,
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EAppMsgCategory_Statics::Enum_MetaDataParams), Z_Construct_UEnum_CoreUObject_EAppMsgCategory_Statics::Enum_MetaDataParams)
+	};
+	UEnum* Z_Construct_UEnum_CoreUObject_EAppMsgCategory()
+	{
+		if (!Z_Registration_Info_UEnum_EAppMsgCategory.InnerSingleton)
+		{
+			UECodeGen_Private::ConstructUEnum(Z_Registration_Info_UEnum_EAppMsgCategory.InnerSingleton, Z_Construct_UEnum_CoreUObject_EAppMsgCategory_Statics::EnumParams);
+		}
+		return Z_Registration_Info_UEnum_EAppMsgCategory.InnerSingleton;
 	}
 	static FEnumRegistrationInfo Z_Registration_Info_UEnum_EAppReturnType;
 	static UEnum* EAppReturnType_StaticEnum()
@@ -1214,11 +1294,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		"EAppReturnType",
 		"EAppReturnType::Type",
 		Z_Construct_UEnum_CoreUObject_EAppReturnType_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EAppReturnType_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EAppReturnType_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_CoreUObject_EAppReturnType_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EAppReturnType_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EAppReturnType_Statics::Enum_MetaDataParams), Z_Construct_UEnum_CoreUObject_EAppReturnType_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_CoreUObject_EAppReturnType()
 	{
@@ -1281,11 +1361,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		"EAppMsgType",
 		"EAppMsgType::Type",
 		Z_Construct_UEnum_CoreUObject_EAppMsgType_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EAppMsgType_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EAppMsgType_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_CoreUObject_EAppMsgType_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EAppMsgType_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EAppMsgType_Statics::Enum_MetaDataParams), Z_Construct_UEnum_CoreUObject_EAppMsgType_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_CoreUObject_EAppMsgType()
 	{
@@ -1314,13 +1394,13 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"FallbackStruct",
-		sizeof(FFallbackStruct),
-		alignof(FFallbackStruct),
 		nullptr,
 		0,
+		sizeof(FFallbackStruct),
+		alignof(FFallbackStruct),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FFallbackStruct_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFallbackStruct_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFallbackStruct_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FFallbackStruct_Statics::Struct_MetaDataParams)
 	};
 	UScriptStruct* Z_Construct_UScriptStruct_FFallbackStruct()
 	{
@@ -1369,28 +1449,28 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FGuid_Statics::NewProp_A = { "A", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FGuid, A), METADATA_PARAMS(Z_Construct_UScriptStruct_FGuid_Statics::NewProp_A_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGuid_Statics::NewProp_A_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FGuid_Statics::NewProp_A = { "A", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGuid, A), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGuid_Statics::NewProp_A_MetaData), Z_Construct_UScriptStruct_FGuid_Statics::NewProp_A_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGuid_Statics::NewProp_B_MetaData[] = {
 		{ "Category", "Guid" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FGuid_Statics::NewProp_B = { "B", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FGuid, B), METADATA_PARAMS(Z_Construct_UScriptStruct_FGuid_Statics::NewProp_B_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGuid_Statics::NewProp_B_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FGuid_Statics::NewProp_B = { "B", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGuid, B), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGuid_Statics::NewProp_B_MetaData), Z_Construct_UScriptStruct_FGuid_Statics::NewProp_B_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGuid_Statics::NewProp_C_MetaData[] = {
 		{ "Category", "Guid" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FGuid_Statics::NewProp_C = { "C", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FGuid, C), METADATA_PARAMS(Z_Construct_UScriptStruct_FGuid_Statics::NewProp_C_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGuid_Statics::NewProp_C_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FGuid_Statics::NewProp_C = { "C", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGuid, C), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGuid_Statics::NewProp_C_MetaData), Z_Construct_UScriptStruct_FGuid_Statics::NewProp_C_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGuid_Statics::NewProp_D_MetaData[] = {
 		{ "Category", "Guid" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FGuid_Statics::NewProp_D = { "D", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FGuid, D), METADATA_PARAMS(Z_Construct_UScriptStruct_FGuid_Statics::NewProp_D_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGuid_Statics::NewProp_D_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FGuid_Statics::NewProp_D = { "D", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FGuid, D), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGuid_Statics::NewProp_D_MetaData), Z_Construct_UScriptStruct_FGuid_Statics::NewProp_D_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FGuid_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FGuid_Statics::NewProp_A,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FGuid_Statics::NewProp_B,
@@ -1402,14 +1482,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Guid",
-		sizeof(FGuid),
-		alignof(FGuid),
 		Z_Construct_UScriptStruct_FGuid_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGuid_Statics::PropPointers),
+		sizeof(FGuid),
+		alignof(FGuid),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FGuid_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGuid_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGuid_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FGuid_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGuid_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FGuid()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -1444,8 +1525,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "BlueprintInternalUseOnly", "true" },
 		{ "BlueprintType", "true" },
 		{ "Comment", "/**\n * A point or direction FVector in 3d space.\n * @note The full C++ class is located here: Engine\\Source\\Runtime\\Core\\Public\\Math\\Vector.h\n */" },
-		{ "HasNativeBreak", "/Script/Engine.KismetMathLibrary.BreakVector3f" },
+		{ "HasNativeBreak", "/Script/Engine.KismetMathLibrary.BreakVector" },
+		{ "HasNativeMake", "/Script/Engine.KismetMathLibrary.MakeVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
+		{ "ScriptDefaultBreak", "" },
+		{ "ScriptDefaultMake", "" },
 		{ "ToolTip", "A point or direction FVector in 3d space.\n@note The full C++ class is located here: Engine\\Source\\Runtime\\Core\\Public\\Math\\Vector.h" },
 	};
 #endif
@@ -1455,21 +1539,21 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVector3f_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector3f, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector3f_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector3f_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVector3f_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector3f, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector3f_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FVector3f_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVector3f_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "Vector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVector3f_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector3f, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector3f_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector3f_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVector3f_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector3f, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector3f_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FVector3f_Statics::NewProp_Y_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVector3f_Statics::NewProp_Z_MetaData[] = {
 		{ "Category", "Vector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVector3f_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector3f, Z), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector3f_Statics::NewProp_Z_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector3f_Statics::NewProp_Z_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVector3f_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector3f, Z), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector3f_Statics::NewProp_Z_MetaData), Z_Construct_UScriptStruct_FVector3f_Statics::NewProp_Z_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVector3f_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVector3f_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVector3f_Statics::NewProp_Y,
@@ -1480,14 +1564,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Vector3f",
-		sizeof(FVector3f),
-		alignof(FVector3f),
 		Z_Construct_UScriptStruct_FVector3f_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector3f_Statics::PropPointers),
+		sizeof(FVector3f),
+		alignof(FVector3f),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FVector3f_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector3f_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector3f_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FVector3f_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector3f_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FVector3f()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -1530,21 +1615,21 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FVector3d_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector3d, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector3d_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector3d_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FVector3d_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector3d, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector3d_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FVector3d_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVector3d_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "Vector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FVector3d_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector3d, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector3d_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector3d_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FVector3d_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector3d, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector3d_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FVector3d_Statics::NewProp_Y_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVector3d_Statics::NewProp_Z_MetaData[] = {
 		{ "Category", "Vector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FVector3d_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector3d, Z), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector3d_Statics::NewProp_Z_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector3d_Statics::NewProp_Z_MetaData)) };
+	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FVector3d_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector3d, Z), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector3d_Statics::NewProp_Z_MetaData), Z_Construct_UScriptStruct_FVector3d_Statics::NewProp_Z_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVector3d_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVector3d_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVector3d_Statics::NewProp_Y,
@@ -1555,14 +1640,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Vector3d",
-		sizeof(FVector3d),
-		alignof(FVector3d),
 		Z_Construct_UScriptStruct_FVector3d_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector3d_Statics::PropPointers),
+		sizeof(FVector3d),
+		alignof(FVector3d),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FVector3d_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector3d_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector3d_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FVector3d_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector3d_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FVector3d()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -1608,7 +1694,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FVector_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FVector_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FVector_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVector_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "Vector" },
@@ -1617,14 +1703,14 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Alias for float/double depending on LWC status. Note: Will be refactored to double before UE5 ships." },
 	};
 #endif
-	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FVector_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FVector_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FVector_Statics::NewProp_Y_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVector_Statics::NewProp_Z_MetaData[] = {
 		{ "Category", "Vector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FVector_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector, Z), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector_Statics::NewProp_Z_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector_Statics::NewProp_Z_MetaData)) };
+	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FVector_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector, Z), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector_Statics::NewProp_Z_MetaData), Z_Construct_UScriptStruct_FVector_Statics::NewProp_Z_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVector_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVector_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVector_Statics::NewProp_Y,
@@ -1635,14 +1721,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Vector",
-		sizeof(FVector),
-		alignof(FVector),
 		Z_Construct_UScriptStruct_FVector_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector_Statics::PropPointers),
+		sizeof(FVector),
+		alignof(FVector),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FVector_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FVector_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FVector()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -1681,7 +1768,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "BlueprintInternalUseOnly", "true" },
 		{ "BlueprintType", "true" },
 		{ "Comment", "/**\n* A 4-D homogeneous vector.\n* @note The full C++ class is located here: Engine\\Source\\Runtime\\Core\\Public\\Math\\Vector4.h\n*/" },
+		{ "HasNativeBreak", "/Script/Engine.KismetMathLibrary.BreakVector4" },
+		{ "HasNativeMake", "/Script/Engine.KismetMathLibrary.MakeVector4" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
+		{ "ScriptDefaultBreak", "" },
+		{ "ScriptDefaultMake", "" },
 		{ "ToolTip", "A 4-D homogeneous vector.\n@note The full C++ class is located here: Engine\\Source\\Runtime\\Core\\Public\\Math\\Vector4.h" },
 	};
 #endif
@@ -1691,28 +1782,28 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector4f, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector4f, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "Vector4" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector4f, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector4f, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_Y_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_Z_MetaData[] = {
 		{ "Category", "Vector4" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector4f, Z), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_Z_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_Z_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector4f, Z), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_Z_MetaData), Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_Z_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_W_MetaData[] = {
 		{ "Category", "Vector4" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector4f, W), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_W_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_W_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector4f, W), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_W_MetaData), Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_W_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVector4f_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVector4f_Statics::NewProp_Y,
@@ -1724,14 +1815,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Vector4f",
-		sizeof(FVector4f),
-		alignof(FVector4f),
 		Z_Construct_UScriptStruct_FVector4f_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4f_Statics::PropPointers),
+		sizeof(FVector4f),
+		alignof(FVector4f),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FVector4f_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4f_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4f_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FVector4f_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4f_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FVector4f()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -1778,28 +1870,28 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector4d, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector4d, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "Vector4" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector4d, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector4d, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_Y_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_Z_MetaData[] = {
 		{ "Category", "Vector4" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector4d, Z), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_Z_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_Z_MetaData)) };
+	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector4d, Z), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_Z_MetaData), Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_Z_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_W_MetaData[] = {
 		{ "Category", "Vector4" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector4d, W), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_W_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_W_MetaData)) };
+	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector4d, W), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_W_MetaData), Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_W_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVector4d_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVector4d_Statics::NewProp_Y,
@@ -1811,14 +1903,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Vector4d",
-		sizeof(FVector4d),
-		alignof(FVector4d),
 		Z_Construct_UScriptStruct_FVector4d_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4d_Statics::PropPointers),
+		sizeof(FVector4d),
+		alignof(FVector4d),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FVector4d_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4d_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4d_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FVector4d_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4d_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FVector4d()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -1859,6 +1952,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "HasNativeBreak", "/Script/Engine.KismetMathLibrary.BreakVector4" },
 		{ "HasNativeMake", "/Script/Engine.KismetMathLibrary.MakeVector4" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
+		{ "ScriptDefaultBreak", "" },
+		{ "ScriptDefaultMake", "" },
 		{ "ToolTip", "A 4-D homogeneous vector.\n@note The full C++ class is located here: Engine\\Source\\Runtime\\Core\\Public\\Math\\Vector4.h" },
 	};
 #endif
@@ -1868,7 +1963,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FVector4_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector4, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector4_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FVector4_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector4, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FVector4_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVector4_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "Vector4" },
@@ -1877,21 +1972,21 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Alias for float/double depending on LWC status. Note: Will be refactored to double before UE5 ships." },
 	};
 #endif
-	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FVector4_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector4, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector4_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FVector4_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector4, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FVector4_Statics::NewProp_Y_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVector4_Statics::NewProp_Z_MetaData[] = {
 		{ "Category", "Vector4" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FVector4_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector4, Z), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector4_Statics::NewProp_Z_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4_Statics::NewProp_Z_MetaData)) };
+	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FVector4_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector4, Z), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4_Statics::NewProp_Z_MetaData), Z_Construct_UScriptStruct_FVector4_Statics::NewProp_Z_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVector4_Statics::NewProp_W_MetaData[] = {
 		{ "Category", "Vector4" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FVector4_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector4, W), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector4_Statics::NewProp_W_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4_Statics::NewProp_W_MetaData)) };
+	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FVector4_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector4, W), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4_Statics::NewProp_W_MetaData), Z_Construct_UScriptStruct_FVector4_Statics::NewProp_W_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVector4_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVector4_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVector4_Statics::NewProp_Y,
@@ -1903,14 +1998,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Vector4",
-		sizeof(FVector4),
-		alignof(FVector4),
 		Z_Construct_UScriptStruct_FVector4_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4_Statics::PropPointers),
+		sizeof(FVector4),
+		alignof(FVector4),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FVector4_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FVector4_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector4_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FVector4()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -1941,7 +2037,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "BlueprintInternalUseOnly", "true" },
 		{ "BlueprintType", "true" },
 		{ "Comment", "/**\n* A vector in 2-D space composed of components (X, Y) with floating point precision.\n* @note The full C++ class is located here: Engine\\Source\\Runtime\\Core\\Public\\Math\\Vector2D.h\n*/" },
+		{ "HasNativeBreak", "/Script/Engine.KismetMathLibrary.BreakVector2D" },
+		{ "HasNativeMake", "/Script/Engine.KismetMathLibrary.MakeVector2D" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
+		{ "ScriptDefaultBreak", "" },
+		{ "ScriptDefaultMake", "" },
 		{ "ToolTip", "A vector in 2-D space composed of components (X, Y) with floating point precision.\n@note The full C++ class is located here: Engine\\Source\\Runtime\\Core\\Public\\Math\\Vector2D.h" },
 	};
 #endif
@@ -1951,14 +2051,14 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVector2f_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector2f, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector2f_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector2f_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVector2f_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector2f, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector2f_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FVector2f_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVector2f_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "Vector2D" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVector2f_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector2f, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector2f_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector2f_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FVector2f_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector2f, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector2f_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FVector2f_Statics::NewProp_Y_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVector2f_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVector2f_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVector2f_Statics::NewProp_Y,
@@ -1968,14 +2068,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Vector2f",
-		sizeof(FVector2f),
-		alignof(FVector2f),
 		Z_Construct_UScriptStruct_FVector2f_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector2f_Statics::PropPointers),
+		sizeof(FVector2f),
+		alignof(FVector2f),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FVector2f_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector2f_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector2f_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FVector2f_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector2f_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FVector2f()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -2017,14 +2118,14 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FVector2D_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector2D, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector2D_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector2D_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FVector2D_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector2D, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector2D_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FVector2D_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FVector2D_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "Vector2D" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FVector2D_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FVector2D, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FVector2D_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector2D_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FVector2D_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FVector2D, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector2D_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FVector2D_Statics::NewProp_Y_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVector2D_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVector2D_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVector2D_Statics::NewProp_Y,
@@ -2034,14 +2135,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Vector2D",
-		sizeof(FVector2D),
-		alignof(FVector2D),
 		Z_Construct_UScriptStruct_FVector2D_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector2D_Statics::PropPointers),
+		sizeof(FVector2D),
+		alignof(FVector2D),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FVector2D_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector2D_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector2D_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FVector2D_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVector2D_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FVector2D()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -2081,14 +2183,14 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTwoVectors_Statics::NewProp_v1 = { "v1", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTwoVectors, v1), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTwoVectors_Statics::NewProp_v1_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTwoVectors_Statics::NewProp_v1_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTwoVectors_Statics::NewProp_v1 = { "v1", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTwoVectors, v1), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTwoVectors_Statics::NewProp_v1_MetaData), Z_Construct_UScriptStruct_FTwoVectors_Statics::NewProp_v1_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTwoVectors_Statics::NewProp_v2_MetaData[] = {
 		{ "Category", "TwoVectors" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTwoVectors_Statics::NewProp_v2 = { "v2", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTwoVectors, v2), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTwoVectors_Statics::NewProp_v2_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTwoVectors_Statics::NewProp_v2_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTwoVectors_Statics::NewProp_v2 = { "v2", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTwoVectors, v2), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTwoVectors_Statics::NewProp_v2_MetaData), Z_Construct_UScriptStruct_FTwoVectors_Statics::NewProp_v2_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTwoVectors_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTwoVectors_Statics::NewProp_v1,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTwoVectors_Statics::NewProp_v2,
@@ -2098,14 +2200,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"TwoVectors",
-		sizeof(FTwoVectors),
-		alignof(FTwoVectors),
 		Z_Construct_UScriptStruct_FTwoVectors_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTwoVectors_Statics::PropPointers),
+		sizeof(FTwoVectors),
+		alignof(FTwoVectors),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FTwoVectors_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTwoVectors_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTwoVectors_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FTwoVectors_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTwoVectors_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FTwoVectors()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -2142,7 +2245,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FPlane4f_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPlane4f, W), METADATA_PARAMS(Z_Construct_UScriptStruct_FPlane4f_Statics::NewProp_W_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlane4f_Statics::NewProp_W_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FPlane4f_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPlane4f, W), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlane4f_Statics::NewProp_W_MetaData), Z_Construct_UScriptStruct_FPlane4f_Statics::NewProp_W_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FPlane4f_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPlane4f_Statics::NewProp_W,
 	};
@@ -2151,14 +2254,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		Z_Construct_UScriptStruct_FVector3f,
 		nullptr,
 		"Plane4f",
-		sizeof(FPlane4f),
-		alignof(FPlane4f),
 		Z_Construct_UScriptStruct_FPlane4f_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlane4f_Statics::PropPointers),
+		sizeof(FPlane4f),
+		alignof(FPlane4f),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FPlane4f_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlane4f_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlane4f_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FPlane4f_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlane4f_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FPlane4f()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -2193,7 +2297,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FPlane4d_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPlane4d, W), METADATA_PARAMS(Z_Construct_UScriptStruct_FPlane4d_Statics::NewProp_W_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlane4d_Statics::NewProp_W_MetaData)) };
+	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FPlane4d_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPlane4d, W), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlane4d_Statics::NewProp_W_MetaData), Z_Construct_UScriptStruct_FPlane4d_Statics::NewProp_W_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FPlane4d_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPlane4d_Statics::NewProp_W,
 	};
@@ -2202,14 +2306,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		Z_Construct_UScriptStruct_FVector3d,
 		nullptr,
 		"Plane4d",
-		sizeof(FPlane4d),
-		alignof(FPlane4d),
 		Z_Construct_UScriptStruct_FPlane4d_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlane4d_Statics::PropPointers),
+		sizeof(FPlane4d),
+		alignof(FPlane4d),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FPlane4d_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlane4d_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlane4d_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FPlane4d_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlane4d_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FPlane4d()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -2245,7 +2350,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FPlane_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPlane, W), METADATA_PARAMS(Z_Construct_UScriptStruct_FPlane_Statics::NewProp_W_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlane_Statics::NewProp_W_MetaData)) };
+	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FPlane_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPlane, W), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlane_Statics::NewProp_W_MetaData), Z_Construct_UScriptStruct_FPlane_Statics::NewProp_W_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FPlane_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPlane_Statics::NewProp_W,
 	};
@@ -2254,14 +2359,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		Z_Construct_UScriptStruct_FVector,
 		nullptr,
 		"Plane",
-		sizeof(FPlane),
-		alignof(FPlane),
 		Z_Construct_UScriptStruct_FPlane_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlane_Statics::PropPointers),
+		sizeof(FPlane),
+		alignof(FPlane),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FPlane_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlane_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlane_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FPlane_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlane_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FPlane()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -2300,14 +2406,14 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FRay3f_Statics::NewProp_Origin = { "Origin", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRay3f, Origin), Z_Construct_UScriptStruct_FVector3f, METADATA_PARAMS(Z_Construct_UScriptStruct_FRay3f_Statics::NewProp_Origin_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay3f_Statics::NewProp_Origin_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FRay3f_Statics::NewProp_Origin = { "Origin", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRay3f, Origin), Z_Construct_UScriptStruct_FVector3f, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay3f_Statics::NewProp_Origin_MetaData), Z_Construct_UScriptStruct_FRay3f_Statics::NewProp_Origin_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRay3f_Statics::NewProp_Direction_MetaData[] = {
 		{ "Category", "Ray" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FRay3f_Statics::NewProp_Direction = { "Direction", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRay3f, Direction), Z_Construct_UScriptStruct_FVector3f, METADATA_PARAMS(Z_Construct_UScriptStruct_FRay3f_Statics::NewProp_Direction_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay3f_Statics::NewProp_Direction_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FRay3f_Statics::NewProp_Direction = { "Direction", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRay3f, Direction), Z_Construct_UScriptStruct_FVector3f, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay3f_Statics::NewProp_Direction_MetaData), Z_Construct_UScriptStruct_FRay3f_Statics::NewProp_Direction_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FRay3f_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRay3f_Statics::NewProp_Origin,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRay3f_Statics::NewProp_Direction,
@@ -2317,14 +2423,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Ray3f",
-		sizeof(FRay3f),
-		alignof(FRay3f),
 		Z_Construct_UScriptStruct_FRay3f_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay3f_Statics::PropPointers),
+		sizeof(FRay3f),
+		alignof(FRay3f),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FRay3f_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay3f_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay3f_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FRay3f_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay3f_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FRay3f()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -2363,14 +2470,14 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FRay3d_Statics::NewProp_Origin = { "Origin", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRay3d, Origin), Z_Construct_UScriptStruct_FVector3d, METADATA_PARAMS(Z_Construct_UScriptStruct_FRay3d_Statics::NewProp_Origin_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay3d_Statics::NewProp_Origin_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FRay3d_Statics::NewProp_Origin = { "Origin", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRay3d, Origin), Z_Construct_UScriptStruct_FVector3d, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay3d_Statics::NewProp_Origin_MetaData), Z_Construct_UScriptStruct_FRay3d_Statics::NewProp_Origin_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRay3d_Statics::NewProp_Direction_MetaData[] = {
 		{ "Category", "Ray" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FRay3d_Statics::NewProp_Direction = { "Direction", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRay3d, Direction), Z_Construct_UScriptStruct_FVector3d, METADATA_PARAMS(Z_Construct_UScriptStruct_FRay3d_Statics::NewProp_Direction_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay3d_Statics::NewProp_Direction_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FRay3d_Statics::NewProp_Direction = { "Direction", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRay3d, Direction), Z_Construct_UScriptStruct_FVector3d, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay3d_Statics::NewProp_Direction_MetaData), Z_Construct_UScriptStruct_FRay3d_Statics::NewProp_Direction_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FRay3d_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRay3d_Statics::NewProp_Origin,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRay3d_Statics::NewProp_Direction,
@@ -2380,14 +2487,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Ray3d",
-		sizeof(FRay3d),
-		alignof(FRay3d),
 		Z_Construct_UScriptStruct_FRay3d_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay3d_Statics::PropPointers),
+		sizeof(FRay3d),
+		alignof(FRay3d),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FRay3d_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay3d_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay3d_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FRay3d_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay3d_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FRay3d()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -2427,14 +2535,14 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FRay_Statics::NewProp_Origin = { "Origin", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRay, Origin), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FRay_Statics::NewProp_Origin_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay_Statics::NewProp_Origin_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FRay_Statics::NewProp_Origin = { "Origin", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRay, Origin), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay_Statics::NewProp_Origin_MetaData), Z_Construct_UScriptStruct_FRay_Statics::NewProp_Origin_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRay_Statics::NewProp_Direction_MetaData[] = {
 		{ "Category", "Ray" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FRay_Statics::NewProp_Direction = { "Direction", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRay, Direction), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FRay_Statics::NewProp_Direction_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay_Statics::NewProp_Direction_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FRay_Statics::NewProp_Direction = { "Direction", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRay, Direction), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay_Statics::NewProp_Direction_MetaData), Z_Construct_UScriptStruct_FRay_Statics::NewProp_Direction_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FRay_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRay_Statics::NewProp_Origin,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRay_Statics::NewProp_Direction,
@@ -2444,14 +2552,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Ray",
-		sizeof(FRay),
-		alignof(FRay),
 		Z_Construct_UScriptStruct_FRay_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay_Statics::PropPointers),
+		sizeof(FRay),
+		alignof(FRay),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FRay_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FRay_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRay_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FRay()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -2486,7 +2595,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "BlueprintInternalUseOnly", "true" },
 		{ "BlueprintType", "true" },
 		{ "Comment", "/**\n * An orthogonal rotation in 3d space.\n * @note The full C++ class is located here: Engine\\Source\\Runtime\\Core\\Public\\Math\\Rotator.h\n */" },
+		{ "HasNativeBreak", "/Script/Engine.KismetMathLibrary.BreakRotator" },
+		{ "HasNativeMake", "/Script/Engine.KismetMathLibrary.MakeRotator" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
+		{ "ScriptDefaultBreak", "" },
+		{ "ScriptDefaultMake", "" },
 		{ "ToolTip", "An orthogonal rotation in 3d space.\n@note The full C++ class is located here: Engine\\Source\\Runtime\\Core\\Public\\Math\\Rotator.h" },
 	};
 #endif
@@ -2499,7 +2612,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Pitch (degrees) around Y axis" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRotator3f_Statics::NewProp_Pitch = { "Pitch", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRotator3f, Pitch), METADATA_PARAMS(Z_Construct_UScriptStruct_FRotator3f_Statics::NewProp_Pitch_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator3f_Statics::NewProp_Pitch_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRotator3f_Statics::NewProp_Pitch = { "Pitch", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRotator3f, Pitch), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator3f_Statics::NewProp_Pitch_MetaData), Z_Construct_UScriptStruct_FRotator3f_Statics::NewProp_Pitch_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRotator3f_Statics::NewProp_Yaw_MetaData[] = {
 		{ "Category", "Rotator" },
@@ -2509,7 +2622,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Yaw (degrees) around Z axis" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRotator3f_Statics::NewProp_Yaw = { "Yaw", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRotator3f, Yaw), METADATA_PARAMS(Z_Construct_UScriptStruct_FRotator3f_Statics::NewProp_Yaw_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator3f_Statics::NewProp_Yaw_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRotator3f_Statics::NewProp_Yaw = { "Yaw", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRotator3f, Yaw), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator3f_Statics::NewProp_Yaw_MetaData), Z_Construct_UScriptStruct_FRotator3f_Statics::NewProp_Yaw_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRotator3f_Statics::NewProp_Roll_MetaData[] = {
 		{ "Category", "Rotator" },
@@ -2519,7 +2632,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Roll (degrees) around X axis" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRotator3f_Statics::NewProp_Roll = { "Roll", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRotator3f, Roll), METADATA_PARAMS(Z_Construct_UScriptStruct_FRotator3f_Statics::NewProp_Roll_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator3f_Statics::NewProp_Roll_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRotator3f_Statics::NewProp_Roll = { "Roll", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRotator3f, Roll), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator3f_Statics::NewProp_Roll_MetaData), Z_Construct_UScriptStruct_FRotator3f_Statics::NewProp_Roll_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FRotator3f_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRotator3f_Statics::NewProp_Pitch,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRotator3f_Statics::NewProp_Yaw,
@@ -2530,14 +2643,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Rotator3f",
-		sizeof(FRotator3f),
-		alignof(FRotator3f),
 		Z_Construct_UScriptStruct_FRotator3f_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator3f_Statics::PropPointers),
+		sizeof(FRotator3f),
+		alignof(FRotator3f),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FRotator3f_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator3f_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator3f_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FRotator3f_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator3f_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FRotator3f()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -2583,7 +2697,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Pitch (degrees) around Y axis" },
 	};
 #endif
-	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FRotator3d_Statics::NewProp_Pitch = { "Pitch", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRotator3d, Pitch), METADATA_PARAMS(Z_Construct_UScriptStruct_FRotator3d_Statics::NewProp_Pitch_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator3d_Statics::NewProp_Pitch_MetaData)) };
+	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FRotator3d_Statics::NewProp_Pitch = { "Pitch", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRotator3d, Pitch), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator3d_Statics::NewProp_Pitch_MetaData), Z_Construct_UScriptStruct_FRotator3d_Statics::NewProp_Pitch_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRotator3d_Statics::NewProp_Yaw_MetaData[] = {
 		{ "Category", "Rotator" },
@@ -2593,7 +2707,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Yaw (degrees) around Z axis" },
 	};
 #endif
-	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FRotator3d_Statics::NewProp_Yaw = { "Yaw", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRotator3d, Yaw), METADATA_PARAMS(Z_Construct_UScriptStruct_FRotator3d_Statics::NewProp_Yaw_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator3d_Statics::NewProp_Yaw_MetaData)) };
+	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FRotator3d_Statics::NewProp_Yaw = { "Yaw", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRotator3d, Yaw), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator3d_Statics::NewProp_Yaw_MetaData), Z_Construct_UScriptStruct_FRotator3d_Statics::NewProp_Yaw_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRotator3d_Statics::NewProp_Roll_MetaData[] = {
 		{ "Category", "Rotator" },
@@ -2603,7 +2717,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Roll (degrees) around X axis" },
 	};
 #endif
-	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FRotator3d_Statics::NewProp_Roll = { "Roll", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRotator3d, Roll), METADATA_PARAMS(Z_Construct_UScriptStruct_FRotator3d_Statics::NewProp_Roll_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator3d_Statics::NewProp_Roll_MetaData)) };
+	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FRotator3d_Statics::NewProp_Roll = { "Roll", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRotator3d, Roll), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator3d_Statics::NewProp_Roll_MetaData), Z_Construct_UScriptStruct_FRotator3d_Statics::NewProp_Roll_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FRotator3d_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRotator3d_Statics::NewProp_Pitch,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRotator3d_Statics::NewProp_Yaw,
@@ -2614,14 +2728,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Rotator3d",
-		sizeof(FRotator3d),
-		alignof(FRotator3d),
 		Z_Construct_UScriptStruct_FRotator3d_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator3d_Statics::PropPointers),
+		sizeof(FRotator3d),
+		alignof(FRotator3d),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FRotator3d_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator3d_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator3d_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FRotator3d_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator3d_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FRotator3d()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -2670,7 +2785,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Pitch (degrees) around Y axis" },
 	};
 #endif
-	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FRotator_Statics::NewProp_Pitch = { "Pitch", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRotator, Pitch), METADATA_PARAMS(Z_Construct_UScriptStruct_FRotator_Statics::NewProp_Pitch_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator_Statics::NewProp_Pitch_MetaData)) };
+	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FRotator_Statics::NewProp_Pitch = { "Pitch", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRotator, Pitch), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator_Statics::NewProp_Pitch_MetaData), Z_Construct_UScriptStruct_FRotator_Statics::NewProp_Pitch_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRotator_Statics::NewProp_Yaw_MetaData[] = {
 		{ "Category", "Rotator" },
@@ -2680,7 +2795,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Yaw (degrees) around Z axis" },
 	};
 #endif
-	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FRotator_Statics::NewProp_Yaw = { "Yaw", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRotator, Yaw), METADATA_PARAMS(Z_Construct_UScriptStruct_FRotator_Statics::NewProp_Yaw_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator_Statics::NewProp_Yaw_MetaData)) };
+	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FRotator_Statics::NewProp_Yaw = { "Yaw", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRotator, Yaw), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator_Statics::NewProp_Yaw_MetaData), Z_Construct_UScriptStruct_FRotator_Statics::NewProp_Yaw_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRotator_Statics::NewProp_Roll_MetaData[] = {
 		{ "Category", "Rotator" },
@@ -2690,7 +2805,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Roll (degrees) around X axis" },
 	};
 #endif
-	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FRotator_Statics::NewProp_Roll = { "Roll", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRotator, Roll), METADATA_PARAMS(Z_Construct_UScriptStruct_FRotator_Statics::NewProp_Roll_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator_Statics::NewProp_Roll_MetaData)) };
+	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FRotator_Statics::NewProp_Roll = { "Roll", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRotator, Roll), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator_Statics::NewProp_Roll_MetaData), Z_Construct_UScriptStruct_FRotator_Statics::NewProp_Roll_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FRotator_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRotator_Statics::NewProp_Pitch,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRotator_Statics::NewProp_Yaw,
@@ -2701,14 +2816,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Rotator",
-		sizeof(FRotator),
-		alignof(FRotator),
 		Z_Construct_UScriptStruct_FRotator_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator_Statics::PropPointers),
+		sizeof(FRotator),
+		alignof(FRotator),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FRotator_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FRotator_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRotator_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FRotator()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -2747,7 +2863,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSphere3f_Statics::NewProp_Center = { "Center", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSphere3f, Center), Z_Construct_UScriptStruct_FVector3f, METADATA_PARAMS(Z_Construct_UScriptStruct_FSphere3f_Statics::NewProp_Center_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere3f_Statics::NewProp_Center_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSphere3f_Statics::NewProp_Center = { "Center", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSphere3f, Center), Z_Construct_UScriptStruct_FVector3f, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere3f_Statics::NewProp_Center_MetaData), Z_Construct_UScriptStruct_FSphere3f_Statics::NewProp_Center_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSphere3f_Statics::NewProp_W_MetaData[] = {
 		{ "Category", "Sphere" },
@@ -2755,7 +2871,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FSphere3f_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSphere3f, W), METADATA_PARAMS(Z_Construct_UScriptStruct_FSphere3f_Statics::NewProp_W_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere3f_Statics::NewProp_W_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FSphere3f_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSphere3f, W), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere3f_Statics::NewProp_W_MetaData), Z_Construct_UScriptStruct_FSphere3f_Statics::NewProp_W_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FSphere3f_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSphere3f_Statics::NewProp_Center,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSphere3f_Statics::NewProp_W,
@@ -2765,14 +2881,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Sphere3f",
-		sizeof(FSphere3f),
-		alignof(FSphere3f),
 		Z_Construct_UScriptStruct_FSphere3f_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere3f_Statics::PropPointers),
+		sizeof(FSphere3f),
+		alignof(FSphere3f),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FSphere3f_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere3f_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere3f_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FSphere3f_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere3f_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FSphere3f()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -2811,7 +2928,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSphere3d_Statics::NewProp_Center = { "Center", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSphere3d, Center), Z_Construct_UScriptStruct_FVector3d, METADATA_PARAMS(Z_Construct_UScriptStruct_FSphere3d_Statics::NewProp_Center_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere3d_Statics::NewProp_Center_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSphere3d_Statics::NewProp_Center = { "Center", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSphere3d, Center), Z_Construct_UScriptStruct_FVector3d, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere3d_Statics::NewProp_Center_MetaData), Z_Construct_UScriptStruct_FSphere3d_Statics::NewProp_Center_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSphere3d_Statics::NewProp_W_MetaData[] = {
 		{ "Category", "Sphere" },
@@ -2819,7 +2936,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FSphere3d_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSphere3d, W), METADATA_PARAMS(Z_Construct_UScriptStruct_FSphere3d_Statics::NewProp_W_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere3d_Statics::NewProp_W_MetaData)) };
+	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FSphere3d_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSphere3d, W), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere3d_Statics::NewProp_W_MetaData), Z_Construct_UScriptStruct_FSphere3d_Statics::NewProp_W_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FSphere3d_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSphere3d_Statics::NewProp_Center,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSphere3d_Statics::NewProp_W,
@@ -2829,14 +2946,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Sphere3d",
-		sizeof(FSphere3d),
-		alignof(FSphere3d),
 		Z_Construct_UScriptStruct_FSphere3d_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere3d_Statics::PropPointers),
+		sizeof(FSphere3d),
+		alignof(FSphere3d),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FSphere3d_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere3d_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere3d_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FSphere3d_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere3d_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FSphere3d()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -2876,7 +2994,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSphere_Statics::NewProp_Center = { "Center", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSphere, Center), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FSphere_Statics::NewProp_Center_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere_Statics::NewProp_Center_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSphere_Statics::NewProp_Center = { "Center", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSphere, Center), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere_Statics::NewProp_Center_MetaData), Z_Construct_UScriptStruct_FSphere_Statics::NewProp_Center_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSphere_Statics::NewProp_W_MetaData[] = {
 		{ "Category", "Sphere" },
@@ -2884,7 +3002,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FSphere_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSphere, W), METADATA_PARAMS(Z_Construct_UScriptStruct_FSphere_Statics::NewProp_W_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere_Statics::NewProp_W_MetaData)) };
+	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FSphere_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSphere, W), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere_Statics::NewProp_W_MetaData), Z_Construct_UScriptStruct_FSphere_Statics::NewProp_W_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FSphere_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSphere_Statics::NewProp_Center,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSphere_Statics::NewProp_W,
@@ -2894,14 +3012,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Sphere",
-		sizeof(FSphere),
-		alignof(FSphere),
 		Z_Construct_UScriptStruct_FSphere_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere_Statics::PropPointers),
+		sizeof(FSphere),
+		alignof(FSphere),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FSphere_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FSphere_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSphere_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FSphere()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -2940,7 +3059,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "BlueprintInternalUseOnly", "true" },
 		{ "BlueprintType", "true" },
 		{ "Comment", "/**\n * Quaternion.\n * @note The full C++ class is located here: Engine\\Source\\Runtime\\Core\\Public\\Math\\Quat.h\n */" },
+		{ "HasNativeBreak", "/Script/Engine.KismetMathLibrary.BreakQuat" },
+		{ "HasNativeMake", "/Script/Engine.KismetMathLibrary.MakeQuat" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
+		{ "ScriptDefaultBreak", "" },
+		{ "ScriptDefaultMake", "" },
 		{ "ToolTip", "Quaternion.\n@note The full C++ class is located here: Engine\\Source\\Runtime\\Core\\Public\\Math\\Quat.h" },
 	};
 #endif
@@ -2950,28 +3073,28 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FQuat4f, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FQuat4f, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "Quat" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FQuat4f, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FQuat4f, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_Y_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_Z_MetaData[] = {
 		{ "Category", "Quat" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FQuat4f, Z), METADATA_PARAMS(Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_Z_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_Z_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FQuat4f, Z), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_Z_MetaData), Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_Z_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_W_MetaData[] = {
 		{ "Category", "Quat" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FQuat4f, W), METADATA_PARAMS(Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_W_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_W_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FQuat4f, W), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_W_MetaData), Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_W_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FQuat4f_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FQuat4f_Statics::NewProp_Y,
@@ -2983,14 +3106,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Quat4f",
-		sizeof(FQuat4f),
-		alignof(FQuat4f),
 		Z_Construct_UScriptStruct_FQuat4f_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4f_Statics::PropPointers),
+		sizeof(FQuat4f),
+		alignof(FQuat4f),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FQuat4f_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4f_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4f_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FQuat4f_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4f_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FQuat4f()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -3037,28 +3161,28 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FQuat4d, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FQuat4d, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "Quat" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FQuat4d, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FQuat4d, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_Y_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_Z_MetaData[] = {
 		{ "Category", "Quat" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FQuat4d, Z), METADATA_PARAMS(Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_Z_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_Z_MetaData)) };
+	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FQuat4d, Z), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_Z_MetaData), Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_Z_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_W_MetaData[] = {
 		{ "Category", "Quat" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FQuat4d, W), METADATA_PARAMS(Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_W_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_W_MetaData)) };
+	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FQuat4d, W), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_W_MetaData), Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_W_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FQuat4d_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FQuat4d_Statics::NewProp_Y,
@@ -3070,14 +3194,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Quat4d",
-		sizeof(FQuat4d),
-		alignof(FQuat4d),
 		Z_Construct_UScriptStruct_FQuat4d_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4d_Statics::PropPointers),
+		sizeof(FQuat4d),
+		alignof(FQuat4d),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FQuat4d_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4d_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4d_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FQuat4d_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat4d_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FQuat4d()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -3127,7 +3252,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FQuat_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FQuat, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FQuat_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FQuat_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FQuat, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FQuat_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FQuat_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "Quat" },
@@ -3136,21 +3261,21 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Alias for float/double depending on LWC status. Note: Will be refactored to double before UE5 ships." },
 	};
 #endif
-	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FQuat_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FQuat, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FQuat_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FQuat_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FQuat, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FQuat_Statics::NewProp_Y_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FQuat_Statics::NewProp_Z_MetaData[] = {
 		{ "Category", "Quat" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FQuat_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FQuat, Z), METADATA_PARAMS(Z_Construct_UScriptStruct_FQuat_Statics::NewProp_Z_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat_Statics::NewProp_Z_MetaData)) };
+	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FQuat_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FQuat, Z), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat_Statics::NewProp_Z_MetaData), Z_Construct_UScriptStruct_FQuat_Statics::NewProp_Z_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FQuat_Statics::NewProp_W_MetaData[] = {
 		{ "Category", "Quat" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FQuat_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FQuat, W), METADATA_PARAMS(Z_Construct_UScriptStruct_FQuat_Statics::NewProp_W_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat_Statics::NewProp_W_MetaData)) };
+	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FQuat_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FQuat, W), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat_Statics::NewProp_W_MetaData), Z_Construct_UScriptStruct_FQuat_Statics::NewProp_W_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FQuat_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FQuat_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FQuat_Statics::NewProp_Y,
@@ -3162,14 +3287,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Quat",
-		sizeof(FQuat),
-		alignof(FQuat),
 		Z_Construct_UScriptStruct_FQuat_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat_Statics::PropPointers),
+		sizeof(FQuat),
+		alignof(FQuat),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FQuat_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FQuat_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQuat_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FQuat()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -3189,6 +3315,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			uint8 W;
 		};
 
+		static_assert(sizeof(FPackedNormal) < MAX_uint16);
+		static_assert(alignof(FPackedNormal) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -3224,28 +3352,28 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPackedNormal, X), nullptr, METADATA_PARAMS(Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPackedNormal, X), nullptr, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "PackedNormal" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPackedNormal, Y), nullptr, METADATA_PARAMS(Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPackedNormal, Y), nullptr, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_Y_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_Z_MetaData[] = {
 		{ "Category", "PackedNormal" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPackedNormal, Z), nullptr, METADATA_PARAMS(Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_Z_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_Z_MetaData)) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPackedNormal, Z), nullptr, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_Z_MetaData), Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_Z_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_W_MetaData[] = {
 		{ "Category", "PackedNormal" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPackedNormal, W), nullptr, METADATA_PARAMS(Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_W_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_W_MetaData)) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPackedNormal, W), nullptr, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_W_MetaData), Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_W_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FPackedNormal_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPackedNormal_Statics::NewProp_Y,
@@ -3257,14 +3385,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"PackedNormal",
-		sizeof(FPackedNormal),
-		alignof(FPackedNormal),
 		Z_Construct_UScriptStruct_FPackedNormal_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedNormal_Statics::PropPointers),
+		sizeof(FPackedNormal),
+		alignof(FPackedNormal),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FPackedNormal_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedNormal_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedNormal_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FPackedNormal_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedNormal_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FPackedNormal()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -3281,6 +3410,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			int32 Packed;
 		};
 
+		static_assert(sizeof(FPackedRGB10A2N) < MAX_uint16);
+		static_assert(alignof(FPackedRGB10A2N) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -3304,7 +3435,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FPackedRGB10A2N_Statics::NewProp_Packed = { "Packed", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPackedRGB10A2N, Packed), METADATA_PARAMS(Z_Construct_UScriptStruct_FPackedRGB10A2N_Statics::NewProp_Packed_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedRGB10A2N_Statics::NewProp_Packed_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FPackedRGB10A2N_Statics::NewProp_Packed = { "Packed", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPackedRGB10A2N, Packed), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedRGB10A2N_Statics::NewProp_Packed_MetaData), Z_Construct_UScriptStruct_FPackedRGB10A2N_Statics::NewProp_Packed_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FPackedRGB10A2N_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPackedRGB10A2N_Statics::NewProp_Packed,
 	};
@@ -3313,14 +3444,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"PackedRGB10A2N",
-		sizeof(FPackedRGB10A2N),
-		alignof(FPackedRGB10A2N),
 		Z_Construct_UScriptStruct_FPackedRGB10A2N_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedRGB10A2N_Statics::PropPointers),
+		sizeof(FPackedRGB10A2N),
+		alignof(FPackedRGB10A2N),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FPackedRGB10A2N_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedRGB10A2N_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedRGB10A2N_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FPackedRGB10A2N_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedRGB10A2N_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FPackedRGB10A2N()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -3338,6 +3470,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			int32 ZW;
 		};
 
+		static_assert(sizeof(FPackedRGBA16N) < MAX_uint16);
+		static_assert(alignof(FPackedRGBA16N) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -3365,14 +3499,14 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::NewProp_XY = { "XY", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPackedRGBA16N, XY), METADATA_PARAMS(Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::NewProp_XY_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::NewProp_XY_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::NewProp_XY = { "XY", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPackedRGBA16N, XY), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::NewProp_XY_MetaData), Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::NewProp_XY_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::NewProp_ZW_MetaData[] = {
 		{ "Category", "PackedNormal" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::NewProp_ZW = { "ZW", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPackedRGBA16N, ZW), METADATA_PARAMS(Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::NewProp_ZW_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::NewProp_ZW_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::NewProp_ZW = { "ZW", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPackedRGBA16N, ZW), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::NewProp_ZW_MetaData), Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::NewProp_ZW_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::NewProp_XY,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::NewProp_ZW,
@@ -3382,14 +3516,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"PackedRGBA16N",
-		sizeof(FPackedRGBA16N),
-		alignof(FPackedRGBA16N),
 		Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::PropPointers),
+		sizeof(FPackedRGBA16N),
+		alignof(FPackedRGBA16N),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPackedRGBA16N_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FPackedRGBA16N()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -3429,14 +3564,14 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FIntPoint_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FIntPoint, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FIntPoint_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntPoint_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FIntPoint_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FIntPoint, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntPoint_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FIntPoint_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FIntPoint_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntPoint" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FIntPoint_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FIntPoint, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FIntPoint_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntPoint_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FIntPoint_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FIntPoint, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntPoint_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FIntPoint_Statics::NewProp_Y_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FIntPoint_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FIntPoint_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FIntPoint_Statics::NewProp_Y,
@@ -3446,14 +3581,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"IntPoint",
-		sizeof(FIntPoint),
-		alignof(FIntPoint),
 		Z_Construct_UScriptStruct_FIntPoint_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntPoint_Statics::PropPointers),
+		sizeof(FIntPoint),
+		alignof(FIntPoint),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FIntPoint_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntPoint_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntPoint_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FIntPoint_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntPoint_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FIntPoint()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -3490,14 +3626,14 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Point_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt32Point, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32Point_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Point_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Point_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt32Point, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Point_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FInt32Point_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInt32Point_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntPoint" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Point_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt32Point, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32Point_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Point_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Point_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt32Point, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Point_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FInt32Point_Statics::NewProp_Y_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInt32Point_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInt32Point_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInt32Point_Statics::NewProp_Y,
@@ -3507,14 +3643,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Int32Point",
-		sizeof(FInt32Point),
-		alignof(FInt32Point),
 		Z_Construct_UScriptStruct_FInt32Point_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Point_Statics::PropPointers),
+		sizeof(FInt32Point),
+		alignof(FInt32Point),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32Point_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Point_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Point_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInt32Point_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Point_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInt32Point()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -3551,14 +3688,14 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FInt64Point_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt64Point, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt64Point_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Point_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FInt64Point_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt64Point, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Point_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FInt64Point_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInt64Point_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntPoint" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FInt64Point_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt64Point, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt64Point_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Point_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FInt64Point_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt64Point, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Point_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FInt64Point_Statics::NewProp_Y_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInt64Point_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInt64Point_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInt64Point_Statics::NewProp_Y,
@@ -3568,14 +3705,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Int64Point",
-		sizeof(FInt64Point),
-		alignof(FInt64Point),
 		Z_Construct_UScriptStruct_FInt64Point_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Point_Statics::PropPointers),
+		sizeof(FInt64Point),
+		alignof(FInt64Point),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInt64Point_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Point_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Point_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInt64Point_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Point_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInt64Point()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -3614,14 +3752,14 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FUintPoint_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUintPoint, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FUintPoint_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintPoint_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FUintPoint_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUintPoint, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintPoint_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FUintPoint_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUintPoint_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntPoint" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FUintPoint_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUintPoint, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FUintPoint_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintPoint_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FUintPoint_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUintPoint, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintPoint_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FUintPoint_Statics::NewProp_Y_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FUintPoint_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUintPoint_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUintPoint_Statics::NewProp_Y,
@@ -3631,14 +3769,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"UintPoint",
-		sizeof(FUintPoint),
-		alignof(FUintPoint),
 		Z_Construct_UScriptStruct_FUintPoint_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintPoint_Statics::PropPointers),
+		sizeof(FUintPoint),
+		alignof(FUintPoint),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FUintPoint_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintPoint_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintPoint_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FUintPoint_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintPoint_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FUintPoint()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -3675,14 +3814,14 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FUint32Point_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUint32Point, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FUint32Point_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Point_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FUint32Point_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUint32Point, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Point_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FUint32Point_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUint32Point_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntPoint" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FUint32Point_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUint32Point, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FUint32Point_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Point_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FUint32Point_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUint32Point, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Point_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FUint32Point_Statics::NewProp_Y_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FUint32Point_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUint32Point_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUint32Point_Statics::NewProp_Y,
@@ -3692,14 +3831,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Uint32Point",
-		sizeof(FUint32Point),
-		alignof(FUint32Point),
 		Z_Construct_UScriptStruct_FUint32Point_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Point_Statics::PropPointers),
+		sizeof(FUint32Point),
+		alignof(FUint32Point),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FUint32Point_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Point_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Point_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FUint32Point_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Point_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FUint32Point()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -3736,14 +3876,14 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FUint64Point_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUint64Point, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FUint64Point_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Point_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FUint64Point_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUint64Point, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Point_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FUint64Point_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUint64Point_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntPoint" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FUint64Point_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUint64Point, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FUint64Point_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Point_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FUint64Point_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUint64Point, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Point_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FUint64Point_Statics::NewProp_Y_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FUint64Point_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUint64Point_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUint64Point_Statics::NewProp_Y,
@@ -3753,14 +3893,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Uint64Point",
-		sizeof(FUint64Point),
-		alignof(FUint64Point),
 		Z_Construct_UScriptStruct_FUint64Point_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Point_Statics::PropPointers),
+		sizeof(FUint64Point),
+		alignof(FUint64Point),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FUint64Point_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Point_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Point_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FUint64Point_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Point_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FUint64Point()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -3799,14 +3940,14 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Vector2_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt32Vector2, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32Vector2_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector2_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Vector2_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt32Vector2, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector2_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FInt32Vector2_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInt32Vector2_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Vector2_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt32Vector2, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32Vector2_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector2_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Vector2_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt32Vector2, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector2_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FInt32Vector2_Statics::NewProp_Y_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInt32Vector2_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInt32Vector2_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInt32Vector2_Statics::NewProp_Y,
@@ -3816,14 +3957,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Int32Vector2",
-		sizeof(FInt32Vector2),
-		alignof(FInt32Vector2),
 		Z_Construct_UScriptStruct_FInt32Vector2_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector2_Statics::PropPointers),
+		sizeof(FInt32Vector2),
+		alignof(FInt32Vector2),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32Vector2_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector2_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector2_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInt32Vector2_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector2_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInt32Vector2()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -3862,14 +4004,14 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FInt64Vector2_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt64Vector2, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt64Vector2_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector2_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FInt64Vector2_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt64Vector2, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector2_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FInt64Vector2_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInt64Vector2_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FInt64Vector2_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt64Vector2, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt64Vector2_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector2_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FInt64Vector2_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt64Vector2, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector2_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FInt64Vector2_Statics::NewProp_Y_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInt64Vector2_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInt64Vector2_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInt64Vector2_Statics::NewProp_Y,
@@ -3879,14 +4021,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Int64Vector2",
-		sizeof(FInt64Vector2),
-		alignof(FInt64Vector2),
 		Z_Construct_UScriptStruct_FInt64Vector2_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector2_Statics::PropPointers),
+		sizeof(FInt64Vector2),
+		alignof(FInt64Vector2),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInt64Vector2_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector2_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector2_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInt64Vector2_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector2_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInt64Vector2()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -3925,14 +4068,14 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FIntVector2_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FIntVector2, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FIntVector2_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector2_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FIntVector2_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FIntVector2, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector2_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FIntVector2_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FIntVector2_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FIntVector2_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FIntVector2, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FIntVector2_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector2_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FIntVector2_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FIntVector2, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector2_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FIntVector2_Statics::NewProp_Y_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FIntVector2_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FIntVector2_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FIntVector2_Statics::NewProp_Y,
@@ -3942,14 +4085,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"IntVector2",
-		sizeof(FIntVector2),
-		alignof(FIntVector2),
 		Z_Construct_UScriptStruct_FIntVector2_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector2_Statics::PropPointers),
+		sizeof(FIntVector2),
+		alignof(FIntVector2),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FIntVector2_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector2_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector2_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FIntVector2_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector2_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FIntVector2()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -3988,14 +4132,14 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUint32Vector2_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUint32Vector2, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FUint32Vector2_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector2_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUint32Vector2_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUint32Vector2, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector2_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FUint32Vector2_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUint32Vector2_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUint32Vector2_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUint32Vector2, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FUint32Vector2_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector2_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUint32Vector2_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUint32Vector2, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector2_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FUint32Vector2_Statics::NewProp_Y_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FUint32Vector2_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUint32Vector2_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUint32Vector2_Statics::NewProp_Y,
@@ -4005,14 +4149,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Uint32Vector2",
-		sizeof(FUint32Vector2),
-		alignof(FUint32Vector2),
 		Z_Construct_UScriptStruct_FUint32Vector2_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector2_Statics::PropPointers),
+		sizeof(FUint32Vector2),
+		alignof(FUint32Vector2),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FUint32Vector2_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector2_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector2_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FUint32Vector2_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector2_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FUint32Vector2()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -4030,11 +4175,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_X_MetaData[];
 #endif
-		static const UECodeGen_Private::FFInt64PropertyParams NewProp_X;
+		static const UECodeGen_Private::FUInt64PropertyParams NewProp_X;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_Y_MetaData[];
 #endif
-		static const UECodeGen_Private::FFInt64PropertyParams NewProp_Y;
+		static const UECodeGen_Private::FUInt64PropertyParams NewProp_Y;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UECodeGen_Private::FStructParams ReturnStructParams;
 	};
@@ -4051,14 +4196,14 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFInt64PropertyParams Z_Construct_UScriptStruct_FUint64Vector2_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt64, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUint64Vector2, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FUint64Vector2_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector2_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FUInt64PropertyParams Z_Construct_UScriptStruct_FUint64Vector2_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUint64Vector2, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector2_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FUint64Vector2_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUint64Vector2_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFInt64PropertyParams Z_Construct_UScriptStruct_FUint64Vector2_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt64, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUint64Vector2, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FUint64Vector2_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector2_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FUInt64PropertyParams Z_Construct_UScriptStruct_FUint64Vector2_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUint64Vector2, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector2_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FUint64Vector2_Statics::NewProp_Y_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FUint64Vector2_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUint64Vector2_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUint64Vector2_Statics::NewProp_Y,
@@ -4068,14 +4213,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Uint64Vector2",
-		sizeof(FUint64Vector2),
-		alignof(FUint64Vector2),
 		Z_Construct_UScriptStruct_FUint64Vector2_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector2_Statics::PropPointers),
+		sizeof(FUint64Vector2),
+		alignof(FUint64Vector2),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FUint64Vector2_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector2_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector2_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FUint64Vector2_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector2_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FUint64Vector2()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -4114,14 +4260,14 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUintVector2_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUintVector2, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FUintVector2_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector2_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUintVector2_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUintVector2, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector2_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FUintVector2_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUintVector2_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUintVector2_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUintVector2, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FUintVector2_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector2_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUintVector2_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUintVector2, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector2_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FUintVector2_Statics::NewProp_Y_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FUintVector2_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUintVector2_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUintVector2_Statics::NewProp_Y,
@@ -4131,14 +4277,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"UintVector2",
-		sizeof(FUintVector2),
-		alignof(FUintVector2),
 		Z_Construct_UScriptStruct_FUintVector2_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector2_Statics::PropPointers),
+		sizeof(FUintVector2),
+		alignof(FUintVector2),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FUintVector2_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector2_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector2_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FUintVector2_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector2_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FUintVector2()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -4181,21 +4328,21 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Vector_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt32Vector, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32Vector_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Vector_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt32Vector, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FInt32Vector_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInt32Vector_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Vector_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt32Vector, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32Vector_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Vector_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt32Vector, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FInt32Vector_Statics::NewProp_Y_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInt32Vector_Statics::NewProp_Z_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Vector_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt32Vector, Z), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32Vector_Statics::NewProp_Z_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector_Statics::NewProp_Z_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Vector_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt32Vector, Z), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector_Statics::NewProp_Z_MetaData), Z_Construct_UScriptStruct_FInt32Vector_Statics::NewProp_Z_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInt32Vector_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInt32Vector_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInt32Vector_Statics::NewProp_Y,
@@ -4206,14 +4353,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Int32Vector",
-		sizeof(FInt32Vector),
-		alignof(FInt32Vector),
 		Z_Construct_UScriptStruct_FInt32Vector_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector_Statics::PropPointers),
+		sizeof(FInt32Vector),
+		alignof(FInt32Vector),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32Vector_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInt32Vector_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInt32Vector()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -4256,21 +4404,21 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FInt64Vector_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt64Vector, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt64Vector_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FInt64Vector_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt64Vector, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FInt64Vector_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInt64Vector_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FInt64Vector_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt64Vector, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt64Vector_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FInt64Vector_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt64Vector, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FInt64Vector_Statics::NewProp_Y_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInt64Vector_Statics::NewProp_Z_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FInt64Vector_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt64Vector, Z), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt64Vector_Statics::NewProp_Z_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector_Statics::NewProp_Z_MetaData)) };
+	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FInt64Vector_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt64Vector, Z), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector_Statics::NewProp_Z_MetaData), Z_Construct_UScriptStruct_FInt64Vector_Statics::NewProp_Z_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInt64Vector_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInt64Vector_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInt64Vector_Statics::NewProp_Y,
@@ -4281,14 +4429,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Int64Vector",
-		sizeof(FInt64Vector),
-		alignof(FInt64Vector),
 		Z_Construct_UScriptStruct_FInt64Vector_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector_Statics::PropPointers),
+		sizeof(FInt64Vector),
+		alignof(FInt64Vector),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInt64Vector_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInt64Vector_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInt64Vector()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -4332,21 +4481,21 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FIntVector_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FIntVector, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FIntVector_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FIntVector_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FIntVector, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FIntVector_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FIntVector_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FIntVector_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FIntVector, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FIntVector_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FIntVector_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FIntVector, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FIntVector_Statics::NewProp_Y_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FIntVector_Statics::NewProp_Z_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FIntVector_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FIntVector, Z), METADATA_PARAMS(Z_Construct_UScriptStruct_FIntVector_Statics::NewProp_Z_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector_Statics::NewProp_Z_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FIntVector_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FIntVector, Z), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector_Statics::NewProp_Z_MetaData), Z_Construct_UScriptStruct_FIntVector_Statics::NewProp_Z_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FIntVector_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FIntVector_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FIntVector_Statics::NewProp_Y,
@@ -4357,14 +4506,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"IntVector",
-		sizeof(FIntVector),
-		alignof(FIntVector),
 		Z_Construct_UScriptStruct_FIntVector_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector_Statics::PropPointers),
+		sizeof(FIntVector),
+		alignof(FIntVector),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FIntVector_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FIntVector_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FIntVector()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -4407,21 +4557,21 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUint32Vector_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUint32Vector, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FUint32Vector_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUint32Vector_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUint32Vector, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FUint32Vector_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUint32Vector_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUint32Vector_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUint32Vector, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FUint32Vector_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUint32Vector_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUint32Vector, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FUint32Vector_Statics::NewProp_Y_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUint32Vector_Statics::NewProp_Z_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUint32Vector_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUint32Vector, Z), METADATA_PARAMS(Z_Construct_UScriptStruct_FUint32Vector_Statics::NewProp_Z_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector_Statics::NewProp_Z_MetaData)) };
+	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUint32Vector_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUint32Vector, Z), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector_Statics::NewProp_Z_MetaData), Z_Construct_UScriptStruct_FUint32Vector_Statics::NewProp_Z_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FUint32Vector_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUint32Vector_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUint32Vector_Statics::NewProp_Y,
@@ -4432,14 +4582,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Uint32Vector",
-		sizeof(FUint32Vector),
-		alignof(FUint32Vector),
 		Z_Construct_UScriptStruct_FUint32Vector_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector_Statics::PropPointers),
+		sizeof(FUint32Vector),
+		alignof(FUint32Vector),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FUint32Vector_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FUint32Vector_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FUint32Vector()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -4457,15 +4608,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_X_MetaData[];
 #endif
-		static const UECodeGen_Private::FFInt64PropertyParams NewProp_X;
+		static const UECodeGen_Private::FUInt64PropertyParams NewProp_X;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_Y_MetaData[];
 #endif
-		static const UECodeGen_Private::FFInt64PropertyParams NewProp_Y;
+		static const UECodeGen_Private::FUInt64PropertyParams NewProp_Y;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_Z_MetaData[];
 #endif
-		static const UECodeGen_Private::FFInt64PropertyParams NewProp_Z;
+		static const UECodeGen_Private::FUInt64PropertyParams NewProp_Z;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UECodeGen_Private::FStructParams ReturnStructParams;
 	};
@@ -4482,21 +4633,21 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFInt64PropertyParams Z_Construct_UScriptStruct_FUint64Vector_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt64, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUint64Vector, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FUint64Vector_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FUInt64PropertyParams Z_Construct_UScriptStruct_FUint64Vector_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUint64Vector, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FUint64Vector_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUint64Vector_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFInt64PropertyParams Z_Construct_UScriptStruct_FUint64Vector_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt64, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUint64Vector, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FUint64Vector_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FUInt64PropertyParams Z_Construct_UScriptStruct_FUint64Vector_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUint64Vector, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FUint64Vector_Statics::NewProp_Y_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUint64Vector_Statics::NewProp_Z_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFInt64PropertyParams Z_Construct_UScriptStruct_FUint64Vector_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt64, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUint64Vector, Z), METADATA_PARAMS(Z_Construct_UScriptStruct_FUint64Vector_Statics::NewProp_Z_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector_Statics::NewProp_Z_MetaData)) };
+	const UECodeGen_Private::FUInt64PropertyParams Z_Construct_UScriptStruct_FUint64Vector_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUint64Vector, Z), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector_Statics::NewProp_Z_MetaData), Z_Construct_UScriptStruct_FUint64Vector_Statics::NewProp_Z_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FUint64Vector_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUint64Vector_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUint64Vector_Statics::NewProp_Y,
@@ -4507,14 +4658,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Uint64Vector",
-		sizeof(FUint64Vector),
-		alignof(FUint64Vector),
 		Z_Construct_UScriptStruct_FUint64Vector_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector_Statics::PropPointers),
+		sizeof(FUint64Vector),
+		alignof(FUint64Vector),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FUint64Vector_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FUint64Vector_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FUint64Vector()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -4557,21 +4709,21 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUintVector_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUintVector, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FUintVector_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUintVector_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUintVector, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FUintVector_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUintVector_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUintVector_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUintVector, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FUintVector_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUintVector_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUintVector, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FUintVector_Statics::NewProp_Y_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUintVector_Statics::NewProp_Z_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUintVector_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUintVector, Z), METADATA_PARAMS(Z_Construct_UScriptStruct_FUintVector_Statics::NewProp_Z_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector_Statics::NewProp_Z_MetaData)) };
+	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUintVector_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUintVector, Z), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector_Statics::NewProp_Z_MetaData), Z_Construct_UScriptStruct_FUintVector_Statics::NewProp_Z_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FUintVector_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUintVector_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUintVector_Statics::NewProp_Y,
@@ -4582,14 +4734,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"UintVector",
-		sizeof(FUintVector),
-		alignof(FUintVector),
 		Z_Construct_UScriptStruct_FUintVector_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector_Statics::PropPointers),
+		sizeof(FUintVector),
+		alignof(FUintVector),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FUintVector_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FUintVector_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FUintVector()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -4636,28 +4789,28 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt32Vector4, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt32Vector4, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt32Vector4, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt32Vector4, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_Y_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_Z_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt32Vector4, Z), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_Z_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_Z_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt32Vector4, Z), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_Z_MetaData), Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_Z_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_W_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt32Vector4, W), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_W_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_W_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt32Vector4, W), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_W_MetaData), Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_W_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInt32Vector4_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInt32Vector4_Statics::NewProp_Y,
@@ -4669,14 +4822,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Int32Vector4",
-		sizeof(FInt32Vector4),
-		alignof(FInt32Vector4),
 		Z_Construct_UScriptStruct_FInt32Vector4_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector4_Statics::PropPointers),
+		sizeof(FInt32Vector4),
+		alignof(FInt32Vector4),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32Vector4_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector4_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector4_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInt32Vector4_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Vector4_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInt32Vector4()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -4723,28 +4877,28 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt64Vector4, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt64Vector4, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt64Vector4, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt64Vector4, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_Y_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_Z_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt64Vector4, Z), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_Z_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_Z_MetaData)) };
+	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt64Vector4, Z), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_Z_MetaData), Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_Z_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_W_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt64Vector4, W), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_W_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_W_MetaData)) };
+	const UECodeGen_Private::FInt64PropertyParams Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Int64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt64Vector4, W), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_W_MetaData), Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_W_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInt64Vector4_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInt64Vector4_Statics::NewProp_Y,
@@ -4756,14 +4910,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Int64Vector4",
-		sizeof(FInt64Vector4),
-		alignof(FInt64Vector4),
 		Z_Construct_UScriptStruct_FInt64Vector4_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector4_Statics::PropPointers),
+		sizeof(FInt64Vector4),
+		alignof(FInt64Vector4),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInt64Vector4_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector4_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector4_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInt64Vector4_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt64Vector4_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInt64Vector4()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -4811,28 +4966,28 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FIntVector4, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FIntVector4, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntVector4" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FIntVector4, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FIntVector4, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_Y_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_Z_MetaData[] = {
 		{ "Category", "IntVector4" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FIntVector4, Z), METADATA_PARAMS(Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_Z_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_Z_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FIntVector4, Z), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_Z_MetaData), Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_Z_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_W_MetaData[] = {
 		{ "Category", "IntVector4" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FIntVector4, W), METADATA_PARAMS(Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_W_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_W_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FIntVector4, W), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_W_MetaData), Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_W_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FIntVector4_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FIntVector4_Statics::NewProp_Y,
@@ -4844,14 +4999,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"IntVector4",
-		sizeof(FIntVector4),
-		alignof(FIntVector4),
 		Z_Construct_UScriptStruct_FIntVector4_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector4_Statics::PropPointers),
+		sizeof(FIntVector4),
+		alignof(FIntVector4),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FIntVector4_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector4_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector4_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FIntVector4_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FIntVector4_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FIntVector4()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -4898,28 +5054,28 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUint32Vector4, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUint32Vector4, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUint32Vector4, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUint32Vector4, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_Y_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_Z_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUint32Vector4, Z), METADATA_PARAMS(Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_Z_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_Z_MetaData)) };
+	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUint32Vector4, Z), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_Z_MetaData), Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_Z_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_W_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUint32Vector4, W), METADATA_PARAMS(Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_W_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_W_MetaData)) };
+	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUint32Vector4, W), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_W_MetaData), Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_W_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FUint32Vector4_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUint32Vector4_Statics::NewProp_Y,
@@ -4931,14 +5087,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Uint32Vector4",
-		sizeof(FUint32Vector4),
-		alignof(FUint32Vector4),
 		Z_Construct_UScriptStruct_FUint32Vector4_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector4_Statics::PropPointers),
+		sizeof(FUint32Vector4),
+		alignof(FUint32Vector4),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FUint32Vector4_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector4_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector4_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FUint32Vector4_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint32Vector4_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FUint32Vector4()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -4956,19 +5113,19 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_X_MetaData[];
 #endif
-		static const UECodeGen_Private::FFInt64PropertyParams NewProp_X;
+		static const UECodeGen_Private::FUInt64PropertyParams NewProp_X;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_Y_MetaData[];
 #endif
-		static const UECodeGen_Private::FFInt64PropertyParams NewProp_Y;
+		static const UECodeGen_Private::FUInt64PropertyParams NewProp_Y;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_Z_MetaData[];
 #endif
-		static const UECodeGen_Private::FFInt64PropertyParams NewProp_Z;
+		static const UECodeGen_Private::FUInt64PropertyParams NewProp_Z;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_W_MetaData[];
 #endif
-		static const UECodeGen_Private::FFInt64PropertyParams NewProp_W;
+		static const UECodeGen_Private::FUInt64PropertyParams NewProp_W;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UECodeGen_Private::FStructParams ReturnStructParams;
 	};
@@ -4985,28 +5142,28 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFInt64PropertyParams Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt64, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUint64Vector4, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FUInt64PropertyParams Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUint64Vector4, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFInt64PropertyParams Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt64, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUint64Vector4, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FUInt64PropertyParams Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUint64Vector4, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_Y_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_Z_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFInt64PropertyParams Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt64, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUint64Vector4, Z), METADATA_PARAMS(Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_Z_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_Z_MetaData)) };
+	const UECodeGen_Private::FUInt64PropertyParams Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUint64Vector4, Z), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_Z_MetaData), Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_Z_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_W_MetaData[] = {
 		{ "Category", "IntVector" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFInt64PropertyParams Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt64, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUint64Vector4, W), METADATA_PARAMS(Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_W_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_W_MetaData)) };
+	const UECodeGen_Private::FUInt64PropertyParams Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt64, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUint64Vector4, W), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_W_MetaData), Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_W_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FUint64Vector4_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUint64Vector4_Statics::NewProp_Y,
@@ -5018,14 +5175,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Uint64Vector4",
-		sizeof(FUint64Vector4),
-		alignof(FUint64Vector4),
 		Z_Construct_UScriptStruct_FUint64Vector4_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector4_Statics::PropPointers),
+		sizeof(FUint64Vector4),
+		alignof(FUint64Vector4),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FUint64Vector4_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector4_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector4_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FUint64Vector4_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUint64Vector4_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FUint64Vector4()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -5072,28 +5230,28 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUintVector4, X), METADATA_PARAMS(Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_X_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_X_MetaData)) };
+	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUintVector4, X), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_X_MetaData), Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_X_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "IntVector4" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUintVector4, Y), METADATA_PARAMS(Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_Y_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_Y_MetaData)) };
+	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_Y = { "Y", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUintVector4, Y), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_Y_MetaData), Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_Y_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_Z_MetaData[] = {
 		{ "Category", "IntVector4" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUintVector4, Z), METADATA_PARAMS(Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_Z_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_Z_MetaData)) };
+	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_Z = { "Z", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUintVector4, Z), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_Z_MetaData), Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_Z_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_W_MetaData[] = {
 		{ "Category", "IntVector4" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FUintVector4, W), METADATA_PARAMS(Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_W_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_W_MetaData)) };
+	const UECodeGen_Private::FUInt32PropertyParams Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_W = { "W", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::UInt32, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FUintVector4, W), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_W_MetaData), Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_W_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FUintVector4_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_X,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FUintVector4_Statics::NewProp_Y,
@@ -5105,14 +5263,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"UintVector4",
-		sizeof(FUintVector4),
-		alignof(FUintVector4),
 		Z_Construct_UScriptStruct_FUintVector4_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector4_Statics::PropPointers),
+		sizeof(FUintVector4),
+		alignof(FUintVector4),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FUintVector4_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector4_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector4_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FUintVector4_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FUintVector4_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FUintVector4()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -5162,7 +5321,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FColor_Statics::NewProp_B = { "B", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FColor, B), nullptr, METADATA_PARAMS(Z_Construct_UScriptStruct_FColor_Statics::NewProp_B_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FColor_Statics::NewProp_B_MetaData)) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FColor_Statics::NewProp_B = { "B", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FColor, B), nullptr, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FColor_Statics::NewProp_B_MetaData), Z_Construct_UScriptStruct_FColor_Statics::NewProp_B_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FColor_Statics::NewProp_G_MetaData[] = {
 		{ "Category", "Color" },
@@ -5171,7 +5330,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FColor_Statics::NewProp_G = { "G", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FColor, G), nullptr, METADATA_PARAMS(Z_Construct_UScriptStruct_FColor_Statics::NewProp_G_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FColor_Statics::NewProp_G_MetaData)) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FColor_Statics::NewProp_G = { "G", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FColor, G), nullptr, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FColor_Statics::NewProp_G_MetaData), Z_Construct_UScriptStruct_FColor_Statics::NewProp_G_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FColor_Statics::NewProp_R_MetaData[] = {
 		{ "Category", "Color" },
@@ -5180,7 +5339,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FColor_Statics::NewProp_R = { "R", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FColor, R), nullptr, METADATA_PARAMS(Z_Construct_UScriptStruct_FColor_Statics::NewProp_R_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FColor_Statics::NewProp_R_MetaData)) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FColor_Statics::NewProp_R = { "R", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FColor, R), nullptr, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FColor_Statics::NewProp_R_MetaData), Z_Construct_UScriptStruct_FColor_Statics::NewProp_R_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FColor_Statics::NewProp_A_MetaData[] = {
 		{ "Category", "Color" },
@@ -5189,7 +5348,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FColor_Statics::NewProp_A = { "A", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FColor, A), nullptr, METADATA_PARAMS(Z_Construct_UScriptStruct_FColor_Statics::NewProp_A_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FColor_Statics::NewProp_A_MetaData)) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FColor_Statics::NewProp_A = { "A", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FColor, A), nullptr, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FColor_Statics::NewProp_A_MetaData), Z_Construct_UScriptStruct_FColor_Statics::NewProp_A_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FColor_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FColor_Statics::NewProp_B,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FColor_Statics::NewProp_G,
@@ -5201,14 +5360,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Color",
-		sizeof(FColor),
-		alignof(FColor),
 		Z_Construct_UScriptStruct_FColor_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FColor_Statics::PropPointers),
+		sizeof(FColor),
+		alignof(FColor),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FColor_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FColor_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FColor_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FColor_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FColor_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FColor()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -5256,28 +5416,28 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_R = { "R", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FLinearColor, R), METADATA_PARAMS(Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_R_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_R_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_R = { "R", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FLinearColor, R), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_R_MetaData), Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_R_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_G_MetaData[] = {
 		{ "Category", "LinearColor" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_G = { "G", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FLinearColor, G), METADATA_PARAMS(Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_G_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_G_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_G = { "G", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FLinearColor, G), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_G_MetaData), Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_G_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_B_MetaData[] = {
 		{ "Category", "LinearColor" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_B = { "B", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FLinearColor, B), METADATA_PARAMS(Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_B_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_B_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_B = { "B", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FLinearColor, B), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_B_MetaData), Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_B_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_A_MetaData[] = {
 		{ "Category", "LinearColor" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_A = { "A", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FLinearColor, A), METADATA_PARAMS(Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_A_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_A_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_A = { "A", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FLinearColor, A), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_A_MetaData), Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_A_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FLinearColor_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_R,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FLinearColor_Statics::NewProp_G,
@@ -5289,14 +5449,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"LinearColor",
-		sizeof(FLinearColor),
-		alignof(FLinearColor),
 		Z_Construct_UScriptStruct_FLinearColor_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FLinearColor_Statics::PropPointers),
+		sizeof(FLinearColor),
+		alignof(FLinearColor),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FLinearColor_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FLinearColor_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FLinearColor_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FLinearColor_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FLinearColor_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FLinearColor()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -5343,7 +5504,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_Min = { "Min", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FBox3f, Min), Z_Construct_UScriptStruct_FVector3f, METADATA_PARAMS(Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_Min_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_Min_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_Min = { "Min", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FBox3f, Min), Z_Construct_UScriptStruct_FVector3f, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_Min_MetaData), Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_Min_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_Max_MetaData[] = {
 		{ "Category", "Box" },
@@ -5351,7 +5512,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_Max = { "Max", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FBox3f, Max), Z_Construct_UScriptStruct_FVector3f, METADATA_PARAMS(Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_Max_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_Max_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_Max = { "Max", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FBox3f, Max), Z_Construct_UScriptStruct_FVector3f, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_Max_MetaData), Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_Max_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_IsValid_MetaData[] = {
 		{ "Category", "Box" },
@@ -5363,7 +5524,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 	{
 		((FBox3f*)Obj)->IsValid = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_IsValid = { "IsValid", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FBox3f), &Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_IsValid_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_IsValid_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_IsValid_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_IsValid = { "IsValid", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FBox3f), &Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_IsValid_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_IsValid_MetaData), Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_IsValid_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FBox3f_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_Min,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FBox3f_Statics::NewProp_Max,
@@ -5374,14 +5535,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Box3f",
-		sizeof(FBox3f),
-		alignof(FBox3f),
 		Z_Construct_UScriptStruct_FBox3f_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox3f_Statics::PropPointers),
+		sizeof(FBox3f),
+		alignof(FBox3f),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FBox3f_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox3f_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox3f_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FBox3f_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox3f_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FBox3f()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -5426,7 +5588,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_Min = { "Min", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FBox3d, Min), Z_Construct_UScriptStruct_FVector3d, METADATA_PARAMS(Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_Min_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_Min_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_Min = { "Min", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FBox3d, Min), Z_Construct_UScriptStruct_FVector3d, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_Min_MetaData), Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_Min_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_Max_MetaData[] = {
 		{ "Category", "Box" },
@@ -5434,7 +5596,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_Max = { "Max", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FBox3d, Max), Z_Construct_UScriptStruct_FVector3d, METADATA_PARAMS(Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_Max_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_Max_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_Max = { "Max", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FBox3d, Max), Z_Construct_UScriptStruct_FVector3d, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_Max_MetaData), Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_Max_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_IsValid_MetaData[] = {
 		{ "Category", "Box" },
@@ -5446,7 +5608,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 	{
 		((FBox3d*)Obj)->IsValid = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_IsValid = { "IsValid", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FBox3d), &Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_IsValid_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_IsValid_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_IsValid_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_IsValid = { "IsValid", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FBox3d), &Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_IsValid_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_IsValid_MetaData), Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_IsValid_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FBox3d_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_Min,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FBox3d_Statics::NewProp_Max,
@@ -5457,14 +5619,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Box3d",
-		sizeof(FBox3d),
-		alignof(FBox3d),
 		Z_Construct_UScriptStruct_FBox3d_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox3d_Statics::PropPointers),
+		sizeof(FBox3d),
+		alignof(FBox3d),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FBox3d_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox3d_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox3d_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FBox3d_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox3d_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FBox3d()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -5511,7 +5674,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBox_Statics::NewProp_Min = { "Min", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FBox, Min), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FBox_Statics::NewProp_Min_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox_Statics::NewProp_Min_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBox_Statics::NewProp_Min = { "Min", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FBox, Min), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox_Statics::NewProp_Min_MetaData), Z_Construct_UScriptStruct_FBox_Statics::NewProp_Min_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBox_Statics::NewProp_Max_MetaData[] = {
 		{ "Category", "Box" },
@@ -5519,7 +5682,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBox_Statics::NewProp_Max = { "Max", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FBox, Max), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FBox_Statics::NewProp_Max_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox_Statics::NewProp_Max_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBox_Statics::NewProp_Max = { "Max", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FBox, Max), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox_Statics::NewProp_Max_MetaData), Z_Construct_UScriptStruct_FBox_Statics::NewProp_Max_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBox_Statics::NewProp_IsValid_MetaData[] = {
 		{ "Category", "Box" },
@@ -5531,7 +5694,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 	{
 		((FBox*)Obj)->IsValid = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FBox_Statics::NewProp_IsValid = { "IsValid", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FBox), &Z_Construct_UScriptStruct_FBox_Statics::NewProp_IsValid_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FBox_Statics::NewProp_IsValid_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox_Statics::NewProp_IsValid_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FBox_Statics::NewProp_IsValid = { "IsValid", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FBox), &Z_Construct_UScriptStruct_FBox_Statics::NewProp_IsValid_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox_Statics::NewProp_IsValid_MetaData), Z_Construct_UScriptStruct_FBox_Statics::NewProp_IsValid_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FBox_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FBox_Statics::NewProp_Min,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FBox_Statics::NewProp_Max,
@@ -5542,14 +5705,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Box",
-		sizeof(FBox),
-		alignof(FBox),
 		Z_Construct_UScriptStruct_FBox_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox_Statics::PropPointers),
+		sizeof(FBox),
+		alignof(FBox),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FBox_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FBox_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FBox()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -5596,7 +5760,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_Min = { "Min", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FBox2f, Min), Z_Construct_UScriptStruct_FVector2f, METADATA_PARAMS(Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_Min_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_Min_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_Min = { "Min", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FBox2f, Min), Z_Construct_UScriptStruct_FVector2f, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_Min_MetaData), Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_Min_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_Max_MetaData[] = {
 		{ "Category", "Box2D" },
@@ -5604,7 +5768,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_Max = { "Max", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FBox2f, Max), Z_Construct_UScriptStruct_FVector2f, METADATA_PARAMS(Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_Max_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_Max_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_Max = { "Max", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FBox2f, Max), Z_Construct_UScriptStruct_FVector2f, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_Max_MetaData), Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_Max_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_bIsValid_MetaData[] = {
 		{ "Category", "Box2D" },
@@ -5616,7 +5780,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 	{
 		((FBox2f*)Obj)->bIsValid = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_bIsValid = { "bIsValid", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FBox2f), &Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_bIsValid_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_bIsValid_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_bIsValid_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_bIsValid = { "bIsValid", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FBox2f), &Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_bIsValid_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_bIsValid_MetaData), Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_bIsValid_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FBox2f_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_Min,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FBox2f_Statics::NewProp_Max,
@@ -5627,14 +5791,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Box2f",
-		sizeof(FBox2f),
-		alignof(FBox2f),
 		Z_Construct_UScriptStruct_FBox2f_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox2f_Statics::PropPointers),
+		sizeof(FBox2f),
+		alignof(FBox2f),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FBox2f_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox2f_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox2f_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FBox2f_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox2f_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FBox2f()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -5681,7 +5846,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_Min = { "Min", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FBox2D, Min), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_Min_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_Min_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_Min = { "Min", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FBox2D, Min), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_Min_MetaData), Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_Min_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_Max_MetaData[] = {
 		{ "Category", "Box2D" },
@@ -5689,7 +5854,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_Max = { "Max", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FBox2D, Max), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_Max_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_Max_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_Max = { "Max", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FBox2D, Max), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_Max_MetaData), Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_Max_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_bIsValid_MetaData[] = {
 		{ "Category", "Box2D" },
@@ -5701,7 +5866,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 	{
 		((FBox2D*)Obj)->bIsValid = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_bIsValid = { "bIsValid", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FBox2D), &Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_bIsValid_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_bIsValid_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_bIsValid_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_bIsValid = { "bIsValid", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FBox2D), &Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_bIsValid_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_bIsValid_MetaData), Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_bIsValid_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FBox2D_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_Min,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FBox2D_Statics::NewProp_Max,
@@ -5712,14 +5877,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Box2D",
-		sizeof(FBox2D),
-		alignof(FBox2D),
 		Z_Construct_UScriptStruct_FBox2D_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox2D_Statics::PropPointers),
+		sizeof(FBox2D),
+		alignof(FBox2D),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FBox2D_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox2D_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox2D_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FBox2D_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBox2D_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FBox2D()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -5764,7 +5930,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the origin of the bounding box and sphere." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::NewProp_Origin = { "Origin", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FBoxSphereBounds3f, Origin), Z_Construct_UScriptStruct_FVector3f, METADATA_PARAMS(Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::NewProp_Origin_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::NewProp_Origin_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::NewProp_Origin = { "Origin", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FBoxSphereBounds3f, Origin), Z_Construct_UScriptStruct_FVector3f, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::NewProp_Origin_MetaData), Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::NewProp_Origin_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::NewProp_BoxExtent_MetaData[] = {
 		{ "Category", "BoxSphereBounds" },
@@ -5773,7 +5939,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the extent of the bounding box, which is half the size of the box in 3D space" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::NewProp_BoxExtent = { "BoxExtent", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FBoxSphereBounds3f, BoxExtent), Z_Construct_UScriptStruct_FVector3f, METADATA_PARAMS(Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::NewProp_BoxExtent_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::NewProp_BoxExtent_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::NewProp_BoxExtent = { "BoxExtent", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FBoxSphereBounds3f, BoxExtent), Z_Construct_UScriptStruct_FVector3f, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::NewProp_BoxExtent_MetaData), Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::NewProp_BoxExtent_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::NewProp_SphereRadius_MetaData[] = {
 		{ "Category", "BoxSphereBounds" },
@@ -5782,7 +5948,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the radius of the bounding sphere." },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::NewProp_SphereRadius = { "SphereRadius", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FBoxSphereBounds3f, SphereRadius), METADATA_PARAMS(Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::NewProp_SphereRadius_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::NewProp_SphereRadius_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::NewProp_SphereRadius = { "SphereRadius", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FBoxSphereBounds3f, SphereRadius), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::NewProp_SphereRadius_MetaData), Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::NewProp_SphereRadius_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::NewProp_Origin,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::NewProp_BoxExtent,
@@ -5793,14 +5959,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"BoxSphereBounds3f",
-		sizeof(FBoxSphereBounds3f),
-		alignof(FBoxSphereBounds3f),
 		Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::PropPointers),
+		sizeof(FBoxSphereBounds3f),
+		alignof(FBoxSphereBounds3f),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds3f_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FBoxSphereBounds3f()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -5845,7 +6012,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the origin of the bounding box and sphere." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::NewProp_Origin = { "Origin", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FBoxSphereBounds3d, Origin), Z_Construct_UScriptStruct_FVector3d, METADATA_PARAMS(Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::NewProp_Origin_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::NewProp_Origin_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::NewProp_Origin = { "Origin", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FBoxSphereBounds3d, Origin), Z_Construct_UScriptStruct_FVector3d, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::NewProp_Origin_MetaData), Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::NewProp_Origin_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::NewProp_BoxExtent_MetaData[] = {
 		{ "Category", "BoxSphereBounds" },
@@ -5854,7 +6021,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the extent of the bounding box, which is half the size of the box in 3D space" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::NewProp_BoxExtent = { "BoxExtent", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FBoxSphereBounds3d, BoxExtent), Z_Construct_UScriptStruct_FVector3d, METADATA_PARAMS(Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::NewProp_BoxExtent_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::NewProp_BoxExtent_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::NewProp_BoxExtent = { "BoxExtent", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FBoxSphereBounds3d, BoxExtent), Z_Construct_UScriptStruct_FVector3d, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::NewProp_BoxExtent_MetaData), Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::NewProp_BoxExtent_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::NewProp_SphereRadius_MetaData[] = {
 		{ "Category", "BoxSphereBounds" },
@@ -5863,7 +6030,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the radius of the bounding sphere." },
 	};
 #endif
-	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::NewProp_SphereRadius = { "SphereRadius", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FBoxSphereBounds3d, SphereRadius), METADATA_PARAMS(Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::NewProp_SphereRadius_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::NewProp_SphereRadius_MetaData)) };
+	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::NewProp_SphereRadius = { "SphereRadius", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FBoxSphereBounds3d, SphereRadius), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::NewProp_SphereRadius_MetaData), Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::NewProp_SphereRadius_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::NewProp_Origin,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::NewProp_BoxExtent,
@@ -5874,14 +6041,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"BoxSphereBounds3d",
-		sizeof(FBoxSphereBounds3d),
-		alignof(FBoxSphereBounds3d),
 		Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::PropPointers),
+		sizeof(FBoxSphereBounds3d),
+		alignof(FBoxSphereBounds3d),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds3d_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FBoxSphereBounds3d()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -5929,7 +6097,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the origin of the bounding box and sphere." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::NewProp_Origin = { "Origin", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FBoxSphereBounds, Origin), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::NewProp_Origin_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::NewProp_Origin_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::NewProp_Origin = { "Origin", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FBoxSphereBounds, Origin), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::NewProp_Origin_MetaData), Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::NewProp_Origin_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::NewProp_BoxExtent_MetaData[] = {
 		{ "Category", "BoxSphereBounds" },
@@ -5938,7 +6106,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the extent of the bounding box, which is half the size of the box in 3D space" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::NewProp_BoxExtent = { "BoxExtent", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FBoxSphereBounds, BoxExtent), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::NewProp_BoxExtent_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::NewProp_BoxExtent_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::NewProp_BoxExtent = { "BoxExtent", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FBoxSphereBounds, BoxExtent), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::NewProp_BoxExtent_MetaData), Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::NewProp_BoxExtent_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::NewProp_SphereRadius_MetaData[] = {
 		{ "Category", "BoxSphereBounds" },
@@ -5947,7 +6115,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the radius of the bounding sphere." },
 	};
 #endif
-	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::NewProp_SphereRadius = { "SphereRadius", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FBoxSphereBounds, SphereRadius), METADATA_PARAMS(Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::NewProp_SphereRadius_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::NewProp_SphereRadius_MetaData)) };
+	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::NewProp_SphereRadius = { "SphereRadius", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FBoxSphereBounds, SphereRadius), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::NewProp_SphereRadius_MetaData), Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::NewProp_SphereRadius_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::NewProp_Origin,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::NewProp_BoxExtent,
@@ -5958,14 +6126,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"BoxSphereBounds",
-		sizeof(FBoxSphereBounds),
-		alignof(FBoxSphereBounds),
 		Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::PropPointers),
+		sizeof(FBoxSphereBounds),
+		alignof(FBoxSphereBounds),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FBoxSphereBounds_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FBoxSphereBounds()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -6026,7 +6195,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the center of the box." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_Center = { "Center", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FOrientedBox, Center), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_Center_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_Center_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_Center = { "Center", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOrientedBox, Center), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_Center_MetaData), Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_Center_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_AxisX_MetaData[] = {
 		{ "Category", "OrientedBox" },
@@ -6035,7 +6204,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the x-axis vector of the box. Must be a unit vector." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_AxisX = { "AxisX", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FOrientedBox, AxisX), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_AxisX_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_AxisX_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_AxisX = { "AxisX", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOrientedBox, AxisX), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_AxisX_MetaData), Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_AxisX_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_AxisY_MetaData[] = {
 		{ "Category", "OrientedBox" },
@@ -6044,7 +6213,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the y-axis vector of the box. Must be a unit vector." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_AxisY = { "AxisY", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FOrientedBox, AxisY), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_AxisY_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_AxisY_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_AxisY = { "AxisY", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOrientedBox, AxisY), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_AxisY_MetaData), Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_AxisY_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_AxisZ_MetaData[] = {
 		{ "Category", "OrientedBox" },
@@ -6053,7 +6222,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the z-axis vector of the box. Must be a unit vector." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_AxisZ = { "AxisZ", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FOrientedBox, AxisZ), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_AxisZ_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_AxisZ_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_AxisZ = { "AxisZ", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOrientedBox, AxisZ), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_AxisZ_MetaData), Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_AxisZ_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_ExtentX_MetaData[] = {
 		{ "Category", "OrientedBox" },
@@ -6062,7 +6231,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the extent of the box along its x-axis." },
 	};
 #endif
-	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_ExtentX = { "ExtentX", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FOrientedBox, ExtentX), METADATA_PARAMS(Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_ExtentX_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_ExtentX_MetaData)) };
+	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_ExtentX = { "ExtentX", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOrientedBox, ExtentX), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_ExtentX_MetaData), Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_ExtentX_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_ExtentY_MetaData[] = {
 		{ "Category", "OrientedBox" },
@@ -6071,7 +6240,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the extent of the box along its y-axis." },
 	};
 #endif
-	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_ExtentY = { "ExtentY", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FOrientedBox, ExtentY), METADATA_PARAMS(Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_ExtentY_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_ExtentY_MetaData)) };
+	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_ExtentY = { "ExtentY", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOrientedBox, ExtentY), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_ExtentY_MetaData), Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_ExtentY_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_ExtentZ_MetaData[] = {
 		{ "Category", "OrientedBox" },
@@ -6080,7 +6249,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the extent of the box along its z-axis." },
 	};
 #endif
-	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_ExtentZ = { "ExtentZ", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FOrientedBox, ExtentZ), METADATA_PARAMS(Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_ExtentZ_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_ExtentZ_MetaData)) };
+	const UECodeGen_Private::FLargeWorldCoordinatesRealPropertyParams Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_ExtentZ = { "ExtentZ", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::LargeWorldCoordinatesReal, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FOrientedBox, ExtentZ), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_ExtentZ_MetaData), Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_ExtentZ_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FOrientedBox_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_Center,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FOrientedBox_Statics::NewProp_AxisX,
@@ -6095,14 +6264,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"OrientedBox",
-		sizeof(FOrientedBox),
-		alignof(FOrientedBox),
 		Z_Construct_UScriptStruct_FOrientedBox_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrientedBox_Statics::PropPointers),
+		sizeof(FOrientedBox),
+		alignof(FOrientedBox),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FOrientedBox_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrientedBox_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrientedBox_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FOrientedBox_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FOrientedBox_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FOrientedBox()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -6122,6 +6292,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			FPlane4f WPlane;
 		};
 
+		static_assert(sizeof(FMatrix44f) < MAX_uint16);
+		static_assert(alignof(FMatrix44f) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -6159,28 +6331,28 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_XPlane = { "XPlane", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMatrix44f, XPlane), Z_Construct_UScriptStruct_FPlane4f, METADATA_PARAMS(Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_XPlane_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_XPlane_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_XPlane = { "XPlane", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMatrix44f, XPlane), Z_Construct_UScriptStruct_FPlane4f, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_XPlane_MetaData), Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_XPlane_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_YPlane_MetaData[] = {
 		{ "Category", "Matrix" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_YPlane = { "YPlane", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMatrix44f, YPlane), Z_Construct_UScriptStruct_FPlane4f, METADATA_PARAMS(Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_YPlane_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_YPlane_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_YPlane = { "YPlane", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMatrix44f, YPlane), Z_Construct_UScriptStruct_FPlane4f, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_YPlane_MetaData), Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_YPlane_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_ZPlane_MetaData[] = {
 		{ "Category", "Matrix" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_ZPlane = { "ZPlane", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMatrix44f, ZPlane), Z_Construct_UScriptStruct_FPlane4f, METADATA_PARAMS(Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_ZPlane_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_ZPlane_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_ZPlane = { "ZPlane", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMatrix44f, ZPlane), Z_Construct_UScriptStruct_FPlane4f, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_ZPlane_MetaData), Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_ZPlane_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_WPlane_MetaData[] = {
 		{ "Category", "Matrix" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_WPlane = { "WPlane", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMatrix44f, WPlane), Z_Construct_UScriptStruct_FPlane4f, METADATA_PARAMS(Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_WPlane_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_WPlane_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_WPlane = { "WPlane", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMatrix44f, WPlane), Z_Construct_UScriptStruct_FPlane4f, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_WPlane_MetaData), Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_WPlane_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FMatrix44f_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_XPlane,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FMatrix44f_Statics::NewProp_YPlane,
@@ -6192,14 +6364,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Matrix44f",
-		sizeof(FMatrix44f),
-		alignof(FMatrix44f),
 		Z_Construct_UScriptStruct_FMatrix44f_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44f_Statics::PropPointers),
+		sizeof(FMatrix44f),
+		alignof(FMatrix44f),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FMatrix44f_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44f_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44f_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FMatrix44f_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44f_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FMatrix44f()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -6219,6 +6392,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			FPlane4d WPlane;
 		};
 
+		static_assert(sizeof(FMatrix44d) < MAX_uint16);
+		static_assert(alignof(FMatrix44d) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -6254,28 +6429,28 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_XPlane = { "XPlane", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMatrix44d, XPlane), Z_Construct_UScriptStruct_FPlane4d, METADATA_PARAMS(Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_XPlane_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_XPlane_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_XPlane = { "XPlane", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMatrix44d, XPlane), Z_Construct_UScriptStruct_FPlane4d, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_XPlane_MetaData), Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_XPlane_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_YPlane_MetaData[] = {
 		{ "Category", "Matrix" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_YPlane = { "YPlane", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMatrix44d, YPlane), Z_Construct_UScriptStruct_FPlane4d, METADATA_PARAMS(Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_YPlane_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_YPlane_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_YPlane = { "YPlane", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMatrix44d, YPlane), Z_Construct_UScriptStruct_FPlane4d, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_YPlane_MetaData), Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_YPlane_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_ZPlane_MetaData[] = {
 		{ "Category", "Matrix" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_ZPlane = { "ZPlane", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMatrix44d, ZPlane), Z_Construct_UScriptStruct_FPlane4d, METADATA_PARAMS(Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_ZPlane_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_ZPlane_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_ZPlane = { "ZPlane", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMatrix44d, ZPlane), Z_Construct_UScriptStruct_FPlane4d, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_ZPlane_MetaData), Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_ZPlane_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_WPlane_MetaData[] = {
 		{ "Category", "Matrix" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_WPlane = { "WPlane", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMatrix44d, WPlane), Z_Construct_UScriptStruct_FPlane4d, METADATA_PARAMS(Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_WPlane_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_WPlane_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_WPlane = { "WPlane", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMatrix44d, WPlane), Z_Construct_UScriptStruct_FPlane4d, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_WPlane_MetaData), Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_WPlane_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FMatrix44d_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_XPlane,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FMatrix44d_Statics::NewProp_YPlane,
@@ -6287,14 +6462,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Matrix44d",
-		sizeof(FMatrix44d),
-		alignof(FMatrix44d),
 		Z_Construct_UScriptStruct_FMatrix44d_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44d_Statics::PropPointers),
+		sizeof(FMatrix44d),
+		alignof(FMatrix44d),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FMatrix44d_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44d_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44d_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FMatrix44d_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix44d_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FMatrix44d()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -6314,6 +6490,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			FPlane WPlane;
 		};
 
+		static_assert(sizeof(FMatrix) < MAX_uint16);
+		static_assert(alignof(FMatrix) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -6350,28 +6528,28 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_XPlane = { "XPlane", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMatrix, XPlane), Z_Construct_UScriptStruct_FPlane, METADATA_PARAMS(Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_XPlane_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_XPlane_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_XPlane = { "XPlane", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMatrix, XPlane), Z_Construct_UScriptStruct_FPlane, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_XPlane_MetaData), Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_XPlane_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_YPlane_MetaData[] = {
 		{ "Category", "Matrix" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_YPlane = { "YPlane", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMatrix, YPlane), Z_Construct_UScriptStruct_FPlane, METADATA_PARAMS(Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_YPlane_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_YPlane_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_YPlane = { "YPlane", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMatrix, YPlane), Z_Construct_UScriptStruct_FPlane, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_YPlane_MetaData), Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_YPlane_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_ZPlane_MetaData[] = {
 		{ "Category", "Matrix" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_ZPlane = { "ZPlane", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMatrix, ZPlane), Z_Construct_UScriptStruct_FPlane, METADATA_PARAMS(Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_ZPlane_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_ZPlane_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_ZPlane = { "ZPlane", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMatrix, ZPlane), Z_Construct_UScriptStruct_FPlane, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_ZPlane_MetaData), Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_ZPlane_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_WPlane_MetaData[] = {
 		{ "Category", "Matrix" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_WPlane = { "WPlane", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMatrix, WPlane), Z_Construct_UScriptStruct_FPlane, METADATA_PARAMS(Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_WPlane_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_WPlane_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_WPlane = { "WPlane", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMatrix, WPlane), Z_Construct_UScriptStruct_FPlane, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_WPlane_MetaData), Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_WPlane_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FMatrix_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_XPlane,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FMatrix_Statics::NewProp_YPlane,
@@ -6383,14 +6561,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Matrix",
-		sizeof(FMatrix),
-		alignof(FMatrix),
 		Z_Construct_UScriptStruct_FMatrix_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix_Statics::PropPointers),
+		sizeof(FMatrix),
+		alignof(FMatrix),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FMatrix_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FMatrix_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMatrix_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FMatrix()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -6444,7 +6623,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Float input value that corresponds to this key (eg. time)." },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_InVal = { "InVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointFloat, InVal), METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_InVal_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_InVal_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_InVal = { "InVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointFloat, InVal), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_InVal_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_InVal_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_OutVal_MetaData[] = {
 		{ "Category", "InterpCurvePointFloat" },
@@ -6453,7 +6632,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Float output value type when input is equal to InVal." },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_OutVal = { "OutVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointFloat, OutVal), METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_OutVal_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_OutVal_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_OutVal = { "OutVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointFloat, OutVal), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_OutVal_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_OutVal_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_ArriveTangent_MetaData[] = {
 		{ "Category", "InterpCurvePointFloat" },
@@ -6462,7 +6641,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Tangent of curve arriving at this point." },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_ArriveTangent = { "ArriveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointFloat, ArriveTangent), METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_ArriveTangent_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_ArriveTangent_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_ArriveTangent = { "ArriveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointFloat, ArriveTangent), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_ArriveTangent_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_ArriveTangent_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_LeaveTangent_MetaData[] = {
 		{ "Category", "InterpCurvePointFloat" },
@@ -6471,7 +6650,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Tangent of curve leaving this point." },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_LeaveTangent = { "LeaveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointFloat, LeaveTangent), METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_LeaveTangent_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_LeaveTangent_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_LeaveTangent = { "LeaveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointFloat, LeaveTangent), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_LeaveTangent_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_LeaveTangent_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_InterpMode_MetaData[] = {
 		{ "Category", "InterpCurvePointFloat" },
@@ -6480,7 +6659,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Interpolation mode between this point and the next one." },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_InterpMode = { "InterpMode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointFloat, InterpMode), Z_Construct_UEnum_CoreUObject_EInterpCurveMode, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_InterpMode_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_InterpMode_MetaData)) }; // 118599791
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_InterpMode = { "InterpMode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointFloat, InterpMode), Z_Construct_UEnum_CoreUObject_EInterpCurveMode, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_InterpMode_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_InterpMode_MetaData) }; // 2009311595
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_InVal,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::NewProp_OutVal,
@@ -6493,14 +6672,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"InterpCurvePointFloat",
-		sizeof(FInterpCurvePointFloat),
-		alignof(FInterpCurvePointFloat),
 		Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::PropPointers),
+		sizeof(FInterpCurvePointFloat),
+		alignof(FInterpCurvePointFloat),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointFloat_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInterpCurvePointFloat()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -6519,6 +6699,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			float LoopKeyOffset;
 		};
 
+		static_assert(sizeof(FInterpCurveFloat) < MAX_uint16);
+		static_assert(alignof(FInterpCurveFloat) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -6547,7 +6729,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Describes an entire curve that is used to compute a float output value from a float input.\n@note This is a mirror of TInterpCurve<float>, defined in InterpCurve.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_Points_Inner = { "Points", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FInterpCurvePointFloat, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_Points_Inner = { "Points", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FInterpCurvePointFloat, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_Points_MetaData[] = {
 		{ "Category", "InterpCurveFloat" },
@@ -6556,7 +6738,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the collection of interpolation points." },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_Points = { "Points", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurveFloat, Points), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_Points_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_Points_MetaData)) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_Points = { "Points", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurveFloat, Points), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_Points_MetaData), Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_Points_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_bIsLooped_MetaData[] = {
 		{ "Category", "InterpCurveFloat" },
@@ -6569,7 +6751,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 	{
 		((FInterpCurveFloat*)Obj)->bIsLooped = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_bIsLooped = { "bIsLooped", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FInterpCurveFloat), &Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_bIsLooped_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_bIsLooped_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_bIsLooped_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_bIsLooped = { "bIsLooped", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FInterpCurveFloat), &Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_bIsLooped_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_bIsLooped_MetaData), Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_bIsLooped_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_LoopKeyOffset_MetaData[] = {
 		{ "Category", "InterpCurveFloat" },
@@ -6578,7 +6760,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Specify the offset from the last point's input key corresponding to the loop point" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_LoopKeyOffset = { "LoopKeyOffset", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurveFloat, LoopKeyOffset), METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_LoopKeyOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_LoopKeyOffset_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_LoopKeyOffset = { "LoopKeyOffset", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurveFloat, LoopKeyOffset), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_LoopKeyOffset_MetaData), Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_LoopKeyOffset_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_Points_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::NewProp_Points,
@@ -6590,14 +6772,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"InterpCurveFloat",
-		sizeof(FInterpCurveFloat),
-		alignof(FInterpCurveFloat),
 		Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::PropPointers),
+		sizeof(FInterpCurveFloat),
+		alignof(FInterpCurveFloat),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveFloat_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInterpCurveFloat()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -6651,7 +6834,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Float input value that corresponds to this key (eg. time)." },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_InVal = { "InVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointVector2D, InVal), METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_InVal_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_InVal_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_InVal = { "InVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointVector2D, InVal), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_InVal_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_InVal_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_OutVal_MetaData[] = {
 		{ "Category", "InterpCurvePointVector2D" },
@@ -6660,7 +6843,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "2D vector output value of when input is equal to InVal." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_OutVal = { "OutVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointVector2D, OutVal), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_OutVal_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_OutVal_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_OutVal = { "OutVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointVector2D, OutVal), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_OutVal_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_OutVal_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_ArriveTangent_MetaData[] = {
 		{ "Category", "InterpCurvePointVector2D" },
@@ -6669,7 +6852,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Tangent of curve arriving at this point." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_ArriveTangent = { "ArriveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointVector2D, ArriveTangent), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_ArriveTangent_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_ArriveTangent_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_ArriveTangent = { "ArriveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointVector2D, ArriveTangent), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_ArriveTangent_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_ArriveTangent_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_LeaveTangent_MetaData[] = {
 		{ "Category", "InterpCurvePointVector2D" },
@@ -6678,7 +6861,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Tangent of curve leaving this point." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_LeaveTangent = { "LeaveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointVector2D, LeaveTangent), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_LeaveTangent_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_LeaveTangent_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_LeaveTangent = { "LeaveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointVector2D, LeaveTangent), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_LeaveTangent_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_LeaveTangent_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_InterpMode_MetaData[] = {
 		{ "Category", "InterpCurvePointVector2D" },
@@ -6687,7 +6870,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Interpolation mode between this point and the next one." },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_InterpMode = { "InterpMode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointVector2D, InterpMode), Z_Construct_UEnum_CoreUObject_EInterpCurveMode, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_InterpMode_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_InterpMode_MetaData)) }; // 118599791
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_InterpMode = { "InterpMode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointVector2D, InterpMode), Z_Construct_UEnum_CoreUObject_EInterpCurveMode, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_InterpMode_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_InterpMode_MetaData) }; // 2009311595
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_InVal,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::NewProp_OutVal,
@@ -6700,14 +6883,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"InterpCurvePointVector2D",
-		sizeof(FInterpCurvePointVector2D),
-		alignof(FInterpCurvePointVector2D),
 		Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::PropPointers),
+		sizeof(FInterpCurvePointVector2D),
+		alignof(FInterpCurvePointVector2D),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector2D_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInterpCurvePointVector2D()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -6726,6 +6910,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			float LoopKeyOffset;
 		};
 
+		static_assert(sizeof(FInterpCurveVector2D) < MAX_uint16);
+		static_assert(alignof(FInterpCurveVector2D) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -6754,7 +6940,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Describes an entire curve that is used to compute a 2D vector output value from a float input.\n@note This is a mirror of TInterpCurve<FVector2D>, defined in InterpCurve.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_Points_Inner = { "Points", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FInterpCurvePointVector2D, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_Points_Inner = { "Points", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FInterpCurvePointVector2D, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_Points_MetaData[] = {
 		{ "Category", "InterpCurveVector2D" },
@@ -6763,7 +6949,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the collection of interpolation points." },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_Points = { "Points", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurveVector2D, Points), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_Points_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_Points_MetaData)) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_Points = { "Points", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurveVector2D, Points), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_Points_MetaData), Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_Points_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_bIsLooped_MetaData[] = {
 		{ "Category", "InterpCurveVector2D" },
@@ -6776,7 +6962,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 	{
 		((FInterpCurveVector2D*)Obj)->bIsLooped = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_bIsLooped = { "bIsLooped", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FInterpCurveVector2D), &Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_bIsLooped_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_bIsLooped_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_bIsLooped_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_bIsLooped = { "bIsLooped", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FInterpCurveVector2D), &Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_bIsLooped_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_bIsLooped_MetaData), Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_bIsLooped_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_LoopKeyOffset_MetaData[] = {
 		{ "Category", "InterpCurveVector2D" },
@@ -6785,7 +6971,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Specify the offset from the last point's input key corresponding to the loop point" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_LoopKeyOffset = { "LoopKeyOffset", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurveVector2D, LoopKeyOffset), METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_LoopKeyOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_LoopKeyOffset_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_LoopKeyOffset = { "LoopKeyOffset", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurveVector2D, LoopKeyOffset), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_LoopKeyOffset_MetaData), Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_LoopKeyOffset_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_Points_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::NewProp_Points,
@@ -6797,14 +6983,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"InterpCurveVector2D",
-		sizeof(FInterpCurveVector2D),
-		alignof(FInterpCurveVector2D),
 		Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::PropPointers),
+		sizeof(FInterpCurveVector2D),
+		alignof(FInterpCurveVector2D),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveVector2D_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInterpCurveVector2D()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -6858,7 +7045,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Float input value that corresponds to this key (eg. time)." },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_InVal = { "InVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointVector, InVal), METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_InVal_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_InVal_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_InVal = { "InVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointVector, InVal), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_InVal_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_InVal_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_OutVal_MetaData[] = {
 		{ "Category", "InterpCurvePointVector" },
@@ -6867,7 +7054,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "3D vector output value of when input is equal to InVal." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_OutVal = { "OutVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointVector, OutVal), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_OutVal_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_OutVal_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_OutVal = { "OutVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointVector, OutVal), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_OutVal_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_OutVal_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_ArriveTangent_MetaData[] = {
 		{ "Category", "InterpCurvePointVector" },
@@ -6876,7 +7063,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Tangent of curve arriving at this point." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_ArriveTangent = { "ArriveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointVector, ArriveTangent), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_ArriveTangent_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_ArriveTangent_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_ArriveTangent = { "ArriveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointVector, ArriveTangent), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_ArriveTangent_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_ArriveTangent_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_LeaveTangent_MetaData[] = {
 		{ "Category", "InterpCurvePointVector" },
@@ -6885,7 +7072,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Tangent of curve leaving this point." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_LeaveTangent = { "LeaveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointVector, LeaveTangent), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_LeaveTangent_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_LeaveTangent_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_LeaveTangent = { "LeaveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointVector, LeaveTangent), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_LeaveTangent_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_LeaveTangent_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_InterpMode_MetaData[] = {
 		{ "Category", "InterpCurvePointVector" },
@@ -6894,7 +7081,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Interpolation mode between this point and the next one." },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_InterpMode = { "InterpMode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointVector, InterpMode), Z_Construct_UEnum_CoreUObject_EInterpCurveMode, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_InterpMode_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_InterpMode_MetaData)) }; // 118599791
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_InterpMode = { "InterpMode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointVector, InterpMode), Z_Construct_UEnum_CoreUObject_EInterpCurveMode, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_InterpMode_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_InterpMode_MetaData) }; // 2009311595
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_InVal,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::NewProp_OutVal,
@@ -6907,14 +7094,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"InterpCurvePointVector",
-		sizeof(FInterpCurvePointVector),
-		alignof(FInterpCurvePointVector),
 		Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::PropPointers),
+		sizeof(FInterpCurvePointVector),
+		alignof(FInterpCurvePointVector),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointVector_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInterpCurvePointVector()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -6933,6 +7121,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			float LoopKeyOffset;
 		};
 
+		static_assert(sizeof(FInterpCurveVector) < MAX_uint16);
+		static_assert(alignof(FInterpCurveVector) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -6961,7 +7151,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Describes an entire curve that is used to compute a 3D vector output value from a float input.\n@note This is a mirror of TInterpCurve<FVector>, defined in InterpCurve.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_Points_Inner = { "Points", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FInterpCurvePointVector, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_Points_Inner = { "Points", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FInterpCurvePointVector, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_Points_MetaData[] = {
 		{ "Category", "InterpCurveVector" },
@@ -6970,7 +7160,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the collection of interpolation points." },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_Points = { "Points", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurveVector, Points), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_Points_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_Points_MetaData)) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_Points = { "Points", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurveVector, Points), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_Points_MetaData), Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_Points_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_bIsLooped_MetaData[] = {
 		{ "Category", "InterpCurveVector" },
@@ -6983,7 +7173,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 	{
 		((FInterpCurveVector*)Obj)->bIsLooped = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_bIsLooped = { "bIsLooped", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FInterpCurveVector), &Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_bIsLooped_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_bIsLooped_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_bIsLooped_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_bIsLooped = { "bIsLooped", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FInterpCurveVector), &Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_bIsLooped_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_bIsLooped_MetaData), Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_bIsLooped_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_LoopKeyOffset_MetaData[] = {
 		{ "Category", "InterpCurveVector" },
@@ -6992,7 +7182,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Specify the offset from the last point's input key corresponding to the loop point" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_LoopKeyOffset = { "LoopKeyOffset", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurveVector, LoopKeyOffset), METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_LoopKeyOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_LoopKeyOffset_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_LoopKeyOffset = { "LoopKeyOffset", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurveVector, LoopKeyOffset), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_LoopKeyOffset_MetaData), Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_LoopKeyOffset_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInterpCurveVector_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_Points_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurveVector_Statics::NewProp_Points,
@@ -7004,14 +7194,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"InterpCurveVector",
-		sizeof(FInterpCurveVector),
-		alignof(FInterpCurveVector),
 		Z_Construct_UScriptStruct_FInterpCurveVector_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveVector_Statics::PropPointers),
+		sizeof(FInterpCurveVector),
+		alignof(FInterpCurveVector),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveVector_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveVector_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveVector_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInterpCurveVector_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveVector_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInterpCurveVector()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -7065,7 +7256,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Float input value that corresponds to this key (eg. time)." },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_InVal = { "InVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointQuat, InVal), METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_InVal_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_InVal_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_InVal = { "InVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointQuat, InVal), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_InVal_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_InVal_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_OutVal_MetaData[] = {
 		{ "Category", "InterpCurvePointQuat" },
@@ -7074,7 +7265,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Quaternion output value of when input is equal to InVal." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_OutVal = { "OutVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointQuat, OutVal), Z_Construct_UScriptStruct_FQuat, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_OutVal_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_OutVal_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_OutVal = { "OutVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointQuat, OutVal), Z_Construct_UScriptStruct_FQuat, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_OutVal_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_OutVal_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_ArriveTangent_MetaData[] = {
 		{ "Category", "InterpCurvePointQuat" },
@@ -7083,7 +7274,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Tangent of curve arriving at this point." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_ArriveTangent = { "ArriveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointQuat, ArriveTangent), Z_Construct_UScriptStruct_FQuat, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_ArriveTangent_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_ArriveTangent_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_ArriveTangent = { "ArriveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointQuat, ArriveTangent), Z_Construct_UScriptStruct_FQuat, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_ArriveTangent_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_ArriveTangent_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_LeaveTangent_MetaData[] = {
 		{ "Category", "InterpCurvePointQuat" },
@@ -7092,7 +7283,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Tangent of curve leaving this point." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_LeaveTangent = { "LeaveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointQuat, LeaveTangent), Z_Construct_UScriptStruct_FQuat, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_LeaveTangent_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_LeaveTangent_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_LeaveTangent = { "LeaveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointQuat, LeaveTangent), Z_Construct_UScriptStruct_FQuat, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_LeaveTangent_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_LeaveTangent_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_InterpMode_MetaData[] = {
 		{ "Category", "InterpCurvePointQuat" },
@@ -7101,7 +7292,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Interpolation mode between this point and the next one." },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_InterpMode = { "InterpMode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointQuat, InterpMode), Z_Construct_UEnum_CoreUObject_EInterpCurveMode, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_InterpMode_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_InterpMode_MetaData)) }; // 118599791
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_InterpMode = { "InterpMode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointQuat, InterpMode), Z_Construct_UEnum_CoreUObject_EInterpCurveMode, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_InterpMode_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_InterpMode_MetaData) }; // 2009311595
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_InVal,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::NewProp_OutVal,
@@ -7114,14 +7305,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"InterpCurvePointQuat",
-		sizeof(FInterpCurvePointQuat),
-		alignof(FInterpCurvePointQuat),
 		Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::PropPointers),
+		sizeof(FInterpCurvePointQuat),
+		alignof(FInterpCurvePointQuat),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointQuat_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInterpCurvePointQuat()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -7140,6 +7332,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			float LoopKeyOffset;
 		};
 
+		static_assert(sizeof(FInterpCurveQuat) < MAX_uint16);
+		static_assert(alignof(FInterpCurveQuat) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -7168,7 +7362,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Describes an entire curve that is used to compute a quaternion output value from a float input.\n@note This is a mirror of TInterpCurve<FQuat>, defined in InterpCurve.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_Points_Inner = { "Points", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FInterpCurvePointQuat, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_Points_Inner = { "Points", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FInterpCurvePointQuat, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_Points_MetaData[] = {
 		{ "Category", "InterpCurveQuat" },
@@ -7177,7 +7371,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the collection of interpolation points." },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_Points = { "Points", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurveQuat, Points), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_Points_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_Points_MetaData)) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_Points = { "Points", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurveQuat, Points), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_Points_MetaData), Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_Points_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_bIsLooped_MetaData[] = {
 		{ "Category", "InterpCurveQuat" },
@@ -7190,7 +7384,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 	{
 		((FInterpCurveQuat*)Obj)->bIsLooped = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_bIsLooped = { "bIsLooped", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FInterpCurveQuat), &Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_bIsLooped_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_bIsLooped_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_bIsLooped_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_bIsLooped = { "bIsLooped", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FInterpCurveQuat), &Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_bIsLooped_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_bIsLooped_MetaData), Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_bIsLooped_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_LoopKeyOffset_MetaData[] = {
 		{ "Category", "InterpCurveQuat" },
@@ -7199,7 +7393,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Specify the offset from the last point's input key corresponding to the loop point" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_LoopKeyOffset = { "LoopKeyOffset", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurveQuat, LoopKeyOffset), METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_LoopKeyOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_LoopKeyOffset_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_LoopKeyOffset = { "LoopKeyOffset", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurveQuat, LoopKeyOffset), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_LoopKeyOffset_MetaData), Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_LoopKeyOffset_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_Points_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::NewProp_Points,
@@ -7211,14 +7405,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"InterpCurveQuat",
-		sizeof(FInterpCurveQuat),
-		alignof(FInterpCurveQuat),
 		Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::PropPointers),
+		sizeof(FInterpCurveQuat),
+		alignof(FInterpCurveQuat),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveQuat_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInterpCurveQuat()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -7272,7 +7467,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Float input value that corresponds to this key (eg. time)." },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_InVal = { "InVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointTwoVectors, InVal), METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_InVal_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_InVal_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_InVal = { "InVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointTwoVectors, InVal), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_InVal_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_InVal_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_OutVal_MetaData[] = {
 		{ "Category", "InterpCurvePointTwoVectors" },
@@ -7281,7 +7476,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Two 3D vectors output value of when input is equal to InVal." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_OutVal = { "OutVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointTwoVectors, OutVal), Z_Construct_UScriptStruct_FTwoVectors, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_OutVal_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_OutVal_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_OutVal = { "OutVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointTwoVectors, OutVal), Z_Construct_UScriptStruct_FTwoVectors, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_OutVal_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_OutVal_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_ArriveTangent_MetaData[] = {
 		{ "Category", "InterpCurvePointTwoVectors" },
@@ -7290,7 +7485,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Tangent of curve arriving at this point." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_ArriveTangent = { "ArriveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointTwoVectors, ArriveTangent), Z_Construct_UScriptStruct_FTwoVectors, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_ArriveTangent_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_ArriveTangent_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_ArriveTangent = { "ArriveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointTwoVectors, ArriveTangent), Z_Construct_UScriptStruct_FTwoVectors, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_ArriveTangent_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_ArriveTangent_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_LeaveTangent_MetaData[] = {
 		{ "Category", "InterpCurvePointTwoVectors" },
@@ -7299,7 +7494,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Tangent of curve leaving this point." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_LeaveTangent = { "LeaveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointTwoVectors, LeaveTangent), Z_Construct_UScriptStruct_FTwoVectors, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_LeaveTangent_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_LeaveTangent_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_LeaveTangent = { "LeaveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointTwoVectors, LeaveTangent), Z_Construct_UScriptStruct_FTwoVectors, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_LeaveTangent_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_LeaveTangent_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_InterpMode_MetaData[] = {
 		{ "Category", "InterpCurvePointTwoVectors" },
@@ -7308,7 +7503,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Interpolation mode between this point and the next one." },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_InterpMode = { "InterpMode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointTwoVectors, InterpMode), Z_Construct_UEnum_CoreUObject_EInterpCurveMode, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_InterpMode_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_InterpMode_MetaData)) }; // 118599791
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_InterpMode = { "InterpMode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointTwoVectors, InterpMode), Z_Construct_UEnum_CoreUObject_EInterpCurveMode, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_InterpMode_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_InterpMode_MetaData) }; // 2009311595
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_InVal,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::NewProp_OutVal,
@@ -7321,14 +7516,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"InterpCurvePointTwoVectors",
-		sizeof(FInterpCurvePointTwoVectors),
-		alignof(FInterpCurvePointTwoVectors),
 		Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::PropPointers),
+		sizeof(FInterpCurvePointTwoVectors),
+		alignof(FInterpCurvePointTwoVectors),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -7347,6 +7543,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			float LoopKeyOffset;
 		};
 
+		static_assert(sizeof(FInterpCurveTwoVectors) < MAX_uint16);
+		static_assert(alignof(FInterpCurveTwoVectors) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -7375,7 +7573,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Describes an entire curve that is used to compute two 3D vector values from a float input.\n@note This is a mirror of TInterpCurve<FTwoVectors>, defined in InterpCurve.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_Points_Inner = { "Points", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_Points_Inner = { "Points", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FInterpCurvePointTwoVectors, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_Points_MetaData[] = {
 		{ "Category", "InterpCurveTwoVectors" },
@@ -7384,7 +7582,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the collection of interpolation points." },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_Points = { "Points", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurveTwoVectors, Points), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_Points_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_Points_MetaData)) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_Points = { "Points", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurveTwoVectors, Points), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_Points_MetaData), Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_Points_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_bIsLooped_MetaData[] = {
 		{ "Category", "InterpCurveTwoVectors" },
@@ -7397,7 +7595,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 	{
 		((FInterpCurveTwoVectors*)Obj)->bIsLooped = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_bIsLooped = { "bIsLooped", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FInterpCurveTwoVectors), &Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_bIsLooped_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_bIsLooped_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_bIsLooped_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_bIsLooped = { "bIsLooped", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FInterpCurveTwoVectors), &Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_bIsLooped_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_bIsLooped_MetaData), Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_bIsLooped_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_LoopKeyOffset_MetaData[] = {
 		{ "Category", "InterpCurveTwoVectors" },
@@ -7406,7 +7604,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Specify the offset from the last point's input key corresponding to the loop point" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_LoopKeyOffset = { "LoopKeyOffset", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurveTwoVectors, LoopKeyOffset), METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_LoopKeyOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_LoopKeyOffset_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_LoopKeyOffset = { "LoopKeyOffset", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurveTwoVectors, LoopKeyOffset), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_LoopKeyOffset_MetaData), Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_LoopKeyOffset_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_Points_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::NewProp_Points,
@@ -7418,14 +7616,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"InterpCurveTwoVectors",
-		sizeof(FInterpCurveTwoVectors),
-		alignof(FInterpCurveTwoVectors),
 		Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::PropPointers),
+		sizeof(FInterpCurveTwoVectors),
+		alignof(FInterpCurveTwoVectors),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveTwoVectors_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInterpCurveTwoVectors()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -7479,7 +7678,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Float input value that corresponds to this key (eg. time)." },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_InVal = { "InVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointLinearColor, InVal), METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_InVal_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_InVal_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_InVal = { "InVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointLinearColor, InVal), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_InVal_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_InVal_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_OutVal_MetaData[] = {
 		{ "Category", "InterpCurvePointLinearColor" },
@@ -7488,7 +7687,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Color output value of when input is equal to InVal." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_OutVal = { "OutVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointLinearColor, OutVal), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_OutVal_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_OutVal_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_OutVal = { "OutVal", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointLinearColor, OutVal), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_OutVal_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_OutVal_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_ArriveTangent_MetaData[] = {
 		{ "Category", "InterpCurvePointLinearColor" },
@@ -7497,7 +7696,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Tangent of curve arriving at this point." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_ArriveTangent = { "ArriveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointLinearColor, ArriveTangent), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_ArriveTangent_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_ArriveTangent_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_ArriveTangent = { "ArriveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointLinearColor, ArriveTangent), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_ArriveTangent_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_ArriveTangent_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_LeaveTangent_MetaData[] = {
 		{ "Category", "InterpCurvePointLinearColor" },
@@ -7506,7 +7705,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Tangent of curve leaving this point." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_LeaveTangent = { "LeaveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointLinearColor, LeaveTangent), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_LeaveTangent_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_LeaveTangent_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_LeaveTangent = { "LeaveTangent", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointLinearColor, LeaveTangent), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_LeaveTangent_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_LeaveTangent_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_InterpMode_MetaData[] = {
 		{ "Category", "InterpCurvePointLinearColor" },
@@ -7515,7 +7714,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Interpolation mode between this point and the next one." },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_InterpMode = { "InterpMode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurvePointLinearColor, InterpMode), Z_Construct_UEnum_CoreUObject_EInterpCurveMode, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_InterpMode_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_InterpMode_MetaData)) }; // 118599791
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_InterpMode = { "InterpMode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurvePointLinearColor, InterpMode), Z_Construct_UEnum_CoreUObject_EInterpCurveMode, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_InterpMode_MetaData), Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_InterpMode_MetaData) }; // 2009311595
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_InVal,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::NewProp_OutVal,
@@ -7528,14 +7727,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"InterpCurvePointLinearColor",
-		sizeof(FInterpCurvePointLinearColor),
-		alignof(FInterpCurvePointLinearColor),
 		Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::PropPointers),
+		sizeof(FInterpCurvePointLinearColor),
+		alignof(FInterpCurvePointLinearColor),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurvePointLinearColor_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInterpCurvePointLinearColor()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -7554,6 +7754,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			float LoopKeyOffset;
 		};
 
+		static_assert(sizeof(FInterpCurveLinearColor) < MAX_uint16);
+		static_assert(alignof(FInterpCurveLinearColor) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -7582,7 +7784,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Describes an entire curve that is used to compute a color output value from a float input.\n@note This is a mirror of TInterpCurve<FLinearColor>, defined in InterpCurve.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_Points_Inner = { "Points", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FInterpCurvePointLinearColor, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_Points_Inner = { "Points", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FInterpCurvePointLinearColor, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_Points_MetaData[] = {
 		{ "Category", "InterpCurveLinearColor" },
@@ -7591,7 +7793,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the collection of interpolation points." },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_Points = { "Points", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurveLinearColor, Points), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_Points_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_Points_MetaData)) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_Points = { "Points", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurveLinearColor, Points), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_Points_MetaData), Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_Points_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_bIsLooped_MetaData[] = {
 		{ "Category", "InterpCurveLinearColor" },
@@ -7604,7 +7806,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 	{
 		((FInterpCurveLinearColor*)Obj)->bIsLooped = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_bIsLooped = { "bIsLooped", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FInterpCurveLinearColor), &Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_bIsLooped_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_bIsLooped_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_bIsLooped_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_bIsLooped = { "bIsLooped", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FInterpCurveLinearColor), &Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_bIsLooped_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_bIsLooped_MetaData), Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_bIsLooped_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_LoopKeyOffset_MetaData[] = {
 		{ "Category", "InterpCurveLinearColor" },
@@ -7613,7 +7815,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Specify the offset from the last point's input key corresponding to the loop point" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_LoopKeyOffset = { "LoopKeyOffset", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInterpCurveLinearColor, LoopKeyOffset), METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_LoopKeyOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_LoopKeyOffset_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_LoopKeyOffset = { "LoopKeyOffset", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInterpCurveLinearColor, LoopKeyOffset), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_LoopKeyOffset_MetaData), Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_LoopKeyOffset_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_Points_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::NewProp_Points,
@@ -7625,14 +7827,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"InterpCurveLinearColor",
-		sizeof(FInterpCurveLinearColor),
-		alignof(FInterpCurveLinearColor),
 		Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::PropPointers),
+		sizeof(FInterpCurveLinearColor),
+		alignof(FInterpCurveLinearColor),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInterpCurveLinearColor_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInterpCurveLinearColor()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -7667,7 +7870,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "BlueprintInternalUseOnly", "true" },
 		{ "BlueprintType", "true" },
 		{ "Comment", "/**\n * Transform composed of Quat/Translation/Scale.\n * @note This is implemented in either TransformVectorized.h or TransformNonVectorized.h depending on the platform.\n */" },
+		{ "HasNativeBreak", "/Script/Engine.KismetMathLibrary.BreakTransform" },
+		{ "HasNativeMake", "/Script/Engine.KismetMathLibrary.MakeTransform" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
+		{ "ScriptDefaultBreak", "" },
+		{ "ScriptDefaultMake", "" },
 		{ "ToolTip", "Transform composed of Quat/Translation/Scale.\n@note This is implemented in either TransformVectorized.h or TransformNonVectorized.h depending on the platform." },
 	};
 #endif
@@ -7679,7 +7886,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Rotation of this transformation, as a quaternion." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTransform3f_Statics::NewProp_Rotation = { "Rotation", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTransform3f, Rotation), Z_Construct_UScriptStruct_FQuat4f, METADATA_PARAMS(Z_Construct_UScriptStruct_FTransform3f_Statics::NewProp_Rotation_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform3f_Statics::NewProp_Rotation_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTransform3f_Statics::NewProp_Rotation = { "Rotation", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTransform3f, Rotation), Z_Construct_UScriptStruct_FQuat4f, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform3f_Statics::NewProp_Rotation_MetaData), Z_Construct_UScriptStruct_FTransform3f_Statics::NewProp_Rotation_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTransform3f_Statics::NewProp_Translation_MetaData[] = {
 		{ "Category", "Transform" },
@@ -7688,7 +7895,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Translation of this transformation, as a vector." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTransform3f_Statics::NewProp_Translation = { "Translation", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTransform3f, Translation), Z_Construct_UScriptStruct_FVector3f, METADATA_PARAMS(Z_Construct_UScriptStruct_FTransform3f_Statics::NewProp_Translation_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform3f_Statics::NewProp_Translation_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTransform3f_Statics::NewProp_Translation = { "Translation", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTransform3f, Translation), Z_Construct_UScriptStruct_FVector3f, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform3f_Statics::NewProp_Translation_MetaData), Z_Construct_UScriptStruct_FTransform3f_Statics::NewProp_Translation_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTransform3f_Statics::NewProp_Scale3D_MetaData[] = {
 		{ "Category", "Transform" },
@@ -7697,7 +7904,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "3D scale (always applied in local space) as a vector." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTransform3f_Statics::NewProp_Scale3D = { "Scale3D", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTransform3f, Scale3D), Z_Construct_UScriptStruct_FVector3f, METADATA_PARAMS(Z_Construct_UScriptStruct_FTransform3f_Statics::NewProp_Scale3D_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform3f_Statics::NewProp_Scale3D_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTransform3f_Statics::NewProp_Scale3D = { "Scale3D", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTransform3f, Scale3D), Z_Construct_UScriptStruct_FVector3f, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform3f_Statics::NewProp_Scale3D_MetaData), Z_Construct_UScriptStruct_FTransform3f_Statics::NewProp_Scale3D_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTransform3f_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTransform3f_Statics::NewProp_Rotation,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTransform3f_Statics::NewProp_Translation,
@@ -7708,14 +7915,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Transform3f",
-		sizeof(FTransform3f),
-		alignof(FTransform3f),
 		Z_Construct_UScriptStruct_FTransform3f_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform3f_Statics::PropPointers),
+		sizeof(FTransform3f),
+		alignof(FTransform3f),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FTransform3f_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform3f_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform3f_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FTransform3f_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform3f_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FTransform3f()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -7760,7 +7968,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Rotation of this transformation, as a quaternion." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTransform3d_Statics::NewProp_Rotation = { "Rotation", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTransform3d, Rotation), Z_Construct_UScriptStruct_FQuat4d, METADATA_PARAMS(Z_Construct_UScriptStruct_FTransform3d_Statics::NewProp_Rotation_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform3d_Statics::NewProp_Rotation_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTransform3d_Statics::NewProp_Rotation = { "Rotation", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTransform3d, Rotation), Z_Construct_UScriptStruct_FQuat4d, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform3d_Statics::NewProp_Rotation_MetaData), Z_Construct_UScriptStruct_FTransform3d_Statics::NewProp_Rotation_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTransform3d_Statics::NewProp_Translation_MetaData[] = {
 		{ "Category", "Transform" },
@@ -7769,7 +7977,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Translation of this transformation, as a vector." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTransform3d_Statics::NewProp_Translation = { "Translation", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTransform3d, Translation), Z_Construct_UScriptStruct_FVector3d, METADATA_PARAMS(Z_Construct_UScriptStruct_FTransform3d_Statics::NewProp_Translation_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform3d_Statics::NewProp_Translation_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTransform3d_Statics::NewProp_Translation = { "Translation", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTransform3d, Translation), Z_Construct_UScriptStruct_FVector3d, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform3d_Statics::NewProp_Translation_MetaData), Z_Construct_UScriptStruct_FTransform3d_Statics::NewProp_Translation_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTransform3d_Statics::NewProp_Scale3D_MetaData[] = {
 		{ "Category", "Transform" },
@@ -7778,7 +7986,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "3D scale (always applied in local space) as a vector." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTransform3d_Statics::NewProp_Scale3D = { "Scale3D", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTransform3d, Scale3D), Z_Construct_UScriptStruct_FVector3d, METADATA_PARAMS(Z_Construct_UScriptStruct_FTransform3d_Statics::NewProp_Scale3D_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform3d_Statics::NewProp_Scale3D_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTransform3d_Statics::NewProp_Scale3D = { "Scale3D", nullptr, (EPropertyFlags)0x0010000001000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTransform3d, Scale3D), Z_Construct_UScriptStruct_FVector3d, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform3d_Statics::NewProp_Scale3D_MetaData), Z_Construct_UScriptStruct_FTransform3d_Statics::NewProp_Scale3D_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTransform3d_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTransform3d_Statics::NewProp_Rotation,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTransform3d_Statics::NewProp_Translation,
@@ -7789,14 +7997,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Transform3d",
-		sizeof(FTransform3d),
-		alignof(FTransform3d),
 		Z_Construct_UScriptStruct_FTransform3d_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform3d_Statics::PropPointers),
+		sizeof(FTransform3d),
+		alignof(FTransform3d),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FTransform3d_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform3d_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform3d_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FTransform3d_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform3d_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FTransform3d()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -7844,7 +8053,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Rotation of this transformation, as a quaternion." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTransform_Statics::NewProp_Rotation = { "Rotation", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTransform, Rotation), Z_Construct_UScriptStruct_FQuat, METADATA_PARAMS(Z_Construct_UScriptStruct_FTransform_Statics::NewProp_Rotation_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform_Statics::NewProp_Rotation_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTransform_Statics::NewProp_Rotation = { "Rotation", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTransform, Rotation), Z_Construct_UScriptStruct_FQuat, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform_Statics::NewProp_Rotation_MetaData), Z_Construct_UScriptStruct_FTransform_Statics::NewProp_Rotation_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTransform_Statics::NewProp_Translation_MetaData[] = {
 		{ "Category", "Transform" },
@@ -7853,7 +8062,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Translation of this transformation, as a vector." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTransform_Statics::NewProp_Translation = { "Translation", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTransform, Translation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTransform_Statics::NewProp_Translation_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform_Statics::NewProp_Translation_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTransform_Statics::NewProp_Translation = { "Translation", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTransform, Translation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform_Statics::NewProp_Translation_MetaData), Z_Construct_UScriptStruct_FTransform_Statics::NewProp_Translation_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTransform_Statics::NewProp_Scale3D_MetaData[] = {
 		{ "Category", "Transform" },
@@ -7862,7 +8071,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "3D scale (always applied in local space) as a vector." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTransform_Statics::NewProp_Scale3D = { "Scale3D", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTransform, Scale3D), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FTransform_Statics::NewProp_Scale3D_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform_Statics::NewProp_Scale3D_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTransform_Statics::NewProp_Scale3D = { "Scale3D", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTransform, Scale3D), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform_Statics::NewProp_Scale3D_MetaData), Z_Construct_UScriptStruct_FTransform_Statics::NewProp_Scale3D_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTransform_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTransform_Statics::NewProp_Rotation,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTransform_Statics::NewProp_Translation,
@@ -7873,14 +8082,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Transform",
-		sizeof(FTransform),
-		alignof(FTransform),
 		Z_Construct_UScriptStruct_FTransform_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform_Statics::PropPointers),
+		sizeof(FTransform),
+		alignof(FTransform),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FTransform_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FTransform_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTransform_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FTransform()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -7924,7 +8134,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the initial seed." },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FRandomStream_Statics::NewProp_InitialSeed = { "InitialSeed", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRandomStream, InitialSeed), METADATA_PARAMS(Z_Construct_UScriptStruct_FRandomStream_Statics::NewProp_InitialSeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRandomStream_Statics::NewProp_InitialSeed_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FRandomStream_Statics::NewProp_InitialSeed = { "InitialSeed", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRandomStream, InitialSeed), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRandomStream_Statics::NewProp_InitialSeed_MetaData), Z_Construct_UScriptStruct_FRandomStream_Statics::NewProp_InitialSeed_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRandomStream_Statics::NewProp_Seed_MetaData[] = {
 		{ "Comment", "/** Holds the current seed. */" },
@@ -7932,7 +8142,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the current seed." },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FRandomStream_Statics::NewProp_Seed = { "Seed", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRandomStream, Seed), METADATA_PARAMS(Z_Construct_UScriptStruct_FRandomStream_Statics::NewProp_Seed_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRandomStream_Statics::NewProp_Seed_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FRandomStream_Statics::NewProp_Seed = { "Seed", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRandomStream, Seed), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRandomStream_Statics::NewProp_Seed_MetaData), Z_Construct_UScriptStruct_FRandomStream_Statics::NewProp_Seed_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FRandomStream_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRandomStream_Statics::NewProp_InitialSeed,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRandomStream_Statics::NewProp_Seed,
@@ -7942,14 +8152,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"RandomStream",
-		sizeof(FRandomStream),
-		alignof(FRandomStream),
 		Z_Construct_UScriptStruct_FRandomStream_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRandomStream_Statics::PropPointers),
+		sizeof(FRandomStream),
+		alignof(FRandomStream),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FRandomStream_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRandomStream_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRandomStream_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FRandomStream_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRandomStream_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FRandomStream()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -7981,13 +8192,13 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"DateTime",
-		sizeof(FDateTime),
-		alignof(FDateTime),
 		nullptr,
 		0,
+		sizeof(FDateTime),
+		alignof(FDateTime),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FDateTime_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDateTime_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDateTime_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FDateTime_Statics::Struct_MetaDataParams)
 	};
 	UScriptStruct* Z_Construct_UScriptStruct_FDateTime()
 	{
@@ -8024,7 +8235,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FFrameNumber_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFrameNumber, Value), METADATA_PARAMS(Z_Construct_UScriptStruct_FFrameNumber_Statics::NewProp_Value_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameNumber_Statics::NewProp_Value_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FFrameNumber_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFrameNumber, Value), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameNumber_Statics::NewProp_Value_MetaData), Z_Construct_UScriptStruct_FFrameNumber_Statics::NewProp_Value_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FFrameNumber_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFrameNumber_Statics::NewProp_Value,
 	};
@@ -8033,14 +8244,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"FrameNumber",
-		sizeof(FFrameNumber),
-		alignof(FFrameNumber),
 		Z_Construct_UScriptStruct_FFrameNumber_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameNumber_Statics::PropPointers),
+		sizeof(FFrameNumber),
+		alignof(FFrameNumber),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FFrameNumber_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameNumber_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameNumber_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FFrameNumber_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameNumber_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FFrameNumber()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -8058,6 +8270,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			int32 Denominator;
 		};
 
+		static_assert(sizeof(FFrameRate) < MAX_uint16);
+		static_assert(alignof(FFrameRate) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -8090,7 +8304,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The numerator of the framerate represented as a number of frames per second (e.g. 60 for 60 fps)" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FFrameRate_Statics::NewProp_Numerator = { "Numerator", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFrameRate, Numerator), METADATA_PARAMS(Z_Construct_UScriptStruct_FFrameRate_Statics::NewProp_Numerator_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameRate_Statics::NewProp_Numerator_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FFrameRate_Statics::NewProp_Numerator = { "Numerator", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFrameRate, Numerator), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameRate_Statics::NewProp_Numerator_MetaData), Z_Construct_UScriptStruct_FFrameRate_Statics::NewProp_Numerator_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFrameRate_Statics::NewProp_Denominator_MetaData[] = {
 		{ "Category", "FrameRate" },
@@ -8099,7 +8313,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The denominator of the framerate represented as a number of frames per second (e.g. 1 for 60 fps)" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FFrameRate_Statics::NewProp_Denominator = { "Denominator", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFrameRate, Denominator), METADATA_PARAMS(Z_Construct_UScriptStruct_FFrameRate_Statics::NewProp_Denominator_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameRate_Statics::NewProp_Denominator_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FFrameRate_Statics::NewProp_Denominator = { "Denominator", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFrameRate, Denominator), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameRate_Statics::NewProp_Denominator_MetaData), Z_Construct_UScriptStruct_FFrameRate_Statics::NewProp_Denominator_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FFrameRate_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFrameRate_Statics::NewProp_Numerator,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFrameRate_Statics::NewProp_Denominator,
@@ -8109,14 +8323,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"FrameRate",
-		sizeof(FFrameRate),
-		alignof(FFrameRate),
 		Z_Construct_UScriptStruct_FFrameRate_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameRate_Statics::PropPointers),
+		sizeof(FFrameRate),
+		alignof(FFrameRate),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FFrameRate_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameRate_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameRate_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FFrameRate_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameRate_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FFrameRate()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -8134,6 +8349,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			float SubFrame;
 		};
 
+		static_assert(sizeof(FFrameTime) < MAX_uint16);
+		static_assert(alignof(FFrameTime) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -8164,7 +8381,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Count of frames from start of timing" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FFrameTime_Statics::NewProp_FrameNumber = { "FrameNumber", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFrameTime, FrameNumber), Z_Construct_UScriptStruct_FFrameNumber, METADATA_PARAMS(Z_Construct_UScriptStruct_FFrameTime_Statics::NewProp_FrameNumber_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameTime_Statics::NewProp_FrameNumber_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FFrameTime_Statics::NewProp_FrameNumber = { "FrameNumber", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFrameTime, FrameNumber), Z_Construct_UScriptStruct_FFrameNumber, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameTime_Statics::NewProp_FrameNumber_MetaData), Z_Construct_UScriptStruct_FFrameTime_Statics::NewProp_FrameNumber_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFrameTime_Statics::NewProp_SubFrame_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -8174,7 +8391,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Time within a frame, always between >= 0 and < 1" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FFrameTime_Statics::NewProp_SubFrame = { "SubFrame", nullptr, (EPropertyFlags)0x0040000000000004, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFrameTime, SubFrame), METADATA_PARAMS(Z_Construct_UScriptStruct_FFrameTime_Statics::NewProp_SubFrame_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameTime_Statics::NewProp_SubFrame_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FFrameTime_Statics::NewProp_SubFrame = { "SubFrame", nullptr, (EPropertyFlags)0x0040000000000004, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFrameTime, SubFrame), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameTime_Statics::NewProp_SubFrame_MetaData), Z_Construct_UScriptStruct_FFrameTime_Statics::NewProp_SubFrame_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FFrameTime_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFrameTime_Statics::NewProp_FrameNumber,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFrameTime_Statics::NewProp_SubFrame,
@@ -8184,14 +8401,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"FrameTime",
-		sizeof(FFrameTime),
-		alignof(FFrameTime),
 		Z_Construct_UScriptStruct_FFrameTime_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameTime_Statics::PropPointers),
+		sizeof(FFrameTime),
+		alignof(FFrameTime),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FFrameTime_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameTime_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameTime_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FFrameTime_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameTime_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FFrameTime()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -8209,18 +8427,24 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			int32 Denominator;
 		};
 
+		static_assert(sizeof(FFrameRate) < MAX_uint16);
+		static_assert(alignof(FFrameRate) < MAX_uint8);
 		struct FFrameTime
 		{
 			FFrameNumber FrameNumber;
 			float SubFrame;
 		};
 
+		static_assert(sizeof(FFrameTime) < MAX_uint16);
+		static_assert(alignof(FFrameTime) < MAX_uint8);
 		struct FQualifiedFrameTime
 		{
 			FFrameTime Time;
 			FFrameRate Rate;
 		};
 
+		static_assert(sizeof(FQualifiedFrameTime) < MAX_uint16);
+		static_assert(alignof(FQualifiedFrameTime) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -8254,7 +8478,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The frame time" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::NewProp_Time = { "Time", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FQualifiedFrameTime, Time), Z_Construct_UScriptStruct_FFrameTime, METADATA_PARAMS(Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::NewProp_Time_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::NewProp_Time_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::NewProp_Time = { "Time", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FQualifiedFrameTime, Time), Z_Construct_UScriptStruct_FFrameTime, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::NewProp_Time_MetaData), Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::NewProp_Time_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::NewProp_Rate_MetaData[] = {
 		{ "Category", "QualifiedFrameTime" },
@@ -8263,7 +8487,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The rate that this frame time is in" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::NewProp_Rate = { "Rate", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FQualifiedFrameTime, Rate), Z_Construct_UScriptStruct_FFrameRate, METADATA_PARAMS(Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::NewProp_Rate_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::NewProp_Rate_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::NewProp_Rate = { "Rate", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FQualifiedFrameTime, Rate), Z_Construct_UScriptStruct_FFrameRate, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::NewProp_Rate_MetaData), Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::NewProp_Rate_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::NewProp_Time,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::NewProp_Rate,
@@ -8273,14 +8497,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"QualifiedFrameTime",
-		sizeof(FQualifiedFrameTime),
-		alignof(FQualifiedFrameTime),
 		Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::PropPointers),
+		sizeof(FQualifiedFrameTime),
+		alignof(FQualifiedFrameTime),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FQualifiedFrameTime_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FQualifiedFrameTime()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -8301,6 +8526,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			bool bDropFrameFormat;
 		};
 
+		static_assert(sizeof(FTimecode) < MAX_uint16);
+		static_assert(alignof(FTimecode) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -8342,28 +8569,28 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Hours = { "Hours", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTimecode, Hours), METADATA_PARAMS(Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Hours_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Hours_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Hours = { "Hours", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTimecode, Hours), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Hours_MetaData), Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Hours_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Minutes_MetaData[] = {
 		{ "Category", "Timecode" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Minutes = { "Minutes", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTimecode, Minutes), METADATA_PARAMS(Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Minutes_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Minutes_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Minutes = { "Minutes", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTimecode, Minutes), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Minutes_MetaData), Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Minutes_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Seconds_MetaData[] = {
 		{ "Category", "Timecode" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Seconds = { "Seconds", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTimecode, Seconds), METADATA_PARAMS(Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Seconds_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Seconds_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Seconds = { "Seconds", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTimecode, Seconds), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Seconds_MetaData), Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Seconds_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Frames_MetaData[] = {
 		{ "Category", "Timecode" },
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Frames = { "Frames", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTimecode, Frames), METADATA_PARAMS(Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Frames_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Frames_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Frames = { "Frames", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTimecode, Frames), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Frames_MetaData), Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Frames_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_bDropFrameFormat_MetaData[] = {
 		{ "Category", "Timecode" },
@@ -8376,7 +8603,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 	{
 		((FTimecode*)Obj)->bDropFrameFormat = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_bDropFrameFormat = { "bDropFrameFormat", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FTimecode), &Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_bDropFrameFormat_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_bDropFrameFormat_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_bDropFrameFormat_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_bDropFrameFormat = { "bDropFrameFormat", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FTimecode), &Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_bDropFrameFormat_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_bDropFrameFormat_MetaData), Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_bDropFrameFormat_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTimecode_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Hours,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTimecode_Statics::NewProp_Minutes,
@@ -8389,14 +8616,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Timecode",
-		sizeof(FTimecode),
-		alignof(FTimecode),
 		Z_Construct_UScriptStruct_FTimecode_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTimecode_Statics::PropPointers),
+		sizeof(FTimecode),
+		alignof(FTimecode),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FTimecode_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTimecode_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTimecode_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FTimecode_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTimecode_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FTimecode()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -8428,13 +8656,13 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Timespan",
-		sizeof(FTimespan),
-		alignof(FTimespan),
 		nullptr,
 		0,
+		sizeof(FTimespan),
+		alignof(FTimespan),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000038),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FTimespan_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTimespan_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTimespan_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FTimespan_Statics::Struct_MetaDataParams)
 	};
 	UScriptStruct* Z_Construct_UScriptStruct_FTimespan()
 	{
@@ -8453,6 +8681,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			FName AssetName;
 		};
 
+		static_assert(sizeof(FTopLevelAssetPath) < MAX_uint16);
+		static_assert(alignof(FTopLevelAssetPath) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -8486,7 +8716,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Name of the package containing the asset e.g. /Path/To/Package" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::NewProp_PackageName = { "PackageName", nullptr, (EPropertyFlags)0x0040000001000005, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTopLevelAssetPath, PackageName), METADATA_PARAMS(Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::NewProp_PackageName_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::NewProp_PackageName_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::NewProp_PackageName = { "PackageName", nullptr, (EPropertyFlags)0x0040000001000005, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTopLevelAssetPath, PackageName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::NewProp_PackageName_MetaData), Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::NewProp_PackageName_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::NewProp_AssetName_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -8496,7 +8726,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Name of the asset within the package e.g. 'AssetName'" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::NewProp_AssetName = { "AssetName", nullptr, (EPropertyFlags)0x0040000001000005, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTopLevelAssetPath, AssetName), METADATA_PARAMS(Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::NewProp_AssetName_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::NewProp_AssetName_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::NewProp_AssetName = { "AssetName", nullptr, (EPropertyFlags)0x0040000001000005, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTopLevelAssetPath, AssetName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::NewProp_AssetName_MetaData), Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::NewProp_AssetName_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::NewProp_PackageName,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::NewProp_AssetName,
@@ -8506,14 +8736,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"TopLevelAssetPath",
-		sizeof(FTopLevelAssetPath),
-		alignof(FTopLevelAssetPath),
 		Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::PropPointers),
+		sizeof(FTopLevelAssetPath),
+		alignof(FTopLevelAssetPath),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTopLevelAssetPath_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FTopLevelAssetPath()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -8531,6 +8762,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			FName AssetName;
 		};
 
+		static_assert(sizeof(FTopLevelAssetPath) < MAX_uint16);
+		static_assert(alignof(FTopLevelAssetPath) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -8562,7 +8795,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Asset path, patch to a top level object in a package" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSoftObjectPath_Statics::NewProp_AssetPath = { "AssetPath", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSoftObjectPath, AssetPath), Z_Construct_UScriptStruct_FTopLevelAssetPath, METADATA_PARAMS(Z_Construct_UScriptStruct_FSoftObjectPath_Statics::NewProp_AssetPath_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSoftObjectPath_Statics::NewProp_AssetPath_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSoftObjectPath_Statics::NewProp_AssetPath = { "AssetPath", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSoftObjectPath, AssetPath), Z_Construct_UScriptStruct_FTopLevelAssetPath, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSoftObjectPath_Statics::NewProp_AssetPath_MetaData), Z_Construct_UScriptStruct_FSoftObjectPath_Statics::NewProp_AssetPath_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSoftObjectPath_Statics::NewProp_SubPathString_MetaData[] = {
 		{ "Comment", "/** Optional FString for subobject within an asset */" },
@@ -8570,7 +8803,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Optional FString for subobject within an asset" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FSoftObjectPath_Statics::NewProp_SubPathString = { "SubPathString", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSoftObjectPath, SubPathString), METADATA_PARAMS(Z_Construct_UScriptStruct_FSoftObjectPath_Statics::NewProp_SubPathString_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSoftObjectPath_Statics::NewProp_SubPathString_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FSoftObjectPath_Statics::NewProp_SubPathString = { "SubPathString", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSoftObjectPath, SubPathString), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSoftObjectPath_Statics::NewProp_SubPathString_MetaData), Z_Construct_UScriptStruct_FSoftObjectPath_Statics::NewProp_SubPathString_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FSoftObjectPath_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSoftObjectPath_Statics::NewProp_AssetPath,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSoftObjectPath_Statics::NewProp_SubPathString,
@@ -8580,14 +8813,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"SoftObjectPath",
-		sizeof(FSoftObjectPath),
-		alignof(FSoftObjectPath),
 		Z_Construct_UScriptStruct_FSoftObjectPath_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSoftObjectPath_Statics::PropPointers),
+		sizeof(FSoftObjectPath),
+		alignof(FSoftObjectPath),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FSoftObjectPath_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSoftObjectPath_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSoftObjectPath_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FSoftObjectPath_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSoftObjectPath_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FSoftObjectPath()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -8605,6 +8839,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			FName AssetName;
 		};
 
+		static_assert(sizeof(FTopLevelAssetPath) < MAX_uint16);
+		static_assert(alignof(FTopLevelAssetPath) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -8625,13 +8861,13 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		Z_Construct_UScriptStruct_FSoftObjectPath,
 		nullptr,
 		"SoftClassPath",
-		sizeof(FSoftClassPath),
-		alignof(FSoftClassPath),
 		nullptr,
 		0,
+		sizeof(FSoftClassPath),
+		alignof(FSoftClassPath),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FSoftClassPath_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSoftClassPath_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSoftClassPath_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FSoftClassPath_Statics::Struct_MetaDataParams)
 	};
 	UScriptStruct* Z_Construct_UScriptStruct_FSoftClassPath()
 	{
@@ -8670,7 +8906,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The Type of this object, by default its base class's name" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FPrimaryAssetType_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPrimaryAssetType, Name), METADATA_PARAMS(Z_Construct_UScriptStruct_FPrimaryAssetType_Statics::NewProp_Name_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPrimaryAssetType_Statics::NewProp_Name_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FPrimaryAssetType_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPrimaryAssetType, Name), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPrimaryAssetType_Statics::NewProp_Name_MetaData), Z_Construct_UScriptStruct_FPrimaryAssetType_Statics::NewProp_Name_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FPrimaryAssetType_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPrimaryAssetType_Statics::NewProp_Name,
 	};
@@ -8679,14 +8915,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"PrimaryAssetType",
-		sizeof(FPrimaryAssetType),
-		alignof(FPrimaryAssetType),
 		Z_Construct_UScriptStruct_FPrimaryAssetType_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPrimaryAssetType_Statics::PropPointers),
+		sizeof(FPrimaryAssetType),
+		alignof(FPrimaryAssetType),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FPrimaryAssetType_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPrimaryAssetType_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPrimaryAssetType_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FPrimaryAssetType_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPrimaryAssetType_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FPrimaryAssetType()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -8728,7 +8965,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The Type of this object, by default its base class's name" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::NewProp_PrimaryAssetType = { "PrimaryAssetType", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPrimaryAssetId, PrimaryAssetType), Z_Construct_UScriptStruct_FPrimaryAssetType, METADATA_PARAMS(Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::NewProp_PrimaryAssetType_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::NewProp_PrimaryAssetType_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::NewProp_PrimaryAssetType = { "PrimaryAssetType", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPrimaryAssetId, PrimaryAssetType), Z_Construct_UScriptStruct_FPrimaryAssetType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::NewProp_PrimaryAssetType_MetaData), Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::NewProp_PrimaryAssetType_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::NewProp_PrimaryAssetName_MetaData[] = {
 		{ "Category", "PrimaryAssetId" },
@@ -8737,7 +8974,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The Name of this object, by default its short name" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::NewProp_PrimaryAssetName = { "PrimaryAssetName", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPrimaryAssetId, PrimaryAssetName), METADATA_PARAMS(Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::NewProp_PrimaryAssetName_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::NewProp_PrimaryAssetName_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::NewProp_PrimaryAssetName = { "PrimaryAssetName", nullptr, (EPropertyFlags)0x0010000001000005, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPrimaryAssetId, PrimaryAssetName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::NewProp_PrimaryAssetName_MetaData), Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::NewProp_PrimaryAssetName_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::NewProp_PrimaryAssetType,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::NewProp_PrimaryAssetName,
@@ -8747,14 +8984,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"PrimaryAssetId",
-		sizeof(FPrimaryAssetId),
-		alignof(FPrimaryAssetId),
 		Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::PropPointers),
+		sizeof(FPrimaryAssetId),
+		alignof(FPrimaryAssetId),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPrimaryAssetId_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FPrimaryAssetId()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -8813,11 +9051,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		"ERangeBoundTypes",
 		"ERangeBoundTypes::Type",
 		Z_Construct_UEnum_CoreUObject_ERangeBoundTypes_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ERangeBoundTypes_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ERangeBoundTypes_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_CoreUObject_ERangeBoundTypes_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ERangeBoundTypes_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ERangeBoundTypes_Statics::Enum_MetaDataParams), Z_Construct_UEnum_CoreUObject_ERangeBoundTypes_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_CoreUObject_ERangeBoundTypes()
 	{
@@ -8835,6 +9073,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			float Value;
 		};
 
+		static_assert(sizeof(FFloatRangeBound) < MAX_uint16);
+		static_assert(alignof(FFloatRangeBound) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -8866,7 +9106,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the type of the bound." },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FFloatRangeBound_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFloatRangeBound, Type), Z_Construct_UEnum_CoreUObject_ERangeBoundTypes, METADATA_PARAMS(Z_Construct_UScriptStruct_FFloatRangeBound_Statics::NewProp_Type_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatRangeBound_Statics::NewProp_Type_MetaData)) }; // 364929810
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FFloatRangeBound_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFloatRangeBound, Type), Z_Construct_UEnum_CoreUObject_ERangeBoundTypes, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatRangeBound_Statics::NewProp_Type_MetaData), Z_Construct_UScriptStruct_FFloatRangeBound_Statics::NewProp_Type_MetaData) }; // 2229928457
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFloatRangeBound_Statics::NewProp_Value_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -8876,7 +9116,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the bound's value." },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FFloatRangeBound_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFloatRangeBound, Value), METADATA_PARAMS(Z_Construct_UScriptStruct_FFloatRangeBound_Statics::NewProp_Value_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatRangeBound_Statics::NewProp_Value_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FFloatRangeBound_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFloatRangeBound, Value), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatRangeBound_Statics::NewProp_Value_MetaData), Z_Construct_UScriptStruct_FFloatRangeBound_Statics::NewProp_Value_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FFloatRangeBound_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFloatRangeBound_Statics::NewProp_Type,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFloatRangeBound_Statics::NewProp_Value,
@@ -8886,14 +9126,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"FloatRangeBound",
-		sizeof(FFloatRangeBound),
-		alignof(FFloatRangeBound),
 		Z_Construct_UScriptStruct_FFloatRangeBound_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatRangeBound_Statics::PropPointers),
+		sizeof(FFloatRangeBound),
+		alignof(FFloatRangeBound),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FFloatRangeBound_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatRangeBound_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatRangeBound_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FFloatRangeBound_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatRangeBound_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FFloatRangeBound()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -8911,12 +9152,16 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			float Value;
 		};
 
+		static_assert(sizeof(FFloatRangeBound) < MAX_uint16);
+		static_assert(alignof(FFloatRangeBound) < MAX_uint8);
 		struct FFloatRange
 		{
 			FFloatRangeBound LowerBound;
 			FFloatRangeBound UpperBound;
 		};
 
+		static_assert(sizeof(FFloatRange) < MAX_uint16);
+		static_assert(alignof(FFloatRange) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -8948,7 +9193,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the range's lower bound." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FFloatRange_Statics::NewProp_LowerBound = { "LowerBound", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFloatRange, LowerBound), Z_Construct_UScriptStruct_FFloatRangeBound, METADATA_PARAMS(Z_Construct_UScriptStruct_FFloatRange_Statics::NewProp_LowerBound_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatRange_Statics::NewProp_LowerBound_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FFloatRange_Statics::NewProp_LowerBound = { "LowerBound", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFloatRange, LowerBound), Z_Construct_UScriptStruct_FFloatRangeBound, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatRange_Statics::NewProp_LowerBound_MetaData), Z_Construct_UScriptStruct_FFloatRange_Statics::NewProp_LowerBound_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFloatRange_Statics::NewProp_UpperBound_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -8958,7 +9203,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the range's upper bound." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FFloatRange_Statics::NewProp_UpperBound = { "UpperBound", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFloatRange, UpperBound), Z_Construct_UScriptStruct_FFloatRangeBound, METADATA_PARAMS(Z_Construct_UScriptStruct_FFloatRange_Statics::NewProp_UpperBound_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatRange_Statics::NewProp_UpperBound_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FFloatRange_Statics::NewProp_UpperBound = { "UpperBound", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFloatRange, UpperBound), Z_Construct_UScriptStruct_FFloatRangeBound, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatRange_Statics::NewProp_UpperBound_MetaData), Z_Construct_UScriptStruct_FFloatRange_Statics::NewProp_UpperBound_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FFloatRange_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFloatRange_Statics::NewProp_LowerBound,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFloatRange_Statics::NewProp_UpperBound,
@@ -8968,14 +9213,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"FloatRange",
-		sizeof(FFloatRange),
-		alignof(FFloatRange),
 		Z_Construct_UScriptStruct_FFloatRange_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatRange_Statics::PropPointers),
+		sizeof(FFloatRange),
+		alignof(FFloatRange),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FFloatRange_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatRange_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatRange_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FFloatRange_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatRange_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FFloatRange()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -8993,6 +9239,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			double Value;
 		};
 
+		static_assert(sizeof(FDoubleRangeBound) < MAX_uint16);
+		static_assert(alignof(FDoubleRangeBound) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -9024,7 +9272,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the type of the bound." },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDoubleRangeBound, Type), Z_Construct_UEnum_CoreUObject_ERangeBoundTypes, METADATA_PARAMS(Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::NewProp_Type_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::NewProp_Type_MetaData)) }; // 364929810
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDoubleRangeBound, Type), Z_Construct_UEnum_CoreUObject_ERangeBoundTypes, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::NewProp_Type_MetaData), Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::NewProp_Type_MetaData) }; // 2229928457
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::NewProp_Value_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -9034,7 +9282,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the bound's value." },
 	};
 #endif
-	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDoubleRangeBound, Value), METADATA_PARAMS(Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::NewProp_Value_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::NewProp_Value_MetaData)) };
+	const UECodeGen_Private::FDoublePropertyParams Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Double, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDoubleRangeBound, Value), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::NewProp_Value_MetaData), Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::NewProp_Value_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::NewProp_Type,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::NewProp_Value,
@@ -9044,14 +9292,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"DoubleRangeBound",
-		sizeof(FDoubleRangeBound),
-		alignof(FDoubleRangeBound),
 		Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::PropPointers),
+		sizeof(FDoubleRangeBound),
+		alignof(FDoubleRangeBound),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDoubleRangeBound_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FDoubleRangeBound()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -9069,12 +9318,16 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			double Value;
 		};
 
+		static_assert(sizeof(FDoubleRangeBound) < MAX_uint16);
+		static_assert(alignof(FDoubleRangeBound) < MAX_uint8);
 		struct FDoubleRange
 		{
 			FDoubleRangeBound LowerBound;
 			FDoubleRangeBound UpperBound;
 		};
 
+		static_assert(sizeof(FDoubleRange) < MAX_uint16);
+		static_assert(alignof(FDoubleRange) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -9106,7 +9359,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the range's lower bound." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDoubleRange_Statics::NewProp_LowerBound = { "LowerBound", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDoubleRange, LowerBound), Z_Construct_UScriptStruct_FDoubleRangeBound, METADATA_PARAMS(Z_Construct_UScriptStruct_FDoubleRange_Statics::NewProp_LowerBound_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDoubleRange_Statics::NewProp_LowerBound_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDoubleRange_Statics::NewProp_LowerBound = { "LowerBound", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDoubleRange, LowerBound), Z_Construct_UScriptStruct_FDoubleRangeBound, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDoubleRange_Statics::NewProp_LowerBound_MetaData), Z_Construct_UScriptStruct_FDoubleRange_Statics::NewProp_LowerBound_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FDoubleRange_Statics::NewProp_UpperBound_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -9116,7 +9369,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the range's upper bound." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDoubleRange_Statics::NewProp_UpperBound = { "UpperBound", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDoubleRange, UpperBound), Z_Construct_UScriptStruct_FDoubleRangeBound, METADATA_PARAMS(Z_Construct_UScriptStruct_FDoubleRange_Statics::NewProp_UpperBound_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDoubleRange_Statics::NewProp_UpperBound_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FDoubleRange_Statics::NewProp_UpperBound = { "UpperBound", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDoubleRange, UpperBound), Z_Construct_UScriptStruct_FDoubleRangeBound, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDoubleRange_Statics::NewProp_UpperBound_MetaData), Z_Construct_UScriptStruct_FDoubleRange_Statics::NewProp_UpperBound_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FDoubleRange_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FDoubleRange_Statics::NewProp_LowerBound,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FDoubleRange_Statics::NewProp_UpperBound,
@@ -9126,14 +9379,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"DoubleRange",
-		sizeof(FDoubleRange),
-		alignof(FDoubleRange),
 		Z_Construct_UScriptStruct_FDoubleRange_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDoubleRange_Statics::PropPointers),
+		sizeof(FDoubleRange),
+		alignof(FDoubleRange),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FDoubleRange_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDoubleRange_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDoubleRange_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FDoubleRange_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDoubleRange_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FDoubleRange()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -9151,6 +9405,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			int32 Value;
 		};
 
+		static_assert(sizeof(FInt32RangeBound) < MAX_uint16);
+		static_assert(alignof(FInt32RangeBound) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -9182,7 +9438,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the type of the bound." },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FInt32RangeBound_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt32RangeBound, Type), Z_Construct_UEnum_CoreUObject_ERangeBoundTypes, METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32RangeBound_Statics::NewProp_Type_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32RangeBound_Statics::NewProp_Type_MetaData)) }; // 364929810
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FInt32RangeBound_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt32RangeBound, Type), Z_Construct_UEnum_CoreUObject_ERangeBoundTypes, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32RangeBound_Statics::NewProp_Type_MetaData), Z_Construct_UScriptStruct_FInt32RangeBound_Statics::NewProp_Type_MetaData) }; // 2229928457
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInt32RangeBound_Statics::NewProp_Value_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -9192,7 +9448,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the bound's value." },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32RangeBound_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt32RangeBound, Value), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32RangeBound_Statics::NewProp_Value_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32RangeBound_Statics::NewProp_Value_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32RangeBound_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt32RangeBound, Value), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32RangeBound_Statics::NewProp_Value_MetaData), Z_Construct_UScriptStruct_FInt32RangeBound_Statics::NewProp_Value_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInt32RangeBound_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInt32RangeBound_Statics::NewProp_Type,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInt32RangeBound_Statics::NewProp_Value,
@@ -9202,14 +9458,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Int32RangeBound",
-		sizeof(FInt32RangeBound),
-		alignof(FInt32RangeBound),
 		Z_Construct_UScriptStruct_FInt32RangeBound_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32RangeBound_Statics::PropPointers),
+		sizeof(FInt32RangeBound),
+		alignof(FInt32RangeBound),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32RangeBound_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32RangeBound_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32RangeBound_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInt32RangeBound_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32RangeBound_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInt32RangeBound()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -9227,12 +9484,16 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			int32 Value;
 		};
 
+		static_assert(sizeof(FInt32RangeBound) < MAX_uint16);
+		static_assert(alignof(FInt32RangeBound) < MAX_uint8);
 		struct FInt32Range
 		{
 			FInt32RangeBound LowerBound;
 			FInt32RangeBound UpperBound;
 		};
 
+		static_assert(sizeof(FInt32Range) < MAX_uint16);
+		static_assert(alignof(FInt32Range) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -9264,7 +9525,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the range's lower bound." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInt32Range_Statics::NewProp_LowerBound = { "LowerBound", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt32Range, LowerBound), Z_Construct_UScriptStruct_FInt32RangeBound, METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32Range_Statics::NewProp_LowerBound_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Range_Statics::NewProp_LowerBound_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInt32Range_Statics::NewProp_LowerBound = { "LowerBound", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt32Range, LowerBound), Z_Construct_UScriptStruct_FInt32RangeBound, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Range_Statics::NewProp_LowerBound_MetaData), Z_Construct_UScriptStruct_FInt32Range_Statics::NewProp_LowerBound_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInt32Range_Statics::NewProp_UpperBound_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -9274,7 +9535,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Holds the range's upper bound." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInt32Range_Statics::NewProp_UpperBound = { "UpperBound", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt32Range, UpperBound), Z_Construct_UScriptStruct_FInt32RangeBound, METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32Range_Statics::NewProp_UpperBound_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Range_Statics::NewProp_UpperBound_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInt32Range_Statics::NewProp_UpperBound = { "UpperBound", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt32Range, UpperBound), Z_Construct_UScriptStruct_FInt32RangeBound, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Range_Statics::NewProp_UpperBound_MetaData), Z_Construct_UScriptStruct_FInt32Range_Statics::NewProp_UpperBound_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInt32Range_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInt32Range_Statics::NewProp_LowerBound,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInt32Range_Statics::NewProp_UpperBound,
@@ -9284,14 +9545,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Int32Range",
-		sizeof(FInt32Range),
-		alignof(FInt32Range),
 		Z_Construct_UScriptStruct_FInt32Range_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Range_Statics::PropPointers),
+		sizeof(FInt32Range),
+		alignof(FInt32Range),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32Range_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Range_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Range_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInt32Range_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Range_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInt32Range()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -9309,6 +9571,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			FFrameNumber Value;
 		};
 
+		static_assert(sizeof(FFrameNumberRangeBound) < MAX_uint16);
+		static_assert(alignof(FFrameNumberRangeBound) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -9338,7 +9602,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFrameNumberRangeBound, Type), Z_Construct_UEnum_CoreUObject_ERangeBoundTypes, METADATA_PARAMS(Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::NewProp_Type_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::NewProp_Type_MetaData)) }; // 364929810
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFrameNumberRangeBound, Type), Z_Construct_UEnum_CoreUObject_ERangeBoundTypes, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::NewProp_Type_MetaData), Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::NewProp_Type_MetaData) }; // 2229928457
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::NewProp_Value_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -9346,7 +9610,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFrameNumberRangeBound, Value), Z_Construct_UScriptStruct_FFrameNumber, METADATA_PARAMS(Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::NewProp_Value_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::NewProp_Value_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFrameNumberRangeBound, Value), Z_Construct_UScriptStruct_FFrameNumber, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::NewProp_Value_MetaData), Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::NewProp_Value_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::NewProp_Type,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::NewProp_Value,
@@ -9356,14 +9620,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"FrameNumberRangeBound",
-		sizeof(FFrameNumberRangeBound),
-		alignof(FFrameNumberRangeBound),
 		Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::PropPointers),
+		sizeof(FFrameNumberRangeBound),
+		alignof(FFrameNumberRangeBound),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameNumberRangeBound_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FFrameNumberRangeBound()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -9381,12 +9646,16 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			FFrameNumber Value;
 		};
 
+		static_assert(sizeof(FFrameNumberRangeBound) < MAX_uint16);
+		static_assert(alignof(FFrameNumberRangeBound) < MAX_uint8);
 		struct FFrameNumberRange
 		{
 			FFrameNumberRangeBound LowerBound;
 			FFrameNumberRangeBound UpperBound;
 		};
 
+		static_assert(sizeof(FFrameNumberRange) < MAX_uint16);
+		static_assert(alignof(FFrameNumberRange) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -9416,7 +9685,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FFrameNumberRange_Statics::NewProp_LowerBound = { "LowerBound", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFrameNumberRange, LowerBound), Z_Construct_UScriptStruct_FFrameNumberRangeBound, METADATA_PARAMS(Z_Construct_UScriptStruct_FFrameNumberRange_Statics::NewProp_LowerBound_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameNumberRange_Statics::NewProp_LowerBound_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FFrameNumberRange_Statics::NewProp_LowerBound = { "LowerBound", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFrameNumberRange, LowerBound), Z_Construct_UScriptStruct_FFrameNumberRangeBound, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameNumberRange_Statics::NewProp_LowerBound_MetaData), Z_Construct_UScriptStruct_FFrameNumberRange_Statics::NewProp_LowerBound_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFrameNumberRange_Statics::NewProp_UpperBound_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -9424,7 +9693,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FFrameNumberRange_Statics::NewProp_UpperBound = { "UpperBound", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFrameNumberRange, UpperBound), Z_Construct_UScriptStruct_FFrameNumberRangeBound, METADATA_PARAMS(Z_Construct_UScriptStruct_FFrameNumberRange_Statics::NewProp_UpperBound_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameNumberRange_Statics::NewProp_UpperBound_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FFrameNumberRange_Statics::NewProp_UpperBound = { "UpperBound", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFrameNumberRange, UpperBound), Z_Construct_UScriptStruct_FFrameNumberRangeBound, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameNumberRange_Statics::NewProp_UpperBound_MetaData), Z_Construct_UScriptStruct_FFrameNumberRange_Statics::NewProp_UpperBound_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FFrameNumberRange_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFrameNumberRange_Statics::NewProp_LowerBound,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFrameNumberRange_Statics::NewProp_UpperBound,
@@ -9434,14 +9703,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"FrameNumberRange",
-		sizeof(FFrameNumberRange),
-		alignof(FFrameNumberRange),
 		Z_Construct_UScriptStruct_FFrameNumberRange_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameNumberRange_Statics::PropPointers),
+		sizeof(FFrameNumberRange),
+		alignof(FFrameNumberRange),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FFrameNumberRange_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameNumberRange_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameNumberRange_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FFrameNumberRange_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFrameNumberRange_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FFrameNumberRange()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -9459,6 +9729,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			float Max;
 		};
 
+		static_assert(sizeof(FFloatInterval) < MAX_uint16);
+		static_assert(alignof(FFloatInterval) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -9489,7 +9761,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Values must be >= Min" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FFloatInterval_Statics::NewProp_Min = { "Min", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFloatInterval, Min), METADATA_PARAMS(Z_Construct_UScriptStruct_FFloatInterval_Statics::NewProp_Min_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatInterval_Statics::NewProp_Min_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FFloatInterval_Statics::NewProp_Min = { "Min", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFloatInterval, Min), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatInterval_Statics::NewProp_Min_MetaData), Z_Construct_UScriptStruct_FFloatInterval_Statics::NewProp_Min_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFloatInterval_Statics::NewProp_Max_MetaData[] = {
 		{ "Category", "Interval" },
@@ -9498,7 +9770,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Values must be <= Max" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FFloatInterval_Statics::NewProp_Max = { "Max", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFloatInterval, Max), METADATA_PARAMS(Z_Construct_UScriptStruct_FFloatInterval_Statics::NewProp_Max_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatInterval_Statics::NewProp_Max_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FFloatInterval_Statics::NewProp_Max = { "Max", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFloatInterval, Max), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatInterval_Statics::NewProp_Max_MetaData), Z_Construct_UScriptStruct_FFloatInterval_Statics::NewProp_Max_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FFloatInterval_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFloatInterval_Statics::NewProp_Min,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFloatInterval_Statics::NewProp_Max,
@@ -9508,14 +9780,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"FloatInterval",
-		sizeof(FFloatInterval),
-		alignof(FFloatInterval),
 		Z_Construct_UScriptStruct_FFloatInterval_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatInterval_Statics::PropPointers),
+		sizeof(FFloatInterval),
+		alignof(FFloatInterval),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FFloatInterval_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatInterval_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatInterval_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FFloatInterval_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFloatInterval_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FFloatInterval()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -9533,6 +9806,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			int32 Max;
 		};
 
+		static_assert(sizeof(FInt32Interval) < MAX_uint16);
+		static_assert(alignof(FInt32Interval) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -9563,7 +9838,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Values must be >= Min" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Interval_Statics::NewProp_Min = { "Min", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt32Interval, Min), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32Interval_Statics::NewProp_Min_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Interval_Statics::NewProp_Min_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Interval_Statics::NewProp_Min = { "Min", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt32Interval, Min), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Interval_Statics::NewProp_Min_MetaData), Z_Construct_UScriptStruct_FInt32Interval_Statics::NewProp_Min_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInt32Interval_Statics::NewProp_Max_MetaData[] = {
 		{ "Category", "Interval" },
@@ -9572,7 +9847,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Values must be <= Max" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Interval_Statics::NewProp_Max = { "Max", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInt32Interval, Max), METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32Interval_Statics::NewProp_Max_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Interval_Statics::NewProp_Max_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInt32Interval_Statics::NewProp_Max = { "Max", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInt32Interval, Max), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Interval_Statics::NewProp_Max_MetaData), Z_Construct_UScriptStruct_FInt32Interval_Statics::NewProp_Max_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInt32Interval_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInt32Interval_Statics::NewProp_Min,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInt32Interval_Statics::NewProp_Max,
@@ -9582,14 +9857,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"Int32Interval",
-		sizeof(FInt32Interval),
-		alignof(FInt32Interval),
 		Z_Construct_UScriptStruct_FInt32Interval_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Interval_Statics::PropPointers),
+		sizeof(FInt32Interval),
+		alignof(FInt32Interval),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInt32Interval_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Interval_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Interval_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInt32Interval_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInt32Interval_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInt32Interval()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -9642,11 +9918,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		"ELocalizedTextSourceCategory",
 		"ELocalizedTextSourceCategory",
 		Z_Construct_UEnum_CoreUObject_ELocalizedTextSourceCategory_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ELocalizedTextSourceCategory_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ELocalizedTextSourceCategory_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_CoreUObject_ELocalizedTextSourceCategory_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ELocalizedTextSourceCategory_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ELocalizedTextSourceCategory_Statics::Enum_MetaDataParams), Z_Construct_UEnum_CoreUObject_ELocalizedTextSourceCategory_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_CoreUObject_ELocalizedTextSourceCategory()
 	{
@@ -9670,6 +9946,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			FText CachedText;
 		};
 
+		static_assert(sizeof(FPolyglotTextData) < MAX_uint16);
+		static_assert(alignof(FPolyglotTextData) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -9720,7 +9998,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Polyglot data that may be registered to the text localization manager at runtime.\n@note This struct is mirrored in PolyglotTextData.h" },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Category_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Category_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Category_MetaData[] = {
 		{ "Category", "PolyglotData" },
@@ -9729,7 +10007,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The category of this polyglot data.\n@note This affects when and how the data is loaded into the text localization manager." },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Category = { "Category", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPolyglotTextData, Category), Z_Construct_UEnum_CoreUObject_ELocalizedTextSourceCategory, METADATA_PARAMS(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Category_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Category_MetaData)) }; // 3089542370
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Category = { "Category", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPolyglotTextData, Category), Z_Construct_UEnum_CoreUObject_ELocalizedTextSourceCategory, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Category_MetaData), Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Category_MetaData) }; // 365012469
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_NativeCulture_MetaData[] = {
 		{ "Category", "PolyglotData" },
@@ -9738,7 +10016,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The native culture of this polyglot data.\n@note This may be empty, and if empty, will be inferred from the native culture of the text category." },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_NativeCulture = { "NativeCulture", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPolyglotTextData, NativeCulture), METADATA_PARAMS(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_NativeCulture_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_NativeCulture_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_NativeCulture = { "NativeCulture", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPolyglotTextData, NativeCulture), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_NativeCulture_MetaData), Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_NativeCulture_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Namespace_MetaData[] = {
 		{ "Category", "PolyglotData" },
@@ -9747,7 +10025,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The namespace of the text created from this polyglot data.\n@note This may be empty." },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Namespace = { "Namespace", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPolyglotTextData, Namespace), METADATA_PARAMS(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Namespace_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Namespace_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Namespace = { "Namespace", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPolyglotTextData, Namespace), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Namespace_MetaData), Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Namespace_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Key_MetaData[] = {
 		{ "Category", "PolyglotData" },
@@ -9756,7 +10034,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The key of the text created from this polyglot data.\n@note This must not be empty." },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Key = { "Key", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPolyglotTextData, Key), METADATA_PARAMS(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Key_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Key_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Key = { "Key", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPolyglotTextData, Key), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Key_MetaData), Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Key_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_NativeString_MetaData[] = {
 		{ "Category", "PolyglotData" },
@@ -9765,9 +10043,9 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The native string for this polyglot data.\n@note This must not be empty (it should be the same as the originally authored text you are trying to replace)." },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_NativeString = { "NativeString", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPolyglotTextData, NativeString), METADATA_PARAMS(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_NativeString_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_NativeString_MetaData)) };
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_LocalizedStrings_ValueProp = { "LocalizedStrings", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 1, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_LocalizedStrings_Key_KeyProp = { "LocalizedStrings_Key", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_NativeString = { "NativeString", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPolyglotTextData, NativeString), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_NativeString_MetaData), Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_NativeString_MetaData) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_LocalizedStrings_ValueProp = { "LocalizedStrings", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_LocalizedStrings_Key_KeyProp = { "LocalizedStrings_Key", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_LocalizedStrings_MetaData[] = {
 		{ "Category", "PolyglotData" },
@@ -9776,7 +10054,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Mapping between a culture code and its localized string.\n@note The native culture may also have a translation in this map." },
 	};
 #endif
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_LocalizedStrings = { "LocalizedStrings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPolyglotTextData, LocalizedStrings), EMapPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_LocalizedStrings_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_LocalizedStrings_MetaData)) };
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_LocalizedStrings = { "LocalizedStrings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPolyglotTextData, LocalizedStrings), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_LocalizedStrings_MetaData), Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_LocalizedStrings_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_bIsMinimalPatch_MetaData[] = {
 		{ "Category", "PolyglotData" },
@@ -9789,7 +10067,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 	{
 		((FPolyglotTextData*)Obj)->bIsMinimalPatch = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_bIsMinimalPatch = { "bIsMinimalPatch", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FPolyglotTextData), &Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_bIsMinimalPatch_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_bIsMinimalPatch_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_bIsMinimalPatch_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_bIsMinimalPatch = { "bIsMinimalPatch", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FPolyglotTextData), &Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_bIsMinimalPatch_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_bIsMinimalPatch_MetaData), Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_bIsMinimalPatch_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_CachedText_MetaData[] = {
 		{ "Comment", "/**\n\x09 * Transient cached text instance from registering this polyglot data with the text localization manager.\n\x09 */" },
@@ -9797,7 +10075,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Transient cached text instance from registering this polyglot data with the text localization manager." },
 	};
 #endif
-	const UECodeGen_Private::FTextPropertyParams Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_CachedText = { "CachedText", nullptr, (EPropertyFlags)0x0010000000002000, UECodeGen_Private::EPropertyGenFlags::Text, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPolyglotTextData, CachedText), METADATA_PARAMS(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_CachedText_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_CachedText_MetaData)) };
+	const UECodeGen_Private::FTextPropertyParams Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_CachedText = { "CachedText", nullptr, (EPropertyFlags)0x0010000000002000, UECodeGen_Private::EPropertyGenFlags::Text, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPolyglotTextData, CachedText), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_CachedText_MetaData), Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_CachedText_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FPolyglotTextData_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Category_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPolyglotTextData_Statics::NewProp_Category,
@@ -9816,14 +10094,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"PolyglotTextData",
-		sizeof(FPolyglotTextData),
-		alignof(FPolyglotTextData),
 		Z_Construct_UScriptStruct_FPolyglotTextData_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::PropPointers),
+		sizeof(FPolyglotTextData),
+		alignof(FPolyglotTextData),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FPolyglotTextData_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPolyglotTextData_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FPolyglotTextData()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -9875,11 +10154,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		"EAutomationEventType",
 		"EAutomationEventType",
 		Z_Construct_UEnum_CoreUObject_EAutomationEventType_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EAutomationEventType_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EAutomationEventType_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_CoreUObject_EAutomationEventType_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EAutomationEventType_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EAutomationEventType_Statics::Enum_MetaDataParams), Z_Construct_UEnum_CoreUObject_EAutomationEventType_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_CoreUObject_EAutomationEventType()
 	{
@@ -9899,6 +10178,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			FGuid Artifact;
 		};
 
+		static_assert(sizeof(FAutomationEvent) < MAX_uint16);
+		static_assert(alignof(FAutomationEvent) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -9929,31 +10210,31 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Event emitted by automation system (mirrored in AutomationEvent.h)." },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Type_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Type_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Type_MetaData[] = {
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FAutomationEvent, Type), Z_Construct_UEnum_CoreUObject_EAutomationEventType, METADATA_PARAMS(Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Type_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Type_MetaData)) }; // 317308866
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FAutomationEvent, Type), Z_Construct_UEnum_CoreUObject_EAutomationEventType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Type_MetaData), Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Type_MetaData) }; // 1103873035
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Message_MetaData[] = {
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Message = { "Message", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FAutomationEvent, Message), METADATA_PARAMS(Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Message_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Message_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Message = { "Message", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FAutomationEvent, Message), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Message_MetaData), Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Message_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Context_MetaData[] = {
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Context = { "Context", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FAutomationEvent, Context), METADATA_PARAMS(Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Context_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Context_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Context = { "Context", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FAutomationEvent, Context), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Context_MetaData), Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Context_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Artifact_MetaData[] = {
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Artifact = { "Artifact", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FAutomationEvent, Artifact), Z_Construct_UScriptStruct_FGuid, METADATA_PARAMS(Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Artifact_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Artifact_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Artifact = { "Artifact", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FAutomationEvent, Artifact), Z_Construct_UScriptStruct_FGuid, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Artifact_MetaData), Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Artifact_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FAutomationEvent_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Type_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FAutomationEvent_Statics::NewProp_Type,
@@ -9966,14 +10247,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"AutomationEvent",
-		sizeof(FAutomationEvent),
-		alignof(FAutomationEvent),
 		Z_Construct_UScriptStruct_FAutomationEvent_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationEvent_Statics::PropPointers),
+		sizeof(FAutomationEvent),
+		alignof(FAutomationEvent),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FAutomationEvent_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationEvent_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationEvent_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FAutomationEvent_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationEvent_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FAutomationEvent()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -9993,6 +10275,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			FGuid Artifact;
 		};
 
+		static_assert(sizeof(FAutomationEvent) < MAX_uint16);
+		static_assert(alignof(FAutomationEvent) < MAX_uint8);
 		struct FAutomationExecutionEntry
 		{
 			FAutomationEvent Event;
@@ -10001,6 +10285,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			FDateTime Timestamp;
 		};
 
+		static_assert(sizeof(FAutomationExecutionEntry) < MAX_uint16);
+		static_assert(alignof(FAutomationExecutionEntry) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -10035,25 +10321,25 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_Event = { "Event", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FAutomationExecutionEntry, Event), Z_Construct_UScriptStruct_FAutomationEvent, METADATA_PARAMS(Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_Event_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_Event_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_Event = { "Event", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FAutomationExecutionEntry, Event), Z_Construct_UScriptStruct_FAutomationEvent, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_Event_MetaData), Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_Event_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_Filename_MetaData[] = {
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_Filename = { "Filename", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FAutomationExecutionEntry, Filename), METADATA_PARAMS(Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_Filename_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_Filename_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_Filename = { "Filename", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FAutomationExecutionEntry, Filename), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_Filename_MetaData), Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_Filename_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_LineNumber_MetaData[] = {
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_LineNumber = { "LineNumber", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FAutomationExecutionEntry, LineNumber), METADATA_PARAMS(Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_LineNumber_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_LineNumber_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_LineNumber = { "LineNumber", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FAutomationExecutionEntry, LineNumber), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_LineNumber_MetaData), Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_LineNumber_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_Timestamp_MetaData[] = {
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_Timestamp = { "Timestamp", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FAutomationExecutionEntry, Timestamp), Z_Construct_UScriptStruct_FDateTime, METADATA_PARAMS(Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_Timestamp_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_Timestamp_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_Timestamp = { "Timestamp", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FAutomationExecutionEntry, Timestamp), Z_Construct_UScriptStruct_FDateTime, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_Timestamp_MetaData), Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_Timestamp_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_Event,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::NewProp_Filename,
@@ -10065,14 +10351,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"AutomationExecutionEntry",
-		sizeof(FAutomationExecutionEntry),
-		alignof(FAutomationExecutionEntry),
 		Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::PropPointers),
+		sizeof(FAutomationExecutionEntry),
+		alignof(FAutomationExecutionEntry),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAutomationExecutionEntry_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FAutomationExecutionEntry()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -10089,6 +10376,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			int32 InternalId;
 		};
 
+		static_assert(sizeof(FInputDeviceId) < MAX_uint16);
+		static_assert(alignof(FInputDeviceId) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -10113,7 +10402,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInputDeviceId_Statics::NewProp_InternalId = { "InternalId", nullptr, (EPropertyFlags)0x0040000000020001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInputDeviceId, InternalId), METADATA_PARAMS(Z_Construct_UScriptStruct_FInputDeviceId_Statics::NewProp_InternalId_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInputDeviceId_Statics::NewProp_InternalId_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInputDeviceId_Statics::NewProp_InternalId = { "InternalId", nullptr, (EPropertyFlags)0x0040000000020001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInputDeviceId, InternalId), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInputDeviceId_Statics::NewProp_InternalId_MetaData), Z_Construct_UScriptStruct_FInputDeviceId_Statics::NewProp_InternalId_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInputDeviceId_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInputDeviceId_Statics::NewProp_InternalId,
 	};
@@ -10122,14 +10411,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"InputDeviceId",
-		sizeof(FInputDeviceId),
-		alignof(FInputDeviceId),
 		Z_Construct_UScriptStruct_FInputDeviceId_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInputDeviceId_Statics::PropPointers),
+		sizeof(FInputDeviceId),
+		alignof(FInputDeviceId),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInputDeviceId_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInputDeviceId_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInputDeviceId_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInputDeviceId_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInputDeviceId_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInputDeviceId()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -10146,6 +10436,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			int32 InternalId;
 		};
 
+		static_assert(sizeof(FPlatformUserId) < MAX_uint16);
+		static_assert(alignof(FPlatformUserId) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -10170,7 +10462,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FPlatformUserId_Statics::NewProp_InternalId = { "InternalId", nullptr, (EPropertyFlags)0x0040000000020001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPlatformUserId, InternalId), METADATA_PARAMS(Z_Construct_UScriptStruct_FPlatformUserId_Statics::NewProp_InternalId_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlatformUserId_Statics::NewProp_InternalId_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FPlatformUserId_Statics::NewProp_InternalId = { "InternalId", nullptr, (EPropertyFlags)0x0040000000020001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPlatformUserId, InternalId), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlatformUserId_Statics::NewProp_InternalId_MetaData), Z_Construct_UScriptStruct_FPlatformUserId_Statics::NewProp_InternalId_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FPlatformUserId_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPlatformUserId_Statics::NewProp_InternalId,
 	};
@@ -10179,14 +10471,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"PlatformUserId",
-		sizeof(FPlatformUserId),
-		alignof(FPlatformUserId),
 		Z_Construct_UScriptStruct_FPlatformUserId_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlatformUserId_Statics::PropPointers),
+		sizeof(FPlatformUserId),
+		alignof(FPlatformUserId),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FPlatformUserId_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlatformUserId_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlatformUserId_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FPlatformUserId_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlatformUserId_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FPlatformUserId()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -10249,11 +10542,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		"EInputDeviceConnectionState",
 		"EInputDeviceConnectionState",
 		Z_Construct_UEnum_CoreUObject_EInputDeviceConnectionState_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EInputDeviceConnectionState_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EInputDeviceConnectionState_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_CoreUObject_EInputDeviceConnectionState_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EInputDeviceConnectionState_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EInputDeviceConnectionState_Statics::Enum_MetaDataParams), Z_Construct_UEnum_CoreUObject_EInputDeviceConnectionState_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_CoreUObject_EInputDeviceConnectionState()
 	{
@@ -10308,11 +10601,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		"EInputDeviceTriggerMask",
 		"EInputDeviceTriggerMask",
 		Z_Construct_UEnum_CoreUObject_EInputDeviceTriggerMask_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EInputDeviceTriggerMask_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EInputDeviceTriggerMask_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_CoreUObject_EInputDeviceTriggerMask_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EInputDeviceTriggerMask_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EInputDeviceTriggerMask_Statics::Enum_MetaDataParams), Z_Construct_UEnum_CoreUObject_EInputDeviceTriggerMask_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_CoreUObject_EInputDeviceTriggerMask()
 	{
@@ -10329,12 +10622,16 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			int32 InternalId;
 		};
 
+		static_assert(sizeof(FPlatformUserId) < MAX_uint16);
+		static_assert(alignof(FPlatformUserId) < MAX_uint8);
 		struct FPlatformInputDeviceState
 		{
 			FPlatformUserId OwningPlatformUser;
 			EInputDeviceConnectionState ConnectionState;
 		};
 
+		static_assert(sizeof(FPlatformInputDeviceState) < MAX_uint16);
+		static_assert(alignof(FPlatformInputDeviceState) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -10366,8 +10663,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The platform user that this input device belongs to" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::NewProp_OwningPlatformUser = { "OwningPlatformUser", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPlatformInputDeviceState, OwningPlatformUser), Z_Construct_UScriptStruct_FPlatformUserId, METADATA_PARAMS(Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::NewProp_OwningPlatformUser_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::NewProp_OwningPlatformUser_MetaData)) };
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::NewProp_ConnectionState_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::NewProp_OwningPlatformUser = { "OwningPlatformUser", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPlatformInputDeviceState, OwningPlatformUser), Z_Construct_UScriptStruct_FPlatformUserId, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::NewProp_OwningPlatformUser_MetaData), Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::NewProp_OwningPlatformUser_MetaData) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::NewProp_ConnectionState_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::NewProp_ConnectionState_MetaData[] = {
 		{ "Category", "PlatformInputDevice" },
@@ -10376,7 +10673,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The connection state of this input device" },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::NewProp_ConnectionState = { "ConnectionState", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FPlatformInputDeviceState, ConnectionState), Z_Construct_UEnum_CoreUObject_EInputDeviceConnectionState, METADATA_PARAMS(Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::NewProp_ConnectionState_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::NewProp_ConnectionState_MetaData)) }; // 111167951
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::NewProp_ConnectionState = { "ConnectionState", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FPlatformInputDeviceState, ConnectionState), Z_Construct_UEnum_CoreUObject_EInputDeviceConnectionState, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::NewProp_ConnectionState_MetaData), Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::NewProp_ConnectionState_MetaData) }; // 2895349965
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::NewProp_OwningPlatformUser,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::NewProp_ConnectionState_Underlying,
@@ -10387,14 +10684,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"PlatformInputDeviceState",
-		sizeof(FPlatformInputDeviceState),
-		alignof(FPlatformInputDeviceState),
 		Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::PropPointers),
+		sizeof(FPlatformInputDeviceState),
+		alignof(FPlatformInputDeviceState),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPlatformInputDeviceState_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FPlatformInputDeviceState()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -10453,11 +10751,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		"EDataValidationResult",
 		"EDataValidationResult",
 		Z_Construct_UEnum_CoreUObject_EDataValidationResult_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EDataValidationResult_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EDataValidationResult_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_CoreUObject_EDataValidationResult_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EDataValidationResult_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_EDataValidationResult_Statics::Enum_MetaDataParams), Z_Construct_UEnum_CoreUObject_EDataValidationResult_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_CoreUObject_EDataValidationResult()
 	{
@@ -10475,6 +10773,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			FName AssetName;
 		};
 
+		static_assert(sizeof(FTopLevelAssetPath) < MAX_uint16);
+		static_assert(alignof(FTopLevelAssetPath) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -10550,7 +10850,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "A struct to serve as a filter for Asset Registry queries. (mirrored in ARFilter.h)" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_PackageNames_Inner = { "PackageNames", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_PackageNames_Inner = { "PackageNames", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_PackageNames_MetaData[] = {
 		{ "Category", "AssetRegistry" },
@@ -10559,8 +10859,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The filter component for package names" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_PackageNames = { "PackageNames", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FARFilter, PackageNames), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_PackageNames_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_PackageNames_MetaData)) };
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_PackagePaths_Inner = { "PackagePaths", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_PackageNames = { "PackageNames", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FARFilter, PackageNames), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_PackageNames_MetaData), Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_PackageNames_MetaData) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_PackagePaths_Inner = { "PackagePaths", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_PackagePaths_MetaData[] = {
 		{ "Category", "AssetRegistry" },
@@ -10569,9 +10869,9 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The filter component for package paths" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_PackagePaths = { "PackagePaths", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FARFilter, PackagePaths), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_PackagePaths_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_PackagePaths_MetaData)) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_PackagePaths = { "PackagePaths", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FARFilter, PackagePaths), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_PackagePaths_MetaData), Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_PackagePaths_MetaData) };
 #if WITH_EDITORONLY_DATA
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ObjectPaths_Inner = { "ObjectPaths", nullptr, (EPropertyFlags)0x0000000800000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ObjectPaths_Inner = { "ObjectPaths", nullptr, (EPropertyFlags)0x0000000800000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ObjectPaths_MetaData[] = {
 		{ "Comment", "/** The filter component containing specific object paths. Deprecated. */" },
@@ -10579,9 +10879,9 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The filter component containing specific object paths. Deprecated." },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ObjectPaths = { "ObjectPaths", nullptr, (EPropertyFlags)0x0010000800000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FARFilter, ObjectPaths), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ObjectPaths_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ObjectPaths_MetaData)) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ObjectPaths = { "ObjectPaths", nullptr, (EPropertyFlags)0x0010000800000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FARFilter, ObjectPaths), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ObjectPaths_MetaData), Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ObjectPaths_MetaData) };
 #endif // WITH_EDITORONLY_DATA
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_SoftObjectPaths_Inner = { "SoftObjectPaths", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FSoftObjectPath, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_SoftObjectPaths_Inner = { "SoftObjectPaths", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FSoftObjectPath, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_SoftObjectPaths_MetaData[] = {
 		{ "Category", "AssetRegistry" },
@@ -10590,8 +10890,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The filter component containing specific object paths" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_SoftObjectPaths = { "SoftObjectPaths", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FARFilter, SoftObjectPaths), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_SoftObjectPaths_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_SoftObjectPaths_MetaData)) };
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ClassNames_Inner = { "ClassNames", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_SoftObjectPaths = { "SoftObjectPaths", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FARFilter, SoftObjectPaths), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_SoftObjectPaths_MetaData), Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_SoftObjectPaths_MetaData) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ClassNames_Inner = { "ClassNames", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ClassNames_MetaData[] = {
 		{ "Category", "AssetRegistry" },
@@ -10602,8 +10902,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "[DEPRECATED] - Class names are now represented by path names. Please use ClassPaths instead." },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ClassNames = { "ClassNames", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FARFilter, ClassNames), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ClassNames_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ClassNames_MetaData)) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ClassPaths_Inner = { "ClassPaths", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FTopLevelAssetPath, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ClassNames = { "ClassNames", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FARFilter, ClassNames), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ClassNames_MetaData), Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ClassNames_MetaData) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ClassPaths_Inner = { "ClassPaths", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FTopLevelAssetPath, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ClassPaths_MetaData[] = {
 		{ "Category", "AssetRegistry" },
@@ -10612,8 +10912,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The filter component for class path names. Instances of the specified classes, but not subclasses (by default), will be included. Derived classes will be included only if bRecursiveClasses is true." },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ClassPaths = { "ClassPaths", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FARFilter, ClassPaths), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ClassPaths_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ClassPaths_MetaData)) };
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_RecursiveClassesExclusionSet_ElementProp = { "RecursiveClassesExclusionSet", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ClassPaths = { "ClassPaths", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FARFilter, ClassPaths), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ClassPaths_MetaData), Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_ClassPaths_MetaData) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_RecursiveClassesExclusionSet_ElementProp = { "RecursiveClassesExclusionSet", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_RecursiveClassesExclusionSet_MetaData[] = {
 		{ "Category", "AssetRegistry" },
@@ -10624,8 +10924,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "[DEPRECATED] - Class names are now represented by path names. Please use RecursiveClassPathsExclusionSet instead." },
 	};
 #endif
-	const UECodeGen_Private::FSetPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_RecursiveClassesExclusionSet = { "RecursiveClassesExclusionSet", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Set, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FARFilter, RecursiveClassesExclusionSet), METADATA_PARAMS(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_RecursiveClassesExclusionSet_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_RecursiveClassesExclusionSet_MetaData)) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_RecursiveClassPathsExclusionSet_ElementProp = { "RecursiveClassPathsExclusionSet", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FTopLevelAssetPath, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FSetPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_RecursiveClassesExclusionSet = { "RecursiveClassesExclusionSet", nullptr, (EPropertyFlags)0x0010000000000004, UECodeGen_Private::EPropertyGenFlags::Set, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FARFilter, RecursiveClassesExclusionSet), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_RecursiveClassesExclusionSet_MetaData), Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_RecursiveClassesExclusionSet_MetaData) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_RecursiveClassPathsExclusionSet_ElementProp = { "RecursiveClassPathsExclusionSet", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FTopLevelAssetPath, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_RecursiveClassPathsExclusionSet_MetaData[] = {
 		{ "Category", "AssetRegistry" },
@@ -10634,8 +10934,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Only if bRecursiveClasses is true, the results will exclude classes (and subclasses) in this list" },
 	};
 #endif
-	static_assert(TModels<CGetTypeHashable, FTopLevelAssetPath>::Value, "The structure 'FTopLevelAssetPath' is used in a TSet but does not have a GetValueTypeHash defined");
-	const UECodeGen_Private::FSetPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_RecursiveClassPathsExclusionSet = { "RecursiveClassPathsExclusionSet", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Set, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FARFilter, RecursiveClassPathsExclusionSet), METADATA_PARAMS(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_RecursiveClassPathsExclusionSet_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_RecursiveClassPathsExclusionSet_MetaData)) };
+	static_assert(TModels_V<CGetTypeHashable, FTopLevelAssetPath>, "The structure 'FTopLevelAssetPath' is used in a TSet but does not have a GetValueTypeHash defined");
+	const UECodeGen_Private::FSetPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_RecursiveClassPathsExclusionSet = { "RecursiveClassPathsExclusionSet", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Set, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FARFilter, RecursiveClassPathsExclusionSet), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_RecursiveClassPathsExclusionSet_MetaData), Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_RecursiveClassPathsExclusionSet_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bRecursivePaths_MetaData[] = {
 		{ "Category", "AssetRegistry" },
@@ -10648,7 +10948,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 	{
 		((FARFilter*)Obj)->bRecursivePaths = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bRecursivePaths = { "bRecursivePaths", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FARFilter), &Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bRecursivePaths_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bRecursivePaths_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bRecursivePaths_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bRecursivePaths = { "bRecursivePaths", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FARFilter), &Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bRecursivePaths_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bRecursivePaths_MetaData), Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bRecursivePaths_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bRecursiveClasses_MetaData[] = {
 		{ "Category", "AssetRegistry" },
@@ -10661,7 +10961,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 	{
 		((FARFilter*)Obj)->bRecursiveClasses = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bRecursiveClasses = { "bRecursiveClasses", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FARFilter), &Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bRecursiveClasses_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bRecursiveClasses_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bRecursiveClasses_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bRecursiveClasses = { "bRecursiveClasses", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FARFilter), &Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bRecursiveClasses_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bRecursiveClasses_MetaData), Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bRecursiveClasses_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bIncludeOnlyOnDiskAssets_MetaData[] = {
 		{ "Category", "AssetRegistry" },
@@ -10674,7 +10974,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 	{
 		((FARFilter*)Obj)->bIncludeOnlyOnDiskAssets = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bIncludeOnlyOnDiskAssets = { "bIncludeOnlyOnDiskAssets", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FARFilter), &Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bIncludeOnlyOnDiskAssets_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bIncludeOnlyOnDiskAssets_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bIncludeOnlyOnDiskAssets_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bIncludeOnlyOnDiskAssets = { "bIncludeOnlyOnDiskAssets", nullptr, (EPropertyFlags)0x0010000000010005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FARFilter), &Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bIncludeOnlyOnDiskAssets_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bIncludeOnlyOnDiskAssets_MetaData), Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_bIncludeOnlyOnDiskAssets_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FARFilter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_PackageNames_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FARFilter_Statics::NewProp_PackageNames,
@@ -10703,14 +11003,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"ARFilter",
-		sizeof(FARFilter),
-		alignof(FARFilter),
 		Z_Construct_UScriptStruct_FARFilter_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::PropPointers),
+		sizeof(FARFilter),
+		alignof(FARFilter),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FARFilter_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FARFilter_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FARFilter_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FARFilter()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -10728,6 +11029,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			FName AssetName;
 		};
 
+		static_assert(sizeof(FTopLevelAssetPath) < MAX_uint16);
+		static_assert(alignof(FTopLevelAssetPath) < MAX_uint8);
 		struct FAssetBundleEntry
 		{
 			FName BundleName;
@@ -10737,6 +11040,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			TArray<FTopLevelAssetPath> AssetPaths;
 		};
 
+		static_assert(sizeof(FAssetBundleEntry) < MAX_uint16);
+		static_assert(alignof(FAssetBundleEntry) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -10773,9 +11078,9 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Specific name of this bundle" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_BundleName = { "BundleName", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FAssetBundleEntry, BundleName), METADATA_PARAMS(Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_BundleName_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_BundleName_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_BundleName = { "BundleName", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FAssetBundleEntry, BundleName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_BundleName_MetaData), Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_BundleName_MetaData) };
 #if WITH_EDITORONLY_DATA
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_BundleAssets_Inner = { "BundleAssets", nullptr, (EPropertyFlags)0x0000000800000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FSoftObjectPath, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_BundleAssets_Inner = { "BundleAssets", nullptr, (EPropertyFlags)0x0000000800000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FSoftObjectPath, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_BundleAssets_MetaData[] = {
 		{ "Comment", "/** List of string assets contained in this bundle */" },
@@ -10785,15 +11090,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "List of string assets contained in this bundle" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_BundleAssets = { "BundleAssets", nullptr, (EPropertyFlags)0x0010000800000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FAssetBundleEntry, BundleAssets), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_BundleAssets_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_BundleAssets_MetaData)) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_BundleAssets = { "BundleAssets", nullptr, (EPropertyFlags)0x0010000800000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FAssetBundleEntry, BundleAssets), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_BundleAssets_MetaData), Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_BundleAssets_MetaData) };
 #endif // WITH_EDITORONLY_DATA
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_AssetPaths_Inner = { "AssetPaths", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FTopLevelAssetPath, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_AssetPaths_Inner = { "AssetPaths", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FTopLevelAssetPath, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_AssetPaths_MetaData[] = {
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_AssetPaths = { "AssetPaths", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FAssetBundleEntry, AssetPaths), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_AssetPaths_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_AssetPaths_MetaData)) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_AssetPaths = { "AssetPaths", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FAssetBundleEntry, AssetPaths), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_AssetPaths_MetaData), Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_AssetPaths_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::NewProp_BundleName,
 #if WITH_EDITORONLY_DATA
@@ -10808,14 +11113,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"AssetBundleEntry",
-		sizeof(FAssetBundleEntry),
-		alignof(FAssetBundleEntry),
 		Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::PropPointers),
+		sizeof(FAssetBundleEntry),
+		alignof(FAssetBundleEntry),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000208),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000008),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetBundleEntry_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FAssetBundleEntry()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -10833,6 +11139,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			FName AssetName;
 		};
 
+		static_assert(sizeof(FTopLevelAssetPath) < MAX_uint16);
+		static_assert(alignof(FTopLevelAssetPath) < MAX_uint8);
 		struct FAssetBundleEntry
 		{
 			FName BundleName;
@@ -10842,6 +11150,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			TArray<FTopLevelAssetPath> AssetPaths;
 		};
 
+		static_assert(sizeof(FAssetBundleEntry) < MAX_uint16);
+		static_assert(alignof(FAssetBundleEntry) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -10860,7 +11170,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "A struct with a list of asset bundle entries. If one of these is inside a UObject it will get automatically exported as the asset registry tag AssetBundleData" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FAssetBundleData_Statics::NewProp_Bundles_Inner = { "Bundles", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FAssetBundleEntry, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FAssetBundleData_Statics::NewProp_Bundles_Inner = { "Bundles", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FAssetBundleEntry, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FAssetBundleData_Statics::NewProp_Bundles_MetaData[] = {
 		{ "Comment", "/** List of bundles defined */" },
@@ -10868,7 +11178,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "List of bundles defined" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FAssetBundleData_Statics::NewProp_Bundles = { "Bundles", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FAssetBundleData, Bundles), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FAssetBundleData_Statics::NewProp_Bundles_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetBundleData_Statics::NewProp_Bundles_MetaData)) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FAssetBundleData_Statics::NewProp_Bundles = { "Bundles", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FAssetBundleData, Bundles), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetBundleData_Statics::NewProp_Bundles_MetaData), Z_Construct_UScriptStruct_FAssetBundleData_Statics::NewProp_Bundles_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FAssetBundleData_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FAssetBundleData_Statics::NewProp_Bundles_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FAssetBundleData_Statics::NewProp_Bundles,
@@ -10878,14 +11188,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"AssetBundleData",
-		sizeof(FAssetBundleData),
-		alignof(FAssetBundleData),
 		Z_Construct_UScriptStruct_FAssetBundleData_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetBundleData_Statics::PropPointers),
+		sizeof(FAssetBundleData),
+		alignof(FAssetBundleData),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000208),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FAssetBundleData_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetBundleData_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000008),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetBundleData_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FAssetBundleData_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetBundleData_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FAssetBundleData()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -10903,6 +11214,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			FName AssetName;
 		};
 
+		static_assert(sizeof(FTopLevelAssetPath) < MAX_uint16);
+		static_assert(alignof(FTopLevelAssetPath) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -10951,7 +11264,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_ObjectPath = { "ObjectPath", nullptr, (EPropertyFlags)0x0010000800000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FAssetData, ObjectPath), METADATA_PARAMS(Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_ObjectPath_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_ObjectPath_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_ObjectPath = { "ObjectPath", nullptr, (EPropertyFlags)0x0010000800000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FAssetData, ObjectPath), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_ObjectPath_MetaData), Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_ObjectPath_MetaData) };
 #endif // WITH_EDITORONLY_DATA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_PackageName_MetaData[] = {
@@ -10961,7 +11274,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The name of the package in which the asset is found, this is the full long package name such as /Game/Path/Package" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_PackageName = { "PackageName", nullptr, (EPropertyFlags)0x0010000000002014, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FAssetData, PackageName), METADATA_PARAMS(Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_PackageName_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_PackageName_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_PackageName = { "PackageName", nullptr, (EPropertyFlags)0x0010000000002014, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FAssetData, PackageName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_PackageName_MetaData), Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_PackageName_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_PackagePath_MetaData[] = {
 		{ "Category", "AssetData" },
@@ -10970,7 +11283,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The path to the package in which the asset is found, this is /Game/Path with the Package stripped off" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_PackagePath = { "PackagePath", nullptr, (EPropertyFlags)0x0010000000002014, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FAssetData, PackagePath), METADATA_PARAMS(Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_PackagePath_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_PackagePath_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_PackagePath = { "PackagePath", nullptr, (EPropertyFlags)0x0010000000002014, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FAssetData, PackagePath), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_PackagePath_MetaData), Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_PackagePath_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_AssetName_MetaData[] = {
 		{ "Category", "AssetData" },
@@ -10979,7 +11292,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The name of the asset without the package" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_AssetName = { "AssetName", nullptr, (EPropertyFlags)0x0010000000002014, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FAssetData, AssetName), METADATA_PARAMS(Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_AssetName_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_AssetName_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_AssetName = { "AssetName", nullptr, (EPropertyFlags)0x0010000000002014, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FAssetData, AssetName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_AssetName_MetaData), Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_AssetName_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_AssetClass_MetaData[] = {
 		{ "Category", "AssetData" },
@@ -10990,7 +11303,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The name of the asset's class" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_AssetClass = { "AssetClass", nullptr, (EPropertyFlags)0x0010000000002014, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FAssetData, AssetClass), METADATA_PARAMS(Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_AssetClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_AssetClass_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_AssetClass = { "AssetClass", nullptr, (EPropertyFlags)0x0010000000002014, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FAssetData, AssetClass), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_AssetClass_MetaData), Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_AssetClass_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_AssetClassPath_MetaData[] = {
 		{ "Category", "AssetData" },
@@ -10999,7 +11312,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The path name of the asset's class" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_AssetClassPath = { "AssetClassPath", nullptr, (EPropertyFlags)0x0010000000002014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FAssetData, AssetClassPath), Z_Construct_UScriptStruct_FTopLevelAssetPath, METADATA_PARAMS(Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_AssetClassPath_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_AssetClassPath_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_AssetClassPath = { "AssetClassPath", nullptr, (EPropertyFlags)0x0010000000002014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FAssetData, AssetClassPath), Z_Construct_UScriptStruct_FTopLevelAssetPath, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_AssetClassPath_MetaData), Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_AssetClassPath_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FAssetData_Statics::PropPointers[] = {
 #if WITH_EDITORONLY_DATA
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FAssetData_Statics::NewProp_ObjectPath,
@@ -11015,14 +11328,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"AssetData",
-		sizeof(FAssetData),
-		alignof(FAssetData),
 		Z_Construct_UScriptStruct_FAssetData_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetData_Statics::PropPointers),
+		sizeof(FAssetData),
+		alignof(FAssetData),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FAssetData_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetData_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetData_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FAssetData_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FAssetData_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FAssetData()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -11062,19 +11376,19 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::NewProp_UninitializedObjectReference = { "UninitializedObjectReference", nullptr, (EPropertyFlags)0x0014000000002000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTestUninitializedScriptStructMembersTest, UninitializedObjectReference), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::NewProp_UninitializedObjectReference_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::NewProp_UninitializedObjectReference_MetaData)) };
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::NewProp_UninitializedObjectReference = { "UninitializedObjectReference", nullptr, (EPropertyFlags)0x0014000000002000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTestUninitializedScriptStructMembersTest, UninitializedObjectReference), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::NewProp_UninitializedObjectReference_MetaData), Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::NewProp_UninitializedObjectReference_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::NewProp_InitializedObjectReference_MetaData[] = {
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::NewProp_InitializedObjectReference = { "InitializedObjectReference", nullptr, (EPropertyFlags)0x0014000000002000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTestUninitializedScriptStructMembersTest, InitializedObjectReference), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::NewProp_InitializedObjectReference_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::NewProp_InitializedObjectReference_MetaData)) };
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::NewProp_InitializedObjectReference = { "InitializedObjectReference", nullptr, (EPropertyFlags)0x0014000000002000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTestUninitializedScriptStructMembersTest, InitializedObjectReference), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::NewProp_InitializedObjectReference_MetaData), Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::NewProp_InitializedObjectReference_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::NewProp_UnusedValue_MetaData[] = {
 		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::NewProp_UnusedValue = { "UnusedValue", nullptr, (EPropertyFlags)0x0010000000002000, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTestUninitializedScriptStructMembersTest, UnusedValue), METADATA_PARAMS(Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::NewProp_UnusedValue_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::NewProp_UnusedValue_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::NewProp_UnusedValue = { "UnusedValue", nullptr, (EPropertyFlags)0x0010000000002000, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTestUninitializedScriptStructMembersTest, UnusedValue), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::NewProp_UnusedValue_MetaData), Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::NewProp_UnusedValue_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::NewProp_UninitializedObjectReference,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::NewProp_InitializedObjectReference,
@@ -11085,20 +11399,111 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"TestUninitializedScriptStructMembersTest",
-		sizeof(FTestUninitializedScriptStructMembersTest),
-		alignof(FTestUninitializedScriptStructMembersTest),
 		Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::PropPointers),
+		sizeof(FTestUninitializedScriptStructMembersTest),
+		alignof(FTestUninitializedScriptStructMembersTest),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
 		if (!ReturnStruct)
 		{
 			UECodeGen_Private::ConstructUScriptStruct(ReturnStruct, Z_Construct_UScriptStruct_FTestUninitializedScriptStructMembersTest_Statics::ReturnStructParams);
+		}
+		return ReturnStruct;
+	}
+	struct Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics
+	{
+		struct FTopLevelAssetPath
+		{
+			FName PackageName;
+			FName AssetName;
+		};
+
+		static_assert(sizeof(FTopLevelAssetPath) < MAX_uint16);
+		static_assert(alignof(FTopLevelAssetPath) < MAX_uint8);
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
+#endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_StrongObjectPointer_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_StrongObjectPointer;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_SoftObjectPointer_MetaData[];
+#endif
+		static const UECodeGen_Private::FSoftObjectPropertyParams NewProp_SoftObjectPointer;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_SoftObjectPath_MetaData[];
+#endif
+		static const UECodeGen_Private::FStructPropertyParams NewProp_SoftObjectPath;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_WeakObjectPointer_MetaData[];
+#endif
+		static const UECodeGen_Private::FWeakObjectPropertyParams NewProp_WeakObjectPointer;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UECodeGen_Private::FStructParams ReturnStructParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::Struct_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
+	};
+#endif
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::NewProp_StrongObjectPointer_MetaData[] = {
+		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::NewProp_StrongObjectPointer = { "StrongObjectPointer", nullptr, (EPropertyFlags)0x0014000000002000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTestUndeclaredScriptStructObjectReferencesTest, StrongObjectPointer), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::NewProp_StrongObjectPointer_MetaData), Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::NewProp_StrongObjectPointer_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::NewProp_SoftObjectPointer_MetaData[] = {
+		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
+	};
+#endif
+	const UECodeGen_Private::FSoftObjectPropertyParams Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::NewProp_SoftObjectPointer = { "SoftObjectPointer", nullptr, (EPropertyFlags)0x0014000000002000, UECodeGen_Private::EPropertyGenFlags::SoftObject, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTestUndeclaredScriptStructObjectReferencesTest, SoftObjectPointer), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::NewProp_SoftObjectPointer_MetaData), Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::NewProp_SoftObjectPointer_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::NewProp_SoftObjectPath_MetaData[] = {
+		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
+	};
+#endif
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::NewProp_SoftObjectPath = { "SoftObjectPath", nullptr, (EPropertyFlags)0x0010000000002000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTestUndeclaredScriptStructObjectReferencesTest, SoftObjectPath), Z_Construct_UScriptStruct_FSoftObjectPath, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::NewProp_SoftObjectPath_MetaData), Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::NewProp_SoftObjectPath_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::NewProp_WeakObjectPointer_MetaData[] = {
+		{ "ModuleRelativePath", "Public/UObject/NoExportTypes.h" },
+	};
+#endif
+	const UECodeGen_Private::FWeakObjectPropertyParams Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::NewProp_WeakObjectPointer = { "WeakObjectPointer", nullptr, (EPropertyFlags)0x0014000000002000, UECodeGen_Private::EPropertyGenFlags::WeakObject, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTestUndeclaredScriptStructObjectReferencesTest, WeakObjectPointer), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::NewProp_WeakObjectPointer_MetaData), Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::NewProp_WeakObjectPointer_MetaData) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::NewProp_StrongObjectPointer,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::NewProp_SoftObjectPointer,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::NewProp_SoftObjectPath,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::NewProp_WeakObjectPointer,
+	};
+	const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::ReturnStructParams = {
+		(UObject* (*)())Z_Construct_UPackage__Script_CoreUObject,
+		nullptr,
+		nullptr,
+		"TestUndeclaredScriptStructObjectReferencesTest",
+		Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::PropPointers,
+		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::PropPointers),
+		sizeof(FTestUndeclaredScriptStructObjectReferencesTest),
+		alignof(FTestUndeclaredScriptStructObjectReferencesTest),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000008),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::Struct_MetaDataParams)
+	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::PropPointers) < 2048);
+	UScriptStruct* Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest()
+	{
+		static UScriptStruct* ReturnStruct = nullptr;
+		if (!ReturnStruct)
+		{
+			UECodeGen_Private::ConstructUScriptStruct(ReturnStruct, Z_Construct_UScriptStruct_FTestUndeclaredScriptStructObjectReferencesTest_Statics::ReturnStructParams);
 		}
 		return ReturnStruct;
 	}
@@ -11119,7 +11524,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UObject_ExecuteUbergraph_Statics::NewProp_EntryPoint = { "EntryPoint", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(Object_eventExecuteUbergraph_Parms, EntryPoint), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UObject_ExecuteUbergraph_Statics::NewProp_EntryPoint = { "EntryPoint", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Object_eventExecuteUbergraph_Parms, EntryPoint), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UObject_ExecuteUbergraph_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UObject_ExecuteUbergraph_Statics::NewProp_EntryPoint,
 	};
@@ -11131,7 +11536,9 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "Executes some portion of the ubergraph.\n\n@param       EntryPoint      The entry point to start code execution at." },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UObject_ExecuteUbergraph_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UObject, nullptr, "ExecuteUbergraph", nullptr, nullptr, sizeof(Z_Construct_UFunction_UObject_ExecuteUbergraph_Statics::Object_eventExecuteUbergraph_Parms), Z_Construct_UFunction_UObject_ExecuteUbergraph_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UObject_ExecuteUbergraph_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UObject_ExecuteUbergraph_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UObject_ExecuteUbergraph_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UObject_ExecuteUbergraph_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UObject, nullptr, "ExecuteUbergraph", nullptr, nullptr, Z_Construct_UFunction_UObject_ExecuteUbergraph_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UObject_ExecuteUbergraph_Statics::PropPointers), sizeof(Z_Construct_UFunction_UObject_ExecuteUbergraph_Statics::Object_eventExecuteUbergraph_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UObject_ExecuteUbergraph_Statics::Function_MetaDataParams), Z_Construct_UFunction_UObject_ExecuteUbergraph_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UObject_ExecuteUbergraph_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_UObject_ExecuteUbergraph_Statics::Object_eventExecuteUbergraph_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_UObject_ExecuteUbergraph()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -11159,9 +11566,11 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 	UObject* (*const Z_Construct_UClass_UObject_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UPackage__Script_CoreUObject,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UObject_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UObject_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UObject_ExecuteUbergraph, "ExecuteUbergraph" }, // 3729755051
+		{ &Z_Construct_UFunction_UObject_ExecuteUbergraph, "ExecuteUbergraph" }, // 2783888722
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UObject_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UObject_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * Direct base class for all UE objects\n * @note The full C++ class is located here: Engine\\Source\\Runtime\\CoreUObject\\Public\\UObject\\Object.h\n */" },
@@ -11187,7 +11596,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		0,
 		0,
 		0x000000A1u,
-		METADATA_PARAMS(Z_Construct_UClass_UObject_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UObject_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UObject_Statics::Class_MetaDataParams), Z_Construct_UClass_UObject_Statics::Class_MetaDataParams)
 	};
 	UClass* Z_Construct_UClass_UObject()
 	{
@@ -11211,6 +11620,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			FString FilePath;
 		};
 
+		static_assert(sizeof(FFilePath) < MAX_uint16);
+		static_assert(alignof(FFilePath) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -11237,7 +11648,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The path to the file." },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FFilePath_Statics::NewProp_FilePath = { "FilePath", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFilePath, FilePath), METADATA_PARAMS(Z_Construct_UScriptStruct_FFilePath_Statics::NewProp_FilePath_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFilePath_Statics::NewProp_FilePath_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FFilePath_Statics::NewProp_FilePath = { "FilePath", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFilePath, FilePath), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFilePath_Statics::NewProp_FilePath_MetaData), Z_Construct_UScriptStruct_FFilePath_Statics::NewProp_FilePath_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FFilePath_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFilePath_Statics::NewProp_FilePath,
 	};
@@ -11246,14 +11657,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"FilePath",
-		sizeof(FFilePath),
-		alignof(FFilePath),
 		Z_Construct_UScriptStruct_FFilePath_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFilePath_Statics::PropPointers),
+		sizeof(FFilePath),
+		alignof(FFilePath),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FFilePath_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFilePath_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFilePath_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FFilePath_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFilePath_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FFilePath()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -11270,6 +11682,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			FString Path;
 		};
 
+		static_assert(sizeof(FDirectoryPath) < MAX_uint16);
+		static_assert(alignof(FDirectoryPath) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -11296,7 +11710,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The path to the directory." },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FDirectoryPath_Statics::NewProp_Path = { "Path", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FDirectoryPath, Path), METADATA_PARAMS(Z_Construct_UScriptStruct_FDirectoryPath_Statics::NewProp_Path_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDirectoryPath_Statics::NewProp_Path_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FDirectoryPath_Statics::NewProp_Path = { "Path", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FDirectoryPath, Path), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDirectoryPath_Statics::NewProp_Path_MetaData), Z_Construct_UScriptStruct_FDirectoryPath_Statics::NewProp_Path_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FDirectoryPath_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FDirectoryPath_Statics::NewProp_Path,
 	};
@@ -11305,14 +11719,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"DirectoryPath",
-		sizeof(FDirectoryPath),
-		alignof(FDirectoryPath),
 		Z_Construct_UScriptStruct_FDirectoryPath_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDirectoryPath_Statics::PropPointers),
+		sizeof(FDirectoryPath),
+		alignof(FDirectoryPath),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FDirectoryPath_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDirectoryPath_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDirectoryPath_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FDirectoryPath_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDirectoryPath_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FDirectoryPath()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -11329,6 +11744,8 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 			FString Template;
 		};
 
+		static_assert(sizeof(FTemplateString) < MAX_uint16);
+		static_assert(alignof(FTemplateString) < MAX_uint8);
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
@@ -11355,7 +11772,7 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		{ "ToolTip", "The format string." },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FTemplateString_Statics::NewProp_Template = { "Template", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTemplateString, Template), METADATA_PARAMS(Z_Construct_UScriptStruct_FTemplateString_Statics::NewProp_Template_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTemplateString_Statics::NewProp_Template_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FTemplateString_Statics::NewProp_Template = { "Template", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTemplateString, Template), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTemplateString_Statics::NewProp_Template_MetaData), Z_Construct_UScriptStruct_FTemplateString_Statics::NewProp_Template_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTemplateString_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTemplateString_Statics::NewProp_Template,
 	};
@@ -11364,14 +11781,15 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		nullptr,
 		nullptr,
 		"TemplateString",
-		sizeof(FTemplateString),
-		alignof(FTemplateString),
 		Z_Construct_UScriptStruct_FTemplateString_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTemplateString_Statics::PropPointers),
+		sizeof(FTemplateString),
+		alignof(FTemplateString),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000008),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FTemplateString_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTemplateString_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTemplateString_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FTemplateString_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTemplateString_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FTemplateString()
 	{
 		static UScriptStruct* ReturnStruct = nullptr;
@@ -11387,29 +11805,30 @@ void EmptyLinkFunctionForGeneratedCodeNoExportTypes() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_Statics::EnumInfo[] = {
-		{ ESearchCase_StaticEnum, TEXT("ESearchCase"), &Z_Registration_Info_UEnum_ESearchCase, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1578437248U) },
-		{ ESearchDir_StaticEnum, TEXT("ESearchDir"), &Z_Registration_Info_UEnum_ESearchDir, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3439898328U) },
-		{ ELogTimes_StaticEnum, TEXT("ELogTimes"), &Z_Registration_Info_UEnum_ELogTimes, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2967716447U) },
-		{ EAxis_StaticEnum, TEXT("EAxis"), &Z_Registration_Info_UEnum_EAxis, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2376982772U) },
-		{ EAxisList_StaticEnum, TEXT("EAxisList"), &Z_Registration_Info_UEnum_EAxisList, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 851332234U) },
-		{ EInterpCurveMode_StaticEnum, TEXT("EInterpCurveMode"), &Z_Registration_Info_UEnum_EInterpCurveMode, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 118599791U) },
-		{ EPixelFormat_StaticEnum, TEXT("EPixelFormat"), &Z_Registration_Info_UEnum_EPixelFormat, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2651536151U) },
-		{ EMouseCursor_StaticEnum, TEXT("EMouseCursor"), &Z_Registration_Info_UEnum_EMouseCursor, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 396763658U) },
-		{ EUnit_StaticEnum, TEXT("EUnit"), &Z_Registration_Info_UEnum_EUnit, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1931954769U) },
-		{ EPropertyAccessChangeNotifyMode_StaticEnum, TEXT("EPropertyAccessChangeNotifyMode"), &Z_Registration_Info_UEnum_EPropertyAccessChangeNotifyMode, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1840942618U) },
-		{ EAppReturnType_StaticEnum, TEXT("EAppReturnType"), &Z_Registration_Info_UEnum_EAppReturnType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2973043059U) },
-		{ EAppMsgType_StaticEnum, TEXT("EAppMsgType"), &Z_Registration_Info_UEnum_EAppMsgType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 560831581U) },
-		{ ERangeBoundTypes_StaticEnum, TEXT("ERangeBoundTypes"), &Z_Registration_Info_UEnum_ERangeBoundTypes, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 364929810U) },
-		{ ELocalizedTextSourceCategory_StaticEnum, TEXT("ELocalizedTextSourceCategory"), &Z_Registration_Info_UEnum_ELocalizedTextSourceCategory, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3089542370U) },
-		{ EAutomationEventType_StaticEnum, TEXT("EAutomationEventType"), &Z_Registration_Info_UEnum_EAutomationEventType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 317308866U) },
-		{ EInputDeviceConnectionState_StaticEnum, TEXT("EInputDeviceConnectionState"), &Z_Registration_Info_UEnum_EInputDeviceConnectionState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 111167951U) },
-		{ EInputDeviceTriggerMask_StaticEnum, TEXT("EInputDeviceTriggerMask"), &Z_Registration_Info_UEnum_EInputDeviceTriggerMask, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 879339053U) },
-		{ EDataValidationResult_StaticEnum, TEXT("EDataValidationResult"), &Z_Registration_Info_UEnum_EDataValidationResult, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2608798874U) },
+		{ ESearchCase_StaticEnum, TEXT("ESearchCase"), &Z_Registration_Info_UEnum_ESearchCase, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1843731033U) },
+		{ ESearchDir_StaticEnum, TEXT("ESearchDir"), &Z_Registration_Info_UEnum_ESearchDir, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3646682350U) },
+		{ ELogTimes_StaticEnum, TEXT("ELogTimes"), &Z_Registration_Info_UEnum_ELogTimes, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3227137138U) },
+		{ EAxis_StaticEnum, TEXT("EAxis"), &Z_Registration_Info_UEnum_EAxis, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1662690994U) },
+		{ EAxisList_StaticEnum, TEXT("EAxisList"), &Z_Registration_Info_UEnum_EAxisList, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2552265984U) },
+		{ EInterpCurveMode_StaticEnum, TEXT("EInterpCurveMode"), &Z_Registration_Info_UEnum_EInterpCurveMode, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2009311595U) },
+		{ EPixelFormat_StaticEnum, TEXT("EPixelFormat"), &Z_Registration_Info_UEnum_EPixelFormat, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3006825266U) },
+		{ EMouseCursor_StaticEnum, TEXT("EMouseCursor"), &Z_Registration_Info_UEnum_EMouseCursor, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1523921450U) },
+		{ EUnit_StaticEnum, TEXT("EUnit"), &Z_Registration_Info_UEnum_EUnit, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2887558308U) },
+		{ EPropertyAccessChangeNotifyMode_StaticEnum, TEXT("EPropertyAccessChangeNotifyMode"), &Z_Registration_Info_UEnum_EPropertyAccessChangeNotifyMode, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2203015507U) },
+		{ EAppMsgCategory_StaticEnum, TEXT("EAppMsgCategory"), &Z_Registration_Info_UEnum_EAppMsgCategory, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3048022477U) },
+		{ EAppReturnType_StaticEnum, TEXT("EAppReturnType"), &Z_Registration_Info_UEnum_EAppReturnType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2908191588U) },
+		{ EAppMsgType_StaticEnum, TEXT("EAppMsgType"), &Z_Registration_Info_UEnum_EAppMsgType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1523617652U) },
+		{ ERangeBoundTypes_StaticEnum, TEXT("ERangeBoundTypes"), &Z_Registration_Info_UEnum_ERangeBoundTypes, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2229928457U) },
+		{ ELocalizedTextSourceCategory_StaticEnum, TEXT("ELocalizedTextSourceCategory"), &Z_Registration_Info_UEnum_ELocalizedTextSourceCategory, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 365012469U) },
+		{ EAutomationEventType_StaticEnum, TEXT("EAutomationEventType"), &Z_Registration_Info_UEnum_EAutomationEventType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1103873035U) },
+		{ EInputDeviceConnectionState_StaticEnum, TEXT("EInputDeviceConnectionState"), &Z_Registration_Info_UEnum_EInputDeviceConnectionState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2895349965U) },
+		{ EInputDeviceTriggerMask_StaticEnum, TEXT("EInputDeviceTriggerMask"), &Z_Registration_Info_UEnum_EInputDeviceTriggerMask, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2311616901U) },
+		{ EDataValidationResult_StaticEnum, TEXT("EDataValidationResult"), &Z_Registration_Info_UEnum_EDataValidationResult, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3163830312U) },
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UObject, UObject::StaticClass, TEXT("UObject"), &Z_Registration_Info_UClass_UObject, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UObject), 4015956599U) },
+		{ Z_Construct_UClass_UObject, UObject::StaticClass, TEXT("UObject"), &Z_Registration_Info_UClass_UObject, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UObject), 3190692537U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_244575209(TEXT("/Script/CoreUObject"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_1049038960(TEXT("/Script/CoreUObject"),
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_Statics::ClassInfo),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_Statics::EnumInfo));

@@ -16,7 +16,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define FID_Engine_Source_Runtime_Slate_Public_Framework_Commands_InputChord_h_25_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FInputChord_Statics; \
-	static class UScriptStruct* StaticStruct();
+	SLATE_API static class UScriptStruct* StaticStruct();
 
 
 template<> SLATE_API UScriptStruct* StaticStruct<struct FInputChord>();

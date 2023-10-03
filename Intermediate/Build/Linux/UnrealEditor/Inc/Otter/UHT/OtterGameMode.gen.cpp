@@ -35,6 +35,7 @@ void EmptyLinkFunctionForGeneratedCodeOtterGameMode() {}
 		(UObject* (*)())Z_Construct_UClass_AGameModeBase,
 		(UObject* (*)())Z_Construct_UPackage__Script_Otter,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AOtterGameMode_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AOtterGameMode_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering HLOD WorldPartition DataLayers Transformation" },
@@ -59,7 +60,7 @@ void EmptyLinkFunctionForGeneratedCodeOtterGameMode() {}
 		0,
 		0,
 		0x008802ACu,
-		METADATA_PARAMS(Z_Construct_UClass_AOtterGameMode_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AOtterGameMode_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AOtterGameMode_Statics::Class_MetaDataParams), Z_Construct_UClass_AOtterGameMode_Statics::Class_MetaDataParams)
 	};
 	UClass* Z_Construct_UClass_AOtterGameMode()
 	{
@@ -80,9 +81,9 @@ void EmptyLinkFunctionForGeneratedCodeOtterGameMode() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AOtterGameMode, AOtterGameMode::StaticClass, TEXT("AOtterGameMode"), &Z_Registration_Info_UClass_AOtterGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AOtterGameMode), 3741830834U) },
+		{ Z_Construct_UClass_AOtterGameMode, AOtterGameMode::StaticClass, TEXT("AOtterGameMode"), &Z_Registration_Info_UClass_AOtterGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AOtterGameMode), 3748548435U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_46169135(TEXT("/Script/Otter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_3585110821(TEXT("/Script/Otter"),
 		Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

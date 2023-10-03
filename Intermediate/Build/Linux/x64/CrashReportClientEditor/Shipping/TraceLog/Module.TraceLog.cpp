@@ -8,6 +8,7 @@
 #include "Runtime/TraceLog/Private/Trace/Field.cpp"
 #include "Runtime/TraceLog/Private/Trace/Important/Cache.cpp"
 #include "Runtime/TraceLog/Private/Trace/Important/SharedBuffer.cpp"
+#include "Runtime/TraceLog/Private/Trace/Message.cpp"
 #include "Runtime/TraceLog/Private/Trace/Tail.cpp"
 #include "Runtime/TraceLog/Private/Trace/TlsBuffer.cpp"
 #include "Runtime/TraceLog/Private/Trace/Trace.cpp"

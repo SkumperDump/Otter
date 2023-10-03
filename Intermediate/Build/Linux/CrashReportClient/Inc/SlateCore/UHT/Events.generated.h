@@ -61,13 +61,13 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<struct FCharacterEvent>();
 
 #define FID_Engine_Source_Runtime_SlateCore_Public_Input_Events_h_687_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FPointerEvent_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FInputEvent Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FPointerEvent>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Input_Events_h_1075_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Input_Events_h_1053_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FMotionEvent_Statics; \
 	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FInputEvent Super;
@@ -75,7 +75,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<struct FPointerEvent>();
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FMotionEvent>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Input_Events_h_1166_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Input_Events_h_1144_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FNavigationEvent_Statics; \
 	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FInputEvent Super;

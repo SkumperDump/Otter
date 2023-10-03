@@ -9,7 +9,6 @@
 class UCameraComponent;
 class UCapsuleComponent;
 class USpringArmComponent;
-class USkeletalMeshComponent;
 class UInputMappingContext;
 struct FInputActionValue;
 
@@ -23,9 +22,6 @@ class OTTER_API AOtterPlayer : public AOtterDefaultPawn
 
 	UPROPERTY(VisibleAnywhere)
 	TArray<TObjectPtr<AActor>> PlayerInventory;
-
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<USkeletalMeshComponent> PlayerMesh;
 
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UCameraComponent> PlayerCamera;

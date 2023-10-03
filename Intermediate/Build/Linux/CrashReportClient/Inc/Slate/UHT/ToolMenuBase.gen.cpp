@@ -59,11 +59,11 @@ void EmptyLinkFunctionForGeneratedCodeToolMenuBase() {}
 		"ECustomizedToolMenuVisibility",
 		"ECustomizedToolMenuVisibility",
 		Z_Construct_UEnum_Slate_ECustomizedToolMenuVisibility_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_ECustomizedToolMenuVisibility_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_ECustomizedToolMenuVisibility_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_Slate_ECustomizedToolMenuVisibility_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_ECustomizedToolMenuVisibility_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_ECustomizedToolMenuVisibility_Statics::Enum_MetaDataParams), Z_Construct_UEnum_Slate_ECustomizedToolMenuVisibility_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_Slate_ECustomizedToolMenuVisibility()
 	{
@@ -92,7 +92,7 @@ template<> SLATE_API UScriptStruct* StaticStruct<FCustomizedToolMenuEntry>()
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
 		static void* NewStructOps();
-		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_Visibility_Underlying;
+		static const UECodeGen_Private::FIntPropertyParams NewProp_Visibility_Underlying;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_Visibility_MetaData[];
 #endif
@@ -109,13 +109,13 @@ template<> SLATE_API UScriptStruct* StaticStruct<FCustomizedToolMenuEntry>()
 	{
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FCustomizedToolMenuEntry>();
 	}
-	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenuEntry_Statics::NewProp_Visibility_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenuEntry_Statics::NewProp_Visibility_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCustomizedToolMenuEntry_Statics::NewProp_Visibility_MetaData[] = {
 		{ "ModuleRelativePath", "Public/Framework/MultiBox/ToolMenuBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenuEntry_Statics::NewProp_Visibility = { "Visibility", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCustomizedToolMenuEntry, Visibility), Z_Construct_UEnum_Slate_ECustomizedToolMenuVisibility, METADATA_PARAMS(Z_Construct_UScriptStruct_FCustomizedToolMenuEntry_Statics::NewProp_Visibility_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenuEntry_Statics::NewProp_Visibility_MetaData)) }; // 113334925
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenuEntry_Statics::NewProp_Visibility = { "Visibility", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCustomizedToolMenuEntry, Visibility), Z_Construct_UEnum_Slate_ECustomizedToolMenuVisibility, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenuEntry_Statics::NewProp_Visibility_MetaData), Z_Construct_UScriptStruct_FCustomizedToolMenuEntry_Statics::NewProp_Visibility_MetaData) }; // 1564315966
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FCustomizedToolMenuEntry_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCustomizedToolMenuEntry_Statics::NewProp_Visibility_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCustomizedToolMenuEntry_Statics::NewProp_Visibility,
@@ -125,14 +125,15 @@ template<> SLATE_API UScriptStruct* StaticStruct<FCustomizedToolMenuEntry>()
 		nullptr,
 		&NewStructOps,
 		"CustomizedToolMenuEntry",
-		sizeof(FCustomizedToolMenuEntry),
-		alignof(FCustomizedToolMenuEntry),
 		Z_Construct_UScriptStruct_FCustomizedToolMenuEntry_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenuEntry_Statics::PropPointers),
+		sizeof(FCustomizedToolMenuEntry),
+		alignof(FCustomizedToolMenuEntry),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000001),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FCustomizedToolMenuEntry_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenuEntry_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenuEntry_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FCustomizedToolMenuEntry_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenuEntry_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FCustomizedToolMenuEntry()
 	{
 		if (!Z_Registration_Info_UScriptStruct_CustomizedToolMenuEntry.InnerSingleton)
@@ -160,7 +161,7 @@ template<> SLATE_API UScriptStruct* StaticStruct<FCustomizedToolMenuSection>()
 		static const UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
 #endif
 		static void* NewStructOps();
-		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_Visibility_Underlying;
+		static const UECodeGen_Private::FIntPropertyParams NewProp_Visibility_Underlying;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_Visibility_MetaData[];
 #endif
@@ -177,13 +178,13 @@ template<> SLATE_API UScriptStruct* StaticStruct<FCustomizedToolMenuSection>()
 	{
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FCustomizedToolMenuSection>();
 	}
-	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenuSection_Statics::NewProp_Visibility_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenuSection_Statics::NewProp_Visibility_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCustomizedToolMenuSection_Statics::NewProp_Visibility_MetaData[] = {
 		{ "ModuleRelativePath", "Public/Framework/MultiBox/ToolMenuBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenuSection_Statics::NewProp_Visibility = { "Visibility", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCustomizedToolMenuSection, Visibility), Z_Construct_UEnum_Slate_ECustomizedToolMenuVisibility, METADATA_PARAMS(Z_Construct_UScriptStruct_FCustomizedToolMenuSection_Statics::NewProp_Visibility_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenuSection_Statics::NewProp_Visibility_MetaData)) }; // 113334925
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenuSection_Statics::NewProp_Visibility = { "Visibility", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCustomizedToolMenuSection, Visibility), Z_Construct_UEnum_Slate_ECustomizedToolMenuVisibility, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenuSection_Statics::NewProp_Visibility_MetaData), Z_Construct_UScriptStruct_FCustomizedToolMenuSection_Statics::NewProp_Visibility_MetaData) }; // 1564315966
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FCustomizedToolMenuSection_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCustomizedToolMenuSection_Statics::NewProp_Visibility_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCustomizedToolMenuSection_Statics::NewProp_Visibility,
@@ -193,14 +194,15 @@ template<> SLATE_API UScriptStruct* StaticStruct<FCustomizedToolMenuSection>()
 		nullptr,
 		&NewStructOps,
 		"CustomizedToolMenuSection",
-		sizeof(FCustomizedToolMenuSection),
-		alignof(FCustomizedToolMenuSection),
 		Z_Construct_UScriptStruct_FCustomizedToolMenuSection_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenuSection_Statics::PropPointers),
+		sizeof(FCustomizedToolMenuSection),
+		alignof(FCustomizedToolMenuSection),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000001),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FCustomizedToolMenuSection_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenuSection_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenuSection_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FCustomizedToolMenuSection_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenuSection_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FCustomizedToolMenuSection()
 	{
 		if (!Z_Registration_Info_UScriptStruct_CustomizedToolMenuSection.InnerSingleton)
@@ -245,13 +247,13 @@ template<> SLATE_API UScriptStruct* StaticStruct<FCustomizedToolMenuNameArray>()
 	{
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FCustomizedToolMenuNameArray>();
 	}
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray_Statics::NewProp_Names_Inner = { "Names", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray_Statics::NewProp_Names_Inner = { "Names", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray_Statics::NewProp_Names_MetaData[] = {
 		{ "ModuleRelativePath", "Public/Framework/MultiBox/ToolMenuBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray_Statics::NewProp_Names = { "Names", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCustomizedToolMenuNameArray, Names), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray_Statics::NewProp_Names_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray_Statics::NewProp_Names_MetaData)) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray_Statics::NewProp_Names = { "Names", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCustomizedToolMenuNameArray, Names), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray_Statics::NewProp_Names_MetaData), Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray_Statics::NewProp_Names_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray_Statics::NewProp_Names_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray_Statics::NewProp_Names,
@@ -261,14 +263,15 @@ template<> SLATE_API UScriptStruct* StaticStruct<FCustomizedToolMenuNameArray>()
 		nullptr,
 		&NewStructOps,
 		"CustomizedToolMenuNameArray",
-		sizeof(FCustomizedToolMenuNameArray),
-		alignof(FCustomizedToolMenuNameArray),
 		Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray_Statics::PropPointers),
+		sizeof(FCustomizedToolMenuNameArray),
+		alignof(FCustomizedToolMenuNameArray),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000001),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray()
 	{
 		if (!Z_Registration_Info_UScriptStruct_CustomizedToolMenuNameArray.InnerSingleton)
@@ -323,6 +326,11 @@ template<> SLATE_API UScriptStruct* StaticStruct<FCustomizedToolMenu>()
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_SectionOrder_MetaData[];
 #endif
 		static const UECodeGen_Private::FArrayPropertyParams NewProp_SectionOrder;
+		static const UECodeGen_Private::FNamePropertyParams NewProp_SuppressExtenders_Inner;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_SuppressExtenders_MetaData[];
+#endif
+		static const UECodeGen_Private::FArrayPropertyParams NewProp_SuppressExtenders;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UECodeGen_Private::FStructParams ReturnStructParams;
 	};
@@ -340,38 +348,45 @@ template<> SLATE_API UScriptStruct* StaticStruct<FCustomizedToolMenu>()
 		{ "ModuleRelativePath", "Public/Framework/MultiBox/ToolMenuBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCustomizedToolMenu, Name), METADATA_PARAMS(Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Name_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Name_MetaData)) };
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Entries_ValueProp = { "Entries", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 1, Z_Construct_UScriptStruct_FCustomizedToolMenuEntry, METADATA_PARAMS(nullptr, 0) }; // 4159231162
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Entries_Key_KeyProp = { "Entries_Key", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCustomizedToolMenu, Name), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Name_MetaData), Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Name_MetaData) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Entries_ValueProp = { "Entries", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FCustomizedToolMenuEntry, METADATA_PARAMS(0, nullptr) }; // 2967252692
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Entries_Key_KeyProp = { "Entries_Key", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Entries_MetaData[] = {
 		{ "ModuleRelativePath", "Public/Framework/MultiBox/ToolMenuBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Entries = { "Entries", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCustomizedToolMenu, Entries), EMapPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Entries_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Entries_MetaData)) }; // 4159231162
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Sections_ValueProp = { "Sections", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 1, Z_Construct_UScriptStruct_FCustomizedToolMenuSection, METADATA_PARAMS(nullptr, 0) }; // 1652998399
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Sections_Key_KeyProp = { "Sections_Key", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Entries = { "Entries", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCustomizedToolMenu, Entries), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Entries_MetaData), Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Entries_MetaData) }; // 2967252692
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Sections_ValueProp = { "Sections", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FCustomizedToolMenuSection, METADATA_PARAMS(0, nullptr) }; // 2054446089
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Sections_Key_KeyProp = { "Sections_Key", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Sections_MetaData[] = {
 		{ "ModuleRelativePath", "Public/Framework/MultiBox/ToolMenuBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Sections = { "Sections", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCustomizedToolMenu, Sections), EMapPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Sections_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Sections_MetaData)) }; // 1652998399
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_EntryOrder_ValueProp = { "EntryOrder", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 1, Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray, METADATA_PARAMS(nullptr, 0) }; // 2726774500
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_EntryOrder_Key_KeyProp = { "EntryOrder_Key", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Sections = { "Sections", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCustomizedToolMenu, Sections), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Sections_MetaData), Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Sections_MetaData) }; // 2054446089
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_EntryOrder_ValueProp = { "EntryOrder", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray, METADATA_PARAMS(0, nullptr) }; // 1432303920
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_EntryOrder_Key_KeyProp = { "EntryOrder_Key", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_EntryOrder_MetaData[] = {
 		{ "ModuleRelativePath", "Public/Framework/MultiBox/ToolMenuBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FMapPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_EntryOrder = { "EntryOrder", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCustomizedToolMenu, EntryOrder), EMapPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_EntryOrder_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_EntryOrder_MetaData)) }; // 2726774500
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_SectionOrder_Inner = { "SectionOrder", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_EntryOrder = { "EntryOrder", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCustomizedToolMenu, EntryOrder), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_EntryOrder_MetaData), Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_EntryOrder_MetaData) }; // 1432303920
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_SectionOrder_Inner = { "SectionOrder", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_SectionOrder_MetaData[] = {
 		{ "ModuleRelativePath", "Public/Framework/MultiBox/ToolMenuBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_SectionOrder = { "SectionOrder", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCustomizedToolMenu, SectionOrder), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_SectionOrder_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_SectionOrder_MetaData)) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_SectionOrder = { "SectionOrder", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCustomizedToolMenu, SectionOrder), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_SectionOrder_MetaData), Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_SectionOrder_MetaData) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_SuppressExtenders_Inner = { "SuppressExtenders", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_SuppressExtenders_MetaData[] = {
+		{ "ModuleRelativePath", "Public/Framework/MultiBox/ToolMenuBase.h" },
+	};
+#endif
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_SuppressExtenders = { "SuppressExtenders", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCustomizedToolMenu, SuppressExtenders), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_SuppressExtenders_MetaData), Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_SuppressExtenders_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Name,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_Entries_ValueProp,
@@ -385,20 +400,23 @@ template<> SLATE_API UScriptStruct* StaticStruct<FCustomizedToolMenu>()
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_EntryOrder,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_SectionOrder_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_SectionOrder,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_SuppressExtenders_Inner,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewProp_SuppressExtenders,
 	};
 	const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::ReturnStructParams = {
 		(UObject* (*)())Z_Construct_UPackage__Script_Slate,
 		nullptr,
 		&NewStructOps,
 		"CustomizedToolMenu",
-		sizeof(FCustomizedToolMenu),
-		alignof(FCustomizedToolMenu),
 		Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::PropPointers),
+		sizeof(FCustomizedToolMenu),
+		alignof(FCustomizedToolMenu),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FCustomizedToolMenu()
 	{
 		if (!Z_Registration_Info_UScriptStruct_CustomizedToolMenu.InnerSingleton)
@@ -428,6 +446,7 @@ template<> SLATE_API UScriptStruct* StaticStruct<FCustomizedToolMenu>()
 		(UObject* (*)())Z_Construct_UClass_UObject,
 		(UObject* (*)())Z_Construct_UPackage__Script_Slate,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UToolMenuBase_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UToolMenuBase_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "Framework/MultiBox/ToolMenuBase.h" },
@@ -449,8 +468,8 @@ template<> SLATE_API UScriptStruct* StaticStruct<FCustomizedToolMenu>()
 		0,
 		0,
 		0,
-		0x001000A1u,
-		METADATA_PARAMS(Z_Construct_UClass_UToolMenuBase_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UToolMenuBase_Statics::Class_MetaDataParams))
+		0x000800A1u,
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UToolMenuBase_Statics::Class_MetaDataParams), Z_Construct_UClass_UToolMenuBase_Statics::Class_MetaDataParams)
 	};
 	UClass* Z_Construct_UClass_UToolMenuBase()
 	{
@@ -474,18 +493,18 @@ template<> SLATE_API UScriptStruct* StaticStruct<FCustomizedToolMenu>()
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_Statics::EnumInfo[] = {
-		{ ECustomizedToolMenuVisibility_StaticEnum, TEXT("ECustomizedToolMenuVisibility"), &Z_Registration_Info_UEnum_ECustomizedToolMenuVisibility, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 113334925U) },
+		{ ECustomizedToolMenuVisibility_StaticEnum, TEXT("ECustomizedToolMenuVisibility"), &Z_Registration_Info_UEnum_ECustomizedToolMenuVisibility, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1564315966U) },
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_Statics::ScriptStructInfo[] = {
-		{ FCustomizedToolMenuEntry::StaticStruct, Z_Construct_UScriptStruct_FCustomizedToolMenuEntry_Statics::NewStructOps, TEXT("CustomizedToolMenuEntry"), &Z_Registration_Info_UScriptStruct_CustomizedToolMenuEntry, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCustomizedToolMenuEntry), 4159231162U) },
-		{ FCustomizedToolMenuSection::StaticStruct, Z_Construct_UScriptStruct_FCustomizedToolMenuSection_Statics::NewStructOps, TEXT("CustomizedToolMenuSection"), &Z_Registration_Info_UScriptStruct_CustomizedToolMenuSection, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCustomizedToolMenuSection), 1652998399U) },
-		{ FCustomizedToolMenuNameArray::StaticStruct, Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray_Statics::NewStructOps, TEXT("CustomizedToolMenuNameArray"), &Z_Registration_Info_UScriptStruct_CustomizedToolMenuNameArray, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCustomizedToolMenuNameArray), 2726774500U) },
-		{ FCustomizedToolMenu::StaticStruct, Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewStructOps, TEXT("CustomizedToolMenu"), &Z_Registration_Info_UScriptStruct_CustomizedToolMenu, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCustomizedToolMenu), 99546435U) },
+		{ FCustomizedToolMenuEntry::StaticStruct, Z_Construct_UScriptStruct_FCustomizedToolMenuEntry_Statics::NewStructOps, TEXT("CustomizedToolMenuEntry"), &Z_Registration_Info_UScriptStruct_CustomizedToolMenuEntry, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCustomizedToolMenuEntry), 2967252692U) },
+		{ FCustomizedToolMenuSection::StaticStruct, Z_Construct_UScriptStruct_FCustomizedToolMenuSection_Statics::NewStructOps, TEXT("CustomizedToolMenuSection"), &Z_Registration_Info_UScriptStruct_CustomizedToolMenuSection, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCustomizedToolMenuSection), 2054446089U) },
+		{ FCustomizedToolMenuNameArray::StaticStruct, Z_Construct_UScriptStruct_FCustomizedToolMenuNameArray_Statics::NewStructOps, TEXT("CustomizedToolMenuNameArray"), &Z_Registration_Info_UScriptStruct_CustomizedToolMenuNameArray, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCustomizedToolMenuNameArray), 1432303920U) },
+		{ FCustomizedToolMenu::StaticStruct, Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics::NewStructOps, TEXT("CustomizedToolMenu"), &Z_Registration_Info_UScriptStruct_CustomizedToolMenu, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCustomizedToolMenu), 3909929713U) },
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UToolMenuBase, UToolMenuBase::StaticClass, TEXT("UToolMenuBase"), &Z_Registration_Info_UClass_UToolMenuBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UToolMenuBase), 2119217643U) },
+		{ Z_Construct_UClass_UToolMenuBase, UToolMenuBase::StaticClass, TEXT("UToolMenuBase"), &Z_Registration_Info_UClass_UToolMenuBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UToolMenuBase), 2399918476U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_2874989764(TEXT("/Script/Slate"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_3918187404(TEXT("/Script/Slate"),
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_Statics::ClassInfo),
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_Statics::ScriptStructInfo),
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_Statics::EnumInfo));

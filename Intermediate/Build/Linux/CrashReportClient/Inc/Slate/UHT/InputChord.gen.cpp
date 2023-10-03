@@ -80,7 +80,7 @@ template<> SLATE_API UScriptStruct* StaticStruct<FInputChord>()
 		{ "ToolTip", "The Key is the core of the chord." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_Key = { "Key", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FInputChord, Key), Z_Construct_UScriptStruct_FKey, METADATA_PARAMS(Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_Key_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_Key_MetaData)) }; // 2101135134
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_Key = { "Key", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FInputChord, Key), Z_Construct_UScriptStruct_FKey, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_Key_MetaData), Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_Key_MetaData) }; // 46000949
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bShift_MetaData[] = {
 		{ "Category", "Modifier" },
@@ -93,7 +93,7 @@ template<> SLATE_API UScriptStruct* StaticStruct<FInputChord>()
 	{
 		((FInputChord*)Obj)->bShift = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bShift = { "bShift", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool , RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(uint8), sizeof(FInputChord), &Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bShift_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bShift_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bShift_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bShift = { "bShift", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool , RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(uint8), sizeof(FInputChord), &Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bShift_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bShift_MetaData), Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bShift_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bCtrl_MetaData[] = {
 		{ "Category", "Modifier" },
@@ -106,7 +106,7 @@ template<> SLATE_API UScriptStruct* StaticStruct<FInputChord>()
 	{
 		((FInputChord*)Obj)->bCtrl = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bCtrl = { "bCtrl", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool , RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(uint8), sizeof(FInputChord), &Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bCtrl_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bCtrl_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bCtrl_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bCtrl = { "bCtrl", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool , RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(uint8), sizeof(FInputChord), &Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bCtrl_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bCtrl_MetaData), Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bCtrl_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bAlt_MetaData[] = {
 		{ "Category", "Modifier" },
@@ -119,7 +119,7 @@ template<> SLATE_API UScriptStruct* StaticStruct<FInputChord>()
 	{
 		((FInputChord*)Obj)->bAlt = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bAlt = { "bAlt", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool , RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(uint8), sizeof(FInputChord), &Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bAlt_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bAlt_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bAlt_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bAlt = { "bAlt", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool , RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(uint8), sizeof(FInputChord), &Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bAlt_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bAlt_MetaData), Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bAlt_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bCmd_MetaData[] = {
 		{ "Category", "Modifier" },
@@ -132,7 +132,7 @@ template<> SLATE_API UScriptStruct* StaticStruct<FInputChord>()
 	{
 		((FInputChord*)Obj)->bCmd = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bCmd = { "bCmd", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool , RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(uint8), sizeof(FInputChord), &Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bCmd_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bCmd_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bCmd_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bCmd = { "bCmd", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool , RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(uint8), sizeof(FInputChord), &Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bCmd_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bCmd_MetaData), Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bCmd_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInputChord_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_Key,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInputChord_Statics::NewProp_bShift,
@@ -145,14 +145,15 @@ template<> SLATE_API UScriptStruct* StaticStruct<FInputChord>()
 		nullptr,
 		&NewStructOps,
 		"InputChord",
-		sizeof(FInputChord),
-		alignof(FInputChord),
 		Z_Construct_UScriptStruct_FInputChord_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInputChord_Statics::PropPointers),
+		sizeof(FInputChord),
+		alignof(FInputChord),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FInputChord_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInputChord_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInputChord_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FInputChord_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInputChord_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FInputChord()
 	{
 		if (!Z_Registration_Info_UScriptStruct_InputChord.InnerSingleton)
@@ -166,9 +167,9 @@ template<> SLATE_API UScriptStruct* StaticStruct<FInputChord>()
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Commands_InputChord_h_Statics::ScriptStructInfo[] = {
-		{ FInputChord::StaticStruct, Z_Construct_UScriptStruct_FInputChord_Statics::NewStructOps, TEXT("InputChord"), &Z_Registration_Info_UScriptStruct_InputChord, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FInputChord), 2392822822U) },
+		{ FInputChord::StaticStruct, Z_Construct_UScriptStruct_FInputChord_Statics::NewStructOps, TEXT("InputChord"), &Z_Registration_Info_UScriptStruct_InputChord, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FInputChord), 3669273635U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Commands_InputChord_h_2083905560(TEXT("/Script/Slate"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Commands_InputChord_h_3133058770(TEXT("/Script/Slate"),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Commands_InputChord_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Commands_InputChord_h_Statics::ScriptStructInfo),
 		nullptr, 0);

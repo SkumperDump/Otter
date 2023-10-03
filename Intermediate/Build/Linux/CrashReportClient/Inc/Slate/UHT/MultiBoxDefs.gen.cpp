@@ -42,6 +42,7 @@ void EmptyLinkFunctionForGeneratedCodeMultiBoxDefs() {}
 		{ "EMultiBoxType::UniformToolBar", (int64)EMultiBoxType::UniformToolBar },
 		{ "EMultiBoxType::Menu", (int64)EMultiBoxType::Menu },
 		{ "EMultiBoxType::ButtonRow", (int64)EMultiBoxType::ButtonRow },
+		{ "EMultiBoxType::SlimHorizontalUniformToolBar", (int64)EMultiBoxType::SlimHorizontalUniformToolBar },
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_Slate_EMultiBoxType_Statics::Enum_MetaDataParams[] = {
@@ -60,6 +61,9 @@ void EmptyLinkFunctionForGeneratedCodeMultiBoxDefs() {}
 		{ "SlimHorizontalToolBar.Comment", "/** Toolbar which is a slim version of the toolbar that aligns an icon and a text element horizontally */" },
 		{ "SlimHorizontalToolBar.Name", "EMultiBoxType::SlimHorizontalToolBar" },
 		{ "SlimHorizontalToolBar.ToolTip", "Toolbar which is a slim version of the toolbar that aligns an icon and a text element horizontally" },
+		{ "SlimHorizontalUniformToolBar.Comment", "/** A toolbar with horizontally-oriented buttons that tries to arrange all toolbar items uniformly */" },
+		{ "SlimHorizontalUniformToolBar.Name", "EMultiBoxType::SlimHorizontalUniformToolBar" },
+		{ "SlimHorizontalUniformToolBar.ToolTip", "A toolbar with horizontally-oriented buttons that tries to arrange all toolbar items uniformly" },
 		{ "ToolBar.Comment", "/** Horizontal tool bar */" },
 		{ "ToolBar.Name", "EMultiBoxType::ToolBar" },
 		{ "ToolBar.ToolTip", "Horizontal tool bar" },
@@ -78,11 +82,11 @@ void EmptyLinkFunctionForGeneratedCodeMultiBoxDefs() {}
 		"EMultiBoxType",
 		"EMultiBoxType",
 		Z_Construct_UEnum_Slate_EMultiBoxType_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EMultiBoxType_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EMultiBoxType_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_Slate_EMultiBoxType_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EMultiBoxType_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EMultiBoxType_Statics::Enum_MetaDataParams), Z_Construct_UEnum_Slate_EMultiBoxType_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_Slate_EMultiBoxType()
 	{
@@ -147,11 +151,11 @@ void EmptyLinkFunctionForGeneratedCodeMultiBoxDefs() {}
 		"EMultiBlockType",
 		"EMultiBlockType",
 		Z_Construct_UEnum_Slate_EMultiBlockType_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EMultiBlockType_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EMultiBlockType_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_Slate_EMultiBlockType_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EMultiBlockType_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EMultiBlockType_Statics::Enum_MetaDataParams), Z_Construct_UEnum_Slate_EMultiBlockType_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_Slate_EMultiBlockType()
 	{
@@ -166,10 +170,10 @@ void EmptyLinkFunctionForGeneratedCodeMultiBoxDefs() {}
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 	};
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_MultiBoxDefs_h_Statics::EnumInfo[] = {
-		{ EMultiBoxType_StaticEnum, TEXT("EMultiBoxType"), &Z_Registration_Info_UEnum_EMultiBoxType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2166743794U) },
-		{ EMultiBlockType_StaticEnum, TEXT("EMultiBlockType"), &Z_Registration_Info_UEnum_EMultiBlockType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 675308122U) },
+		{ EMultiBoxType_StaticEnum, TEXT("EMultiBoxType"), &Z_Registration_Info_UEnum_EMultiBoxType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3085919067U) },
+		{ EMultiBlockType_StaticEnum, TEXT("EMultiBlockType"), &Z_Registration_Info_UEnum_EMultiBlockType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2487358374U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_MultiBoxDefs_h_1900075920(TEXT("/Script/Slate"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_MultiBoxDefs_h_375767124(TEXT("/Script/Slate"),
 		nullptr, 0,
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_MultiBoxDefs_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_MultiBoxDefs_h_Statics::EnumInfo));

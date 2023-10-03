@@ -42,6 +42,7 @@ void EmptyLinkFunctionForGeneratedCodeScrollBarWidgetStyle() {}
 		(UObject* (*)())Z_Construct_UClass_USlateWidgetStyleContainerBase,
 		(UObject* (*)())Z_Construct_UPackage__Script_Slate,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UScrollBarWidgetStyle_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UScrollBarWidgetStyle_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n */" },
@@ -59,7 +60,7 @@ void EmptyLinkFunctionForGeneratedCodeScrollBarWidgetStyle() {}
 		{ "ToolTip", "The actual data describing the scrollbox's appearance." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UScrollBarWidgetStyle_Statics::NewProp_ScrollBarStyle = { "ScrollBarStyle", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UScrollBarWidgetStyle, ScrollBarStyle), Z_Construct_UScriptStruct_FScrollBarStyle, METADATA_PARAMS(Z_Construct_UClass_UScrollBarWidgetStyle_Statics::NewProp_ScrollBarStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UScrollBarWidgetStyle_Statics::NewProp_ScrollBarStyle_MetaData)) }; // 2161279079
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UScrollBarWidgetStyle_Statics::NewProp_ScrollBarStyle = { "ScrollBarStyle", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UScrollBarWidgetStyle, ScrollBarStyle), Z_Construct_UScriptStruct_FScrollBarStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UScrollBarWidgetStyle_Statics::NewProp_ScrollBarStyle_MetaData), Z_Construct_UClass_UScrollBarWidgetStyle_Statics::NewProp_ScrollBarStyle_MetaData) }; // 3779130458
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UScrollBarWidgetStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UScrollBarWidgetStyle_Statics::NewProp_ScrollBarStyle,
 	};
@@ -79,8 +80,9 @@ void EmptyLinkFunctionForGeneratedCodeScrollBarWidgetStyle() {}
 		UE_ARRAY_COUNT(Z_Construct_UClass_UScrollBarWidgetStyle_Statics::PropPointers),
 		0,
 		0x000800A0u,
-		METADATA_PARAMS(Z_Construct_UClass_UScrollBarWidgetStyle_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UScrollBarWidgetStyle_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UScrollBarWidgetStyle_Statics::Class_MetaDataParams), Z_Construct_UClass_UScrollBarWidgetStyle_Statics::Class_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UScrollBarWidgetStyle_Statics::PropPointers) < 2048);
 	UClass* Z_Construct_UClass_UScrollBarWidgetStyle()
 	{
 		if (!Z_Registration_Info_UClass_UScrollBarWidgetStyle.OuterSingleton)
@@ -101,9 +103,9 @@ void EmptyLinkFunctionForGeneratedCodeScrollBarWidgetStyle() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Styling_ScrollBarWidgetStyle_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UScrollBarWidgetStyle, UScrollBarWidgetStyle::StaticClass, TEXT("UScrollBarWidgetStyle"), &Z_Registration_Info_UClass_UScrollBarWidgetStyle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UScrollBarWidgetStyle), 398613819U) },
+		{ Z_Construct_UClass_UScrollBarWidgetStyle, UScrollBarWidgetStyle::StaticClass, TEXT("UScrollBarWidgetStyle"), &Z_Registration_Info_UClass_UScrollBarWidgetStyle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UScrollBarWidgetStyle), 3057535743U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Styling_ScrollBarWidgetStyle_h_2109990766(TEXT("/Script/Slate"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Styling_ScrollBarWidgetStyle_h_2555971223(TEXT("/Script/Slate"),
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Styling_ScrollBarWidgetStyle_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Styling_ScrollBarWidgetStyle_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

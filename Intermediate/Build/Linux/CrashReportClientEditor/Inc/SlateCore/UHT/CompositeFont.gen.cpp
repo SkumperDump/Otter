@@ -77,11 +77,11 @@ void EmptyLinkFunctionForGeneratedCodeCompositeFont() {}
 		"EFontHinting",
 		"EFontHinting",
 		Z_Construct_UEnum_SlateCore_EFontHinting_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_EFontHinting_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_EFontHinting_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_SlateCore_EFontHinting_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_EFontHinting_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_EFontHinting_Statics::Enum_MetaDataParams), Z_Construct_UEnum_SlateCore_EFontHinting_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_SlateCore_EFontHinting()
 	{
@@ -137,11 +137,11 @@ void EmptyLinkFunctionForGeneratedCodeCompositeFont() {}
 		"EFontLoadingPolicy",
 		"EFontLoadingPolicy",
 		Z_Construct_UEnum_SlateCore_EFontLoadingPolicy_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_EFontLoadingPolicy_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_EFontLoadingPolicy_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_SlateCore_EFontLoadingPolicy_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_EFontLoadingPolicy_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_EFontLoadingPolicy_Statics::Enum_MetaDataParams), Z_Construct_UEnum_SlateCore_EFontLoadingPolicy_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_SlateCore_EFontLoadingPolicy()
 	{
@@ -193,11 +193,11 @@ void EmptyLinkFunctionForGeneratedCodeCompositeFont() {}
 		"EFontLayoutMethod",
 		"EFontLayoutMethod",
 		Z_Construct_UEnum_SlateCore_EFontLayoutMethod_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_EFontLayoutMethod_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_EFontLayoutMethod_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_SlateCore_EFontLayoutMethod_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_EFontLayoutMethod_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_EFontLayoutMethod_Statics::Enum_MetaDataParams), Z_Construct_UEnum_SlateCore_EFontLayoutMethod_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_SlateCore_EFontLayoutMethod()
 	{
@@ -282,8 +282,8 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FFontData>()
 		{ "ToolTip", "The filename of the font to use.\nThis variable is ignored if we have a font face asset, and is set to the .ufont file in a cooked build." },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontFilename = { "FontFilename", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFontData, FontFilename), METADATA_PARAMS(Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontFilename_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontFilename_MetaData)) };
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FFontData_Statics::NewProp_Hinting_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontFilename = { "FontFilename", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFontData, FontFilename), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontFilename_MetaData), Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontFilename_MetaData) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FFontData_Statics::NewProp_Hinting_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFontData_Statics::NewProp_Hinting_MetaData[] = {
 		{ "Comment", "/**\n\x09 * The hinting algorithm to use with the font.\n\x09 * This variable is ignored if we have a font face asset, and is synchronized with the font face asset on load in a cooked build.\n\x09 */" },
@@ -291,8 +291,8 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FFontData>()
 		{ "ToolTip", "The hinting algorithm to use with the font.\nThis variable is ignored if we have a font face asset, and is synchronized with the font face asset on load in a cooked build." },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FFontData_Statics::NewProp_Hinting = { "Hinting", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFontData, Hinting), Z_Construct_UEnum_SlateCore_EFontHinting, METADATA_PARAMS(Z_Construct_UScriptStruct_FFontData_Statics::NewProp_Hinting_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontData_Statics::NewProp_Hinting_MetaData)) }; // 3162113740
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FFontData_Statics::NewProp_LoadingPolicy_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FFontData_Statics::NewProp_Hinting = { "Hinting", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFontData, Hinting), Z_Construct_UEnum_SlateCore_EFontHinting, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontData_Statics::NewProp_Hinting_MetaData), Z_Construct_UScriptStruct_FFontData_Statics::NewProp_Hinting_MetaData) }; // 1055277494
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FFontData_Statics::NewProp_LoadingPolicy_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFontData_Statics::NewProp_LoadingPolicy_MetaData[] = {
 		{ "Comment", "/**\n\x09 * Enum controlling how this font should be loaded at runtime. See the enum for more explanations of the options.\n\x09 * This variable is ignored if we have a font face asset, and is synchronized with the font face asset on load in a cooked build.\n\x09 */" },
@@ -300,7 +300,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FFontData>()
 		{ "ToolTip", "Enum controlling how this font should be loaded at runtime. See the enum for more explanations of the options.\nThis variable is ignored if we have a font face asset, and is synchronized with the font face asset on load in a cooked build." },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FFontData_Statics::NewProp_LoadingPolicy = { "LoadingPolicy", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFontData, LoadingPolicy), Z_Construct_UEnum_SlateCore_EFontLoadingPolicy, METADATA_PARAMS(Z_Construct_UScriptStruct_FFontData_Statics::NewProp_LoadingPolicy_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontData_Statics::NewProp_LoadingPolicy_MetaData)) }; // 2103977933
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FFontData_Statics::NewProp_LoadingPolicy = { "LoadingPolicy", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFontData, LoadingPolicy), Z_Construct_UEnum_SlateCore_EFontLoadingPolicy, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontData_Statics::NewProp_LoadingPolicy_MetaData), Z_Construct_UScriptStruct_FFontData_Statics::NewProp_LoadingPolicy_MetaData) }; // 2196107530
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFontData_Statics::NewProp_SubFaceIndex_MetaData[] = {
 		{ "Comment", "/**\n\x09 * The index of the sub-face that should be used.\n\x09 * This is typically zero unless using a TTC/OTC font.\n\x09 */" },
@@ -308,7 +308,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FFontData>()
 		{ "ToolTip", "The index of the sub-face that should be used.\nThis is typically zero unless using a TTC/OTC font." },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FFontData_Statics::NewProp_SubFaceIndex = { "SubFaceIndex", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFontData, SubFaceIndex), METADATA_PARAMS(Z_Construct_UScriptStruct_FFontData_Statics::NewProp_SubFaceIndex_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontData_Statics::NewProp_SubFaceIndex_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FFontData_Statics::NewProp_SubFaceIndex = { "SubFaceIndex", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFontData, SubFaceIndex), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontData_Statics::NewProp_SubFaceIndex_MetaData), Z_Construct_UScriptStruct_FFontData_Statics::NewProp_SubFaceIndex_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontFaceAsset_MetaData[] = {
 		{ "Comment", "/**\n\x09 * Font data v3. This points to a font face asset.\n\x09 */" },
@@ -317,7 +317,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FFontData>()
 		{ "ToolTip", "Font data v3. This points to a font face asset." },
 	};
 #endif
-	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontFaceAsset = { "FontFaceAsset", nullptr, (EPropertyFlags)0x0044000000000000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFontData, FontFaceAsset), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontFaceAsset_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontFaceAsset_MetaData)) };
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontFaceAsset = { "FontFaceAsset", nullptr, (EPropertyFlags)0x0044000000000000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFontData, FontFaceAsset), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontFaceAsset_MetaData), Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontFaceAsset_MetaData) };
 #if WITH_EDITORONLY_DATA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFontData_Statics::NewProp_BulkDataPtr_MetaData[] = {
@@ -326,8 +326,8 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FFontData>()
 		{ "ToolTip", "Legacy font data v2. This used to be where font data was stored prior to font face assets.\nThis can be removed once we no longer support loading packages older than FEditorObjectVersion::AddedFontFaceAssets (as can UFontBulkData itself)." },
 	};
 #endif
-	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FFontData_Statics::NewProp_BulkDataPtr = { "BulkDataPtr", nullptr, (EPropertyFlags)0x0044000820000000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFontData, BulkDataPtr_DEPRECATED), Z_Construct_UClass_UFontBulkData_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FFontData_Statics::NewProp_BulkDataPtr_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontData_Statics::NewProp_BulkDataPtr_MetaData)) };
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontData_Inner = { "FontData", nullptr, (EPropertyFlags)0x0000000820000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FFontData_Statics::NewProp_BulkDataPtr = { "BulkDataPtr", nullptr, (EPropertyFlags)0x0044000820000000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFontData, BulkDataPtr_DEPRECATED), Z_Construct_UClass_UFontBulkData_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontData_Statics::NewProp_BulkDataPtr_MetaData), Z_Construct_UScriptStruct_FFontData_Statics::NewProp_BulkDataPtr_MetaData) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontData_Inner = { "FontData", nullptr, (EPropertyFlags)0x0000000820000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontData_MetaData[] = {
 		{ "Comment", "/**\n\x09 * Legacy font data v1. This used to be where font data was stored prior to font bulk data.\n\x09 * This can be removed once we no longer support loading packages older than VER_UE4_SLATE_BULK_FONT_DATA.\n\x09 */" },
@@ -335,7 +335,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FFontData>()
 		{ "ToolTip", "Legacy font data v1. This used to be where font data was stored prior to font bulk data.\nThis can be removed once we no longer support loading packages older than VER_UE4_SLATE_BULK_FONT_DATA." },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontData = { "FontData", nullptr, (EPropertyFlags)0x0040000820000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFontData, FontData_DEPRECATED), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontData_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontData_MetaData)) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontData = { "FontData", nullptr, (EPropertyFlags)0x0040000820000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFontData, FontData_DEPRECATED), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontData_MetaData), Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontData_MetaData) };
 #endif // WITH_EDITORONLY_DATA
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FFontData_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFontData_Statics::NewProp_FontFilename,
@@ -356,14 +356,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FFontData>()
 		nullptr,
 		&NewStructOps,
 		"FontData",
-		sizeof(FFontData),
-		alignof(FFontData),
 		Z_Construct_UScriptStruct_FFontData_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontData_Statics::PropPointers),
+		sizeof(FFontData),
+		alignof(FFontData),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FFontData_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontData_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontData_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FFontData_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontData_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FFontData()
 	{
 		if (!Z_Registration_Info_UScriptStruct_FontData.InnerSingleton)
@@ -420,7 +421,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTypefaceEntry>()
 		{ "ToolTip", "Name used to identify this font within its typeface" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FTypefaceEntry_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTypefaceEntry, Name), METADATA_PARAMS(Z_Construct_UScriptStruct_FTypefaceEntry_Statics::NewProp_Name_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTypefaceEntry_Statics::NewProp_Name_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FTypefaceEntry_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTypefaceEntry, Name), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTypefaceEntry_Statics::NewProp_Name_MetaData), Z_Construct_UScriptStruct_FTypefaceEntry_Statics::NewProp_Name_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTypefaceEntry_Statics::NewProp_Font_MetaData[] = {
 		{ "Comment", "/** Raw font data for this font */" },
@@ -428,7 +429,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTypefaceEntry>()
 		{ "ToolTip", "Raw font data for this font" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTypefaceEntry_Statics::NewProp_Font = { "Font", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTypefaceEntry, Font), Z_Construct_UScriptStruct_FFontData, METADATA_PARAMS(Z_Construct_UScriptStruct_FTypefaceEntry_Statics::NewProp_Font_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTypefaceEntry_Statics::NewProp_Font_MetaData)) }; // 2266299449
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTypefaceEntry_Statics::NewProp_Font = { "Font", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTypefaceEntry, Font), Z_Construct_UScriptStruct_FFontData, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTypefaceEntry_Statics::NewProp_Font_MetaData), Z_Construct_UScriptStruct_FTypefaceEntry_Statics::NewProp_Font_MetaData) }; // 3002453396
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTypefaceEntry_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTypefaceEntry_Statics::NewProp_Name,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTypefaceEntry_Statics::NewProp_Font,
@@ -438,14 +439,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTypefaceEntry>()
 		nullptr,
 		&NewStructOps,
 		"TypefaceEntry",
-		sizeof(FTypefaceEntry),
-		alignof(FTypefaceEntry),
 		Z_Construct_UScriptStruct_FTypefaceEntry_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTypefaceEntry_Statics::PropPointers),
+		sizeof(FTypefaceEntry),
+		alignof(FTypefaceEntry),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FTypefaceEntry_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTypefaceEntry_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTypefaceEntry_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FTypefaceEntry_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTypefaceEntry_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FTypefaceEntry()
 	{
 		if (!Z_Registration_Info_UScriptStruct_TypefaceEntry.InnerSingleton)
@@ -492,7 +494,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTypeface>()
 	{
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FTypeface>();
 	}
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTypeface_Statics::NewProp_Fonts_Inner = { "Fonts", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FTypefaceEntry, METADATA_PARAMS(nullptr, 0) }; // 484110809
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FTypeface_Statics::NewProp_Fonts_Inner = { "Fonts", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FTypefaceEntry, METADATA_PARAMS(0, nullptr) }; // 3340530983
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FTypeface_Statics::NewProp_Fonts_MetaData[] = {
 		{ "Comment", "/** The fonts contained within this family */" },
@@ -500,7 +502,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTypeface>()
 		{ "ToolTip", "The fonts contained within this family" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FTypeface_Statics::NewProp_Fonts = { "Fonts", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FTypeface, Fonts), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FTypeface_Statics::NewProp_Fonts_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTypeface_Statics::NewProp_Fonts_MetaData)) }; // 484110809
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FTypeface_Statics::NewProp_Fonts = { "Fonts", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FTypeface, Fonts), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTypeface_Statics::NewProp_Fonts_MetaData), Z_Construct_UScriptStruct_FTypeface_Statics::NewProp_Fonts_MetaData) }; // 3340530983
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FTypeface_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTypeface_Statics::NewProp_Fonts_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FTypeface_Statics::NewProp_Fonts,
@@ -510,14 +512,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FTypeface>()
 		nullptr,
 		&NewStructOps,
 		"Typeface",
-		sizeof(FTypeface),
-		alignof(FTypeface),
 		Z_Construct_UScriptStruct_FTypeface_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTypeface_Statics::PropPointers),
+		sizeof(FTypeface),
+		alignof(FTypeface),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FTypeface_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTypeface_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTypeface_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FTypeface_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FTypeface_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FTypeface()
 	{
 		if (!Z_Registration_Info_UScriptStruct_Typeface.InnerSingleton)
@@ -572,7 +575,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCompositeFallbackFont>()
 		{ "ToolTip", "Typeface data for this sub-font" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::NewProp_Typeface = { "Typeface", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCompositeFallbackFont, Typeface), Z_Construct_UScriptStruct_FTypeface, METADATA_PARAMS(Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::NewProp_Typeface_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::NewProp_Typeface_MetaData)) }; // 597798179
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::NewProp_Typeface = { "Typeface", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCompositeFallbackFont, Typeface), Z_Construct_UScriptStruct_FTypeface, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::NewProp_Typeface_MetaData), Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::NewProp_Typeface_MetaData) }; // 2612157977
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::NewProp_ScalingFactor_MetaData[] = {
 		{ "Comment", "/** Amount to scale this sub-font so that it better matches the size of the default font */" },
@@ -580,7 +583,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCompositeFallbackFont>()
 		{ "ToolTip", "Amount to scale this sub-font so that it better matches the size of the default font" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::NewProp_ScalingFactor = { "ScalingFactor", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCompositeFallbackFont, ScalingFactor), METADATA_PARAMS(Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::NewProp_ScalingFactor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::NewProp_ScalingFactor_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::NewProp_ScalingFactor = { "ScalingFactor", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCompositeFallbackFont, ScalingFactor), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::NewProp_ScalingFactor_MetaData), Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::NewProp_ScalingFactor_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::NewProp_Typeface,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::NewProp_ScalingFactor,
@@ -590,14 +593,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCompositeFallbackFont>()
 		nullptr,
 		&NewStructOps,
 		"CompositeFallbackFont",
-		sizeof(FCompositeFallbackFont),
-		alignof(FCompositeFallbackFont),
 		Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::PropPointers),
+		sizeof(FCompositeFallbackFont),
+		alignof(FCompositeFallbackFont),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FCompositeFallbackFont()
 	{
 		if (!Z_Registration_Info_UScriptStruct_CompositeFallbackFont.InnerSingleton)
@@ -657,7 +661,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCompositeSubFont>()
 	{
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FCompositeSubFont>();
 	}
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_CharacterRanges_Inner = { "CharacterRanges", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FInt32Range, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_CharacterRanges_Inner = { "CharacterRanges", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FInt32Range, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_CharacterRanges_MetaData[] = {
 		{ "Comment", "/** Array of character ranges for which this sub-font should be used */" },
@@ -665,7 +669,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCompositeSubFont>()
 		{ "ToolTip", "Array of character ranges for which this sub-font should be used" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_CharacterRanges = { "CharacterRanges", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCompositeSubFont, CharacterRanges), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_CharacterRanges_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_CharacterRanges_MetaData)) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_CharacterRanges = { "CharacterRanges", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCompositeSubFont, CharacterRanges), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_CharacterRanges_MetaData), Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_CharacterRanges_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_Cultures_MetaData[] = {
 		{ "Comment", "/** Optional semi-colon separated list of cultures that this sub-font should be used with (if specified, this sub-font will be favored by those cultures and ignored by others) */" },
@@ -673,7 +677,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCompositeSubFont>()
 		{ "ToolTip", "Optional semi-colon separated list of cultures that this sub-font should be used with (if specified, this sub-font will be favored by those cultures and ignored by others)" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_Cultures = { "Cultures", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCompositeSubFont, Cultures), METADATA_PARAMS(Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_Cultures_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_Cultures_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_Cultures = { "Cultures", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCompositeSubFont, Cultures), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_Cultures_MetaData), Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_Cultures_MetaData) };
 #if WITH_EDITORONLY_DATA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_EditorName_MetaData[] = {
@@ -682,7 +686,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCompositeSubFont>()
 		{ "ToolTip", "Name of this sub-font. Only used by the editor UI as a convenience to let you state the purpose of the font family." },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_EditorName = { "EditorName", nullptr, (EPropertyFlags)0x0010000800000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCompositeSubFont, EditorName), METADATA_PARAMS(Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_EditorName_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_EditorName_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_EditorName = { "EditorName", nullptr, (EPropertyFlags)0x0010000800000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCompositeSubFont, EditorName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_EditorName_MetaData), Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_EditorName_MetaData) };
 #endif // WITH_EDITORONLY_DATA
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FCompositeSubFont_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewProp_CharacterRanges_Inner,
@@ -697,14 +701,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCompositeSubFont>()
 		Z_Construct_UScriptStruct_FCompositeFallbackFont,
 		&NewStructOps,
 		"CompositeSubFont",
-		sizeof(FCompositeSubFont),
-		alignof(FCompositeSubFont),
 		Z_Construct_UScriptStruct_FCompositeSubFont_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeSubFont_Statics::PropPointers),
+		sizeof(FCompositeSubFont),
+		alignof(FCompositeSubFont),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FCompositeSubFont_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeSubFont_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeSubFont_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FCompositeSubFont_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeSubFont_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FCompositeSubFont()
 	{
 		if (!Z_Registration_Info_UScriptStruct_CompositeSubFont.InnerSingleton)
@@ -764,7 +769,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCompositeFont>()
 		{ "ToolTip", "The default typeface that will be used when not overridden by a sub-typeface" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_DefaultTypeface = { "DefaultTypeface", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCompositeFont, DefaultTypeface), Z_Construct_UScriptStruct_FTypeface, METADATA_PARAMS(Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_DefaultTypeface_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_DefaultTypeface_MetaData)) }; // 597798179
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_DefaultTypeface = { "DefaultTypeface", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCompositeFont, DefaultTypeface), Z_Construct_UScriptStruct_FTypeface, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_DefaultTypeface_MetaData), Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_DefaultTypeface_MetaData) }; // 2612157977
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_FallbackTypeface_MetaData[] = {
 		{ "Comment", "/** The fallback typeface that will be used as a last resort when no other typeface provides a match */" },
@@ -772,8 +777,8 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCompositeFont>()
 		{ "ToolTip", "The fallback typeface that will be used as a last resort when no other typeface provides a match" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_FallbackTypeface = { "FallbackTypeface", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCompositeFont, FallbackTypeface), Z_Construct_UScriptStruct_FCompositeFallbackFont, METADATA_PARAMS(Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_FallbackTypeface_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_FallbackTypeface_MetaData)) }; // 2924470867
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_SubTypefaces_Inner = { "SubTypefaces", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UScriptStruct_FCompositeSubFont, METADATA_PARAMS(nullptr, 0) }; // 1533906974
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_FallbackTypeface = { "FallbackTypeface", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCompositeFont, FallbackTypeface), Z_Construct_UScriptStruct_FCompositeFallbackFont, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_FallbackTypeface_MetaData), Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_FallbackTypeface_MetaData) }; // 3379473879
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_SubTypefaces_Inner = { "SubTypefaces", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FCompositeSubFont, METADATA_PARAMS(0, nullptr) }; // 3837570451
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_SubTypefaces_MetaData[] = {
 		{ "Comment", "/** Sub-typefaces to use for a specific set of characters */" },
@@ -781,7 +786,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCompositeFont>()
 		{ "ToolTip", "Sub-typefaces to use for a specific set of characters" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_SubTypefaces = { "SubTypefaces", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FCompositeFont, SubTypefaces), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_SubTypefaces_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_SubTypefaces_MetaData)) }; // 1533906974
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_SubTypefaces = { "SubTypefaces", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FCompositeFont, SubTypefaces), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_SubTypefaces_MetaData), Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_SubTypefaces_MetaData) }; // 3837570451
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FCompositeFont_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_DefaultTypeface,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FCompositeFont_Statics::NewProp_FallbackTypeface,
@@ -793,14 +798,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCompositeFont>()
 		nullptr,
 		&NewStructOps,
 		"CompositeFont",
-		sizeof(FCompositeFont),
-		alignof(FCompositeFont),
 		Z_Construct_UScriptStruct_FCompositeFont_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeFont_Statics::PropPointers),
+		sizeof(FCompositeFont),
+		alignof(FCompositeFont),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FCompositeFont_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeFont_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeFont_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FCompositeFont_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FCompositeFont_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FCompositeFont()
 	{
 		if (!Z_Registration_Info_UScriptStruct_CompositeFont.InnerSingleton)
@@ -815,19 +821,19 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FCompositeFont>()
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_CompositeFont_h_Statics::EnumInfo[] = {
-		{ EFontHinting_StaticEnum, TEXT("EFontHinting"), &Z_Registration_Info_UEnum_EFontHinting, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3162113740U) },
-		{ EFontLoadingPolicy_StaticEnum, TEXT("EFontLoadingPolicy"), &Z_Registration_Info_UEnum_EFontLoadingPolicy, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2103977933U) },
-		{ EFontLayoutMethod_StaticEnum, TEXT("EFontLayoutMethod"), &Z_Registration_Info_UEnum_EFontLayoutMethod, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 839056090U) },
+		{ EFontHinting_StaticEnum, TEXT("EFontHinting"), &Z_Registration_Info_UEnum_EFontHinting, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1055277494U) },
+		{ EFontLoadingPolicy_StaticEnum, TEXT("EFontLoadingPolicy"), &Z_Registration_Info_UEnum_EFontLoadingPolicy, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2196107530U) },
+		{ EFontLayoutMethod_StaticEnum, TEXT("EFontLayoutMethod"), &Z_Registration_Info_UEnum_EFontLayoutMethod, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4223646828U) },
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_CompositeFont_h_Statics::ScriptStructInfo[] = {
-		{ FFontData::StaticStruct, Z_Construct_UScriptStruct_FFontData_Statics::NewStructOps, TEXT("FontData"), &Z_Registration_Info_UScriptStruct_FontData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFontData), 2266299449U) },
-		{ FTypefaceEntry::StaticStruct, Z_Construct_UScriptStruct_FTypefaceEntry_Statics::NewStructOps, TEXT("TypefaceEntry"), &Z_Registration_Info_UScriptStruct_TypefaceEntry, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FTypefaceEntry), 484110809U) },
-		{ FTypeface::StaticStruct, Z_Construct_UScriptStruct_FTypeface_Statics::NewStructOps, TEXT("Typeface"), &Z_Registration_Info_UScriptStruct_Typeface, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FTypeface), 597798179U) },
-		{ FCompositeFallbackFont::StaticStruct, Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::NewStructOps, TEXT("CompositeFallbackFont"), &Z_Registration_Info_UScriptStruct_CompositeFallbackFont, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCompositeFallbackFont), 2924470867U) },
-		{ FCompositeSubFont::StaticStruct, Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewStructOps, TEXT("CompositeSubFont"), &Z_Registration_Info_UScriptStruct_CompositeSubFont, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCompositeSubFont), 1533906974U) },
-		{ FCompositeFont::StaticStruct, Z_Construct_UScriptStruct_FCompositeFont_Statics::NewStructOps, TEXT("CompositeFont"), &Z_Registration_Info_UScriptStruct_CompositeFont, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCompositeFont), 692943438U) },
+		{ FFontData::StaticStruct, Z_Construct_UScriptStruct_FFontData_Statics::NewStructOps, TEXT("FontData"), &Z_Registration_Info_UScriptStruct_FontData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFontData), 3002453396U) },
+		{ FTypefaceEntry::StaticStruct, Z_Construct_UScriptStruct_FTypefaceEntry_Statics::NewStructOps, TEXT("TypefaceEntry"), &Z_Registration_Info_UScriptStruct_TypefaceEntry, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FTypefaceEntry), 3340530983U) },
+		{ FTypeface::StaticStruct, Z_Construct_UScriptStruct_FTypeface_Statics::NewStructOps, TEXT("Typeface"), &Z_Registration_Info_UScriptStruct_Typeface, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FTypeface), 2612157977U) },
+		{ FCompositeFallbackFont::StaticStruct, Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics::NewStructOps, TEXT("CompositeFallbackFont"), &Z_Registration_Info_UScriptStruct_CompositeFallbackFont, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCompositeFallbackFont), 3379473879U) },
+		{ FCompositeSubFont::StaticStruct, Z_Construct_UScriptStruct_FCompositeSubFont_Statics::NewStructOps, TEXT("CompositeSubFont"), &Z_Registration_Info_UScriptStruct_CompositeSubFont, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCompositeSubFont), 3837570451U) },
+		{ FCompositeFont::StaticStruct, Z_Construct_UScriptStruct_FCompositeFont_Statics::NewStructOps, TEXT("CompositeFont"), &Z_Registration_Info_UScriptStruct_CompositeFont, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FCompositeFont), 3922210008U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_CompositeFont_h_2970364034(TEXT("/Script/SlateCore"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_CompositeFont_h_2191573560(TEXT("/Script/SlateCore"),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_CompositeFont_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_CompositeFont_h_Statics::ScriptStructInfo),
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_CompositeFont_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_CompositeFont_h_Statics::EnumInfo));

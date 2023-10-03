@@ -14,12 +14,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define COREUOBJECT_NoExportTypes_generated_h
 
-#define FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_SPARSE_DATA
-#define FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_RPC_WRAPPERS
-#define FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_ACCESSORS
-#define FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_CALLBACK_WRAPPERS
-#define FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_INCLASS_NO_PURE_DECLS \
+#define FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2764_SPARSE_DATA
+#define FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2764_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2764_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2764_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2764_ACCESSORS
+#define FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2764_CALLBACK_WRAPPERS
+#define FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2764_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUObject(); \
 public: \
@@ -27,27 +28,7 @@ public: \
 	DECLARE_SERIALIZER(UObject)
 
 
-#define FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_INCLASS \
-private: \
-	static void StaticRegisterNativesUObject(); \
-public: \
-	DECLARE_CLASS(UObject, None, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/CoreUObject"), NO_API) \
-	DECLARE_SERIALIZER(UObject)
-
-
-#define FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_STANDARD_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UObject(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
-	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UObject) \
-	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UObject); \
-private: \
-	/** Private move- and copy-constructors, should never be used */ \
-	NO_API UObject(UObject&&); \
-	NO_API UObject(const UObject&); \
-public:
-
-
-#define FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_ENHANCED_CONSTRUCTORS \
+#define FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2764_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UObject(UObject&&); \
@@ -57,29 +38,18 @@ public: \
 	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UObject)
 
 
-#define FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2723_PROLOG
-#define FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_GENERATED_BODY_LEGACY \
+#define FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2761_PROLOG
+#define FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2764_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_SPARSE_DATA \
-	FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_RPC_WRAPPERS \
-	FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_ACCESSORS \
-	FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_CALLBACK_WRAPPERS \
-	FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_INCLASS \
-	FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_STANDARD_CONSTRUCTORS \
-public: \
-PRAGMA_ENABLE_DEPRECATION_WARNINGS
-
-
-#define FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_GENERATED_BODY \
-PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-public: \
-	FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_SPARSE_DATA \
-	FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_ACCESSORS \
-	FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_CALLBACK_WRAPPERS \
-	FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_INCLASS_NO_PURE_DECLS \
-	FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2726_ENHANCED_CONSTRUCTORS \
+	FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2764_SPARSE_DATA \
+	FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2764_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2764_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2764_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2764_ACCESSORS \
+	FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2764_CALLBACK_WRAPPERS \
+	FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2764_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Source_Runtime_CoreUObject_Public_UObject_NoExportTypes_h_2764_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -237,7 +207,12 @@ template<> COREUOBJECT_API UEnum* StaticEnum<EInterpCurveMode>();
 	op(PF_R8_SINT) \
 	op(PF_R64_UINT) \
 	op(PF_R9G9B9EXP5) \
-	op(PF_P010) 
+	op(PF_P010) \
+	op(PF_ASTC_4x4_NORM_RG) \
+	op(PF_ASTC_6x6_NORM_RG) \
+	op(PF_ASTC_8x8_NORM_RG) \
+	op(PF_ASTC_10x10_NORM_RG) \
+	op(PF_ASTC_12x12_NORM_RG) 
 
 enum EPixelFormat : int;
 template<> COREUOBJECT_API UEnum* StaticEnum<EPixelFormat>();
@@ -292,6 +267,9 @@ template<> COREUOBJECT_API UEnum* StaticEnum<EMouseCursor::Type>();
 	op(EUnit::Newtons) \
 	op(EUnit::PoundsForce) \
 	op(EUnit::KilogramsForce) \
+	op(EUnit::KilogramCentimetersPerSecondSquared) \
+	op(EUnit::NewtonMeters) \
+	op(EUnit::KilogramCentimetersSquaredPerSecondSquared) \
 	op(EUnit::Hertz) \
 	op(EUnit::Kilohertz) \
 	op(EUnit::Megahertz) \
@@ -326,6 +304,16 @@ template<> COREUOBJECT_API UEnum* StaticEnum<EUnit>();
 enum class EPropertyAccessChangeNotifyMode : uint8;
 template<> struct TIsUEnumClass<EPropertyAccessChangeNotifyMode> { enum { Value = true }; };
 template<> COREUOBJECT_API UEnum* StaticEnum<EPropertyAccessChangeNotifyMode>();
+
+#define FOREACH_ENUM_EAPPMSGCATEGORY(op) \
+	op(EAppMsgCategory::Warning) \
+	op(EAppMsgCategory::Error) \
+	op(EAppMsgCategory::Success) \
+	op(EAppMsgCategory::Info) 
+
+enum class EAppMsgCategory : uint8;
+template<> struct TIsUEnumClass<EAppMsgCategory> { enum { Value = true }; };
+template<> COREUOBJECT_API UEnum* StaticEnum<EAppMsgCategory>();
 
 #define FOREACH_ENUM_EAPPRETURNTYPE(op) \
 	op(EAppReturnType::No) \

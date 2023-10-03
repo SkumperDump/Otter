@@ -86,11 +86,11 @@ void EmptyLinkFunctionForGeneratedCodeSlateBrush() {}
 		"ESlateBrushDrawType",
 		"ESlateBrushDrawType::Type",
 		Z_Construct_UEnum_SlateCore_ESlateBrushDrawType_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateBrushDrawType_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateBrushDrawType_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_SlateCore_ESlateBrushDrawType_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateBrushDrawType_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateBrushDrawType_Statics::Enum_MetaDataParams), Z_Construct_UEnum_SlateCore_ESlateBrushDrawType_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_SlateCore_ESlateBrushDrawType()
 	{
@@ -153,11 +153,11 @@ void EmptyLinkFunctionForGeneratedCodeSlateBrush() {}
 		"ESlateBrushTileType",
 		"ESlateBrushTileType::Type",
 		Z_Construct_UEnum_SlateCore_ESlateBrushTileType_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateBrushTileType_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateBrushTileType_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_SlateCore_ESlateBrushTileType_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateBrushTileType_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateBrushTileType_Statics::Enum_MetaDataParams), Z_Construct_UEnum_SlateCore_ESlateBrushTileType_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_SlateCore_ESlateBrushTileType()
 	{
@@ -219,11 +219,11 @@ void EmptyLinkFunctionForGeneratedCodeSlateBrush() {}
 		"ESlateBrushMirrorType",
 		"ESlateBrushMirrorType::Type",
 		Z_Construct_UEnum_SlateCore_ESlateBrushMirrorType_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateBrushMirrorType_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateBrushMirrorType_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_SlateCore_ESlateBrushMirrorType_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateBrushMirrorType_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateBrushMirrorType_Statics::Enum_MetaDataParams), Z_Construct_UEnum_SlateCore_ESlateBrushMirrorType_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_SlateCore_ESlateBrushMirrorType()
 	{
@@ -285,11 +285,11 @@ void EmptyLinkFunctionForGeneratedCodeSlateBrush() {}
 		"ESlateBrushImageType",
 		"ESlateBrushImageType::Type",
 		Z_Construct_UEnum_SlateCore_ESlateBrushImageType_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateBrushImageType_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateBrushImageType_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_SlateCore_ESlateBrushImageType_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateBrushImageType_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateBrushImageType_Statics::Enum_MetaDataParams), Z_Construct_UEnum_SlateCore_ESlateBrushImageType_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_SlateCore_ESlateBrushImageType()
 	{
@@ -343,11 +343,11 @@ void EmptyLinkFunctionForGeneratedCodeSlateBrush() {}
 		"ESlateBrushRoundingType",
 		"ESlateBrushRoundingType::Type",
 		Z_Construct_UEnum_SlateCore_ESlateBrushRoundingType_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateBrushRoundingType_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateBrushRoundingType_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_SlateCore_ESlateBrushRoundingType_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateBrushRoundingType_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_ESlateBrushRoundingType_Statics::Enum_MetaDataParams), Z_Construct_UEnum_SlateCore_ESlateBrushRoundingType_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_SlateCore_ESlateBrushRoundingType()
 	{
@@ -420,7 +420,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateBrushOutlineSettings>
 		{ "ToolTip", "Radius in Slate Units applied to the outline at each corner. X = Top Left, Y = Top Right, Z = Bottom Right, W = Bottom Left" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_CornerRadii = { "CornerRadii", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateBrushOutlineSettings, CornerRadii), Z_Construct_UScriptStruct_FVector4, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_CornerRadii_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_CornerRadii_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_CornerRadii = { "CornerRadii", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateBrushOutlineSettings, CornerRadii), Z_Construct_UScriptStruct_FVector4, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_CornerRadii_MetaData), Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_CornerRadii_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_Color_MetaData[] = {
 		{ "Category", "Brush" },
@@ -431,7 +431,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateBrushOutlineSettings>
 		{ "ToolTip", "Tinting applied to the border outline." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_Color = { "Color", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateBrushOutlineSettings, Color), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_Color_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_Color_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_Color = { "Color", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateBrushOutlineSettings, Color), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_Color_MetaData), Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_Color_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_Width_MetaData[] = {
 		{ "Category", "Brush" },
@@ -440,7 +440,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateBrushOutlineSettings>
 		{ "ToolTip", "Line width in Slate Units applied to the border outline." },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_Width = { "Width", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateBrushOutlineSettings, Width), METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_Width_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_Width_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_Width = { "Width", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateBrushOutlineSettings, Width), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_Width_MetaData), Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_Width_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_RoundingType_MetaData[] = {
 		{ "Category", "Brush" },
@@ -449,7 +449,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateBrushOutlineSettings>
 		{ "ToolTip", "The Rounding Type *" },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_RoundingType = { "RoundingType", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateBrushOutlineSettings, RoundingType), Z_Construct_UEnum_SlateCore_ESlateBrushRoundingType, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_RoundingType_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_RoundingType_MetaData)) }; // 1606112441
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_RoundingType = { "RoundingType", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateBrushOutlineSettings, RoundingType), Z_Construct_UEnum_SlateCore_ESlateBrushRoundingType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_RoundingType_MetaData), Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_RoundingType_MetaData) }; // 2773551238
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_bUseBrushTransparency_MetaData[] = {
 		{ "Category", "Brush" },
@@ -462,7 +462,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateBrushOutlineSettings>
 	{
 		((FSlateBrushOutlineSettings*)Obj)->bUseBrushTransparency = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_bUseBrushTransparency = { "bUseBrushTransparency", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FSlateBrushOutlineSettings), &Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_bUseBrushTransparency_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_bUseBrushTransparency_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_bUseBrushTransparency_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_bUseBrushTransparency = { "bUseBrushTransparency", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FSlateBrushOutlineSettings), &Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_bUseBrushTransparency_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_bUseBrushTransparency_MetaData), Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_bUseBrushTransparency_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_CornerRadii,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewProp_Color,
@@ -475,14 +475,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateBrushOutlineSettings>
 		nullptr,
 		&NewStructOps,
 		"SlateBrushOutlineSettings",
-		sizeof(FSlateBrushOutlineSettings),
-		alignof(FSlateBrushOutlineSettings),
 		Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::PropPointers),
+		sizeof(FSlateBrushOutlineSettings),
+		alignof(FSlateBrushOutlineSettings),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FSlateBrushOutlineSettings()
 	{
 		if (!Z_Registration_Info_UScriptStruct_SlateBrushOutlineSettings.InnerSingleton)
@@ -598,7 +599,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateBrush>()
 	{
 		((FSlateBrush*)Obj)->bIsDynamicallyLoaded = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_bIsDynamicallyLoaded = { "bIsDynamicallyLoaded", nullptr, (EPropertyFlags)0x0020080000000000, UECodeGen_Private::EPropertyGenFlags::Bool , RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(uint8), sizeof(FSlateBrush), &Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_bIsDynamicallyLoaded_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_bIsDynamicallyLoaded_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_bIsDynamicallyLoaded_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_bIsDynamicallyLoaded = { "bIsDynamicallyLoaded", nullptr, (EPropertyFlags)0x0020080000000000, UECodeGen_Private::EPropertyGenFlags::Bool , RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(uint8), sizeof(FSlateBrush), &Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_bIsDynamicallyLoaded_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_bIsDynamicallyLoaded_MetaData), Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_bIsDynamicallyLoaded_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_bHasUObject_MetaData[] = {
 		{ "Comment", "/** Whether or not the brush has a UTexture resource */" },
@@ -610,7 +611,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateBrush>()
 	{
 		((FSlateBrush*)Obj)->bHasUObject_DEPRECATED = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_bHasUObject = { "bHasUObject", nullptr, (EPropertyFlags)0x0020080020000000, UECodeGen_Private::EPropertyGenFlags::Bool , RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(uint8), sizeof(FSlateBrush), &Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_bHasUObject_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_bHasUObject_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_bHasUObject_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_bHasUObject = { "bHasUObject", nullptr, (EPropertyFlags)0x0020080020000000, UECodeGen_Private::EPropertyGenFlags::Bool , RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(uint8), sizeof(FSlateBrush), &Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_bHasUObject_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_bHasUObject_MetaData), Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_bHasUObject_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_DrawAs_MetaData[] = {
 		{ "Category", "Brush" },
@@ -619,7 +620,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateBrush>()
 		{ "ToolTip", "How to draw the image" },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_DrawAs = { "DrawAs", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateBrush, DrawAs), Z_Construct_UEnum_SlateCore_ESlateBrushDrawType, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_DrawAs_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_DrawAs_MetaData)) }; // 2311007087
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_DrawAs = { "DrawAs", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateBrush, DrawAs), Z_Construct_UEnum_SlateCore_ESlateBrushDrawType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_DrawAs_MetaData), Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_DrawAs_MetaData) }; // 4186763877
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Tiling_MetaData[] = {
 		{ "Category", "Brush" },
@@ -628,7 +629,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateBrush>()
 		{ "ToolTip", "How to tile the image in Image mode" },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Tiling = { "Tiling", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateBrush, Tiling), Z_Construct_UEnum_SlateCore_ESlateBrushTileType, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Tiling_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Tiling_MetaData)) }; // 3702849228
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Tiling = { "Tiling", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateBrush, Tiling), Z_Construct_UEnum_SlateCore_ESlateBrushTileType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Tiling_MetaData), Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Tiling_MetaData) }; // 3017342274
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Mirroring_MetaData[] = {
 		{ "Category", "Brush" },
@@ -637,7 +638,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateBrush>()
 		{ "ToolTip", "How to mirror the image in Image mode.  This is normally only used for dynamic image brushes where the source texture\n          comes from a hardware device such as a web camera." },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Mirroring = { "Mirroring", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateBrush, Mirroring), Z_Construct_UEnum_SlateCore_ESlateBrushMirrorType, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Mirroring_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Mirroring_MetaData)) }; // 1115368787
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Mirroring = { "Mirroring", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateBrush, Mirroring), Z_Construct_UEnum_SlateCore_ESlateBrushMirrorType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Mirroring_MetaData), Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Mirroring_MetaData) }; // 3532777766
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ImageType_MetaData[] = {
 		{ "Comment", "/** The type of image */" },
@@ -645,7 +646,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateBrush>()
 		{ "ToolTip", "The type of image" },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ImageType = { "ImageType", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateBrush, ImageType), Z_Construct_UEnum_SlateCore_ESlateBrushImageType, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ImageType_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ImageType_MetaData)) }; // 3711090066
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ImageType = { "ImageType", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateBrush, ImageType), Z_Construct_UEnum_SlateCore_ESlateBrushImageType, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ImageType_MetaData), Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ImageType_MetaData) }; // 2461494866
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ImageSize_MetaData[] = {
 		{ "Category", "Brush" },
@@ -654,7 +655,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateBrush>()
 		{ "ToolTip", "Size of the resource in Slate Units" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ImageSize = { "ImageSize", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateBrush, ImageSize), Z_Construct_UScriptStruct_FDeprecateSlateVector2D, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ImageSize_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ImageSize_MetaData)) }; // 3533773233
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ImageSize = { "ImageSize", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateBrush, ImageSize), Z_Construct_UScriptStruct_FDeprecateSlateVector2D, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ImageSize_MetaData), Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ImageSize_MetaData) }; // 2692624173
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Margin_MetaData[] = {
 		{ "Category", "Brush" },
@@ -664,7 +665,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateBrush>()
 		{ "UVSpace", "true" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Margin = { "Margin", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateBrush, Margin), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Margin_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Margin_MetaData)) }; // 2014822612
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Margin = { "Margin", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateBrush, Margin), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Margin_MetaData), Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Margin_MetaData) }; // 2235102396
 #if WITH_EDITORONLY_DATA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Tint_MetaData[] = {
@@ -673,7 +674,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateBrush>()
 		{ "ToolTip", "Tinting applied to the image." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Tint = { "Tint", nullptr, (EPropertyFlags)0x00100008a0000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateBrush, Tint_DEPRECATED), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Tint_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Tint_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Tint = { "Tint", nullptr, (EPropertyFlags)0x00100008a0000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateBrush, Tint_DEPRECATED), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Tint_MetaData), Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_Tint_MetaData) };
 #endif // WITH_EDITORONLY_DATA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_TintColor_MetaData[] = {
@@ -685,7 +686,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateBrush>()
 		{ "ToolTip", "Tinting applied to the image." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_TintColor = { "TintColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateBrush, TintColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_TintColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_TintColor_MetaData)) }; // 3007839000
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_TintColor = { "TintColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateBrush, TintColor), Z_Construct_UScriptStruct_FSlateColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_TintColor_MetaData), Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_TintColor_MetaData) }; // 3485079585
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_OutlineSettings_MetaData[] = {
 		{ "Category", "Brush" },
@@ -694,7 +695,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateBrush>()
 		{ "ToolTip", "How to draw the outline.  Currently only used for RoundedBox type brushes." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_OutlineSettings = { "OutlineSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateBrush, OutlineSettings), Z_Construct_UScriptStruct_FSlateBrushOutlineSettings, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_OutlineSettings_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_OutlineSettings_MetaData)) }; // 3251881569
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_OutlineSettings = { "OutlineSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateBrush, OutlineSettings), Z_Construct_UScriptStruct_FSlateBrushOutlineSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_OutlineSettings_MetaData), Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_OutlineSettings_MetaData) }; // 3161093604
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ResourceObject_MetaData[] = {
 		{ "AllowedClasses", "/Script/Engine.Texture,/Script/Engine.MaterialInterface,/Script/Engine.SlateTextureAtlasInterface" },
@@ -708,7 +709,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateBrush>()
 		{ "ToolTip", "The image to render for this brush, can be a UTexture or UMaterialInterface or an object implementing\nthe AtlasedTextureInterface." },
 	};
 #endif
-	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ResourceObject = { "ResourceObject", nullptr, (EPropertyFlags)0x0044000000000005, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateBrush, ResourceObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ResourceObject_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ResourceObject_MetaData)) };
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ResourceObject = { "ResourceObject", nullptr, (EPropertyFlags)0x0044000000000005, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateBrush, ResourceObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ResourceObject_MetaData), Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ResourceObject_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ResourceName_MetaData[] = {
 		{ "Comment", "/** The name of the rendering resource to use */" },
@@ -716,7 +717,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateBrush>()
 		{ "ToolTip", "The name of the rendering resource to use" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ResourceName = { "ResourceName", nullptr, (EPropertyFlags)0x0020080000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateBrush, ResourceName), METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ResourceName_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ResourceName_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ResourceName = { "ResourceName", nullptr, (EPropertyFlags)0x0020080000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateBrush, ResourceName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ResourceName_MetaData), Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_ResourceName_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_UVRegion_MetaData[] = {
 		{ "Comment", "/** \n\x09 *  Optional UV region for an image\n\x09 *  When valid - overrides UV region specified in resource proxy\n\x09 */" },
@@ -724,7 +725,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateBrush>()
 		{ "ToolTip", "Optional UV region for an image\nWhen valid - overrides UV region specified in resource proxy" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_UVRegion = { "UVRegion", nullptr, (EPropertyFlags)0x0020080000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateBrush, UVRegion), Z_Construct_UScriptStruct_FBox2f, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_UVRegion_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_UVRegion_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_UVRegion = { "UVRegion", nullptr, (EPropertyFlags)0x0020080000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateBrush, UVRegion), Z_Construct_UScriptStruct_FBox2f, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_UVRegion_MetaData), Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_UVRegion_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FSlateBrush_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_bIsDynamicallyLoaded,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSlateBrush_Statics::NewProp_bHasUObject,
@@ -748,14 +749,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateBrush>()
 		nullptr,
 		&NewStructOps,
 		"SlateBrush",
-		sizeof(FSlateBrush),
-		alignof(FSlateBrush),
 		Z_Construct_UScriptStruct_FSlateBrush_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::PropPointers),
+		sizeof(FSlateBrush),
+		alignof(FSlateBrush),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateBrush_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FSlateBrush_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateBrush_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FSlateBrush()
 	{
 		if (!Z_Registration_Info_UScriptStruct_SlateBrush.InnerSingleton)
@@ -770,17 +772,17 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateBrush>()
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateBrush_h_Statics::EnumInfo[] = {
-		{ ESlateBrushDrawType_StaticEnum, TEXT("ESlateBrushDrawType"), &Z_Registration_Info_UEnum_ESlateBrushDrawType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2311007087U) },
-		{ ESlateBrushTileType_StaticEnum, TEXT("ESlateBrushTileType"), &Z_Registration_Info_UEnum_ESlateBrushTileType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3702849228U) },
-		{ ESlateBrushMirrorType_StaticEnum, TEXT("ESlateBrushMirrorType"), &Z_Registration_Info_UEnum_ESlateBrushMirrorType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1115368787U) },
-		{ ESlateBrushImageType_StaticEnum, TEXT("ESlateBrushImageType"), &Z_Registration_Info_UEnum_ESlateBrushImageType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3711090066U) },
-		{ ESlateBrushRoundingType_StaticEnum, TEXT("ESlateBrushRoundingType"), &Z_Registration_Info_UEnum_ESlateBrushRoundingType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1606112441U) },
+		{ ESlateBrushDrawType_StaticEnum, TEXT("ESlateBrushDrawType"), &Z_Registration_Info_UEnum_ESlateBrushDrawType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4186763877U) },
+		{ ESlateBrushTileType_StaticEnum, TEXT("ESlateBrushTileType"), &Z_Registration_Info_UEnum_ESlateBrushTileType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3017342274U) },
+		{ ESlateBrushMirrorType_StaticEnum, TEXT("ESlateBrushMirrorType"), &Z_Registration_Info_UEnum_ESlateBrushMirrorType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3532777766U) },
+		{ ESlateBrushImageType_StaticEnum, TEXT("ESlateBrushImageType"), &Z_Registration_Info_UEnum_ESlateBrushImageType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2461494866U) },
+		{ ESlateBrushRoundingType_StaticEnum, TEXT("ESlateBrushRoundingType"), &Z_Registration_Info_UEnum_ESlateBrushRoundingType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2773551238U) },
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateBrush_h_Statics::ScriptStructInfo[] = {
-		{ FSlateBrushOutlineSettings::StaticStruct, Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewStructOps, TEXT("SlateBrushOutlineSettings"), &Z_Registration_Info_UScriptStruct_SlateBrushOutlineSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSlateBrushOutlineSettings), 3251881569U) },
-		{ FSlateBrush::StaticStruct, Z_Construct_UScriptStruct_FSlateBrush_Statics::NewStructOps, TEXT("SlateBrush"), &Z_Registration_Info_UScriptStruct_SlateBrush, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSlateBrush), 4256420591U) },
+		{ FSlateBrushOutlineSettings::StaticStruct, Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics::NewStructOps, TEXT("SlateBrushOutlineSettings"), &Z_Registration_Info_UScriptStruct_SlateBrushOutlineSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSlateBrushOutlineSettings), 3161093604U) },
+		{ FSlateBrush::StaticStruct, Z_Construct_UScriptStruct_FSlateBrush_Statics::NewStructOps, TEXT("SlateBrush"), &Z_Registration_Info_UScriptStruct_SlateBrush, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSlateBrush), 899956612U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateBrush_h_1826432816(TEXT("/Script/SlateCore"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateBrush_h_2997286479(TEXT("/Script/SlateCore"),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateBrush_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateBrush_h_Statics::ScriptStructInfo),
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateBrush_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateBrush_h_Statics::EnumInfo));

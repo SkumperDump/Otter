@@ -39,6 +39,8 @@ void EmptyLinkFunctionForGeneratedCodeTextLayout() {}
 		{ "ETextJustify::Left", (int64)ETextJustify::Left },
 		{ "ETextJustify::Center", (int64)ETextJustify::Center },
 		{ "ETextJustify::Right", (int64)ETextJustify::Right },
+		{ "ETextJustify::InvariantLeft", (int64)ETextJustify::InvariantLeft },
+		{ "ETextJustify::InvariantRight", (int64)ETextJustify::InvariantRight },
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_Slate_ETextJustify_Statics::Enum_MetaDataParams[] = {
@@ -46,6 +48,12 @@ void EmptyLinkFunctionForGeneratedCodeTextLayout() {}
 		{ "Center.Comment", "/**\n\x09\x09 * Justify the text in the center.\n\x09\x09 * Text flow direction has no impact on this justification mode.\n\x09\x09 */" },
 		{ "Center.Name", "ETextJustify::Center" },
 		{ "Center.ToolTip", "Justify the text in the center.\nText flow direction has no impact on this justification mode." },
+		{ "InvariantLeft.Comment", "/**\n\x09\x09 * Always justify the text to the left, regardless of the flow direction of the current culture.\n\x09\x09 */" },
+		{ "InvariantLeft.Name", "ETextJustify::InvariantLeft" },
+		{ "InvariantLeft.ToolTip", "Always justify the text to the left, regardless of the flow direction of the current culture." },
+		{ "InvariantRight.Comment", "/**\n\x09\x09 * Always justify the text to the right, regardless of the flow direction of the current culture.\n\x09\x09 */" },
+		{ "InvariantRight.Name", "ETextJustify::InvariantRight" },
+		{ "InvariantRight.ToolTip", "Always justify the text to the right, regardless of the flow direction of the current culture." },
 		{ "Left.Comment", "/**\n\x09\x09 * Justify the text logically to the left.\n\x09\x09 * When text is flowing left-to-right, this will align text visually to the left.\n\x09\x09 * When text is flowing right-to-left, this will align text visually to the right.\n\x09\x09 */" },
 		{ "Left.Name", "ETextJustify::Left" },
 		{ "Left.ToolTip", "Justify the text logically to the left.\nWhen text is flowing left-to-right, this will align text visually to the left.\nWhen text is flowing right-to-left, this will align text visually to the right." },
@@ -61,11 +69,11 @@ void EmptyLinkFunctionForGeneratedCodeTextLayout() {}
 		"ETextJustify",
 		"ETextJustify::Type",
 		Z_Construct_UEnum_Slate_ETextJustify_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_ETextJustify_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_ETextJustify_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_Slate_ETextJustify_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_ETextJustify_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_ETextJustify_Statics::Enum_MetaDataParams), Z_Construct_UEnum_Slate_ETextJustify_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_Slate_ETextJustify()
 	{
@@ -120,11 +128,11 @@ void EmptyLinkFunctionForGeneratedCodeTextLayout() {}
 		"ETextWrappingPolicy",
 		"ETextWrappingPolicy",
 		Z_Construct_UEnum_Slate_ETextWrappingPolicy_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_ETextWrappingPolicy_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_ETextWrappingPolicy_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_Slate_ETextWrappingPolicy_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_ETextWrappingPolicy_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_ETextWrappingPolicy_Statics::Enum_MetaDataParams), Z_Construct_UEnum_Slate_ETextWrappingPolicy_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_Slate_ETextWrappingPolicy()
 	{
@@ -187,11 +195,11 @@ void EmptyLinkFunctionForGeneratedCodeTextLayout() {}
 		"ETextFlowDirection",
 		"ETextFlowDirection",
 		Z_Construct_UEnum_Slate_ETextFlowDirection_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_ETextFlowDirection_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_ETextFlowDirection_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_Slate_ETextFlowDirection_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_ETextFlowDirection_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_ETextFlowDirection_Statics::Enum_MetaDataParams), Z_Construct_UEnum_Slate_ETextFlowDirection_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_Slate_ETextFlowDirection()
 	{
@@ -206,11 +214,11 @@ void EmptyLinkFunctionForGeneratedCodeTextLayout() {}
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 	};
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Text_TextLayout_h_Statics::EnumInfo[] = {
-		{ ETextJustify_StaticEnum, TEXT("ETextJustify"), &Z_Registration_Info_UEnum_ETextJustify, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2107748386U) },
-		{ ETextWrappingPolicy_StaticEnum, TEXT("ETextWrappingPolicy"), &Z_Registration_Info_UEnum_ETextWrappingPolicy, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3269947813U) },
-		{ ETextFlowDirection_StaticEnum, TEXT("ETextFlowDirection"), &Z_Registration_Info_UEnum_ETextFlowDirection, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2449680632U) },
+		{ ETextJustify_StaticEnum, TEXT("ETextJustify"), &Z_Registration_Info_UEnum_ETextJustify, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1085334074U) },
+		{ ETextWrappingPolicy_StaticEnum, TEXT("ETextWrappingPolicy"), &Z_Registration_Info_UEnum_ETextWrappingPolicy, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3908367627U) },
+		{ ETextFlowDirection_StaticEnum, TEXT("ETextFlowDirection"), &Z_Registration_Info_UEnum_ETextFlowDirection, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1353019905U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Text_TextLayout_h_744622307(TEXT("/Script/Slate"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Text_TextLayout_h_4184876749(TEXT("/Script/Slate"),
 		nullptr, 0,
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Text_TextLayout_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Text_TextLayout_h_Statics::EnumInfo));

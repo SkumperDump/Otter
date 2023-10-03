@@ -96,11 +96,11 @@ void EmptyLinkFunctionForGeneratedCodeInputCoreTypes() {}
 		"EControllerHand",
 		"EControllerHand",
 		Z_Construct_UEnum_InputCore_EControllerHand_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_InputCore_EControllerHand_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_InputCore_EControllerHand_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_InputCore_EControllerHand_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_InputCore_EControllerHand_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_InputCore_EControllerHand_Statics::Enum_MetaDataParams), Z_Construct_UEnum_InputCore_EControllerHand_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_InputCore_EControllerHand()
 	{
@@ -149,10 +149,11 @@ template<> INPUTCORE_API UScriptStruct* StaticStruct<FKey>()
 	}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FKey_Statics::NewProp_KeyName_MetaData[] = {
+		{ "Category", "Input" },
 		{ "ModuleRelativePath", "Classes/InputCoreTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FKey_Statics::NewProp_KeyName = { "KeyName", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FKey, KeyName), METADATA_PARAMS(Z_Construct_UScriptStruct_FKey_Statics::NewProp_KeyName_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FKey_Statics::NewProp_KeyName_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FKey_Statics::NewProp_KeyName = { "KeyName", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FKey, KeyName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FKey_Statics::NewProp_KeyName_MetaData), Z_Construct_UScriptStruct_FKey_Statics::NewProp_KeyName_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FKey_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FKey_Statics::NewProp_KeyName,
 	};
@@ -161,14 +162,15 @@ template<> INPUTCORE_API UScriptStruct* StaticStruct<FKey>()
 		nullptr,
 		&NewStructOps,
 		"Key",
-		sizeof(FKey),
-		alignof(FKey),
 		Z_Construct_UScriptStruct_FKey_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FKey_Statics::PropPointers),
+		sizeof(FKey),
+		alignof(FKey),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FKey_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FKey_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FKey_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FKey_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FKey_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FKey()
 	{
 		if (!Z_Registration_Info_UScriptStruct_Key.InnerSingleton)
@@ -242,11 +244,11 @@ template<> INPUTCORE_API UScriptStruct* StaticStruct<FKey>()
 		"ETouchIndex",
 		"ETouchIndex::Type",
 		Z_Construct_UEnum_InputCore_ETouchIndex_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_InputCore_ETouchIndex_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_InputCore_ETouchIndex_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_InputCore_ETouchIndex_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_InputCore_ETouchIndex_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_InputCore_ETouchIndex_Statics::Enum_MetaDataParams), Z_Construct_UEnum_InputCore_ETouchIndex_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_InputCore_ETouchIndex()
 	{
@@ -296,11 +298,11 @@ template<> INPUTCORE_API UScriptStruct* StaticStruct<FKey>()
 		"EConsoleForGamepadLabels",
 		"EConsoleForGamepadLabels::Type",
 		Z_Construct_UEnum_InputCore_EConsoleForGamepadLabels_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_InputCore_EConsoleForGamepadLabels_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_InputCore_EConsoleForGamepadLabels_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_InputCore_EConsoleForGamepadLabels_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_InputCore_EConsoleForGamepadLabels_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_InputCore_EConsoleForGamepadLabels_Statics::Enum_MetaDataParams), Z_Construct_UEnum_InputCore_EConsoleForGamepadLabels_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_InputCore_EConsoleForGamepadLabels()
 	{
@@ -360,11 +362,11 @@ template<> INPUTCORE_API UScriptStruct* StaticStruct<FKey>()
 		"ETouchType",
 		"ETouchType::Type",
 		Z_Construct_UEnum_InputCore_ETouchType_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_InputCore_ETouchType_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_InputCore_ETouchType_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_InputCore_ETouchType_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_InputCore_ETouchType_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_InputCore_ETouchType_Statics::Enum_MetaDataParams), Z_Construct_UEnum_InputCore_ETouchType_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_InputCore_ETouchType()
 	{
@@ -395,6 +397,7 @@ template<> INPUTCORE_API UScriptStruct* StaticStruct<FKey>()
 		(UObject* (*)())Z_Construct_UClass_UObject,
 		(UObject* (*)())Z_Construct_UPackage__Script_InputCore,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UInputCoreTypes_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UInputCoreTypes_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "InputCoreTypes.h" },
@@ -417,7 +420,7 @@ template<> INPUTCORE_API UScriptStruct* StaticStruct<FKey>()
 		0,
 		0,
 		0x000000A1u,
-		METADATA_PARAMS(Z_Construct_UClass_UInputCoreTypes_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UInputCoreTypes_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UInputCoreTypes_Statics::Class_MetaDataParams), Z_Construct_UClass_UInputCoreTypes_Statics::Class_MetaDataParams)
 	};
 	UClass* Z_Construct_UClass_UInputCoreTypes()
 	{
@@ -441,18 +444,18 @@ template<> INPUTCORE_API UScriptStruct* StaticStruct<FKey>()
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_Statics::EnumInfo[] = {
-		{ EControllerHand_StaticEnum, TEXT("EControllerHand"), &Z_Registration_Info_UEnum_EControllerHand, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2834220773U) },
-		{ ETouchIndex_StaticEnum, TEXT("ETouchIndex"), &Z_Registration_Info_UEnum_ETouchIndex, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2899773687U) },
-		{ EConsoleForGamepadLabels_StaticEnum, TEXT("EConsoleForGamepadLabels"), &Z_Registration_Info_UEnum_EConsoleForGamepadLabels, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 798172611U) },
-		{ ETouchType_StaticEnum, TEXT("ETouchType"), &Z_Registration_Info_UEnum_ETouchType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1627830907U) },
+		{ EControllerHand_StaticEnum, TEXT("EControllerHand"), &Z_Registration_Info_UEnum_EControllerHand, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2510333578U) },
+		{ ETouchIndex_StaticEnum, TEXT("ETouchIndex"), &Z_Registration_Info_UEnum_ETouchIndex, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 569023590U) },
+		{ EConsoleForGamepadLabels_StaticEnum, TEXT("EConsoleForGamepadLabels"), &Z_Registration_Info_UEnum_EConsoleForGamepadLabels, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1650631692U) },
+		{ ETouchType_StaticEnum, TEXT("ETouchType"), &Z_Registration_Info_UEnum_ETouchType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1166756843U) },
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_Statics::ScriptStructInfo[] = {
-		{ FKey::StaticStruct, Z_Construct_UScriptStruct_FKey_Statics::NewStructOps, TEXT("Key"), &Z_Registration_Info_UScriptStruct_Key, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FKey), 2101135134U) },
+		{ FKey::StaticStruct, Z_Construct_UScriptStruct_FKey_Statics::NewStructOps, TEXT("Key"), &Z_Registration_Info_UScriptStruct_Key, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FKey), 46000949U) },
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UInputCoreTypes, UInputCoreTypes::StaticClass, TEXT("UInputCoreTypes"), &Z_Registration_Info_UClass_UInputCoreTypes, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInputCoreTypes), 3294488713U) },
+		{ Z_Construct_UClass_UInputCoreTypes, UInputCoreTypes::StaticClass, TEXT("UInputCoreTypes"), &Z_Registration_Info_UClass_UInputCoreTypes, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInputCoreTypes), 1363716529U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_2627758373(TEXT("/Script/InputCore"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_718807280(TEXT("/Script/InputCore"),
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_Statics::ClassInfo),
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_Statics::ScriptStructInfo),
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_Statics::EnumInfo));

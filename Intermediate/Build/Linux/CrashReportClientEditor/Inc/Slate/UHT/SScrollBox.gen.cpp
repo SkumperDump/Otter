@@ -66,11 +66,11 @@ void EmptyLinkFunctionForGeneratedCodeSScrollBox() {}
 		"EDescendantScrollDestination",
 		"EDescendantScrollDestination",
 		Z_Construct_UEnum_Slate_EDescendantScrollDestination_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EDescendantScrollDestination_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EDescendantScrollDestination_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_Slate_EDescendantScrollDestination_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EDescendantScrollDestination_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EDescendantScrollDestination_Statics::Enum_MetaDataParams), Z_Construct_UEnum_Slate_EDescendantScrollDestination_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_Slate_EDescendantScrollDestination()
 	{
@@ -129,11 +129,11 @@ void EmptyLinkFunctionForGeneratedCodeSScrollBox() {}
 		"EScrollWhenFocusChanges",
 		"EScrollWhenFocusChanges",
 		Z_Construct_UEnum_Slate_EScrollWhenFocusChanges_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EScrollWhenFocusChanges_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EScrollWhenFocusChanges_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_Slate_EScrollWhenFocusChanges_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EScrollWhenFocusChanges_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EScrollWhenFocusChanges_Statics::Enum_MetaDataParams), Z_Construct_UEnum_Slate_EScrollWhenFocusChanges_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_Slate_EScrollWhenFocusChanges()
 	{
@@ -148,10 +148,10 @@ void EmptyLinkFunctionForGeneratedCodeSScrollBox() {}
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 	};
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Widgets_Layout_SScrollBox_h_Statics::EnumInfo[] = {
-		{ EDescendantScrollDestination_StaticEnum, TEXT("EDescendantScrollDestination"), &Z_Registration_Info_UEnum_EDescendantScrollDestination, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2742400670U) },
-		{ EScrollWhenFocusChanges_StaticEnum, TEXT("EScrollWhenFocusChanges"), &Z_Registration_Info_UEnum_EScrollWhenFocusChanges, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1343662283U) },
+		{ EDescendantScrollDestination_StaticEnum, TEXT("EDescendantScrollDestination"), &Z_Registration_Info_UEnum_EDescendantScrollDestination, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1961104173U) },
+		{ EScrollWhenFocusChanges_StaticEnum, TEXT("EScrollWhenFocusChanges"), &Z_Registration_Info_UEnum_EScrollWhenFocusChanges, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1931287377U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Widgets_Layout_SScrollBox_h_3093352458(TEXT("/Script/Slate"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Widgets_Layout_SScrollBox_h_1285642685(TEXT("/Script/Slate"),
 		nullptr, 0,
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Widgets_Layout_SScrollBox_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Widgets_Layout_SScrollBox_h_Statics::EnumInfo));

@@ -5,8 +5,9 @@
 ===========================================================================*/
 
 // IWYU pragma: private, include "Framework/Text/TextLayout.h"
+#include "Templates/IsUEnumClass.h"
 #include "UObject/ObjectMacros.h"
-#include "UObject/ScriptMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef SLATE_TextLayout_generated_h
@@ -21,7 +22,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FOREACH_ENUM_ETEXTJUSTIFY(op) \
 	op(ETextJustify::Left) \
 	op(ETextJustify::Center) \
-	op(ETextJustify::Right) 
+	op(ETextJustify::Right) \
+	op(ETextJustify::InvariantLeft) \
+	op(ETextJustify::InvariantRight) 
 
 namespace ETextJustify { enum Type : int; }
 template<> SLATE_API UEnum* StaticEnum<ETextJustify::Type>();
