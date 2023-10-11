@@ -9,6 +9,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeSolarSystem() {}
 // Cross Module References
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	ENGINE_API UClass* Z_Construct_UClass_APawn_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
@@ -38,6 +39,10 @@ void EmptyLinkFunctionForGeneratedCodeSolarSystem() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_Sun_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_Sun;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_DefaultPlanetClass_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_DefaultPlanetClass;
 		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_PlanetArray_Inner;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_PlanetArray_MetaData[];
@@ -79,6 +84,19 @@ void EmptyLinkFunctionForGeneratedCodeSolarSystem() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_ASolarSystem_Statics::NewProp_Sun = { "Sun", nullptr, (EPropertyFlags)0x0044000000080009, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASolarSystem, Sun), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ASolarSystem_Statics::NewProp_Sun_MetaData), Z_Construct_UClass_ASolarSystem_Statics::NewProp_Sun_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASolarSystem_Statics::NewProp_DefaultPlanetClass_MetaData[] = {
+		{ "Category", "SolarSystem" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// Default planet blueprint class\n" },
+#endif
+		{ "ModuleRelativePath", "SolarSystem.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Default planet blueprint class" },
+#endif
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_ASolarSystem_Statics::NewProp_DefaultPlanetClass = { "DefaultPlanetClass", nullptr, (EPropertyFlags)0x0044000000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASolarSystem, DefaultPlanetClass), Z_Construct_UClass_UClass, Z_Construct_UClass_APawn_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ASolarSystem_Statics::NewProp_DefaultPlanetClass_MetaData), Z_Construct_UClass_ASolarSystem_Statics::NewProp_DefaultPlanetClass_MetaData) };
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_ASolarSystem_Statics::NewProp_PlanetArray_Inner = { "PlanetArray", nullptr, (EPropertyFlags)0x0004000000020000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_APawn_NoRegister, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASolarSystem_Statics::NewProp_PlanetArray_MetaData[] = {
@@ -96,6 +114,7 @@ void EmptyLinkFunctionForGeneratedCodeSolarSystem() {}
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASolarSystem_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASolarSystem_Statics::NewProp_PlanetCount,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASolarSystem_Statics::NewProp_Sun,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASolarSystem_Statics::NewProp_DefaultPlanetClass,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASolarSystem_Statics::NewProp_PlanetArray_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASolarSystem_Statics::NewProp_PlanetArray,
 	};
@@ -137,9 +156,9 @@ void EmptyLinkFunctionForGeneratedCodeSolarSystem() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_SolarSystem_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ASolarSystem, ASolarSystem::StaticClass, TEXT("ASolarSystem"), &Z_Registration_Info_UClass_ASolarSystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASolarSystem), 616087588U) },
+		{ Z_Construct_UClass_ASolarSystem, ASolarSystem::StaticClass, TEXT("ASolarSystem"), &Z_Registration_Info_UClass_ASolarSystem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASolarSystem), 560113201U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_SolarSystem_h_825987476(TEXT("/Script/Otter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_SolarSystem_h_917326388(TEXT("/Script/Otter"),
 		Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_SolarSystem_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_SolarSystem_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

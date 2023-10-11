@@ -21,6 +21,7 @@ class OTTER_API ASolarSystem : public AActor
 	TObjectPtr<UStaticMeshComponent> Sun;
 	
 	// Default planet blueprint class
+	UPROPERTY(EditAnywhere)
 	TSubclassOf<APawn> DefaultPlanetClass;
 	
 	// Array of pointers to planet blueprint classes

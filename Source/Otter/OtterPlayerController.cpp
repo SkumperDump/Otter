@@ -15,6 +15,9 @@ void AOtterPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
 
+	// This check asserts the fact that there must be something for the player to controll at game start
+	// TODO
+	// Consider adding logic in the game mode that automatically handles this outside of the editor
 	auto OtterDefaultPawn { Cast<AOtterDefaultPawn>(GetPawn()) };	check(OtterDefaultPawn != nullptr);
 
 	auto EnhancedInputComponent { Cast<UEnhancedInputComponent>(InputComponent) };	check(EnhancedInputComponent != nullptr);

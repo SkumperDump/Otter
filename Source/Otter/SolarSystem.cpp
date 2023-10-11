@@ -22,7 +22,7 @@ ASolarSystem::ASolarSystem()
 	// TODO
 	// this may work
 	// prbably using the wrong name for the class
-	auto PlanetClassName = TEXT("APlanet");
+	//auto PlanetClassName = TEXT("Planet");
 	//DefaultPlanetClass = LoadClass<APlanet>(nullptr, PlanetClassName);
 	//check(DefaultPlanetClass != nullptr);
 }
