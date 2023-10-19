@@ -2724,8 +2724,6 @@
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterDefaultPawn.generated.h \
   Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
   Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
-  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/Planet.generated.h \
-  Runtime/Engine/Classes/Components/StaticMeshComponent.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterMovementComponent.h \
   Runtime/Engine/Classes/GameFramework/PawnMovementComponent.h \
   Runtime/Engine/Classes/GameFramework/NavMovementComponent.h \
@@ -2743,4 +2741,7 @@
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/MovementComponent.generated.h \
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/NavMovementComponent.generated.h \
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/PawnMovementComponent.generated.h \
-  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterMovementComponent.generated.h
+  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterMovementComponent.generated.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/Planet.generated.h \
+  Runtime/Engine/Classes/Components/StaticMeshComponent.h \
+  Runtime/CoreUObject/Public/UObject/ConstructorHelpers.h

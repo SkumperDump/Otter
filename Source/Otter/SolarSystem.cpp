@@ -18,13 +18,6 @@ ASolarSystem::ASolarSystem()
 
 	Sun = CreateDefaultSubobject<UStaticMeshComponent>(FName{"Sun"});
 	SetRootComponent(Sun);
-
-	// TODO
-	// this may work
-	// prbably using the wrong name for the class
-	//auto PlanetClassName = TEXT("Planet");
-	//DefaultPlanetClass = LoadClass<APlanet>(nullptr, PlanetClassName);
-	//check(DefaultPlanetClass != nullptr);
 }
 
 void ASolarSystem::BeginPlay()

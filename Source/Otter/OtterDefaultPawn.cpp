@@ -16,6 +16,8 @@ AOtterDefaultPawn::AOtterDefaultPawn()
 	PrimaryActorTick.bCanEverTick = true;
 
 	PlayerMesh = CreateDefaultSubobject<USkeletalMeshComponent>(FName {"Player Mesh"}); 
+	PlayerMesh->SetSimulatePhysics(true);
+	PlayerMesh->SetEnableGravity(false);
 	SetRootComponent(PlayerMesh);
 
 	ArrowComponent = CreateDefaultSubobject<UArrowComponent>(FName {"Arrow Component"}); 
