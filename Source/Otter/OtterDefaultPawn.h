@@ -18,7 +18,7 @@ class OTTER_API AOtterDefaultPawn : public APawn
 {
 	GENERATED_BODY()
 	
-	// Must include as APawn has no move component
+	// Must include for movement as APawn has no move component
 	TObjectPtr<UOtterMovementComponent> MovementComponent;
 
 	// Indicates forward direction
@@ -40,7 +40,7 @@ public:
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UInputMappingContext> MappingContext {nullptr};
 
-	// All should be callable to prevent game crash so base is declared and defined (as nothing) in header
+	// All are be callable because assuming this will prevent game crash if called and not defined (can hit keys that do nothing)
 	// TODO
 	// Maybe move this to an interface
 	virtual void Move(const FInputActionValue& Value) {};

@@ -27,6 +27,9 @@ void UOtterMovementComponent::Gravity()
 		// Add impulse (kg * m/s) towards world origin
 		ObjectToMove->AddImpulse(GravityVector); // Mesh must have physics enabled 
 
+		// TODO
+		// Move this to a seperate function that is optional for a given mesh
+		// This function would be some sort of 'constant force function'
 		if (GetOwner()->IsA(APlanet::StaticClass()))
 		{
 			// Set velocity vector for each planet

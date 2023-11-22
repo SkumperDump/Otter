@@ -18,8 +18,4 @@ class OTTER_API UOtterMovementComponent : public UPawnMovementComponent
 
 	// Gravity function for affected actors
 	void Gravity();
-
-public:
-	// Copied from CharacterMovementComponent.h
-	virtual void AddImpulse(FVector Impulse, bool bVelocityChange = false) {};
 };
