@@ -8,7 +8,7 @@
 
 class UOtterOverlapComponent;
 class UOtterMovementComponent;
-class USkeletalMeshComponent;
+class UMeshComponent;
 class UArrowComponent;
 class UInputMappingContext;
 struct FInputActionValue;
@@ -18,6 +18,9 @@ class OTTER_API AOtterDefaultPawn : public APawn
 {
 	GENERATED_BODY()
 	
+	// Used for movement
+	TObjectPtr<UPrimitiveComponent> DefaultPrimComp;
+
 	// Must include for movement as APawn has no move component
 	TObjectPtr<UOtterMovementComponent> MovementComponent;
 
@@ -33,16 +36,11 @@ public:
 
 	AOtterDefaultPawn();
 
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<USkeletalMeshComponent> PlayerMesh;
-
 	// Public so any pawn can have one but not all need one, thus up to child classes to redefine
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UInputMappingContext> MappingContext {nullptr};
 
 	// All are be callable because assuming this will prevent game crash if called and not defined (can hit keys that do nothing)
-	// TODO
-	// Maybe move this to an interface
 	virtual void Move(const FInputActionValue& Value) {};
 	virtual void Look(const FInputActionValue& Value) {};
 	virtual void SwapCamera(const FInputActionValue& Value) {};
@@ -50,4 +48,6 @@ public:
 	virtual void Thrust(const FInputActionValue& Value) {};
 
 	const auto GetOverlapComponent() { return OverlapComponent; };
+	const auto GetDefaultPrimComp() { return DefaultPrimComp; };
+	void SetDefaultPrimComp(TObjectPtr<UPrimitiveComponent> PrimComp) { DefaultPrimComp = PrimComp; };
 };

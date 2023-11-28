@@ -4,7 +4,6 @@
 #include "OtterItem.h"
 #include "OtterPlayer.h"
 #include "OtterOverlapComponent.h"
-#include "OtterMovementComponent.h"
 #include "Components/StaticMeshComponent.h"
 
 AOtterItem::AOtterItem()

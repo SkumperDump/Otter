@@ -8,7 +8,6 @@
 #include "OtterItem.generated.h"
 
 
-class UOtterMovementComponent;
 class UOtterOverlapComponent;
 class UStaticMeshComponent;
 

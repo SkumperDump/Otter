@@ -7,9 +7,8 @@
 #include "OtterPlayer.generated.h"
 
 class UCameraComponent;
-class UCapsuleComponent;
+class UStaticMeshComponent;
 class USpringArmComponent;
-class UInputMappingContext;
 struct FInputActionValue;
 
 UCLASS()
@@ -22,6 +21,9 @@ class OTTER_API AOtterPlayer : public AOtterDefaultPawn
 
 	UPROPERTY(VisibleAnywhere)
 	TArray<TObjectPtr<AActor>> PlayerInventory;
+
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<UStaticMeshComponent> PlayerMesh;
 
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UCameraComponent> PlayerCamera;

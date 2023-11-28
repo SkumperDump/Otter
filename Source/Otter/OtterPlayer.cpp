@@ -4,11 +4,10 @@
 #include "OtterPlayer.h"
 #include "OtterInteractInterface.h"
 #include "OtterOverlapComponent.h"
-#include "OtterMovementComponent.h"
 #include "OtterPlayerController.h"
+#include "Components/StaticMeshComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
-#include "Components/CapsuleComponent.h"
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
 
@@ -18,12 +17,18 @@ AOtterPlayer::AOtterPlayer()
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	PlayerMesh = CreateDefaultSubobject<UStaticMeshComponent>(FName {"Player Mesh"}); 
+	SetRootComponent(PlayerMesh);
+
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(FName {"Player Camera Boom"}); 
 	CameraBoom->SetupAttachment(PlayerMesh);
 
 	PlayerCamera = CreateDefaultSubobject<UCameraComponent>(FName {"Player Camera"}); 
 	PlayerCamera->SetupAttachment(CameraBoom);
 
+	SetDefaultPrimComp(Cast<UPrimitiveComponent>(GetRootComponent()));
+	check(GetDefaultPrimComp() != nullptr);
+	check(GetRootComponent() != nullptr);
 }
 
 void AOtterPlayer::BeginPlay()
@@ -39,19 +44,14 @@ void AOtterPlayer::BeginPlay()
 void AOtterPlayer::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
-	auto PrimComp { Cast<UPrimitiveComponent>(GetRootComponent())};
-	PrimComp->SetSimulatePhysics(true);
-	PrimComp->SetEnableGravity(false);
+	GetDefaultPrimComp()->SetSimulatePhysics(true);
+	GetDefaultPrimComp()->SetEnableGravity(false);
 }
 
 void AOtterPlayer::Move(const FInputActionValue& Value)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Move Value: %s"), *Value.ToString());
-	// TODO
-	// KEEP THIS, THIS SHOULD WORK
-	// This function is defined in priv/primcompphys.cpp
-	// I think this is not working because that is not being included somehow?
-	Cast<UPrimitiveComponent>(GetRootComponent())->GetBodyInstance()->AddImpulse(Value.Get<FVector>() * 100, false);
+	GetDefaultPrimComp()->AddImpulse(Value.Get<FVector>() * 100);
 }
 
 void AOtterPlayer::Look(const FInputActionValue& Value)
