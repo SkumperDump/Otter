@@ -8,7 +8,6 @@
 
 class UOtterOverlapComponent;
 class UOtterMovementComponent;
-class UMeshComponent;
 class UArrowComponent;
 class UInputMappingContext;
 struct FInputActionValue;
@@ -18,11 +17,15 @@ class OTTER_API AOtterDefaultPawn : public APawn
 {
 	GENERATED_BODY()
 	
-	// Used for movement
+	// Mainly used as root basis for movement
 	TObjectPtr<UPrimitiveComponent> DefaultPrimComp;
 
 	// Must include for movement as APawn has no move component
 	TObjectPtr<UOtterMovementComponent> MovementComponent;
+
+	// Used to scale movement inputs
+	UPROPERTY(EditAnywhere)
+	float MovementScale { 1 };
 
 	// Indicates forward direction
 	UPROPERTY(VisibleAnywhere)
@@ -34,20 +37,28 @@ class OTTER_API AOtterDefaultPawn : public APawn
 
 public:	
 
+	// CDO constructor
 	AOtterDefaultPawn();
+
+	//virtual void BeginPlay() override;
+	
+	// Default do nothing
+	// Constant reference because we want to call Actor functions not change actor
+	virtual void OnInteract(TObjectPtr<AActor> Actor) {};
 
 	// Public so any pawn can have one but not all need one, thus up to child classes to redefine
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UInputMappingContext> MappingContext {nullptr};
 
-	// All are be callable because assuming this will prevent game crash if called and not defined (can hit keys that do nothing)
-	virtual void Move(const FInputActionValue& Value) {};
+	// Functions associated with user input
+	virtual void Move(const FInputActionValue& Value);
 	virtual void Look(const FInputActionValue& Value) {};
 	virtual void SwapCamera(const FInputActionValue& Value) {};
 	virtual void Interact(const FInputActionValue& Value) {};
 	virtual void Thrust(const FInputActionValue& Value) {};
 
+	// Mutators
 	const auto GetOverlapComponent() { return OverlapComponent; };
 	const auto GetDefaultPrimComp() { return DefaultPrimComp; };
-	void SetDefaultPrimComp(TObjectPtr<UPrimitiveComponent> PrimComp) { DefaultPrimComp = PrimComp; };
+	void SetDefaultPrimComp(TObjectPtr<UPrimitiveComponent> Subclass) { DefaultPrimComp = Subclass; };
 };

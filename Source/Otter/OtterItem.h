@@ -16,17 +16,15 @@ class UStaticMeshComponent;
  * 
  */
 UCLASS()
-class OTTER_API AOtterItem : public AOtterDefaultPawn, public IOtterInteractInterface
+class OTTER_API AOtterItem : public AOtterDefaultPawn
 {
 	GENERATED_BODY()
 
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UStaticMeshComponent> ItemMesh;
 
+	virtual void OnInteract(TObjectPtr<AActor> Actor) override;
 public:
 
-	virtual void PlayerInteract() override;
-
 	AOtterItem();
-	
 };

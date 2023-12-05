@@ -25,8 +25,7 @@ private: \
 	friend struct Z_Construct_UClass_AOtterVehicle_Statics; \
 public: \
 	DECLARE_CLASS(AOtterVehicle, AOtterDefaultPawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Otter"), NO_API) \
-	DECLARE_SERIALIZER(AOtterVehicle) \
-	virtual UObject* _getUObject() const override { return const_cast<AOtterVehicle*>(this); }
+	DECLARE_SERIALIZER(AOtterVehicle)
 
 
 #define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_17_ENHANCED_CONSTRUCTORS \

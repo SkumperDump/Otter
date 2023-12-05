@@ -8,7 +8,7 @@
 void UOtterMovementComponent::TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	Gravity();
+	// Gravity();
 }
 
 // TODO
@@ -29,7 +29,7 @@ void UOtterMovementComponent::Gravity()
 	auto GravityUnitVector { DistanceFromSun / DistanceFromSun.Size() };
 
 	// Reverse and mult to produce acceleration vector due to gravity
-	auto GravityVector { GravityUnitVector * (-100) };
+	auto GravityVector { GravityUnitVector * (-10) };
 
 	// Add impulse (kg * m/s) towards world origin
 	ObjectToMove->AddImpulse(GravityVector); // Mesh must have physics enabled 
@@ -37,11 +37,11 @@ void UOtterMovementComponent::Gravity()
 	// TODO
 	// Move this to a seperate function that is optional for a given mesh
 	// This function would be some sort of 'constant force function'
-	/* if (GetOwner()->IsA(APlanet::StaticClass()))
+	if (GetOwner()->IsA(APlanet::StaticClass()))
 	{
 		// Set velocity vector for each planet
 		// Vector is orthogonal to the plane of the gravity vector and the z-axis
 		// TODO if dispersing planets on z axis make sure to change so that planets do not have 'orbital terraces'
 		ObjectToMove->AddImpulse(GravityUnitVector.CrossProduct(GravityUnitVector, FVector {0, 0, 1}), FName {}, true);
-	} */
+	}
 }

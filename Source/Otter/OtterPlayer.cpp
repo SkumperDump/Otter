@@ -2,14 +2,12 @@
 
 
 #include "OtterPlayer.h"
-#include "OtterInteractInterface.h"
 #include "OtterOverlapComponent.h"
 #include "OtterPlayerController.h"
 #include "Components/StaticMeshComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "EnhancedInputSubsystems.h"
-#include "InputActionValue.h"
 
 
 AOtterPlayer::AOtterPlayer()
@@ -19,16 +17,21 @@ AOtterPlayer::AOtterPlayer()
 
 	PlayerMesh = CreateDefaultSubobject<UStaticMeshComponent>(FName {"Player Mesh"}); 
 	SetRootComponent(PlayerMesh);
+	SetDefaultPrimComp(PlayerMesh);
 
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(FName {"Player Camera Boom"}); 
 	CameraBoom->SetupAttachment(PlayerMesh);
 
 	PlayerCamera = CreateDefaultSubobject<UCameraComponent>(FName {"Player Camera"}); 
 	PlayerCamera->SetupAttachment(CameraBoom);
+}
 
-	SetDefaultPrimComp(Cast<UPrimitiveComponent>(GetRootComponent()));
+void AOtterPlayer::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
 	check(GetDefaultPrimComp() != nullptr);
-	check(GetRootComponent() != nullptr);
+	GetDefaultPrimComp()->SetSimulatePhysics(true);
+	GetDefaultPrimComp()->SetEnableGravity(false);
 }
 
 void AOtterPlayer::BeginPlay()
@@ -37,27 +40,15 @@ void AOtterPlayer::BeginPlay()
 
 	// TODO
 	// I really like this but it looks ugly so maybe clean up
+	// At the very least maybe leave a nice comment explaining
 	auto OtterController { Cast<AOtterPlayerController>(Controller) };	check(OtterController != nullptr);
 	OtterController->GetLocalPlayer()->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>()->AddMappingContext(MappingContext, 0);
-}
-
-void AOtterPlayer::PostInitializeComponents()
-{
-	Super::PostInitializeComponents();
-	GetDefaultPrimComp()->SetSimulatePhysics(true);
-	GetDefaultPrimComp()->SetEnableGravity(false);
-}
-
-void AOtterPlayer::Move(const FInputActionValue& Value)
-{
-	UE_LOG(LogTemp, Warning, TEXT("Move Value: %s"), *Value.ToString());
-	GetDefaultPrimComp()->AddImpulse(Value.Get<FVector>() * 100);
 }
 
 void AOtterPlayer::Look(const FInputActionValue& Value)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Look"));
-	AddActorLocalRotation(FRotator { Value.Get<FVector>().Y, Value.Get<FVector>().X, 0 });
+	GetDefaultPrimComp()->AddLocalRotation(FRotator { Value.Get<FVector>().Y, Value.Get<FVector>().X, 0 });
 }
 
 void AOtterPlayer::SwapCamera(const FInputActionValue& Value)
@@ -80,13 +71,10 @@ void AOtterPlayer::Interact(const FInputActionValue& Value)
 
 	if (auto Actor { GetOverlapComponent()->GetOverlappingActor() })
 	{
-		if (Actor.IsA(AActor::StaticClass()))
+		PlayerInventory.Push(Actor);
+		if (auto DefaultPawn = Cast<AOtterDefaultPawn>(Actor))
 		{
-			PlayerInventory.Push(Actor);
-			if (const auto ActorInterface { Cast<IOtterInteractInterface>(Actor) })
-			{
-				ActorInterface->PlayerInteract();
-			}
+			DefaultPawn->OnInteract(this);
 		}
 	}
 }

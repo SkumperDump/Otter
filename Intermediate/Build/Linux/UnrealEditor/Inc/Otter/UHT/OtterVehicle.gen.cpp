@@ -14,7 +14,6 @@ void EmptyLinkFunctionForGeneratedCodeOtterVehicle() {}
 	OTTER_API UClass* Z_Construct_UClass_AOtterDefaultPawn();
 	OTTER_API UClass* Z_Construct_UClass_AOtterVehicle();
 	OTTER_API UClass* Z_Construct_UClass_AOtterVehicle_NoRegister();
-	OTTER_API UClass* Z_Construct_UClass_UOtterInteractInterface_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_Otter();
 // End Cross Module References
 	void AOtterVehicle::StaticRegisterNativesAOtterVehicle()
@@ -40,7 +39,6 @@ void EmptyLinkFunctionForGeneratedCodeOtterVehicle() {}
 #endif
 		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_VehicleExhaust;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-		static const UECodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -76,10 +74,6 @@ void EmptyLinkFunctionForGeneratedCodeOtterVehicle() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOtterVehicle_Statics::NewProp_VehicleMesh,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AOtterVehicle_Statics::NewProp_VehicleExhaust,
 	};
-		const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AOtterVehicle_Statics::InterfaceParams[] = {
-			{ Z_Construct_UClass_UOtterInteractInterface_NoRegister, (int32)VTABLE_OFFSET(AOtterVehicle, IOtterInteractInterface), false },  // 2015214796
-		};
-	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AOtterVehicle_Statics::InterfaceParams) < 64);
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AOtterVehicle_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AOtterVehicle>::IsAbstract,
 	};
@@ -90,11 +84,11 @@ void EmptyLinkFunctionForGeneratedCodeOtterVehicle() {}
 		DependentSingletons,
 		nullptr,
 		Z_Construct_UClass_AOtterVehicle_Statics::PropPointers,
-		InterfaceParams,
+		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		UE_ARRAY_COUNT(Z_Construct_UClass_AOtterVehicle_Statics::PropPointers),
-		UE_ARRAY_COUNT(InterfaceParams),
+		0,
 		0x009000A4u,
 		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AOtterVehicle_Statics::Class_MetaDataParams), Z_Construct_UClass_AOtterVehicle_Statics::Class_MetaDataParams)
 	};
@@ -118,9 +112,9 @@ void EmptyLinkFunctionForGeneratedCodeOtterVehicle() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AOtterVehicle, AOtterVehicle::StaticClass, TEXT("AOtterVehicle"), &Z_Registration_Info_UClass_AOtterVehicle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AOtterVehicle), 2799855950U) },
+		{ Z_Construct_UClass_AOtterVehicle, AOtterVehicle::StaticClass, TEXT("AOtterVehicle"), &Z_Registration_Info_UClass_AOtterVehicle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AOtterVehicle), 3781075947U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_2962617294(TEXT("/Script/Otter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_4105045787(TEXT("/Script/Otter"),
 		Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

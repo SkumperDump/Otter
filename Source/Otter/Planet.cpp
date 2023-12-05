@@ -18,10 +18,7 @@ APlanet::APlanet()
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> MeshAsset(TEXT("/Script/Engine.StaticMesh'/Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere'"));	check(MeshAsset.Succeeded())
 	PlanetMesh->SetStaticMesh(MeshAsset.Object);
 	SetRootComponent(PlanetMesh);
-
-	SetDefaultPrimComp(Cast<UPrimitiveComponent>(GetRootComponent()));
-	check(GetDefaultPrimComp() != nullptr);
-	check(GetRootComponent() != nullptr);
+	SetDefaultPrimComp(PlanetMesh);
 
 	//TODO
 	// Scale Planets

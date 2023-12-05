@@ -2725,9 +2725,6 @@
   Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
   Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterPlayer.generated.h \
-  /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterInteractInterface.h \
-  Runtime/CoreUObject/Public/UObject/Interface.h \
-  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterInteractInterface.generated.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterOverlapComponent.h \
   Runtime/Engine/Classes/Components/SphereComponent.h \
   Runtime/Engine/Classes/Components/ShapeComponent.h \
@@ -2752,6 +2749,7 @@
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/CameraComponent.generated.h \
   ../Plugins/EnhancedInput/Source/EnhancedInput/Public/EnhancedInputSubsystems.h \
   ../Plugins/EnhancedInput/Source/EnhancedInput/Public/EnhancedInputSubsystemInterface.h \
+  Runtime/CoreUObject/Public/UObject/Interface.h \
   ../Plugins/EnhancedInput/Source/EnhancedInput/Public/EnhancedPlayerInput.h \
   Runtime/Engine/Classes/GameFramework/PlayerInput.h \
   ../Plugins/EnhancedInput/Source/EnhancedInput/Public/InputAction.h \

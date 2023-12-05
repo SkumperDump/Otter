@@ -15,12 +15,9 @@ AOtterItem::AOtterItem()
 	ItemMesh->SetupAttachment(GetRootComponent());
 }
 
-void AOtterItem::PlayerInteract()
+void AOtterItem::OnInteract(TObjectPtr<AActor> Actor)
 {
-	if (auto Player { Cast<AOtterPlayer>(GetOverlapComponent()->GetOverlappingActor()) })
-	{
-		ItemMesh->AttachToComponent(Player->GetRootComponent(), FAttachmentTransformRules { EAttachmentRule::SnapToTarget, false });
-	}
+	ItemMesh->AttachToComponent(Actor->GetRootComponent(), FAttachmentTransformRules { EAttachmentRule::SnapToTarget, false });
 	// TODO
 	// Call any item specific functionality
 }
