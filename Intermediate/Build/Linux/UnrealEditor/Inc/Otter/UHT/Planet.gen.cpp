@@ -9,12 +9,10 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodePlanet() {}
 // Cross Module References
-	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	OTTER_API UClass* Z_Construct_UClass_AOtterDefaultPawn();
 	OTTER_API UClass* Z_Construct_UClass_APlanet();
 	OTTER_API UClass* Z_Construct_UClass_APlanet_NoRegister();
-	OTTER_API UClass* Z_Construct_UClass_ASolarSystem_NoRegister();
-	OTTER_API UClass* Z_Construct_UClass_UOtterMovementComponent_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_Otter();
 // End Cross Module References
 	void APlanet::StaticRegisterNativesAPlanet()
@@ -32,71 +30,66 @@ void EmptyLinkFunctionForGeneratedCodePlanet() {}
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_PlanetStaticMeshComponent_MetaData[];
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_PlanetScale_MetaData[];
 #endif
-		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_PlanetStaticMeshComponent;
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_PlanetScale;
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_PlanetMovementComponent_MetaData[];
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_PlanetMesh_MetaData[];
 #endif
-		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_PlanetMovementComponent;
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_ParentSolarSystemActor_MetaData[];
-#endif
-		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_ParentSolarSystemActor;
+		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_PlanetMesh;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_APlanet_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_AActor,
+		(UObject* (*)())Z_Construct_UClass_AOtterDefaultPawn,
 		(UObject* (*)())Z_Construct_UPackage__Script_Otter,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_APlanet_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlanet_Statics::Class_MetaDataParams[] = {
+		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "Planet.h" },
 		{ "ModuleRelativePath", "Planet.h" },
 	};
 #endif
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlanet_Statics::NewProp_PlanetStaticMeshComponent_MetaData[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlanet_Statics::NewProp_PlanetScale_MetaData[] = {
 		{ "Category", "Planet" },
-		{ "Comment", "// Terrain of planet\n" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// Size of planet\n" },
+#endif
+		{ "ModuleRelativePath", "Planet.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Size of planet" },
+#endif
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlanet_Statics::NewProp_PlanetScale = { "PlanetScale", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlanet, PlanetScale), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APlanet_Statics::NewProp_PlanetScale_MetaData), Z_Construct_UClass_APlanet_Statics::NewProp_PlanetScale_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlanet_Statics::NewProp_PlanetMesh_MetaData[] = {
+		{ "Category", "Planet" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// Planet Mesh\n" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Planet.h" },
-		{ "ToolTip", "Terrain of planet" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Planet Mesh" },
+#endif
 	};
 #endif
-	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_APlanet_Statics::NewProp_PlanetStaticMeshComponent = { "PlanetStaticMeshComponent", nullptr, (EPropertyFlags)0x0044000000080009, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(APlanet, PlanetStaticMeshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlanet_Statics::NewProp_PlanetStaticMeshComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlanet_Statics::NewProp_PlanetStaticMeshComponent_MetaData)) };
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlanet_Statics::NewProp_PlanetMovementComponent_MetaData[] = {
-		{ "Category", "Planet" },
-		{ "Comment", "// Planet motion\n" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Planet.h" },
-		{ "ToolTip", "Planet motion" },
-	};
-#endif
-	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_APlanet_Statics::NewProp_PlanetMovementComponent = { "PlanetMovementComponent", nullptr, (EPropertyFlags)0x00440000000a0009, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(APlanet, PlanetMovementComponent), Z_Construct_UClass_UOtterMovementComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlanet_Statics::NewProp_PlanetMovementComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlanet_Statics::NewProp_PlanetMovementComponent_MetaData)) };
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlanet_Statics::NewProp_ParentSolarSystemActor_MetaData[] = {
-		{ "Category", "Planet" },
-		{ "Comment", "// Solar system that planet is in\n" },
-		{ "ModuleRelativePath", "Planet.h" },
-		{ "ToolTip", "Solar system that planet is in" },
-	};
-#endif
-	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_APlanet_Statics::NewProp_ParentSolarSystemActor = { "ParentSolarSystemActor", nullptr, (EPropertyFlags)0x0044000000020001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(APlanet, ParentSolarSystemActor), Z_Construct_UClass_ASolarSystem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlanet_Statics::NewProp_ParentSolarSystemActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlanet_Statics::NewProp_ParentSolarSystemActor_MetaData)) };
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_APlanet_Statics::NewProp_PlanetMesh = { "PlanetMesh", nullptr, (EPropertyFlags)0x0044000000080009, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlanet, PlanetMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APlanet_Statics::NewProp_PlanetMesh_MetaData), Z_Construct_UClass_APlanet_Statics::NewProp_PlanetMesh_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlanet_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlanet_Statics::NewProp_PlanetStaticMeshComponent,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlanet_Statics::NewProp_PlanetMovementComponent,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlanet_Statics::NewProp_ParentSolarSystemActor,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlanet_Statics::NewProp_PlanetScale,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlanet_Statics::NewProp_PlanetMesh,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APlanet_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<APlanet>::IsAbstract,
 	};
 	const UECodeGen_Private::FClassParams Z_Construct_UClass_APlanet_Statics::ClassParams = {
 		&APlanet::StaticClass,
-		"Engine",
+		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
@@ -107,8 +100,9 @@ void EmptyLinkFunctionForGeneratedCodePlanet() {}
 		UE_ARRAY_COUNT(Z_Construct_UClass_APlanet_Statics::PropPointers),
 		0,
 		0x009000A4u,
-		METADATA_PARAMS(Z_Construct_UClass_APlanet_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_APlanet_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APlanet_Statics::Class_MetaDataParams), Z_Construct_UClass_APlanet_Statics::Class_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_APlanet_Statics::PropPointers) < 2048);
 	UClass* Z_Construct_UClass_APlanet()
 	{
 		if (!Z_Registration_Info_UClass_APlanet.OuterSingleton)
@@ -128,9 +122,9 @@ void EmptyLinkFunctionForGeneratedCodePlanet() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_Planet_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_APlanet, APlanet::StaticClass, TEXT("APlanet"), &Z_Registration_Info_UClass_APlanet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlanet), 2970393443U) },
+		{ Z_Construct_UClass_APlanet, APlanet::StaticClass, TEXT("APlanet"), &Z_Registration_Info_UClass_APlanet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlanet), 1160464779U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_Planet_h_2984863958(TEXT("/Script/Otter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_Planet_h_2047604986(TEXT("/Script/Otter"),
 		Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_Planet_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_Planet_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

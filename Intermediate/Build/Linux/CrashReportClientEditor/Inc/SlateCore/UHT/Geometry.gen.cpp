@@ -50,13 +50,13 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FGeometry>()
 		nullptr,
 		&NewStructOps,
 		"Geometry",
-		sizeof(FGeometry),
-		alignof(FGeometry),
 		nullptr,
 		0,
+		sizeof(FGeometry),
+		alignof(FGeometry),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FGeometry_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGeometry_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGeometry_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FGeometry_Statics::Struct_MetaDataParams)
 	};
 	UScriptStruct* Z_Construct_UScriptStruct_FGeometry()
 	{
@@ -71,9 +71,9 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FGeometry>()
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Layout_Geometry_h_Statics::ScriptStructInfo[] = {
-		{ FGeometry::StaticStruct, Z_Construct_UScriptStruct_FGeometry_Statics::NewStructOps, TEXT("Geometry"), &Z_Registration_Info_UScriptStruct_Geometry, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGeometry), 1967684469U) },
+		{ FGeometry::StaticStruct, Z_Construct_UScriptStruct_FGeometry_Statics::NewStructOps, TEXT("Geometry"), &Z_Registration_Info_UScriptStruct_Geometry, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FGeometry), 289838677U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Layout_Geometry_h_3176515680(TEXT("/Script/SlateCore"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Layout_Geometry_h_2992833932(TEXT("/Script/SlateCore"),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Layout_Geometry_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Layout_Geometry_h_Statics::ScriptStructInfo),
 		nullptr, 0);

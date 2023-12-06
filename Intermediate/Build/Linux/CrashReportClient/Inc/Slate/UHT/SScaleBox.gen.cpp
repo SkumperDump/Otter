@@ -60,11 +60,11 @@ void EmptyLinkFunctionForGeneratedCodeSScaleBox() {}
 		"EStretchDirection",
 		"EStretchDirection::Type",
 		Z_Construct_UEnum_Slate_EStretchDirection_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EStretchDirection_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EStretchDirection_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_Slate_EStretchDirection_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EStretchDirection_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EStretchDirection_Statics::Enum_MetaDataParams), Z_Construct_UEnum_Slate_EStretchDirection_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_Slate_EStretchDirection()
 	{
@@ -145,11 +145,11 @@ void EmptyLinkFunctionForGeneratedCodeSScaleBox() {}
 		"EStretch",
 		"EStretch::Type",
 		Z_Construct_UEnum_Slate_EStretch_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EStretch_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EStretch_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_Slate_EStretch_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EStretch_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EStretch_Statics::Enum_MetaDataParams), Z_Construct_UEnum_Slate_EStretch_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_Slate_EStretch()
 	{
@@ -164,10 +164,10 @@ void EmptyLinkFunctionForGeneratedCodeSScaleBox() {}
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 	};
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Widgets_Layout_SScaleBox_h_Statics::EnumInfo[] = {
-		{ EStretchDirection_StaticEnum, TEXT("EStretchDirection"), &Z_Registration_Info_UEnum_EStretchDirection, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 231333316U) },
-		{ EStretch_StaticEnum, TEXT("EStretch"), &Z_Registration_Info_UEnum_EStretch, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4029848301U) },
+		{ EStretchDirection_StaticEnum, TEXT("EStretchDirection"), &Z_Registration_Info_UEnum_EStretchDirection, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3191403264U) },
+		{ EStretch_StaticEnum, TEXT("EStretch"), &Z_Registration_Info_UEnum_EStretch, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3498569652U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Widgets_Layout_SScaleBox_h_4245426103(TEXT("/Script/Slate"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Widgets_Layout_SScaleBox_h_4259377112(TEXT("/Script/Slate"),
 		nullptr, 0,
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Widgets_Layout_SScaleBox_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Widgets_Layout_SScaleBox_h_Statics::EnumInfo));

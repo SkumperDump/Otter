@@ -5,8 +5,9 @@
 ===========================================================================*/
 
 // IWYU pragma: private, include "Widgets/Text/ISlateEditableTextWidget.h"
+#include "Templates/IsUEnumClass.h"
 #include "UObject/ObjectMacros.h"
-#include "UObject/ScriptMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef SLATE_ISlateEditableTextWidget_generated_h

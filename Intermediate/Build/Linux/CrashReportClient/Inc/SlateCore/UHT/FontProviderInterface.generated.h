@@ -15,8 +15,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define SLATECORE_FontProviderInterface_generated_h
 
 #define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_SPARSE_DATA
+#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_RPC_WRAPPERS
-#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_RPC_WRAPPERS_NO_PURE_DECLS
 #define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_ACCESSORS
 #define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
@@ -29,20 +30,6 @@ private: \
 	SLATECORE_API UFontProviderInterface(UFontProviderInterface&&); \
 	SLATECORE_API UFontProviderInterface(const UFontProviderInterface&); \
 public: \
-	SLATECORE_API virtual ~UFontProviderInterface();
-
-
-#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	SLATECORE_API UFontProviderInterface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
-private: \
-	/** Private move- and copy-constructors, should never be used */ \
-	SLATECORE_API UFontProviderInterface(UFontProviderInterface&&); \
-	SLATECORE_API UFontProviderInterface(const UFontProviderInterface&); \
-public: \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(SLATECORE_API, UFontProviderInterface); \
-	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UFontProviderInterface); \
-	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFontProviderInterface) \
 	SLATECORE_API virtual ~UFontProviderInterface();
 
 
@@ -62,23 +49,6 @@ public: \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_GENERATED_BODY \
-	PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_GENERATED_UINTERFACE_BODY() \
-	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_ENHANCED_CONSTRUCTORS \
-private: \
-	PRAGMA_ENABLE_DEPRECATION_WARNINGS
-
-
-#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_INCLASS_IINTERFACE_NO_PURE_DECLS \
-protected: \
-	virtual ~IFontProviderInterface() {} \
-public: \
-	typedef UFontProviderInterface UClassType; \
-	typedef IFontProviderInterface ThisClass; \
-	virtual UObject* _getUObject() const { return nullptr; }
-
-
 #define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_INCLASS_IINTERFACE \
 protected: \
 	virtual ~IFontProviderInterface() {} \
@@ -93,21 +63,12 @@ public: \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_SPARSE_DATA \
+	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
 	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_RPC_WRAPPERS \
 	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_ACCESSORS \
 	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_INCLASS_IINTERFACE \
 public: \
-PRAGMA_ENABLE_DEPRECATION_WARNINGS
-
-
-#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_23_GENERATED_BODY \
-PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-public: \
-	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_SPARSE_DATA \
-	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_ACCESSORS \
-	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontProviderInterface_h_18_INCLASS_IINTERFACE_NO_PURE_DECLS \
-private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 

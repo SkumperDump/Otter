@@ -16,43 +16,43 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_CompositeFont_h_138_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FFontData_Statics; \
-	static class UScriptStruct* StaticStruct();
+	SLATECORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FFontData>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_CompositeFont_h_296_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_CompositeFont_h_308_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FTypefaceEntry_Statics; \
-	static class UScriptStruct* StaticStruct();
+	SLATECORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FTypefaceEntry>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_CompositeFont_h_329_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_CompositeFont_h_341_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FTypeface_Statics; \
-	static class UScriptStruct* StaticStruct();
+	SLATECORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FTypeface>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_CompositeFont_h_357_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_CompositeFont_h_369_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FCompositeFallbackFont_Statics; \
-	static class UScriptStruct* StaticStruct();
+	SLATECORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FCompositeFallbackFont>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_CompositeFont_h_378_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_CompositeFont_h_390_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FCompositeSubFont_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FCompositeFallbackFont Super;
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FCompositeSubFont>();
 
-#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_CompositeFont_h_403_GENERATED_BODY \
+#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_CompositeFont_h_415_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FCompositeFont_Statics; \
-	static class UScriptStruct* StaticStruct();
+	SLATECORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FCompositeFont>();

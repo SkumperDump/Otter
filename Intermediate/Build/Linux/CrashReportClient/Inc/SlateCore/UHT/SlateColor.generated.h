@@ -16,7 +16,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateColor_h_43_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSlateColor_Statics; \
-	static class UScriptStruct* StaticStruct();
+	SLATECORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FSlateColor>();

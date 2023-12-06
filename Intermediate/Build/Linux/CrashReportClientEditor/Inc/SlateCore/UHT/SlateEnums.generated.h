@@ -5,8 +5,9 @@
 ===========================================================================*/
 
 // IWYU pragma: private, include "Types/SlateEnums.h"
+#include "Templates/IsUEnumClass.h"
 #include "UObject/ObjectMacros.h"
-#include "UObject/ScriptMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef SLATECORE_SlateEnums_generated_h

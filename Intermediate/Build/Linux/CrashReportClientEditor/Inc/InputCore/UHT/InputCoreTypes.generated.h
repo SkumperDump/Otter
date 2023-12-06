@@ -16,13 +16,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_51_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FKey_Statics; \
-	static class UScriptStruct* StaticStruct();
+	INPUTCORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> INPUTCORE_API UScriptStruct* StaticStruct<struct FKey>();
 
 #define FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_SPARSE_DATA
-#define FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_RPC_WRAPPERS
+#define FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_RPC_WRAPPERS_NO_PURE_DECLS
 #define FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_ACCESSORS
 #define FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_INCLASS_NO_PURE_DECLS \
@@ -32,29 +33,6 @@ private: \
 public: \
 	DECLARE_CLASS(UInputCoreTypes, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/InputCore"), NO_API) \
 	DECLARE_SERIALIZER(UInputCoreTypes)
-
-
-#define FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_INCLASS \
-private: \
-	static void StaticRegisterNativesUInputCoreTypes(); \
-	friend struct Z_Construct_UClass_UInputCoreTypes_Statics; \
-public: \
-	DECLARE_CLASS(UInputCoreTypes, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/InputCore"), NO_API) \
-	DECLARE_SERIALIZER(UInputCoreTypes)
-
-
-#define FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_STANDARD_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UInputCoreTypes(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
-	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UInputCoreTypes) \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UInputCoreTypes); \
-	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UInputCoreTypes); \
-private: \
-	/** Private move- and copy-constructors, should never be used */ \
-	NO_API UInputCoreTypes(UInputCoreTypes&&); \
-	NO_API UInputCoreTypes(const UInputCoreTypes&); \
-public: \
-	NO_API virtual ~UInputCoreTypes();
 
 
 #define FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_ENHANCED_CONSTRUCTORS \
@@ -72,22 +50,12 @@ public: \
 
 
 #define FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_780_PROLOG
-#define FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_GENERATED_BODY_LEGACY \
-PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-public: \
-	FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_SPARSE_DATA \
-	FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_RPC_WRAPPERS \
-	FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_ACCESSORS \
-	FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_INCLASS \
-	FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_STANDARD_CONSTRUCTORS \
-public: \
-PRAGMA_ENABLE_DEPRECATION_WARNINGS
-
-
 #define FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_SPARSE_DATA \
+	FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
 	FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_ACCESSORS \
 	FID_Engine_Source_Runtime_InputCore_Classes_InputCoreTypes_h_783_INCLASS_NO_PURE_DECLS \

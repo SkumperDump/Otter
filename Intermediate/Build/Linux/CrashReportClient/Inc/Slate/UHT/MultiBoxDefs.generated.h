@@ -5,8 +5,9 @@
 ===========================================================================*/
 
 // IWYU pragma: private, include "Framework/MultiBox/MultiBoxDefs.h"
+#include "Templates/IsUEnumClass.h"
 #include "UObject/ObjectMacros.h"
-#include "UObject/ScriptMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef SLATE_MultiBoxDefs_generated_h
@@ -25,7 +26,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	op(EMultiBoxType::SlimHorizontalToolBar) \
 	op(EMultiBoxType::UniformToolBar) \
 	op(EMultiBoxType::Menu) \
-	op(EMultiBoxType::ButtonRow) 
+	op(EMultiBoxType::ButtonRow) \
+	op(EMultiBoxType::SlimHorizontalUniformToolBar) 
 
 enum class EMultiBoxType : uint8;
 template<> struct TIsUEnumClass<EMultiBoxType> { enum { Value = true }; };

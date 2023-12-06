@@ -36,6 +36,7 @@ void EmptyLinkFunctionForGeneratedCodeFontBulkData() {}
 		(UObject* (*)())Z_Construct_UClass_UObject,
 		(UObject* (*)())Z_Construct_UPackage__Script_SlateCore,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UFontBulkData_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFontBulkData_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "Fonts/FontBulkData.h" },
@@ -57,8 +58,8 @@ void EmptyLinkFunctionForGeneratedCodeFontBulkData() {}
 		0,
 		0,
 		0,
-		0x001000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_UFontBulkData_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UFontBulkData_Statics::Class_MetaDataParams))
+		0x000800A0u,
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UFontBulkData_Statics::Class_MetaDataParams), Z_Construct_UClass_UFontBulkData_Statics::Class_MetaDataParams)
 	};
 	UClass* Z_Construct_UClass_UFontBulkData()
 	{
@@ -80,9 +81,9 @@ void EmptyLinkFunctionForGeneratedCodeFontBulkData() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UFontBulkData, UFontBulkData::StaticClass, TEXT("UFontBulkData"), &Z_Registration_Info_UClass_UFontBulkData, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFontBulkData), 3172860074U) },
+		{ Z_Construct_UClass_UFontBulkData, UFontBulkData::StaticClass, TEXT("UFontBulkData"), &Z_Registration_Info_UClass_UFontBulkData, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFontBulkData), 2406249714U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_76176768(TEXT("/Script/SlateCore"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_3591509354(TEXT("/Script/SlateCore"),
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

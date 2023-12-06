@@ -75,13 +75,14 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FFontOutlineSettings>()
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_OutlineSize_MetaData[] = {
 		{ "Category", "OutlineSettings" },
+		{ "ClampMax", "1024" },
 		{ "ClampMin", "0" },
 		{ "Comment", "/** Size of the outline in slate units (at 1.0 font scale this unit is a pixel)*/" },
 		{ "ModuleRelativePath", "Public/Fonts/SlateFontInfo.h" },
 		{ "ToolTip", "Size of the outline in slate units (at 1.0 font scale this unit is a pixel)" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_OutlineSize = { "OutlineSize", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFontOutlineSettings, OutlineSize), METADATA_PARAMS(Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_OutlineSize_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_OutlineSize_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_OutlineSize = { "OutlineSize", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFontOutlineSettings, OutlineSize), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_OutlineSize_MetaData), Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_OutlineSize_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_bSeparateFillAlpha_MetaData[] = {
 		{ "Category", "OutlineSettings" },
@@ -94,7 +95,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FFontOutlineSettings>()
 	{
 		((FFontOutlineSettings*)Obj)->bSeparateFillAlpha = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_bSeparateFillAlpha = { "bSeparateFillAlpha", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FFontOutlineSettings), &Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_bSeparateFillAlpha_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_bSeparateFillAlpha_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_bSeparateFillAlpha_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_bSeparateFillAlpha = { "bSeparateFillAlpha", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FFontOutlineSettings), &Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_bSeparateFillAlpha_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_bSeparateFillAlpha_MetaData), Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_bSeparateFillAlpha_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_bApplyOutlineToDropShadows_MetaData[] = {
 		{ "Category", "OutlineSettings" },
@@ -107,7 +108,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FFontOutlineSettings>()
 	{
 		((FFontOutlineSettings*)Obj)->bApplyOutlineToDropShadows = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_bApplyOutlineToDropShadows = { "bApplyOutlineToDropShadows", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FFontOutlineSettings), &Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_bApplyOutlineToDropShadows_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_bApplyOutlineToDropShadows_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_bApplyOutlineToDropShadows_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_bApplyOutlineToDropShadows = { "bApplyOutlineToDropShadows", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FFontOutlineSettings), &Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_bApplyOutlineToDropShadows_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_bApplyOutlineToDropShadows_MetaData), Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_bApplyOutlineToDropShadows_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_OutlineMaterial_MetaData[] = {
 		{ "AllowedClasses", "/Script/Engine.MaterialInterface" },
@@ -117,7 +118,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FFontOutlineSettings>()
 		{ "ToolTip", "Optional material to apply to the outline" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_OutlineMaterial = { "OutlineMaterial", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFontOutlineSettings, OutlineMaterial), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_OutlineMaterial_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_OutlineMaterial_MetaData)) };
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_OutlineMaterial = { "OutlineMaterial", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFontOutlineSettings, OutlineMaterial), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_OutlineMaterial_MetaData), Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_OutlineMaterial_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_OutlineColor_MetaData[] = {
 		{ "Category", "OutlineSettings" },
@@ -126,7 +127,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FFontOutlineSettings>()
 		{ "ToolTip", "The color of the outline for any character in this font" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_OutlineColor = { "OutlineColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FFontOutlineSettings, OutlineColor), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_OutlineColor_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_OutlineColor_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_OutlineColor = { "OutlineColor", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FFontOutlineSettings, OutlineColor), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_OutlineColor_MetaData), Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_OutlineColor_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_OutlineSize,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewProp_bSeparateFillAlpha,
@@ -139,14 +140,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FFontOutlineSettings>()
 		nullptr,
 		&NewStructOps,
 		"FontOutlineSettings",
-		sizeof(FFontOutlineSettings),
-		alignof(FFontOutlineSettings),
 		Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::PropPointers),
+		sizeof(FFontOutlineSettings),
+		alignof(FFontOutlineSettings),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FFontOutlineSettings()
 	{
 		if (!Z_Registration_Info_UScriptStruct_FontOutlineSettings.InnerSingleton)
@@ -193,7 +195,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateFontInfo>()
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_Size_MetaData[];
 #endif
-		static const UECodeGen_Private::FIntPropertyParams NewProp_Size;
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_Size;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_LetterSpacing_MetaData[];
 #endif
@@ -241,7 +243,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateFontInfo>()
 		{ "ToolTip", "The font object (valid when used from UMG or a Slate widget style asset)" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_FontObject = { "FontObject", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateFontInfo, FontObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_FontObject_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_FontObject_MetaData)) };
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_FontObject = { "FontObject", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateFontInfo, FontObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_FontObject_MetaData), Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_FontObject_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_FontMaterial_MetaData[] = {
 		{ "AllowedClasses", "/Script/Engine.MaterialInterface" },
@@ -251,7 +253,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateFontInfo>()
 		{ "ToolTip", "The material to use when rendering this font" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_FontMaterial = { "FontMaterial", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateFontInfo, FontMaterial), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_FontMaterial_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_FontMaterial_MetaData)) };
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_FontMaterial = { "FontMaterial", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateFontInfo, FontMaterial), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_FontMaterial_MetaData), Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_FontMaterial_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_OutlineSettings_MetaData[] = {
 		{ "Category", "SlateStyleRules" },
@@ -260,7 +262,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateFontInfo>()
 		{ "ToolTip", "Settings for applying an outline to a font" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_OutlineSettings = { "OutlineSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateFontInfo, OutlineSettings), Z_Construct_UScriptStruct_FFontOutlineSettings, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_OutlineSettings_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_OutlineSettings_MetaData)) }; // 1332472460
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_OutlineSettings = { "OutlineSettings", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateFontInfo, OutlineSettings), Z_Construct_UScriptStruct_FFontOutlineSettings, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_OutlineSettings_MetaData), Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_OutlineSettings_MetaData) }; // 1691240454
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_TypefaceFontName_MetaData[] = {
 		{ "Category", "SlateStyleRules" },
@@ -270,18 +272,18 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateFontInfo>()
 		{ "ToolTip", "The name of the font to use from the default typeface (None will use the first entry)" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_TypefaceFontName = { "TypefaceFontName", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateFontInfo, TypefaceFontName), METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_TypefaceFontName_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_TypefaceFontName_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_TypefaceFontName = { "TypefaceFontName", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateFontInfo, TypefaceFontName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_TypefaceFontName_MetaData), Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_TypefaceFontName_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_Size_MetaData[] = {
 		{ "Category", "SlateStyleRules" },
 		{ "ClampMax", "1000" },
 		{ "ClampMin", "1" },
-		{ "Comment", "/**\n\x09 * The font size is a measure in point values. The conversion of points to Slate Units is done at 96 dpi.  So if \n\x09 * you're using a tool like Photoshop to prototype layouts and UI mock ups, be sure to change the default dpi \n\x09 * measurements from 72 dpi to 96 dpi.\n\x09 */" },
+		{ "Comment", "/**\n\x09 * The font size is a measure in point values. The conversion of points to Slate Units is done at 96 DPI.\n\x09 * So if you're using a tool like Photoshop to prototype layouts and UI mock ups, you can change the UMG Font settings\n\x09 * to ensure that UMG font size is displayed in its 72 DPI equivalent, even if Slate will still use 96 DPI internally.\n\x09 */" },
 		{ "ModuleRelativePath", "Public/Fonts/SlateFontInfo.h" },
-		{ "ToolTip", "The font size is a measure in point values. The conversion of points to Slate Units is done at 96 dpi.  So if\nyou're using a tool like Photoshop to prototype layouts and UI mock ups, be sure to change the default dpi\nmeasurements from 72 dpi to 96 dpi." },
+		{ "ToolTip", "The font size is a measure in point values. The conversion of points to Slate Units is done at 96 DPI.\nSo if you're using a tool like Photoshop to prototype layouts and UI mock ups, you can change the UMG Font settings\nto ensure that UMG font size is displayed in its 72 DPI equivalent, even if Slate will still use 96 DPI internally." },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_Size = { "Size", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateFontInfo, Size), METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_Size_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_Size_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_Size = { "Size", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateFontInfo, Size), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_Size_MetaData), Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_Size_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_LetterSpacing_MetaData[] = {
 		{ "Category", "SlateStyleRules" },
@@ -292,7 +294,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateFontInfo>()
 		{ "ToolTip", "The uniform spacing (or tracking) between all characters in the text." },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_LetterSpacing = { "LetterSpacing", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateFontInfo, LetterSpacing), METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_LetterSpacing_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_LetterSpacing_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_LetterSpacing = { "LetterSpacing", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateFontInfo, LetterSpacing), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_LetterSpacing_MetaData), Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_LetterSpacing_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_SkewAmount_MetaData[] = {
 		{ "Category", "SlateStyleRules" },
@@ -303,7 +305,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateFontInfo>()
 		{ "ToolTip", "A skew amount to apply to the text." },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_SkewAmount = { "SkewAmount", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateFontInfo, SkewAmount), METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_SkewAmount_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_SkewAmount_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_SkewAmount = { "SkewAmount", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateFontInfo, SkewAmount), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_SkewAmount_MetaData), Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_SkewAmount_MetaData) };
 #if WITH_EDITORONLY_DATA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_FontName_MetaData[] = {
@@ -312,8 +314,8 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateFontInfo>()
 		{ "ToolTip", "The name of the font" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_FontName = { "FontName", nullptr, (EPropertyFlags)0x0040000820000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateFontInfo, FontName_DEPRECATED), METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_FontName_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_FontName_MetaData)) };
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_Hinting_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_FontName = { "FontName", nullptr, (EPropertyFlags)0x0040000820000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateFontInfo, FontName_DEPRECATED), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_FontName_MetaData), Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_FontName_MetaData) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_Hinting_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_Hinting_MetaData[] = {
 		{ "Comment", "/** The hinting algorithm to use with the font */" },
@@ -321,7 +323,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateFontInfo>()
 		{ "ToolTip", "The hinting algorithm to use with the font" },
 	};
 #endif
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_Hinting = { "Hinting", nullptr, (EPropertyFlags)0x0040000820000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateFontInfo, Hinting_DEPRECATED), Z_Construct_UEnum_SlateCore_EFontHinting, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_Hinting_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_Hinting_MetaData)) }; // 3162113740
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_Hinting = { "Hinting", nullptr, (EPropertyFlags)0x0040000820000000, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateFontInfo, Hinting_DEPRECATED), Z_Construct_UEnum_SlateCore_EFontHinting, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_Hinting_MetaData), Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_Hinting_MetaData) }; // 1055277494
 #endif // WITH_EDITORONLY_DATA
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FSlateFontInfo_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewProp_FontObject,
@@ -342,14 +344,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateFontInfo>()
 		nullptr,
 		&NewStructOps,
 		"SlateFontInfo",
-		sizeof(FSlateFontInfo),
-		alignof(FSlateFontInfo),
 		Z_Construct_UScriptStruct_FSlateFontInfo_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::PropPointers),
+		sizeof(FSlateFontInfo),
+		alignof(FSlateFontInfo),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FSlateFontInfo_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateFontInfo_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FSlateFontInfo()
 	{
 		if (!Z_Registration_Info_UScriptStruct_SlateFontInfo.InnerSingleton)
@@ -363,10 +366,10 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateFontInfo>()
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_SlateFontInfo_h_Statics::ScriptStructInfo[] = {
-		{ FFontOutlineSettings::StaticStruct, Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewStructOps, TEXT("FontOutlineSettings"), &Z_Registration_Info_UScriptStruct_FontOutlineSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFontOutlineSettings), 1332472460U) },
-		{ FSlateFontInfo::StaticStruct, Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewStructOps, TEXT("SlateFontInfo"), &Z_Registration_Info_UScriptStruct_SlateFontInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSlateFontInfo), 192883377U) },
+		{ FFontOutlineSettings::StaticStruct, Z_Construct_UScriptStruct_FFontOutlineSettings_Statics::NewStructOps, TEXT("FontOutlineSettings"), &Z_Registration_Info_UScriptStruct_FontOutlineSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFontOutlineSettings), 1691240454U) },
+		{ FSlateFontInfo::StaticStruct, Z_Construct_UScriptStruct_FSlateFontInfo_Statics::NewStructOps, TEXT("SlateFontInfo"), &Z_Registration_Info_UScriptStruct_SlateFontInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSlateFontInfo), 2074891513U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_SlateFontInfo_h_2393718666(TEXT("/Script/SlateCore"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_SlateFontInfo_h_3285638111(TEXT("/Script/SlateCore"),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_SlateFontInfo_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Fonts_SlateFontInfo_h_Statics::ScriptStructInfo),
 		nullptr, 0);

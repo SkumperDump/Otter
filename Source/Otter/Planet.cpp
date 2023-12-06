@@ -2,8 +2,8 @@
 
 
 #include "Planet.h"
+#include "UObject/ConstructorHelpers.h"
 #include "Components/StaticMeshComponent.h"
-#include "OtterMovementComponent.h"
 
 
 // Sets default values
@@ -12,14 +12,21 @@ APlanet::APlanet()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	// Setup class defaults
-	PlanetStaticMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(FName{"Planet Mesh"});
-	PlanetMovementComponent = CreateDefaultSubobject<UOtterMovementComponent>(FName{"Planet Movement"});
+	PlanetMesh = CreateDefaultSubobject<UStaticMeshComponent>(FName { "Planet Mesh" });
+	
+	// Use static to improve performance (only have to lookup mesh once)
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> MeshAsset(TEXT("/Script/Engine.StaticMesh'/Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere'"));	check(MeshAsset.Succeeded())
+	PlanetMesh->SetStaticMesh(MeshAsset.Object);
+	SetRootComponent(PlanetMesh);
+	SetDefaultPrimComp(PlanetMesh);
 
-	// Setup root component and attachments
-	SetRootComponent(PlanetStaticMeshComponent);
+	//TODO
+	// Scale Planets
+}
 
-	// Setup physics for planet mesh component
-	PlanetStaticMeshComponent->SetSimulatePhysics(true);
-	PlanetStaticMeshComponent->SetEnableGravity(false);
+void APlanet::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
+	GetDefaultPrimComp()->SetSimulatePhysics(true);
+	GetDefaultPrimComp()->SetEnableGravity(false);
 }

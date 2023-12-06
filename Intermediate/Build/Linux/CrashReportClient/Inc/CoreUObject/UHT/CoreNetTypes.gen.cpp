@@ -48,6 +48,7 @@ void EmptyLinkFunctionForGeneratedCodeCoreNetTypes() {}
 		{ "COND_SimulatedOnlyNoReplay", (int64)COND_SimulatedOnlyNoReplay },
 		{ "COND_SimulatedOrPhysicsNoReplay", (int64)COND_SimulatedOrPhysicsNoReplay },
 		{ "COND_SkipReplay", (int64)COND_SkipReplay },
+		{ "COND_Dynamic", (int64)COND_Dynamic },
 		{ "COND_Never", (int64)COND_Never },
 		{ "COND_NetGroup", (int64)COND_NetGroup },
 		{ "COND_Max", (int64)COND_Max },
@@ -64,6 +65,10 @@ void EmptyLinkFunctionForGeneratedCodeCoreNetTypes() {}
 		{ "COND_Custom.DisplayName", "Custom" },
 		{ "COND_Custom.Name", "COND_Custom" },
 		{ "COND_Custom.ToolTip", "This property will send on the initial packet, or to the actors owner" },
+		{ "COND_Dynamic.Comment", "// This property will not send to the replay connection\n" },
+		{ "COND_Dynamic.Hidden", "" },
+		{ "COND_Dynamic.Name", "COND_Dynamic" },
+		{ "COND_Dynamic.ToolTip", "This property will not send to the replay connection" },
 		{ "COND_InitialOnly.Comment", "// This property has no condition, and will send anytime it changes\n" },
 		{ "COND_InitialOnly.DisplayName", "Initial Only" },
 		{ "COND_InitialOnly.Name", "COND_InitialOnly" },
@@ -80,10 +85,10 @@ void EmptyLinkFunctionForGeneratedCodeCoreNetTypes() {}
 		{ "COND_NetGroup.Hidden", "" },
 		{ "COND_NetGroup.Name", "COND_NetGroup" },
 		{ "COND_NetGroup.ToolTip", "This property will never be replicated" },
-		{ "COND_Never.Comment", "// This property will not send to the replay connection\n" },
+		{ "COND_Never.Comment", "// This property wants to override the condition at runtime. Defaults to always replicate until you override it to a new condition.\n" },
 		{ "COND_Never.Hidden", "" },
 		{ "COND_Never.Name", "COND_Never" },
-		{ "COND_Never.ToolTip", "This property will not send to the replay connection" },
+		{ "COND_Never.ToolTip", "This property wants to override the condition at runtime. Defaults to always replicate until you override it to a new condition." },
 		{ "COND_None.DisplayName", "None" },
 		{ "COND_None.Name", "COND_None" },
 		{ "COND_OwnerOnly.Comment", "// This property will only attempt to send on the initial bunch\n" },
@@ -132,11 +137,11 @@ void EmptyLinkFunctionForGeneratedCodeCoreNetTypes() {}
 		"ELifetimeCondition",
 		"ELifetimeCondition",
 		Z_Construct_UEnum_CoreUObject_ELifetimeCondition_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ELifetimeCondition_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ELifetimeCondition_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Regular,
-		METADATA_PARAMS(Z_Construct_UEnum_CoreUObject_ELifetimeCondition_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ELifetimeCondition_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_CoreUObject_ELifetimeCondition_Statics::Enum_MetaDataParams), Z_Construct_UEnum_CoreUObject_ELifetimeCondition_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_CoreUObject_ELifetimeCondition()
 	{
@@ -151,9 +156,9 @@ void EmptyLinkFunctionForGeneratedCodeCoreNetTypes() {}
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 	};
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_CoreUObject_Public_UObject_CoreNetTypes_h_Statics::EnumInfo[] = {
-		{ ELifetimeCondition_StaticEnum, TEXT("ELifetimeCondition"), &Z_Registration_Info_UEnum_ELifetimeCondition, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3368915930U) },
+		{ ELifetimeCondition_StaticEnum, TEXT("ELifetimeCondition"), &Z_Registration_Info_UEnum_ELifetimeCondition, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4123763361U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_CoreUObject_Public_UObject_CoreNetTypes_h_2159071744(TEXT("/Script/CoreUObject"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_CoreUObject_Public_UObject_CoreNetTypes_h_791984795(TEXT("/Script/CoreUObject"),
 		nullptr, 0,
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_CoreUObject_Public_UObject_CoreNetTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_CoreUObject_Public_UObject_CoreNetTypes_h_Statics::EnumInfo));

@@ -42,6 +42,7 @@ void EmptyLinkFunctionForGeneratedCodeProgressWidgetStyle() {}
 		(UObject* (*)())Z_Construct_UClass_USlateWidgetStyleContainerBase,
 		(UObject* (*)())Z_Construct_UPackage__Script_Slate,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UProgressWidgetStyle_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UProgressWidgetStyle_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
@@ -60,7 +61,7 @@ void EmptyLinkFunctionForGeneratedCodeProgressWidgetStyle() {}
 		{ "ToolTip", "The actual data describing the button's appearance." },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UProgressWidgetStyle_Statics::NewProp_ProgressBarStyle = { "ProgressBarStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UProgressWidgetStyle, ProgressBarStyle), Z_Construct_UScriptStruct_FProgressBarStyle, METADATA_PARAMS(Z_Construct_UClass_UProgressWidgetStyle_Statics::NewProp_ProgressBarStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UProgressWidgetStyle_Statics::NewProp_ProgressBarStyle_MetaData)) }; // 3431683467
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UProgressWidgetStyle_Statics::NewProp_ProgressBarStyle = { "ProgressBarStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UProgressWidgetStyle, ProgressBarStyle), Z_Construct_UScriptStruct_FProgressBarStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UProgressWidgetStyle_Statics::NewProp_ProgressBarStyle_MetaData), Z_Construct_UClass_UProgressWidgetStyle_Statics::NewProp_ProgressBarStyle_MetaData) }; // 2988023842
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UProgressWidgetStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UProgressWidgetStyle_Statics::NewProp_ProgressBarStyle,
 	};
@@ -80,8 +81,9 @@ void EmptyLinkFunctionForGeneratedCodeProgressWidgetStyle() {}
 		UE_ARRAY_COUNT(Z_Construct_UClass_UProgressWidgetStyle_Statics::PropPointers),
 		0,
 		0x000800A0u,
-		METADATA_PARAMS(Z_Construct_UClass_UProgressWidgetStyle_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UProgressWidgetStyle_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UProgressWidgetStyle_Statics::Class_MetaDataParams), Z_Construct_UClass_UProgressWidgetStyle_Statics::Class_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UProgressWidgetStyle_Statics::PropPointers) < 2048);
 	UClass* Z_Construct_UClass_UProgressWidgetStyle()
 	{
 		if (!Z_Registration_Info_UClass_UProgressWidgetStyle.OuterSingleton)
@@ -102,9 +104,9 @@ void EmptyLinkFunctionForGeneratedCodeProgressWidgetStyle() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Styling_ProgressWidgetStyle_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UProgressWidgetStyle, UProgressWidgetStyle::StaticClass, TEXT("UProgressWidgetStyle"), &Z_Registration_Info_UClass_UProgressWidgetStyle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UProgressWidgetStyle), 3153034820U) },
+		{ Z_Construct_UClass_UProgressWidgetStyle, UProgressWidgetStyle::StaticClass, TEXT("UProgressWidgetStyle"), &Z_Registration_Info_UClass_UProgressWidgetStyle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UProgressWidgetStyle), 2327798745U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Styling_ProgressWidgetStyle_h_1263524973(TEXT("/Script/Slate"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Styling_ProgressWidgetStyle_h_1639685830(TEXT("/Script/Slate"),
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Styling_ProgressWidgetStyle_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Framework_Styling_ProgressWidgetStyle_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

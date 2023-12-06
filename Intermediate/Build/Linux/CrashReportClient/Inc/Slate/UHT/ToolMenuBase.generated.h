@@ -37,82 +37,50 @@ template<> SLATE_API UScriptStruct* StaticStruct<struct FCustomizedToolMenuNameA
 
 #define FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_60_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FCustomizedToolMenu_Statics; \
-	static class UScriptStruct* StaticStruct();
+	SLATE_API static class UScriptStruct* StaticStruct();
 
 
 template<> SLATE_API UScriptStruct* StaticStruct<struct FCustomizedToolMenu>();
 
-#define FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_109_SPARSE_DATA
-#define FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_109_RPC_WRAPPERS
-#define FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_109_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_109_ACCESSORS
-#define FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_109_INCLASS_NO_PURE_DECLS \
+#define FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_117_SPARSE_DATA
+#define FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_117_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_117_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_117_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_117_ACCESSORS
+#define FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_117_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUToolMenuBase(); \
 	friend struct Z_Construct_UClass_UToolMenuBase_Statics; \
 public: \
-	DECLARE_CLASS(UToolMenuBase, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/Slate"), NO_API) \
+	DECLARE_CLASS(UToolMenuBase, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/Slate"), SLATE_API) \
 	DECLARE_SERIALIZER(UToolMenuBase)
 
 
-#define FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_109_INCLASS \
-private: \
-	static void StaticRegisterNativesUToolMenuBase(); \
-	friend struct Z_Construct_UClass_UToolMenuBase_Statics; \
-public: \
-	DECLARE_CLASS(UToolMenuBase, UObject, COMPILED_IN_FLAGS(CLASS_Abstract), CASTCLASS_None, TEXT("/Script/Slate"), NO_API) \
-	DECLARE_SERIALIZER(UToolMenuBase)
-
-
-#define FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_109_STANDARD_CONSTRUCTORS \
+#define FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_117_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UToolMenuBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
-	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UToolMenuBase) \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UToolMenuBase); \
-	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UToolMenuBase); \
+	SLATE_API UToolMenuBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
-	NO_API UToolMenuBase(UToolMenuBase&&); \
-	NO_API UToolMenuBase(const UToolMenuBase&); \
+	SLATE_API UToolMenuBase(UToolMenuBase&&); \
+	SLATE_API UToolMenuBase(const UToolMenuBase&); \
 public: \
-	NO_API virtual ~UToolMenuBase();
-
-
-#define FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_109_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UToolMenuBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
-private: \
-	/** Private move- and copy-constructors, should never be used */ \
-	NO_API UToolMenuBase(UToolMenuBase&&); \
-	NO_API UToolMenuBase(const UToolMenuBase&); \
-public: \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UToolMenuBase); \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(SLATE_API, UToolMenuBase); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UToolMenuBase); \
 	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UToolMenuBase) \
-	NO_API virtual ~UToolMenuBase();
+	SLATE_API virtual ~UToolMenuBase();
 
 
-#define FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_106_PROLOG
-#define FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_109_GENERATED_BODY_LEGACY \
+#define FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_114_PROLOG
+#define FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_117_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_109_SPARSE_DATA \
-	FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_109_RPC_WRAPPERS \
-	FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_109_ACCESSORS \
-	FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_109_INCLASS \
-	FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_109_STANDARD_CONSTRUCTORS \
-public: \
-PRAGMA_ENABLE_DEPRECATION_WARNINGS
-
-
-#define FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_109_GENERATED_BODY \
-PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-public: \
-	FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_109_SPARSE_DATA \
-	FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_109_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_109_ACCESSORS \
-	FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_109_INCLASS_NO_PURE_DECLS \
-	FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_109_ENHANCED_CONSTRUCTORS \
+	FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_117_SPARSE_DATA \
+	FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_117_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_117_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_117_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_117_ACCESSORS \
+	FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_117_INCLASS_NO_PURE_DECLS \
+	FID_Engine_Source_Runtime_Slate_Public_Framework_MultiBox_ToolMenuBase_h_117_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

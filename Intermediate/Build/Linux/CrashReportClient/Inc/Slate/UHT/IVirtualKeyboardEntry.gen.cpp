@@ -60,7 +60,7 @@ template<> SLATE_API UScriptStruct* StaticStruct<FVirtualKeyboardOptions>()
 	{
 		((FVirtualKeyboardOptions*)Obj)->bEnableAutocorrect = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FVirtualKeyboardOptions_Statics::NewProp_bEnableAutocorrect = { "bEnableAutocorrect", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FVirtualKeyboardOptions), &Z_Construct_UScriptStruct_FVirtualKeyboardOptions_Statics::NewProp_bEnableAutocorrect_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FVirtualKeyboardOptions_Statics::NewProp_bEnableAutocorrect_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVirtualKeyboardOptions_Statics::NewProp_bEnableAutocorrect_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FVirtualKeyboardOptions_Statics::NewProp_bEnableAutocorrect = { "bEnableAutocorrect", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FVirtualKeyboardOptions), &Z_Construct_UScriptStruct_FVirtualKeyboardOptions_Statics::NewProp_bEnableAutocorrect_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVirtualKeyboardOptions_Statics::NewProp_bEnableAutocorrect_MetaData), Z_Construct_UScriptStruct_FVirtualKeyboardOptions_Statics::NewProp_bEnableAutocorrect_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FVirtualKeyboardOptions_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FVirtualKeyboardOptions_Statics::NewProp_bEnableAutocorrect,
 	};
@@ -69,14 +69,15 @@ template<> SLATE_API UScriptStruct* StaticStruct<FVirtualKeyboardOptions>()
 		nullptr,
 		&NewStructOps,
 		"VirtualKeyboardOptions",
-		sizeof(FVirtualKeyboardOptions),
-		alignof(FVirtualKeyboardOptions),
 		Z_Construct_UScriptStruct_FVirtualKeyboardOptions_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVirtualKeyboardOptions_Statics::PropPointers),
+		sizeof(FVirtualKeyboardOptions),
+		alignof(FVirtualKeyboardOptions),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000001),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FVirtualKeyboardOptions_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVirtualKeyboardOptions_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVirtualKeyboardOptions_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FVirtualKeyboardOptions_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FVirtualKeyboardOptions_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FVirtualKeyboardOptions()
 	{
 		if (!Z_Registration_Info_UScriptStruct_VirtualKeyboardOptions.InnerSingleton)
@@ -90,9 +91,9 @@ template<> SLATE_API UScriptStruct* StaticStruct<FVirtualKeyboardOptions>()
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Widgets_Input_IVirtualKeyboardEntry_h_Statics::ScriptStructInfo[] = {
-		{ FVirtualKeyboardOptions::StaticStruct, Z_Construct_UScriptStruct_FVirtualKeyboardOptions_Statics::NewStructOps, TEXT("VirtualKeyboardOptions"), &Z_Registration_Info_UScriptStruct_VirtualKeyboardOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVirtualKeyboardOptions), 1698244812U) },
+		{ FVirtualKeyboardOptions::StaticStruct, Z_Construct_UScriptStruct_FVirtualKeyboardOptions_Statics::NewStructOps, TEXT("VirtualKeyboardOptions"), &Z_Registration_Info_UScriptStruct_VirtualKeyboardOptions, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FVirtualKeyboardOptions), 2492524741U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Widgets_Input_IVirtualKeyboardEntry_h_1599729754(TEXT("/Script/Slate"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Widgets_Input_IVirtualKeyboardEntry_h_660897585(TEXT("/Script/Slate"),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Widgets_Input_IVirtualKeyboardEntry_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Widgets_Input_IVirtualKeyboardEntry_h_Statics::ScriptStructInfo),
 		nullptr, 0);

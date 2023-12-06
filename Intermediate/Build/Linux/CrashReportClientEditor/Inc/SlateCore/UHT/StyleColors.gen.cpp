@@ -181,11 +181,11 @@ void EmptyLinkFunctionForGeneratedCodeStyleColors() {}
 		"EStyleColor",
 		"EStyleColor",
 		Z_Construct_UEnum_SlateCore_EStyleColor_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_EStyleColor_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_EStyleColor_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_SlateCore_EStyleColor_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_EStyleColor_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_SlateCore_EStyleColor_Statics::Enum_MetaDataParams), Z_Construct_UEnum_SlateCore_EStyleColor_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_SlateCore_EStyleColor()
 	{
@@ -237,7 +237,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FStyleColorList>()
 		{ "ModuleRelativePath", "Public/Styling/StyleColors.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FStyleColorList_Statics::NewProp_StyleColors = { "StyleColors", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, CPP_ARRAY_DIM(StyleColors, FStyleColorList), nullptr, nullptr, STRUCT_OFFSET(FStyleColorList, StyleColors), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FStyleColorList_Statics::NewProp_StyleColors_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FStyleColorList_Statics::NewProp_StyleColors_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FStyleColorList_Statics::NewProp_StyleColors = { "StyleColors", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, CPP_ARRAY_DIM(StyleColors, FStyleColorList), STRUCT_OFFSET(FStyleColorList, StyleColors), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FStyleColorList_Statics::NewProp_StyleColors_MetaData), Z_Construct_UScriptStruct_FStyleColorList_Statics::NewProp_StyleColors_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FStyleColorList_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FStyleColorList_Statics::NewProp_StyleColors,
 	};
@@ -246,14 +246,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FStyleColorList>()
 		nullptr,
 		&NewStructOps,
 		"StyleColorList",
-		sizeof(FStyleColorList),
-		alignof(FStyleColorList),
 		Z_Construct_UScriptStruct_FStyleColorList_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FStyleColorList_Statics::PropPointers),
+		sizeof(FStyleColorList),
+		alignof(FStyleColorList),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000001),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FStyleColorList_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FStyleColorList_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FStyleColorList_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FStyleColorList_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FStyleColorList_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FStyleColorList()
 	{
 		if (!Z_Registration_Info_UScriptStruct_StyleColorList.InnerSingleton)
@@ -299,13 +300,13 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FStyleTheme>()
 		nullptr,
 		&NewStructOps,
 		"StyleTheme",
-		sizeof(FStyleTheme),
-		alignof(FStyleTheme),
 		nullptr,
 		0,
+		sizeof(FStyleTheme),
+		alignof(FStyleTheme),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000001),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FStyleTheme_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FStyleTheme_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FStyleTheme_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FStyleTheme_Statics::Struct_MetaDataParams)
 	};
 	UScriptStruct* Z_Construct_UScriptStruct_FStyleTheme()
 	{
@@ -345,6 +346,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FStyleTheme>()
 		(UObject* (*)())Z_Construct_UClass_UObject,
 		(UObject* (*)())Z_Construct_UPackage__Script_SlateCore,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_USlateThemeManager_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USlateThemeManager_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "Styling/StyleColors.h" },
@@ -357,14 +359,14 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FStyleTheme>()
 		{ "ModuleRelativePath", "Public/Styling/StyleColors.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_USlateThemeManager_Statics::NewProp_CurrentThemeId = { "CurrentThemeId", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(USlateThemeManager, CurrentThemeId), Z_Construct_UScriptStruct_FGuid, METADATA_PARAMS(Z_Construct_UClass_USlateThemeManager_Statics::NewProp_CurrentThemeId_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_USlateThemeManager_Statics::NewProp_CurrentThemeId_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_USlateThemeManager_Statics::NewProp_CurrentThemeId = { "CurrentThemeId", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(USlateThemeManager, CurrentThemeId), Z_Construct_UScriptStruct_FGuid, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_USlateThemeManager_Statics::NewProp_CurrentThemeId_MetaData), Z_Construct_UClass_USlateThemeManager_Statics::NewProp_CurrentThemeId_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USlateThemeManager_Statics::NewProp_ActiveColors_MetaData[] = {
 		{ "Category", "Colors" },
 		{ "ModuleRelativePath", "Public/Styling/StyleColors.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_USlateThemeManager_Statics::NewProp_ActiveColors = { "ActiveColors", nullptr, (EPropertyFlags)0x0010000000002001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(USlateThemeManager, ActiveColors), Z_Construct_UScriptStruct_FStyleColorList, METADATA_PARAMS(Z_Construct_UClass_USlateThemeManager_Statics::NewProp_ActiveColors_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_USlateThemeManager_Statics::NewProp_ActiveColors_MetaData)) }; // 762079879
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_USlateThemeManager_Statics::NewProp_ActiveColors = { "ActiveColors", nullptr, (EPropertyFlags)0x0010000000002001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(USlateThemeManager, ActiveColors), Z_Construct_UScriptStruct_FStyleColorList, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_USlateThemeManager_Statics::NewProp_ActiveColors_MetaData), Z_Construct_UClass_USlateThemeManager_Statics::NewProp_ActiveColors_MetaData) }; // 198341576
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_USlateThemeManager_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USlateThemeManager_Statics::NewProp_CurrentThemeId,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USlateThemeManager_Statics::NewProp_ActiveColors,
@@ -384,9 +386,10 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FStyleTheme>()
 		0,
 		UE_ARRAY_COUNT(Z_Construct_UClass_USlateThemeManager_Statics::PropPointers),
 		0,
-		0x001000A4u,
-		METADATA_PARAMS(Z_Construct_UClass_USlateThemeManager_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_USlateThemeManager_Statics::Class_MetaDataParams))
+		0x000800A4u,
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_USlateThemeManager_Statics::Class_MetaDataParams), Z_Construct_UClass_USlateThemeManager_Statics::Class_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_USlateThemeManager_Statics::PropPointers) < 2048);
 	UClass* Z_Construct_UClass_USlateThemeManager()
 	{
 		if (!Z_Registration_Info_UClass_USlateThemeManager.OuterSingleton)
@@ -408,16 +411,16 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FStyleTheme>()
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_StyleColors_h_Statics::EnumInfo[] = {
-		{ EStyleColor_StaticEnum, TEXT("EStyleColor"), &Z_Registration_Info_UEnum_EStyleColor, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1147901408U) },
+		{ EStyleColor_StaticEnum, TEXT("EStyleColor"), &Z_Registration_Info_UEnum_EStyleColor, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4210685709U) },
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_StyleColors_h_Statics::ScriptStructInfo[] = {
-		{ FStyleColorList::StaticStruct, Z_Construct_UScriptStruct_FStyleColorList_Statics::NewStructOps, TEXT("StyleColorList"), &Z_Registration_Info_UScriptStruct_StyleColorList, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FStyleColorList), 762079879U) },
-		{ FStyleTheme::StaticStruct, Z_Construct_UScriptStruct_FStyleTheme_Statics::NewStructOps, TEXT("StyleTheme"), &Z_Registration_Info_UScriptStruct_StyleTheme, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FStyleTheme), 3267621701U) },
+		{ FStyleColorList::StaticStruct, Z_Construct_UScriptStruct_FStyleColorList_Statics::NewStructOps, TEXT("StyleColorList"), &Z_Registration_Info_UScriptStruct_StyleColorList, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FStyleColorList), 198341576U) },
+		{ FStyleTheme::StaticStruct, Z_Construct_UScriptStruct_FStyleTheme_Statics::NewStructOps, TEXT("StyleTheme"), &Z_Registration_Info_UScriptStruct_StyleTheme, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FStyleTheme), 2957474448U) },
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_StyleColors_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_USlateThemeManager, USlateThemeManager::StaticClass, TEXT("USlateThemeManager"), &Z_Registration_Info_UClass_USlateThemeManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USlateThemeManager), 3511123644U) },
+		{ Z_Construct_UClass_USlateThemeManager, USlateThemeManager::StaticClass, TEXT("USlateThemeManager"), &Z_Registration_Info_UClass_USlateThemeManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USlateThemeManager), 806001039U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_StyleColors_h_3075871764(TEXT("/Script/SlateCore"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_StyleColors_h_948028523(TEXT("/Script/SlateCore"),
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_StyleColors_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_StyleColors_h_Statics::ClassInfo),
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_StyleColors_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_StyleColors_h_Statics::ScriptStructInfo),
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_StyleColors_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_StyleColors_h_Statics::EnumInfo));

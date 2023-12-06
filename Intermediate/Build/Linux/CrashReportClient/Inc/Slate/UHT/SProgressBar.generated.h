@@ -5,8 +5,9 @@
 ===========================================================================*/
 
 // IWYU pragma: private, include "Widgets/Notifications/SProgressBar.h"
+#include "Templates/IsUEnumClass.h"
 #include "UObject/ObjectMacros.h"
-#include "UObject/ScriptMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef SLATE_SProgressBar_generated_h

@@ -78,11 +78,11 @@ void EmptyLinkFunctionForGeneratedCodeSProgressBar() {}
 		"EProgressBarFillType",
 		"EProgressBarFillType::Type",
 		Z_Construct_UEnum_Slate_EProgressBarFillType_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EProgressBarFillType_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EProgressBarFillType_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_Slate_EProgressBarFillType_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EProgressBarFillType_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EProgressBarFillType_Statics::Enum_MetaDataParams), Z_Construct_UEnum_Slate_EProgressBarFillType_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_Slate_EProgressBarFillType()
 	{
@@ -137,11 +137,11 @@ void EmptyLinkFunctionForGeneratedCodeSProgressBar() {}
 		"EProgressBarFillStyle",
 		"EProgressBarFillStyle::Type",
 		Z_Construct_UEnum_Slate_EProgressBarFillStyle_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EProgressBarFillStyle_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EProgressBarFillStyle_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::Namespaced,
-		METADATA_PARAMS(Z_Construct_UEnum_Slate_EProgressBarFillStyle_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EProgressBarFillStyle_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_Slate_EProgressBarFillStyle_Statics::Enum_MetaDataParams), Z_Construct_UEnum_Slate_EProgressBarFillStyle_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_Slate_EProgressBarFillStyle()
 	{
@@ -156,10 +156,10 @@ void EmptyLinkFunctionForGeneratedCodeSProgressBar() {}
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 	};
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Widgets_Notifications_SProgressBar_h_Statics::EnumInfo[] = {
-		{ EProgressBarFillType_StaticEnum, TEXT("EProgressBarFillType"), &Z_Registration_Info_UEnum_EProgressBarFillType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 438747145U) },
-		{ EProgressBarFillStyle_StaticEnum, TEXT("EProgressBarFillStyle"), &Z_Registration_Info_UEnum_EProgressBarFillStyle, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1326948045U) },
+		{ EProgressBarFillType_StaticEnum, TEXT("EProgressBarFillType"), &Z_Registration_Info_UEnum_EProgressBarFillType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4026411578U) },
+		{ EProgressBarFillStyle_StaticEnum, TEXT("EProgressBarFillStyle"), &Z_Registration_Info_UEnum_EProgressBarFillStyle, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2900843036U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Widgets_Notifications_SProgressBar_h_1122028963(TEXT("/Script/Slate"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Widgets_Notifications_SProgressBar_h_1913048568(TEXT("/Script/Slate"),
 		nullptr, 0,
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Widgets_Notifications_SProgressBar_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_Slate_Public_Widgets_Notifications_SProgressBar_h_Statics::EnumInfo));

@@ -2,49 +2,70 @@
 
 
 #include "OtterPlayer.h"
-#include "OtterController.h"
-#include "Camera/CameraComponent.h"
-#include "Components/CapsuleComponent.h"
-#include "Engine/LocalPlayer.h"
+#include "OtterOverlapComponent.h"
+#include "OtterPlayerController.h"
+#include "Components/StaticMeshComponent.h"
 #include "GameFramework/SpringArmComponent.h"
-#include "EnhancedInputComponent.h"
+#include "Camera/CameraComponent.h"
 #include "EnhancedInputSubsystems.h"
 
 
-// Sets default values
 AOtterPlayer::AOtterPlayer()
 {
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	// No grabbable item at start
-	GrabbableItem = nullptr;
+	PlayerMesh = CreateDefaultSubobject<UStaticMeshComponent>(FName {"Player Mesh"}); 
+	SetRootComponent(PlayerMesh);
+	OverlapComponent->SetupAttachment(PlayerMesh);
+	SetDefaultPrimComp(Cast<UPrimitiveComponent>(PlayerMesh));
 
-	PlayerSkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>(FName {"Player Skeletal Mesh"});
-	SetRootComponent(PlayerSkeletalMesh);
+	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(FName {"Player Camera Boom"}); 
+	CameraBoom->SetupAttachment(PlayerMesh);
 
-	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(FName {"Camera Spring Arm"});
-	CameraBoom->SetupAttachment(PlayerSkeletalMesh);
-
-	PlayerCamera = CreateDefaultSubobject<UCameraComponent>(FName {"Player Camera"});
+	PlayerCamera = CreateDefaultSubobject<UCameraComponent>(FName {"Player Camera"}); 
 	PlayerCamera->SetupAttachment(CameraBoom);
+}
+
+void AOtterPlayer::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
+	GetDefaultPrimComp()->SetSimulatePhysics(true);
+	GetDefaultPrimComp()->SetEnableGravity(false);
 }
 
 void AOtterPlayer::BeginPlay()
 {
-	// Call the base class  
 	Super::BeginPlay();
 
-	// Get enhanced input subsys for the local player of this actor class
-	if (auto Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(Cast<ULocalPlayer>(this)))
-	{
-		// Add mapping context and give it highest priority (0)
-		Subsystem->AddMappingContext(PlayerController->GetDefaultMappingContext(), 0);
-	}
+	auto OtterController { Cast<AOtterPlayerController>(Controller) };
+	OtterController->GetLocalPlayer()->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>()->AddMappingContext(MappingContext, 0);
 }
 
-void AOtterPlayer::Tick(float DeltaTime)
+void AOtterPlayer::SwapCamera(const FInputActionValue& Value)
 {
-	Super::Tick(DeltaTime);
+	UE_LOG(LogTemp, Warning, TEXT("Swap Camera"));
+	if (bUseFirstPersonCamera)
+	{
+		// First person mode
+	}
+	else
+	{
+		// Third person mode
+	}
+	bUseFirstPersonCamera = !bUseFirstPersonCamera;
+}
 
+void AOtterPlayer::Interact(const FInputActionValue& Value)
+{
+	UE_LOG(LogTemp, Warning, TEXT("Interact"));
+
+	if (auto Actor { GetOverlapComponent()->GetOverlappingActor() })
+	{
+		PlayerInventory.Push(Actor);
+		if (auto DefaultPawn = Cast<AOtterDefaultPawn>(Actor))
+		{
+			DefaultPawn->OnInteract(this);
+		}
+	}
 }

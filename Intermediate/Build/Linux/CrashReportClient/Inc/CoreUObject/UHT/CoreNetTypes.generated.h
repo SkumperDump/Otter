@@ -5,8 +5,9 @@
 ===========================================================================*/
 
 // IWYU pragma: private, include "UObject/CoreNetTypes.h"
+#include "Templates/IsUEnumClass.h"
 #include "UObject/ObjectMacros.h"
-#include "UObject/ScriptMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef COREUOBJECT_CoreNetTypes_generated_h
@@ -33,6 +34,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	op(COND_SimulatedOnlyNoReplay) \
 	op(COND_SimulatedOrPhysicsNoReplay) \
 	op(COND_SkipReplay) \
+	op(COND_Dynamic) \
 	op(COND_Never) \
 	op(COND_NetGroup) \
 	op(COND_Max) 

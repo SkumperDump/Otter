@@ -70,7 +70,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FMargin>()
 		{ "ToolTip", "Holds the margin to the left." },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Left = { "Left", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMargin, Left), METADATA_PARAMS(Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Left_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Left_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Left = { "Left", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMargin, Left), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Left_MetaData), Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Left_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Top_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -79,7 +79,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FMargin>()
 		{ "ToolTip", "Holds the margin to the top." },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Top = { "Top", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMargin, Top), METADATA_PARAMS(Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Top_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Top_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Top = { "Top", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMargin, Top), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Top_MetaData), Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Top_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Right_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -88,7 +88,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FMargin>()
 		{ "ToolTip", "Holds the margin to the right." },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Right = { "Right", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMargin, Right), METADATA_PARAMS(Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Right_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Right_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Right = { "Right", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMargin, Right), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Right_MetaData), Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Right_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Bottom_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -97,7 +97,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FMargin>()
 		{ "ToolTip", "Holds the margin to the bottom." },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Bottom = { "Bottom", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FMargin, Bottom), METADATA_PARAMS(Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Bottom_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Bottom_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Bottom = { "Bottom", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FMargin, Bottom), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Bottom_MetaData), Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Bottom_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FMargin_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Left,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FMargin_Statics::NewProp_Top,
@@ -109,14 +109,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FMargin>()
 		nullptr,
 		&NewStructOps,
 		"Margin",
-		sizeof(FMargin),
-		alignof(FMargin),
 		Z_Construct_UScriptStruct_FMargin_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMargin_Statics::PropPointers),
+		sizeof(FMargin),
+		alignof(FMargin),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000001),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FMargin_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMargin_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMargin_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FMargin_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FMargin_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FMargin()
 	{
 		if (!Z_Registration_Info_UScriptStruct_Margin.InnerSingleton)
@@ -130,9 +131,9 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FMargin>()
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Layout_Margin_h_Statics::ScriptStructInfo[] = {
-		{ FMargin::StaticStruct, Z_Construct_UScriptStruct_FMargin_Statics::NewStructOps, TEXT("Margin"), &Z_Registration_Info_UScriptStruct_Margin, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMargin), 2014822612U) },
+		{ FMargin::StaticStruct, Z_Construct_UScriptStruct_FMargin_Statics::NewStructOps, TEXT("Margin"), &Z_Registration_Info_UScriptStruct_Margin, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMargin), 2235102396U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Layout_Margin_h_332630287(TEXT("/Script/SlateCore"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Layout_Margin_h_360709426(TEXT("/Script/SlateCore"),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Layout_Margin_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Layout_Margin_h_Statics::ScriptStructInfo),
 		nullptr, 0);

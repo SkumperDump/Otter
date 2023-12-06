@@ -11,14 +11,14 @@
 	"Version": 
 	{
 		"MajorVersion": 5,
-		"MinorVersion": 2,
-		"PatchVersion": 1,
+		"MinorVersion": 3,
+		"PatchVersion": 0,
 		"Changelist": 0,
-		"CompatibleChangelist": 25360045,
+		"CompatibleChangelist": 0,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
 		"BranchName": "UE5",
-		"BuildId": "da6b71f3-61b7-4331-91e8-73f1475f2538"
+		"BuildId": "97f51f54-8ef7-4d53-a147-8228164a6191"
 	},
 	"BuildProducts": [
 		{
@@ -502,6 +502,18 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-AudioCaptureRtAudio.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-AudioCaptureRtAudio.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-AudioCaptureRtAudio.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-AudioCodecEngine.debug",
 			"Type": "SymbolFile"
 		},
@@ -679,18 +691,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-AudioSettingsEditor.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-AugmentedReality.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-AugmentedReality.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-AugmentedReality.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -1150,6 +1150,18 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-CookMetadata.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-CookMetadata.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-CookMetadata.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-CookOnTheFly.debug",
 			"Type": "SymbolFile"
 		},
@@ -1606,6 +1618,18 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-EventLoop.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-EventLoop.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-EventLoop.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-ExternalImagePicker.debug",
 			"Type": "SymbolFile"
 		},
@@ -1627,6 +1651,18 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-EyeTracker.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-FieldNotification.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-FieldNotification.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-FieldNotification.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -1918,6 +1954,18 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-Horde.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-Horde.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-Horde.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-HotReload.debug",
 			"Type": "SymbolFile"
 		},
@@ -2095,6 +2143,18 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-InternationalizationSettings.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-IoStoreOnDemand.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-IoStoreOnDemand.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-IoStoreOnDemand.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -2806,18 +2866,6 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-NaniteTools.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-NaniteTools.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-NaniteTools.sym",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-NaniteUtilities.debug",
 			"Type": "SymbolFile"
 		},
@@ -2971,6 +3019,18 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-NullNetworkReplayStreaming.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-OpenColorIOWrapper.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-OpenColorIOWrapper.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-OpenColorIOWrapper.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -3202,18 +3262,6 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-PluginWarden.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-PluginWarden.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-PluginWarden.sym",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-PortalMessages.debug",
 			"Type": "SymbolFile"
 		},
@@ -3283,18 +3331,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-ProfileVisualizer.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-Profiler.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-Profiler.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-Profiler.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -3526,27 +3562,15 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-RigVM.debug",
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-S3Client.debug",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-RigVM.so",
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-S3Client.so",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-RigVM.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-RigVMDeveloper.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-RigVMDeveloper.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-RigVMDeveloper.sym",
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-S3Client.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -3631,6 +3655,18 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-ScriptDisassembler.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-ScriptableEditorWidgets.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-ScriptableEditorWidgets.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-ScriptableEditorWidgets.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -4234,6 +4270,18 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-TelemetryUtils.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-TelemetryUtils.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-TelemetryUtils.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-TextureBuild.debug",
 			"Type": "SymbolFile"
 		},
@@ -4714,6 +4762,18 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-VirtualFileCache.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-VirtualFileCache.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-VirtualFileCache.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-VirtualTexturingEditor.debug",
 			"Type": "SymbolFile"
 		},
@@ -4834,6 +4894,18 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-WidgetRegistration.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-WidgetRegistration.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-WidgetRegistration.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-WorkspaceMenuStructure.debug",
 			"Type": "SymbolFile"
 		},
@@ -4894,20 +4966,28 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Linux/liboo2texlinux64.2.9.10.so",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Linux/liboo2texlinux64.2.9.5.so",
-			"Type": "RequiredResource"
+			"Type": "DynamicLibrary"
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Linux/liboo2texlinux64.2.9.6.so",
-			"Type": "RequiredResource"
+			"Type": "DynamicLibrary"
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Linux/liboo2texlinux64.2.9.7.so",
-			"Type": "RequiredResource"
+			"Type": "DynamicLibrary"
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Linux/liboo2texlinux64.2.9.8.so",
-			"Type": "RequiredResource"
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/liboo2texlinux64.2.9.9.so",
+			"Type": "DynamicLibrary"
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Linux/UnrealEditor.modules",
@@ -5003,6 +5083,34 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/AI/EnvironmentQueryEditor/Binaries/Linux/libUnrealEditor-EnvironmentQueryEditor.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/ACLPlugin/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/ACLPlugin/Binaries/Linux/libUnrealEditor-ACLPlugin.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/ACLPlugin/Binaries/Linux/libUnrealEditor-ACLPlugin.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/ACLPlugin/Binaries/Linux/libUnrealEditor-ACLPlugin.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/ACLPlugin/Binaries/Linux/libUnrealEditor-ACLPluginEditor.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/ACLPlugin/Binaries/Linux/libUnrealEditor-ACLPluginEditor.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/ACLPlugin/Binaries/Linux/libUnrealEditor-ACLPluginEditor.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -5810,34 +5918,6 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Editor/GLTFImporter/Binaries/Linux/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/GLTFImporter/Binaries/Linux/libUnrealEditor-GLTFCore.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/GLTFImporter/Binaries/Linux/libUnrealEditor-GLTFCore.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/GLTFImporter/Binaries/Linux/libUnrealEditor-GLTFCore.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/GLTFImporter/Binaries/Linux/libUnrealEditor-GLTFImporter.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/GLTFImporter/Binaries/Linux/libUnrealEditor-GLTFImporter.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/GLTFImporter/Binaries/Linux/libUnrealEditor-GLTFImporter.sym",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Editor/GameplayTagsEditor/Binaries/Linux/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
@@ -5891,6 +5971,22 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Editor/GeometryMode/Binaries/Linux/libUnrealEditor-TextureAlignMode.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/Localization/PortableObjectFileDataSource/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/Localization/PortableObjectFileDataSource/Binaries/Linux/libUnrealEditor-PortableObjectFileDataSource.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/Localization/PortableObjectFileDataSource/Binaries/Linux/libUnrealEditor-PortableObjectFileDataSource.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/Localization/PortableObjectFileDataSource/Binaries/Linux/libUnrealEditor-PortableObjectFileDataSource.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -6022,19 +6118,43 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Editor/StylusInput/Binaries/Linux/UnrealEditor.modules",
+			"Path": "$(EngineDir)/Plugins/Editor/UVEditor/Binaries/Linux/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Editor/StylusInput/Binaries/Linux/libUnrealEditor-StylusInput.debug",
+			"Path": "$(EngineDir)/Plugins/Editor/UVEditor/Binaries/Linux/libUnrealEditor-UVEditor.debug",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Editor/StylusInput/Binaries/Linux/libUnrealEditor-StylusInput.so",
+			"Path": "$(EngineDir)/Plugins/Editor/UVEditor/Binaries/Linux/libUnrealEditor-UVEditor.so",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Editor/StylusInput/Binaries/Linux/libUnrealEditor-StylusInput.sym",
+			"Path": "$(EngineDir)/Plugins/Editor/UVEditor/Binaries/Linux/libUnrealEditor-UVEditor.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/UVEditor/Binaries/Linux/libUnrealEditor-UVEditorTools.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/UVEditor/Binaries/Linux/libUnrealEditor-UVEditorTools.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/UVEditor/Binaries/Linux/libUnrealEditor-UVEditorTools.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/UVEditor/Binaries/Linux/libUnrealEditor-UVEditorToolsEditorOnly.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/UVEditor/Binaries/Linux/libUnrealEditor-UVEditorToolsEditorOnly.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/UVEditor/Binaries/Linux/libUnrealEditor-UVEditorToolsEditorOnly.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -6542,6 +6662,34 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/LocalizableMessage/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/LocalizableMessage/Binaries/Linux/libUnrealEditor-LocalizableMessage.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/LocalizableMessage/Binaries/Linux/libUnrealEditor-LocalizableMessage.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/LocalizableMessage/Binaries/Linux/libUnrealEditor-LocalizableMessage.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/LocalizableMessage/Binaries/Linux/libUnrealEditor-LocalizableMessageBlueprint.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/LocalizableMessage/Binaries/Linux/libUnrealEditor-LocalizableMessageBlueprint.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/LocalizableMessage/Binaries/Linux/libUnrealEditor-LocalizableMessageBlueprint.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/MeshLODToolset/Binaries/Linux/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
@@ -6595,6 +6743,18 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/MeshModelingToolsetExp/Binaries/Linux/libUnrealEditor-ModelingEditorUI.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/MeshModelingToolsetExp/Binaries/Linux/libUnrealEditor-SkeletalMeshModifiers.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/MeshModelingToolsetExp/Binaries/Linux/libUnrealEditor-SkeletalMeshModifiers.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/MeshModelingToolsetExp/Binaries/Linux/libUnrealEditor-SkeletalMeshModifiers.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -6698,59 +6858,95 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/StructUtils/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/StructUtils/Binaries/Linux/libUnrealEditor-StructUtils.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/StructUtils/Binaries/Linux/libUnrealEditor-StructUtils.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/StructUtils/Binaries/Linux/libUnrealEditor-StructUtils.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/StructUtils/Binaries/Linux/libUnrealEditor-StructUtilsEditor.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/StructUtils/Binaries/Linux/libUnrealEditor-StructUtilsEditor.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/StructUtils/Binaries/Linux/libUnrealEditor-StructUtilsEditor.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/StructUtils/Binaries/Linux/libUnrealEditor-StructUtilsEngine.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/StructUtils/Binaries/Linux/libUnrealEditor-StructUtilsEngine.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/StructUtils/Binaries/Linux/libUnrealEditor-StructUtilsEngine.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/StructUtils/Binaries/Linux/libUnrealEditor-StructUtilsNodes.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/StructUtils/Binaries/Linux/libUnrealEditor-StructUtilsNodes.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/StructUtils/Binaries/Linux/libUnrealEditor-StructUtilsNodes.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/StructUtils/Binaries/Linux/libUnrealEditor-StructUtilsTestSuite.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/StructUtils/Binaries/Linux/libUnrealEditor-StructUtilsTestSuite.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/StructUtils/Binaries/Linux/libUnrealEditor-StructUtilsTestSuite.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/ToolPresets/Binaries/Linux/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/ToolPresets/Binaries/Linux/libUnrealEditor-PresetAsset.debug",
+			"Path": "$(EngineDir)/Plugins/Experimental/ToolPresets/Binaries/Linux/libUnrealEditor-ToolPresetAsset.debug",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/ToolPresets/Binaries/Linux/libUnrealEditor-PresetAsset.so",
+			"Path": "$(EngineDir)/Plugins/Experimental/ToolPresets/Binaries/Linux/libUnrealEditor-ToolPresetAsset.so",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/ToolPresets/Binaries/Linux/libUnrealEditor-PresetAsset.sym",
+			"Path": "$(EngineDir)/Plugins/Experimental/ToolPresets/Binaries/Linux/libUnrealEditor-ToolPresetAsset.sym",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/UVEditor/Binaries/Linux/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/UVEditor/Binaries/Linux/libUnrealEditor-UVEditor.debug",
+			"Path": "$(EngineDir)/Plugins/Experimental/ToolPresets/Binaries/Linux/libUnrealEditor-ToolPresetEditor.debug",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/UVEditor/Binaries/Linux/libUnrealEditor-UVEditor.so",
+			"Path": "$(EngineDir)/Plugins/Experimental/ToolPresets/Binaries/Linux/libUnrealEditor-ToolPresetEditor.so",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/UVEditor/Binaries/Linux/libUnrealEditor-UVEditor.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/UVEditor/Binaries/Linux/libUnrealEditor-UVEditorTools.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/UVEditor/Binaries/Linux/libUnrealEditor-UVEditorTools.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/UVEditor/Binaries/Linux/libUnrealEditor-UVEditorTools.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/UVEditor/Binaries/Linux/libUnrealEditor-UVEditorToolsEditorOnly.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/UVEditor/Binaries/Linux/libUnrealEditor-UVEditorToolsEditorOnly.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/UVEditor/Binaries/Linux/libUnrealEditor-UVEditorToolsEditorOnly.sym",
+			"Path": "$(EngineDir)/Plugins/Experimental/ToolPresets/Binaries/Linux/libUnrealEditor-ToolPresetEditor.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -6839,6 +7035,22 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/FX/Niagara/Binaries/Linux/libUnrealEditor-NiagaraVertexFactories.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Fab/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Fab/Binaries/Linux/libUnrealEditor-Fab.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Fab/Binaries/Linux/libUnrealEditor-Fab.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Fab/Binaries/Linux/libUnrealEditor-Fab.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -6942,20 +7154,20 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Interchange/Editor/Binaries/Linux/libUnrealEditor-InterchangeResultsBrowser.debug",
+			"Path": "$(EngineDir)/Plugins/Interchange/Runtime/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Interchange/Runtime/Binaries/Linux/libUnrealEditor-GLTFCore.debug",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Interchange/Editor/Binaries/Linux/libUnrealEditor-InterchangeResultsBrowser.so",
+			"Path": "$(EngineDir)/Plugins/Interchange/Runtime/Binaries/Linux/libUnrealEditor-GLTFCore.so",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Interchange/Editor/Binaries/Linux/libUnrealEditor-InterchangeResultsBrowser.sym",
+			"Path": "$(EngineDir)/Plugins/Interchange/Runtime/Binaries/Linux/libUnrealEditor-GLTFCore.sym",
 			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Interchange/Runtime/Binaries/Linux/UnrealEditor.modules",
-			"Type": "RequiredResource"
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Interchange/Runtime/Binaries/Linux/libUnrealEditor-InterchangeCommonParser.debug",
@@ -7806,6 +8018,18 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/AudioCapture/Binaries/Linux/libUnrealEditor-AudioCaptureEditor.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/AudioCapture/Binaries/Linux/libUnrealEditor-AudioCaptureEditor.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/AudioCapture/Binaries/Linux/libUnrealEditor-AudioCaptureEditor.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Runtime/AudioSynesthesia/Binaries/Linux/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
@@ -8366,6 +8590,22 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/MsQuic/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/MsQuic/Binaries/Linux/libUnrealEditor-MsQuicRuntime.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/MsQuic/Binaries/Linux/libUnrealEditor-MsQuicRuntime.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/MsQuic/Binaries/Linux/libUnrealEditor-MsQuicRuntime.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Runtime/ProceduralMeshComponent/Binaries/Linux/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
@@ -8435,6 +8675,46 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/ResonanceAudio/Binaries/Linux/libUnrealEditor-ResonanceAudioEditor.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/RigVM/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/RigVM/Binaries/Linux/libUnrealEditor-RigVM.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/RigVM/Binaries/Linux/libUnrealEditor-RigVM.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/RigVM/Binaries/Linux/libUnrealEditor-RigVM.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/RigVM/Binaries/Linux/libUnrealEditor-RigVMDeveloper.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/RigVM/Binaries/Linux/libUnrealEditor-RigVMDeveloper.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/RigVM/Binaries/Linux/libUnrealEditor-RigVMDeveloper.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/RigVM/Binaries/Linux/libUnrealEditor-RigVMEditor.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/RigVM/Binaries/Linux/libUnrealEditor-RigVMEditor.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/RigVM/Binaries/Linux/libUnrealEditor-RigVMEditor.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -8700,6 +8980,10 @@
 			"Type": "NonUFS"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Linux/liboo2texlinux64.2.9.10.so",
+			"Type": "NonUFS"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Linux/liboo2texlinux64.2.9.5.so",
 			"Type": "NonUFS"
 		},
@@ -8716,11 +9000,7 @@
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/ARM/Linux64/astcenc-sse2",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/ARM/Linux64/astcenc-sse4.1",
+			"Path": "$(EngineDir)/Binaries/Linux/liboo2texlinux64.2.9.9.so",
 			"Type": "NonUFS"
 		},
 		{
@@ -10705,6 +10985,22 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/targets/genosl.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MsQuic/v220/linux/libmsquic.so",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MsQuic/v220/linux/libmsquic.so.2",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/OpenColorIO/Unix/x86_64-unknown-linux-gnu/libOpenColorIO.so",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/OpenColorIO/Unix/x86_64-unknown-linux-gnu/libOpenColorIO.so.2.2",
 			"Type": "NonUFS"
 		},
 		{
@@ -23476,15 +23772,7 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/DottedCircleBox_L.psd",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/DottedCircleBox_LR.png",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/DottedCircleBox_LR.psd",
 			"Type": "UFS"
 		},
 		{
@@ -23497,10 +23785,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/DottedCircleBox_R.png",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/DottedCircleBox_R.psd",
 			"Type": "UFS"
 		},
 		{
@@ -23592,10 +23876,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/SquareBox_T.psd",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/SquigglyBox.png",
 			"Type": "UFS"
 		},
@@ -23617,10 +23897,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/pin/pin.png",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/pin/pin.psd",
 			"Type": "UFS"
 		},
 		{
@@ -23649,10 +23925,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/pin/ping.png",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Content/Slate/Old/Tiles/pin/reitment.psd",
 			"Type": "UFS"
 		},
 		{
@@ -23696,6 +23968,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/AutomationTools.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/CPP.svg",
 			"Type": "UFS"
 		},
@@ -23721,6 +23997,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/Delete.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/Developer.svg",
 			"Type": "UFS"
 		},
 		{
@@ -23752,6 +24032,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/Group_20.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/Info.svg",
 			"Type": "UFS"
 		},
@@ -23772,6 +24056,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/Monitor.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/OutputLog.svg",
 			"Type": "UFS"
 		},
@@ -23781,6 +24069,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/Paste.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/PlayerController.svg",
 			"Type": "UFS"
 		},
 		{
@@ -23820,19 +24112,11 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Content/Slate/Starship/Common/SCC_Cloud_AtLatest.svg",
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/Search_20.svg",
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Content/Slate/Starship/Common/SCC_Cloud_HasLocalChanges.svg",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Content/Slate/Starship/Common/SCC_Cloud_NoLocalChanges.svg",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Content/Slate/Starship/Common/SCC_Cloud_NotAtLatest.svg",
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/SessionFrontend.svg",
 			"Type": "UFS"
 		},
 		{
@@ -23844,7 +24128,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/Test.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/UELogo.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/UELogo.svg",
 			"Type": "UFS"
 		},
 		{
@@ -23877,6 +24169,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/alert-circle.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/alert-triangle-64.svg",
 			"Type": "UFS"
 		},
 		{
@@ -23988,6 +24284,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/curve-editor-append-key-20.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/cylinder.svg",
 			"Type": "UFS"
 		},
@@ -24013,6 +24313,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/export_20.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/fieldnotify_off.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/fieldnotify_on.svg",
 			"Type": "UFS"
 		},
 		{
@@ -24096,6 +24404,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/play.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/plus-circle.svg",
 			"Type": "UFS"
 		},
@@ -24165,6 +24477,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/world.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/x-circle.svg",
 			"Type": "UFS"
 		},
 		{
@@ -24496,6 +24812,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Insights/UTrace.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Insights/UnrealInsights.svg",
 			"Type": "UFS"
 		},
@@ -24552,7 +24872,27 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_ModifiedLocally.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_NewerVersion.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_StatusLocalUpToDate.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_StatusLocalUpload.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_StatusRemoteDownload.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/RC_StatusRemoteUpToDate.svg",
 			"Type": "UFS"
 		},
 		{
@@ -24724,6 +25064,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Animation/ACLPlugin/ACLPlugin.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Animation/AnimationData/AnimationData.uplugin",
 			"Type": "UFS"
 		},
@@ -24892,15 +25236,15 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Editor/GLTFImporter/GLTFImporter.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Editor/GameplayTagsEditor/GameplayTagsEditor.uplugin",
 			"Type": "UFS"
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Editor/GeometryMode/GeometryMode.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/Localization/PortableObjectFileDataSource/PortableObjectFileDataSource.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -24936,7 +25280,7 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Editor/StylusInput/StylusInput.uplugin",
+			"Path": "$(EngineDir)/Plugins/Editor/UVEditor/UVEditor.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -25024,6 +25368,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/LocalizableMessage/LocalizableMessage.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/MeshLODToolset/MeshLODToolset.uplugin",
 			"Type": "UFS"
 		},
@@ -25052,15 +25400,19 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/StructUtils/StructUtils.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/ToolPresets/ToolPresets.uplugin",
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/UVEditor/UVEditor.uplugin",
+			"Path": "$(EngineDir)/Plugins/FX/Niagara/Niagara.uplugin",
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/FX/Niagara/Niagara.uplugin",
+			"Path": "$(EngineDir)/Plugins/Fab/Fab.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -25276,6 +25628,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/MsQuic/MsQuic.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin",
 			"Type": "UFS"
 		},
@@ -25285,6 +25641,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/ResonanceAudio/ResonanceAudio.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/RigVM/RigVM.uplugin",
 			"Type": "UFS"
 		},
 		{

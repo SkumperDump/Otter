@@ -2,52 +2,45 @@
 
 
 #include "OtterVehicle.h"
-#include "Camera/CameraComponent.h"
-#include "GameFramework/SpringArmComponent.h"
-#include "OtterMovementComponent.h"
+#include "OtterOverlapComponent.h"
 #include "Particles/ParticleSystemComponent.h"
-#include "Components/StaticMeshComponent.h"
-#include "EnhancedInputComponent.h"
-#include "EnhancedInputSubsystems.h"
+#include "InputActionValue.h"
 
 
-// Sets default values
 AOtterVehicle::AOtterVehicle()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	VehicleStaticMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(FName {"Vehicle Mesh"});
-	SetRootComponent(VehicleStaticMeshComponent);
+	VehicleMesh = CreateDefaultSubobject<USkeletalMeshComponent>(FName{"Vehicle Mesh"});
+	SetRootComponent(VehicleMesh);
+	SetDefaultPrimComp(VehicleMesh);
 
-	VehicleEhxaust = CreateDefaultSubobject<UParticleSystemComponent>(FName{"Vehicle Exhaust"});
-	VehicleEhxaust->SetupAttachment(VehicleStaticMeshComponent);
-
-	VehicleMovementComponent = CreateDefaultSubobject<UOtterMovementComponent>(FName{"Vehicle Movement"});
-
-	VehicleCameraComponent = CreateDefaultSubobject<UCameraComponent>(FName{"Vehicle Camera"});
-	VehicleCameraComponent->SetupAttachment(CameraBoom);
-	
-	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(FName{"Vehicle Camera Boom"});
-	CameraBoom->SetupAttachment(VehicleStaticMeshComponent);
+	VehicleExhaust = CreateDefaultSubobject<UParticleSystemComponent>(FName{"Vehicle Exhaust"});
+	VehicleExhaust->SetupAttachment(VehicleMesh);
 }
 
-// Called when the game starts or when spawned
-void AOtterVehicle::BeginPlay()
+void AOtterVehicle::Move(const FInputActionValue& Value)
 {
-	Super::BeginPlay();
-	
-}
-
-// Called every frame
-void AOtterVehicle::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
+	UE_LOG(LogTemp, Warning, TEXT("Vehicle Move Value: %s"), *Value.ToString());
+	// TODO Apply movement to either rcs components or vectored thruster
+	// Component is rotated around a "pin-vector"
+	GetDefaultPrimComp()->AddRelativeRotation(FQuat { GetActorRightVector(), Value.Get<FVector>().Y });	// Pitch
+	GetDefaultPrimComp()->AddRelativeRotation(FQuat { GetActorForwardVector(), Value.Get<FVector>().X });	// Roll
+	GetDefaultPrimComp()->AddRelativeRotation(FQuat { GetActorUpVector(), Value.Get<FVector>().Z });	// Yaw
 }
 
 void AOtterVehicle::Thrust(const FInputActionValue& Value)
 {
-	// Add thrust
-	UE_LOG(LogTemp, Warning, TEXT("THRUSTING"));
+	UE_LOG(LogTemp, Warning, TEXT("Vehicle Thrust Value: %s"), *Value.ToString());
+	// TODO create logic so vehicle can only reverse thrust if has opposing thrusters
+	GetDefaultPrimComp()->AddImpulse(GetActorForwardVector() * Value.Get<float>());
+}
+
+void AOtterVehicle::OnInteract(TObjectPtr<AActor> Actor)
+{
+	// TODO
+	// Setup vehicle camera 
+	// Make it so this pawn "transports" Actor
+	VehicleMesh->AttachToComponent(Actor->GetRootComponent(), FAttachmentTransformRules { EAttachmentRule::SnapToTarget, false });
 }

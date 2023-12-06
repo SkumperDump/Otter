@@ -49,13 +49,13 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateWidgetStyle>()
 		nullptr,
 		&NewStructOps,
 		"SlateWidgetStyle",
-		sizeof(FSlateWidgetStyle),
-		alignof(FSlateWidgetStyle),
 		nullptr,
 		0,
+		sizeof(FSlateWidgetStyle),
+		alignof(FSlateWidgetStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateWidgetStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateWidgetStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateWidgetStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FSlateWidgetStyle_Statics::Struct_MetaDataParams)
 	};
 	UScriptStruct* Z_Construct_UScriptStruct_FSlateWidgetStyle()
 	{
@@ -70,9 +70,9 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateWidgetStyle>()
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateWidgetStyle_h_Statics::ScriptStructInfo[] = {
-		{ FSlateWidgetStyle::StaticStruct, Z_Construct_UScriptStruct_FSlateWidgetStyle_Statics::NewStructOps, TEXT("SlateWidgetStyle"), &Z_Registration_Info_UScriptStruct_SlateWidgetStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSlateWidgetStyle), 3974281575U) },
+		{ FSlateWidgetStyle::StaticStruct, Z_Construct_UScriptStruct_FSlateWidgetStyle_Statics::NewStructOps, TEXT("SlateWidgetStyle"), &Z_Registration_Info_UScriptStruct_SlateWidgetStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSlateWidgetStyle), 2630188271U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateWidgetStyle_h_3247609307(TEXT("/Script/SlateCore"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateWidgetStyle_h_3626497444(TEXT("/Script/SlateCore"),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateWidgetStyle_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateWidgetStyle_h_Statics::ScriptStructInfo),
 		nullptr, 0);

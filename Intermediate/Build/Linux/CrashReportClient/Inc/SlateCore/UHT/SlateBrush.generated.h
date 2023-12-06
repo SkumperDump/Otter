@@ -16,14 +16,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateBrush_h_135_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSlateBrushOutlineSettings_Statics; \
-	static class UScriptStruct* StaticStruct();
+	SLATECORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FSlateBrushOutlineSettings>();
 
 #define FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateBrush_h_218_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSlateBrush_Statics; \
-	static class UScriptStruct* StaticStruct();
+	SLATECORE_API static class UScriptStruct* StaticStruct();
 
 
 template<> SLATECORE_API UScriptStruct* StaticStruct<struct FSlateBrush>();

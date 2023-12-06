@@ -3,35 +3,27 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
+#include "OtterDefaultPawn.h"
 #include "Planet.generated.h"
 
 class UStaticMeshComponent;
-class UOtterMovementComponent;
-class ASolarSystem;
 
 UCLASS()
-class OTTER_API APlanet : public AActor
+class OTTER_API APlanet : public AOtterDefaultPawn
 {
 	GENERATED_BODY()
 
-	// Terrain of planet
+	// Size of planet
 	UPROPERTY(EditAnywhere)
-	TObjectPtr<UStaticMeshComponent> PlanetStaticMeshComponent;
+	float PlanetScale;
 
-	// Planet motion
-	UPROPERTY(VisibleAnywhere)
-	TObjectPtr<UOtterMovementComponent> PlanetMovementComponent;
-
-	// Solar system that planet is in
-	UPROPERTY(VisibleAnywhere)
-	TObjectPtr<ASolarSystem> ParentSolarSystemActor;
+	// Planet Mesh
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<UStaticMeshComponent> PlanetMesh;
 
 public:
 
-	// Sets default values for this actor's properties
 	APlanet();
 
-	auto GetPlanetStaticMeshComponent() {return PlanetStaticMeshComponent;}
-
+	virtual void PostInitializeComponents() override;
 };

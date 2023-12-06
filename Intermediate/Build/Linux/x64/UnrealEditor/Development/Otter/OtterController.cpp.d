@@ -2469,10 +2469,13 @@
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterController.generated.h \
   Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
   Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
-  Runtime/Engine/Classes/Components/InputComponent.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterPlayer.h \
+  Runtime/Engine/Classes/GameFramework/Pawn.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterPlayer.generated.h \
   ../Plugins/EnhancedInput/Source/EnhancedInput/Public/InputActionValue.h \
   Runtime/InputCore/Classes/InputCoreTypes.h \
   ../Plugins/EnhancedInput/Intermediate/Build/Linux/UnrealEditor/Inc/EnhancedInput/UHT/InputActionValue.generated.h \
+  Runtime/Engine/Classes/Components/InputComponent.h \
   ../Plugins/EnhancedInput/Source/EnhancedInput/Public/EnhancedInputComponent.h \
   ../Plugins/EnhancedInput/Source/EnhancedInput/Public/InputAction.h \
   Runtime/Engine/Classes/Engine/DataAsset.h \
@@ -2502,7 +2505,4 @@
   Runtime/Slate/Public/Framework/Application/IInputProcessor.h \
   Runtime/ApplicationCore/Public/GenericPlatform/ICursor.h \
   Runtime/Core/Public/Math/Vector2D.h \
-  Runtime/Engine/Public/Subsystems/EngineSubsystem.h \
-  /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterPlayer.h \
-  Runtime/Engine/Classes/GameFramework/Actor.h \
-  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterPlayer.generated.h
+  Runtime/Engine/Public/Subsystems/EngineSubsystem.h

@@ -2467,7 +2467,9 @@
   /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/Item.h \
   Runtime/Core/Public/CoreMinimal.h \
   Runtime/Engine/Classes/GameFramework/Actor.h \
-  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/Item.generated.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterInteractInterface.h \
+  Runtime/CoreUObject/Public/UObject/Interface.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterInteractInterface.generated.h \
   Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
   Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
-  ../Shaders/Shared/../../Source/Runtime/Engine/Classes/Engine/HitResult.h
+  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/Item.generated.h

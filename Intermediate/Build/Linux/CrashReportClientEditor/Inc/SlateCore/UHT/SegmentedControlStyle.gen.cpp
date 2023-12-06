@@ -84,7 +84,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSegmentedControlStyle>()
 		{ "ToolTip", "The style to use for our Center Control" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_ControlStyle = { "ControlStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSegmentedControlStyle, ControlStyle), Z_Construct_UScriptStruct_FCheckBoxStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_ControlStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_ControlStyle_MetaData)) }; // 1946304471
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_ControlStyle = { "ControlStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSegmentedControlStyle, ControlStyle), Z_Construct_UScriptStruct_FCheckBoxStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_ControlStyle_MetaData), Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_ControlStyle_MetaData) }; // 2749292455
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_FirstControlStyle_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -93,7 +93,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSegmentedControlStyle>()
 		{ "ToolTip", "The style to use for our Left Control" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_FirstControlStyle = { "FirstControlStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSegmentedControlStyle, FirstControlStyle), Z_Construct_UScriptStruct_FCheckBoxStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_FirstControlStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_FirstControlStyle_MetaData)) }; // 1946304471
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_FirstControlStyle = { "FirstControlStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSegmentedControlStyle, FirstControlStyle), Z_Construct_UScriptStruct_FCheckBoxStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_FirstControlStyle_MetaData), Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_FirstControlStyle_MetaData) }; // 2749292455
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_LastControlStyle_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -102,7 +102,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSegmentedControlStyle>()
 		{ "ToolTip", "The style to use for our Left Control" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_LastControlStyle = { "LastControlStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSegmentedControlStyle, LastControlStyle), Z_Construct_UScriptStruct_FCheckBoxStyle, METADATA_PARAMS(Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_LastControlStyle_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_LastControlStyle_MetaData)) }; // 1946304471
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_LastControlStyle = { "LastControlStyle", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSegmentedControlStyle, LastControlStyle), Z_Construct_UScriptStruct_FCheckBoxStyle, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_LastControlStyle_MetaData), Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_LastControlStyle_MetaData) }; // 2749292455
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_BackgroundBrush_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -111,7 +111,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSegmentedControlStyle>()
 		{ "ToolTip", "Background of the segmented control" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_BackgroundBrush = { "BackgroundBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSegmentedControlStyle, BackgroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_BackgroundBrush_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_BackgroundBrush_MetaData)) }; // 4256420591
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_BackgroundBrush = { "BackgroundBrush", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSegmentedControlStyle, BackgroundBrush), Z_Construct_UScriptStruct_FSlateBrush, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_BackgroundBrush_MetaData), Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_BackgroundBrush_MetaData) }; // 899956612
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_UniformPadding_MetaData[] = {
 		{ "Category", "Appearance" },
@@ -120,7 +120,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSegmentedControlStyle>()
 		{ "ToolTip", "Padding between each control" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_UniformPadding = { "UniformPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSegmentedControlStyle, UniformPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_UniformPadding_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_UniformPadding_MetaData)) }; // 2014822612
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_UniformPadding = { "UniformPadding", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSegmentedControlStyle, UniformPadding), Z_Construct_UScriptStruct_FMargin, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_UniformPadding_MetaData), Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_UniformPadding_MetaData) }; // 2235102396
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_ControlStyle,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewProp_FirstControlStyle,
@@ -133,14 +133,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSegmentedControlStyle>()
 		Z_Construct_UScriptStruct_FSlateWidgetStyle,
 		&NewStructOps,
 		"SegmentedControlStyle",
-		sizeof(FSegmentedControlStyle),
-		alignof(FSegmentedControlStyle),
 		Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::PropPointers),
+		sizeof(FSegmentedControlStyle),
+		alignof(FSegmentedControlStyle),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FSegmentedControlStyle()
 	{
 		if (!Z_Registration_Info_UScriptStruct_SegmentedControlStyle.InnerSingleton)
@@ -154,9 +155,9 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSegmentedControlStyle>()
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SegmentedControlStyle_h_Statics::ScriptStructInfo[] = {
-		{ FSegmentedControlStyle::StaticStruct, Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewStructOps, TEXT("SegmentedControlStyle"), &Z_Registration_Info_UScriptStruct_SegmentedControlStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSegmentedControlStyle), 3211973421U) },
+		{ FSegmentedControlStyle::StaticStruct, Z_Construct_UScriptStruct_FSegmentedControlStyle_Statics::NewStructOps, TEXT("SegmentedControlStyle"), &Z_Registration_Info_UScriptStruct_SegmentedControlStyle, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSegmentedControlStyle), 3390122264U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SegmentedControlStyle_h_2541186965(TEXT("/Script/SlateCore"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SegmentedControlStyle_h_571198200(TEXT("/Script/SlateCore"),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SegmentedControlStyle_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SegmentedControlStyle_h_Statics::ScriptStructInfo),
 		nullptr, 0);

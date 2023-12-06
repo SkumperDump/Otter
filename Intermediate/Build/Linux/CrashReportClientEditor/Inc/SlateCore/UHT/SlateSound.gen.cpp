@@ -61,7 +61,7 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateSound>()
 		{ "ToolTip", "Pointer to the USoundBase. Holding onto it as a UObject because USoundBase is not available in Slate core.\nEdited via FSlateSoundStructCustomization to ensure you can only set USoundBase assets on it." },
 	};
 #endif
-	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FSlateSound_Statics::NewProp_ResourceObject = { "ResourceObject", nullptr, (EPropertyFlags)0x0024080000000005, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FSlateSound, ResourceObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateSound_Statics::NewProp_ResourceObject_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateSound_Statics::NewProp_ResourceObject_MetaData)) };
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UScriptStruct_FSlateSound_Statics::NewProp_ResourceObject = { "ResourceObject", nullptr, (EPropertyFlags)0x0024080000000005, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FSlateSound, ResourceObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateSound_Statics::NewProp_ResourceObject_MetaData), Z_Construct_UScriptStruct_FSlateSound_Statics::NewProp_ResourceObject_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FSlateSound_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSlateSound_Statics::NewProp_ResourceObject,
 	};
@@ -70,14 +70,15 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateSound>()
 		nullptr,
 		&NewStructOps,
 		"SlateSound",
-		sizeof(FSlateSound),
-		alignof(FSlateSound),
 		Z_Construct_UScriptStruct_FSlateSound_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateSound_Statics::PropPointers),
+		sizeof(FSlateSound),
+		alignof(FSlateSound),
 		RF_Public|RF_Transient|RF_MarkAsNative,
-		EStructFlags(0x00000201),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FSlateSound_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateSound_Statics::Struct_MetaDataParams))
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateSound_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FSlateSound_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSlateSound_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FSlateSound()
 	{
 		if (!Z_Registration_Info_UScriptStruct_SlateSound.InnerSingleton)
@@ -91,9 +92,9 @@ template<> SLATECORE_API UScriptStruct* StaticStruct<FSlateSound>()
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Sound_SlateSound_h_Statics::ScriptStructInfo[] = {
-		{ FSlateSound::StaticStruct, Z_Construct_UScriptStruct_FSlateSound_Statics::NewStructOps, TEXT("SlateSound"), &Z_Registration_Info_UScriptStruct_SlateSound, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSlateSound), 2826200611U) },
+		{ FSlateSound::StaticStruct, Z_Construct_UScriptStruct_FSlateSound_Statics::NewStructOps, TEXT("SlateSound"), &Z_Registration_Info_UScriptStruct_SlateSound, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSlateSound), 71556389U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Sound_SlateSound_h_1626637863(TEXT("/Script/SlateCore"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Sound_SlateSound_h_1786201813(TEXT("/Script/SlateCore"),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Sound_SlateSound_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Sound_SlateSound_h_Statics::ScriptStructInfo),
 		nullptr, 0);

@@ -3,16 +3,13 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/MovementComponent.h"
+#include "GameFramework/PawnMovementComponent.h"
 #include "OtterMovementComponent.generated.h"
-
-class APlanet;
-class ASolarSystem;
 
 /** This is used to represent physics and whatnot for the game */
 
 UCLASS()
-class OTTER_API UOtterMovementComponent : public UMovementComponent
+class OTTER_API UOtterMovementComponent : public UPawnMovementComponent
 {
 	GENERATED_BODY()
 

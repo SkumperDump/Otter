@@ -37,6 +37,7 @@ void EmptyLinkFunctionForGeneratedCodeSlateWidgetStyleContainerBase() {}
 		(UObject* (*)())Z_Construct_UClass_UObject,
 		(UObject* (*)())Z_Construct_UPackage__Script_SlateCore,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_USlateWidgetStyleContainerBase_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USlateWidgetStyleContainerBase_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/**\n * Just a wrapper for the struct with real data in it.\n */" },
@@ -47,8 +48,9 @@ void EmptyLinkFunctionForGeneratedCodeSlateWidgetStyleContainerBase() {}
 	};
 #endif
 		const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_USlateWidgetStyleContainerBase_Statics::InterfaceParams[] = {
-			{ Z_Construct_UClass_USlateWidgetStyleContainerInterface_NoRegister, (int32)VTABLE_OFFSET(USlateWidgetStyleContainerBase, ISlateWidgetStyleContainerInterface), false },  // 465608376
+			{ Z_Construct_UClass_USlateWidgetStyleContainerInterface_NoRegister, (int32)VTABLE_OFFSET(USlateWidgetStyleContainerBase, ISlateWidgetStyleContainerInterface), false },  // 602212401
 		};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_USlateWidgetStyleContainerBase_Statics::InterfaceParams) < 64);
 	const FCppClassTypeInfoStatic Z_Construct_UClass_USlateWidgetStyleContainerBase_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<USlateWidgetStyleContainerBase>::IsAbstract,
 	};
@@ -64,8 +66,8 @@ void EmptyLinkFunctionForGeneratedCodeSlateWidgetStyleContainerBase() {}
 		0,
 		0,
 		UE_ARRAY_COUNT(InterfaceParams),
-		0x001000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_USlateWidgetStyleContainerBase_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_USlateWidgetStyleContainerBase_Statics::Class_MetaDataParams))
+		0x000800A0u,
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_USlateWidgetStyleContainerBase_Statics::Class_MetaDataParams), Z_Construct_UClass_USlateWidgetStyleContainerBase_Statics::Class_MetaDataParams)
 	};
 	UClass* Z_Construct_UClass_USlateWidgetStyleContainerBase()
 	{
@@ -87,9 +89,9 @@ void EmptyLinkFunctionForGeneratedCodeSlateWidgetStyleContainerBase() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateWidgetStyleContainerBase_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_USlateWidgetStyleContainerBase, USlateWidgetStyleContainerBase::StaticClass, TEXT("USlateWidgetStyleContainerBase"), &Z_Registration_Info_UClass_USlateWidgetStyleContainerBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USlateWidgetStyleContainerBase), 4265606718U) },
+		{ Z_Construct_UClass_USlateWidgetStyleContainerBase, USlateWidgetStyleContainerBase::StaticClass, TEXT("USlateWidgetStyleContainerBase"), &Z_Registration_Info_UClass_USlateWidgetStyleContainerBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USlateWidgetStyleContainerBase), 3450138773U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateWidgetStyleContainerBase_h_1967412460(TEXT("/Script/SlateCore"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateWidgetStyleContainerBase_h_3345527395(TEXT("/Script/SlateCore"),
 		Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateWidgetStyleContainerBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Engine_Source_Runtime_SlateCore_Public_Styling_SlateWidgetStyleContainerBase_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

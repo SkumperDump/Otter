@@ -15,11 +15,12 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define SLATECORE_FontBulkData_generated_h
 
 #define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_SPARSE_DATA
-#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_RPC_WRAPPERS
+#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_RPC_WRAPPERS_NO_PURE_DECLS
 #define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_ACCESSORS
 #define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_ARCHIVESERIALIZER \
-	DECLARE_FSTRUCTUREDARCHIVE_SERIALIZER(UFontBulkData, NO_API)
+	DECLARE_FSTRUCTUREDARCHIVE_SERIALIZER(UFontBulkData, SLATECORE_API)
 
 
 #define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_INCLASS_NO_PURE_DECLS \
@@ -27,64 +28,30 @@ private: \
 	static void StaticRegisterNativesUFontBulkData(); \
 	friend struct Z_Construct_UClass_UFontBulkData_Statics; \
 public: \
-	DECLARE_CLASS(UFontBulkData, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SlateCore"), NO_API) \
+	DECLARE_CLASS(UFontBulkData, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SlateCore"), SLATECORE_API) \
 	DECLARE_SERIALIZER(UFontBulkData) \
 	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_ARCHIVESERIALIZER
-
-
-#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_INCLASS \
-private: \
-	static void StaticRegisterNativesUFontBulkData(); \
-	friend struct Z_Construct_UClass_UFontBulkData_Statics; \
-public: \
-	DECLARE_CLASS(UFontBulkData, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SlateCore"), NO_API) \
-	DECLARE_SERIALIZER(UFontBulkData) \
-	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_ARCHIVESERIALIZER
-
-
-#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_STANDARD_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UFontBulkData(const FObjectInitializer& ObjectInitializer); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UFontBulkData) \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UFontBulkData); \
-	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UFontBulkData); \
-private: \
-	/** Private move- and copy-constructors, should never be used */ \
-	NO_API UFontBulkData(UFontBulkData&&); \
-	NO_API UFontBulkData(const UFontBulkData&); \
-public: \
-	NO_API virtual ~UFontBulkData();
 
 
 #define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
-	NO_API UFontBulkData(UFontBulkData&&); \
-	NO_API UFontBulkData(const UFontBulkData&); \
+	SLATECORE_API UFontBulkData(UFontBulkData&&); \
+	SLATECORE_API UFontBulkData(const UFontBulkData&); \
 public: \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UFontBulkData); \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(SLATECORE_API, UFontBulkData); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UFontBulkData); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UFontBulkData) \
-	NO_API virtual ~UFontBulkData();
+	SLATECORE_API virtual ~UFontBulkData();
 
 
 #define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_11_PROLOG
-#define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_GENERATED_BODY_LEGACY \
-PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-public: \
-	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_SPARSE_DATA \
-	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_RPC_WRAPPERS \
-	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_ACCESSORS \
-	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_INCLASS \
-	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_STANDARD_CONSTRUCTORS \
-public: \
-PRAGMA_ENABLE_DEPRECATION_WARNINGS
-
-
 #define FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_SPARSE_DATA \
+	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
 	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_ACCESSORS \
 	FID_Engine_Source_Runtime_SlateCore_Public_Fonts_FontBulkData_h_14_INCLASS_NO_PURE_DECLS \

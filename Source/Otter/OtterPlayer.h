@@ -3,54 +3,39 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
+#include "OtterDefaultPawn.h"
 #include "OtterPlayer.generated.h"
 
 class UCameraComponent;
+class UStaticMeshComponent;
 class USpringArmComponent;
-class USkeletalMeshComponent;
-class AItem;
-class AOtterController;
+struct FInputActionValue;
 
 UCLASS()
-class OTTER_API AOtterPlayer : public AActor
+class OTTER_API AOtterPlayer : public AOtterDefaultPawn
 {
 	GENERATED_BODY()
 
-	// Player skeleton mesh
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<USkeletalMeshComponent> PlayerSkeletalMesh;
+	// Bool for switching camera
+	bool bUseFirstPersonCamera;
 
-	// Camera boom positioning the camera around the character
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<USpringArmComponent> CameraBoom;
-
-	// Player camera
-	UPROPERTY(VisibleAnywhere)
-	TObjectPtr<UCameraComponent> PlayerCamera;
-
-	// Inventory as AActor array
 	UPROPERTY(VisibleAnywhere)
 	TArray<TObjectPtr<AActor>> PlayerInventory;
 
-	// Item that can be grabbed
-	UPROPERTY(VisibleAnywhere)
-	TObjectPtr<USkeletalMeshComponent> GrabbableItem;
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<UStaticMeshComponent> PlayerMesh;
 
-	// Player controller
-	UPROPERTY(VisibleAnywhere)
-	TObjectPtr<AOtterController> PlayerController;
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<UCameraComponent> PlayerCamera;
 
-	// Mapping context applied here
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<USpringArmComponent> CameraBoom;
+
+	virtual void PostInitializeComponents() override;
 	virtual void BeginPlay() override;
-
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-	
 public:
-
-	// Sets default values for this actor's properties
 	AOtterPlayer();
 
-	auto GetGrabbableItem() { return GrabbableItem; }
+	virtual void SwapCamera(const FInputActionValue& Value) override;
+	virtual void Interact(const FInputActionValue& Value) override;
 };

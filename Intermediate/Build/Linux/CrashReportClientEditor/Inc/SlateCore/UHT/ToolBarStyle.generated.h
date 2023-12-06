@@ -16,7 +16,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define FID_Engine_Source_Runtime_SlateCore_Public_Styling_ToolBarStyle_h_17_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FToolBarStyle_Statics; \
-	static class UScriptStruct* StaticStruct(); \
+	SLATECORE_API static class UScriptStruct* StaticStruct(); \
 	typedef FSlateWidgetStyle Super;
 
 
