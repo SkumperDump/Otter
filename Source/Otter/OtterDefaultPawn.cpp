@@ -19,27 +19,23 @@ AOtterDefaultPawn::AOtterDefaultPawn()
 	MovementComponent = CreateDefaultSubobject<UOtterMovementComponent>(FName {"Move Component"}); 
 
 	OverlapComponent = CreateDefaultSubobject<UOtterOverlapComponent>(FName {"Overlap Component"}); 
-	SetRootComponent(OverlapComponent);
+	OverlapComponent->SetupAttachment(GetRootComponent());
 
 	ArrowComponent = CreateDefaultSubobject<UArrowComponent>(FName {"Arrow Component"}); 
 	ArrowComponent->SetupAttachment(OverlapComponent);
 }
 
-/*
-void AOtterDefaultPawn::BeginPlay()
+void AOtterDefaultPawn::Look(const FInputActionValue& Value)
 {
-	Super::BeginPlay();
-
-	// TODO
-	// I really like this but it looks ugly so maybe clean up
-	// At the very least maybe leave a nice comment explaining
-	auto OtterController { Cast<AOtterPlayerController>(Controller) };	check(OtterController != nullptr);
-	OtterController->GetLocalPlayer()->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>()->AddMappingContext(MappingContext, 0);
+	UE_LOG(LogTemp, Warning, TEXT("Look Value: %s"), *Value.ToString());
+	AddActorWorldRotation(FQuat { GetActorRightVector(), Value.Get<FVector>().Y / MovementScale });
+	AddActorWorldRotation(FQuat { GetActorUpVector(), Value.Get<FVector>().X / MovementScale });
 }
-*/
 
 void AOtterDefaultPawn::Move(const FInputActionValue& Value)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Calling Default Pawn Move Function. Vehicle Move Value: %s"), *Value.ToString());
-	DefaultPrimComp->AddImpulse(FVector { Value.Get<FVector>() * MovementScale }); check(DefaultPrimComp != nullptr);
+	UE_LOG(LogTemp, Warning, TEXT("Move Value: %s"), *Value.ToString());
+	GetDefaultPrimComp()->AddImpulse(FVector { Value.Get<FVector>().Y * MovementScale * GetActorForwardVector() });
+	GetDefaultPrimComp()->AddImpulse(FVector { Value.Get<FVector>().X * MovementScale * GetActorRightVector() });
 }
+

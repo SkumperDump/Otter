@@ -17,7 +17,8 @@ AOtterPlayer::AOtterPlayer()
 
 	PlayerMesh = CreateDefaultSubobject<UStaticMeshComponent>(FName {"Player Mesh"}); 
 	SetRootComponent(PlayerMesh);
-	SetDefaultPrimComp(PlayerMesh);
+	OverlapComponent->SetupAttachment(PlayerMesh);
+	SetDefaultPrimComp(Cast<UPrimitiveComponent>(PlayerMesh));
 
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(FName {"Player Camera Boom"}); 
 	CameraBoom->SetupAttachment(PlayerMesh);
@@ -29,7 +30,6 @@ AOtterPlayer::AOtterPlayer()
 void AOtterPlayer::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
-	check(GetDefaultPrimComp() != nullptr);
 	GetDefaultPrimComp()->SetSimulatePhysics(true);
 	GetDefaultPrimComp()->SetEnableGravity(false);
 }
@@ -38,17 +38,8 @@ void AOtterPlayer::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// TODO
-	// I really like this but it looks ugly so maybe clean up
-	// At the very least maybe leave a nice comment explaining
-	auto OtterController { Cast<AOtterPlayerController>(Controller) };	check(OtterController != nullptr);
+	auto OtterController { Cast<AOtterPlayerController>(Controller) };
 	OtterController->GetLocalPlayer()->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>()->AddMappingContext(MappingContext, 0);
-}
-
-void AOtterPlayer::Look(const FInputActionValue& Value)
-{
-	UE_LOG(LogTemp, Warning, TEXT("Look"));
-	GetDefaultPrimComp()->AddLocalRotation(FRotator { Value.Get<FVector>().Y, Value.Get<FVector>().X, 0 });
 }
 
 void AOtterPlayer::SwapCamera(const FInputActionValue& Value)

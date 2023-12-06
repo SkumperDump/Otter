@@ -18,14 +18,12 @@ class OTTER_API AOtterDefaultPawn : public APawn
 	GENERATED_BODY()
 	
 	// Mainly used as root basis for movement
-	TObjectPtr<UPrimitiveComponent> DefaultPrimComp;
+	TObjectPtr<UPrimitiveComponent> DefaultPrimComp { nullptr };
 
 	// Must include for movement as APawn has no move component
 	TObjectPtr<UOtterMovementComponent> MovementComponent;
 
-	// Used to scale movement inputs
-	UPROPERTY(EditAnywhere)
-	float MovementScale { 1 };
+public:	
 
 	// Indicates forward direction
 	UPROPERTY(VisibleAnywhere)
@@ -35,12 +33,12 @@ class OTTER_API AOtterDefaultPawn : public APawn
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UOtterOverlapComponent> OverlapComponent;
 
-public:	
+	// Used to scale movement inputs
+	UPROPERTY(EditAnywhere)
+	float MovementScale { 10.0f };
 
 	// CDO constructor
 	AOtterDefaultPawn();
-
-	//virtual void BeginPlay() override;
 	
 	// Default do nothing
 	// Constant reference because we want to call Actor functions not change actor
@@ -52,7 +50,7 @@ public:
 
 	// Functions associated with user input
 	virtual void Move(const FInputActionValue& Value);
-	virtual void Look(const FInputActionValue& Value) {};
+	virtual void Look(const FInputActionValue& Value);
 	virtual void SwapCamera(const FInputActionValue& Value) {};
 	virtual void Interact(const FInputActionValue& Value) {};
 	virtual void Thrust(const FInputActionValue& Value) {};
