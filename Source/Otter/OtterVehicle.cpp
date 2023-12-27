@@ -3,8 +3,10 @@
 
 #include "OtterVehicle.h"
 #include "OtterOverlapComponent.h"
+#include "OtterPlayerController.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "InputActionValue.h"
+#include "EnhancedInputSubsystems.h"
 
 
 AOtterVehicle::AOtterVehicle()
@@ -41,6 +43,13 @@ void AOtterVehicle::OnInteract(TObjectPtr<AActor> Actor)
 {
 	// TODO
 	// Setup vehicle camera 
-	// Make it so this pawn "transports" Actor
-	VehicleMesh->AttachToComponent(Actor->GetRootComponent(), FAttachmentTransformRules { EAttachmentRule::SnapToTarget, false });
+	
+	// This pawn "transports" Actor
+	Actor->AttachToComponent(GetRootComponent(), FAttachmentTransformRules { EAttachmentRule::SnapToTarget, false });
+
+	// TODO
+	// Vehicle is now player
+
+	auto OtterController { Cast<AOtterPlayerController>(Cast<APawn>(Actor)->GetController()) }; check(OtterController != nullptr);
+	OtterController->GetLocalPlayer()->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>()->AddMappingContext(MappingContext, 1);
 }

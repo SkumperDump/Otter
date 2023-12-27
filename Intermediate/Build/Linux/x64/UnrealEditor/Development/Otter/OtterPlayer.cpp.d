@@ -2736,7 +2736,6 @@
   /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterPlayerController.h \
   Runtime/Engine/Classes/GameFramework/PlayerController.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterPlayerController.generated.h \
-  Runtime/Engine/Classes/Components/StaticMeshComponent.h \
   Runtime/Engine/Classes/GameFramework/SpringArmComponent.h \
   Runtime/Engine/Classes/Engine/EngineTypes.h \
   Runtime/Engine/Classes/Components/SceneComponent.h \

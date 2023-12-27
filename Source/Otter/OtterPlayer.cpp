@@ -4,7 +4,6 @@
 #include "OtterPlayer.h"
 #include "OtterOverlapComponent.h"
 #include "OtterPlayerController.h"
-#include "Components/StaticMeshComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "EnhancedInputSubsystems.h"
