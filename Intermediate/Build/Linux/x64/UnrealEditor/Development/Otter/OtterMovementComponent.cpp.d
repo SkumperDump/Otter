@@ -2738,8 +2738,8 @@
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/NavMovementComponent.generated.h \
   ../Intermediate/Build/Linux/UnrealEditor/Inc/Engine/UHT/PawnMovementComponent.generated.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterMovementComponent.generated.h \
-  /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/Planet.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterPlanet.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Source/Otter/OtterDefaultPawn.h \
   Runtime/Engine/Classes/GameFramework/Pawn.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterDefaultPawn.generated.h \
-  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/Planet.generated.h
+  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/UnrealEditor/Inc/Otter/UHT/OtterPlanet.generated.h

@@ -15,14 +15,15 @@ void AOtterPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// This check asserts the fact that there must be something for the player to controll at game start
-	auto OtterDefaultPawn { Cast<AOtterDefaultPawn>(GetPawn()) };	check(OtterDefaultPawn != nullptr);
-
 	auto EnhancedInputComponent { Cast<UEnhancedInputComponent>(InputComponent) };	check(EnhancedInputComponent != nullptr);
 
-	EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, OtterDefaultPawn, &AOtterDefaultPawn::Move);
-	EnhancedInputComponent->BindAction(ThrustAction, ETriggerEvent::Triggered, OtterDefaultPawn, &AOtterDefaultPawn::Thrust);
-	EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, OtterDefaultPawn, &AOtterDefaultPawn::Look);
-	EnhancedInputComponent->BindAction(SwapCameraAction, ETriggerEvent::Triggered, OtterDefaultPawn, &AOtterDefaultPawn::SwapCamera);
-	EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Triggered, OtterDefaultPawn, &AOtterDefaultPawn::Interact);
+	auto ControllerPawnPointer { Cast<AOtterDefaultPawn>(GetPawn()) };
+
+	// TODO
+	// Currently does not crash game but also does not bind actions to propper functions
+	EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, ControllerPawnPointer, FName { "Move" });
+	EnhancedInputComponent->BindAction(ThrustAction, ETriggerEvent::Triggered, ControllerPawnPointer, FName { "Thrust "});
+	EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, ControllerPawnPointer, FName { "Look "});
+	EnhancedInputComponent->BindAction(SwapCameraAction, ETriggerEvent::Triggered, ControllerPawnPointer, FName { "SwapCamera "});
+	EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Triggered, ControllerPawnPointer, FName { "Interact "});
 }

@@ -45,11 +45,12 @@ void AOtterVehicle::OnInteract(TObjectPtr<AActor> Actor)
 	// Setup vehicle camera 
 	
 	// This pawn "transports" Actor
-	Actor->AttachToComponent(GetRootComponent(), FAttachmentTransformRules { EAttachmentRule::SnapToTarget, false });
+	// auto AttachSuccess { Actor->AttachToActor(this, FAttachmentTransformRules { EAttachmentRule::SnapToTarget, false }) }; check(AttachSuccess == true);
+
+	// Possess vehicle and use vehicle mapping context
+	// Possessing vehicle should result in vehicle functions being used behind the scenes through c++ polymorphism
 
 	// TODO
-	// Vehicle is now player
-
-	auto OtterController { Cast<AOtterPlayerController>(Cast<APawn>(Actor)->GetController()) }; check(OtterController != nullptr);
-	OtterController->GetLocalPlayer()->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>()->AddMappingContext(MappingContext, 1);
+	// Replace with reference to single player controller set in game mode
+	GetWorld()->GetFirstPlayerController()->Possess(this);
 }

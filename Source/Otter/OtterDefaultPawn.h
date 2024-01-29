@@ -37,18 +37,23 @@ public:
 	UPROPERTY(EditAnywhere)
 	float MovementScale { 10.0f };
 
-	// CDO constructor
 	AOtterDefaultPawn();
 	
 	// Default do nothing
-	// Constant reference because we want to call Actor functions not change actor
 	virtual void OnInteract(TObjectPtr<AActor> Actor) {};
 
-	// Public so any pawn can have one but not all need one, thus up to child classes to redefine
+	// All subobjects can have one but not all need one
 	UPROPERTY(EditAnywhere)
-	TObjectPtr<UInputMappingContext> MappingContext {nullptr};
+	TObjectPtr<UInputMappingContext> MappingContext { nullptr };
 
-	// Functions associated with user input
+	// Functions bound to InputActions
+	// If a subclass inherits from AOtterDefaultPawn
+	// And has functions that will be called from an AController
+	// These functions will need to be defined here and possibly declared
+	// This is to ensure one AOtterPlayerController per player that can interact with all AOtterDefaultPawn instances
+	// While also removing the need to re-bind functions at runtime
+	// The theory is the AOtterPlayerController should have a reference to an AOtterDefaultPawn which can use c++ runtime polymorphism to call correctly bound function at run time
+	// The theory is instead of using Unreal Engine and rebinding to seperate function pointer, use c++ compiler to generate code to point to ride object v-table at runtime
 	virtual void Move(const FInputActionValue& Value);
 	virtual void Look(const FInputActionValue& Value);
 	virtual void SwapCamera(const FInputActionValue& Value) {};

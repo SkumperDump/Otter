@@ -2,7 +2,6 @@
 
 
 #include "OtterItem.h"
-#include "OtterPlayer.h"
 #include "OtterOverlapComponent.h"
 #include "Components/StaticMeshComponent.h"
 

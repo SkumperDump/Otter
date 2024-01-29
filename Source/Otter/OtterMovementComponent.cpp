@@ -2,7 +2,7 @@
 
 
 #include "OtterMovementComponent.h"
-#include "Planet.h"
+#include "OtterPlanet.h"
 
 
 void UOtterMovementComponent::TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction)
@@ -37,7 +37,7 @@ void UOtterMovementComponent::Gravity()
 	// TODO
 	// Move this to a seperate function that is optional for a given mesh
 	// This function would be some sort of 'constant force function'
-	if (GetOwner()->IsA(APlanet::StaticClass()))
+	if (GetOwner()->IsA(AOtterPlanet::StaticClass()))
 	{
 		// Set velocity vector for each planet
 		// Vector is orthogonal to the plane of the gravity vector and the z-axis

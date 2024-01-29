@@ -1073,6 +1073,8 @@
   /home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v22_clang-16.0.6-centos7/x86_64-unknown-linux-gnu/lib/clang/16/include/sanitizer/common_interface_defs.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/x64/CrashReportClient/Shipping/InputCore/Module.InputCore.cpp \
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/x64/CrashReportClient/Shipping/InputCore/Definitions.InputCore.h \
+  /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/CrashReportClient/Inc/InputCore/UHT/InputCore.init.gen.cpp \
+  Runtime/CoreUObject/Public/UObject/GeneratedCppIncludes.h \
   Runtime/InputCore/Private/GenericPlatform/GenericPlatformInput.cpp \
   Runtime/InputCore/Public/GenericPlatform/GenericPlatformInput.h \
   Runtime/Core/Public/CoreMinimal.h Runtime/Core/Public/HAL/Platform.h \
@@ -1096,7 +1098,6 @@
   Runtime/Core/Public/CoreTypes.h \
   Runtime/InputCore/Public/Linux/LinuxPlatformInput.h \
   /home/skump/Documents/Unreal\ Projects/Otter/Intermediate/Build/Linux/CrashReportClient/Inc/InputCore/UHT/InputCoreTypes.gen.cpp \
-  Runtime/CoreUObject/Public/UObject/GeneratedCppIncludes.h \
   Runtime/InputCore/Private/Linux/LinuxPlatformInput.cpp \
   ThirdParty/SDL2/SDL-gui-backend/include/SDL.h \
   ThirdParty/SDL2/SDL-gui-backend/include/SDL_main.h \
