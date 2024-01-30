@@ -36,6 +36,8 @@ class OTTER_API AOtterVoyager : public AOtterDefaultPawn
 public:
 	AOtterVoyager();
 
+	virtual void Move(const FInputActionValue& Value) override;
+	virtual void Look(const FInputActionValue& Value) override;
 	virtual void SwapCamera(const FInputActionValue& Value) override;
 	virtual void Interact(const FInputActionValue& Value) override;
 };

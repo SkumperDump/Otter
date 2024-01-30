@@ -5,10 +5,8 @@
 #include "OtterDefaultPawn.h"
 #include "EnhancedInputComponent.h"
 
-/* - Player keyboard/controller input captured by system/engine and given to this class (with priority below AActor)
- * - This class contains a pointer to an AOtterDefaultPawn
- * - This pointer should be the vptr to the vtable of virtual functions we wish to call for our possessed pawn
- * - When no pawn is posessed (game is paused, interacting with a menu, etc..) this class will be used for interaction with UI elements
+/*
+ * When interacting with a menu this class should be used for interaction with UI elements
  */
 
 void AOtterPlayerController::BeginPlay()
@@ -17,13 +15,11 @@ void AOtterPlayerController::BeginPlay()
 
 	auto EnhancedInputComponent { Cast<UEnhancedInputComponent>(InputComponent) };	check(EnhancedInputComponent != nullptr);
 
-	auto ControllerPawnPointer { Cast<AOtterDefaultPawn>(GetPawn()) };
+	auto OtterDefaultPawn { Cast<AOtterDefaultPawn>(GetPawn()) }; check(OtterDefaultPawn != nullptr);
 
-	// TODO
-	// Currently does not crash game but also does not bind actions to propper functions
-	EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, ControllerPawnPointer, FName { "Move" });
-	EnhancedInputComponent->BindAction(ThrustAction, ETriggerEvent::Triggered, ControllerPawnPointer, FName { "Thrust "});
-	EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, ControllerPawnPointer, FName { "Look "});
-	EnhancedInputComponent->BindAction(SwapCameraAction, ETriggerEvent::Triggered, ControllerPawnPointer, FName { "SwapCamera "});
-	EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Triggered, ControllerPawnPointer, FName { "Interact "});
+	EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, OtterDefaultPawn, FName { "Move" });
+	EnhancedInputComponent->BindAction(ThrustAction, ETriggerEvent::Triggered, OtterDefaultPawn, FName { "Thrust" });
+	EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, OtterDefaultPawn, FName { "Look" });
+	EnhancedInputComponent->BindAction(SwapCameraAction, ETriggerEvent::Triggered, OtterDefaultPawn, FName { "SwapCamera" });
+	EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Triggered, OtterDefaultPawn, FName { "Interact" });
 }

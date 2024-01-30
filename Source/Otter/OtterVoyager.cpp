@@ -7,6 +7,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "EnhancedInputSubsystems.h"
+#include "InputActionValue.h"
 
 
 AOtterVoyager::AOtterVoyager()
@@ -43,7 +44,6 @@ void AOtterVoyager::BeginPlay()
 
 void AOtterVoyager::SwapCamera(const FInputActionValue& Value)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Swap Camera"));
 	if (bUseFirstPersonCamera)
 	{
 		// First person mode
@@ -57,8 +57,6 @@ void AOtterVoyager::SwapCamera(const FInputActionValue& Value)
 
 void AOtterVoyager::Interact(const FInputActionValue& Value)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Interact"));
-
 	if (auto Actor { GetOverlapComponent()->GetOverlappingActor() })
 	{
 		VoyagerInventory.Push(Actor);
@@ -68,3 +66,22 @@ void AOtterVoyager::Interact(const FInputActionValue& Value)
 		}
 	}
 }
+
+
+void AOtterVoyager::Look(const FInputActionValue& Value)
+{
+	UE_LOG(LogTemp, Warning, TEXT("Voyager Look Value: %s"), *Value.ToString());
+	// Look up
+	RootComponent->AddWorldRotation(FQuat { GetActorRightVector(), Value.Get<FVector>().Y });
+
+	// Look side to side
+	RootComponent->AddWorldRotation(FQuat { GetActorUpVector(), Value.Get<FVector>().X });
+}
+
+void AOtterVoyager::Move(const FInputActionValue& Value)
+{
+	UE_LOG(LogTemp, Warning, TEXT("Voyager Move Value: %s"), *Value.ToString());
+	GetDefaultPrimComp()->AddImpulse(FVector { Value.Get<FVector>().Y * MovementScale * GetActorForwardVector() });
+	GetDefaultPrimComp()->AddImpulse(FVector { Value.Get<FVector>().X * MovementScale * GetActorRightVector() });
+}
+

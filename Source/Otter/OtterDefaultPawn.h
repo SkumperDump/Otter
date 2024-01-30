@@ -46,21 +46,20 @@ public:
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UInputMappingContext> MappingContext { nullptr };
 
-	// Functions bound to InputActions
-	// If a subclass inherits from AOtterDefaultPawn
-	// And has functions that will be called from an AController
-	// These functions will need to be defined here and possibly declared
-	// This is to ensure one AOtterPlayerController per player that can interact with all AOtterDefaultPawn instances
-	// While also removing the need to re-bind functions at runtime
-	// The theory is the AOtterPlayerController should have a reference to an AOtterDefaultPawn which can use c++ runtime polymorphism to call correctly bound function at run time
-	// The theory is instead of using Unreal Engine and rebinding to seperate function pointer, use c++ compiler to generate code to point to ride object v-table at runtime
-	virtual void Move(const FInputActionValue& Value);
-	virtual void Look(const FInputActionValue& Value);
+	/*
+	 * FUNCTIONS BOUND TO INPUT ACTIONS
+	 * */
+	UFUNCTION()
+	virtual void Move(const FInputActionValue& Value) {};
+	UFUNCTION()
+	virtual void Look(const FInputActionValue& Value) {};
+	UFUNCTION()
 	virtual void SwapCamera(const FInputActionValue& Value) {};
+	UFUNCTION()
 	virtual void Interact(const FInputActionValue& Value) {};
+	UFUNCTION()
 	virtual void Thrust(const FInputActionValue& Value) {};
 
-	// Mutators
 	const auto GetOverlapComponent() { return OverlapComponent; };
 	const auto GetDefaultPrimComp() { return DefaultPrimComp; };
 	void SetDefaultPrimComp(TObjectPtr<UPrimitiveComponent> Subclass) { DefaultPrimComp = Subclass; };
