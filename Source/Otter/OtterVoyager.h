@@ -32,7 +32,7 @@ class OTTER_API AOtterVoyager : public AOtterDefaultPawn
 	TObjectPtr<USpringArmComponent> CameraBoom;
 
 	virtual void PostInitializeComponents() override;
-	virtual void BeginPlay() override;
+
 public:
 	AOtterVoyager();
 

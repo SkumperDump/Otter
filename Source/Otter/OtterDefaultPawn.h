@@ -25,6 +25,8 @@ class OTTER_API AOtterDefaultPawn : public APawn
 
 public:	
 
+	AOtterDefaultPawn();
+
 	// Indicates forward direction
 	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<UArrowComponent> ArrowComponent;
@@ -37,7 +39,8 @@ public:
 	UPROPERTY(EditAnywhere)
 	float MovementScale { 10.0f };
 
-	AOtterDefaultPawn();
+	UPROPERTY(EditAnywhere)
+	float LookSensitivity { 10.0f };
 	
 	// Default do nothing
 	virtual void OnInteract(TObjectPtr<AActor> Actor) {};
@@ -48,19 +51,25 @@ public:
 
 	/*
 	 * FUNCTIONS BOUND TO INPUT ACTIONS
-	 * */
+	 */
 	UFUNCTION()
 	virtual void Move(const FInputActionValue& Value) {};
+
 	UFUNCTION()
 	virtual void Look(const FInputActionValue& Value) {};
+
 	UFUNCTION()
 	virtual void SwapCamera(const FInputActionValue& Value) {};
+
 	UFUNCTION()
 	virtual void Interact(const FInputActionValue& Value) {};
+
 	UFUNCTION()
 	virtual void Thrust(const FInputActionValue& Value) {};
 
+	// Getters and setters
 	const auto GetOverlapComponent() { return OverlapComponent; };
 	const auto GetDefaultPrimComp() { return DefaultPrimComp; };
+
 	void SetDefaultPrimComp(TObjectPtr<UPrimitiveComponent> Subclass) { DefaultPrimComp = Subclass; };
 };

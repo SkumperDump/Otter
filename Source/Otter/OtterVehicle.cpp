@@ -6,7 +6,6 @@
 #include "OtterPlayerController.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "InputActionValue.h"
-#include "EnhancedInputSubsystems.h"
 
 
 AOtterVehicle::AOtterVehicle()
@@ -41,16 +40,12 @@ void AOtterVehicle::Thrust(const FInputActionValue& Value)
 
 void AOtterVehicle::OnInteract(TObjectPtr<AActor> Actor)
 {
-	// TODO
-	// Setup vehicle camera 
+	// TODO: Setup vehicle camera 
 	
+	// TODO: Currently does not work
 	// This pawn "transports" Actor
 	// auto AttachSuccess { Actor->AttachToActor(this, FAttachmentTransformRules { EAttachmentRule::SnapToTarget, false }) }; check(AttachSuccess == true);
 
-	// Possess vehicle and use vehicle mapping context
-	// Possessing vehicle should result in vehicle functions being used behind the scenes through c++ polymorphism
-
-	// TODO
-	// Replace with reference to single player controller set in game mode
+	// TODO: Replace with reference to single player controller set in game mode
 	GetWorld()->GetFirstPlayerController()->Possess(this);
 }

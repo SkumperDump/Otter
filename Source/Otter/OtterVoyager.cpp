@@ -6,7 +6,6 @@
 #include "OtterPlayerController.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
-#include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
 
 
@@ -34,14 +33,6 @@ void AOtterVoyager::PostInitializeComponents()
 	GetDefaultPrimComp()->SetEnableGravity(false);
 }
 
-void AOtterVoyager::BeginPlay()
-{
-	Super::BeginPlay();
-
-	auto OtterController { Cast<AOtterPlayerController>(Controller) };
-	OtterController->GetLocalPlayer()->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>()->AddMappingContext(MappingContext, 0);
-}
-
 void AOtterVoyager::SwapCamera(const FInputActionValue& Value)
 {
 	if (bUseFirstPersonCamera)
@@ -67,15 +58,14 @@ void AOtterVoyager::Interact(const FInputActionValue& Value)
 	}
 }
 
-
 void AOtterVoyager::Look(const FInputActionValue& Value)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Voyager Look Value: %s"), *Value.ToString());
 	// Look up
-	RootComponent->AddWorldRotation(FQuat { GetActorRightVector(), Value.Get<FVector>().Y });
+	GetDefaultPrimComp()->AddWorldRotation(FQuat { GetActorRightVector(), Value.Get<FVector>().Y / LookSensitivity});
 
 	// Look side to side
-	RootComponent->AddWorldRotation(FQuat { GetActorUpVector(), Value.Get<FVector>().X });
+	GetDefaultPrimComp()->AddWorldRotation(FQuat { GetActorUpVector(), Value.Get<FVector>().X / LookSensitivity});
 }
 
 void AOtterVoyager::Move(const FInputActionValue& Value)
@@ -84,4 +74,3 @@ void AOtterVoyager::Move(const FInputActionValue& Value)
 	GetDefaultPrimComp()->AddImpulse(FVector { Value.Get<FVector>().Y * MovementScale * GetActorForwardVector() });
 	GetDefaultPrimComp()->AddImpulse(FVector { Value.Get<FVector>().X * MovementScale * GetActorRightVector() });
 }
-
