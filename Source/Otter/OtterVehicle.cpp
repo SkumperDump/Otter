@@ -2,8 +2,9 @@
 
 
 #include "OtterVehicle.h"
-#include "OtterOverlapComponent.h"
+
 #include "OtterPlayerController.h"
+#include "OtterOverlapComponent.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "InputActionValue.h"
 
@@ -13,12 +14,8 @@ AOtterVehicle::AOtterVehicle()
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	VehicleMesh = CreateDefaultSubobject<USkeletalMeshComponent>(FName{"Vehicle Mesh"});
-	SetRootComponent(VehicleMesh);
-	SetDefaultPrimComp(VehicleMesh);
-
 	VehicleExhaust = CreateDefaultSubobject<UParticleSystemComponent>(FName{"Vehicle Exhaust"});
-	VehicleExhaust->SetupAttachment(VehicleMesh);
+	VehicleExhaust->SetupAttachment(PawnMesh);
 }
 
 void AOtterVehicle::Move(const FInputActionValue& Value)

@@ -10,6 +10,9 @@ class UOtterOverlapComponent;
 class UOtterMovementComponent;
 class UArrowComponent;
 class UInputMappingContext;
+class UCameraComponent;
+class UStaticMeshComponent;
+class USpringArmComponent;
 struct FInputActionValue;
 
 UCLASS()
@@ -23,9 +26,23 @@ class OTTER_API AOtterDefaultPawn : public APawn
 	// Must include for movement as APawn has no move component
 	TObjectPtr<UOtterMovementComponent> MovementComponent;
 
-public:	
+	UPROPERTY(VisibleAnywhere)
+	TArray<TObjectPtr<AActor>> Inventory;
 
+public:
 	AOtterDefaultPawn();
+
+	// Mesh
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<UStaticMeshComponent> PawnMesh;
+
+	// Camera
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<UCameraComponent> PawnCamera;
+
+	// Camera boom
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<USpringArmComponent> CameraBoom;
 
 	// Indicates forward direction
 	UPROPERTY(VisibleAnywhere)
@@ -35,10 +52,11 @@ public:
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UOtterOverlapComponent> OverlapComponent;
 
-	// Used to scale movement inputs
+	// Move sens
 	UPROPERTY(EditAnywhere)
 	float MovementScale { 10.0f };
 
+	// Look sens
 	UPROPERTY(EditAnywhere)
 	float LookSensitivity { 10.0f };
 	
@@ -49,9 +67,7 @@ public:
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UInputMappingContext> MappingContext { nullptr };
 
-	/*
-	 * FUNCTIONS BOUND TO INPUT ACTIONS
-	 */
+	// FUNCTIONS BOUND TO INPUT ACTIONS
 	UFUNCTION()
 	virtual void Move(const FInputActionValue& Value) {};
 
@@ -62,14 +78,15 @@ public:
 	virtual void SwapCamera(const FInputActionValue& Value) {};
 
 	UFUNCTION()
-	virtual void Interact(const FInputActionValue& Value) {};
+	virtual void Interact(const FInputActionValue& Value);
 
 	UFUNCTION()
 	virtual void Thrust(const FInputActionValue& Value) {};
 
-	// Getters and setters
+	// Getters
 	const auto GetOverlapComponent() { return OverlapComponent; };
 	const auto GetDefaultPrimComp() { return DefaultPrimComp; };
 
+	// Setters
 	void SetDefaultPrimComp(TObjectPtr<UPrimitiveComponent> Subclass) { DefaultPrimComp = Subclass; };
 };

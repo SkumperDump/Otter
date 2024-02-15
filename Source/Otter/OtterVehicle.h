@@ -7,7 +7,6 @@
 #include "OtterInteractInterface.h"
 #include "OtterVehicle.generated.h"
 
-class USkeletalMeshComponent;
 class UParticleSystemComponent;
 struct FInputActionValue;
 
@@ -17,13 +16,10 @@ class OTTER_API AOtterVehicle : public AOtterDefaultPawn
 	GENERATED_BODY()
 
 	UPROPERTY(EditAnywhere)
-	TObjectPtr<USkeletalMeshComponent> VehicleMesh;
-
-	UPROPERTY(EditAnywhere)
 	TObjectPtr<UParticleSystemComponent> VehicleExhaust;
 	
-	// Const reference, do not change this Actor object
 	virtual void OnInteract(TObjectPtr<AActor> Actor) override;
+
 public:	
 
 	AOtterVehicle();
