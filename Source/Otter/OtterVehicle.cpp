@@ -2,6 +2,8 @@
 
 
 #include "OtterVehicle.h"
+
+#include "OtterPlayerController.h"
 #include "OtterOverlapComponent.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "InputActionValue.h"
@@ -12,12 +14,8 @@ AOtterVehicle::AOtterVehicle()
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	VehicleMesh = CreateDefaultSubobject<USkeletalMeshComponent>(FName{"Vehicle Mesh"});
-	SetRootComponent(VehicleMesh);
-	SetDefaultPrimComp(VehicleMesh);
-
 	VehicleExhaust = CreateDefaultSubobject<UParticleSystemComponent>(FName{"Vehicle Exhaust"});
-	VehicleExhaust->SetupAttachment(VehicleMesh);
+	VehicleExhaust->SetupAttachment(PawnMesh);
 }
 
 void AOtterVehicle::Move(const FInputActionValue& Value)
@@ -39,8 +37,12 @@ void AOtterVehicle::Thrust(const FInputActionValue& Value)
 
 void AOtterVehicle::OnInteract(TObjectPtr<AActor> Actor)
 {
-	// TODO
-	// Setup vehicle camera 
-	// Make it so this pawn "transports" Actor
-	VehicleMesh->AttachToComponent(Actor->GetRootComponent(), FAttachmentTransformRules { EAttachmentRule::SnapToTarget, false });
+	// TODO: Setup vehicle camera 
+	
+	// TODO: Currently does not work
+	// This pawn "transports" Actor
+	// auto AttachSuccess { Actor->AttachToActor(this, FAttachmentTransformRules { EAttachmentRule::SnapToTarget, false }) }; check(AttachSuccess == true);
+
+	// TODO: Replace with reference to single player controller set in game mode
+	GetWorld()->GetFirstPlayerController()->Possess(this);
 }

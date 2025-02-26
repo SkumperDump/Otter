@@ -6,30 +6,30 @@
 	"IsTestTarget": false,
 	"Architecture": "x64",
 	"Project": "../../Otter.uproject",
-	"Launch": "$(EngineDir)/Binaries/Linux/EpicWebHelper",
+	"Launch": "$(ProjectDir)/Binaries/Linux/EpicWebHelper",
 	"Version": 
 	{
 		"MajorVersion": 5,
-		"MinorVersion": 3,
-		"PatchVersion": 0,
+		"MinorVersion": 5,
+		"PatchVersion": 3,
 		"Changelist": 0,
-		"CompatibleChangelist": 0,
+		"CompatibleChangelist": 37670630,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
 		"BranchName": "UE5",
-		"BuildId": "085a7f0c-d887-42e5-b560-3bd6db5b354b"
+		"BuildId": "ab6bd904-8d82-4f41-89a4-75228bcacd38"
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/EpicWebHelper",
+			"Path": "$(ProjectDir)/Binaries/Linux/EpicWebHelper",
 			"Type": "Executable"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/EpicWebHelper.debug",
+			"Path": "$(ProjectDir)/Binaries/Linux/EpicWebHelper.debug",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/EpicWebHelper.sym",
+			"Path": "$(ProjectDir)/Binaries/Linux/EpicWebHelper.sym",
 			"Type": "SymbolFile"
 		}
 	],

@@ -14,12 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define OTTER_OtterVehicle_generated_h
 
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_17_SPARSE_DATA
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_17_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_17_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_17_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_17_ACCESSORS
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_17_INCLASS_NO_PURE_DECLS \
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAOtterVehicle(); \
 	friend struct Z_Construct_UClass_AOtterVehicle_Statics; \
@@ -28,11 +23,11 @@ public: \
 	DECLARE_SERIALIZER(AOtterVehicle)
 
 
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_17_ENHANCED_CONSTRUCTORS \
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
-	NO_API AOtterVehicle(AOtterVehicle&&); \
-	NO_API AOtterVehicle(const AOtterVehicle&); \
+	AOtterVehicle(AOtterVehicle&&); \
+	AOtterVehicle(const AOtterVehicle&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AOtterVehicle); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AOtterVehicle); \
@@ -40,17 +35,12 @@ public: \
 	NO_API virtual ~AOtterVehicle();
 
 
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_14_PROLOG
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_17_GENERATED_BODY \
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_13_PROLOG
+#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_17_SPARSE_DATA \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_17_SPARSE_DATA_PROPERTY_ACCESSORS \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_17_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_17_ACCESSORS \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_17_INCLASS_NO_PURE_DECLS \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_17_ENHANCED_CONSTRUCTORS \
+	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_16_INCLASS_NO_PURE_DECLS \
+	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterVehicle_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

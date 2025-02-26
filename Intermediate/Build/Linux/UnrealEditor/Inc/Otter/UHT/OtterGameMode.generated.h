@@ -14,11 +14,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define OTTER_OtterGameMode_generated_h
 
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_12_SPARSE_DATA
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_12_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_12_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_12_ACCESSORS
 #define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAOtterGameMode(); \
@@ -31,8 +26,8 @@ public: \
 #define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
-	OTTER_API AOtterGameMode(AOtterGameMode&&); \
-	OTTER_API AOtterGameMode(const AOtterGameMode&); \
+	AOtterGameMode(AOtterGameMode&&); \
+	AOtterGameMode(const AOtterGameMode&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(OTTER_API, AOtterGameMode); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AOtterGameMode); \
@@ -44,11 +39,6 @@ public: \
 #define FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_12_SPARSE_DATA \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_12_SPARSE_DATA_PROPERTY_ACCESSORS \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_12_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_12_ACCESSORS \
 	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_12_INCLASS_NO_PURE_DECLS \
 	FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_12_ENHANCED_CONSTRUCTORS \
 private: \

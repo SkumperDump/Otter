@@ -28,5 +28,5 @@ class OTTER_API AOtterPlayerController : public APlayerController
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UInputAction> InteractAction;
 
-	virtual void BeginPlay() override;
+	virtual void OnPossess(APawn* PawnToPossess) override;
 };

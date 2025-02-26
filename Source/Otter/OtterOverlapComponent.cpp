@@ -2,7 +2,6 @@
 
 
 #include "OtterOverlapComponent.h"
-#include "OtterPlayer.h"
 
 
 UOtterOverlapComponent::UOtterOverlapComponent()

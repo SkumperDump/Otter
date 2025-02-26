@@ -8,8 +8,14 @@ public class OtterEditorTarget : TargetRules
 	public OtterEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
-		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
+		DefaultBuildSettings = BuildSettingsVersion.Latest;
+		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
 		ExtraModuleNames.Add("Otter");
+		// Warning when updating to new version told me to add this
+		// Adding in both Otter and OtterEditor target files to be safe
+		bLegacyParentIncludePaths = false;
+		CppStandard=CppStandardVersion.Default;
+		WindowsPlatform.bStrictConformanceMode = true;
+		bValidateFormatStrings = true;
 	}
 }
