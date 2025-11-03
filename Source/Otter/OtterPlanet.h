@@ -25,5 +25,4 @@ public:
 
 	AOtterPlanet();
 
-	virtual void PostInitializeComponents() override;
 };

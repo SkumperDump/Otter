@@ -23,7 +23,6 @@ class OTTER_API AOtterItem : public AOtterDefaultPawn
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UStaticMeshComponent> ItemMesh;
 
-	virtual void OnInteract(TObjectPtr<AActor> Actor) override;
 public:
 
 	AOtterItem();

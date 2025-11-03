@@ -16,8 +16,6 @@ class OTTER_API AOtterVoyager : public AOtterDefaultPawn
 	// Bool for switching camera
 	bool bUseFirstPersonCamera;
 
-	virtual void PostInitializeComponents() override;
-
 public:
 
 	virtual void Move(const FInputActionValue& Value) override;

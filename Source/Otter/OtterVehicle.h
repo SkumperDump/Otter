@@ -18,7 +18,7 @@ class OTTER_API AOtterVehicle : public AOtterDefaultPawn
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UParticleSystemComponent> VehicleExhaust;
 	
-	virtual void OnInteract(TObjectPtr<AActor> Actor) override;
+	virtual void OnInteract(TObjectPtr<AOtterDefaultPawn> Pawn) override;
 
 public:	
 

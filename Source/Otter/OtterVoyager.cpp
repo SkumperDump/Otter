@@ -6,13 +6,6 @@
 #include "InputActionValue.h"
 
 
-void AOtterVoyager::PostInitializeComponents()
-{
-	Super::PostInitializeComponents();
-	GetDefaultPrimComp()->SetSimulatePhysics(true);
-	GetDefaultPrimComp()->SetEnableGravity(false);
-}
-
 void AOtterVoyager::SwapCamera(const FInputActionValue& Value)
 {
 	if (bUseFirstPersonCamera)
@@ -39,6 +32,6 @@ void AOtterVoyager::Look(const FInputActionValue& Value)
 void AOtterVoyager::Move(const FInputActionValue& Value)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Voyager Move Value: %s"), *Value.ToString());
-	GetDefaultPrimComp()->AddImpulse(FVector { Value.Get<FVector>().Y * MovementScale * GetActorForwardVector() });
-	GetDefaultPrimComp()->AddImpulse(FVector { Value.Get<FVector>().X * MovementScale * GetActorRightVector() });
+	GetDefaultPrimComp()->AddImpulse(FVector { Value.Get<FVector>().X * MovementScale * GetActorForwardVector() });
+	GetDefaultPrimComp()->AddImpulse(FVector { Value.Get<FVector>().Y * MovementScale * GetActorRightVector() });
 }

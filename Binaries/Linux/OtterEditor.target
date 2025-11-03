@@ -11,14 +11,14 @@
 	"Version": 
 	{
 		"MajorVersion": 5,
-		"MinorVersion": 5,
-		"PatchVersion": 3,
+		"MinorVersion": 6,
+		"PatchVersion": 0,
 		"Changelist": 0,
-		"CompatibleChangelist": 37670630,
+		"CompatibleChangelist": 0,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
 		"BranchName": "UE5",
-		"BuildId": "3cf85323-ce2c-4202-89e3-088430796085"
+		"BuildId": "996dc9ae-2a9e-488e-b452-59f75b19b8cc"
 	},
 	"BuildProducts": [
 		{
@@ -198,14 +198,6 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libOpenColorIO.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libOpenColorIO.so.2.3",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-AIGraph.debug",
 			"Type": "SymbolFile"
 		},
@@ -359,6 +351,30 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-AnalyticsET.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-AnalyticsHorde.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-AnalyticsHorde.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-AnalyticsHorde.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-AnalyticsLog.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-AnalyticsLog.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-AnalyticsLog.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -794,6 +810,18 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-AutoRTFM.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-AutoRTFM.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-AutoRTFM.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-AutomationController.debug",
 			"Type": "SymbolFile"
 		},
@@ -986,6 +1014,18 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-CQTest.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-CQTest.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-CQTest.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-CSVtoSVG.debug",
 			"Type": "SymbolFile"
 		},
@@ -995,18 +1035,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-CSVtoSVG.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-Cascade.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-Cascade.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-Cascade.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -1394,6 +1422,18 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-DataHierarchyEditor.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-DataHierarchyEditor.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-DataHierarchyEditor.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-DataLayerEditor.debug",
 			"Type": "SymbolFile"
 		},
@@ -1478,6 +1518,18 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-DerivedDataWidgets.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-DerivedDataWidgets.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-DerivedDataWidgets.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-DesktopPlatform.debug",
 			"Type": "SymbolFile"
 		},
@@ -1511,6 +1563,18 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-DetailCustomizations.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-DevHttp.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-DevHttp.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-DevHttp.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -2150,6 +2214,18 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-ISMPool.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-ISMPool.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-ISMPool.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-Icmp.debug",
 			"Type": "SymbolFile"
 		},
@@ -2291,6 +2367,42 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-InternationalizationSettings.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-IoStoreHttpClient.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-IoStoreHttpClient.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-IoStoreHttpClient.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-IoStoreOnDemand.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-IoStoreOnDemand.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-IoStoreOnDemand.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-IoStoreOnDemandCore.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-IoStoreOnDemandCore.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-IoStoreOnDemandCore.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -2462,6 +2574,18 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-LegacyProjectLauncher.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-LegacyProjectLauncher.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-LegacyProjectLauncher.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-LevelEditor.debug",
 			"Type": "SymbolFile"
 		},
@@ -2510,18 +2634,6 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-LiveLinkAnimationCore.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-LiveLinkAnimationCore.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-LiveLinkAnimationCore.sym",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-LiveLinkInterface.debug",
 			"Type": "SymbolFile"
 		},
@@ -2531,18 +2643,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-LiveLinkInterface.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-LiveLinkMessageBusFramework.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-LiveLinkMessageBusFramework.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-LiveLinkMessageBusFramework.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -3614,18 +3714,6 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-ProjectLauncher.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-ProjectLauncher.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-ProjectLauncher.sym",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-ProjectSettingsViewer.debug",
 			"Type": "SymbolFile"
 		},
@@ -3758,18 +3846,6 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-RealtimeProfiler.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-RealtimeProfiler.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-RealtimeProfiler.sym",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-ReliabilityHandlerComponent.debug",
 			"Type": "SymbolFile"
 		},
@@ -3830,6 +3906,30 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-RewindDebuggerRuntimeInterface.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-RewindDebuggerRuntimeInterface.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-RewindDebuggerRuntimeInterface.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-S3Client.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-S3Client.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-S3Client.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-SSL.debug",
 			"Type": "SymbolFile"
 		},
@@ -3839,6 +3939,18 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-SSL.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-SVGDistanceField.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-SVGDistanceField.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-SVGDistanceField.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -4346,6 +4458,18 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-StateStream.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-StateStream.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-StateStream.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-StaticMeshDescription.debug",
 			"Type": "SymbolFile"
 		},
@@ -4418,6 +4542,18 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-StorageServerWidgets.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-StorageServerWidgets.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-StorageServerWidgets.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-StreamingFile.debug",
 			"Type": "SymbolFile"
 		},
@@ -4487,6 +4623,18 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-StructViewer.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-StudioTelemetry.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-StudioTelemetry.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-StudioTelemetry.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -4958,6 +5106,18 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-UbaCoordinatorHorde.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-UbaCoordinatorHorde.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-UbaCoordinatorHorde.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-UncontrolledChangelists.debug",
 			"Type": "SymbolFile"
 		},
@@ -5282,6 +5442,18 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-WorldBookmark.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-WorldBookmark.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-WorldBookmark.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-WorldBrowser.debug",
 			"Type": "SymbolFile"
 		},
@@ -5330,11 +5502,31 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-ZenEditor.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-ZenEditor.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libUnrealEditor-ZenEditor.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libastcenc_thunk_linux64_4.2.0.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libastcenc_thunk_linux64_5.0.1.so",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Linux/libboost_atomic-mt-x64.so",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libboost_atomic-mt-x64.so.1.82.0",
+			"Path": "$(EngineDir)/Binaries/Linux/libboost_atomic-mt-x64.so.1.85.0",
 			"Type": "RequiredResource"
 		},
 		{
@@ -5342,7 +5534,7 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libboost_chrono-mt-x64.so.1.82.0",
+			"Path": "$(EngineDir)/Binaries/Linux/libboost_chrono-mt-x64.so.1.85.0",
 			"Type": "RequiredResource"
 		},
 		{
@@ -5350,7 +5542,7 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libboost_filesystem-mt-x64.so.1.82.0",
+			"Path": "$(EngineDir)/Binaries/Linux/libboost_filesystem-mt-x64.so.1.85.0",
 			"Type": "RequiredResource"
 		},
 		{
@@ -5358,7 +5550,7 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libboost_iostreams-mt-x64.so.1.82.0",
+			"Path": "$(EngineDir)/Binaries/Linux/libboost_iostreams-mt-x64.so.1.85.0",
 			"Type": "RequiredResource"
 		},
 		{
@@ -5366,7 +5558,7 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libboost_program_options-mt-x64.so.1.82.0",
+			"Path": "$(EngineDir)/Binaries/Linux/libboost_program_options-mt-x64.so.1.85.0",
 			"Type": "RequiredResource"
 		},
 		{
@@ -5374,7 +5566,7 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libboost_python311-mt-x64.so.1.82.0",
+			"Path": "$(EngineDir)/Binaries/Linux/libboost_python311-mt-x64.so.1.85.0",
 			"Type": "RequiredResource"
 		},
 		{
@@ -5382,7 +5574,7 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libboost_regex-mt-x64.so.1.82.0",
+			"Path": "$(EngineDir)/Binaries/Linux/libboost_regex-mt-x64.so.1.85.0",
 			"Type": "RequiredResource"
 		},
 		{
@@ -5390,7 +5582,7 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libboost_system-mt-x64.so.1.82.0",
+			"Path": "$(EngineDir)/Binaries/Linux/libboost_system-mt-x64.so.1.85.0",
 			"Type": "RequiredResource"
 		},
 		{
@@ -5398,7 +5590,19 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libboost_thread-mt-x64.so.1.82.0",
+			"Path": "$(EngineDir)/Binaries/Linux/libboost_thread-mt-x64.so.1.85.0",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libembree4.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libembree4.so.4",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libembree4.so.4.3.3",
 			"Type": "RequiredResource"
 		},
 		{
@@ -5411,6 +5615,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Linux/liboo2texlinux64.2.9.12.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/liboo2texlinux64.2.9.13.so",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -5434,307 +5642,27 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/ar/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/hd/resources/codegenTemplates/schemaClass.cpp",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/hd/resources/codegenTemplates/schemaClass.h",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/hd/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/hdGp/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/hio/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/ndr/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/sdf/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/sdrGlslfx/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/unreal/resources/generatedSchema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/unreal/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/unreal/resources/unreal/schema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usd/resources/codegenTemplates/api.h",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usd/resources/codegenTemplates/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usd/resources/codegenTemplates/schemaClass.cpp",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usd/resources/codegenTemplates/schemaClass.h",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usd/resources/codegenTemplates/tokens.cpp",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usd/resources/codegenTemplates/tokens.h",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usd/resources/codegenTemplates/wrapSchemaClass.cpp",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usd/resources/codegenTemplates/wrapTokens.cpp",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usd/resources/generatedSchema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usd/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usd/resources/usd/schema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdAbc/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdGeom/resources/generatedSchema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdGeom/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdGeom/resources/usdGeom/schema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdHydra/resources/generatedSchema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdHydra/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdHydra/resources/shaders/empty.glslfx",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdHydra/resources/shaders/shaderDefs.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdHydra/resources/usdHydra/schema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdImaging/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdLux/resources/generatedSchema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdLux/resources/plugInfo.json",
-			"Type": "RequiredResource"
+			"Path": "$(EngineDir)/Binaries/Linux/libtbb.so",
+			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdLux/resources/usdLux/schema.usda",
+			"Path": "$(EngineDir)/Binaries/Linux/libtbb.so.12",
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdMedia/resources/generatedSchema.usda",
+			"Path": "$(EngineDir)/Binaries/Linux/libtbb.so.12.13",
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdMedia/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdMedia/resources/usdMedia/schema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdMtlx/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdPhysics/resources/generatedSchema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdPhysics/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdPhysics/resources/usdPhysics/schema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdProc/resources/generatedSchema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdProc/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdProc/resources/usdProc/schema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdProcImaging/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdRender/resources/generatedSchema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdRender/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdRender/resources/usdRender/schema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdRi/resources/generatedSchema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdRi/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdRi/resources/usdRi/schema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdRiPxrImaging/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdShade/resources/generatedSchema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdShade/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdShade/resources/usdShade/schema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdShaders/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdShaders/resources/shaders/previewSurface.glslfx",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdShaders/resources/shaders/primvarReader.glslfx",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdShaders/resources/shaders/shaderDefs.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdShaders/resources/shaders/transform2d.glslfx",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdShaders/resources/shaders/uvTexture.glslfx",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdSkel/resources/generatedSchema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdSkel/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdSkel/resources/usdSkel/schema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdSkelImaging/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdSkelImaging/resources/shaders/skinning.glslfx",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdUI/resources/generatedSchema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdUI/resources/plugInfo.json",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdUI/resources/usdUI/schema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdVol/resources/generatedSchema.usda",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdVol/resources/plugInfo.json",
-			"Type": "RequiredResource"
+			"Path": "$(EngineDir)/Binaries/Linux/libtbbmalloc.so",
+			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdVol/resources/usdVol/schema.usda",
+			"Path": "$(EngineDir)/Binaries/Linux/libtbbmalloc.so.2",
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdVolImaging/resources/plugInfo.json",
+			"Path": "$(EngineDir)/Binaries/Linux/libtbbmalloc.so.2.13",
 			"Type": "RequiredResource"
 		},
 		{
@@ -6018,6 +5946,82 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Animation/GameplayInsights/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/GameplayInsights/Binaries/Linux/libUnrealEditor-GameplayInsights.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/GameplayInsights/Binaries/Linux/libUnrealEditor-GameplayInsights.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/GameplayInsights/Binaries/Linux/libUnrealEditor-GameplayInsights.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/GameplayInsights/Binaries/Linux/libUnrealEditor-GameplayInsightsEditor.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/GameplayInsights/Binaries/Linux/libUnrealEditor-GameplayInsightsEditor.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/GameplayInsights/Binaries/Linux/libUnrealEditor-GameplayInsightsEditor.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/GameplayInsights/Binaries/Linux/libUnrealEditor-RewindDebugger.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/GameplayInsights/Binaries/Linux/libUnrealEditor-RewindDebugger.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/GameplayInsights/Binaries/Linux/libUnrealEditor-RewindDebugger.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/GameplayInsights/Binaries/Linux/libUnrealEditor-RewindDebuggerRuntime.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/GameplayInsights/Binaries/Linux/libUnrealEditor-RewindDebuggerRuntime.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/GameplayInsights/Binaries/Linux/libUnrealEditor-RewindDebuggerRuntime.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/GameplayInsights/Binaries/Linux/libUnrealEditor-RewindDebuggerVLog.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/GameplayInsights/Binaries/Linux/libUnrealEditor-RewindDebuggerVLog.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/GameplayInsights/Binaries/Linux/libUnrealEditor-RewindDebuggerVLog.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/GameplayInsights/Binaries/Linux/libUnrealEditor-RewindDebuggerVLogRuntime.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/GameplayInsights/Binaries/Linux/libUnrealEditor-RewindDebuggerVLogRuntime.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/GameplayInsights/Binaries/Linux/libUnrealEditor-RewindDebuggerVLogRuntime.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Animation/IKRig/Binaries/Linux/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
@@ -6055,94 +6059,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Animation/IKRig/Binaries/Linux/libUnrealEditor-IKRigEditor.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Linux/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Linux/libUnrealEditor-LiveLink.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Linux/libUnrealEditor-LiveLink.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Linux/libUnrealEditor-LiveLink.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Linux/libUnrealEditor-LiveLinkComponents.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Linux/libUnrealEditor-LiveLinkComponents.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Linux/libUnrealEditor-LiveLinkComponents.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Linux/libUnrealEditor-LiveLinkEditor.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Linux/libUnrealEditor-LiveLinkEditor.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Linux/libUnrealEditor-LiveLinkEditor.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Linux/libUnrealEditor-LiveLinkGraphNode.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Linux/libUnrealEditor-LiveLinkGraphNode.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Linux/libUnrealEditor-LiveLinkGraphNode.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Linux/libUnrealEditor-LiveLinkMovieScene.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Linux/libUnrealEditor-LiveLinkMovieScene.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Linux/libUnrealEditor-LiveLinkMovieScene.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Linux/libUnrealEditor-LiveLinkMultiUser.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Linux/libUnrealEditor-LiveLinkMultiUser.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Linux/libUnrealEditor-LiveLinkMultiUser.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Linux/libUnrealEditor-LiveLinkSequencer.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Linux/libUnrealEditor-LiveLinkSequencer.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Linux/libUnrealEditor-LiveLinkSequencer.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -6195,6 +6111,50 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Animation/RigLogic/Binaries/Linux/libUnrealEditor-RigLogicModule.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/SkeletalMeshModelingTools/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/SkeletalMeshModelingTools/Binaries/Linux/libUnrealEditor-SkeletalMeshModelingTools.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/SkeletalMeshModelingTools/Binaries/Linux/libUnrealEditor-SkeletalMeshModelingTools.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/SkeletalMeshModelingTools/Binaries/Linux/libUnrealEditor-SkeletalMeshModelingTools.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/TweeningUtils/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/TweeningUtils/Binaries/Linux/libUnrealEditor-TweeningUtils.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/TweeningUtils/Binaries/Linux/libUnrealEditor-TweeningUtils.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/TweeningUtils/Binaries/Linux/libUnrealEditor-TweeningUtils.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/TweeningUtils/Binaries/Linux/libUnrealEditor-TweeningUtilsEditor.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/TweeningUtils/Binaries/Linux/libUnrealEditor-TweeningUtilsEditor.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/TweeningUtils/Binaries/Linux/libUnrealEditor-TweeningUtilsEditor.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -6326,6 +6286,34 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/ChaosInsights/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/ChaosInsights/Binaries/Linux/libUnrealEditor-ChaosInsightsAnalysis.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/ChaosInsights/Binaries/Linux/libUnrealEditor-ChaosInsightsAnalysis.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/ChaosInsights/Binaries/Linux/libUnrealEditor-ChaosInsightsAnalysis.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/ChaosInsights/Binaries/Linux/libUnrealEditor-ChaosInsightsUI.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/ChaosInsights/Binaries/Linux/libUnrealEditor-ChaosInsightsUI.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/ChaosInsights/Binaries/Linux/libUnrealEditor-ChaosInsightsUI.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/ChaosVD/Binaries/Linux/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
@@ -6351,6 +6339,18 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/ChaosVD/Binaries/Linux/libUnrealEditor-ChaosVDBlueprint.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/ChaosVD/Binaries/Linux/libUnrealEditor-ChaosVDBuiltInExtensions.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/ChaosVD/Binaries/Linux/libUnrealEditor-ChaosVDBuiltInExtensions.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/ChaosVD/Binaries/Linux/libUnrealEditor-ChaosVDBuiltInExtensions.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -6430,90 +6430,6 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertMain/Binaries/Linux/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertMain/Binaries/Linux/libUnrealEditor-Concert.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertMain/Binaries/Linux/libUnrealEditor-Concert.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertMain/Binaries/Linux/libUnrealEditor-Concert.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertMain/Binaries/Linux/libUnrealEditor-ConcertClient.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertMain/Binaries/Linux/libUnrealEditor-ConcertClient.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertMain/Binaries/Linux/libUnrealEditor-ConcertClient.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertMain/Binaries/Linux/libUnrealEditor-ConcertServer.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertMain/Binaries/Linux/libUnrealEditor-ConcertServer.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertMain/Binaries/Linux/libUnrealEditor-ConcertServer.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertMain/Binaries/Linux/libUnrealEditor-ConcertTransport.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertMain/Binaries/Linux/libUnrealEditor-ConcertTransport.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertMain/Binaries/Linux/libUnrealEditor-ConcertTransport.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Binaries/Linux/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Binaries/Linux/libUnrealEditor-ConcertSyncClient.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Binaries/Linux/libUnrealEditor-ConcertSyncClient.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Binaries/Linux/libUnrealEditor-ConcertSyncClient.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Binaries/Linux/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Binaries/Linux/libUnrealEditor-ConcertSyncCore.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Binaries/Linux/libUnrealEditor-ConcertSyncCore.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Binaries/Linux/libUnrealEditor-ConcertSyncCore.sym",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Developer/DumpGPUServices/Binaries/Linux/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
@@ -6559,6 +6475,34 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Developer/KDevelopSourceCodeAccess/Binaries/Linux/libUnrealEditor-KDevelopSourceCodeAccess.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/NamingTokens/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/NamingTokens/Binaries/Linux/libUnrealEditor-NamingTokens.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/NamingTokens/Binaries/Linux/libUnrealEditor-NamingTokens.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/NamingTokens/Binaries/Linux/libUnrealEditor-NamingTokens.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/NamingTokens/Binaries/Linux/libUnrealEditor-NamingTokensUncookedOnly.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/NamingTokens/Binaries/Linux/libUnrealEditor-NamingTokensUncookedOnly.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/NamingTokens/Binaries/Linux/libUnrealEditor-NamingTokensUncookedOnly.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -6623,6 +6567,34 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Developer/PluginUtils/Binaries/Linux/libUnrealEditor-PluginUtils.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/ProjectLauncher/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/ProjectLauncher/Binaries/Linux/libUnrealEditor-CommonLaunchExtensions.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/ProjectLauncher/Binaries/Linux/libUnrealEditor-CommonLaunchExtensions.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/ProjectLauncher/Binaries/Linux/libUnrealEditor-CommonLaunchExtensions.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/ProjectLauncher/Binaries/Linux/libUnrealEditor-ProjectLauncher.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/ProjectLauncher/Binaries/Linux/libUnrealEditor-ProjectLauncher.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/ProjectLauncher/Binaries/Linux/libUnrealEditor-ProjectLauncher.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -7446,22 +7418,6 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/Animation/SkeletalMeshModelingTools/Binaries/Linux/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/Animation/SkeletalMeshModelingTools/Binaries/Linux/libUnrealEditor-SkeletalMeshModelingTools.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/Animation/SkeletalMeshModelingTools/Binaries/Linux/libUnrealEditor-SkeletalMeshModelingTools.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/Animation/SkeletalMeshModelingTools/Binaries/Linux/libUnrealEditor-SkeletalMeshModelingTools.sym",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Experimental/AutomationUtils/Binaries/Linux/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
@@ -7630,19 +7586,19 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/Compositing/HoldoutComposite/Binaries/Linux/UnrealEditor.modules",
+			"Path": "$(EngineDir)/Plugins/Experimental/Compositing/CompositeCore/Binaries/Linux/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/Compositing/HoldoutComposite/Binaries/Linux/libUnrealEditor-HoldoutComposite.debug",
+			"Path": "$(EngineDir)/Plugins/Experimental/Compositing/CompositeCore/Binaries/Linux/libUnrealEditor-CompositeCore.debug",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/Compositing/HoldoutComposite/Binaries/Linux/libUnrealEditor-HoldoutComposite.so",
+			"Path": "$(EngineDir)/Plugins/Experimental/Compositing/CompositeCore/Binaries/Linux/libUnrealEditor-CompositeCore.so",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/Compositing/HoldoutComposite/Binaries/Linux/libUnrealEditor-HoldoutComposite.sym",
+			"Path": "$(EngineDir)/Plugins/Experimental/Compositing/CompositeCore/Binaries/Linux/libUnrealEditor-CompositeCore.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -7726,6 +7682,130 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsAlerts.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsAlerts.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsAlerts.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsAssetData.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsAssetData.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsAssetData.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsContentBrowser.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsContentBrowser.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsContentBrowser.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsDebugger.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsDebugger.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsDebugger.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsOutliner.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsOutliner.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsOutliner.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsPropertyEditor.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsPropertyEditor.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsPropertyEditor.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsQueryStack.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsQueryStack.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsQueryStack.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsRevisionControl.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsRevisionControl.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsRevisionControl.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsSettings.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsSettings.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsSettings.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsTableViewer.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsTableViewer.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/Binaries/Linux/libUnrealEditor-TedsTableViewer.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/EditorPerformance/Binaries/Linux/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
@@ -7739,6 +7819,18 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/EditorPerformance/Binaries/Linux/libUnrealEditor-EditorPerformance.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorPerformance/Binaries/Linux/libUnrealEditor-StallLogSubsystem.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorPerformance/Binaries/Linux/libUnrealEditor-StallLogSubsystem.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorPerformance/Binaries/Linux/libUnrealEditor-StallLogSubsystem.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -7866,6 +7958,22 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/GeometryDataflow/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/GeometryDataflow/Binaries/Linux/libUnrealEditor-GeometryDataflowNodes.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/GeometryDataflow/Binaries/Linux/libUnrealEditor-GeometryDataflowNodes.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/GeometryDataflow/Binaries/Linux/libUnrealEditor-GeometryDataflowNodes.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/GeometryFlow/Binaries/Linux/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
@@ -7903,6 +8011,22 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/GeometryFlow/Binaries/Linux/libUnrealEditor-GeometryFlowMeshProcessingEditor.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/LevelSequenceNavigatorBridge/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/LevelSequenceNavigatorBridge/Binaries/Linux/libUnrealEditor-LevelSequenceNavigatorBridge.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/LevelSequenceNavigatorBridge/Binaries/Linux/libUnrealEditor-LevelSequenceNavigatorBridge.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/LevelSequenceNavigatorBridge/Binaries/Linux/libUnrealEditor-LevelSequenceNavigatorBridge.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -7986,46 +8110,6 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/MeshModelingToolsetExp/Binaries/Linux/libUnrealEditor-SkeletalMeshModifiers.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/MeshModelingToolsetExp/Binaries/Linux/libUnrealEditor-SkeletalMeshModifiers.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/MeshModelingToolsetExp/Binaries/Linux/libUnrealEditor-SkeletalMeshModifiers.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/MetaHuman/MetaHumanSDK/Binaries/Linux/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/MetaHuman/MetaHumanSDK/Binaries/Linux/libUnrealEditor-MetaHumanSDKEditor.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/MetaHuman/MetaHumanSDK/Binaries/Linux/libUnrealEditor-MetaHumanSDKEditor.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/MetaHuman/MetaHumanSDK/Binaries/Linux/libUnrealEditor-MetaHumanSDKEditor.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/MetaHuman/MetaHumanSDK/Binaries/Linux/libUnrealEditor-MetaHumanSDKRuntime.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/MetaHuman/MetaHumanSDK/Binaries/Linux/libUnrealEditor-MetaHumanSDKRuntime.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/MetaHuman/MetaHumanSDK/Binaries/Linux/libUnrealEditor-MetaHumanSDKRuntime.sym",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Experimental/NFORDenoise/Binaries/Linux/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
@@ -8074,15 +8158,15 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/PlatformCrypto/Binaries/Linux/libUnrealEditor-PlatformCryptoOpenSSL.debug",
+			"Path": "$(EngineDir)/Plugins/Experimental/PlatformCrypto/Binaries/Linux/libUnrealEditor-PlatformCryptoContext.debug",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/PlatformCrypto/Binaries/Linux/libUnrealEditor-PlatformCryptoOpenSSL.so",
+			"Path": "$(EngineDir)/Plugins/Experimental/PlatformCrypto/Binaries/Linux/libUnrealEditor-PlatformCryptoContext.so",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/PlatformCrypto/Binaries/Linux/libUnrealEditor-PlatformCryptoOpenSSL.sym",
+			"Path": "$(EngineDir)/Plugins/Experimental/PlatformCrypto/Binaries/Linux/libUnrealEditor-PlatformCryptoContext.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -8126,6 +8210,38 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/RuntimeTelemetry/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/RuntimeTelemetry/Binaries/Linux/libUnrealEditor-RuntimeTelemetry.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/RuntimeTelemetry/Binaries/Linux/libUnrealEditor-RuntimeTelemetry.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/RuntimeTelemetry/Binaries/Linux/libUnrealEditor-RuntimeTelemetry.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/SequenceNavigator/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/SequenceNavigator/Binaries/Linux/libUnrealEditor-SequenceNavigator.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/SequenceNavigator/Binaries/Linux/libUnrealEditor-SequenceNavigator.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/SequenceNavigator/Binaries/Linux/libUnrealEditor-SequenceNavigator.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/SkeletalReduction/Binaries/Linux/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
@@ -8139,46 +8255,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/SkeletalReduction/Binaries/Linux/libUnrealEditor-SkeletalMeshReduction.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/StudioTelemetry/Binaries/Linux/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/StudioTelemetry/Binaries/Linux/libUnrealEditor-AnalyticsHorde.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/StudioTelemetry/Binaries/Linux/libUnrealEditor-AnalyticsHorde.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/StudioTelemetry/Binaries/Linux/libUnrealEditor-AnalyticsHorde.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/StudioTelemetry/Binaries/Linux/libUnrealEditor-AnalyticsLog.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/StudioTelemetry/Binaries/Linux/libUnrealEditor-AnalyticsLog.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/StudioTelemetry/Binaries/Linux/libUnrealEditor-AnalyticsLog.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/StudioTelemetry/Binaries/Linux/libUnrealEditor-StudioTelemetry.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/StudioTelemetry/Binaries/Linux/libUnrealEditor-StudioTelemetry.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/StudioTelemetry/Binaries/Linux/libUnrealEditor-StudioTelemetry.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -8207,6 +8283,22 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/ToolPresets/Binaries/Linux/libUnrealEditor-ToolPresetEditor.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FX/Cascade/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FX/Cascade/Binaries/Linux/libUnrealEditor-Cascade.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FX/Cascade/Binaries/Linux/libUnrealEditor-Cascade.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/FX/Cascade/Binaries/Linux/libUnrealEditor-Cascade.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -8414,6 +8506,22 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Interchange/Assets/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Interchange/Assets/Binaries/Linux/libUnrealEditor-InterchangeAssets.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Interchange/Assets/Binaries/Linux/libUnrealEditor-InterchangeAssets.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Interchange/Assets/Binaries/Linux/libUnrealEditor-InterchangeAssets.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Interchange/Editor/Binaries/Linux/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
@@ -8587,6 +8695,50 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Interchange/Runtime/Binaries/Linux/libUnrealEditor-InterchangePipelines.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/IoStoreInsights/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/IoStoreInsights/Binaries/Linux/libUnrealEditor-IoStoreInsights.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/IoStoreInsights/Binaries/Linux/libUnrealEditor-IoStoreInsights.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/IoStoreInsights/Binaries/Linux/libUnrealEditor-IoStoreInsights.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MassInsights/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MassInsights/Binaries/Linux/libUnrealEditor-MassInsightsAnalysis.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MassInsights/Binaries/Linux/libUnrealEditor-MassInsightsAnalysis.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MassInsights/Binaries/Linux/libUnrealEditor-MassInsightsAnalysis.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MassInsights/Binaries/Linux/libUnrealEditor-MassInsightsUI.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MassInsights/Binaries/Linux/libUnrealEditor-MassInsightsUI.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MassInsights/Binaries/Linux/libUnrealEditor-MassInsightsUI.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -8919,6 +9071,34 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Messaging/UdpMessaging/Binaries/Linux/libUnrealEditor-UdpMessaging.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MetaHuman/MetaHumanSDK/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MetaHuman/MetaHumanSDK/Binaries/Linux/libUnrealEditor-MetaHumanSDKEditor.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MetaHuman/MetaHumanSDK/Binaries/Linux/libUnrealEditor-MetaHumanSDKEditor.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MetaHuman/MetaHumanSDK/Binaries/Linux/libUnrealEditor-MetaHumanSDKEditor.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MetaHuman/MetaHumanSDK/Binaries/Linux/libUnrealEditor-MetaHumanSDKRuntime.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MetaHuman/MetaHumanSDK/Binaries/Linux/libUnrealEditor-MetaHumanSDKRuntime.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MetaHuman/MetaHumanSDK/Binaries/Linux/libUnrealEditor-MetaHumanSDKRuntime.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -9562,22 +9742,6 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/SQLiteCore/Binaries/Linux/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/SQLiteCore/Binaries/Linux/libUnrealEditor-SQLiteCore.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/SQLiteCore/Binaries/Linux/libUnrealEditor-SQLiteCore.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/SQLiteCore/Binaries/Linux/libUnrealEditor-SQLiteCore.sym",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Linux/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
@@ -9754,6 +9918,18 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/HairStrands/Binaries/Linux/libUnrealEditor-HairStrandsDataflow.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/HairStrands/Binaries/Linux/libUnrealEditor-HairStrandsDataflow.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/HairStrands/Binaries/Linux/libUnrealEditor-HairStrandsDataflow.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Runtime/HairStrands/Binaries/Linux/libUnrealEditor-HairStrandsDeformer.debug",
 			"Type": "SymbolFile"
 		},
@@ -9787,6 +9963,18 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/HairStrands/Binaries/Linux/libUnrealEditor-HairStrandsRuntime.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/HairStrands/Binaries/Linux/libUnrealEditor-HairStrandsSolver.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/HairStrands/Binaries/Linux/libUnrealEditor-HairStrandsSolver.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/HairStrands/Binaries/Linux/libUnrealEditor-HairStrandsSolver.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -9923,6 +10111,18 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/MeshModelingToolset/Binaries/Linux/libUnrealEditor-ModelingOperatorsEditorOnly.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/MeshModelingToolset/Binaries/Linux/libUnrealEditor-SkeletalMeshModifiers.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/MeshModelingToolset/Binaries/Linux/libUnrealEditor-SkeletalMeshModifiers.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/MeshModelingToolset/Binaries/Linux/libUnrealEditor-SkeletalMeshModifiers.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -10087,6 +10287,46 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/PropertyAccess/Binaries/Linux/libUnrealEditor-PropertyAccessEditor.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/PropertyBindingUtils/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/PropertyBindingUtils/Binaries/Linux/libUnrealEditor-PropertyBindingUtils.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/PropertyBindingUtils/Binaries/Linux/libUnrealEditor-PropertyBindingUtils.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/PropertyBindingUtils/Binaries/Linux/libUnrealEditor-PropertyBindingUtils.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/PropertyBindingUtils/Binaries/Linux/libUnrealEditor-PropertyBindingUtilsEditor.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/PropertyBindingUtils/Binaries/Linux/libUnrealEditor-PropertyBindingUtilsEditor.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/PropertyBindingUtils/Binaries/Linux/libUnrealEditor-PropertyBindingUtilsEditor.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/PropertyBindingUtils/Binaries/Linux/libUnrealEditor-PropertyBindingUtilsTestSuite.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/PropertyBindingUtils/Binaries/Linux/libUnrealEditor-PropertyBindingUtilsTestSuite.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/PropertyBindingUtils/Binaries/Linux/libUnrealEditor-PropertyBindingUtilsTestSuite.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -10258,46 +10498,6 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Binaries/Linux/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Binaries/Linux/libUnrealEditor-USDClasses.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Binaries/Linux/libUnrealEditor-USDClasses.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Binaries/Linux/libUnrealEditor-USDClasses.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Binaries/Linux/libUnrealEditor-USDUtilities.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Binaries/Linux/libUnrealEditor-USDUtilities.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Binaries/Linux/libUnrealEditor-USDUtilities.sym",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Binaries/Linux/libUnrealEditor-UnrealUSDWrapper.debug",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Binaries/Linux/libUnrealEditor-UnrealUSDWrapper.so",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Binaries/Linux/libUnrealEditor-UnrealUSDWrapper.sym",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Runtime/WaveTable/Binaries/Linux/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
@@ -10398,6 +10598,50 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/UbaController/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/UbaController/Binaries/Linux/libUnrealEditor-UbaController.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/UbaController/Binaries/Linux/libUnrealEditor-UbaController.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/UbaController/Binaries/Linux/libUnrealEditor-UbaController.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/CameraCalibrationCore/Binaries/Linux/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/CameraCalibrationCore/Binaries/Linux/libUnrealEditor-CameraCalibrationCore.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/CameraCalibrationCore/Binaries/Linux/libUnrealEditor-CameraCalibrationCore.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/CameraCalibrationCore/Binaries/Linux/libUnrealEditor-CameraCalibrationCore.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/CameraCalibrationCore/Binaries/Linux/libUnrealEditor-CameraCalibrationCoreEditor.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/CameraCalibrationCore/Binaries/Linux/libUnrealEditor-CameraCalibrationCoreEditor.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/CameraCalibrationCore/Binaries/Linux/libUnrealEditor-CameraCalibrationCoreEditor.sym",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Binaries/Linux/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
@@ -10435,6 +10679,18 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Binaries/Linux/libUnrealEditor-TakeRecorder.sym",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Binaries/Linux/libUnrealEditor-TakeRecorderNamingTokens.debug",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Binaries/Linux/libUnrealEditor-TakeRecorderNamingTokens.so",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Binaries/Linux/libUnrealEditor-TakeRecorderNamingTokens.sym",
 			"Type": "SymbolFile"
 		},
 		{
@@ -10540,6 +10796,10 @@
 			"Type": "NonUFS"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Linux/UnrealBuildAccelerator/libUbaHost.so",
+			"Type": "NonUFS"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Linux/libEOSSDK-Linux-Shipping.so",
 			"Type": "NonUFS"
 		},
@@ -10548,11 +10808,11 @@
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libOpenColorIO.so",
+			"Path": "$(EngineDir)/Binaries/Linux/libastcenc_thunk_linux64_4.2.0.so",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libOpenColorIO.so.2.3",
+			"Path": "$(EngineDir)/Binaries/Linux/libastcenc_thunk_linux64_5.0.1.so",
 			"Type": "NonUFS"
 		},
 		{
@@ -10560,7 +10820,7 @@
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libboost_atomic-mt-x64.so.1.82.0",
+			"Path": "$(EngineDir)/Binaries/Linux/libboost_atomic-mt-x64.so.1.85.0",
 			"Type": "NonUFS"
 		},
 		{
@@ -10568,7 +10828,7 @@
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libboost_chrono-mt-x64.so.1.82.0",
+			"Path": "$(EngineDir)/Binaries/Linux/libboost_chrono-mt-x64.so.1.85.0",
 			"Type": "NonUFS"
 		},
 		{
@@ -10576,7 +10836,7 @@
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libboost_filesystem-mt-x64.so.1.82.0",
+			"Path": "$(EngineDir)/Binaries/Linux/libboost_filesystem-mt-x64.so.1.85.0",
 			"Type": "NonUFS"
 		},
 		{
@@ -10584,7 +10844,7 @@
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libboost_iostreams-mt-x64.so.1.82.0",
+			"Path": "$(EngineDir)/Binaries/Linux/libboost_iostreams-mt-x64.so.1.85.0",
 			"Type": "NonUFS"
 		},
 		{
@@ -10592,7 +10852,7 @@
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libboost_program_options-mt-x64.so.1.82.0",
+			"Path": "$(EngineDir)/Binaries/Linux/libboost_program_options-mt-x64.so.1.85.0",
 			"Type": "NonUFS"
 		},
 		{
@@ -10600,7 +10860,7 @@
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libboost_python311-mt-x64.so.1.82.0",
+			"Path": "$(EngineDir)/Binaries/Linux/libboost_python311-mt-x64.so.1.85.0",
 			"Type": "NonUFS"
 		},
 		{
@@ -10608,7 +10868,7 @@
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libboost_regex-mt-x64.so.1.82.0",
+			"Path": "$(EngineDir)/Binaries/Linux/libboost_regex-mt-x64.so.1.85.0",
 			"Type": "NonUFS"
 		},
 		{
@@ -10616,7 +10876,7 @@
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libboost_system-mt-x64.so.1.82.0",
+			"Path": "$(EngineDir)/Binaries/Linux/libboost_system-mt-x64.so.1.85.0",
 			"Type": "NonUFS"
 		},
 		{
@@ -10624,7 +10884,19 @@
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Linux/libboost_thread-mt-x64.so.1.82.0",
+			"Path": "$(EngineDir)/Binaries/Linux/libboost_thread-mt-x64.so.1.85.0",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libembree4.so",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libembree4.so.4",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/libembree4.so.4.3.3",
 			"Type": "NonUFS"
 		},
 		{
@@ -10637,6 +10909,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Linux/liboo2texlinux64.2.9.12.so",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Linux/liboo2texlinux64.2.9.13.so",
 			"Type": "NonUFS"
 		},
 		{
@@ -10660,263 +10936,295 @@
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/chrome_100_percent.pak",
+			"Path": "$(EngineDir)/Binaries/Linux/libtbb.so",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/chrome_200_percent.pak",
+			"Path": "$(EngineDir)/Binaries/Linux/libtbb.so.12",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/icudtl.dat",
+			"Path": "$(EngineDir)/Binaries/Linux/libtbb.so.12.13",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/am.pak",
+			"Path": "$(EngineDir)/Binaries/Linux/libtbbmalloc.so",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/ar.pak",
+			"Path": "$(EngineDir)/Binaries/Linux/libtbbmalloc.so.2",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/bg.pak",
+			"Path": "$(EngineDir)/Binaries/Linux/libtbbmalloc.so.2.13",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/bn.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/af.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/ca.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/am.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/cs.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/ar.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/da.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/bg.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/de.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/bn.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/el.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/ca.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/en-GB.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/cs.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/en-US.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/da.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/es-419.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/de.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/es.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/el.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/et.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/en-GB.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/fa.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/en-US.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/fi.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/es-419.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/fil.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/es.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/fr.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/et.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/gu.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/fa.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/he.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/fi.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/hi.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/fil.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/hr.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/fr.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/hu.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/gu.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/id.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/he.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/it.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/hi.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/ja.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/hr.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/kn.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/hu.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/ko.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/id.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/lt.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/it.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/lv.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/ja.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/ml.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/kn.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/mr.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/ko.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/ms.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/lt.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/nb.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/lv.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/nl.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/ml.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/pl.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/mr.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/pt-BR.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/ms.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/pt-PT.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/nb.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/ro.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/nl.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/ru.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/pl.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/sk.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/pt-BR.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/sl.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/pt-PT.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/sr.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/ro.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/sv.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/ru.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/sw.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/sk.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/ta.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/sl.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/te.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/sr.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/th.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/sv.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/tr.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/sw.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/uk.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/ta.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/vi.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/te.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/zh-CN.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/th.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/locales/zh-TW.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/tr.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/Resources/resources.pak",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/uk.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/icudtl.dat",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/ur.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/libEGL.so",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/vi.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/libGLESv2.so",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/zh-CN.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/libcef.so",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/Resources/locales/zh-TW.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/snapshot_blob.bin",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/chrome-sandbox",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/swiftshader/libEGL.so",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/chrome_100_percent.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/swiftshader/libGLESv2.so",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/chrome_200_percent.pak",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/v8_context_snapshot.bin",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/icudtl.dat",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/libEGL.so",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/libGLESv2.so",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/libcef.so",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/libvk_swiftshader.so",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/resources.pak",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/snapshot_blob.bin",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/v8_context_snapshot.bin",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/CEF3/Linux/128.4.13+ge76af7e+chromium-128.0.6613.138/vk_swiftshader_icd.json",
 			"Type": "NonUFS"
 		},
 		{
@@ -10928,23 +11236,1147 @@
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/Intel/Embree/Embree3122/Linux/x86_64-unknown-linux-gnu/lib/libembree3.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/Intel/Embree/Embree3122/Linux/x86_64-unknown-linux-gnu/lib/libembree3.so.3",
-			"Type": "NonUFS"
-		},
-		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/Intel/ISPCTexComp/Linux64-Release/libispc_texcomp.so",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/Intel/TBB/Linux/libtbb.so",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/README.md",
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/Intel/TBB/Linux/libtbb.so.2",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/bxdf/disney_brdf_2012.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/bxdf/disney_brdf_2015.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/bxdf/gltf_pbr.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/bxdf/lama/lama_add.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/bxdf/lama/lama_conductor.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/bxdf/lama/lama_dielectric.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/bxdf/lama/lama_diffuse.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/bxdf/lama/lama_emission.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/bxdf/lama/lama_layer.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/bxdf/lama/lama_mix.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/bxdf/lama/lama_sheen.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/bxdf/lama/lama_sss.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/bxdf/lama/lama_translucent.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/bxdf/open_pbr_surface.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/bxdf/standard_surface.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/bxdf/translation/standard_surface_to_gltf_pbr.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/bxdf/translation/standard_surface_to_usd.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/bxdf/usd_preview_surface.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/cmlib/cmlib_defs.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/cmlib/cmlib_ng.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/lights/genglsl/lights_genglsl_impl.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/lights/genglsl/mx_directional_light.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/lights/genglsl/mx_point_light.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/lights/genglsl/mx_spot_light.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/lights/genmsl/lights_genmsl_impl.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/lights/genmsl/mx_directional_light.metal",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/lights/genmsl/mx_point_light.metal",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/lights/genmsl/mx_spot_light.metal",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/lights/lights_defs.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/mdl/materialx/core.mdl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/mdl/materialx/hsv.mdl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/mdl/materialx/noise.mdl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/mdl/materialx/pbrlib.mdl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/mdl/materialx/pbrlib_1_6.mdl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/mdl/materialx/pbrlib_1_7.mdl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/mdl/materialx/pbrlib_1_8.mdl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/mdl/materialx/sampling.mdl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/mdl/materialx/stdlib.mdl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/mdl/materialx/stdlib_1_6.mdl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/mdl/materialx/stdlib_1_7.mdl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/mdl/materialx/stdlib_1_8.mdl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/mdl/materialx/swizzle.mdl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/nprlib/genglsl/nprlib_genglsl_impl.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/nprlib/genmdl/nprlib_genmdl_impl.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/nprlib/genmsl/nprlib_genmsl_impl.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/nprlib/genosl/nprlib_genosl_impl.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/nprlib/nprlib_defs.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/nprlib/nprlib_ng.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/lib/mx_environment_fis.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/lib/mx_environment_none.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/lib/mx_environment_prefilter.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/lib/mx_generate_albedo_table.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/lib/mx_generate_prefilter_env.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/lib/mx_microfacet.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/lib/mx_microfacet_diffuse.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/lib/mx_microfacet_sheen.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/lib/mx_microfacet_specular.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/lib/mx_shadow.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/lib/mx_transmission_opacity.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/lib/mx_transmission_refract.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/mx_add_edf.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/mx_anisotropic_vdf.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/mx_artistic_ior.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/mx_blackbody.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/mx_burley_diffuse_bsdf.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/mx_conductor_bsdf.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/mx_dielectric_bsdf.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/mx_displacement_float.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/mx_displacement_vector3.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/mx_generalized_schlick_bsdf.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/mx_generalized_schlick_edf.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/mx_oren_nayar_diffuse_bsdf.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/mx_roughness_anisotropy.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/mx_roughness_dual.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/mx_sheen_bsdf.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/mx_subsurface_bsdf.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/mx_translucent_bsdf.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/mx_uniform_edf.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genglsl/pbrlib_genglsl_impl.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genmdl/pbrlib_genmdl_impl.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genmsl/pbrlib_genmsl_impl.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/legacy/mx_anisotropic_vdf.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/legacy/mx_burley_diffuse_bsdf.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/legacy/mx_conductor_bsdf.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/legacy/mx_dielectric_bsdf.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/legacy/mx_generalized_schlick_bsdf.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/legacy/mx_oren_nayar_diffuse_bsdf.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/legacy/mx_sheen_bsdf.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/legacy/mx_subsurface_bsdf.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/legacy/mx_surface.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/legacy/mx_translucent_bsdf.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/lib/mx_microfacet.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/lib/mx_microfacet_sheen.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/lib/mx_microfacet_specular.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/mx_anisotropic_vdf.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/mx_artistic_ior.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/mx_blackbody.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/mx_dielectric_bsdf.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/mx_displacement_float.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/mx_displacement_vector3.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/mx_generalized_schlick_bsdf.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/mx_generalized_schlick_edf.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/mx_roughness_anisotropy.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/mx_roughness_dual.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/mx_subsurface_bsdf.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/mx_surface.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/genosl/pbrlib_genosl_impl.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/pbrlib_defs.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/pbrlib/pbrlib_ng.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/lib/mx_hsv.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/lib/mx_math.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/lib/mx_noise.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/lib/mx_sampling.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/lib/mx_transform_uv.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/lib/mx_transform_uv_vflip.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_aastep.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_burn_color3.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_burn_color4.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_burn_float.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_cellnoise2d_float.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_cellnoise3d_float.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_creatematrix_vector3_matrix33.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_creatematrix_vector3_matrix44.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_creatematrix_vector4_matrix44.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_disjointover_color4.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_dodge_color3.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_dodge_color4.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_dodge_float.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_fractal3d_float.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_fractal3d_vector2.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_fractal3d_vector3.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_fractal3d_vector4.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_hsvtorgb_color3.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_hsvtorgb_color4.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_image_color3.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_image_color4.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_image_float.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_image_vector2.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_image_vector3.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_image_vector4.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_luminance_color3.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_luminance_color4.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_mix_surfaceshader.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_noise2d_float.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_noise2d_vector2.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_noise2d_vector3.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_noise2d_vector4.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_noise3d_float.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_noise3d_vector2.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_noise3d_vector3.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_noise3d_vector4.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_normalmap.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_premult_color4.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_ramplr_float.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_ramplr_vector2.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_ramplr_vector3.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_ramplr_vector4.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_ramptb_float.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_ramptb_vector2.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_ramptb_vector3.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_ramptb_vector4.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_rgbtohsv_color3.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_rgbtohsv_color4.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_rotate_vector2.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_rotate_vector3.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_smoothstep_float.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_smoothstep_vector2.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_smoothstep_vector3.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_smoothstep_vector4.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_splitlr_float.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_splitlr_vector2.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_splitlr_vector3.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_splitlr_vector4.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_splittb_float.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_splittb_vector2.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_splittb_vector3.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_splittb_vector4.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_transformmatrix_vector2M3.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_transformmatrix_vector3M4.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_unpremult_color4.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_worleynoise2d_float.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_worleynoise2d_vector2.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_worleynoise2d_vector3.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_worleynoise3d_float.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_worleynoise3d_vector2.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/mx_worleynoise3d_vector3.glsl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genglsl/stdlib_genglsl_impl.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genmdl/stdlib_genmdl_impl.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genmsl/lib/mx_math.metal",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genmsl/lib/mx_matscalaroperators.metal",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genmsl/lib/mx_sampling.metal",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genmsl/lib/mx_texture.metal",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genmsl/mx_burn_color3.metal",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genmsl/mx_burn_color4.metal",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genmsl/mx_burn_float.metal",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genmsl/mx_dodge_color3.metal",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genmsl/mx_dodge_color4.metal",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genmsl/mx_dodge_float.metal",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genmsl/mx_normalmap.metal",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genmsl/mx_smoothstep_float.metal",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genmsl/mx_smoothstep_vector2.metal",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genmsl/mx_smoothstep_vector3.metal",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genmsl/mx_smoothstep_vector4.metal",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genmsl/stdlib_genmsl_impl.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/include/color4.h",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/include/matrix33.h",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/include/mx_funcs.h",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/include/vector2.h",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/include/vector4.h",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/lib/mx_sampling.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/lib/mx_transform_uv.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/lib/mx_transform_uv_vflip.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_ambientocclusion_float.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_burn_color3.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_burn_color4.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_burn_float.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_cellnoise2d_float.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_cellnoise3d_float.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_creatematrix.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_disjointover_color4.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_dodge_color3.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_dodge_color4.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_dodge_float.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_fractal3d_float.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_fractal3d_vector2.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_fractal3d_vector3.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_fractal3d_vector4.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_frame_float.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_geomcolor_color3.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_geomcolor_color4.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_geomcolor_float.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_geompropvalue_boolean.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_geompropvalue_color3.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_geompropvalue_color4.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_geompropvalue_float.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_geompropvalue_integer.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_geompropvalue_string.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_geompropvalue_vector2.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_geompropvalue_vector3.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_geompropvalue_vector4.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_heighttonormal_vector3.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_hsvtorgb_color3.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_hsvtorgb_color4.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_image_color3.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_image_color4.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_image_float.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_image_vector2.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_image_vector3.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_image_vector4.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_luminance_color3.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_luminance_color4.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_mix_surfaceshader.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_noise2d_float.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_noise2d_vector2.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_noise2d_vector3.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_noise2d_vector4.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_noise3d_float.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_noise3d_vector2.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_noise3d_vector3.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_noise3d_vector4.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_normalmap.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_premult_color4.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_rgbtohsv_color3.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_rgbtohsv_color4.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_rotate_vector2.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_rotate_vector3.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_surface_unlit.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_time_float.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_transformmatrix_vector2M3.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_unpremult_color4.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_worleynoise2d_float.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_worleynoise2d_vector2.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_worleynoise2d_vector3.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_worleynoise3d_float.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_worleynoise3d_vector2.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/mx_worleynoise3d_vector3.osl",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/genosl/stdlib_genosl_impl.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/stdlib_defs.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/stdlib/stdlib_ng.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/targets/essl.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/targets/genglsl.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/targets/genmdl.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/targets/genmsl.mtlx",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/MaterialX/libraries/targets/genosl.mtlx",
 			"Type": "NonUFS"
 		},
 		{
@@ -23916,307 +25348,7 @@
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/ar/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/hd/resources/codegenTemplates/schemaClass.cpp",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/hd/resources/codegenTemplates/schemaClass.h",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/hd/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/hdGp/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/hio/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/ndr/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/sdf/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/sdrGlslfx/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/unreal/resources/generatedSchema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/unreal/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/unreal/resources/unreal/schema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usd/resources/codegenTemplates/api.h",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usd/resources/codegenTemplates/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usd/resources/codegenTemplates/schemaClass.cpp",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usd/resources/codegenTemplates/schemaClass.h",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usd/resources/codegenTemplates/tokens.cpp",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usd/resources/codegenTemplates/tokens.h",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usd/resources/codegenTemplates/wrapSchemaClass.cpp",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usd/resources/codegenTemplates/wrapTokens.cpp",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usd/resources/generatedSchema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usd/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usd/resources/usd/schema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdAbc/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdGeom/resources/generatedSchema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdGeom/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdGeom/resources/usdGeom/schema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdHydra/resources/generatedSchema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdHydra/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdHydra/resources/shaders/empty.glslfx",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdHydra/resources/shaders/shaderDefs.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdHydra/resources/usdHydra/schema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdImaging/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdLux/resources/generatedSchema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdLux/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdLux/resources/usdLux/schema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdMedia/resources/generatedSchema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdMedia/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdMedia/resources/usdMedia/schema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdMtlx/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdPhysics/resources/generatedSchema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdPhysics/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdPhysics/resources/usdPhysics/schema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdProc/resources/generatedSchema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdProc/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdProc/resources/usdProc/schema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdProcImaging/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdRender/resources/generatedSchema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdRender/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdRender/resources/usdRender/schema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdRi/resources/generatedSchema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdRi/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdRi/resources/usdRi/schema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdRiPxrImaging/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdShade/resources/generatedSchema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdShade/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdShade/resources/usdShade/schema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdShaders/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdShaders/resources/shaders/previewSurface.glslfx",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdShaders/resources/shaders/primvarReader.glslfx",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdShaders/resources/shaders/shaderDefs.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdShaders/resources/shaders/transform2d.glslfx",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdShaders/resources/shaders/uvTexture.glslfx",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdSkel/resources/generatedSchema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdSkel/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdSkel/resources/usdSkel/schema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdSkelImaging/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdSkelImaging/resources/shaders/skinning.glslfx",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdUI/resources/generatedSchema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdUI/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdUI/resources/usdUI/schema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdVol/resources/generatedSchema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdVol/resources/plugInfo.json",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdVol/resources/usdVol/schema.usda",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/USD/UsdResources/Linux/plugins/usdVolImaging/resources/plugInfo.json",
+			"Path": "$(EngineDir)/Binaries/ThirdParty/Vulkan/Linux/libvulkan.so",
 			"Type": "NonUFS"
 		},
 		{
@@ -24424,7 +25556,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ColorSpectrum_20x.png",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/ColorWheel.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ColorWheel_20x.png",
 			"Type": "UFS"
 		},
 		{
@@ -24885,6 +26025,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Common/X.PNG",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/menu.svg",
 			"Type": "UFS"
 		},
 		{
@@ -25912,6 +27056,18 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/ColorThemesOff_20.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/ColorThemes_16.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/ColorThemes_20.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/Console.svg",
 			"Type": "UFS"
 		},
@@ -25948,11 +27104,23 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/EditToolbar.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/EyeDropper.svg",
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/EyeDropper_20.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/Favorite.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/FavoriteOutline.svg",
 			"Type": "UFS"
 		},
 		{
@@ -26056,6 +27224,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/SelectAll_16.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/SessionFrontend.svg",
 			"Type": "UFS"
 		},
@@ -26068,7 +27240,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/TagSimple_16.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/Test.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/TokenTextBox_16.svg",
 			"Type": "UFS"
 		},
 		{
@@ -26109,6 +27289,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/Visualizer.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/add-circle.svg",
 			"Type": "UFS"
 		},
 		{
@@ -26180,6 +27364,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/check-circle-solid.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/check-circle.svg",
 			"Type": "UFS"
 		},
@@ -26241,6 +27429,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/color-grading-selector.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/color-grading-spinbox-selector-v.png",
 			"Type": "UFS"
 		},
 		{
@@ -26340,6 +27532,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/help-solid.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/help.svg",
 			"Type": "UFS"
 		},
@@ -26353,6 +27549,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/import_20.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/info-circle-solid.svg",
 			"Type": "UFS"
 		},
 		{
@@ -26400,11 +27600,19 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/preview-default.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/pyriamid.svg",
 			"Type": "UFS"
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Common/refresh.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Common/reimport.svg",
 			"Type": "UFS"
 		},
 		{
@@ -26548,6 +27756,14 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/CoreWidgets/Window/enter_fullscreen.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/CoreWidgets/Window/exit_fullscreen.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/CoreWidgets/Window/maximize.svg",
 			"Type": "UFS"
 		},
@@ -26597,6 +27813,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Insights/AutoScrollRight_20.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Insights/BudgetSettings.svg",
 			"Type": "UFS"
 		},
 		{
@@ -26696,6 +27916,30 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Insights/MemTagSet_AssetClasses.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Insights/MemTagSet_Assets.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Insights/MemTagSet_Systems.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Insights/MemTag_Asset_12.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Insights/MemTag_Class_12.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Insights/MemTag_System_12.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Insights/MemTags.svg",
 			"Type": "UFS"
 		},
@@ -26740,6 +27984,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Insights/RoundedBullet.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Insights/Session.svg",
 			"Type": "UFS"
 		},
@@ -26777,6 +28025,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Insights/Tasks_20.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Insights/TimeMarkerSettings.svg",
 			"Type": "UFS"
 		},
 		{
@@ -26833,6 +28085,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/Insights/TraceTools/TraceStop.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Insights/UObject.svg",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/Insights/UObject_12.svg",
 			"Type": "UFS"
 		},
 		{
@@ -27056,6 +28316,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/SCC_Shelved.svg",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Starship/SourceControl/SourceControl.svg",
 			"Type": "UFS"
 		},
@@ -27196,15 +28460,23 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Animation/GameplayInsights/GameplayInsights.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Animation/IKRig/IKRig.uplugin",
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/LiveLink.uplugin",
+			"Path": "$(EngineDir)/Plugins/Animation/RigLogic/RigLogic.uplugin",
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Animation/RigLogic/RigLogic.uplugin",
+			"Path": "$(EngineDir)/Plugins/Animation/SkeletalMeshModelingTools/SkeletalMeshModelingTools.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/TweeningUtils/TweeningUtils.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -27228,6 +28500,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/ChaosInsights/ChaosInsights.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/ChaosVD/ChaosVD.uplugin",
 			"Type": "UFS"
 		},
@@ -27248,18 +28524,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertMain/ConcertMain.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/ConcertSyncClient.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/ConcertSyncCore.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Developer/DumpGPUServices/DumpGPUServices.uplugin",
 			"Type": "UFS"
 		},
@@ -27269,6 +28533,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/NamingTokens/NamingTokens.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -27285,6 +28553,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Developer/PluginUtils/PluginUtils.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/ProjectLauncher/ProjectLauncher.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -27464,10 +28736,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/Animation/SkeletalMeshModelingTools/SkeletalMeshModelingTools.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Experimental/AutomationUtils/AutomationUtils.uplugin",
 			"Type": "UFS"
 		},
@@ -27504,7 +28772,7 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/Compositing/HoldoutComposite/HoldoutComposite.uplugin",
+			"Path": "$(EngineDir)/Plugins/Experimental/Compositing/CompositeCore/CompositeCore.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -27513,6 +28781,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorage/EditorDataStorage.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/EditorDataStorageFeatures/EditorDataStorageFeatures.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -27536,7 +28808,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/GeometryDataflow/GeometryDataflow.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/GeometryFlow/GeometryFlow.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/LevelSequenceNavigatorBridge/LevelSequenceNavigatorBridge.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -27545,10 +28825,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/MeshModelingToolsetExp/MeshModelingToolsetExp.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/MetaHuman/MetaHumanSDK/MetaHumanSDK.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -27568,15 +28844,23 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/RuntimeTelemetry/RuntimeTelemetry.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/SequenceNavigator/SequenceNavigator.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/SkeletalReduction/SkeletalReduction.uplugin",
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/StudioTelemetry/StudioTelemetry.uplugin",
+			"Path": "$(EngineDir)/Plugins/Experimental/ToolPresets/ToolPresets.uplugin",
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Experimental/ToolPresets/ToolPresets.uplugin",
+			"Path": "$(EngineDir)/Plugins/FX/Cascade/Cascade.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -27613,6 +28897,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Interchange/Runtime/Interchange.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/IoStoreInsights/IoStoreInsights.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MassInsights/MassInsights.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -27660,6 +28952,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/MetaHuman/MetaHumanSDK/MetaHumanSDK.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/MovieScene/ActorSequence/ActorSequence.uplugin",
 			"Type": "UFS"
 		},
@@ -27684,7 +28980,7 @@
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/NNE/NNERuntimeORT/Binaries/ThirdParty/Onnxruntime/Linux/libonnxruntime.so.1.17.1",
+			"Path": "$(EngineDir)/Plugins/NNE/NNERuntimeORT/Binaries/ThirdParty/Onnxruntime/Linux/libonnxruntime.so.1.20",
 			"Type": "NonUFS"
 		},
 		{
@@ -27788,10 +29084,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/SQLiteCore/SQLiteCore.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin",
 			"Type": "UFS"
 		},
@@ -27848,6 +29140,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/PropertyBindingUtils/PropertyBindingUtils.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Runtime/ResonanceAudio/ResonanceAudio.uplugin",
 			"Type": "UFS"
 		},
@@ -27872,206 +29168,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_ar.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_arch.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_cameraUtil.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_geomUtil.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_gf.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_hd.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_hdGp.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_hdMtlx.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_hdar.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_hdsi.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_hf.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_hgi.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_hio.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_js.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_kind.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_ndr.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_pcp.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_plug.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_pxOsd.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_sdf.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_sdr.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_tf.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_trace.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_ts.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_usd.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_usdGeom.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_usdHydra.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_usdImaging.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_usdLux.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_usdMedia.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_usdMtlx.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_usdPhysics.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_usdProc.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_usdProcImaging.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_usdRender.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_usdRi.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_usdRiPxrImaging.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_usdShade.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_usdSkel.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_usdSkelImaging.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_usdUI.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_usdUtils.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_usdVol.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_usdVolImaging.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_vt.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/libusd_work.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/sdrGlslfx.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/usdAbc.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/Source/ThirdParty/Linux/bin/x86_64-unknown-linux-gnu/usdShaders.so",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/USDCore/USDCore.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Runtime/WaveTable/WaveTable.uplugin",
 			"Type": "UFS"
 		},
@@ -28085,6 +29181,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/TraceUtilities/TraceUtilities.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/UbaController/UbaController.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/CameraCalibrationCore/CameraCalibrationCore.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -28129,11 +29233,14 @@
 		"Bridge",
 		"CLionSourceCodeAccess",
 		"CableComponent",
+		"CameraCalibrationCore",
 		"CameraShakePreviewer",
+		"Cascade",
 		"ChangelistReview",
 		"ChaosCaching",
 		"ChaosCloth",
 		"ChaosEditor",
+		"ChaosInsights",
 		"ChaosNiagara",
 		"ChaosSolverPlugin",
 		"ChaosUserDataPT",
@@ -28143,10 +29250,8 @@
 		"CmdLinkServer",
 		"CodeLiteSourceCodeAccess",
 		"ColorGrading",
+		"CompositeCore",
 		"ComputeFramework",
-		"ConcertMain",
-		"ConcertSyncClient",
-		"ConcertSyncCore",
 		"ContentBrowserAssetDataSource",
 		"ContentBrowserClassDataSource",
 		"ContentBrowserFileDataSource",
@@ -28163,6 +29268,7 @@
 		"DumpGPUServices",
 		"EOSShared",
 		"EditorDataStorage",
+		"EditorDataStorageFeatures",
 		"EditorDebugTools",
 		"EditorPerformance",
 		"EditorScriptingUtilities",
@@ -28179,9 +29285,11 @@
 		"FullBodyIK",
 		"GLTFExporter",
 		"GameplayCameras",
+		"GameplayInsights",
 		"GameplayTagsEditor",
 		"GeometryCache",
 		"GeometryCollectionPlugin",
+		"GeometryDataflow",
 		"GeometryFlow",
 		"GeometryMode",
 		"GeometryProcessing",
@@ -28189,7 +29297,6 @@
 		"GoogleCloudMessaging",
 		"GooglePAD",
 		"HairStrands",
-		"HoldoutComposite",
 		"IKRig",
 		"IOSDeviceProfileSelector",
 		"ImgMedia",
@@ -28198,15 +29305,17 @@
 		"InterchangeAssets",
 		"InterchangeEditor",
 		"InterchangeTests",
+		"IoStoreInsights",
 		"KDevelopSourceCodeAccess",
 		"LauncherChunkInstaller",
 		"LevelSequenceEditor",
+		"LevelSequenceNavigatorBridge",
 		"LightMixer",
 		"LinuxDeviceProfileSelector",
-		"LiveLink",
 		"LocalizableMessage",
 		"LocationServicesBPLibrary",
 		"MacGraphicsSwitching",
+		"MassInsights",
 		"MaterialAnalyzer",
 		"MediaCompositing",
 		"MediaPlate",
@@ -28225,6 +29334,7 @@
 		"NFORDenoise",
 		"NNEDenoiser",
 		"NNERuntimeORT",
+		"NamingTokens",
 		"Niagara",
 		"NiagaraSimCaching",
 		"NullSourceCodeAccess",
@@ -28247,8 +29357,10 @@
 		"PluginUtils",
 		"PortableObjectFileDataSource",
 		"ProceduralMeshComponent",
+		"ProjectLauncher",
 		"PropertyAccessEditor",
 		"PropertyAccessNode",
+		"PropertyBindingUtils",
 		"ProxyLODPlugin",
 		"PythonScriptPlugin",
 		"RenderDocPlugin",
@@ -28257,7 +29369,8 @@
 		"RiderSourceCodeAccess",
 		"RigLogic",
 		"RigVM",
-		"SQLiteCore",
+		"RuntimeTelemetry",
+		"SequenceNavigator",
 		"SequencerAnimTools",
 		"SequencerScripting",
 		"SignificanceManager",
@@ -28266,7 +29379,6 @@
 		"SoundFields",
 		"SpeedTreeImporter",
 		"StateTree",
-		"StudioTelemetry",
 		"StylusInput",
 		"SubversionSourceControl",
 		"Synthesis",
@@ -28276,9 +29388,9 @@
 		"TextureFormatOodle",
 		"ToolPresets",
 		"TraceUtilities",
+		"TweeningUtils",
 		"UMGWidgetPreview",
 		"UObjectPlugin",
-		"USDCore",
 		"UVEditor",
 		"UbaController",
 		"UdpMessaging",

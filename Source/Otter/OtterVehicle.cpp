@@ -2,11 +2,11 @@
 
 
 #include "OtterVehicle.h"
-
 #include "OtterPlayerController.h"
 #include "OtterOverlapComponent.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "InputActionValue.h"
+#include "Math/TransformNonVectorized.h"
 
 
 AOtterVehicle::AOtterVehicle()
@@ -21,28 +21,35 @@ AOtterVehicle::AOtterVehicle()
 void AOtterVehicle::Move(const FInputActionValue& Value)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Vehicle Move Value: %s"), *Value.ToString());
+	
 	// TODO Apply movement to either rcs components or vectored thruster
-	// Component is rotated around a "pin-vector"
-	GetDefaultPrimComp()->AddRelativeRotation(FQuat { GetActorRightVector(), Value.Get<FVector>().Y });	// Pitch
-	GetDefaultPrimComp()->AddRelativeRotation(FQuat { GetActorForwardVector(), Value.Get<FVector>().X });	// Roll
-	GetDefaultPrimComp()->AddRelativeRotation(FQuat { GetActorUpVector(), Value.Get<FVector>().Z });	// Yaw
+	
+	// Scale rotation vector
+	auto GlobalSpaceRotationVector = Value.Get<FVector>() * RotationScale;
+
+	// This transforms our rotation vector from global to local space
+	auto LocalSpaceRotationVector = TransformVector(GetActorTransform(), GlobalSpaceRotationVector);
+
+	// Add angular impulse using local space rotation vector
+	GetDefaultPrimComp()->AddAngularImpulseInDegrees(LocalSpaceRotationVector);
 }
 
 void AOtterVehicle::Thrust(const FInputActionValue& Value)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Vehicle Thrust Value: %s"), *Value.ToString());
+	UE_LOG(LogTemp, Warning, TEXT("Vehicle Thrust Value: %s"), *(Value * MovementScale).ToString());
+	
 	// TODO create logic so vehicle can only reverse thrust if has opposing thrusters
-	GetDefaultPrimComp()->AddImpulse(GetActorForwardVector() * Value.Get<float>());
+	GetDefaultPrimComp()->AddImpulse(Value.Get<FVector>() * MovementScale * GetActorForwardVector());
 }
 
-void AOtterVehicle::OnInteract(TObjectPtr<AActor> Actor)
+void AOtterVehicle::OnInteract(TObjectPtr<AOtterDefaultPawn> Pawn)
 {
-	// TODO: Setup vehicle camera 
-	
-	// TODO: Currently does not work
-	// This pawn "transports" Actor
-	// auto AttachSuccess { Actor->AttachToActor(this, FAttachmentTransformRules { EAttachmentRule::SnapToTarget, false }) }; check(AttachSuccess == true);
+	// TODO: This pawn "transports" Actor
+	// TODO: Starting voyager pawn still moves after possession
 
-	// TODO: Replace with reference to single player controller set in game mode
-	GetWorld()->GetFirstPlayerController()->Possess(this);
+	// Don't need to unpossess as that is handled for us
+	Pawn->GetController()->Possess(this);
+
+	// This works
+	// GetWorld()->GetFirstPlayerController()->Possess(this);
 }

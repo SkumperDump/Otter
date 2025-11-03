@@ -29,6 +29,8 @@ class OTTER_API AOtterDefaultPawn : public APawn
 	UPROPERTY(VisibleAnywhere)
 	TArray<TObjectPtr<AActor>> Inventory;
 
+	virtual void PostInitializeComponents() override;
+
 public:
 	AOtterDefaultPawn();
 
@@ -56,12 +58,16 @@ public:
 	UPROPERTY(EditAnywhere)
 	float MovementScale { 10.0f };
 
+	// Rotation sens
+	UPROPERTY(EditAnywhere)
+	float RotationScale { 10.0f };
+
 	// Look sens
 	UPROPERTY(EditAnywhere)
 	float LookSensitivity { 10.0f };
 	
 	// Default do nothing
-	virtual void OnInteract(TObjectPtr<AActor> Actor) {};
+	virtual void OnInteract(TObjectPtr<AOtterDefaultPawn> Pawn) {};
 
 	// All subobjects can have one but not all need one
 	UPROPERTY(EditAnywhere)

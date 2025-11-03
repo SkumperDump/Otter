@@ -41,6 +41,13 @@ AOtterDefaultPawn::AOtterDefaultPawn()
 	PawnCamera->SetupAttachment(CameraBoom);
 }
 
+void AOtterDefaultPawn::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
+	GetDefaultPrimComp()->SetSimulatePhysics(true);
+	GetDefaultPrimComp()->SetEnableGravity(false);
+}
+
 void AOtterDefaultPawn::Interact(const FInputActionValue& Value)
 {
 	// if Actor then add to inventory
@@ -51,7 +58,7 @@ void AOtterDefaultPawn::Interact(const FInputActionValue& Value)
 		// if OtterDefaultPawn then call OnInteract for it
 		if (auto DefaultPawn = Cast<AOtterDefaultPawn>(Actor))
 		{
-			DefaultPawn->OnInteract(this);
+			DefaultPawn->OnInteract(DefaultPawn);
 		}
 	}
 }

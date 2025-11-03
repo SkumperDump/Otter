@@ -15,6 +15,7 @@ AOtterSolarSystem::AOtterSolarSystem()
 
 	PlanetCount = 5;
 
+	// Sun is center of solar system
 	Sun = CreateDefaultSubobject<UStaticMeshComponent>(FName{"Sun"});
 	SetRootComponent(Sun);
 }

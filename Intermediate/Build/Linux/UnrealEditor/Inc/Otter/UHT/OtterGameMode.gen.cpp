@@ -6,24 +6,50 @@
 
 #include "UObject/GeneratedCppIncludes.h"
 #include "Otter/OtterGameMode.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodeOtterGameMode() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 OTTER_API UClass* Z_Construct_UClass_AOtterGameMode();
 OTTER_API UClass* Z_Construct_UClass_AOtterGameMode_NoRegister();
 UPackage* Z_Construct_UPackage__Script_Otter();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin Class AOtterGameMode
+// ********** Begin Class AOtterGameMode ***********************************************************
 void AOtterGameMode::StaticRegisterNativesAOtterGameMode()
 {
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(AOtterGameMode);
+FClassRegistrationInfo Z_Registration_Info_UClass_AOtterGameMode;
+UClass* AOtterGameMode::GetPrivateStaticClass()
+{
+	using TClass = AOtterGameMode;
+	if (!Z_Registration_Info_UClass_AOtterGameMode.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("OtterGameMode"),
+			Z_Registration_Info_UClass_AOtterGameMode.InnerSingleton,
+			StaticRegisterNativesAOtterGameMode,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_AOtterGameMode.InnerSingleton;
+}
 UClass* Z_Construct_UClass_AOtterGameMode_NoRegister()
 {
-	return AOtterGameMode::StaticClass();
+	return AOtterGameMode::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_AOtterGameMode_Statics
 {
@@ -58,7 +84,7 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AOtterGameMode_Statics:
 	0,
 	0,
 	0,
-	0x008802ACu,
+	0x008803ACu,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AOtterGameMode_Statics::Class_MetaDataParams), Z_Construct_UClass_AOtterGameMode_Statics::Class_MetaDataParams)
 };
 UClass* Z_Construct_UClass_AOtterGameMode()
@@ -69,24 +95,21 @@ UClass* Z_Construct_UClass_AOtterGameMode()
 	}
 	return Z_Registration_Info_UClass_AOtterGameMode.OuterSingleton;
 }
-template<> OTTER_API UClass* StaticClass<AOtterGameMode>()
-{
-	return AOtterGameMode::StaticClass();
-}
 DEFINE_VTABLE_PTR_HELPER_CTOR(AOtterGameMode);
 AOtterGameMode::~AOtterGameMode() {}
-// End Class AOtterGameMode
+// ********** End Class AOtterGameMode *************************************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h__Script_Otter_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AOtterGameMode, AOtterGameMode::StaticClass, TEXT("AOtterGameMode"), &Z_Registration_Info_UClass_AOtterGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AOtterGameMode), 2548579182U) },
+		{ Z_Construct_UClass_AOtterGameMode, AOtterGameMode::StaticClass, TEXT("AOtterGameMode"), &Z_Registration_Info_UClass_AOtterGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AOtterGameMode), 2720520308U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_3733337635(TEXT("/Script/Otter"),
-	Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h__Script_Otter_1157059730(TEXT("/Script/Otter"),
+	Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h__Script_Otter_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Documents_Unreal_Projects_Otter_Source_Otter_OtterGameMode_h__Script_Otter_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

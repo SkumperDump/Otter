@@ -13,12 +13,3 @@ AOtterItem::AOtterItem()
 	ItemMesh = CreateDefaultSubobject<UStaticMeshComponent>(FName { "Item Mesh" });
 	ItemMesh->SetupAttachment(GetRootComponent());
 }
-
-void AOtterItem::OnInteract(TObjectPtr<AActor> Actor)
-{
-	ItemMesh->AttachToComponent(Actor->GetRootComponent(), FAttachmentTransformRules { EAttachmentRule::SnapToTarget, false });
-	// TODO
-	// Call any item specific functionality
-}
-
-

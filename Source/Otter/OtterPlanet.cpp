@@ -23,10 +23,3 @@ AOtterPlanet::AOtterPlanet()
 	//TODO
 	// Scale OtterPlanets
 }
-
-void AOtterPlanet::PostInitializeComponents()
-{
-	Super::PostInitializeComponents();
-	GetDefaultPrimComp()->SetSimulatePhysics(true);
-	GetDefaultPrimComp()->SetEnableGravity(false);
-}
