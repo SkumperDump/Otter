@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/Otter.Build.cs",
-		"/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter.Target.cs",
-		"/Users/philipwallace/Documents/Unreal Projects/Otter/Source/OtterEditor.Target.cs"
-	],
-	"EngineVersion": "5.6.1"
-}
