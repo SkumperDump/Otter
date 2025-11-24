@@ -74,7 +74,6 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 
 # Additional folders to ignore
-Content/
 .git/
 .vscode/
 .cache/
