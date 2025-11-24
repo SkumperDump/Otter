@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"/Users/philipwallace/Documents/Unreal Projects/Otter/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset",
+				"/Users/philipwallace/Documents/Unreal Projects/Otter/Content/Blueprints/MyOtterVehicle.uasset",
+				"/Users/philipwallace/Documents/Unreal Projects/Otter/Content/Maps/DefaultMap.umap",
 				"/home/skump/Documents/Unreal Projects/Otter/Content/StarterContent/Architecture/Wall_Door_400x400.uasset",
 				"/home/skump/Documents/Unreal Projects/Otter/Content/Blueprints/BP_Planets.uasset",
 				"/home/skump/Documents/Unreal Projects/Otter/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/SX/NHPJ7UY9UQ5IR9PR8Q78UT.uasset",

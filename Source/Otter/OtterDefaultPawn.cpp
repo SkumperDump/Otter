@@ -8,6 +8,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Components/ArrowComponent.h"
 #include "Camera/CameraComponent.h"
+#include "InputActionValue.h"
 
 
 // Sets default values
@@ -50,6 +51,8 @@ void AOtterDefaultPawn::PostInitializeComponents()
 
 void AOtterDefaultPawn::Interact(const FInputActionValue& Value)
 {
+	UE_LOG(LogTemp, Warning, TEXT("Voyager Interact Value: %s"), *Value.ToString());
+
 	// if Actor then add to inventory
 	if (auto Actor { GetOverlapComponent()->GetOverlappingActor() })
 	{

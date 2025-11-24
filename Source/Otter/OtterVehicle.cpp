@@ -23,6 +23,7 @@ void AOtterVehicle::Move(const FInputActionValue& Value)
 	UE_LOG(LogTemp, Warning, TEXT("Vehicle Move Value: %s"), *Value.ToString());
 	
 	// TODO Apply movement to either rcs components or vectored thruster
+	// Is being weird and rotates faster when ship is already moving
 	
 	// Scale rotation vector
 	auto GlobalSpaceRotationVector = Value.Get<FVector>() * RotationScale;
@@ -47,9 +48,7 @@ void AOtterVehicle::OnInteract(TObjectPtr<AOtterDefaultPawn> Pawn)
 	// TODO: This pawn "transports" Actor
 	// TODO: Starting voyager pawn still moves after possession
 
-	// Don't need to unpossess as that is handled for us
-	Pawn->GetController()->Possess(this);
-
 	// This works
-	// GetWorld()->GetFirstPlayerController()->Possess(this);
+	// Still controlling Voyager however
+	GetWorld()->GetFirstPlayerController()->Possess(this);
 }

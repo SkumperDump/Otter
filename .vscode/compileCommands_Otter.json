@@ -1,202 +1,202 @@
 [
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/Otter.Build.cs",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/Otter.Build.cs",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/Otter.cpp",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/Otter.cpp",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/Otter.h",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/Otter.h",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterDefaultPawn.cpp",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/OtterDefaultPawn.cpp",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterDefaultPawn.h",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/OtterDefaultPawn.h",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterGameMode.cpp",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/OtterGameMode.cpp",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterGameMode.h",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/OtterGameMode.h",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterInteractInterface.cpp",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/OtterInteractInterface.cpp",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterInteractInterface.h",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/OtterInteractInterface.h",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterItem.cpp",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/OtterItem.cpp",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterItem.h",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/OtterItem.h",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterMovementComponent.cpp",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/OtterMovementComponent.cpp",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterMovementComponent.h",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/OtterMovementComponent.h",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterOverlapComponent.cpp",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/OtterOverlapComponent.cpp",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterOverlapComponent.h",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/OtterOverlapComponent.h",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterPlayer.cpp",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/OtterPlanet.cpp",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterPlayer.h",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/OtterPlanet.h",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterPlayerController.cpp",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/OtterPlayerController.cpp",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterPlayerController.h",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/OtterPlayerController.h",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterVehicle.cpp",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/OtterSolarSystem.cpp",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/OtterVehicle.h",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/OtterSolarSystem.h",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/Planet.cpp",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/OtterVehicle.cpp",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/Planet.h",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/OtterVehicle.h",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/SolarSystem.cpp",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/OtterVoyager.cpp",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	},
 	{
-		"file": "/home/skump/Documents/Unreal Projects/Otter/Source/Otter/SolarSystem.h",
+		"file": "/Users/philipwallace/Documents/Unreal Projects/Otter/Source/Otter/OtterVoyager.h",
 		"arguments": [
-			"/home/skump/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
-			"@/home/skump/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.262.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/philipwallace/Documents/Unreal Projects/Otter/.vscode/compileCommands_Otter/Otter.1.rsp"
 		],
-		"directory": "/home/skump/UnrealEngine/Engine/Source"
+		"directory": "/Users/philipwallace/UnrealEngine/Engine/Source"
 	}
 ]
