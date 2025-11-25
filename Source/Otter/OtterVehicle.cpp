@@ -48,7 +48,6 @@ void AOtterVehicle::OnInteract(TObjectPtr<AOtterDefaultPawn> Pawn)
 	// TODO: This pawn "transports" Actor
 	// TODO: Starting voyager pawn still moves after possession
 
-	// This works
-	// Still controlling Voyager however
 	GetWorld()->GetFirstPlayerController()->Possess(this);
+	Pawn->Destroy();
 }

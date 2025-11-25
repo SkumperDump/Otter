@@ -61,7 +61,7 @@ void AOtterDefaultPawn::Interact(const FInputActionValue& Value)
 		// if OtterDefaultPawn then call OnInteract for it
 		if (auto DefaultPawn = Cast<AOtterDefaultPawn>(Actor))
 		{
-			DefaultPawn->OnInteract(DefaultPawn);
+			DefaultPawn->OnInteract(this);
 		}
 	}
 }
