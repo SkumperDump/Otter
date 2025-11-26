@@ -24,7 +24,7 @@ void AOtterVehicle::Look(const FInputActionValue &Value)
 	GetCameraBoom()->AddWorldRotation(FQuat{GetCameraBoom()->GetRightVector(), Value.Get<FVector>().Y * LookSensitivity});
 
 	// Look side to side
-	GetCameraBoom()->AddWorldRotation(FQuat{GetCameraBoom()->GetUpVector(), Value.Get<FVector>().X * LookSensitivity});
+	GetCameraBoom()->AddWorldRotation(FQuat{GetDefaultPrimComp()->GetUpVector(), Value.Get<FVector>().X * LookSensitivity});
 }
 
 void AOtterVehicle::Rotate(const FInputActionValue &Value)
@@ -38,7 +38,7 @@ void AOtterVehicle::Rotate(const FInputActionValue &Value)
 	auto GlobalSpaceRotationVector = Value.Get<FVector>() * RotationScale;
 
 	// This transforms our rotation vector from global to local space
-	auto LocalSpaceRotationVector = GetActorTransform().InverseTransformVector(GlobalSpaceRotationVector);
+	auto LocalSpaceRotationVector = GetActorTransform().TransformVector(GlobalSpaceRotationVector);
 
 	// Add angular impulse using local space rotation vector
 	GetDefaultPrimComp()->AddAngularImpulseInDegrees(LocalSpaceRotationVector, NAME_None, true);
