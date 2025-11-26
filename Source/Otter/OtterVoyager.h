@@ -7,6 +7,7 @@
 #include "OtterVoyager.generated.h"
 
 struct FInputActionValue;
+class UInputAction;
 
 UCLASS()
 class OTTER_API AOtterVoyager : public AOtterDefaultPawn
@@ -17,8 +18,12 @@ class OTTER_API AOtterVoyager : public AOtterDefaultPawn
 	bool bUseFirstPersonCamera;
 
 public:
+	virtual void SetupPlayerInputComponent(UInputComponent *PlayerInputComponent) override;
 
-	virtual void Move(const FInputActionValue& Value) override;
-	virtual void Look(const FInputActionValue& Value) override;
-	virtual void SwapCamera(const FInputActionValue& Value) override;
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<UInputAction> MoveAction;
+
+	virtual void Move(const FInputActionValue &Value);
+	virtual void Look(const FInputActionValue &Value) override;
+	virtual void SwapCamera(const FInputActionValue &Value) override;
 };

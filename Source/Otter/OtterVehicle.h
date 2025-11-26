@@ -9,6 +9,7 @@
 
 class UParticleSystemComponent;
 struct FInputActionValue;
+class UInputAction;
 
 UCLASS()
 class OTTER_API AOtterVehicle : public AOtterDefaultPawn
@@ -17,13 +18,21 @@ class OTTER_API AOtterVehicle : public AOtterDefaultPawn
 
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UParticleSystemComponent> VehicleExhaust;
-	
-	virtual void OnInteract(TObjectPtr<AOtterDefaultPawn> Pawn) override;
 
-public:	
-
+public:
 	AOtterVehicle();
 
-	virtual void Move(const FInputActionValue& Value) override;
-	virtual void Thrust(const FInputActionValue& Value) override;
+	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
+
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<UInputAction> ThrustAction;
+
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<UInputAction> RotateAction;
+
+	virtual void Rotate(const FInputActionValue &Value);
+	virtual void Thrust(const FInputActionValue &Value);
+	virtual void Look(const FInputActionValue &Value) override;
+
+	virtual void OnInteract(TObjectPtr<AOtterDefaultPawn> Pawn) override;
 };

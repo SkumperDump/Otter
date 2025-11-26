@@ -14,6 +14,7 @@ class UCameraComponent;
 class UStaticMeshComponent;
 class USpringArmComponent;
 struct FInputActionValue;
+class UInputAction;
 
 UCLASS()
 class OTTER_API AOtterDefaultPawn : public APawn
@@ -73,25 +74,29 @@ public:
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UInputMappingContext> MappingContext { nullptr };
 
+	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
+
+	// Input Actions
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<UInputAction> LookAction;
+
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<UInputAction> SwapCameraAction;
+
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<UInputAction> InteractAction;
+
 	// FUNCTIONS BOUND TO INPUT ACTIONS
-	UFUNCTION()
-	virtual void Move(const FInputActionValue& Value) {};
-
-	UFUNCTION()
 	virtual void Look(const FInputActionValue& Value) {};
-
-	UFUNCTION()
 	virtual void SwapCamera(const FInputActionValue& Value) {};
-
-	UFUNCTION()
 	virtual void Interact(const FInputActionValue& Value);
-
-	UFUNCTION()
-	virtual void Thrust(const FInputActionValue& Value) {};
 
 	// Getters
 	const auto GetOverlapComponent() { return OverlapComponent; };
+
 	const auto GetDefaultPrimComp() { return DefaultPrimComp; };
+
+	const auto GetCameraBoom() { return CameraBoom; };
 
 	// Setters
 	void SetDefaultPrimComp(TObjectPtr<UPrimitiveComponent> Subclass) { DefaultPrimComp = Subclass; };

@@ -9,6 +9,7 @@
 #include "Components/ArrowComponent.h"
 #include "Camera/CameraComponent.h"
 #include "InputActionValue.h"
+#include "EnhancedInputComponent.h"
 
 
 // Sets default values
@@ -51,7 +52,7 @@ void AOtterDefaultPawn::PostInitializeComponents()
 
 void AOtterDefaultPawn::Interact(const FInputActionValue& Value)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Voyager Interact Value: %s"), *Value.ToString());
+	UE_LOG(LogTemp, Warning, TEXT("Interact Value: %s"), *Value.ToString());
 
 	// if Actor then add to inventory
 	if (auto Actor { GetOverlapComponent()->GetOverlappingActor() })
@@ -63,5 +64,23 @@ void AOtterDefaultPawn::Interact(const FInputActionValue& Value)
 		{
 			DefaultPawn->OnInteract(this);
 		}
+	}
+}
+
+void AOtterDefaultPawn::SetupPlayerInputComponent(UInputComponent *PlayerInputComponent)
+{
+	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
+	if (auto EnhancedInputComponent{Cast<UEnhancedInputComponent>(InputComponent)})
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Possessing a %s"), *this->GetClass()->GetName());
+
+		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Triggered, this, &AOtterDefaultPawn::Interact);
+		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AOtterDefaultPawn::Look);
+		EnhancedInputComponent->BindAction(SwapCameraAction, ETriggerEvent::Triggered, this, &AOtterDefaultPawn::Look);
+	}
+	else
+	{
+		UE_LOG(LogTemp, Error, TEXT("No Enhanced Input Component"));
 	}
 }

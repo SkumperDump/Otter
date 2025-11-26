@@ -6,27 +6,10 @@
 #include "GameFramework/PlayerController.h"
 #include "OtterPlayerController.generated.h"
 
-class UInputAction;
-
 UCLASS()
 class OTTER_API AOtterPlayerController : public APlayerController
 {
 	GENERATED_BODY()
-	
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<UInputAction> MoveAction;
 
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<UInputAction> ThrustAction;
-
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<UInputAction> LookAction;
-
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<UInputAction> SwapCameraAction;
-
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<UInputAction> InteractAction;
-
-	virtual void OnPossess(APawn* PawnToPossess) override;
+	virtual void OnPossess(APawn *PawnToPossess) override;
 };
