@@ -6,98 +6,91 @@
 #include "GameFramework/Pawn.h"
 #include "OtterDefaultPawn.generated.h"
 
-class UOtterOverlapComponent;
-class UOtterMovementComponent;
 class UArrowComponent;
-class UInputMappingContext;
 class UCameraComponent;
-class UStaticMeshComponent;
-class USpringArmComponent;
-struct FInputActionValue;
 class UInputAction;
+class UInputComponent;
+class UInputMappingContext;
+class UOtterMovementComponent;
+class UOtterOverlapComponent;
+class USpringArmComponent;
+class UStaticMeshComponent;
+struct FInputActionValue;
 
 UCLASS()
 class OTTER_API AOtterDefaultPawn : public APawn
 {
 	GENERATED_BODY()
-	
-	// Mainly used as root basis for movement
-	TObjectPtr<UPrimitiveComponent> DefaultPrimComp { nullptr };
-
-	// Must include for movement as APawn has no move component
-	TObjectPtr<UOtterMovementComponent> MovementComponent;
 
 	UPROPERTY(VisibleAnywhere)
 	TArray<TObjectPtr<AActor>> Inventory;
-
-	virtual void PostInitializeComponents() override;
-
-public:
-	AOtterDefaultPawn();
-
-	// Mesh
+	
+	// OtterDefaultPawn editable components
 	UPROPERTY(EditAnywhere)
-	TObjectPtr<UStaticMeshComponent> PawnMesh;
-
-	// Camera
+	TObjectPtr<UCameraComponent> Camera;
 	UPROPERTY(EditAnywhere)
-	TObjectPtr<UCameraComponent> PawnCamera;
-
-	// Camera boom
+	TObjectPtr<UOtterOverlapComponent> OtterOverlapComponent;
 	UPROPERTY(EditAnywhere)
-	TObjectPtr<USpringArmComponent> CameraBoom;
+	TObjectPtr<USpringArmComponent> SpringArm;
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<UStaticMeshComponent> StaticMesh;
 
-	// Indicates forward direction
+	// OtterDefaultPawn viewable components
 	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<UArrowComponent> ArrowComponent;
+	UPROPERTY(VisibleAnywhere)
+	TObjectPtr<UOtterMovementComponent> OtterMovementComponent; // Must include for movement as APawn has no move component
+	UPROPERTY(VisibleAnywhere)
+	TObjectPtr<UPrimitiveComponent> DefaultPrimitiveComponent { nullptr }; // Mainly used as root basis for movement
 
-	// Detect overlaps
+	// Sensetivities
 	UPROPERTY(EditAnywhere)
-	TObjectPtr<UOtterOverlapComponent> OverlapComponent;
-
-	// Move sens
+	float LookSensitivity { 10.0f };
 	UPROPERTY(EditAnywhere)
 	float MovementScale { 10.0f };
-
-	// Rotation sens
 	UPROPERTY(EditAnywhere)
 	float RotationScale { 10.0f };
 
-	// Look sens
-	UPROPERTY(EditAnywhere)
-	float LookSensitivity { 10.0f };
-	
-	// Default do nothing
-	virtual void OnInteract(TObjectPtr<AOtterDefaultPawn> Pawn) {};
-
 	// All subobjects can have one but not all need one
 	UPROPERTY(EditAnywhere)
-	TObjectPtr<UInputMappingContext> MappingContext { nullptr };
-
-	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
+	TObjectPtr<UInputMappingContext> InputMappingContext { nullptr };
 
 	// Input Actions
 	UPROPERTY(EditAnywhere)
+	TObjectPtr<UInputAction> InteractAction;
+	UPROPERTY(EditAnywhere)
 	TObjectPtr<UInputAction> LookAction;
-
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UInputAction> SwapCameraAction;
 
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<UInputAction> InteractAction;
-
-	// FUNCTIONS BOUND TO INPUT ACTIONS
+	// Functions bound to input actions
+	virtual void Interact(const FInputActionValue& Value);
 	virtual void Look(const FInputActionValue& Value) {};
 	virtual void SwapCamera(const FInputActionValue& Value) {};
-	virtual void Interact(const FInputActionValue& Value);
+
+	// Additional functions
+	virtual void OnInteract(TObjectPtr<AOtterDefaultPawn> Pawn) {}; // Default do nothing
+
+	// Engine overrides
+	virtual void PostInitializeComponents() override;
+
+protected:
+
+	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
+
+public:
+
+	AOtterDefaultPawn();
 
 	// Getters
-	const auto GetOverlapComponent() { return OverlapComponent; };
-
-	const auto GetDefaultPrimComp() { return DefaultPrimComp; };
-
-	const auto GetCameraBoom() { return CameraBoom; };
+	const auto GetSpringArm() { return SpringArm; };
+	const auto GetDefaultPrimitiveComponent() { return DefaultPrimitiveComponent; };
+	const auto GetOverlapComponent() { return OtterOverlapComponent; };
+	const auto GetLookSensitivity() { return LookSensitivity; };
+	const auto GetMovementScale() { return MovementScale; };
+	const auto GetRotationScale() { return RotationScale; };
+	const auto GetInputMappingContext() { return InputMappingContext; };
 
 	// Setters
-	void SetDefaultPrimComp(TObjectPtr<UPrimitiveComponent> Subclass) { DefaultPrimComp = Subclass; };
+	void SetDefaultPrimitiveComponent(TObjectPtr<UPrimitiveComponent> Subclass) { DefaultPrimitiveComponent = Subclass; };
 };

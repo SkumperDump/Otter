@@ -18,7 +18,7 @@ AOtterPlanet::AOtterPlanet()
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> MeshAsset(TEXT("/Script/Engine.StaticMesh'/Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere'"));	check(MeshAsset.Succeeded())
 	OtterPlanetMesh->SetStaticMesh(MeshAsset.Object);
 	SetRootComponent(OtterPlanetMesh);
-	SetDefaultPrimComp(OtterPlanetMesh);
+	SetDefaultPrimitiveComponent(OtterPlanetMesh);
 
 	//TODO
 	// Scale OtterPlanets

@@ -12,5 +12,5 @@
 void AOtterPlayerController::OnPossess(APawn *PawnToPossess)
 {
 	Super::OnPossess(PawnToPossess);
-	GetLocalPlayer()->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>()->AddMappingContext(Cast<AOtterDefaultPawn>(PawnToPossess)->MappingContext, 0);
+	GetLocalPlayer()->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>()->AddMappingContext(Cast<AOtterDefaultPawn>(PawnToPossess)->GetInputMappingContext(), 0);
 }

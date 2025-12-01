@@ -17,13 +17,15 @@ class OTTER_API AOtterVoyager : public AOtterDefaultPawn
 	// Bool for switching camera
 	bool bUseFirstPersonCamera;
 
-public:
-	virtual void SetupPlayerInputComponent(UInputComponent *PlayerInputComponent) override;
-
+	// Input Actions
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UInputAction> MoveAction;
 
-	virtual void Move(const FInputActionValue &Value);
+	// Functions bound to input actions
 	virtual void Look(const FInputActionValue &Value) override;
+	virtual void Move(const FInputActionValue &Value);
 	virtual void SwapCamera(const FInputActionValue &Value) override;
+
+	// Engine overrides
+	virtual void SetupPlayerInputComponent(UInputComponent *PlayerInputComponent) override;
 };

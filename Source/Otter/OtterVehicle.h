@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "OtterDefaultPawn.h"
-#include "OtterInteractInterface.h"
 #include "OtterVehicle.generated.h"
 
 class UParticleSystemComponent;
@@ -16,23 +15,27 @@ class OTTER_API AOtterVehicle : public AOtterDefaultPawn
 {
 	GENERATED_BODY()
 
+	// OtterVehicle editable components
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UParticleSystemComponent> VehicleExhaust;
 
-public:
-	AOtterVehicle();
-
-	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
-
+	// Input Actions
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<UInputAction> RotateAction;
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UInputAction> ThrustAction;
 
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<UInputAction> RotateAction;
-
+	// Functions bound to input actions
+	virtual void Look(const FInputActionValue &Value) override;
 	virtual void Rotate(const FInputActionValue &Value);
 	virtual void Thrust(const FInputActionValue &Value);
-	virtual void Look(const FInputActionValue &Value) override;
 
+	// Additional functions
 	virtual void OnInteract(TObjectPtr<AOtterDefaultPawn> Pawn) override;
+
+	// Engine overrides
+	virtual void SetupPlayerInputComponent(UInputComponent *PlayerInputComponent) override;
+
+public:
+	AOtterVehicle();
 };
