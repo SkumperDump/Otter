@@ -1,4 +1,4 @@
-# Visual Studio 2015 user specific files
+# Visual Studio user specific files
 .vs/
 
 # Compiled Object files
@@ -77,3 +77,7 @@ DerivedDataCache/*
 .git/
 .vscode/
 .cache/
+compile_commands.json
+.DS_Store
+Makefile
+*.code-workspace
