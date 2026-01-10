@@ -19,11 +19,4 @@ UCLASS()
 class OTTER_API AOtterItem : public AOtterDefaultPawn
 {
 	GENERATED_BODY()
-
-	UPROPERTY(EditAnywhere)
-	TObjectPtr<UStaticMeshComponent> ItemMesh;
-
-public:
-
-	AOtterItem();
 };

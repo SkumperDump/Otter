@@ -77,9 +77,9 @@ void AOtterVehicle::OnInteract(TObjectPtr<AOtterDefaultPawn> Pawn)
 
 	check(Pawn);
 
-	if (auto Controller = Cast<AOtterPlayerController>(Pawn->GetController()))
+	if (auto OtterController = Cast<AOtterPlayerController>(Pawn->GetController()))
 	{
-		Controller->Possess(this);
+		OtterController->Possess(this);
 	}
 	else
 	{

@@ -6,7 +6,7 @@
 #include <cstdlib>
 #include <ctime>
 
-#define RANDNUM std::rand()/100000
+#define RANDNUM std::rand()/100000.0f
 
 AOtterSolarSystem::AOtterSolarSystem()
 {
