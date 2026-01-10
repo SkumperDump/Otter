@@ -4,6 +4,7 @@
 
 # Visual Studio
 .vs/
+.vsconfig
 *.sln
 *.suo
 *.opensdf
